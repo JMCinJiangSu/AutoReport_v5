@@ -1,0 +1,2006 @@
+{
+    "sample_info": {
+        "order_id": "18170721",
+        "sample_parent_id": "S22020332",
+        "sample_id": "S22020332FD01",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": "S22020332",
+        "gender": "女",
+        "age": "72",
+        "sample_type": "石蜡玻片",
+        "control_sample_type": null,
+        "sample_amount": "25片",
+        "control_sample_amount": null,
+        "tumor_type": "甲状腺癌",
+        "pathol_diagn": "甲状腺癌",
+        "tumor_names_cn": "甲状腺癌",
+        "pathological_id": "35",
+        "company": "西安交通大学医学院第一附属医院-汇总",
+        "origin_company": null,
+        "report_number": "S22020332FD01",
+        "hosp_depart": "检验科",
+        "prod_names": "TC21（组织）",
+        "prod_ids": "13",
+        "report_module_type": "clinical",
+        "json_batch_name": "20221124_SHXW_M023823_ADXPAN116_v0.4.0.export20221130162847",
+        "mark": null,
+        "tumor_content": null,
+        "sample_position": null,
+        "sample_position_id": null,
+        "family_history": null,
+        "molecular_number": null,
+        "blood_collection_date": null,
+        "gather_data": null,
+        "receive_data": null,
+        "tissue_date_received": null,
+        "blood_date_received": "2023-11-03",
+        "report_data": "2022-12-05",
+        "tumor_list": [
+            "甲状腺癌",
+            "未分化甲状腺癌",
+            "甲状腺Hürthle细胞癌",
+            "甲状腺玻璃样变性梁状腺瘤",
+            "甲状腺髓样癌",
+            "甲状腺嗜酸细胞腺瘤",
+            "低分化甲状腺癌",
+            "高分化甲状腺癌",
+            "分化型甲状腺癌"
+        ]
+    },
+    "snvindel": [],
+    "sv": [],
+    "cnv": [
+        {
+            "sample_id": "S22020332FD01",
+            "order_code": "caa0ddea708a11ed824f0242c0a84006",
+            "bio_category": "Cnv",
+            "gene_symbol": "RET",
+            "var_id": "hg19:RET::Gain",
+            "region_exon": null,
+            "cnv_exons": null,
+            "cnv_type": "amplification",
+            "cn_mean": 2.87,
+            "cnv_noise": "",
+            "chr": "chr10",
+            "start": "43606632",
+            "end": "43620430",
+            "location": "q11.21",
+            "amp_ratio": null,
+            "z_score": null,
+            "region": null,
+            "json_batch_name": "20221124_SHXW_M023823_ADXPAN116_v0.4.0.export20221130162847",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Uncertain",
+            "clinical_category": "Tier III",
+            "literature": "25303898",
+            "polymorphism": "",
+            "variant_interpret_cn": "My Cancer Genome数据库记录，约0.12%的患者存在RET基因扩增，其中以乳腺浸润性导管癌、前列腺癌、肺腺癌及浸润性乳腺癌最为常见。有研究表明（PMID: 25303898），RET基因扩增可能与肿瘤发展有关，RET基因扩增的患者表现多种腺癌亚型，如腺泡、乳头状、鳞状等。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "RET",
+                    "cnv_type": "amplification"
+                }
+            },
+            "gene_function": "RET基因属于原癌基因，是一种受体酪氨酸激酶，可以激活MAPK和PI3K/AKT途径并调节细胞生长和分化（PMID: 24561444; PMID: 29134959）。在癌症中，RET基因可以通过点突变或与多种易位基因重排而被激活，从而构成活性的癌蛋白(PMID: 24561444)。RET基因的遗传突变导致MEN2A综合征（如甲状腺髓样癌、嗜铬细胞瘤、甲状旁腺功能亢进)、MEN2B(如甲状腺髓样癌、嗜铬细胞瘤、多发性肠粘膜神经瘤、星形胶质细胞瘤和Marfan综合征)和家族性甲状腺髓样癌(FMTC) (PMID: 15322516)；RET基因的体细胞突变包括点突变和RET基因座的基因组重排，导致逆转或易位；目前，已经在各种癌症中被确定，包括乳头状甲状腺癌、肺腺癌和慢性粒细胞白血病(CMML)。此外，野生型RET的异常表达或激活与胰腺癌的肿瘤侵袭和转移以及乳腺癌的内分泌治疗耐药相关(PMID: 24561444)。"
+        },
+        {
+            "sample_id": "S22020332FD01",
+            "order_code": "caa0ddea708a11ed824f0242c0a84006",
+            "bio_category": "Cnv",
+            "gene_symbol": "NTRK3",
+            "var_id": "hg19:NTRK3::Gain",
+            "region_exon": null,
+            "cnv_exons": null,
+            "cnv_type": "amplification",
+            "cn_mean": 2.43,
+            "cnv_noise": "",
+            "chr": "chr15",
+            "start": "88423550",
+            "end": "88799290",
+            "location": "q25.3",
+            "amp_ratio": null,
+            "z_score": null,
+            "region": null,
+            "json_batch_name": "20221124_SHXW_M023823_ADXPAN116_v0.4.0.export20221130162847",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Uncertain",
+            "clinical_category": "Tier III",
+            "literature": "28746220",
+            "polymorphism": "",
+            "variant_interpret_cn": "My Cancer Genome数据库记录，约0.11%的患者存在NTRK3基因扩增，其中以乳腺浸润性导管癌、浸润性乳腺癌、皮肤黑色素瘤、卵巢高级别浆液性腺癌和肢端黑色素瘤最为常见。有文献报道（PMID: 28746220），NTRK3基因拷贝数变异与铂敏感和铂耐药复发相关，NTRK3基因扩增可预测卵巢癌患者的铂敏感性复发。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "NTRK3",
+                    "cnv_type": "amplification"
+                }
+            },
+            "gene_function": "NTRK3（神经营养受体酪氨酸激酶3）是一种膜受体酪氨酸激酶，当与神经营养因子结合时，可启动信号级联，导致细胞生长和分化（PMID: 23396845），当无配体时，可诱导细胞凋亡（PMID: 23396845）。Ntrk3在促纤维性小圆细胞肿瘤（PMID: 33229458）中被发现过表达，ETV6-NTRK3融合常见于分泌性乳腺癌、肾梭形细胞肿瘤（PMID: 31075511）。  "
+        },
+        {
+            "sample_id": "S22020332FD01",
+            "order_code": "caa0ddea708a11ed824f0242c0a84006",
+            "bio_category": "Cnv",
+            "gene_symbol": "PIK3CA",
+            "var_id": "hg19:PIK3CA::Gain",
+            "region_exon": null,
+            "cnv_exons": null,
+            "cnv_type": "amplification",
+            "cn_mean": 1.63,
+            "cnv_noise": "",
+            "chr": "chr3",
+            "start": "178916850",
+            "end": "178952152",
+            "location": "q26.32",
+            "amp_ratio": null,
+            "z_score": null,
+            "region": null,
+            "json_batch_name": "20221124_SHXW_M023823_ADXPAN116_v0.4.0.export20221130162847",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Oncogenic",
+            "clinical_category": "Tier II",
+            "literature": "c8305ee62db411edaac50242ac1b0002,22292935",
+            "polymorphism": "",
+            "variant_interpret_cn": "PIK3CA扩增与磷酸化Akt（p-Akt）水平升高密切相关。有文献表明（PMID: 22292935），PIK3CA扩增与胃癌预后不良有关。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "",
+            "variant_desc_en": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "NVP-BYL719",
+                    "tumor_name_cn": "实体瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "c8305ee62db411edaac50242ac1b0002,22292935",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C1",
+                    "evi_interpretation": "一项细胞实验中（PMID: 24608574），NVP-BYL719可抑制携带PIK3CA扩增的细胞系的增殖。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "NVP-BYL719"
+                ],
+                "var": {
+                    "gene_symbol": "PIK3CA",
+                    "cnv_type": "amplification"
+                }
+            },
+            "gene_function": "PIK3CA基因是一种常见的原癌基因，编码的蛋白是PI3Ks的催化亚单位。PI3K/AKT通路是细胞信号传导中一个重要通路，PI3Ks能特异性磷酸化磷脂酰肌醇的3位羟基，产生第二信使肌醇类物质如PIP3，PIP3可促使AKT转移到细胞膜上并被PDK1/PDK2活化，AKT则是PI3K/AKT信号通路中核心因子，异常活化的AKT会导致肿瘤发生。PIK3CA基因的大部分突变发生在10号外显子及21号外显子上；PIK3CA基因突变在多种肿瘤如肺癌、结直肠癌、乳腺癌、胃癌中均有较高的发生率（PMID: 15016963）。"
+        },
+        {
+            "sample_id": "S22020332FD01",
+            "order_code": "caa0ddea708a11ed824f0242c0a84006",
+            "bio_category": "Cnv",
+            "gene_symbol": "PDGFRA",
+            "var_id": "hg19:PDGFRA::Gain",
+            "region_exon": null,
+            "cnv_exons": null,
+            "cnv_type": "amplification",
+            "cn_mean": 1.8,
+            "cnv_noise": "",
+            "chr": "chr4",
+            "start": "55124930",
+            "end": "55161395",
+            "location": "q12",
+            "amp_ratio": null,
+            "z_score": null,
+            "region": null,
+            "json_batch_name": "20221124_SHXW_M023823_ADXPAN116_v0.4.0.export20221130162847",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Oncogenic",
+            "clinical_category": "Tier II",
+            "literature": "21931021,2e51c17c2da311edaac50242ac1b0002",
+            "polymorphism": "",
+            "variant_interpret_cn": "My Cancer Genome数据库记录，约0.75%的患者存在PDGFRA基因扩增，其中以多形性胶质母细胞瘤、胶质母细胞瘤、乳腺浸润性导管癌、间变性星形细胞瘤及骨肉瘤最为常见。OncoKB数据库记录PDGFRA基因扩增为Oncogenic。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "",
+            "variant_desc_en": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "舒尼替尼",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "21931021,2e51c17c2da311edaac50242ac1b0002",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C4",
+                    "evi_interpretation": "有体外试验表明（PMID: 19366796），PDGFRA扩增的NSCLC细胞系对舒尼替尼（Sunitinib）表现敏感。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "舒尼替尼"
+                ],
+                "var": {
+                    "gene_symbol": "PDGFRA",
+                    "cnv_type": "amplification"
+                }
+            },
+            "gene_function": "PDGFRA基因属于原癌基因，编码血小板衍生生长因子(PDGFRA)，是一种表面受体酪氨酸激酶，与其相应的配体PDGF结合后活化，再激活磷脂酰肌醇、cAMP及多种蛋白质的磷酸化途径，调控细胞的分裂和增殖。当基因激活异常时，会导致肿瘤的发生并促进肿瘤血管生成（PMID: 21605429）。PDGFRA基因突变在多种癌种均有报道，如胃肠道间质瘤、黑色素瘤、AML、外周神经鞘瘤、肉瘤和神经内分泌癌等（PMID: 23752188; PMID: 20685895）。"
+        }
+    ],
+    "cnv_file_path": {
+        "sample_id": "S22020332FD01",
+        "abs_path": "/var/www/html/report_backend/system_files/json_file/20221124_SHXW_M023823_ADXPAN116_v0.4.0.export20221130162847/S22020332FD01_S22020332FD01L01_AHNWWVDRXY_1/S22020332FD01_S22020332FD01L01_AHNWWVDRXY_1_TC21.cnv.png"
+    },
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [
+        {
+            "sample_id": "",
+            "order_code": "caa0ddea708a11ed824f0242c0a84006",
+            "var_id": "MSS",
+            "msi_score": 0.0,
+            "img_path": "/var/www/html/report_backend/system_files/json_file/20221124_SHXW_M023823_ADXPAN116_v0.4.0.export20221130162847/S22020332FD01_S22020332FD01L01_AHNWWVDRXY_1/S22020332FD01_S22020332FD01L01_AHNWWVDRXY_1.msi.png",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "微卫星（Microsatellite）又称简单重复序列（SSR），是指遍布于人类基因组中的短串联重复序列，一般由1-6个核苷酸组成。DNA复制时，肿瘤细胞内的微卫星由于重复单位的插入或缺失而造成的微卫星长度的变化，称为微卫星不稳定性（Microsatellite Instability, MSI）。大量研究表明，MSI是由错配修复（mismatch repair，MMR）基因突变或功能缺陷引起的（PMID: 25701956）。MSI在多种癌种中被发现，包括子宫内膜癌、结直肠癌和胃腺癌等。据报道，10%-15%的散发性结直肠癌患者存在MSI（PMID: 15528785），NCCN指南明确推荐所有结直肠癌患者均需考虑做MSI或MMR检测。临床上也已将MSI作为结直肠癌及其他实体瘤预后和制定辅助治疗方案的重要分子标志物。",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "biomarker_type": "MSS"
+                }
+            }
+        }
+    ],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "BRAF",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "甲状腺癌",
+            "tumor_name_en": "Thyroid Cancer"
+        },
+        {
+            "gene_symbol": "RET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "甲状腺癌",
+            "tumor_name_en": "Thyroid Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类治疗时疗效较差（但也有报道认为该基因型与生存期无关）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用铂类药物治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "C/C",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)7或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)6基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)6",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用依托泊苷+铂类治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 或 AG 基因型患者相比，G/G基因型的患者使用铂类治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": [
+            {
+                "sample_id": "S22020332FD01",
+                "library_id": "S22020332FD01L01",
+                "bioinform_ver": null,
+                "json_batch_name": "20221124_SHXW_M023823_ADXPAN116_v0.4.0.export20221130162847",
+                "data_auto_result": "T",
+                "flowcell_lane": "AHNWWVDRXY_1",
+                "match_ratio": 0.97,
+                "bardist": "33:35:32",
+                "residual_r1": 0.001,
+                "residual_r2": 0.0007,
+                "cleandata_size": "1.54G",
+                "cleandata_gc_ratio": 0.5202,
+                "cleandata_q20": 0.9739,
+                "cleandata_q30": 0.9352,
+                "mapping_ratio": 0.9982,
+                "nonprope_ratio": 0.0276,
+                "lqreads_ratio": 0.0295,
+                "hqreads_ratio": 0.9606,
+                "read_ontarget_ratio": 0.6627,
+                "base_ontarget_ratio": 0.601,
+                "gc_ontarget_ratio": 0.5217,
+                "gc_offtarget_ratio": 0.5075,
+                "inssize_ontarget": 205.7554,
+                "inssize_offtarget": 220.9073,
+                "dup_ratio": 0.2667,
+                "cover_ratio": 0.9996,
+                "depth_mean": null,
+                "depth_ssbc": null,
+                "depth_dsbc": null,
+                "depth_median": null,
+                "depth_median_ssbc": 318.0,
+                "depth_median_dsbc": 176.0,
+                "uni20": null,
+                "reads_counts": null,
+                "unmatch_ratio": null,
+                "crossmatch_ratio": null,
+                "unassemble_ratio": null,
+                "judgment_ratio": null,
+                "depth_min": null,
+                "depth_max": null,
+                "depth_CV": null,
+                "depth_mean_rna": null,
+                "control_counts": null,
+                "uni20_ssbc": 0.9194,
+                "uni20_dsbc": 0.9116,
+                "uni50": null,
+                "uni50_ssbc": 0.647603,
+                "uni50_dsbc": 0.674646,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "qc_type": null,
+                "depth_hotregion_ssbc": null,
+                "depth_rna_ctrl": null,
+                "mtxplot": "/var/www/html/report_backend/system_files/json_file/20221124_SHXW_M023823_ADXPAN116_v0.4.0.export20221130162847/20221124_SHXW_M023823_ADXPAN116_v0.4.0.svg",
+                "cellularity": null,
+                "ploidy": null,
+                "totaldata": "1.78G",
+                "totalreads": 11617822,
+                "alignedreads": 11597391,
+                "depth_mean_dsbc": 239.4922,
+                "depth_hotregion_dsbc": null,
+                "depth_mean_dsbc_hot": 335.2668,
+                "depth_nonhotregion_dsbc": null,
+                "depth_mean_dsbc_nonhot": 274.9957,
+                "depth_mean_ssbc": 459.4157,
+                "depth_mean_ssbc_hot": 631.845,
+                "depth_nonhotregion_ssbc": null,
+                "depth_mean_ssbc_nonhot": 520.8404,
+                "depth_mean_uniq": 1367.6439,
+                "depth_mean_uniq_hot": 1770.3344,
+                "depth_mean_uniq_nonhot": 1520.0881,
+                "hotdepth_median_dsbc": null,
+                "depth_median_dsbc_hot": 268.0,
+                "nonhotdepth_median_dsbc": null,
+                "depth_median_dsbc_nonhot": 208.0,
+                "hotdepth_median_ssbc": null,
+                "depth_median_ssbc_hot": 454.0,
+                "nonhotdepth_median_ssbc": null,
+                "depth_median_ssbc_nonhot": 360.0,
+                "depth_median_uniq": 1020.0,
+                "hotdepth_median_uniq": null,
+                "depth_median_uniq_hot": 1333.0,
+                "nonhotdepth_median_uniq": null,
+                "depth_median_uniq_nonhot": 1123.0,
+                "uni20_uniq": 0.9632,
+                "depth_hotregion_uni20": null,
+                "uni20_uniq_hot": 0.9974,
+                "depth_nonhotregion_uni20": null,
+                "uni20_uniq_nonhot": 0.9824,
+                "uni50_uniq": 0.7194,
+                "depth_hotregion_uni50": null,
+                "uni50_uniq_hot": 0.7299,
+                "depth_nonhotregion_uni50": null,
+                "uni50_uniq_nonhot": 0.7237,
+                "depth_mean_hot": 1770.3344,
+                "depth_ssbc_hot": 631.845,
+                "depth_dsbc_hot": 335.2668,
+                "coverage_ratio_uniq_hot": null,
+                "coverage_ratio_ssbc_hot": null,
+                "coverage_ratio_dsbc_hot": null,
+                "coverage_ratio_uniq": null,
+                "coverage_ratio_ssbc": null,
+                "coverage_ratio_dsbc": null,
+                "cnv_uni": 1.4316,
+                "cnv_cv": 0.2783,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "depth_noise": null,
+                "scale_log_post_prob": null,
+                "bam_path": "/share/analysis/20221124_SHXW_M023823_ADXPAN116_v0.4.0/S22020332FD01_S22020332FD01L01_AHNWWVDRXY_1/S22020332FD01_S22020332FD01L01_AHNWWVDRXY_1.ssbc.bam",
+                "bai_path": "/share/analysis/20221124_SHXW_M023823_ADXPAN116_v0.4.0/S22020332FD01_S22020332FD01L01_AHNWWVDRXY_1/S22020332FD01_S22020332FD01L01_AHNWWVDRXY_1.ssbc.bam.bai",
+                "cnvplot": null,
+                "cnv_noise": null,
+                "cnv_pon": null,
+                "cnv_purity": null,
+                "cnv_ploidy": null,
+                "paired_ratio": null,
+                "paired_stat": null,
+                "runstat": null,
+                "inssize_median": "193",
+                "raw_read_ontarget_ratio": "0.7148725206671457",
+                "raw_amp_rate": null,
+                "brca_cover_ratio": null,
+                "brca_depth_mean": null,
+                "brca_depth_median_ssbc": null,
+                "brca_depth_ssbc": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null,
+                "cn2_ratio": null,
+                "cn2_ratio_length": null,
+                "cs_bam_path": "/share/analysis/20221124_SHXW_M023823_ADXPAN116_v0.4.0/S22020332FD01_S22020332FD01L01_AHNWWVDRXY_1/S22020332FD01_S22020332FD01L01_AHNWWVDRXY_1.fusion.bam",
+                "cs_bai_path": "/share/analysis/20221124_SHXW_M023823_ADXPAN116_v0.4.0/S22020332FD01_S22020332FD01L01_AHNWWVDRXY_1/S22020332FD01_S22020332FD01L01_AHNWWVDRXY_1.fusion.bam.bai"
+            }
+        ],
+        "lib_dna_qc": [],
+        "qc_gradient": [
+            {
+                "sample_id": "S22020332FD01",
+                "gradient_ratio": "0.988489875917295",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_uniq"
+            },
+            {
+                "sample_id": "S22020332FD01",
+                "gradient_ratio": "0.33486801654436066",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_uniq"
+            },
+            {
+                "sample_id": "S22020332FD01",
+                "gradient_ratio": "0.7465548320487182",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_ssbc"
+            },
+            {
+                "sample_id": "S22020332FD01",
+                "gradient_ratio": "0.01279648799568554",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_ssbc"
+            },
+            {
+                "sample_id": "S22020332FD01",
+                "gradient_ratio": "0.49417568835158654",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_dsbc"
+            },
+            {
+                "sample_id": "S22020332FD01",
+                "gradient_ratio": "0",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_dsbc"
+            },
+            {
+                "sample_id": "S22020332FD01",
+                "gradient_ratio": "1",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_uniq_hot"
+            },
+            {
+                "sample_id": "S22020332FD01",
+                "gradient_ratio": "0.47488317757009346",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_uniq_hot"
+            }
+        ],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "13",
+            "gene_symbol": "ABCB1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "C8orf34",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "CDA",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "CYP19A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "CYP2D6",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "DPYD",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "DYNC2H1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "EIF1AX",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "EIF1AX",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "ERCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "GNAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "GNAS",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "GSTP1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "MTHFR",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "MTRR",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PAX8",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PAX8",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PAX8",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "RASAL1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "RASAL1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "RET",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "RET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "RET",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "SEMA3C",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "SLC28A3",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "SOD2",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "TSHR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "TSHR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "UGT1A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "UMPS",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "XPC",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "13",
+            "gene_symbol": "XRCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "hd": [],
+    "gss": [],
+    "lib_quality_control": {
+        "lib_dna_qc": [
+            {
+                "sample_dna_id": "S22020332FD01",
+                "library_id": "S22020332FD01L01",
+                "dna_concn_q": "37",
+                "dna_qty": "3700",
+                "break_dna_qty": "60",
+                "library_concn": "127",
+                "library_qty": "3810",
+                "total_library_quality_control": "合格",
+                "tumor_content": "30%"
+            }
+        ],
+        "control_lib_dna_qc": [],
+        "rna_lib_qc": []
+    },
+    "drug": [
+        {
+            "general_name_cn": "舒尼替尼",
+            "var": [
+                {
+                    "gene_symbol": "PDGFRA",
+                    "cnv_type": "amplification"
+                }
+            ],
+            "general_name_en": "Sunitinib",
+            "trade_name_cn": "索坦",
+            "trade_name_en": "Sutent",
+            "approval_organization": [
+                "NCCN",
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "舒尼替尼是一种抑制多种受体酪氨酸激酶(RTKs)的小分子，其中一些与肿瘤生长、病理血管生成和癌症转移进展有关。舒尼替是评价其抑制活性对各种激酶(激酶> 80)和被确认为一种抑制剂的血小板源生长因子受体(PDGFRα和PDGFRβ),血管内皮生长因子受体(VEGFR2 VEGFR1,和VEGFR3),干细胞因子受体(装备),Fms-like酪氨酸激酶3 (FLT3)集落刺激因子受体1型(CSF-1R)和胶质细胞系衍生神经营养因子受体(RET)。舒尼替尼对这些RTKs活性的抑制已在生化和细胞检测中得到证实，而对功能的抑制已在细胞增殖检测中得到证实。在生化和细胞检测中，初级代谢物与舒尼替尼表现出相似的效力。舒尼替尼可以抑制体内表达RTK靶点的肿瘤移植瘤中多种RTKs (PDGFR、VEGFR2、KIT)的磷酸化，并在一些癌症实验模型中显示可以抑制肿瘤生长或肿瘤消退和/或肿瘤转移。舒尼替尼在体外可以抑制表达异常RTKs (PDGFR、RET或KIT)的肿瘤细胞的生长，在体内可以抑制PDGFR fr和vegfr2依赖的肿瘤血管生成。",
+            "adaptation_disease_cn": [
+                "FDA批准舒尼替尼用于经甲磺酸伊马替尼治疗进展或不耐受的胃肠间质瘤（GIST）患者。",
+                "NMPA批准舒尼替尼用于甲磺酸伊马替尼治疗失败或不能耐受的胃肠间质瘤（GIST）患者。",
+                "FDA批准舒尼替尼用于晚期肾细胞癌（RCC）患者。\nFDA批准舒尼替尼用于肾切除术后的复发的高危的肾细胞癌（RCC）成人患者的辅助治疗。",
+                "NMPA批准舒尼替尼用于不能手术的晚期肾细胞癌（GIST）患者。",
+                "FDA批准舒尼替尼用于不可切除的、局部晚期或转移性高分化进展期胰腺神经内分泌瘤（pNET）成年患者。",
+                "NMPA批准舒尼替尼用于不可切除的，转移性高分化进展期胰腺神经内分泌瘤（pNET）成年患者。"
+            ],
+            "adaptation_disease_en": [
+                "Sunitinib is indicated for the treatment of adult patients with gastrointestinal stromal tumor (GIST) after disease progression on or intolerance to imatinib mesylate.",
+                "Sunitinib is indicated for the treatment of adult patients with advanced renal cell carcinoma (RCC).",
+                "Sunitinb is indicated for treatment of progressive, well-differentiated pancreatic neuroendocrine tumors (pNET) in adult patients with unresectable locally advanced or metastatic."
+            ],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": null,
+            "var": [
+                {
+                    "gene_symbol": "PIK3CA",
+                    "cnv_type": "amplification"
+                }
+            ],
+            "general_name_en": "NVP-BYL719",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [],
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        }
+    ],
+    "io_gene_clinical": [],
+    "clinic_trial": [
+        {
+            "clinicaltrial_number": "CTR20191623",
+            "conditions": "携带NTRK1/2/3, ROS1或ALK基因重排突变的局部晚期或转移性实体瘤",
+            "gene_symbol": "NTRK3",
+            "interventions": "Entrectinib Capsule/恩曲替尼胶囊",
+            "phase": "II期",
+            "study_title": "Entrectinib治疗携带NTRK1/2/3、ROS1或ALK基因重排突变的局部晚期或转移性实体瘤患者的一项开放性、多中心、全球性II期篮式研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190625",
+            "conditions": "NTRK融合基因阳性实体肿瘤",
+            "gene_symbol": "NTRK3",
+            "interventions": "硫酸Larotrectinib口服溶液",
+            "phase": "II期",
+            "study_title": "NTRK融合基因阳性肿瘤患者口服TRK抑制剂Larotrectinib II期篮式研究"
+        },
+        {
+            "clinicaltrial_number": "NCT02465060",
+            "conditions": "multiple myeloma,Advanced Solid Tumor,lymphoma",
+            "gene_symbol": "NTRK3",
+            "interventions": "Erdafitinib,Copanlisib,Trametinib,Crizotinib,Sunitinib,Sapanisertib,Nivolumab,AZD4547,Dasatinib,Pertuzumab + Trastuzumab,Dabrafenib + Trametinib,Binimetinib,Adavosertib,Osimertinib,Palbociclib,Afatinib,Capivasertib,Defactinib,GSK2636771,Vismodegib,Ado-trastuzumab emtansine,Larotrectinib,Taselisib",
+            "phase": "Phase II",
+            "study_title": "Targeted Therapy Directed by Genetic Testing in Treating Patients With Advanced Refractory Solid Tumors, Lymphomas, or Multiple Myeloma (The MATCH Screening Trial)"
+        },
+        {
+            "clinicaltrial_number": "NCT02568267",
+            "conditions": "lung non-small cell carcinoma,Advanced Solid Tumor,colorectal cancer,anaplastic large cell lymphoma",
+            "gene_symbol": "NTRK3",
+            "interventions": "Entrectinib",
+            "phase": "Phase II",
+            "study_title": "Basket Study of Entrectinib (RXDX-101) for the Treatment of Patients With Solid Tumors Harboring NTRK 1/2/3 (Trk A/B/C), ROS1, or ALK Gene Rearrangements (Fusions) (STARTRK-2)"
+        },
+        {
+            "clinicaltrial_number": "NCT02576431",
+            "conditions": "salivary gland cancer,biliary tract cancer,lung cancer,breast cancer,Advanced Solid Tumor,sarcoma,colorectal cancer,central nervous system cancer,lung non-small cell carcinoma,thyroid gland cancer,melanoma",
+            "gene_symbol": "NTRK3",
+            "interventions": "Larotrectinib",
+            "phase": "Phase II",
+            "study_title": "A Study to Test the Effect of the Drug Larotrectinib in Adults and Children With NTRK-fusion Positive Solid Tumors (NAVIGATE)"
+        },
+        {
+            "clinicaltrial_number": "NCT02637687",
+            "conditions": "congenital fibrosarcoma,Advanced Solid Tumor,breast secretory carcinoma,benign neoplasm,congenital mesoblastic nephroma,central nervous system cancer",
+            "gene_symbol": "NTRK3",
+            "interventions": "Larotrectinib",
+            "phase": "Phase I",
+            "study_title": "A Study to Test the Safety and Efficacy of the Drug Larotrectinib for the Treatment of Tumors With NTRK-fusion in Children (SCOUT)"
+        },
+        {
+            "clinicaltrial_number": "NCT02650401",
+            "conditions": "neuroblastoma,central nervous system cancer,Advanced Solid Tumor",
+            "gene_symbol": "NTRK3",
+            "interventions": "Entrectinib",
+            "phase": "Phase I",
+            "study_title": "Study Of Entrectinib (Rxdx-101) in Children and Adolescents With Locally Advanced Or Metastatic Solid Or Primary CNS Tumors And/Or Who Have No Satisfactory Treatment Options (STARTRK-NG)"
+        },
+        {
+            "clinicaltrial_number": "NCT03093116",
+            "conditions": "Advanced Solid Tumor,lung non-small cell carcinoma",
+            "gene_symbol": "NTRK3",
+            "interventions": "Repotrectinib",
+            "phase": "Phase Ib/II",
+            "study_title": "A Study of Repotrectinib (TPX-0005) in Patients With Advanced Solid Tumors Harboring ALK, ROS1, or NTRK1-3 Rearrangements (TRIDENT-1)"
+        },
+        {
+            "clinicaltrial_number": "NCT03155620",
+            "conditions": "sarcoma,non-Hodgkin lymphoma,lymphoma,medulloblastoma,hepatoblastoma,rhabdomyosarcoma,neuroectodermal tumor,Advanced Solid Tumor,lymphatic system cancer,Ewing sarcoma,childhood ependymoma,central nervous system cancer,neuroblastoma,childhood osteosarcoma",
+            "gene_symbol": "NTRK3",
+            "interventions": "Tazemetostat,Larotrectinib,LY3023414,Vemurafenib,Palbociclib,Olaparib,Ulixertinib,Erdafitinib,Selumetinib,Ensartinib",
+            "phase": "Phase II",
+            "study_title": "Targeted Therapy Directed by Genetic Testing in Treating Pediatric Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphomas, or Histiocytic Disorders (The Pediatric MATCH Screening Trial)"
+        },
+        {
+            "clinicaltrial_number": "NCT03175224",
+            "conditions": "Advanced Solid Tumor,lung non-small cell carcinoma",
+            "gene_symbol": "NTRK3",
+            "interventions": "Bozitinib",
+            "phase": "Phase Ib/II",
+            "study_title": "APL-101 Study of Subjects With NSCLC With c-Met EXON 14 Skip Mutations and c-Met Dysregulation Advanced Solid Tumors (SPARTA)"
+        },
+        {
+            "clinicaltrial_number": "NCT03213704",
+            "conditions": "childhood ependymoma,Ewing sarcoma,non-Hodgkin lymphoma,childhood medulloblastoma,sarcoma,Advanced Solid Tumor,neuroblastoma,childhood osteosarcoma,hepatoblastoma,rhabdomyosarcoma",
+            "gene_symbol": "NTRK3",
+            "interventions": "Larotrectinib",
+            "phase": "Phase II",
+            "study_title": "Larotrectinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With NTRK Fusions (A Pediatric MATCH Treatment Trial)"
+        },
+        {
+            "clinicaltrial_number": "NCT03297606",
+            "conditions": "Advanced Solid Tumor,non-Hodgkin lymphoma,multiple myeloma",
+            "gene_symbol": "NTRK3",
+            "interventions": "Bosutinib,Palbociclib,Vismodegib,Ipilimumab + Nivolumab,Cobimetinib + Vemurafenib,Temsirolimus,Olaparib,Erlotinib,Crizotinib,Sunitinib,Afatinib,Dasatinib,Pertuzumab + Trastuzumab,Axitinib",
+            "phase": "Phase II",
+            "study_title": "Canadian Profiling and Targeted Agent Utilization Trial (CAPTUR) (CAPTUR)"
+        },
+        {
+            "clinicaltrial_number": "NCT03834961",
+            "conditions": "Advanced Solid Tumor,acute leukemia,childhood fibrosarcoma",
+            "gene_symbol": "NTRK3",
+            "interventions": "Larotrectinib",
+            "phase": "Phase II",
+            "study_title": "Larotrectinib in Treating Patients With Previously Untreated TRK Fusion Solid Tumors and TRK Fusion Relapsed Acute Leukemia"
+        },
+        {
+            "clinicaltrial_number": "NCT03953235",
+            "conditions": "colorectal cancer,pancreatic ductal adenocarcinoma,Advanced Solid Tumor,lung non-small cell carcinoma",
+            "gene_symbol": "NTRK3",
+            "interventions": "GRT-C903 + GRT-R904 + Ipilimumab + Nivolumab",
+            "phase": "Phase Ib/II",
+            "study_title": "A Study of a Personalized Cancer Vaccine Targeting Shared Neoantigens"
+        },
+        {
+            "clinicaltrial_number": "NCT03994796",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "NTRK3",
+            "interventions": "Abemaciclib,GDC-0084,Entrectinib",
+            "phase": "Phase II",
+            "study_title": "Genetic Testing in Guiding Treatment for Patients With Brain Metastases"
+        },
+        {
+            "clinicaltrial_number": "NCT04083976",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "NTRK3",
+            "interventions": "Erdafitinib",
+            "phase": "Phase II",
+            "study_title": "A Study of Erdafitinib in Participants With Advanced Solid Tumors and Fibroblast Growth Factor Receptor (FGFR) Gene Alterations"
+        },
+        {
+            "clinicaltrial_number": "NCT04094610",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "NTRK3",
+            "interventions": "Repotrectinib",
+            "phase": "Phase Ib/II",
+            "study_title": "A Study of Repotrectinib in Pediatric and Young Adult Subjects Harboring ALK, ROS1, OR NTRK1-3 Alterations"
+        },
+        {
+            "clinicaltrial_number": "NCT04116541",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "NTRK3",
+            "interventions": "Alectinib,Cabozantinib,HDM201 + Ribociclib",
+            "phase": "Phase II",
+            "study_title": "A Study Evaluating the Activity of Anti-cancer Treatments Targeting Tumor Molecular Alterations/Characteristics in Advanced / Metastatic Tumors. (MegaMOST)"
+        },
+        {
+            "clinicaltrial_number": "NCT04140500",
+            "conditions": "melanoma,esophagus squamous cell carcinoma,lung non-small cell carcinoma,Advanced Solid Tumor",
+            "gene_symbol": "NTRK3",
+            "interventions": "RO7247669",
+            "phase": "Phase I",
+            "study_title": "Dose Escalation Study of a PD1-LAG3 Bispecific Antibody in Patients With Advanced and/or Metastatic Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT04589845",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "NTRK3",
+            "interventions": "Alectinib,Ado-trastuzumab emtansine,Ipatasertib,GDC-0077,Entrectinib,Atezolizumab,Idasanutlin",
+            "phase": "Phase II",
+            "study_title": "Tumor-Agnostic Precision Immuno-Oncology and Somatic Targeting Rational for You (TAPISTRY) Platform Study"
+        },
+        {
+            "clinicaltrial_number": "NCT04827576",
+            "conditions": "Advanced Solid Tumor,transitional cell carcinoma,lung small cell carcinoma,lung non-small cell carcinoma",
+            "gene_symbol": "NTRK3",
+            "interventions": "Docetaxel + Hu5F9-G4",
+            "phase": "Phase II",
+            "study_title": "Study of Magrolimab in Participants With Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT04879121",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "NTRK3",
+            "interventions": "Larotrectinib",
+            "phase": "Phase II",
+            "study_title": "Larotrectinib for the Treatment of NTRK Amplification Positive, Locally Advanced or Metastatic Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT05004116",
+            "conditions": "Advanced Solid Tumor,neuroblastoma,desmoplastic small round cell tumor",
+            "gene_symbol": "NTRK3",
+            "interventions": "Irinotecan + Repotrectinib + Temozolomide",
+            "phase": "Phase Ib/II",
+            "study_title": "A Study of Repotrectinib in Combination With Chemotherapy in Children and Young Adults With Solid Tumor Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT02029001",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "PDGFRA",
+            "interventions": "Durvalumab + Tremelimumab,Olaparib,Pazopanib,Nilotinib",
+            "phase": "Phase II",
+            "study_title": "Adapting Treatment to the Tumor Molecular Alterations for Patients With Advanced Solid Tumors: My Own Specific Treatment (MOST plus)"
+        },
+        {
+            "clinicaltrial_number": "NCT02272998",
+            "conditions": "hematologic cancer,Advanced Solid Tumor",
+            "gene_symbol": "PDGFRA",
+            "interventions": "Ponatinib",
+            "phase": "Phase II",
+            "study_title": "Ponatinib for Patients Whose Advanced Solid Tumor Cancer Has Activating Mutations Involving the Following Genes: FGFR1, FGFR2, FGFR3, FGFR4, RET, KIT."
+        },
+        {
+            "clinicaltrial_number": "NCT02693535",
+            "conditions": "Advanced Solid Tumor,multiple myeloma,B-cell lymphoma",
+            "gene_symbol": "PDGFRA",
+            "interventions": "Cobimetinib + Vemurafenib,Regorafenib,Ipilimumab + Nivolumab,Palbociclib,Afatinib,Talazoparib,Pembrolizumab,Temsirolimus,Pertuzumab + Trastuzumab,Crizotinib,Abemaciclib,Sunitinib,Olaparib",
+            "phase": "Phase II",
+            "study_title": "TAPUR: Testing the Use of Food and Drug Administration (FDA) Approved Drugs That Target a Specific Abnormality in a Tumor Gene in People With Advanced Stage Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03297606",
+            "conditions": "Advanced Solid Tumor,non-Hodgkin lymphoma,multiple myeloma",
+            "gene_symbol": "PDGFRA",
+            "interventions": "Bosutinib,Palbociclib,Vismodegib,Ipilimumab + Nivolumab,Cobimetinib + Vemurafenib,Temsirolimus,Olaparib,Erlotinib,Crizotinib,Sunitinib,Afatinib,Dasatinib,Pertuzumab + Trastuzumab,Axitinib",
+            "phase": "Phase II",
+            "study_title": "Canadian Profiling and Targeted Agent Utilization Trial (CAPTUR) (CAPTUR)"
+        },
+        {
+            "clinicaltrial_number": "NCT03934372",
+            "conditions": "Advanced Solid Tumor,lymphoma,acute myeloid leukemia,acute lymphoblastic leukemia,central nervous system cancer,leukemia,chronic myeloid leukemia",
+            "gene_symbol": "PDGFRA",
+            "interventions": "Ponatinib",
+            "phase": "Phase Ib/II",
+            "study_title": "Safety and Efficacy of Ponatinib for Treatment of Pediatric Recurrent or Refractory Leukemias or Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT04771520",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "PDGFRA",
+            "interventions": "Avapritinib",
+            "phase": "Phase II",
+            "study_title": "Avapritinib for the Treatment of CKIT or PDGFRA Mutation-Positive Locally Advanced or Metastatic Malignant Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT02465060",
+            "conditions": "multiple myeloma,Advanced Solid Tumor,lymphoma",
+            "gene_symbol": "PIK3CA",
+            "interventions": "Erdafitinib,Copanlisib,Trametinib,Crizotinib,Sunitinib,Sapanisertib,Nivolumab,AZD4547,Dasatinib,Pertuzumab + Trastuzumab,Dabrafenib + Trametinib,Binimetinib,Adavosertib,Osimertinib,Palbociclib,Afatinib,Capivasertib,Defactinib,GSK2636771,Vismodegib,Ado-trastuzumab emtansine,Larotrectinib,Taselisib",
+            "phase": "Phase II",
+            "study_title": "Targeted Therapy Directed by Genetic Testing in Treating Patients With Advanced Refractory Solid Tumors, Lymphomas, or Multiple Myeloma (The MATCH Screening Trial)"
+        },
+        {
+            "clinicaltrial_number": "NCT03006172",
+            "conditions": "breast cancer,Advanced Solid Tumor",
+            "gene_symbol": "PIK3CA",
+            "interventions": "GDC-0077 + Letrozole + Palbociclib,GDC-0077,Fulvestrant + GDC-0077,GDC-0077 + Letrozole",
+            "phase": "Phase I",
+            "study_title": "To Evaluate the Safety, Tolerability, and Pharmacokinetics of GDC-0077 Single Agent in Participants With Solid Tumors and in Combination With Endocrine and Targeted Therapies in Participants With Breast Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03065062",
+            "conditions": "head and neck squamous cell carcinoma,pancreatic cancer,lung squamous cell carcinoma,endometrial cancer,Advanced Solid Tumor",
+            "gene_symbol": "PIK3CA",
+            "interventions": "Gedatolisib + Palbociclib",
+            "phase": "Phase I",
+            "study_title": "Study of the CDK4/6 Inhibitor Palbociclib (PD-0332991) in Combination With the PI3K/mTOR Inhibitor Gedatolisib (PF-05212384) for Patients With Advanced Squamous Cell Lung, Pancreatic, Head & Neck and Other Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT03155620",
+            "conditions": "sarcoma,non-Hodgkin lymphoma,lymphoma,medulloblastoma,hepatoblastoma,rhabdomyosarcoma,neuroectodermal tumor,Advanced Solid Tumor,lymphatic system cancer,Ewing sarcoma,childhood ependymoma,central nervous system cancer,neuroblastoma,childhood osteosarcoma",
+            "gene_symbol": "PIK3CA",
+            "interventions": "Tazemetostat,Larotrectinib,LY3023414,Vemurafenib,Palbociclib,Olaparib,Ulixertinib,Erdafitinib,Selumetinib,Ensartinib",
+            "phase": "Phase II",
+            "study_title": "Targeted Therapy Directed by Genetic Testing in Treating Pediatric Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphomas, or Histiocytic Disorders (The Pediatric MATCH Screening Trial)"
+        },
+        {
+            "clinicaltrial_number": "NCT03213678",
+            "conditions": "Ewing sarcoma,medulloblastoma,non-Hodgkin lymphoma,Advanced Solid Tumor,hepatoblastoma,rhabdomyosarcoma,high grade glioma,neuroblastoma,childhood osteosarcoma,childhood ependymoma",
+            "gene_symbol": "PIK3CA",
+            "interventions": "LY3023414",
+            "phase": "Phase II",
+            "study_title": "PI3K/mTOR Inhibitor LY3023414 in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With TSC or PI3K/MTOR Mutations (A Pediatric MATCH Treatment Trial)"
+        },
+        {
+            "clinicaltrial_number": "NCT03218826",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "PIK3CA",
+            "interventions": "AZD8186 + Docetaxel",
+            "phase": "Phase I",
+            "study_title": "PI3Kbeta Inhibitor AZD8186 and Docetaxel in Treating Patients Advanced Solid Tumors With PTEN or PIK3CB Mutations That Are Metastatic or Cannot Be Removed by Surgery"
+        },
+        {
+            "clinicaltrial_number": "NCT03297606",
+            "conditions": "Advanced Solid Tumor,non-Hodgkin lymphoma,multiple myeloma",
+            "gene_symbol": "PIK3CA",
+            "interventions": "Bosutinib,Palbociclib,Vismodegib,Ipilimumab + Nivolumab,Cobimetinib + Vemurafenib,Temsirolimus,Olaparib,Erlotinib,Crizotinib,Sunitinib,Afatinib,Dasatinib,Pertuzumab + Trastuzumab,Axitinib",
+            "phase": "Phase II",
+            "study_title": "Canadian Profiling and Targeted Agent Utilization Trial (CAPTUR) (CAPTUR)"
+        },
+        {
+            "clinicaltrial_number": "NCT03842228",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "PIK3CA",
+            "interventions": "Copanlisib + Durvalumab + Olaparib",
+            "phase": "Phase I",
+            "study_title": "Testing the Combination of the Anti-cancer Drugs Copanlisib, Olaparib, and MEDI4736 (Durvalumab) in Patients With Advanced Solid Tumors With Selected Mutations"
+        },
+        {
+            "clinicaltrial_number": "NCT04192981",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "PIK3CA",
+            "interventions": "GDC-0084",
+            "phase": "Phase I",
+            "study_title": "GDC-0084 With Radiation Therapy for People With PIK3CA-Mutated Solid Tumor Brain Metastases or Leptomeningeal Metastases"
+        },
+        {
+            "clinicaltrial_number": "NCT04317105",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "PIK3CA",
+            "interventions": "Copanlisib + Ipilimumab + Nivolumab,Copanlisib + Nivolumab",
+            "phase": "Phase Ib/II",
+            "study_title": "Testing the Addition of an Anti-cancer Drug, Copanlisib, to the Usual Immunotherapy (Nivolumab With or Without Ipilimumab) in Patients With Advanced Solid Cancers That Have Changes in the Following Genes: PIK3CA and PTEN"
+        },
+        {
+            "clinicaltrial_number": "NCT04586335",
+            "conditions": "Advanced Solid Tumor,fallopian tube cancer,peritoneum cancer,ovarian serous carcinoma",
+            "gene_symbol": "PIK3CA",
+            "interventions": "CYH33 + Olaparib",
+            "phase": "Phase I",
+            "study_title": "Study of CYH33 in Combination With Olaparib an Oral PARP Inhibitor in Patients With Advanced Solid Tumors."
+        },
+        {
+            "clinicaltrial_number": "NCT04589845",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "PIK3CA",
+            "interventions": "Alectinib,Ado-trastuzumab emtansine,Ipatasertib,GDC-0077,Entrectinib,Atezolizumab,Idasanutlin",
+            "phase": "Phase II",
+            "study_title": "Tumor-Agnostic Precision Immuno-Oncology and Somatic Targeting Rational for You (TAPISTRY) Platform Study"
+        },
+        {
+            "clinicaltrial_number": "NCT04632992",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "PIK3CA",
+            "interventions": "Ipatasertib,Atezolizumab + Capecitabine,Entrectinib,Atezolizumab + Docetaxel,Ado-trastuzumab emtansine + Atezolizumab,Capecitabine + Pertuzumab/trastuzumab/hyaluronidase-zzxf,Paclitaxel + Pertuzumab/trastuzumab/hyaluronidase-zzxf,Alectinib,GDC-0077,Pertuzumab/trastuzumab/hyaluronidase-zzxf,Docetaxel + Pertuzumab/trastuzumab/hyaluronidase-zzxf,Atezolizumab + Paclitaxel,Ado-trastuzumab emtansine + Tucatinib",
+            "phase": "Phase II",
+            "study_title": "A Study Evaluating Targeted Therapies in Participants Who Have Advanced Solid Tumors With Genomic Alterations or Protein Expression Patterns Predictive of Response (MyTACTIC)"
+        },
+        {
+            "clinicaltrial_number": "NCT04774952",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "PIK3CA",
+            "interventions": "RMC-5552",
+            "phase": "Phase I",
+            "study_title": "Dose Escalation of RMC-5552 Monotherapy in Relapsed/Refractory Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT04958226",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "PIK3CA",
+            "interventions": "Capivasertib + Midazolam",
+            "phase": "Phase I",
+            "study_title": "A Study to Assess the Effect of Capivasertib on Midazolam in Patients With Advanced Solid Tumours"
+        },
+        {
+            "clinicaltrial_number": "NCT02272998",
+            "conditions": "hematologic cancer,Advanced Solid Tumor",
+            "gene_symbol": "RET",
+            "interventions": "Ponatinib",
+            "phase": "Phase II",
+            "study_title": "Ponatinib for Patients Whose Advanced Solid Tumor Cancer Has Activating Mutations Involving the Following Genes: FGFR1, FGFR2, FGFR3, FGFR4, RET, KIT."
+        },
+        {
+            "clinicaltrial_number": "NCT02693535",
+            "conditions": "Advanced Solid Tumor,multiple myeloma,B-cell lymphoma",
+            "gene_symbol": "RET",
+            "interventions": "Cobimetinib + Vemurafenib,Regorafenib,Ipilimumab + Nivolumab,Palbociclib,Afatinib,Talazoparib,Pembrolizumab,Temsirolimus,Pertuzumab + Trastuzumab,Crizotinib,Abemaciclib,Sunitinib,Olaparib",
+            "phase": "Phase II",
+            "study_title": "TAPUR: Testing the Use of Food and Drug Administration (FDA) Approved Drugs That Target a Specific Abnormality in a Tumor Gene in People With Advanced Stage Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03037385",
+            "conditions": "Advanced Solid Tumor,thyroid gland medullary carcinoma,lung non-small cell carcinoma",
+            "gene_symbol": "RET",
+            "interventions": "Pralsetinib",
+            "phase": "Phase Ib/II",
+            "study_title": "Phase 1/2 Study of the Highly-selective RET Inhibitor, Pralsetinib (BLU-667), in Patients With Thyroid Cancer, Non-Small Cell Lung Cancer, and Other Advanced Solid Tumors (ARROW)"
+        },
+        {
+            "clinicaltrial_number": "NCT03157128",
+            "conditions": "thyroid gland cancer,thyroid gland medullary carcinoma,pheochromocytoma,Advanced Solid Tumor",
+            "gene_symbol": "RET",
+            "interventions": "Selpercatinib",
+            "phase": "Phase Ib/II",
+            "study_title": "Phase 1/2 Study of LOXO-292 in Patients With Advanced Solid Tumors, RET Fusion-Positive Solid Tumors, and Medullary Thyroid Cancer (LIBRETTO-001)"
+        },
+        {
+            "clinicaltrial_number": "NCT03175224",
+            "conditions": "Advanced Solid Tumor,lung non-small cell carcinoma",
+            "gene_symbol": "RET",
+            "interventions": "Bozitinib",
+            "phase": "Phase Ib/II",
+            "study_title": "APL-101 Study of Subjects With NSCLC With c-Met EXON 14 Skip Mutations and c-Met Dysregulation Advanced Solid Tumors (SPARTA)"
+        },
+        {
+            "clinicaltrial_number": "NCT03899792",
+            "conditions": "central nervous system cancer,Advanced Solid Tumor",
+            "gene_symbol": "RET",
+            "interventions": "Selpercatinib",
+            "phase": "Phase Ib/II",
+            "study_title": "A Study of Oral LOXO-292 in Pediatric Patients With Advanced Solid or Primary Central Nervous System Tumors (LIBRETTO-121)"
+        },
+        {
+            "clinicaltrial_number": "NCT03934372",
+            "conditions": "Advanced Solid Tumor,lymphoma,acute myeloid leukemia,acute lymphoblastic leukemia,central nervous system cancer,leukemia,chronic myeloid leukemia",
+            "gene_symbol": "RET",
+            "interventions": "Ponatinib",
+            "phase": "Phase Ib/II",
+            "study_title": "Safety and Efficacy of Ponatinib for Treatment of Pediatric Recurrent or Refractory Leukemias or Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT03953235",
+            "conditions": "colorectal cancer,pancreatic ductal adenocarcinoma,Advanced Solid Tumor,lung non-small cell carcinoma",
+            "gene_symbol": "RET",
+            "interventions": "GRT-C903 + GRT-R904 + Ipilimumab + Nivolumab",
+            "phase": "Phase Ib/II",
+            "study_title": "A Study of a Personalized Cancer Vaccine Targeting Shared Neoantigens"
+        },
+        {
+            "clinicaltrial_number": "NCT04116541",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "RET",
+            "interventions": "Alectinib,Cabozantinib,HDM201 + Ribociclib",
+            "phase": "Phase II",
+            "study_title": "A Study Evaluating the Activity of Anti-cancer Treatments Targeting Tumor Molecular Alterations/Characteristics in Advanced / Metastatic Tumors. (MegaMOST)"
+        },
+        {
+            "clinicaltrial_number": "NCT04161391",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "RET",
+            "interventions": "TPX-0046",
+            "phase": "Phase Ib/II",
+            "study_title": "Study of TPX-0046, A RET/SRC Inhibitor in Adult Subjects With Advanced Solid Tumors Harboring RET Fusions or Mutations"
+        },
+        {
+            "clinicaltrial_number": "NCT04320888",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "RET",
+            "interventions": "Selpercatinib",
+            "phase": "Phase II",
+            "study_title": "Selpercatinib for the Treatment of Advanced Solid Tumors, Lymphomas, or Histiocytic Disorders With Activating RET Gene Alterations, a Pediatric MATCH Treatment Trial"
+        }
+    ],
+    "refer": [
+        {
+            "authors": "Hiroyuki Yamamoto,Kohzoh Imai",
+            "date": "(2015)",
+            "journal": "Arch Toxicol",
+            "pmid": "[PMID:25701956]",
+            "title": "Microsatellite instability: an update.",
+            "vol": "89(6):899-921."
+        },
+        {
+            "authors": "Timothy M Pawlik,Chandrajit P Raut,Miguel A Rodriguez-Bigas",
+            "date": "(2004)",
+            "journal": "Dis Markers",
+            "pmid": "[PMID:15528785]",
+            "title": "Colorectal carcinogenesis: MSI-H versus MSI-L.",
+            "vol": "20(4-5):199-206."
+        },
+        {
+            "authors": "William M Grady",
+            "date": "(2013)",
+            "journal": "Proc Natl Acad Sci U S A",
+            "pmid": "[PMID:23396845]",
+            "title": "Context is everything for dependence receptors in colorectal cancer.",
+            "vol": "110(8):2697-8."
+        },
+        {
+            "authors": "Koichi Ogura#,Romel Somwar#,Julija Hmeljak#,et al.",
+            "date": "(2021)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:33229458]",
+            "title": "Therapeutic Potential of NTRK3 Inhibition in Desmoplastic Small Round Cell Tumor.",
+            "vol": "27(4):1184-1194."
+        },
+        {
+            "authors": "Susan J Hsiao,Ahmet Zehir,Anthony N Sireci,et al.",
+            "date": "(2019)",
+            "journal": "J Mol Diagn",
+            "pmid": "[PMID:31075511]",
+            "title": "Detection of Tumor NTRK Gene Fusions to Identify Patients Who May Benefit from Tyrosine Kinase (TRK) Inhibitor Therapy.",
+            "vol": "21(4):553-571."
+        },
+        {
+            "authors": "Jing Shi,Demao Yao,Wei Liu,et al.",
+            "date": "(2012)",
+            "journal": "BMC Cancer",
+            "pmid": "[PMID:22292935]",
+            "title": "Highly frequent PIK3CA amplification is associated with poor prognosis in gastric cancer.",
+            "vol": "12:50."
+        },
+        {
+            "authors": "Alessandra Maleddu,Maria A Pantaleo,Margherita Nannini,et al.",
+            "date": "(2011)",
+            "journal": "J Transl Med",
+            "pmid": "[PMID:21605429]",
+            "title": "The role of mutational analysis of KIT and PDGFRA in gastrointestinal stromal tumors in a clinical setting.",
+            "vol": "9:75."
+        },
+        {
+            "authors": "A I Velghe,S Van Cauwenberghe,A A Polyansky,et al.",
+            "date": "(2014)",
+            "journal": "Oncogene",
+            "pmid": "[PMID:23752188]",
+            "title": "PDGFRA alterations in cancer: characterization of a gain-of-function V536E transmembrane mutant as well as loss-of-function and passenger mutations.",
+            "vol": "33(20):2568-76."
+        },
+        {
+            "authors": "Barbara Dewaele,Giuseppe Floris,Julio Finalet-Ferreiro,et al.",
+            "date": "(2010)",
+            "journal": "Cancer Res",
+            "pmid": "[PMID:20685895]",
+            "title": "Coactivated platelet-derived growth factor receptor {alpha} and epidermal growth factor receptor are potential therapeutic targets in intimal sarcoma.",
+            "vol": "70(18):7304-14."
+        },
+        {
+            "authors": "Yardena Samuels,Zhenghe Wang,Alberto Bardelli,et al.",
+            "date": "(2004)",
+            "journal": "Science",
+            "pmid": "[PMID:15016963]",
+            "title": "High frequency of mutations of the PIK3CA gene in human cancers.",
+            "vol": "304(5670):554."
+        },
+        {
+            "authors": "Lois M Mulligan",
+            "date": "(2014)",
+            "journal": "Nat Rev Cancer",
+            "pmid": "[PMID:24561444]",
+            "title": "RET revisited: expanding the oncogenic portfolio.",
+            "vol": "14(3):173-86."
+        },
+        {
+            "authors": "Alexander Drilon,Zishuo I Hu,Gillianne G Y Lai,et al.",
+            "date": "(2018)",
+            "journal": "Nat Rev Clin Oncol",
+            "pmid": "[PMID:29134959]",
+            "title": "Targeting RET-driven cancers: lessons from evolving preclinical and clinical landscapes.",
+            "vol": "15(3):151-167."
+        },
+        {
+            "authors": "Rebecca Nagy,Kevin Sweet,Charis Eng",
+            "date": "(2004)",
+            "journal": "Oncogene",
+            "pmid": "[PMID:15322516]",
+            "title": "Highly penetrant hereditary cancer syndromes.",
+            "vol": "23(38):6445-70."
+        },
+        {
+            "authors": "Barbara S Paugh,Alberto Broniscer,Chunxu Qu,et al.",
+            "date": "(2011)",
+            "journal": "J Clin Oncol",
+            "pmid": "[PMID:21931021]",
+            "title": "Genome-wide analyses identify recurrent amplifications of receptor tyrosine kinases and cell-cycle regulatory genes in diffuse intrinsic pontine glioma.",
+            "vol": "29(30):3999-4006."
+        },
+        {
+            "authors": "Ultan McDermott,Rachel Y Ames,A John Iafrate,et al.",
+            "date": "(2009)",
+            "journal": "Cancer Res",
+            "pmid": "[PMID:19366796]",
+            "title": "Ligand-dependent platelet-derived growth factor receptor (PDGFR)-alpha activation sensitizes rare lung cancer and sarcoma cells to PDGFR kinase inhibitors.",
+            "vol": "69(9):3937-46."
+        },
+        {
+            "authors": "Christine Fritsch,Alan Huang,Christian Chatenay-Rivauday,et al.",
+            "date": "(2014)",
+            "journal": "Mol Cancer Ther",
+            "pmid": "[PMID:24608574]",
+            "title": "Characterization of the novel and specific PI3Kα inhibitor NVP-BYL719 and development of the patient stratification strategy for clinical trials.",
+            "vol": "13(5):1117-29."
+        },
+        {
+            "authors": "Li Ge,Ning Li,Mei Liu,et al.",
+            "date": "(2017)",
+            "journal": "Medicine (Baltimore)",
+            "pmid": "[PMID:28746220]",
+            "title": "Copy number variations of neurotrophic tyrosine receptor kinase 3 (NTRK3) may predict prognosis of ovarian cancer.",
+            "vol": "96(30):e7621."
+        },
+        {
+            "authors": "Hai-Su Yang,Bruce Horten",
+            "date": "(2014)",
+            "journal": "Exp Mol Pathol",
+            "pmid": "[PMID:25303898]",
+            "title": "Gain of copy number and amplification of the RET gene in lung cancer.",
+            "vol": "97(3):465-9."
+        }
+    ],
+    "therapeutic_regimen": [
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "9219a3ae737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": null,
+                    "drug_name": "NVP-BYL719",
+                    "regimen_code": "a7d4c2d2737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "NVP-BYL719",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:PIK3CA::Gain",
+            "var": [
+                {
+                    "gene_symbol": "PIK3CA",
+                    "cnv_type": "amplification"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准舒尼替尼用于经甲磺酸伊马替尼治疗进展或不耐受的胃肠间质瘤（GIST）患者。",
+                "NMPA批准舒尼替尼用于甲磺酸伊马替尼治疗失败或不能耐受的胃肠间质瘤（GIST）患者。",
+                "FDA批准舒尼替尼用于晚期肾细胞癌（RCC）患者。\nFDA批准舒尼替尼用于肾切除术后的复发的高危的肾细胞癌（RCC）成人患者的辅助治疗。",
+                "NMPA批准舒尼替尼用于不能手术的晚期肾细胞癌（GIST）患者。",
+                "FDA批准舒尼替尼用于不可切除的、局部晚期或转移性高分化进展期胰腺神经内分泌瘤（pNET）成年患者。",
+                "NMPA批准舒尼替尼用于不可切除的，转移性高分化进展期胰腺神经内分泌瘤（pNET）成年患者。"
+            ],
+            "adaptation_disease_en": [
+                "Sunitinib is indicated for the treatment of adult patients with gastrointestinal stromal tumor (GIST) after disease progression on or intolerance to imatinib mesylate.",
+                "Sunitinib is indicated for the treatment of adult patients with advanced renal cell carcinoma (RCC).",
+                "Sunitinb is indicated for treatment of progressive, well-differentiated pancreatic neuroendocrine tumors (pNET) in adult patients with unresectable locally advanced or metastatic."
+            ],
+            "approval_organization": [
+                "FDA",
+                "NCCN",
+                "NMPA"
+            ],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "9328bef6737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "舒尼替尼是一种抑制多种受体酪氨酸激酶(RTKs)的小分子，其中一些与肿瘤生长、病理血管生成和癌症转移进展有关。舒尼替是评价其抑制活性对各种激酶(激酶> 80)和被确认为一种抑制剂的血小板源生长因子受体(PDGFRα和PDGFRβ),血管内皮生长因子受体(VEGFR2 VEGFR1,和VEGFR3),干细胞因子受体(装备),Fms-like酪氨酸激酶3 (FLT3)集落刺激因子受体1型(CSF-1R)和胶质细胞系衍生神经营养因子受体(RET)。舒尼替尼对这些RTKs活性的抑制已在生化和细胞检测中得到证实，而对功能的抑制已在细胞增殖检测中得到证实。在生化和细胞检测中，初级代谢物与舒尼替尼表现出相似的效力。舒尼替尼可以抑制体内表达RTK靶点的肿瘤移植瘤中多种RTKs (PDGFR、VEGFR2、KIT)的磷酸化，并在一些癌症实验模型中显示可以抑制肿瘤生长或肿瘤消退和/或肿瘤转移。舒尼替尼在体外可以抑制表达异常RTKs (PDGFR、RET或KIT)的肿瘤细胞的生长，在体内可以抑制PDGFR fr和vegfr2依赖的肿瘤血管生成。",
+                    "drug_mechanism_en": "An indolinone derivative and tyrosine kinase inhibitor with potential antineoplastic activity. Sunitinib blocks the tyrosine kinase activities of vascular endothelial growth factor receptor 2 (VEGFR2), platelet-derived growth factor receptor b (PDGFRb), and c-kit, thereby inhibiting angiogenesis and cell proliferation.  This agent also inhibits the phosphorylation of Fms-related tyrosine kinase 3 (FLT3), another receptor tyrosine kinase expressed by some leukemic cells.",
+                    "drug_name": "舒尼替尼;Sunitinib",
+                    "regimen_code": "aba5364e737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "舒尼替尼",
+            "regimen_en": "Sunitinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:PDGFRA::Gain",
+            "var": [
+                {
+                    "gene_symbol": "PDGFRA",
+                    "cnv_type": "amplification"
+                }
+            ]
+        }
+    ]
+}

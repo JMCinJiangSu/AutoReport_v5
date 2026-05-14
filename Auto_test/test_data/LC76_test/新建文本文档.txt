@@ -1,0 +1,42 @@
+------------------------ptLC76---------------------
+**levelI
+**levelII
+**onconodrug
+**levelIII
+**KNB
+**N
+
+**Snvindel
+**CNV
+**SV
+**MSS/MSI-H
+**PD-L1肺癌 阳性
+**胚系
+**BCL2L11
+------------------------tLC76---------------------
+**levelI
+**levelII
+**onconodrug
+**levelIII
+**KNB
+**N
+
+**Snvindel
+**CNV
+**SV
+**MSS/MSI-H
+**PD-L1
+**BCL2L11
+------------------------gLC76---------------------
+**levelI
+**levelII
+**onconodrug
+**levelIII
+**KNB
+**N
+
+**Snvindel
+**SV
+**PD-L1肺癌 阳性 S22060104PD01
+**胚系
+**BCL2L11 SF220268PD01

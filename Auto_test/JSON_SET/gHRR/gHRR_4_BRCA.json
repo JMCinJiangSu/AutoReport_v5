@@ -1,0 +1,3986 @@
+{
+    "sample_info": {
+        "order_id": "BDRM-1817-HRR",
+        "sample_parent_id": null,
+        "sample_id": "BDRM-1817-HRR",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": "陈明艳",
+        "gender": "女",
+        "age": null,
+        "sample_type": "全血",
+        "control_sample_type": null,
+        "sample_amount": null,
+        "control_sample_amount": null,
+        "tumor_type": "乳腺癌",
+        "pathol_diagn": null,
+        "tumor_names_cn": "乳腺癌",
+        "pathological_id": null,
+        "company": "北京大学人民医院-检验科",
+        "origin_company": null,
+        "report_number": null,
+        "hosp_depart": null,
+        "prod_names": "HRR（全血）",
+        "prod_ids": "18",
+        "report_module_type": "hospital",
+        "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+        "mark": null,
+        "tumor_content": null,
+        "sample_position": null,
+        "sample_position_id": null,
+        "family_history": null,
+        "molecular_number": null,
+        "gather_data": null,
+        "receive_data": "2022-11-11",
+        "report_data": "2022-11-15",
+        "tumor_list": [
+            "乳腺癌",
+            "乳腺腺肌上皮瘤",
+            "乳腺原位导管癌",
+            "乳腺纤维上皮瘤",
+            "乳腺小叶原位癌",
+            "乳腺肿瘤（组织亚型不明）",
+            "乳腺肉瘤",
+            "炎性乳腺癌",
+            "浸润性乳腺癌",
+            "青少年乳腺分泌性癌",
+            "化生性乳腺癌",
+            "三阴性乳腺癌"
+        ]
+    },
+    "snvindel": [
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "PTEN",
+            "transcript_primary": "NM_000314.8",
+            "var_id": "7db7c6063e8e747f9641827457f5f001",
+            "hgvs_c": "c.234C>T",
+            "hgvs_p": "p.(T78=)",
+            "hgvs_p_abbr": "p.(Thr78=)",
+            "chr": "chr10",
+            "start": "89690827",
+            "end": "89690827",
+            "ref": "C",
+            "alt": "T",
+            "gene_region": "exon4",
+            "freq": 0.5031,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;WBC",
+            "igvplot": "/var/www/html/report_backend/system_files/json_file/20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754/BDRM-1817-HRR_BDRM-1817-HRR_AH2T5WAFX5_1/IGV/chr10_89690827_89690827_C_T.png",
+            "depth": 4216.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Likely benign",
+            "function_classification": "Likely benign",
+            "clinical_category": "Tier IV",
+            "literature": "21659347,21417916,25669429,9794233,16773562",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomADe、gnomADg数据库EAS人群频率分别为0.002976（3/1008）、0.0007046（6/8516）、0.0008722（16/18344）、0.001928（3/1556）；在多发性错构瘤样综合征患者(PMID: 16773562)、Cowden综合征和Bannayan-Riley-Ruvalcaba综合征患者（PMID: 21659347）、有个人或家族史的分化型甲状腺癌患者（PMID: 21417916）、小细胞肺癌患者（PMID: 9794233）、Cowden综合征/具有Cowden综合征相关特征患者（PMID: 25669429）中曾有报道。该变异在ClinVar数据库报道为Benign/Likely_benign（ID=127691，可靠度为两颗星）。该变异位于核酸非保守区域；基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BS1_Supporting;BP7",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "PTEN",
+                    "gene_region": "exon4",
+                    "hgvs_p_abbr": "p.(Thr78=)",
+                    "hgvs_c": "c.234C>T",
+                    "hgvs_p": "p.(T78=)"
+                }
+            },
+            "gene_function": "PTEN基因属于抑癌基因，在PI3K/AKT/mTOR信号通路中起着负调控作用，因此PTEN突变失活可能导致该信号通路异常激活，从而促进肿瘤的发生与发展。PTEN基因突变在多种肿瘤中均有发生，如乳腺癌、结直肠癌，甲状腺癌等，在结直肠癌中的发生概率约为5-14%，大部分属于功能失活突变（PMID: 21103049, PMID: 21163703）。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "MRE11",
+            "transcript_primary": "NM_005591.3",
+            "var_id": "480c5389dd6ace45b3775e69a553b89b",
+            "hgvs_c": "c.403-6G>A",
+            "hgvs_p": "p.?",
+            "hgvs_p_abbr": "p.?",
+            "chr": "chr11",
+            "start": "94212048",
+            "end": "94212048",
+            "ref": "C",
+            "alt": "T",
+            "gene_region": "intron5",
+            "freq": 0.9995,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Intronic",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2096.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为内含子区突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "MRE11",
+                    "gene_region": "intron5",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.403-6G>A",
+                    "hgvs_p": "p.?"
+                }
+            },
+            "gene_function": "MRE11, MRE11同源物，双链断裂修复核酸酶，作为参与DNA双链断裂修复的复合体的一部分，发挥调节端粒酶活性的作用(PMID: 22914783)。MRE11畸变与乳腺癌和卵巢癌相关(PMID: 25447316, PMID: 26436112)。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "ATM",
+            "transcript_primary": "NM_000051.3",
+            "var_id": "8881f35d9e39bb38d89f39a56defcabb",
+            "hgvs_c": "c.5948A>G",
+            "hgvs_p": "p.N1983S",
+            "hgvs_p_abbr": "p.Asn1983Ser",
+            "chr": "chr11",
+            "start": "108183167",
+            "end": "108183167",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "exon40",
+            "freq": 0.9974,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 5302.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomADe、gnomADg人群数据库频率分别为1（5008/5008）、1（121308/121308）、1（251212/251212）、1（31404/31404），华表数据库人群频率为0.9998（9902/9904）。ClinVar数据库报道为Benign（ID=133627，可靠度为两颗星）。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第1983位氨基酸由天冬酰胺突变为丝氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BA1;BP6",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "ATM",
+                    "gene_region": "exon40",
+                    "hgvs_p_abbr": "p.Asn1983Ser",
+                    "hgvs_c": "c.5948A>G",
+                    "hgvs_p": "p.N1983S"
+                }
+            },
+            "gene_function": "ATM基因属于抑癌基因，主要参与细胞内的DNA损伤响应机制。当DNA损伤或细胞压力积累到一定程度时，ATM基因负责启动DNA损伤检查信号，从而促进DNA损伤修复、细胞周期阻滞甚至细胞凋亡等进程（PMID: 17525332）。有研究认为，在部分实体瘤中，ATM基因的失活可能使肿瘤对免疫检查点抑制剂更加敏感（PMID: 29489427）。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BRCA2",
+            "transcript_primary": "NM_000059.3",
+            "var_id": "5a29f3727ff68c17c893e2b44057ea9f",
+            "hgvs_c": "c.1114A>C",
+            "hgvs_p": "p.N372H",
+            "hgvs_p_abbr": "p.Asn372His",
+            "chr": "chr13",
+            "start": "32906729",
+            "end": "32906729",
+            "ref": "A",
+            "alt": "C",
+            "gene_region": "exon10",
+            "freq": 0.9987,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 3106.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "12955716",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomADe、gnomADg数据库人群频率分别为0.249401（1249/5008）、0.27793（33565/120768）、（69869/249852）、0.22303（6996/31368），华表数据库人群频率为0.2697（2676/9922）；文献报道该变异在西班牙人群中频率为20%（PMID: 12955716）。该变异在BRCAExchange数据库专家组复核为Benign / Little Clinical Significance，ClinVar数据库报道为Benign（ID=9329，可靠度为三颗星）。基于整合预测工具REVEL认为该变异为neutral。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第372位氨基酸由天冬酰胺突变为组氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BA1;BP4;BP6",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon10",
+                    "hgvs_p_abbr": "p.Asn372His",
+                    "hgvs_c": "c.1114A>C",
+                    "hgvs_p": "p.N372H"
+                }
+            },
+            "gene_function": "BRCA2基因属于抑癌基因，参与了基因组稳定性的维持，尤其是双链DNA修复的同源重组途径。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BRCA2",
+            "transcript_primary": "NM_000059.3",
+            "var_id": "d7e8699ab0f8e53a60e7167fc0a2799c",
+            "hgvs_c": "c.4563A>G",
+            "hgvs_p": "p.(L1521=)",
+            "hgvs_p_abbr": "p.(Leu1521=)",
+            "chr": "chr13",
+            "start": "32913055",
+            "end": "32913055",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "exon11",
+            "freq": 0.9899,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 4746.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomADe、gnomADg数据库人群频率分别为0.974042（4878/5008）、0.993138（120124/120954）、0.994359（249256/250670）、0.979864（30754/31386），华表数据库人群频率为1（9922/9922）；在BRCAExchange数据库专家组复核为Benign / Little Clinical Significance，ClinVar数据库报道为Benign（ID=132779，可靠度为三颗星）。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BA1;BP7;BP6",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon11",
+                    "hgvs_p_abbr": "p.(Leu1521=)",
+                    "hgvs_c": "c.4563A>G",
+                    "hgvs_p": "p.(L1521=)"
+                }
+            },
+            "gene_function": "BRCA2基因属于抑癌基因，参与了基因组稳定性的维持，尤其是双链DNA修复的同源重组途径。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BRCA2",
+            "transcript_primary": "NM_000059.3",
+            "var_id": "d8479312538639f76639b62d1b304cc8",
+            "hgvs_c": "c.6513G>C",
+            "hgvs_p": "p.(V2171=)",
+            "hgvs_p_abbr": "p.(Val2171=)",
+            "chr": "chr13",
+            "start": "32915005",
+            "end": "32915005",
+            "ref": "G",
+            "alt": "C",
+            "gene_region": "exon11",
+            "freq": 0.9989,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 1800.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomADe、gnomADg数据库人群频率分别为0.973642（4876/5008）、0.993032（120143/120986）、0.994199（238206/239596）、0.979809（30766/31400），华表数据库人群频率为1（9916/9916）；在BRCAExchange数据库专家组复核为Benign / Little Clinical Significance，ClinVar数据库报道为Benign（ID=132780，可靠度为三颗星）。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon11",
+                    "hgvs_p_abbr": "p.(Val2171=)",
+                    "hgvs_c": "c.6513G>C",
+                    "hgvs_p": "p.(V2171=)"
+                }
+            },
+            "gene_function": "BRCA2基因属于抑癌基因，参与了基因组稳定性的维持，尤其是双链DNA修复的同源重组途径。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BRCA2",
+            "transcript_primary": "NM_000059.3",
+            "var_id": "698caed555b9fa5c138f95822de97b0d",
+            "hgvs_c": "c.7397T>C",
+            "hgvs_p": "p.V2466A",
+            "hgvs_p_abbr": "p.Val2466Ala",
+            "chr": "chr13",
+            "start": "32929387",
+            "end": "32929387",
+            "ref": "T",
+            "alt": "C",
+            "gene_region": "exon14",
+            "freq": 0.996,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 3262.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomADe、gnomADg数据库人群频率分别为0.975839（4887/5008）、0.993718（120542/121304）、0.994876（249881/251168）、0.981905（30822/31390），华表数据库人群频率为1（9922/9922）；在BRCAExchange数据库专家组未复核，ClinVar数据库报道为Benign（ID=133738，可靠度为两颗星）。基于整合预测工具REVEL认为该变异为neutral。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第2466位氨基酸由缬氨酸突变为丙氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon14",
+                    "hgvs_p_abbr": "p.Val2466Ala",
+                    "hgvs_c": "c.7397T>C",
+                    "hgvs_p": "p.V2466A"
+                }
+            },
+            "gene_function": "BRCA2基因属于抑癌基因，参与了基因组稳定性的维持，尤其是双链DNA修复的同源重组途径。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BRCA2",
+            "transcript_primary": "NM_000059.3",
+            "var_id": "0a6cc667703f844eaedb52f06607bebd",
+            "hgvs_c": "c.9130del",
+            "hgvs_p": "p.I3044Ffs*18",
+            "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+            "chr": "chr13",
+            "start": "32954156",
+            "end": "32954156",
+            "ref": "A",
+            "alt": "-",
+            "gene_region": "exon24",
+            "freq": 0.5,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "FrameShift_Deletion",
+            "tag": "PASS",
+            "igvplot": null,
+            "depth": 2074.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Likely pathogenic",
+            "function_classification": "Likely oncogenic",
+            "clinical_category": "Tier I",
+            "literature": "f2aaa612160d11eda7f1c7f1c3325cc0",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异可能形成功能损伤或失活的蛋白；在1000G、ExAC、gnomAD数据库无记录；在BRCAExchange、ClinVar数据库无记录。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为移码突变，导致基因编码蛋白第3044位氨基酸由异亮氨酸突变为苯丙氨酸并于3061位发生终止。",
+            "variant_desc_en": "",
+            "evidence_categorys": "PM2;PVS1",
+            "evi_sum": [
+                {
+                    "regimen_name": "奥拉帕利",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "f2aaa612160d11eda7f1c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": "FDA批准奥拉帕利适用于携带有害或疑似有害胚系变异（gBRCAm）的、HER2阴性、高风险早期乳腺癌成人患者的辅助治疗，这些患者既往接受过新辅助或辅助化疗。",
+                    "evi_adaptation_disease_en": "FDA approved Olaparib for the adjuvant treatment of adult patients with deleterious or suspected deleterious gBRCAm human epidermal growth factor receptor 2 (HER2)-negative high risk early breast cancer who have been treated with neoadjuvant or adjuvant chemotherapy.",
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项 III 期、双盲、平行随机的临床试验（OlympiA，NCT02032823，PMID: 34081848），入组1836例HER2阴性、携带BRCA1或BRCA2胚系致病性或疑似致病性变异、临床病理高危、接收过局部治疗和新辅助或辅助化疗的早期乳腺癌患者。患者按1:1比例随机分配到两组，分别接受1年的口服奥拉帕利或安慰剂治疗。研究主要终点为无侵袭性疾病生存期（iDFS）。研究结果显示，在预设事件驱动中期分析中，中位随访时间为2.5年，奥拉帕利组合安慰剂组的3年无侵袭性疾病生存率分别为85.9%和77.1%（差异8.8个百分点；95% CI，4.5-13.0；侵袭性疾病或死亡的HR为0.58；99.5% CI，0.41-0.82；P<0.001）；奥拉帕利组和安慰剂组的3年无病生存率分别为87.5%和80.4%（差异7.1个百分点；95% CI 3.0-11.1；无远处复发疾病或死亡的HR为0.57；99.5%CI，0.39-0.83；P<0.001）。与安慰剂组相比，奥拉帕利组的死亡率较低（分别为59%和86%）（HR为0.68；99%CI，0.44-1.05；P=0.02）。基于上述研究，FDA批准奥拉帕利适用于携带有害或疑似有害胚系变异（gBRCAm）的、HER2阴性、高风险早期乳腺癌成人患者的辅助治疗，这些患者既往接受过新辅助或辅助化疗。",
+                    "evidence_level": ""
+                },
+                {
+                    "regimen_name": "他拉唑帕利",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "f2aaa612160d11eda7f1c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准他拉唑帕利用于携带BRCA胚系有害或疑似有害突变（gBRCAm）的HER2阴性的局部晚期或转移性乳腺癌成人患者的治疗。",
+                    "evi_adaptation_disease_en": "FDA approved Talazoparib for the treatment of adult patients with deleterious or suspected deleterious germline BRCA-mutated (gBRCAm) HER2-negative locally advanced or metastatic breast cancer.",
+                    "evi_conclusion": "A1",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项随机、开放标签、双臂、多中心的III期临床试验（EMBRACA, NCT01945775），入组431名携带BRCA1/2胚系突变的局部晚期或转移性HER2阴性乳腺癌患者，患者既往接受过细胞毒性化疗方案不超过3种。患者被随机（2:1）分为2组，试验组（287例）接受他拉唑帕利（1 mg）治疗，对照组（144例）接受医疗机构选择的化疗（卡培他滨、艾立布林、吉西他滨或长春瑞滨）。研究结果显示，他拉唑帕利治疗组的无进展生存期（PFS）和客观缓解率（ORR）获益显著高于化疗组，两组的中位PFS和ORR分别为8.6个月 vs 5.6个月和50.1% vs 18.4%。基于上述研究，FDA批准他拉唑帕利用于携带BRCA胚系有害或疑似有害突变（gBRCAm）的HER2阴性的局部晚期或转移性乳腺癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predisposing",
+                    "refer_agency": "NCCN",
+                    "literature": "f2aaa612160d11eda7f1c7f1c3325cc0",
+                    "clinical_significance": "Risk Elevate",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A2",
+                    "evidence_level": "",
+                    "evi_interpretation": "BRCA1/2致病性/疑似致病性变异携带者终身患乳腺癌的外显率风险估计值为41%至90%，对侧乳腺癌风险增加。一项包括9856名未受影响的BRCA1/2携带者的前瞻性队列研究显示，到80岁时，BRCA2 致病性/疑似致病性变异携带者的乳腺癌累积风险为69%。乳腺癌诊断20年后，BRCA2 致病性/疑似致病性变异携带者的对侧乳腺癌累积风险估计为26%，在早期(即<40岁)被诊断为乳腺癌的患者中风险很大。出生时携带BRCA2致病性/疑似致病性变异的男性患癌症的风险也更大。在没有家族史的男性乳腺癌患者中，对于携带致病性/疑似致病性 BRCA2变异基因的男性，其一生中患乳腺癌的累积风险估计为7%至8%。在BRCA2致病性/疑似致病性变异的携带者中，观察到卵巢癌、输卵管和腹膜癌的风险增加。在侵袭性卵巢癌诊断的背景下，在4.2%到5.7%的患者中发现了BRCA2致病性/疑似致病性变异。胚系BRCA2 致病性/疑似致病性变异携带者与前列腺癌风险增加相关。BRCA2致病性/疑似致病性变异携带者的前列腺终身累积风险为60% (95% CI, 43%-78%)。胰腺癌患者中，携带BRCA2致病性/疑似致病性变异的比例在0%到17%之间(NCCN Genetic/Familial High-Risk Assessment: Breast, Ovarian and Pancreatic Version 1.2023)。"
+                },
+                {
+                    "regimen_name": "奥拉帕利+贝伐珠单抗",
+                    "tumor_name_cn": "卵巢/输卵管癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "f2aaa612160d11eda7f1c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准奥拉帕利联合贝伐珠单抗用于一线铂类为基础的化疗完全或部分缓解的、HRD阳性的晚期卵巢癌、输卵管癌或原发性腹膜癌成人患者的治疗，其中HRD阳性定义为携带BRCA有害或疑似有害突变或基因组不稳定。",
+                    "evi_adaptation_disease_en": "FDA approved Olaparib in combination with bevacizumab for the maintenance treatment of adult patients with advanced epithelial ovarian, fallopian tube or primary \nperitoneal cancer who are in complete or partial response to first-line platinum-based chemotherapy and whose cancer is associated with homologous recombination deficiency (HRD)-positive status defined by either: a deleterious or suspected deleterious BRCA mutation, and/or genomic instability.",
+                    "evi_conclusion": "C3",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项随机、双盲、安慰剂对照、多中心的III 期临床试验（PAOLA-1, NCT03737643），入组806例经一线含铂化疗和贝伐珠单抗治疗后达到完全缓解或部分缓解的晚期高级别上皮性卵巢癌、输卵管癌或原发性腹膜癌患者。患者按照2:1比例随机接受每日两次口服奥拉帕利（300mg）联合贝伐珠单抗（537例）或安慰剂联合贝伐珠单抗（269例）治疗，研究主要终点为无进展生存期（PFS），次要终点为总生存期（OS）。研究结果显示，奥拉帕利联合贝伐珠单抗治疗组对比安慰剂联合贝伐珠单抗治疗组的中位PFS分别为22.1 个月 和16.6 个月（HR 0.59; 95% CI: 0.49-0.72;p<0.0001）；同时，研究者对入组患者的HRD及tBRCAm进行了检测并分组分析，结果显示，对于HRD阳性患者，经奥拉帕利联合贝伐珠单抗治疗后PFS显著高于安慰剂组（28.1 个月 vs 16.6个月），tBRCA阳性患者经奥拉帕利联合贝伐珠单抗治疗后PFS同样显著高于安慰剂组（37.2 个月 vs 21.7 个月），而HRD和tBRCA同时阳性的患者PFS获益最为明显（37.2 个月 vs 17.7个月）。基于上述研究，FDA批准奥拉帕利联合贝伐珠单抗用于一线铂类为基础的化疗完全或部分缓解的、HRD阳性的晚期卵巢癌、输卵管癌或原发性腹膜癌成人患者的治疗，其中HRD阳性定义为携带BRCA有害或疑似有害突变或基因组不稳定。"
+                },
+                {
+                    "regimen_name": "尼拉帕利",
+                    "tumor_name_cn": "卵巢/输卵管癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "f2aaa612160d11eda7f1c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准尼拉帕利用于经3线及以上化疗的、HRD阳性（携带BRCA基因的致病或疑似致病性突变或基因组存在不稳定性并在对最后一次铂类化疗反应后6个月以上出现疾病进展）的晚期卵巢癌、输卵管癌及原发性腹膜癌成人患者的治疗。",
+                    "evi_adaptation_disease_en": "FDA approved Niraparib for the treatment of adult patients with advanced ovarian, fallopian tube or primary peritoneal cancer who have been treated with 3 or more prior chemotherapy regimens and whose cancer is associated with homologous recombination deficiency (HRD) positive status defined by either:\n1）a deleterious or suspected deleterious BRCA mutation, or\n2）genomic instability and who have progressed more than 6 months after response to the last platinum-based chemotherapy.",
+                    "evi_conclusion": "C3",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项单臂II期临床试验（QUADRA, NCT02354586），入组98名接受过3种或以上化疗的同源重组修复缺陷（HRD）阳性的晚期卵巢癌、输卵管癌或者原发性腹膜癌患者。HRD阳性定义为携带BRCA突变或基因组存在不稳定性（GIS>=42）。所有患者均接受每日一次口服尼拉帕利（300 mg）单药治疗。研究主要终点为客观缓解率（ORR）和缓解持续时间（DOR）。研究结果显示，98位患者的ORR为24%， DOR为8.3个月，而对于tBRCA突变阳性的患者，铂敏感组的ORR高达39%（7/18; 95% CI: [17,64]），铂类耐药组的ORR高达29%（6/21; 95% CI: [11, 52]）。基于上述研究，FDA批准尼拉帕利用于经3线及以上化疗的、HRD阳性（携带BRCA基因的致病或疑似致病性突变或基因组存在不稳定性并在对最后一次铂类化疗反应后6个月以上出现疾病进展）的晚期卵巢癌、输卵管癌及原发性腹膜癌成人患者的治疗。"
+                },
+                {
+                    "regimen_name": "氟唑帕利",
+                    "tumor_name_cn": "卵巢/输卵管癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NMPA",
+                    "literature": "f2aaa612160d11eda7f1c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "NMPA",
+                    "evi_adaptation_disease_cn": "NMPA批准氟唑帕利用于既往经过二线及以上化疗的伴有胚系BRCA突变(gBRCAm)的铂敏感复发性卵巢癌、输卵管癌或原发性腹膜癌患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项多中心、开放标签的II期临床试验（NCT03509636），入组113位既往接受过二线以上铂类化疗的伴有BRCA突变的铂敏感复发性卵巢癌、输卵管癌或原发性腹膜癌患者。研究结果显示，对可评估疗效的103位患者，氟唑帕利治疗的ORR和疾病控制率（DCR）分别为64.1％（66/103）和95.1％（98/103），在9位患者（8.7％）中观察到完全缓解（CR）。基于上述研究，NMPA批准氟唑帕利用于治疗既往经过二线及以上化疗的伴有 BRCA1/2 致病性或疑似致病性突变的复发性卵巢癌患者。"
+                },
+                {
+                    "regimen_name": "鲁卡帕尼",
+                    "tumor_name_cn": "前列腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "f2aaa612160d11eda7f1c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准鲁卡帕尼用于携带BRCA胚系或体系有害突变的、接受过雄激素受体的治疗及基于紫杉醇的方案化疗的转移性去势抵抗前列腺癌（mCRPC）成人患者的治疗。",
+                    "evi_adaptation_disease_en": "FDA approved Rucaparib for the treatment of adult patients with a deleterious BRCA mutation (germline and/or somatic)-associated metastatic castration-resistant prostate cancer (mCRPC) who have been treated with androgen receptor-directed therapy and a taxane-based chemotherapy. ",
+                    "evi_conclusion": "C3",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项多中心、单臂的II期临床试验（TRITON2，NCT02952534），入组115例既往接受过雄激素受体治疗和基于紫杉醇的方案化疗的携带BRCA有害突变（胚系和/或体细胞）的转移性去势抵抗性前列腺癌（mCRPC）成年患者，其中62例患者在独立放射学基线检查时有可测量的疾病。患者接受每日两次口服600 mg鲁卡帕尼单药治疗。研究主要终点为客观缓解率（ORR）及缓解持续时间（DOR）。研究结果显示，鲁卡帕尼治疗患者的ORR为44%，56%患者的DOR超过6个月。基于上述研究，FDA批准鲁卡帕尼用于携带BRCA胚系或体系有害突变的、接受过雄激素受体的治疗及基于紫杉醇的方案化疗的转移性去势抵抗前列腺癌（mCRPC）成人患者的治疗。"
+                },
+                {
+                    "regimen_name": "帕米帕利",
+                    "tumor_name_cn": "卵巢/输卵管癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NMPA",
+                    "literature": "f2aaa612160d11eda7f1c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "NMPA",
+                    "evi_adaptation_disease_cn": "NMPA批准帕米帕利用于既往经过二线及以上化疗的伴有胚系BRCA（gBRCA）突变的复发性晚期卵巢癌、输卵管癌或原发性腹膜癌患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项多中心、开放标签I/II期临床试验（NCT03333915）的II期临床部分，入组113例既往接受过至少两项标准化疗、携有胚系BRCA1/2突变的高级别上皮性卵巢癌（包括输卵管癌或原发性腹膜癌）或高级别子宫内膜上皮样癌中国患者，其中包括90例晚期铂敏感卵巢癌患者（队列1）和23例晚期铂耐药卵巢癌患者（队列2）。患者接受帕米帕利每日两次口服用药、每次60 mg的治疗，试验的主要终点为客观缓解率（ORR）。在101例疗效可评估患者中，队列1中的铂敏感卵巢癌患者的中位随访时间为17.0个月，ORR为68.3%，中位缓解持续时间（DOR）为13.8个月；队列2中的铂耐药卵巢癌患者的中位随访时间为11.6个月，ORR为31.6%，中位DOR为11.1个月。基于上述研究，NMPA附条件批准帕米帕利用于治疗既往经过二线及以上化疗、伴有胚系BRCA（gBRCA）突变的复发性晚期卵巢癌、输卵管癌或原发性腹膜癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "尼拉帕利+醋酸阿比特龙+泼尼松",
+                    "tumor_name_cn": "前列腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "f2aaa612160d11eda7f1c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C4",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项 III 期、双盲、平行随机的临床试验（NCT03748641），入组符合条件的转移性去势抵抗性前列腺癌患者，既往接受过不超过4个月的醋酸阿比特龙和波尼松（abiraterone acetate and prednisone，AAP）治疗。携带HRR相关基因突变（ATM、BRCA1、BRCA2、BRIP1、CDK12、CHEK2、FANCA、HDAC2、PALB2）和未携带HRR相关基因突变的患者按照1：1随机分配到两组，分别接受尼拉帕利联合AAP治疗或安慰剂联合AAP治疗。主要终点是在BRCA1/2亚组中通过盲法独立中央审查（BICR）评估的放射学无进展生存期（rPFS），然后是对所有HRR相关基因突变组进行分析；次要终点是细胞毒性化疗开始时间、疾病进展时间和总生存期；其他终点包括PSA进展时间和客观缓解率。研究结果显示，有423名HRR相关基因突变的患者被分配到2个治疗组中，BICR结果显示，尼拉帕利联合AAP治疗与安慰剂联合AAP治疗相比，显著改善BRCA1/2亚组和所有HRR相关基因突变组患者的放射学无进展生存期，将进展或死亡风险分别降低47%（16.6个月 vs 10.9个月）和27%（16.5个月 vs 13.7个月）；研究者评估rPFS与BICR一致。尼拉帕利联合AAP治疗延迟了细胞毒性化疗开始时间、疾病进展时间、PSA进展时间，并改善了HRR相关基因突变患者的客观缓解率。毒性分析显示，两组的总体生活质量没有临床显著差异。研究结论为，尼拉帕利联合AAP治疗改善了HRR相关基因突变的转移性去势抵抗性前列腺癌患者的rPFS和其他临床结果。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "泼尼松",
+                    "鲁卡帕尼",
+                    "他拉唑帕利",
+                    "氟唑帕利",
+                    "帕米帕利",
+                    "奥拉帕利",
+                    "尼拉帕利",
+                    "贝伐珠单抗",
+                    "醋酸阿比特龙"
+                ],
+                "var": {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            },
+            "gene_function": "BRCA2基因属于抑癌基因，参与了基因组稳定性的维持，尤其是双链DNA修复的同源重组途径。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "PALB2",
+            "transcript_primary": "NM_024675.4",
+            "var_id": "26c9c3cc68baa6e614c67e2d466822f9",
+            "hgvs_c": "c.1676A>G",
+            "hgvs_p": "p.Q559R",
+            "hgvs_p_abbr": "p.Gln559Arg",
+            "chr": "chr16",
+            "start": "23646191",
+            "end": "23646191",
+            "ref": "T",
+            "alt": "C",
+            "gene_region": "exon4",
+            "freq": 0.4978,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2280.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomADe、gnomADg数据库人群频率分别为0.1508（755/5008）、0.1176（12830/109096）、0.1045（26075/249632）、0.1289（4042/31364），iJGVD数据库人群频率为0.2047（3431/16760），华表数据库人群频率为0.1645（1631/9916）；在ClinVar数据库报道为Benign/Likely_benign（ID=126613，可靠度为两颗星）。基于整合预测工具REVEL认为该变异为neutral。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第559位氨基酸由谷氨酰胺突变为精氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BA1;BP4;BP6",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "PALB2",
+                    "gene_region": "exon4",
+                    "hgvs_p_abbr": "p.Gln559Arg",
+                    "hgvs_c": "c.1676A>G",
+                    "hgvs_p": "p.Q559R"
+                }
+            },
+            "gene_function": "PALB2基因属于抑癌基因，编码DNA修复因子和BRCA2结合蛋白（PMID:16793542）。PALB2在同源重组（HR）途径中充当支架蛋白，用于修复双链DNA断裂，可能在受损基因座上介导BRCA2和RAD51的募集（PMID:19423707）。PALB2还与BRCA1相互作用，在HR途径中充当BRCA1和BRCA2之间的中介因子（PMID:19268590;PMID:19584259）。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "CDH1",
+            "transcript_primary": "NM_004360.5",
+            "var_id": "cb35bc8f5b04ce7ba7466b601dbbb4a3",
+            "hgvs_c": "c.48+6C>T",
+            "hgvs_p": "p.?",
+            "hgvs_p_abbr": "p.?",
+            "chr": "chr16",
+            "start": "68771372",
+            "end": "68771372",
+            "ref": "C",
+            "alt": "T",
+            "gene_region": "intron1",
+            "freq": 0.9986,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Intronic",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 5885.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为内含子区突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "CDH1",
+                    "gene_region": "intron1",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.48+6C>T",
+                    "hgvs_p": "p.?"
+                }
+            },
+            "gene_function": "CDH1，钙黏着蛋白1，类型1，编码E-钙黏着蛋白，是一种肿瘤抑制因子（PMID: 30562755），参与上皮细胞-细胞粘附，细胞信号传导，分化和极性（PMID: 18726070, PMID: 26674224）。 CDH1胚系突变与遗传性弥漫性胃癌（PMID: 30562755）相关，并且在胃癌，乳腺癌，结肠癌和NSCLC癌症中发现了体细胞突变（PMID: 27283171, PMID: 25184143）。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "FANCA",
+            "transcript_primary": "NM_000135.4",
+            "var_id": "ef68742fb8225a42cd7b102f48338991",
+            "hgvs_c": "c.2426G>A",
+            "hgvs_p": "p.G809D",
+            "hgvs_p_abbr": "p.Gly809Asp",
+            "chr": "chr16",
+            "start": "89836323",
+            "end": "89836323",
+            "ref": "C",
+            "alt": "T",
+            "gene_region": "exon26",
+            "freq": 0.9959,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2432.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第809位氨基酸由甘氨酸突变为天冬氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "FANCA",
+                    "gene_region": "exon26",
+                    "hgvs_p_abbr": "p.Gly809Asp",
+                    "hgvs_c": "c.2426G>A",
+                    "hgvs_p": "p.G809D"
+                }
+            },
+            "gene_function": "FANCA基因是抑癌基因，编码蛋白是范可尼贫血核复合体的成员，参与DNA修复（PMID: 11673408; PMID: 12509764）。胚系FANCA突变与范可尼贫血相关，范可尼贫血易患各种癌症，包括急性髓系白血病(PMID: 12509764, PMID: 25455269)。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "FANCA",
+            "transcript_primary": "NM_000135.4",
+            "var_id": "c34997782f296df93e2e151ed077bfcc",
+            "hgvs_c": "c.2151+8T>C",
+            "hgvs_p": "p.?",
+            "hgvs_p_abbr": "p.?",
+            "chr": "chr16",
+            "start": "89838078",
+            "end": "89838078",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "intron23",
+            "freq": 0.9989,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Intronic",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 1838.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomADe、gnomADg数据库人群频率分别为0.5599（2804/5008）、0.4315（52371/121374）、0.4376（110023/251442）、0.4089（12794/31290）；在ClinVar数据库报道为Benign（ID=255245，可靠度为两颗星）。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为内含子区突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "FANCA",
+                    "gene_region": "intron23",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.2151+8T>C",
+                    "hgvs_p": "p.?"
+                }
+            },
+            "gene_function": "FANCA基因是抑癌基因，编码蛋白是范可尼贫血核复合体的成员，参与DNA修复（PMID: 11673408; PMID: 12509764）。胚系FANCA突变与范可尼贫血相关，范可尼贫血易患各种癌症，包括急性髓系白血病(PMID: 12509764, PMID: 25455269)。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "FANCA",
+            "transcript_primary": "NM_000135.4",
+            "var_id": "b2ea90f3c178af7e233620303c7fa6f3",
+            "hgvs_c": "c.1501G>A",
+            "hgvs_p": "p.G501S",
+            "hgvs_p_abbr": "p.Gly501Ser",
+            "chr": "chr16",
+            "start": "89849480",
+            "end": "89849480",
+            "ref": "C",
+            "alt": "T",
+            "gene_region": "exon16",
+            "freq": 0.5145,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2373.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第501位氨基酸由甘氨酸突变为丝氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "FANCA",
+                    "gene_region": "exon16",
+                    "hgvs_p_abbr": "p.Gly501Ser",
+                    "hgvs_c": "c.1501G>A",
+                    "hgvs_p": "p.G501S"
+                }
+            },
+            "gene_function": "FANCA基因是抑癌基因，编码蛋白是范可尼贫血核复合体的成员，参与DNA修复（PMID: 11673408; PMID: 12509764）。胚系FANCA突变与范可尼贫血相关，范可尼贫血易患各种癌症，包括急性髓系白血病(PMID: 12509764, PMID: 25455269)。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "FANCA",
+            "transcript_primary": "NM_000135.4",
+            "var_id": "41f54b295723c030e2a05fb340bd0c19",
+            "hgvs_c": "c.796A>G",
+            "hgvs_p": "p.T266A",
+            "hgvs_p_abbr": "p.Thr266Ala",
+            "chr": "chr16",
+            "start": "89866043",
+            "end": "89866043",
+            "ref": "T",
+            "alt": "C",
+            "gene_region": "exon9",
+            "freq": 0.997,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 4324.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第266位氨基酸由苏氨酸突变为丙氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "FANCA",
+                    "gene_region": "exon9",
+                    "hgvs_p_abbr": "p.Thr266Ala",
+                    "hgvs_c": "c.796A>G",
+                    "hgvs_p": "p.T266A"
+                }
+            },
+            "gene_function": "FANCA基因是抑癌基因，编码蛋白是范可尼贫血核复合体的成员，参与DNA修复（PMID: 11673408; PMID: 12509764）。胚系FANCA突变与范可尼贫血相关，范可尼贫血易患各种癌症，包括急性髓系白血病(PMID: 12509764, PMID: 25455269)。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "TP53",
+            "transcript_primary": "NM_000546.5",
+            "var_id": "75c281a9ad4c1aa28c17466cf1b5cd2d",
+            "hgvs_c": "c.215C>G",
+            "hgvs_p": "p.P72R",
+            "hgvs_p_abbr": "p.Pro72Arg",
+            "chr": "chr17",
+            "start": "7579472",
+            "end": "7579472",
+            "ref": "G",
+            "alt": "C",
+            "gene_region": "exon4",
+            "freq": 0.9892,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 3150.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、gnomADe、gnomADg、ExAC数据库人群频率分别为0.542931（2719/5008）、0.668165（167398/250534）、0.620657（19434/31312）、0.6600（79805/120924）；FLOSSIES在8372名60岁以上且没有确诊癌症的女性中曾有报道。该变异在ClinVar数据库报道为Benign（ID=12351，可靠度为两颗星）。Cancer Hotspots数据库无记录。基于整合预测工具REVEL认为该变异为neutral。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第72位氨基酸由脯氨酸突变为精氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BA1;BP4",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "TP53",
+                    "gene_region": "exon4",
+                    "hgvs_p_abbr": "p.Pro72Arg",
+                    "hgvs_c": "c.215C>G",
+                    "hgvs_p": "p.P72R"
+                }
+            },
+            "gene_function": "TP53基因是细胞内最重要的抑癌基因之一，其突变失活或异常对肿瘤的发生和发展起到至关重要的推动作用。TP53基因突变广泛地发生于多种肿瘤中，是人类肿瘤中最常见的突变基因。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "ERBB2",
+            "transcript_primary": "NM_004448.3",
+            "var_id": "cc4b12a0fece526666523fe4607a912e",
+            "hgvs_c": "c.1963A>G",
+            "hgvs_p": "p.I655V",
+            "hgvs_p_abbr": "p.Ile655Val",
+            "chr": "chr17",
+            "start": "37879588",
+            "end": "37879588",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "exon17",
+            "freq": 0.5418,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2163.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "ClinVar数据库记录该突变为Benign（ClinVarID=13873）。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第655位氨基酸由异亮氨酸突变为缬氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "ERBB2",
+                    "gene_region": "exon17",
+                    "hgvs_p_abbr": "p.Ile655Val",
+                    "hgvs_c": "c.1963A>G",
+                    "hgvs_p": "p.I655V"
+                }
+            },
+            "gene_function": "ERBB2基因属于原癌基因，编码的蛋白属于表皮生长因子受体家族，也属于受体酪氨酸激酶家族。ERBB2没有与配体结合的结构域，但可以与家族成员形成异源二聚体来结合配体如表皮生长因子（EGF），从而通过磷酸化激活下游蛋白如MAPK和PI3K。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "ERBB2",
+            "transcript_primary": "NM_004448.3",
+            "var_id": "0c5f870aa346a77588c363280e207298",
+            "hgvs_c": "c.3508C>G",
+            "hgvs_p": "p.P1170A",
+            "hgvs_p_abbr": "p.Pro1170Ala",
+            "chr": "chr17",
+            "start": "37884037",
+            "end": "37884037",
+            "ref": "C",
+            "alt": "G",
+            "gene_region": "exon27",
+            "freq": 0.9978,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2246.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "ClinVar数据库记录该突变为Benign（ClinVarID=134082）",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第1170位氨基酸由脯氨酸突变为丙氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "ERBB2",
+                    "gene_region": "exon27",
+                    "hgvs_p_abbr": "p.Pro1170Ala",
+                    "hgvs_c": "c.3508C>G",
+                    "hgvs_p": "p.P1170A"
+                }
+            },
+            "gene_function": "ERBB2基因属于原癌基因，编码的蛋白属于表皮生长因子受体家族，也属于受体酪氨酸激酶家族。ERBB2没有与配体结合的结构域，但可以与家族成员形成异源二聚体来结合配体如表皮生长因子（EGF），从而通过磷酸化激活下游蛋白如MAPK和PI3K。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "HOXB13",
+            "transcript_primary": "NM_006361.5",
+            "var_id": "d3ebf3f059415ed6670301e732064c12",
+            "hgvs_c": "c.513T>C",
+            "hgvs_p": "p.(S171=)",
+            "hgvs_p_abbr": "p.(Ser171=)",
+            "chr": "chr17",
+            "start": "46805443",
+            "end": "46805443",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "exon1",
+            "freq": 0.5038,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 4077.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异在1000G数据库人群频率为0.121（607/5008），gnomADe数据库人群频率为0.117（29349/251426），gnomADg数据库人群频率为0.103（3239/31374），ExAC数据库人群频率为0.111（121412）；在ClinVar数据库报道为Benign（ID=480871，可靠度为两颗星）。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BA1;BP6;BP7",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "HOXB13",
+                    "gene_region": "exon1",
+                    "hgvs_p_abbr": "p.(Ser171=)",
+                    "hgvs_c": "c.513T>C",
+                    "hgvs_p": "p.(S171=)"
+                }
+            },
+            "gene_function": "HOXB13与雄激素受体（AR）相互作用，在前列腺癌发生发展中起到关键作用。其与AR的DNA-结合域结合，从而抑制包含雄激素应答原件（ARE）的基因的转录；目前已发现HOXB13 G84E突变与遗传性前列腺癌的患病风险增加相关。Ewing等还发现了另外4个突变也与之相关（PMID22236224）。另外有研究发现，RFX6基因上的多态性位点rs339331的T等位基因的表达产物也能与HOXB13基因相互作用而影响前列腺癌的患病风险（PMID24390282）。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BRIP1",
+            "transcript_primary": "NM_032043.3",
+            "var_id": "4220e7a555f5891c5c2e833aa0fda204",
+            "hgvs_c": "c.3411T>C",
+            "hgvs_p": "p.(Y1137=)",
+            "hgvs_p_abbr": "p.(Tyr1137=)",
+            "chr": "chr17",
+            "start": "59760996",
+            "end": "59760996",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "exon20",
+            "freq": 0.5165,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 5067.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BRIP1",
+                    "gene_region": "exon20",
+                    "hgvs_p_abbr": "p.(Tyr1137=)",
+                    "hgvs_c": "c.3411T>C",
+                    "hgvs_p": "p.(Y1137=)"
+                }
+            },
+            "gene_function": "BRIP1基因属于抑癌基因，是RecQ DEAH解旋酶家族的成员，参与DNA受损修复过程。BRIP1蛋白与BRCA1基因所编码的蛋白质相互作用，共同修补受损的DNA链，从而阻止细胞内积累过多可能触发其分裂失控的基因损伤。有研究表明，BRIP1与遗传性乳腺癌（PMID:11301010;PMID:17033622）、卵巢癌（PMID:21964575）、前列腺癌（PMID:19127258）以及范可尼贫血（FA）相关，其胚系致病性突变可能会增加这些疾病的患病风险。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BRIP1",
+            "transcript_primary": "NM_032043.3",
+            "var_id": "7aaab46b8ad0bbc7b50461365845905f",
+            "hgvs_c": "c.2755T>C",
+            "hgvs_p": "p.S919P",
+            "hgvs_p_abbr": "p.Ser919Pro",
+            "chr": "chr17",
+            "start": "59763347",
+            "end": "59763347",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "exon19",
+            "freq": 0.5161,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 4584.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第919位氨基酸由丝氨酸突变为脯氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BRIP1",
+                    "gene_region": "exon19",
+                    "hgvs_p_abbr": "p.Ser919Pro",
+                    "hgvs_c": "c.2755T>C",
+                    "hgvs_p": "p.S919P"
+                }
+            },
+            "gene_function": "BRIP1基因属于抑癌基因，是RecQ DEAH解旋酶家族的成员，参与DNA受损修复过程。BRIP1蛋白与BRCA1基因所编码的蛋白质相互作用，共同修补受损的DNA链，从而阻止细胞内积累过多可能触发其分裂失控的基因损伤。有研究表明，BRIP1与遗传性乳腺癌（PMID:11301010;PMID:17033622）、卵巢癌（PMID:21964575）、前列腺癌（PMID:19127258）以及范可尼贫血（FA）相关，其胚系致病性突变可能会增加这些疾病的患病风险。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BRIP1",
+            "transcript_primary": "NM_032043.3",
+            "var_id": "f4f07146e487bc6bf91f8def2a3e398f",
+            "hgvs_c": "c.2637A>G",
+            "hgvs_p": "p.(E879=)",
+            "hgvs_p_abbr": "p.(Glu879=)",
+            "chr": "chr17",
+            "start": "59763465",
+            "end": "59763465",
+            "ref": "T",
+            "alt": "C",
+            "gene_region": "exon19",
+            "freq": 0.9936,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 4683.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BRIP1",
+                    "gene_region": "exon19",
+                    "hgvs_p_abbr": "p.(Glu879=)",
+                    "hgvs_c": "c.2637A>G",
+                    "hgvs_p": "p.(E879=)"
+                }
+            },
+            "gene_function": "BRIP1基因属于抑癌基因，是RecQ DEAH解旋酶家族的成员，参与DNA受损修复过程。BRIP1蛋白与BRCA1基因所编码的蛋白质相互作用，共同修补受损的DNA链，从而阻止细胞内积累过多可能触发其分裂失控的基因损伤。有研究表明，BRIP1与遗传性乳腺癌（PMID:11301010;PMID:17033622）、卵巢癌（PMID:21964575）、前列腺癌（PMID:19127258）以及范可尼贫血（FA）相关，其胚系致病性突变可能会增加这些疾病的患病风险。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "FANCL",
+            "transcript_primary": "NM_018062.3",
+            "var_id": "863abd2673989448f7dd8b6711adcb2a",
+            "hgvs_c": "c.981T>C",
+            "hgvs_p": "p.(S327=)",
+            "hgvs_p_abbr": "p.(Ser327=)",
+            "chr": "chr2",
+            "start": "58388696",
+            "end": "58388696",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "exon12",
+            "freq": 0.5102,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 3910.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、gnomADe、gnomADg、ExAC数据库人群频率分别为0.7065（3539/5009）、0.6434（161260/250620）、0.6978（21857/31322）、0.6487（78522/121051）；在ClinVar数据库报道为Benign（ID=257495，可靠度为两颗星）。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BA1;BP6;BP7",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "FANCL",
+                    "gene_region": "exon12",
+                    "hgvs_p_abbr": "p.(Ser327=)",
+                    "hgvs_c": "c.981T>C",
+                    "hgvs_p": "p.(S327=)"
+                }
+            },
+            "gene_function": "FANCL基因属于抑癌基因，编码E3泛素连接酶，参与DNA修复。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BARD1",
+            "transcript_primary": "NM_000465.4",
+            "var_id": "a24ef8bb94ce1b370694e47e60b8a49c",
+            "hgvs_c": "c.1518_1519inv",
+            "hgvs_p": "p.V507M",
+            "hgvs_p_abbr": "p.Val507Met",
+            "chr": "chr2",
+            "start": "215632255",
+            "end": "215632256",
+            "ref": "CA",
+            "alt": "TG",
+            "gene_region": "exon6",
+            "freq": 0.5033,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2541.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "14550946",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异可以拆成2个位点，可以拆成2个位点，分别为位点1（2-215632255-C-T，c.1519G>A(p.Val507Met)）、位点2（2-215632256-A-G，c.1518T>C (p.His506=)）。位点1在1000G、ExAC、gnomADe、gnomADg数据库人群频率分别为0.366214（1834/5008）、0.378332（45875/121256）、0.373916（93956/251276）、0.383964（12025/31318）；在家族性乳腺癌患者（PMID: 14550946）中曾有报道。该变异在ClinVar数据库报道为Benign/Likely_benign（ID=140757，可靠度为两颗星）。错义影响预测结果为：4种软件（MutationTaster、PolyPhen-2、PROVEAN、SIFT）预测为无害。位点2在1000G、ExAC、gnomADe、gnomADg数据库人群频率分别为0.770567（3859/5008）、0.813419（98671/121304）、0.816929（205304/251312）、0.766073（23998/31326）；在ClinVar数据库报道为Benign（ID=183704​，可靠度为两颗星）。剪接影响预测结果为：3种软件（FSPLICE、NetGene2、NNsplice）预测为不影响剪接，1种软件（HSF）预测为影响剪接。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第507位氨基酸由缬氨酸突变为蛋氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BA1;BP4;BP7;BP6",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BARD1",
+                    "gene_region": "exon6",
+                    "hgvs_p_abbr": "p.Val507Met",
+                    "hgvs_c": "c.1518_1519inv",
+                    "hgvs_p": "p.V507M"
+                }
+            },
+            "gene_function": "BARD1，BRCA1关联的RING域1，与Brca1形成异源二聚体，可作为E3泛素连接酶和通过同源直接修复（HDR）（PMID: 8944023, PMID: 30925164）及中心体调控（PMID: 29858377）进行DNA修复的介体。BARD1胚系突变与乳腺癌和卵巢癌的易感性增加相关（PMID: 21344236），BARD1体细胞突变在结肠和子宫内膜癌中的发生频率最高（PMID: 27283171），BARD1也与神经母细胞瘤有关（PMID: 32047556）。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BARD1",
+            "transcript_primary": "NM_000465.4",
+            "var_id": "a55f6cd70c34a179ea21032bcafe77ff",
+            "hgvs_c": "c.1518T>C",
+            "hgvs_p": "p.(H506=)",
+            "hgvs_p_abbr": "p.(His506=)",
+            "chr": "chr2",
+            "start": "215632256",
+            "end": "215632256",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "exon6",
+            "freq": 0.4917,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2544.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BARD1",
+                    "gene_region": "exon6",
+                    "hgvs_p_abbr": "p.(His506=)",
+                    "hgvs_c": "c.1518T>C",
+                    "hgvs_p": "p.(H506=)"
+                }
+            },
+            "gene_function": "BARD1，BRCA1关联的RING域1，与Brca1形成异源二聚体，可作为E3泛素连接酶和通过同源直接修复（HDR）（PMID: 8944023, PMID: 30925164）及中心体调控（PMID: 29858377）进行DNA修复的介体。BARD1胚系突变与乳腺癌和卵巢癌的易感性增加相关（PMID: 21344236），BARD1体细胞突变在结肠和子宫内膜癌中的发生频率最高（PMID: 27283171），BARD1也与神经母细胞瘤有关（PMID: 32047556）。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BARD1",
+            "transcript_primary": "NM_000465.4",
+            "var_id": "46828b492d4ef165d1247a61385eb0a3",
+            "hgvs_c": "c.1134G>C",
+            "hgvs_p": "p.R378S",
+            "hgvs_p_abbr": "p.Arg378Ser",
+            "chr": "chr2",
+            "start": "215645464",
+            "end": "215645464",
+            "ref": "C",
+            "alt": "G",
+            "gene_region": "exon4",
+            "freq": 0.488,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 4943.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第378位氨基酸由精氨酸突变为丝氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BARD1",
+                    "gene_region": "exon4",
+                    "hgvs_p_abbr": "p.Arg378Ser",
+                    "hgvs_c": "c.1134G>C",
+                    "hgvs_p": "p.R378S"
+                }
+            },
+            "gene_function": "BARD1，BRCA1关联的RING域1，与Brca1形成异源二聚体，可作为E3泛素连接酶和通过同源直接修复（HDR）（PMID: 8944023, PMID: 30925164）及中心体调控（PMID: 29858377）进行DNA修复的介体。BARD1胚系突变与乳腺癌和卵巢癌的易感性增加相关（PMID: 21344236），BARD1体细胞突变在结肠和子宫内膜癌中的发生频率最高（PMID: 27283171），BARD1也与神经母细胞瘤有关（PMID: 32047556）。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BARD1",
+            "transcript_primary": "NM_000465.4",
+            "var_id": "ebaf8f67d7bd31394c4d618a16253f9f",
+            "hgvs_c": "c.1053G>C",
+            "hgvs_p": "p.(T351=)",
+            "hgvs_p_abbr": "p.(Thr351=)",
+            "chr": "chr2",
+            "start": "215645545",
+            "end": "215645545",
+            "ref": "C",
+            "alt": "G",
+            "gene_region": "exon4",
+            "freq": 0.5057,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2903.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BARD1",
+                    "gene_region": "exon4",
+                    "hgvs_p_abbr": "p.(Thr351=)",
+                    "hgvs_c": "c.1053G>C",
+                    "hgvs_p": "p.(T351=)"
+                }
+            },
+            "gene_function": "BARD1，BRCA1关联的RING域1，与Brca1形成异源二聚体，可作为E3泛素连接酶和通过同源直接修复（HDR）（PMID: 8944023, PMID: 30925164）及中心体调控（PMID: 29858377）进行DNA修复的介体。BARD1胚系突变与乳腺癌和卵巢癌的易感性增加相关（PMID: 21344236），BARD1体细胞突变在结肠和子宫内膜癌中的发生频率最高（PMID: 27283171），BARD1也与神经母细胞瘤有关（PMID: 32047556）。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BARD1",
+            "transcript_primary": "NM_000465.4",
+            "var_id": "08615139b92fb6909c728da192d684c2",
+            "hgvs_c": "c.70C>T",
+            "hgvs_p": "p.P24S",
+            "hgvs_p_abbr": "p.Pro24Ser",
+            "chr": "chr2",
+            "start": "215674224",
+            "end": "215674224",
+            "ref": "G",
+            "alt": "A",
+            "gene_region": "exon1",
+            "freq": 0.5538,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 3848.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第24位氨基酸由脯氨酸突变为丝氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BARD1",
+                    "gene_region": "exon1",
+                    "hgvs_p_abbr": "p.Pro24Ser",
+                    "hgvs_c": "c.70C>T",
+                    "hgvs_p": "p.P24S"
+                }
+            },
+            "gene_function": "BARD1，BRCA1关联的RING域1，与Brca1形成异源二聚体，可作为E3泛素连接酶和通过同源直接修复（HDR）（PMID: 8944023, PMID: 30925164）及中心体调控（PMID: 29858377）进行DNA修复的介体。BARD1胚系突变与乳腺癌和卵巢癌的易感性增加相关（PMID: 21344236），BARD1体细胞突变在结肠和子宫内膜癌中的发生频率最高（PMID: 27283171），BARD1也与神经母细胞瘤有关（PMID: 32047556）。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "ATR",
+            "transcript_primary": "NM_001184.4",
+            "var_id": "84fcf0a5b7c5adc498c91a5940e63992",
+            "hgvs_c": "c.7875G>A",
+            "hgvs_p": "p.(Q2625=)",
+            "hgvs_p_abbr": "p.(Gln2625=)",
+            "chr": "chr3",
+            "start": "142168331",
+            "end": "142168331",
+            "ref": "C",
+            "alt": "T",
+            "gene_region": "exon47",
+            "freq": 0.9965,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2569.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "ATR",
+                    "gene_region": "exon47",
+                    "hgvs_p_abbr": "p.(Gln2625=)",
+                    "hgvs_c": "c.7875G>A",
+                    "hgvs_p": "p.(Q2625=)"
+                }
+            },
+            "gene_function": "ATR属于抑癌基因，编码共济失调毛细管扩张和Rad3相关蛋白，该蛋白属于丝氨酸/苏氨酸激酶，参与DNA损伤反应。ATR通过激活细胞周期检查点和DNA修复途径来应对DNA损伤和单链DNA（PMID: 17157788），它还参与调节端粒的维持、DNA复制的起始和减数分裂（PMID: 23824539）。ATR的胚系突变与癌症易感性和Seckel综合征有关, 体细胞突变与微卫星不稳定性有关，并发现于结肠癌，尿路上皮癌，胃癌，子宫内膜癌和骨髓瘤（PMID: 19470935）。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "HDAC2",
+            "transcript_primary": "NM_001527.4",
+            "var_id": "9d32e62dce35f953b09034586275cad6",
+            "hgvs_c": "c.1050C>T",
+            "hgvs_p": "p.(N350=)",
+            "hgvs_p_abbr": "p.(Asn350=)",
+            "chr": "chr6",
+            "start": "114266567",
+            "end": "114266567",
+            "ref": "G",
+            "alt": "A",
+            "gene_region": "exon10",
+            "freq": 0.4773,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS",
+            "igvplot": "/var/www/html/report_backend/system_files/json_file/20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754/BDRM-1817-HRR_BDRM-1817-HRR_AH2T5WAFX5_1/IGV/chr6_114266567_114266567_G_A.png",
+            "depth": 2336.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Likely benign",
+            "function_classification": "Likely benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomADe、gnomADg数据库EAS人群频率分别为0.003968（4/1008）、0.003014（26/8626）、0.003396（61/17962）、0.007051（11/1560）；在ClinVar数据库无记录。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BS1;BP7",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "HDAC2",
+                    "gene_region": "exon10",
+                    "hgvs_p_abbr": "p.(Asn350=)",
+                    "hgvs_c": "c.1050C>T",
+                    "hgvs_p": "p.(N350=)"
+                }
+            },
+            "gene_function": "HDAC2基因编码的蛋白是组蛋白脱乙酰化酶2，是一类HDAC家族的成员，在组蛋白和非组蛋白的蛋白脱乙酰化中起作用，通过靶基因的转录抑制来调节各种细胞周期和发育过程（PMID: 25072962;PMID: 30096875）。HDAC2基因过表达在多种癌症中就有发生，在这些癌症中，Tp53是肿瘤发生过程中的一个重要调控靶点（PMID: 25072962）。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "ESR1",
+            "transcript_primary": "NM_001122740.1",
+            "var_id": "2c07207d4bbc708a0976f102f33b17b0",
+            "hgvs_c": "c.729T>C",
+            "hgvs_p": "p.(R243=)",
+            "hgvs_p_abbr": "p.(Arg243=)",
+            "chr": "chr6",
+            "start": "152201875",
+            "end": "152201875",
+            "ref": "T",
+            "alt": "C",
+            "gene_region": "exon4",
+            "freq": 0.992,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2379.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "ESR1",
+                    "gene_region": "exon4",
+                    "hgvs_p_abbr": "p.(Arg243=)",
+                    "hgvs_c": "c.729T>C",
+                    "hgvs_p": "p.(R243=)"
+                }
+            },
+            "gene_function": "ESR1基因属于原癌基因，编码一种雌激素受体蛋白ERα，属于类固醇激素信号通路的成员，在细胞分化、增殖和生长等多种生物进程中发挥重要作用。ESR1基因突变在多种肿瘤中均有报道，如乳腺癌、子宫内膜癌和胃癌等。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "ESR1",
+            "transcript_primary": "NM_001122740.1",
+            "var_id": "0abc681ac00f7141feae010487822073",
+            "hgvs_c": "c.975G>C",
+            "hgvs_p": "p.(P325=)",
+            "hgvs_p_abbr": "p.(Pro325=)",
+            "chr": "chr6",
+            "start": "152265522",
+            "end": "152265522",
+            "ref": "G",
+            "alt": "C",
+            "gene_region": "exon5",
+            "freq": 0.9972,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 1426.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "ESR1",
+                    "gene_region": "exon5",
+                    "hgvs_p_abbr": "p.(Pro325=)",
+                    "hgvs_c": "c.975G>C",
+                    "hgvs_p": "p.(P325=)"
+                }
+            },
+            "gene_function": "ESR1基因属于原癌基因，编码一种雌激素受体蛋白ERα，属于类固醇激素信号通路的成员，在细胞分化、增殖和生长等多种生物进程中发挥重要作用。ESR1基因突变在多种肿瘤中均有报道，如乳腺癌、子宫内膜癌和胃癌等。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "NBN",
+            "transcript_primary": "NM_002485.4",
+            "var_id": "72f6021e9626e4fa11f354b5466b261f",
+            "hgvs_c": "c.2016A>G",
+            "hgvs_p": "p.(P672=)",
+            "hgvs_p_abbr": "p.(Pro672=)",
+            "chr": "chr8",
+            "start": "90958422",
+            "end": "90958422",
+            "ref": "T",
+            "alt": "C",
+            "gene_region": "exon13",
+            "freq": 0.5061,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 3922.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "NBN",
+                    "gene_region": "exon13",
+                    "hgvs_p_abbr": "p.(Pro672=)",
+                    "hgvs_c": "c.2016A>G",
+                    "hgvs_p": "p.(P672=)"
+                }
+            },
+            "gene_function": "NBN, nibrin，作为MRN复合体的一部分，在DNA双链断裂修复中发挥作用(PMID: 24396275)。\nNBN的突变与癌症易感性的增加有关(PMID: 24396275, PMID: 15279809)。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "NBN",
+            "transcript_primary": "NM_002485.4",
+            "var_id": "e962f56b773fd0071ab8ba40dea91112",
+            "hgvs_c": "c.1915-7A>G",
+            "hgvs_p": "p.?",
+            "hgvs_p_abbr": "p.?",
+            "chr": "chr8",
+            "start": "90958530",
+            "end": "90958530",
+            "ref": "T",
+            "alt": "C",
+            "gene_region": "intron12",
+            "freq": 0.4933,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Intronic",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2248.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为内含子区突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "NBN",
+                    "gene_region": "intron12",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.1915-7A>G",
+                    "hgvs_p": "p.?"
+                }
+            },
+            "gene_function": "NBN, nibrin，作为MRN复合体的一部分，在DNA双链断裂修复中发挥作用(PMID: 24396275)。\nNBN的突变与癌症易感性的增加有关(PMID: 24396275, PMID: 15279809)。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "NBN",
+            "transcript_primary": "NM_002485.4",
+            "var_id": "03e1db580d7a7106137cd590b5b8164d",
+            "hgvs_c": "c.1197T>C",
+            "hgvs_p": "p.(D399=)",
+            "hgvs_p_abbr": "p.(Asp399=)",
+            "chr": "chr8",
+            "start": "90967711",
+            "end": "90967711",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "exon10",
+            "freq": 0.4973,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2003.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "NBN",
+                    "gene_region": "exon10",
+                    "hgvs_p_abbr": "p.(Asp399=)",
+                    "hgvs_c": "c.1197T>C",
+                    "hgvs_p": "p.(D399=)"
+                }
+            },
+            "gene_function": "NBN, nibrin，作为MRN复合体的一部分，在DNA双链断裂修复中发挥作用(PMID: 24396275)。\nNBN的突变与癌症易感性的增加有关(PMID: 24396275, PMID: 15279809)。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "NBN",
+            "transcript_primary": "NM_002485.4",
+            "var_id": "768aa0f1e71f62a407598b69619d11db",
+            "hgvs_c": "c.553G>C",
+            "hgvs_p": "p.E185Q",
+            "hgvs_p_abbr": "p.Glu185Gln",
+            "chr": "chr8",
+            "start": "90990479",
+            "end": "90990479",
+            "ref": "C",
+            "alt": "G",
+            "gene_region": "exon5",
+            "freq": 0.5071,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 2051.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第185位氨基酸由谷氨酸突变为谷氨酰胺。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "NBN",
+                    "gene_region": "exon5",
+                    "hgvs_p_abbr": "p.Glu185Gln",
+                    "hgvs_c": "c.553G>C",
+                    "hgvs_p": "p.E185Q"
+                }
+            },
+            "gene_function": "NBN, nibrin，作为MRN复合体的一部分，在DNA双链断裂修复中发挥作用(PMID: 24396275)。\nNBN的突变与癌症易感性的增加有关(PMID: 24396275, PMID: 15279809)。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "NBN",
+            "transcript_primary": "NM_002485.4",
+            "var_id": "4d42a1b67eee6d16849ac4b2fdb9b561",
+            "hgvs_c": "c.102G>A",
+            "hgvs_p": "p.(L34=)",
+            "hgvs_p_abbr": "p.(Leu34=)",
+            "chr": "chr8",
+            "start": "90995019",
+            "end": "90995019",
+            "ref": "C",
+            "alt": "T",
+            "gene_region": "exon2",
+            "freq": 0.5036,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 3580.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "NBN",
+                    "gene_region": "exon2",
+                    "hgvs_p_abbr": "p.(Leu34=)",
+                    "hgvs_c": "c.102G>A",
+                    "hgvs_p": "p.(L34=)"
+                }
+            },
+            "gene_function": "NBN, nibrin，作为MRN复合体的一部分，在DNA双链断裂修复中发挥作用(PMID: 24396275)。\nNBN的突变与癌症易感性的增加有关(PMID: 24396275, PMID: 15279809)。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "CHEK1",
+            "transcript_primary": "NM_001274.5",
+            "var_id": "57e6a6d1b0437254c8596dc25ad1f855",
+            "hgvs_c": "c.1411A>G",
+            "hgvs_p": "p.I471V",
+            "hgvs_p_abbr": "p.Ile471Val",
+            "chr": "chr11",
+            "start": "125525195",
+            "end": "125525195",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "exon13",
+            "freq": 0.9963,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 1867.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该位点为多态位点。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第471位氨基酸由异亮氨酸突变为缬氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "CHEK1",
+                    "gene_region": "exon13",
+                    "hgvs_p_abbr": "p.Ile471Val",
+                    "hgvs_c": "c.1411A>G",
+                    "hgvs_p": "p.I471V"
+                }
+            },
+            "gene_function": "CHEK1基因属于抑癌基因，编码检查点激酶1（PMID: 30562755），属于丝氨酸/苏氨酸蛋白激酶家族。CHEK1蛋白在DNA损伤检查点通路中起着不可或缺的作用，组织损伤细胞进入细胞循环中。"
+        },
+        {
+            "sample_id": "BDRM-1817-HRR",
+            "order_code": "2e23cbce634911ed80b80242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BRCA2",
+            "transcript_primary": "NM_000059.3",
+            "var_id": "2dd15cca1982191280e9abe8100b8d8e",
+            "hgvs_c": "c.9649-19G>A",
+            "hgvs_p": "p.?",
+            "hgvs_p_abbr": "p.?",
+            "chr": "chr13",
+            "start": "32972280",
+            "end": "32972280",
+            "ref": "G",
+            "alt": "A",
+            "gene_region": "intron26",
+            "freq": 0.4926,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Intronic",
+            "tag": "PASS;Polymorphism;WBC",
+            "igvplot": null,
+            "depth": 1760.0,
+            "json_batch_name": "20221113_0223_ADXHS-gHRR-EN_v1.2.2_20221113191754",
+            "var_origin": "germline",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "28111427",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomADe、gnomADg数据库EAS人群频率分别为0.0169（17/1008）、0.017258（145/8402）、0.016151（291/18018）、0.012226（19/1554）；在BRCAExchange数据库专家组复核为Benign / Little Clinical Significance，ClinVar数据库报道为Benign（ID=52883，可靠度为三颗星）。基于剪接预测软件SpliceAI认为该变异不影响剪接。文献基于ACMG指南和相应种族对韩国患者的变异进行分类鉴定，证据为BS1（PMID: 28111427）。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为内含子区突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "intron26",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.9649-19G>A",
+                    "hgvs_p": "p.?"
+                }
+            },
+            "gene_function": "BRCA2基因属于抑癌基因，参与了基因组稳定性的维持，尤其是双链DNA修复的同源重组途径。"
+        }
+    ],
+    "sv": [],
+    "cnv": [],
+    "cnv_file_path": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "BRCA1",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "乳腺癌",
+            "tumor_name_en": "Breast Cancer"
+        },
+        {
+            "gene_symbol": "BRCA2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "乳腺癌",
+            "tumor_name_en": "Breast Cancer"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "乳腺癌",
+            "tumor_name_en": "Breast Cancer"
+        },
+        {
+            "gene_symbol": "PIK3CA",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "乳腺癌",
+            "tumor_name_en": "Breast Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AG或GG基因型患者相比，A/A基因型的患者使用紫杉醇治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs4880",
+            "drug_name_cn": "紫杉醇",
+            "drug_name_en": "paclitaxel",
+            "evi_level": "3",
+            "gene_symbol": "SOD2",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类治疗时疗效较差（但也有报道认为该基因型与生存期无关）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG或AG基因型患者相比，A/A基因型的患者使用依托泊苷+铂类治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)7或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)6基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)6",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AC基因型患者相比，CC基因型的患者，使用他莫昔芬治疗时，药物疗效较差（绝经前）",
+            "clin_anno_en": null,
+            "dbsnp": "rs4646",
+            "drug_name_cn": "他莫昔芬",
+            "drug_name_en": "tamoxifen",
+            "evi_level": "3",
+            "gene_symbol": "CYP19A1",
+            "genotype": "C/C",
+            "impact_type_cn": "药物疗效较差（绝经前）",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，A/A基因型的患者使用环磷酰胺+多柔比星+氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "环磷酰胺+多柔比星+氟尿嘧啶",
+            "drug_name_en": "cyclophosphamide, doxorubicin and fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，G/G基因型的患者使用多西他赛治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "多西他赛",
+            "drug_name_en": "docetaxel",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/G基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GA或AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用环磷酰胺治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs4880",
+            "drug_name_cn": "环磷酰胺",
+            "drug_name_en": "cyclophosphamide",
+            "evi_level": "3",
+            "gene_symbol": "SOD2",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用环磷酰胺+多柔比星+环磷酰胺治疗时毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "环磷酰胺+多柔比星+环磷酰胺",
+            "drug_name_en": "cyclophosphamide,doxorubicin,fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AG基因型患者相比，G/G基因型的患者使用他莫昔芬治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "他莫昔芬",
+            "drug_name_en": "tamoxifen",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 或 AG 基因型患者相比，G/G基因型的患者使用铂类治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，G/G基因型的患者使用环磷酰胺+多柔比星+氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "环磷酰胺+多柔比星+氟尿嘧啶",
+            "drug_name_en": "cyclophosphamide, doxorubicin and fluorouracil (FAC) ",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与TC或TT基因型患者相比，C/C基因型的患者使用环磷酰胺+多柔比星+氟尿嘧啶（FAC）治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs25487",
+            "drug_name_cn": "环磷酰胺+多柔比星+氟尿嘧啶",
+            "drug_name_en": "cyclophosphamide, doxorubicin and fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "XRCC1",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用紫杉烷类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "紫杉烷类药物",
+            "drug_name_en": "taxanes",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型的患者相比，CC基因型的患者，使用他莫昔芬治疗时，药物疗效较好（绝经后）",
+            "clin_anno_en": null,
+            "dbsnp": "rs4646",
+            "drug_name_cn": "他莫昔芬",
+            "drug_name_en": "tamoxifen",
+            "evi_level": "3",
+            "gene_symbol": "CYP19A1",
+            "genotype": "C/C",
+            "impact_type_cn": "药物疗效较好（绝经后）",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用铂类药物治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "C/C",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": [
+            {
+                "depth_min": null,
+                "depth_noise": null,
+                "depth_mean": 3820.52,
+                "depth_ssbc": 2063.59,
+                "depth_rna_ctrl": null,
+                "depth_mean_uniq": null,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "depth_median_uniq": null,
+                "depth_mean_ssbc": null,
+                "cleandata_q30": 0.8529,
+                "cleandata_q20": 0.9204,
+                "cover_ratio": 1.0,
+                "cnv_cv": null,
+                "cnv_uni": null,
+                "mapping_ratio": 0.9874,
+                "inssize_ontarget": null,
+                "uni20": 0.9984,
+                "uni20_uniq": null,
+                "totalreads": null,
+                "alignedreads": null,
+                "read_ontarget_ratio": null,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "scale_log_post_prob": null,
+                "qc_type": null,
+                "uni20_uniq_hot": null,
+                "uni20_uniq_nonhot": null,
+                "depth_mean_uniq_hot": null,
+                "depth_mean_uniq_nonhot": null,
+                "inssize_median": null,
+                "brca_cover_ratio": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null
+            }
+        ],
+        "lib_dna_qc": [],
+        "qc_gradient": [],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "18",
+            "gene_symbol": "ABCB1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "AR",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "ATM",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "ATR",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "BARD1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "BRCA1",
+            "rpt_var_type": "gCNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "BRCA1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "BRCA2",
+            "rpt_var_type": "gCNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "BRCA2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "BRIP1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "C8orf34",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "CDA",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "CDH1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "CDK12",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "CHEK1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "CHEK2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "CYP19A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "CYP2D6",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "DPYD",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "DYNC2H1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "ERCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "ESR1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "FANCA",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "FANCL",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "GSTP1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "HDAC2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "HOXB13",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "MRE11",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "MTHFR",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "MTRR",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "NBN",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "PALB2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "PPP2R2A",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "RAD51B",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "RAD51C",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "RAD51D",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "RAD54L",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "SEMA3C",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "SLC28A3",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "SLCO1B1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "SOD2",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "TYMS",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "UGT1A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "UMPS",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "XPC",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "18",
+            "gene_symbol": "XRCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "hd": [],
+    "gss": [],
+    "lib_quality_control": {
+        "lib_dna_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_lib_qc": []
+    },
+    "drug": [
+        {
+            "general_name_cn": "泼尼松",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ],
+            "general_name_en": "Prednisone",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "泼尼松是一种具有抗炎和免疫调节作用的合成糖皮质激素。在细胞表面受体附着进入细胞后，泼尼松进入核内，与特定的核受体结合并激活，导致基因表达改变和抑制促炎性细胞因子的产生。该药物还能减少循环淋巴细胞的数量，诱导细胞分化，并刺激敏感肿瘤细胞群的凋亡。",
+            "adaptation_disease_cn": [
+                "NMPA批准硼替佐米联合美法仑和泼尼松（MP 方案）用于既往未经治疗的且不适合大剂量化疗和骨髓移植的多发性骨髓瘤患者的治疗；或单药用于至少接受过一种或一种以上治疗后复发的多发性骨髓瘤患者的治疗。\n\n\n",
+                "NMPA批准Bortezomib联合利妥昔单抗、环磷酰胺、多柔比星和泼尼松，用于既往未经治疗的并且不适合接受造血干细胞移植的套细胞淋巴瘤成人患者；或用于复发或难治性套细胞淋巴瘤患者的治疗，患者在使用本品前至少接受过一种治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Hormono therapy（内分泌治疗）"
+        },
+        {
+            "general_name_cn": "鲁卡帕尼",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ],
+            "general_name_en": "Rucaparib",
+            "trade_name_cn": null,
+            "trade_name_en": "Rubraca",
+            "approval_organization": [
+                "FDA"
+            ],
+            "drug_mechanism_cn": "Rucaparib是一种多聚(adp -核糖)聚合酶(PARP)的抑制剂，包括PARP-1, PARP-2和PARP-3，在DNA修复中发挥作用。体外研究表明，rucaparib诱导的细胞毒性可能会抑制PARP酶活性和促进PARP-DNA复合物的形成，从而导致DNA损伤、细胞凋亡和癌细胞死亡。在BRCA1/2和其他DNA修复基因缺失的肿瘤细胞系中观察到rucaparib诱导的细胞毒性和抗肿瘤活性增加。Rucaparib已被证明在人类癌症的小鼠异种移植模型中降低肿瘤生长，无论是否存在BRCA缺失。",
+            "adaptation_disease_cn": [
+                "FDA批准鲁卡帕尼用于携带BRCA胚系或体系有害突变的、接受过雄激素受体的治疗及基于紫杉醇的方案化疗的转移性去势抵抗前列腺癌（mCRPC）成人患者的治疗。",
+                "FDA批准鲁卡帕尼用于对铂类化疗完全或部分反应的复发性上皮性卵巢癌、输卵管癌或原发性腹膜癌成年患者的维持治疗。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved Rucaparib for the treatment of adult patients with a deleterious BRCA mutation (germline and/or somatic)-associated metastatic castration-resistant prostate cancer (mCRPC) who have been treated with androgen receptor-directed therapy and a taxane-based chemotherapy. "
+            ],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "他拉唑帕利",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ],
+            "general_name_en": "Talazoparib",
+            "trade_name_cn": null,
+            "trade_name_en": "Talzenna",
+            "approval_organization": [
+                "FDA"
+            ],
+            "drug_mechanism_cn": "Talazoparib是一种多聚(adp -核糖)聚合酶(PARP)的抑制剂，包括PARP1和PARP2，在DNA修复中发挥作用。对含有BRCA 1和2等DNA修复基因缺陷的癌细胞株的体外研究表明，他拉唑帕利诱导的细胞毒性可能包括抑制PARP酶活性和增加PARP-DNA复合物的形成，从而导致DNA损伤、细胞增殖下降和凋亡。在表达突变型或野生型brca1和2的人类患者源性异种移植乳腺癌肿瘤模型中观察到他拉唑帕利的抗肿瘤活性",
+            "adaptation_disease_cn": [
+                "FDA批准他拉唑帕利用于携带BRCA胚系有害或疑似有害突变（gBRCAm）的HER2阴性的局部晚期或转移性乳腺癌成人患者的治疗。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved Talazoparib for the treatment of adult patients with deleterious or suspected deleterious germline BRCA-mutated (gBRCAm) HER2-negative locally advanced or metastatic breast cancer."
+            ],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "尼拉帕利",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ],
+            "general_name_en": "Niraparib",
+            "trade_name_cn": "则乐",
+            "trade_name_en": "Zejula",
+            "approval_organization": [
+                "NMPA",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "Niraparib（尼拉帕利）是聚（ADP-核糖）聚合酶（PARP）酶PARP-1和PARP-2的抑制剂，它们在DNA修复中起作用。 体外研究表明，Niraparib诱导的细胞毒性可能涉及抑制PARP酶活性和增加PARP-DNA复合物的形成，从而导致DNA损伤，细胞凋亡和细胞死亡。 在具有或不具有BRCA1 / 2缺陷的肿瘤细胞系中观察到了Niraparib诱导的细胞毒性增加。 在具有BRCA1 / 2缺陷的人类癌细胞系的小鼠异种移植模型中，以及在具有突变或野生型BRCA1 / 2的同源重组缺陷的人类患者源性异种移植肿瘤模型中，Niraparib降低了肿瘤的生长。",
+            "adaptation_disease_cn": [
+                "FDA批准尼拉帕利用于经3线及以上化疗的、HRD阳性（携带BRCA基因的致病或疑似致病性突变或基因组存在不稳定性并在对最后一次铂类化疗反应后6个月以上出现疾病进展）的晚期卵巢癌、输卵管癌及原发性腹膜癌成人患者的治疗。",
+                "FDA批准尼拉帕利用于经含铂化疗后达到完全缓解或部分缓解的复发性上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者的维持治疗。\n\n\n",
+                "FDA批准尼拉帕利用于一线含铂化疗后达到完全缓解或部分缓解的晚期上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者的维持治疗。",
+                "NMPA批准尼拉帕利用于晚期上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者对一线含铂化疗达到完全缓解或部分缓解后的维持治疗。\nNMPA批准尼拉帕利用于铂敏感的复发性上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者在含铂化疗达到完全缓解或部分缓解后的维持治疗。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved Niraparib for the treatment of adult patients with advanced ovarian, fallopian tube or primary peritoneal cancer who have been treated with 3 or more prior chemotherapy regimens and whose cancer is associated with homologous recombination deficiency (HRD) positive status defined by either:\n1）a deleterious or suspected deleterious BRCA mutation, or\n2）genomic instability and who have progressed more than 6 months after response to the last platinum-based chemotherapy.",
+                "FDA approved Niraparib for the maintenance treatment of adult patients with recurrent epithelial \novarian, fallopian tube, or primary peritoneal cancer who are in a complete or partial response to \nplatinum-based chemotherapy. ",
+                "FDA approved Niraparib for the maintenance treatment of adult patients with advanced epithelial ovarian, fallopian tube, or primary peritoneal cancer who are in a complete or partial response to first-line platinum-based chemotherapy."
+            ],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "帕米帕利",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ],
+            "general_name_en": "Pamiparib",
+            "trade_name_cn": "百汇泽",
+            "trade_name_en": null,
+            "approval_organization": [
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "帕米帕利是一种PARP1 和 PARP2 的强效、选择性抑制剂。它通过抑制肿瘤细胞DNA单链损伤的修复和同源重组修复缺陷，对肿瘤细胞起到合成致死的作用，尤其对携带BRCA基因突变的DNA修复缺陷型肿瘤细胞敏感度高。",
+            "adaptation_disease_cn": [
+                "NMPA批准帕米帕利用于既往经过二线及以上化疗的伴有胚系BRCA（gBRCA）突变的复发性晚期卵巢癌、输卵管癌或原发性腹膜癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "奥拉帕利",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ],
+            "general_name_en": "Olaparib",
+            "trade_name_cn": "利普卓",
+            "trade_name_en": "Lynarza",
+            "approval_organization": [
+                "NMPA",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "Olaparib（Lynparza）是聚（ADP-核糖）聚合酶（PARP）酶的抑制剂，包括PARP1，PARP2和PARP3。 PARP酶参与正常的细胞功能，例如DNA转录和DNA修复。 已经证明Olaparib在体外抑制人类肿瘤小鼠异种移植模型中特定肿瘤细胞系的生长，无论是单一疗法还是铂类化学疗法。 在细胞株和小鼠肿瘤模型中发现，用olaparib治疗后细胞毒性和抗肿瘤活性增加，而BRCA和非BRCA蛋白的缺陷与DNA损伤的同源重组修复（HRR）有关，并与铂反应相关。 体外研究表明，Olaparib诱导的细胞毒性可能涉及抑制PARP酶活性和增加PARP-DNA复合物的形成，从而导致细胞稳态的破坏和细胞死亡。",
+            "adaptation_disease_cn": [
+                "FDA批准奥拉帕利联合贝伐珠单抗用于一线铂类为基础的化疗完全或部分缓解的、HRD阳性的晚期卵巢癌、输卵管癌或原发性腹膜癌成人患者的治疗，其中HRD阳性定义为携带BRCA有害或疑似有害突变或基因组不稳定。",
+                "NMPA批准奥拉帕利联合贝伐珠单抗用于同源重组修复缺陷（HRD）阳性的晚期上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者在一线含铂化疗联合贝伐珠单抗治疗达到完全缓解或部分缓解后的维持治疗。",
+                "FDA批准奥拉帕利用于携带有害或疑似有害BRCA胚系变异（gBRCAm）的前线经3线及以上化疗的晚期卵巢癌成人患者的治疗。",
+                "FDA批准奥拉帕利用于携带BRCA胚系突变（gBRCAm）的HER2阴性的转移性乳腺癌成人患者，这些患者既往接受过新辅助、辅助或转移性治疗中接受过化疗；HR阳性的乳腺癌患者应接受过内分泌治疗或被认为不适合进行内分泌治疗。",
+                "FDA批准奥拉帕利用于携带胚系或体细胞 BRCA 突变、一线基于铂类化疗完全缓解或部分缓解的晚期上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者的维持治疗。",
+                "FDA批准奥拉帕利用于携带有害或疑似有害BRCA胚系突变的（gBRCAm）、接受一线铂类化疗至少16周无进展的转移性胰腺癌成人患者的治疗。",
+                "FDA批准奥拉帕利用于携带有害或疑似有害的HRR基因胚系或体细胞突变的（ATMm、BRCA1m、BRCA2m、BARD1m、BRIP1m、CDK12m、CHEK1m、CHEK2m、FANCLm、PALB2m、RAD51Bm、 RAD51Cm、RAD51Dm、RAD54Lm）、前线经恩杂鲁胺或阿比特龙治疗的转移性去势抵抗性前列腺癌成人患者（mCRPC）的治疗。",
+                "NMPA批准奥拉帕利适用于携带胚系或体细胞BRCA突变的（gBRCAm或sBRCAm）晚期上皮性卵巢癌、输卵管癌或原发性腹膜癌初治成人患者在一线含铂化疗达到完全缓解或部分缓解后的维持治疗。",
+                "FDA批准奥拉帕利适用于携带有害或疑似有害胚系变异（gBRCAm）的、HER2阴性、高风险早期乳腺癌成人患者的辅助治疗，这些患者既往接受过新辅助或辅助化疗。",
+                "NMPA批准奥拉帕利用于铂敏感的复发性上皮性卵巢癌或输卵管癌、原发性腹膜癌成人患者在含铂化疗达到完全缓解或部分缓解后的维持治疗。\n"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved Olaparib in combination with bevacizumab for the maintenance treatment of adult patients with advanced epithelial ovarian, fallopian tube or primary \nperitoneal cancer who are in complete or partial response to first-line platinum-based chemotherapy and whose cancer is associated with homologous recombination deficiency (HRD)-positive status defined by either: a deleterious or suspected deleterious BRCA mutation, and/or genomic instability.",
+                "FDA approved Olaparib for the treatment of adult patients with deleterious or suspected deleterious germline BRCA-mutated (gBRCAm) advanced ovarian cancer who have been treated with three or more prior lines of chemotherapy.",
+                "FDA approved Olaparib for the treatment of adult patients with deleterious or suspected deleterious gBRCAm, HER2-negative metastatic breast cancer who have \nbeen treated with chemotherapy in the neoadjuvant, adjuvant or metastatic setting. Patients with hormone receptor (HR)-positive breast cancer should have been treated with a prior endocrine therapy or be considered inappropriate for endocrine therapy.",
+                "FDA approved Olaparib for the maintenance treatment of adult patients with deleterious or suspected deleterious germline or somatic BRCA-mutated advanced epithelial ovarian, fallopian tube or primary peritoneal cancer who are in complete or partial response to first-line platinum-based chemotherapy. ",
+                "FDA approved Olaparib for the maintenance treatment of adult patients with deleterious or suspected deleterious gBRCAm metastatic pancreatic adenocarcinoma whose disease has not progressed on at least 16 weeks of a first-line platinum-based chemotherapy regimen. ",
+                "FDA approved Olaparib for the treatment of adult patients with deleterious or suspected deleterious germline or somatic homologous recombination repair (HRR) gene-mutated metastatic castration-resistant prostate cancer (mCRPC) who have progressed following prior treatment with enzalutamide or abiraterone. ",
+                "FDA approved Olaparib for the adjuvant treatment of adult patients with deleterious or suspected deleterious gBRCAm human epidermal growth factor receptor 2 (HER2)-negative high risk early breast cancer who have been treated with neoadjuvant or adjuvant chemotherapy."
+            ],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "氟唑帕利",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ],
+            "general_name_en": "Fluzoparib",
+            "trade_name_cn": "艾瑞颐",
+            "trade_name_en": null,
+            "approval_organization": [
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "氟唑帕利为小分子PARP抑制剂，可抑制BRCA1/2功能异常细胞中的DNA修复过程，诱导细胞周期阻滞，进而抑制肿瘤细胞增殖。",
+            "adaptation_disease_cn": [
+                "NMPA批准氟唑帕利用于既往经过二线及以上化疗的伴有胚系BRCA突变(gBRCAm)的铂敏感复发性卵巢癌、输卵管癌或原发性腹膜癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "贝伐珠单抗",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ],
+            "general_name_en": "Bevacizumab",
+            "trade_name_cn": "安维汀",
+            "trade_name_en": "Avastin",
+            "approval_organization": [
+                "NCCN",
+                "CSCO",
+                "NMPA",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "贝伐珠单抗结合VEGF并阻止VEGF与其在内皮细胞表面的受体（Flt-1和KDR）相互作用。 在血管生成的体外模型中，VEGF与其受体的相互作用导致内皮细胞增殖和新血管形成。 在裸鼠结肠癌异种移植模型中应用贝伐珠单抗可降低微血管生长和抑制转移性疾病的进展。",
+            "adaptation_disease_cn": [
+                "FDA批准贝伐珠单抗用于治疗复发性胶质母细胞瘤成人患者。",
+                "FDA批准奥拉帕利联合贝伐珠单抗用于一线铂类为基础的化疗完全或部分缓解的、HRD阳性的晚期卵巢癌、输卵管癌或原发性腹膜癌成人患者的治疗，其中HRD阳性定义为携带BRCA有害或疑似有害突变或基因组不稳定。",
+                "NMPA批准奥拉帕利联合贝伐珠单抗用于同源重组修复缺陷（HRD）阳性的晚期上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者在一线含铂化疗联合贝伐珠单抗治疗达到完全缓解或部分缓解后的维持治疗。",
+                "NMPA批准贝伐珠单抗联合以氟嘧啶为基础的化疗适用于转移性结直肠癌患者的治疗。\n",
+                "FDA批准贝伐珠单抗联合以氟尿嘧啶为基础的化疗用于转移性结直肠癌的一线或二线治疗。",
+                "NMPA批准贝伐珠单抗联合以铂类为基础的化疗用于不可切除的晚期、转移性或复发性非鳞状细胞非小细胞肺癌患者的一线治疗。",
+                "FDA批准帕博利珠单抗+化疗±贝伐珠单抗用于PD-L1表达阳性（CPS≥1）的持续的、复发的或转移性的宫颈癌患者。",
+                "FDA批准贝伐珠单抗联合阿替利珠单抗用于疗既往未接受全身治疗的不可切除或转移性HCC患者。",
+                "FDA批准贝伐珠单抗联合氟尿嘧啶-伊立替康为基础的化疗或氟尿嘧啶-奥沙利铂为基础的化疗方案作为一线接受过含贝伐珠单抗治疗后进展的转移性结直肠癌患者的二线治疗。",
+                "FDA批准贝伐珠单抗联合氟尿嘧啶-伊立替康为基础的化疗或氟尿嘧啶-奥沙利铂为基础的化疗方案作为一线接受过含贝伐珠单抗治疗后进展的转移性结直肠癌患者的二线治疗。",
+                "FDA批准贝伐珠单抗联合卡铂、紫杉醇用于不可切除、局部晚期、复发或转移性非鳞非小细胞肺癌患者的一线治疗。",
+                "FDA批准贝伐珠单抗联合卡铂和紫杉醇用于初始手术切除后III或IV期上皮性卵巢癌、输卵管癌或原发性腹膜癌的治疗。",
+                "FDA批准贝伐珠单抗联合紫杉醇、顺铂或紫杉醇、拓朴替康用于治疗持续性、复发或转移性宫颈癌。",
+                "FDA批准贝伐珠单抗联合紫杉醇、顺铂或紫杉醇、拓朴替康用于治疗持续性、复发或转移性宫颈癌。",
+                "FDA批准贝伐珠单抗联合紫杉醇、聚乙二醇多柔比星或拓扑替康用于治疗铂类耐药的之前接受过不超过2种化疗方案的复发性上皮卵巢、输卵管或原发性腹膜癌。",
+                "FDA批准贝伐珠单抗联合紫杉醇、聚乙二醇多柔比星或拓扑替康用于治疗铂类耐药的之前接受过不超过2种化疗方案的复发性上皮卵巢、输卵管或原发性腹膜癌。",
+                "FDA批准贝伐珠单抗联合紫杉醇、聚乙二醇多柔比星或拓扑替康用于治疗铂类耐药的之前接受过不超过2种化疗方案的复发性上皮卵巢、输卵管或原发性腹膜癌。",
+                "FDA批准贝伐珠单抗与α干扰素联合用于治疗转移性肾细胞癌。",
+                "NMPA批准信迪利单抗联合贝伐珠单抗，用于既往未接受过系统治疗的不可切除或转移性肝细胞癌的一线治疗。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved Olaparib in combination with bevacizumab for the maintenance treatment of adult patients with advanced epithelial ovarian, fallopian tube or primary \nperitoneal cancer who are in complete or partial response to first-line platinum-based chemotherapy and whose cancer is associated with homologous recombination deficiency (HRD)-positive status defined by either: a deleterious or suspected deleterious BRCA mutation, and/or genomic instability."
+            ],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "醋酸阿比特龙",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ],
+            "general_name_en": "Abiraterone Acetate",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [],
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        }
+    ],
+    "io_gene_clinical": [
+        {
+            "effect": "正相关",
+            "evidence": "DDR基因(DNA 损伤修复基因)突变与免疫治疗疗效密切相关，可作为有效的预测因子。2019年ASCO会议数据显示，DNA损伤修复(DNA Damage Repair , DDR)基因突变在非小细胞肺癌(NSCLC)中高频发生，具有DDR基因变异的晚期非小细胞肺癌患者具有更好的免疫疗效（[abstract 9077PD].ASCO 2019）。一项对60例接受抗PD-1 / PD-L1抗体治疗的尿路上皮癌患者的回顾性分析显示，携带DDR基因突变的患者更易从PD-1/PD-L1抑制剂(纳武利尤单抗或阿特珠单抗)治疗中获益，与DDR基因野生型患者相比，DDR突变也与更长的无进展生存期和总生存期相关（PMID:29489427）。",
+            "gene_symbol": "BRCA2",
+            "test_significance": "DNA损伤修复(DNA Damage Repair , DDR)基因突变可能导致较高的肿瘤突变负荷，为免疫治疗正向预测因子。",
+            "tumor_name": "非小细胞肺癌",
+            "var_note": "突变"
+        }
+    ],
+    "clinic_trial": [
+        {
+            "clinicaltrial_number": "CTR20171623",
+            "conditions": "乳腺癌",
+            "gene_symbol": "BRCA2",
+            "interventions": "BGB-290胶囊",
+            "phase": "II期",
+            "study_title": "一项评估BGB-290在携带BRCA突变的中国转移性HER2阴性乳腺癌患者的有效性和安全性的开放、多中心、2期研究"
+        },
+        {
+            "clinicaltrial_number": "NCT02401347",
+            "conditions": "Advanced Breast Cancer;HER2/Neu Negative;Triple-Negative Breast Cancer",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:Talazoparib Tosylate",
+            "phase": "Phase 2",
+            "study_title": "Phase II Trial of Talazoparib in BRCA1/2 Wild-type HER2-negative Breast Cancer and Other Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT03344965",
+            "conditions": "Metastatic Breast Cancer;Invasive Breast Cancer;Somatic Mutation Breast Cancer (BRCA1);Somatic Mutation Breast Cancer (BRCA2);CHEK2 Gene Mutation;ATM Gene Mutation;PALB2 Gene Mutation;RAD51 Gene Mutation;BRIP1 Gene Mutation;NBN Gene Mutation",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:Olaparib",
+            "phase": "Phase 2",
+            "study_title": "Olaparib In Metastatic Breast Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03685331",
+            "conditions": "Metastatic Breast Cancer;Locally Advanced Breast Cancer;Advanced Breast Cancer;BRCA2 Mutation;BRCA1 Mutation",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:Palbociclib;Drug:Olaparib;Drug:Fulvestrant",
+            "phase": "Phase 1",
+            "study_title": "HOPE: Olaparib, Palbociclib and Fulvestrant in Patients With BRCA Mutation-associated, HR+, HER2-metastatic Breast Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03205761",
+            "conditions": "Advanced Breast Cancer",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:Olaparib",
+            "phase": "Phase 2",
+            "study_title": "Analysis of Olaparib Response in Patients With BRCA1 and/or 2 Promoter Methylation Diagnosed of Advanced Breast Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT04892693",
+            "conditions": "Advanced Breast Cancer",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:Talazoparib Oral Capsule",
+            "phase": "Phase 2",
+            "study_title": "Talazoparib in Advanced Breast Cancer Patients With Homologous Recombinant Deficiency"
+        },
+        {
+            "clinicaltrial_number": "NCT03990896",
+            "conditions": "Breast Cancer",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:Talazoparib",
+            "phase": "Phase 2",
+            "study_title": "Evaluation of Talazoparib, a PARP Inhibitor, in Patients With Somatic BRCA Mutant Metastatic Breast Cancer: Genotyping Based Clinical Trial"
+        },
+        {
+            "clinicaltrial_number": "NCT04556292",
+            "conditions": "Breast Cancer Metastatic;BRCA 1 Gene Mutation;BRCA 2 Gene Mutation",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:SC10914",
+            "phase": "Phase 2",
+            "study_title": "A Phase II Study to Assess the Efficacy and Safety of SC10914 in the Metastatic Breast Cancer Patients"
+        },
+        {
+            "clinicaltrial_number": "NCT03428802",
+            "conditions": "BRCA1 Gene Mutation;BRCA2 Gene Mutation;Locally Advanced Solid Neoplasm;Metastatic Malignant Solid Neoplasm;POLD1 Gene Mutation;POLE Gene Mutation;Recurrent Malignant Solid Neoplasm;Recurrent Ovarian Carcinoma;Stage III Breast Cancer AJCC v7;Stage III Ovarian Cancer AJCC v8;Stage IIIA Breast Cancer AJCC v7;Stage IIIA Ovarian Cancer AJCC v8;Stage IIIB Breast Cancer AJCC v7;Stage IIIB Ovarian Cancer AJCC v8;Stage IIIC Breast Cancer AJCC v7;Stage IIIC Ovarian Cancer AJCC v8;Stage IV Breast Cancer AJCC v6 and v7;Stage IV Ovarian Cancer AJCC v8;Stage IVA Ovarian Cancer AJCC v8;Stage IVB Ovarian Cancer AJCC v8",
+            "gene_symbol": "BRCA2",
+            "interventions": "Other:Laboratory Biomarker Analysis;Biological:Pembrolizumab",
+            "phase": "Phase 2",
+            "study_title": "Pembrolizumab in Treating Participants With Metastatic, Recurrent or Locally Advanced Cancer and Genomic Instability"
+        },
+        {
+            "clinicaltrial_number": "NCT04768426",
+            "conditions": "Triple Negative Breast Cancer;Breast Cancer",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:Capecitabine",
+            "phase": "Phase 2",
+            "study_title": "Serial Circulating Tumor DNA (ctDNA) Monitoring During Adjuvant Capecitabine in Early Triple-negative Breast Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT04584255",
+            "conditions": "Stage I Breast Cancer;Stage II Breast Cancer;Stage III Breast Cancer;Breast Cancer;HER2-negative Breast Cancer;Germline BRCA1 Gene Mutation;Germline BRCA2 Gene Mutation",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:Niraparib;Drug:Dostarlimab",
+            "phase": "Phase 2",
+            "study_title": "Niraparib + TSR042 In BRCA Mutated Breast Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT04090567",
+            "conditions": "Advanced Breast Carcinoma;Anatomic Stage III Breast Cancer AJCC v8;Anatomic Stage IIIA Breast Cancer AJCC v8;Anatomic Stage IIIB Breast Cancer AJCC v8;Anatomic Stage IIIC Breast Cancer AJCC v8;Anatomic Stage IV Breast Cancer AJCC v8;Germline BRCA1 Gene Mutation;Germline BRCA2 Gene Mutation;HER2/Neu Negative;Metastatic Breast Carcinoma;Prognostic Stage III Breast Cancer AJCC v8;Prognostic Stage IIIA Breast Cancer AJCC v8;Prognostic Stage IIIB Breast Cancer AJCC v8;Prognostic Stage IIIC Breast Cancer AJCC v8;Prognostic Stage IV Breast Cancer AJCC v8",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:Cediranib;Drug:Ceralasertib;Drug:Olaparib",
+            "phase": "Phase 2",
+            "study_title": "Olaparib With Cediranib or AZD6738 for the Treatment of Advanced or Metastatic Germline BRCA Mutated Breast Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT04991480",
+            "conditions": "Advanced Cancer;Metastatic Cancer;Breast Cancer",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:ART4215;Drug:Talazoparib",
+            "phase": "Phase 1;Phase 2",
+            "study_title": "A Study of ART4215 for the Treatment of Advanced or Metastatic Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT01646034",
+            "conditions": "Breast Cancer",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:carboplatin, thiotepa, and cyclophosphamide;Drug:chemotherapy (docetaxel, doxorubicin, cyclofosfamide, carboplatin, paclitaxel, gemcitabine)",
+            "phase": "Phase 3",
+            "study_title": "High Dose Chemotherapy in Oligo-metastatic Homologous Recombination Deficient Breast Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT04335669",
+            "conditions": "Breast Cancer;Triple Negative Breast Neoplasms",
+            "gene_symbol": "BRCA2",
+            "interventions": "Drug:epirubicin, cyclophosphamide, paclitaxel, carboplatin;Drug:epirubicin, cyclophosphamide, capecitabine, paclitaxel, carboplatin",
+            "phase": "Phase 3",
+            "study_title": "NordicTrip, a Translational Study of Preoperative Chemotherapy in TNBC"
+        }
+    ],
+    "refer": [
+        {
+            "authors": "Andrew N J Tutt,Judy E Garber,Bella Kaufman,et al.",
+            "date": "(2021)",
+            "journal": "N Engl J Med",
+            "pmid": "[PMID:34081848]",
+            "title": "Adjuvant Olaparib for Patients with.",
+            "vol": "384(25):2394-2405."
+        },
+        {
+            "authors": "Li-Hui Wang,Chun-Fu Wu,Nirmal Rajasekaran,et al.",
+            "date": "(2018)",
+            "journal": "Cell Physiol Biochem",
+            "pmid": "[PMID:30562755]",
+            "title": "Loss of Tumor Suppressor Gene Function in Human Cancer: An Overview.",
+            "vol": "51(6):2647-2693."
+        },
+        {
+            "authors": "Rishi Jain,Michelle J Savage,Andrea D Forman,et al.",
+            "date": "(2016)",
+            "journal": "J Natl Compr Canc Netw",
+            "pmid": "[PMID:27283171]",
+            "title": "The Relevance of Hereditary Cancer Risks to Precision Oncology: What Should Providers Consider When Conducting Tumor Genomic Profiling?.",
+            "vol": "14(6):795-806."
+        },
+        {
+            "authors": "Shuhei Matsuoka,Bryan A Ballif,Agata Smogorzewska,et al.",
+            "date": "(2007)",
+            "journal": "Science",
+            "pmid": "[PMID:17525332]",
+            "title": "ATM and ATR substrate analysis reveals extensive protein networks responsive to DNA damage.",
+            "vol": "316(5828):1160-6."
+        },
+        {
+            "authors": "Min Yuen Teo,Kenneth Seier,Irina Ostrovnaya,et al.",
+            "date": "(2018)",
+            "journal": "J Clin Oncol",
+            "pmid": "[PMID:29489427]",
+            "title": "Alterations in DNA Damage Response and Repair Genes as Potential Marker of Clinical Benefit From PD-1/PD-L1 Blockade in Advanced Urothelial Cancers.",
+            "vol": "36(17):1685-1694."
+        },
+        {
+            "authors": "Wendy De  Roock,Veerle De Vriendt,Nicola Normanno,et al.",
+            "date": "(2011)",
+            "journal": "Lancet Oncol",
+            "pmid": "[PMID:21163703]",
+            "title": "KRAS, BRAF, PIK3CA, and PTEN mutations: implications for targeted therapies in metastatic colorectal cancer.",
+            "vol": "12(6):594-603."
+        },
+        {
+            "authors": "Bing Xia,Qing Sheng,Koji Nakanishi,et al.",
+            "date": "(2006)",
+            "journal": "Mol Cell",
+            "pmid": "[PMID:16793542]",
+            "title": "Control of BRCA2 cellular and clinical functions by a nuclear partner, PALB2.",
+            "vol": "22(6):719-729."
+        },
+        {
+            "authors": "Shirley M-H Sy,Michael S Y Huen,Yongyou Zhu,et al.",
+            "date": "(2009)",
+            "journal": "J Biol Chem",
+            "pmid": "[PMID:19423707]",
+            "title": "PALB2 regulates recombinational repair through chromatin association and oligomerization.",
+            "vol": "284(27):18302-10."
+        },
+        {
+            "authors": "Fan Zhang,Qiang Fan,Keqin Ren,et al.",
+            "date": "(2009)",
+            "journal": "Mol Cancer Res",
+            "pmid": "[PMID:19584259]",
+            "title": "PALB2 functionally connects the breast cancer susceptibility proteins BRCA1 and BRCA2.",
+            "vol": "7(7):1110-8."
+        },
+        {
+            "authors": "Sheila Seal,Deborah Thompson,Anthony Renwick,et al.",
+            "date": "(2006)",
+            "journal": "Nat Genet",
+            "pmid": "[PMID:17033622]",
+            "title": "Truncating mutations in the Fanconi anemia J gene BRIP1 are low-penetrance breast cancer susceptibility alleles.",
+            "vol": "38(11):1239-41."
+        },
+        {
+            "authors": "Thorunn Rafnar,Daniel F Gudbjartsson,Patrick Sulem,et al.",
+            "date": "(2011)",
+            "journal": "Nat Genet",
+            "pmid": "[PMID:21964575]",
+            "title": "Mutations in BRIP1 confer high risk of ovarian cancer.",
+            "vol": "43(11):1104-7."
+        },
+        {
+            "authors": "Z Kote-Jarai,S Jugurnauth,S Mulholland,et al.",
+            "date": "(2009)",
+            "journal": "Br J Cancer",
+            "pmid": "[PMID:19127258]",
+            "title": "A recurrent truncating germline mutation in the BRIP1/FANCJ gene and susceptibility to prostate cancer.",
+            "vol": "100(2):426-30."
+        },
+        {
+            "authors": "Xin Liu,Kent-Man Chu",
+            "date": "(2014)",
+            "journal": "Biomed Res Int",
+            "pmid": "[PMID:25184143]",
+            "title": "E-cadherin and gastric cancer: cause, consequence, and applications.",
+            "vol": "2014:637308."
+        },
+        {
+            "authors": "Maria Cosenza,Samantha Pozzi",
+            "date": "(2018)",
+            "journal": "Int J Mol Sci",
+            "pmid": "[PMID:30096875]",
+            "title": "The Therapeutic Strategy of HDAC6 Inhibitors in Lymphoproliferative Disease.",
+            "vol": "19(8):2337."
+        },
+        {
+            "authors": "F van Roy,G Berx",
+            "date": "(2008)",
+            "journal": "Cell Mol Life Sci",
+            "pmid": "[PMID:18726070]",
+            "title": "The cell-cell adhesion molecule E-cadherin.",
+            "vol": "65(23):3756-88."
+        },
+        {
+            "authors": "Yuki Yoshino,Huicheng Qi,Hiroki Fujita,et al.",
+            "date": "(2018)",
+            "journal": "Mol Cancer Res",
+            "pmid": "[PMID:29858377]",
+            "title": "BRCA1-Interacting Protein OLA1 Requires Interaction with BARD1 to Regulate Centrosome Number.",
+            "vol": "16(10):1499-1511."
+        },
+        {
+            "authors": "Alan D D'Andrea,Markus Grompe",
+            "date": "(2003)",
+            "journal": "Nat Rev Cancer",
+            "pmid": "[PMID:12509764]",
+            "title": "The Fanconi anaemia/BRCA pathway.",
+            "vol": "3(1):23-34."
+        },
+        {
+            "authors": "M Grompe,A D'Andrea",
+            "date": "(2001)",
+            "journal": "Hum Mol Genet",
+            "pmid": "[PMID:11673408]",
+            "title": "Fanconi anemia and DNA repair.",
+            "vol": "10(20):2253-9."
+        },
+        {
+            "authors": "Flora Cimmino,Marianna Avitabile,Vito Alessandro Lasorsa,et al.",
+            "date": "(2020)",
+            "journal": "J Cancer",
+            "pmid": "[PMID:32047556]",
+            "title": "Functional characterization of full-length BARD1 strengthens its role as a tumor suppressor in neuroblastoma.",
+            "vol": "11(6):1495-1504."
+        },
+        {
+            "authors": "Martin Digweed,Karl Sperling",
+            "date": "(2004)",
+            "journal": "DNA Repair (Amst)",
+            "pmid": "[PMID:15279809]",
+            "title": "Nijmegen breakage syndrome: clinical manifestation of defective response to DNA double-strand breaks.",
+            "vol": "3(8-9):1207-17."
+        },
+        {
+            "authors": "Blanche P Alter",
+            "date": "(2014)",
+            "journal": "Best Pract Res Clin Haematol",
+            "pmid": "[PMID:25455269]",
+            "title": "Fanconi anemia and the development of leukemia.",
+            "vol": "27(3-4):214-21."
+        },
+        {
+            "authors": "Aleksandra I Adamovich,Tapahsama Banerjee,Margaret Wingo,et al.",
+            "date": "(2019)",
+            "journal": "PLoS Genet",
+            "pmid": "[PMID:30925164]",
+            "title": "Functional analysis of BARD1 missense variants in homology-directed repair and damage sensitivity.",
+            "vol": "15(3):e1008049."
+        },
+        {
+            "authors": "Shyng-Shiou F Yuan,Ming-Feng Hou,Ya-Ching Hsieh,et al.",
+            "date": "(2012)",
+            "journal": "J Natl Cancer Inst",
+            "pmid": "[PMID:22914783]",
+            "title": "Role of MRE11 in cell proliferation, tumor invasion, and DNA repair in breast cancer.",
+            "vol": "104(19):1485-502."
+        },
+        {
+            "authors": "Tobias Wagner,Peter Brand,Thorsten Heinzel,et al.",
+            "date": "(2014)",
+            "journal": "Biochim Biophys Acta",
+            "pmid": "[PMID:25072962]",
+            "title": "Histone deacetylase 2 controls p53 and is a critical factor in tumorigenesis.",
+            "vol": "1846(2):524-38."
+        },
+        {
+            "authors": "Yosuke Hirotsu,Hiroshi Nakagomi,Ikuko Sakamoto,et al.",
+            "date": "(2015)",
+            "journal": "Mol Genet Genomic Med",
+            "pmid": "[PMID:26436112]",
+            "title": "Multigene panel analysis identified germline mutations of DNA repair genes in breast and ovarian cancer.",
+            "vol": "3(5):459-66."
+        },
+        {
+            "authors": "L C Wu,Z W Wang,J T Tsan,et al.",
+            "date": "(1996)",
+            "journal": "Nat Genet",
+            "pmid": "[PMID:8944023]",
+            "title": "Identification of a RING protein that can interact in vivo with the BRCA1 gene product.",
+            "vol": "14(4):430-40."
+        },
+        {
+            "authors": "Katrin Rein,Travis H Stracker",
+            "date": "(2014)",
+            "journal": "Exp Cell Res",
+            "pmid": "[PMID:25447316]",
+            "title": "The MRE11 complex: an important source of stress relief.",
+            "vol": "329(1):162-9."
+        },
+        {
+            "authors": "Francesco Berardinelli,Alessandra di Masi,Antonio Antoccia",
+            "date": "(2013)",
+            "journal": "Curr Genomics",
+            "pmid": "[PMID:24396275]",
+            "title": "NBN Gene Polymorphisms and Cancer Susceptibility: A Systemic Review.",
+            "vol": "14(7):425-40."
+        },
+        {
+            "authors": "Magdalena Ratajska,Ewelina Antoszewska,Anna Piskorz,et al.",
+            "date": "(2012)",
+            "journal": "Breast Cancer Res Treat",
+            "pmid": "[PMID:21344236]",
+            "title": "Cancer predisposing BARD1 mutations in breast-ovarian cancer families.",
+            "vol": "131(1):89-97."
+        },
+        {
+            "authors": "María Florencia Abascal,María José Besso,Marina Rosso,et al.",
+            "date": "(2016)",
+            "journal": "Comput Biol Chem",
+            "pmid": "[PMID:26674224]",
+            "title": "CDH1/E-cadherin and solid tumors. An updated gene-disease association analysis using bioinformatics tools.",
+            "vol": "60:9-20."
+        },
+        {
+            "authors": "Ji Soo Park,Eun Ji Nam,Hyung Seok Park,et al.",
+            "date": "(2017)",
+            "journal": "Cancer Res Treat",
+            "pmid": "[PMID:28111427]",
+            "title": "Identification of a Novel BRCA1 Pathogenic Mutation in Korean Patients Following Reclassification of BRCA1 and BRCA2 Variants According to the ACMG Standards and Guidelines Using Relevant Ethnic Controls.",
+            "vol": "49(4):1012-1021."
+        },
+        {
+            "authors": "Robert Pilarski,Julie A Stephens,Ryan Noss,et al.",
+            "date": "(2011)",
+            "journal": "J Med Genet",
+            "pmid": "[PMID:21659347]",
+            "title": "Predicting PTEN mutations: an evaluation of Cowden syndrome and Bannayan-Riley-Ruvalcaba syndrome clinical features.",
+            "vol": "48(8):505-12."
+        },
+        {
+            "authors": "Makoto Ishitobi,Yasuo Miyoshi,Seiichi Hasegawa,et al.",
+            "date": "(2003)",
+            "journal": "Cancer Lett",
+            "pmid": "[PMID:14550946]",
+            "title": "Mutational analysis of BARD1 in familial breast cancer patients in Japan.",
+            "vol": "200(1):1-7."
+        },
+        {
+            "authors": "Rebecca Nagy,Shireen Ganapathi,Ilene Comeras,et al.",
+            "date": "(2011)",
+            "journal": "Thyroid",
+            "pmid": "[PMID:21417916]",
+            "title": "Frequency of germline PTEN mutations in differentiated thyroid cancer.",
+            "vol": "21(5):505-10."
+        },
+        {
+            "authors": "Charles M Ewing,Anna M Ray,Ethan M Lange,et al.",
+            "date": "(2012)",
+            "journal": "N Engl J Med",
+            "pmid": "[PMID:22236224]",
+            "title": "Germline mutations in HOXB13 and prostate-cancer risk.",
+            "vol": "366(2):141-9."
+        },
+        {
+            "authors": "Marta S Sarquis,Shipra Agrawal,Lei Shen,et al.",
+            "date": "(2006)",
+            "journal": "Am J Hum Genet",
+            "pmid": "[PMID:16773562]",
+            "title": "Distinct expression profiles for PTEN transcript and its splice variants in Cowden syndrome and Bannayan-Riley-Ruvalcaba syndrome.",
+            "vol": "79(1):23-30."
+        },
+        {
+            "authors": "Emily A Nizialek,Jessica L Mester,Vineet K Dhiman,et al.",
+            "date": "(2015)",
+            "journal": "Eur J Hum Genet",
+            "pmid": "[PMID:25669429]",
+            "title": "KLLN epigenotype-phenotype associations in Cowden syndrome.",
+            "vol": "23(11):1538-43."
+        },
+        {
+            "authors": "Orland Díez,Ana Osorio,Mercedes Durán,et al.",
+            "date": "(2003)",
+            "journal": "Hum Mutat",
+            "pmid": "[PMID:12955716]",
+            "title": "Analysis of BRCA1 and BRCA2 genes in Spanish breast/ovarian cancer patients: a high proportion of mutations unique to Spain and evidence of founder effects.",
+            "vol": "22(4):301-12."
+        },
+        {
+            "authors": "Tiziana Bruno,Francesca De Nicola,Simona Iezzi,et al.",
+            "date": "(2006)",
+            "journal": "Cancer Cell",
+            "pmid": "[PMID:17157788]",
+            "title": "Che-1 phosphorylation by ATM/ATR and Chk2 kinases activates p53 transcription and the G2/M checkpoint.",
+            "vol": "10(6):473-86."
+        },
+        {
+            "authors": "Hélène Royo,Haydn Prosser,Yaroslava Ruzankina,et al.",
+            "date": "(2013)",
+            "journal": "Genes Dev",
+            "pmid": "[PMID:23824539]",
+            "title": "ATR acts stage specifically to regulate multiple aspects of mammalian meiotic silencing.",
+            "vol": "27(13):1484-94."
+        },
+        {
+            "authors": "Israel Zighelboim,Amy P Schmidt,Feng Gao,et al.",
+            "date": "(2009)",
+            "journal": "J Clin Oncol",
+            "pmid": "[PMID:19470935]",
+            "title": "ATR mutation in endometrioid endometrial cancer is associated with poor clinical outcomes.",
+            "vol": "27(19):3091-6."
+        },
+        {
+            "authors": "Marianne Berg,Stine A Danielsen,Terje Ahlquist,et al.",
+            "date": "(2010)",
+            "journal": "PLoS One",
+            "pmid": "[PMID:21103049]",
+            "title": "DNA sequence profiles of the colorectal cancer critical gene set KRAS-BRAF-PIK3CA-PTEN-TP53 related to age at disease onset.",
+            "vol": "5(11):e13978."
+        },
+        {
+            "authors": "E Forgacs,E J Biesterveld,Y Sekido,et al.",
+            "date": "(1998)",
+            "journal": "Oncogene",
+            "pmid": "[PMID:9794233]",
+            "title": "Mutation analysis of the PTEN/MMAC1 gene in lung cancer.",
+            "vol": "17(12):1557-65."
+        }
+    ],
+    "therapeutic_regimen": [
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92118818737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Niraparib（尼拉帕利）是聚（ADP-核糖）聚合酶（PARP）酶PARP-1和PARP-2的抑制剂，它们在DNA修复中起作用。 体外研究表明，Niraparib诱导的细胞毒性可能涉及抑制PARP酶活性和增加PARP-DNA复合物的形成，从而导致DNA损伤，细胞凋亡和细胞死亡。 在具有或不具有BRCA1 / 2缺陷的肿瘤细胞系中观察到了Niraparib诱导的细胞毒性增加。 在具有BRCA1 / 2缺陷的人类癌细胞系的小鼠异种移植模型中，以及在具有突变或野生型BRCA1 / 2的同源重组缺陷的人类患者源性异种移植肿瘤模型中，Niraparib降低了肿瘤的生长。",
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of poly (ADP-ribose) polymerase (PARP) types 1 and 2 (PARP-1 and -2), with antineoplastic activity. Upon administration, niraparib binds to and inhibits the activity of PARP-1 and -2, thereby inhibiting PARP-1 and -2-mediated DNA repair, enhancing the accumulation of DNA strand breaks, promoting genomic instability and resulting in apoptosis. The PARP family of proteins catalyzes post-translational ADP-ribosylation of nuclear proteins and is activated by single-strand DNA (ssDNA) breaks.",
+                    "drug_name": "尼拉帕利;Niraparib",
+                    "regimen_code": "0852d7b8d73b11ec9be6005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "8e8694cc737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An orally active acetate ester form of the steroidal compound abiraterone with antiandrogen activity. Abiraterone inhibits the enzymatic activity of steroid 17alpha-monooxygenase (17alpha-hydrolase/C17,20 lyase complex), a member of the cytochrome p450 family that catalyzes the 17alpha-hydroxylation of steroid intermediates involved in testosterone synthesis. Administration of this agent may suppress testosterone production by both the testes and the adrenals to castrate-range levels.",
+                    "drug_name": "醋酸阿比特龙;Abiraterone Acetate",
+                    "regimen_code": "0852d7b8d73b11ec9be6005056bdcbf7"
+                },
+                {
+                    "dosage": null,
+                    "drug_code": "92a3f112737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "泼尼松是一种具有抗炎和免疫调节作用的合成糖皮质激素。在细胞表面受体附着进入细胞后，泼尼松进入核内，与特定的核受体结合并激活，导致基因表达改变和抑制促炎性细胞因子的产生。该药物还能减少循环淋巴细胞的数量，诱导细胞分化，并刺激敏感肿瘤细胞群的凋亡。",
+                    "drug_mechanism_en": "A synthetic glucocorticoid with anti-inflammatory and immunomodulating properties.  After cell surface receptor attachment and cell entry, prednisone enters the nucleus where it binds to and activates specific nuclear receptors, resulting in an altered gene expression and inhibition of proinflammatory cytokine production.  This agent also decreases the number of circulating lymphocytes, induces cell differentiation, and stimulates apoptosis in sensitive tumor cell populations.",
+                    "drug_name": "泼尼松;Prednisone",
+                    "regimen_code": "0852d7b8d73b11ec9be6005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "尼拉帕利+醋酸阿比特龙+泼尼松",
+            "regimen_en": "Niraparib+Abiraterone Acetate+Prednisone",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "0a6cc667703f844eaedb52f06607bebd",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准奥拉帕利用于携带有害或疑似有害BRCA胚系变异（gBRCAm）的前线经3线及以上化疗的晚期卵巢癌成人患者的治疗。",
+                "FDA批准奥拉帕利用于携带BRCA胚系突变（gBRCAm）的HER2阴性的转移性乳腺癌成人患者，这些患者既往接受过新辅助、辅助或转移性治疗中接受过化疗；HR阳性的乳腺癌患者应接受过内分泌治疗或被认为不适合进行内分泌治疗。",
+                "FDA批准奥拉帕利用于携带胚系或体细胞 BRCA 突变、一线基于铂类化疗完全缓解或部分缓解的晚期上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者的维持治疗。",
+                "FDA批准奥拉帕利用于携带有害或疑似有害BRCA胚系突变的（gBRCAm）、接受一线铂类化疗至少16周无进展的转移性胰腺癌成人患者的治疗。",
+                "FDA批准奥拉帕利用于携带有害或疑似有害的HRR基因胚系或体细胞突变的（ATMm、BRCA1m、BRCA2m、BARD1m、BRIP1m、CDK12m、CHEK1m、CHEK2m、FANCLm、PALB2m、RAD51Bm、 RAD51Cm、RAD51Dm、RAD54Lm）、前线经恩杂鲁胺或阿比特龙治疗的转移性去势抵抗性前列腺癌成人患者（mCRPC）的治疗。",
+                "NMPA批准奥拉帕利适用于携带胚系或体细胞BRCA突变的（gBRCAm或sBRCAm）晚期上皮性卵巢癌、输卵管癌或原发性腹膜癌初治成人患者在一线含铂化疗达到完全缓解或部分缓解后的维持治疗。",
+                "FDA批准奥拉帕利适用于携带有害或疑似有害胚系变异（gBRCAm）的、HER2阴性、高风险早期乳腺癌成人患者的辅助治疗，这些患者既往接受过新辅助或辅助化疗。",
+                "NMPA批准奥拉帕利用于铂敏感的复发性上皮性卵巢癌或输卵管癌、原发性腹膜癌成人患者在含铂化疗达到完全缓解或部分缓解后的维持治疗。\n"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved Olaparib for the treatment of adult patients with deleterious or suspected deleterious germline BRCA-mutated (gBRCAm) advanced ovarian cancer who have been treated with three or more prior lines of chemotherapy.",
+                "FDA approved Olaparib for the treatment of adult patients with deleterious or suspected deleterious gBRCAm, HER2-negative metastatic breast cancer who have \nbeen treated with chemotherapy in the neoadjuvant, adjuvant or metastatic setting. Patients with hormone receptor (HR)-positive breast cancer should have been treated with a prior endocrine therapy or be considered inappropriate for endocrine therapy.",
+                "FDA approved Olaparib for the maintenance treatment of adult patients with deleterious or suspected deleterious germline or somatic BRCA-mutated advanced epithelial ovarian, fallopian tube or primary peritoneal cancer who are in complete or partial response to first-line platinum-based chemotherapy. ",
+                "FDA approved Olaparib for the maintenance treatment of adult patients with deleterious or suspected deleterious gBRCAm metastatic pancreatic adenocarcinoma whose disease has not progressed on at least 16 weeks of a first-line platinum-based chemotherapy regimen. ",
+                "FDA approved Olaparib for the treatment of adult patients with deleterious or suspected deleterious germline or somatic homologous recombination repair (HRR) gene-mutated metastatic castration-resistant prostate cancer (mCRPC) who have progressed following prior treatment with enzalutamide or abiraterone. ",
+                "FDA approved Olaparib for the adjuvant treatment of adult patients with deleterious or suspected deleterious gBRCAm human epidermal growth factor receptor 2 (HER2)-negative high risk early breast cancer who have been treated with neoadjuvant or adjuvant chemotherapy."
+            ],
+            "approval_organization": [
+                "NMPA",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer",
+                "卵巢癌;Ovarian Cancer",
+                "卵巢/输卵管癌;Ovarian/Fallopian Tube Cancer",
+                "腹膜癌;Peritoneal Cancer",
+                "胰腺癌;Pancreatic Cancer",
+                "前列腺癌;Prostate Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "9220c1b6737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Olaparib（Lynparza）是聚（ADP-核糖）聚合酶（PARP）酶的抑制剂，包括PARP1，PARP2和PARP3。 PARP酶参与正常的细胞功能，例如DNA转录和DNA修复。 已经证明Olaparib在体外抑制人类肿瘤小鼠异种移植模型中特定肿瘤细胞系的生长，无论是单一疗法还是铂类化学疗法。 在细胞株和小鼠肿瘤模型中发现，用olaparib治疗后细胞毒性和抗肿瘤活性增加，而BRCA和非BRCA蛋白的缺陷与DNA损伤的同源重组修复（HRR）有关，并与铂反应相关。 体外研究表明，Olaparib诱导的细胞毒性可能涉及抑制PARP酶活性和增加PARP-DNA复合物的形成，从而导致细胞稳态的破坏和细胞死亡。",
+                    "drug_mechanism_en": "A small molecule inhibitor of the nuclear enzyme poly(ADP-ribose) polymerase (PARP) with potential chemosensitizing, radiosensitizing, and antineoplastic activities. Olaparib selectively binds to and inhibits PARP, inhibiting PARP-mediated repair of single strand DNA breaks; PARP inhibition may enhance the cytotoxicity of DNA-damaging agents and may reverse tumor cell chemoresistance and radioresistance. PARP catalyzes post-translational ADP-ribosylation of nuclear proteins and can be activated by single-stranded DNA breaks.",
+                    "drug_name": "奥拉帕利;Olaparib",
+                    "regimen_code": "a7f03314737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "奥拉帕利",
+            "regimen_en": "Olaparib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "0a6cc667703f844eaedb52f06607bebd",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准奥拉帕利联合贝伐珠单抗用于一线铂类为基础的化疗完全或部分缓解的、HRD阳性的晚期卵巢癌、输卵管癌或原发性腹膜癌成人患者的治疗，其中HRD阳性定义为携带BRCA有害或疑似有害突变或基因组不稳定。",
+                "NMPA批准奥拉帕利联合贝伐珠单抗用于同源重组修复缺陷（HRD）阳性的晚期上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者在一线含铂化疗联合贝伐珠单抗治疗达到完全缓解或部分缓解后的维持治疗。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved Olaparib in combination with bevacizumab for the maintenance treatment of adult patients with advanced epithelial ovarian, fallopian tube or primary \nperitoneal cancer who are in complete or partial response to first-line platinum-based chemotherapy and whose cancer is associated with homologous recombination deficiency (HRD)-positive status defined by either: a deleterious or suspected deleterious BRCA mutation, and/or genomic instability."
+            ],
+            "approval_organization": [
+                "NMPA",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "卵巢/输卵管癌;Ovarian/Fallopian Tube Cancer",
+                "腹膜癌;Peritoneal Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "9220c1b6737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Olaparib（Lynparza）是聚（ADP-核糖）聚合酶（PARP）酶的抑制剂，包括PARP1，PARP2和PARP3。 PARP酶参与正常的细胞功能，例如DNA转录和DNA修复。 已经证明Olaparib在体外抑制人类肿瘤小鼠异种移植模型中特定肿瘤细胞系的生长，无论是单一疗法还是铂类化学疗法。 在细胞株和小鼠肿瘤模型中发现，用olaparib治疗后细胞毒性和抗肿瘤活性增加，而BRCA和非BRCA蛋白的缺陷与DNA损伤的同源重组修复（HRR）有关，并与铂反应相关。 体外研究表明，Olaparib诱导的细胞毒性可能涉及抑制PARP酶活性和增加PARP-DNA复合物的形成，从而导致细胞稳态的破坏和细胞死亡。",
+                    "drug_mechanism_en": "A small molecule inhibitor of the nuclear enzyme poly(ADP-ribose) polymerase (PARP) with potential chemosensitizing, radiosensitizing, and antineoplastic activities. Olaparib selectively binds to and inhibits PARP, inhibiting PARP-mediated repair of single strand DNA breaks; PARP inhibition may enhance the cytotoxicity of DNA-damaging agents and may reverse tumor cell chemoresistance and radioresistance. PARP catalyzes post-translational ADP-ribosylation of nuclear proteins and can be activated by single-stranded DNA breaks.",
+                    "drug_name": "奥拉帕利;Olaparib",
+                    "regimen_code": "b4cb500e8d5a11ec828a005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "8fc6008e737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "贝伐珠单抗结合VEGF并阻止VEGF与其在内皮细胞表面的受体（Flt-1和KDR）相互作用。 在血管生成的体外模型中，VEGF与其受体的相互作用导致内皮细胞增殖和新血管形成。 在裸鼠结肠癌异种移植模型中应用贝伐珠单抗可降低微血管生长和抑制转移性疾病的进展。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the vascular endothelial growth factor (VEGF), a pro-angiogenic cytokine.  Bevacizumab binds to VEGF and inhibits VEGF receptor binding, thereby preventing the growth and maintenance of tumor blood vessels.",
+                    "drug_name": "贝伐珠单抗;Bevacizumab",
+                    "regimen_code": "b4cb500e8d5a11ec828a005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "奥拉帕利+贝伐珠单抗",
+            "regimen_en": "Olaparib+Bevacizumab",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "0a6cc667703f844eaedb52f06607bebd",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准鲁卡帕尼用于携带BRCA胚系或体系有害突变的、接受过雄激素受体的治疗及基于紫杉醇的方案化疗的转移性去势抵抗前列腺癌（mCRPC）成人患者的治疗。",
+                "FDA批准鲁卡帕尼用于对铂类化疗完全或部分反应的复发性上皮性卵巢癌、输卵管癌或原发性腹膜癌成年患者的维持治疗。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved Rucaparib for the treatment of adult patients with a deleterious BRCA mutation (germline and/or somatic)-associated metastatic castration-resistant prostate cancer (mCRPC) who have been treated with androgen receptor-directed therapy and a taxane-based chemotherapy. "
+            ],
+            "approval_organization": [
+                "FDA"
+            ],
+            "approval_tumour": [
+                "卵巢癌;Ovarian Cancer",
+                "前列腺癌;Prostate Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92edcb2a737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Rucaparib是一种多聚(adp -核糖)聚合酶(PARP)的抑制剂，包括PARP-1, PARP-2和PARP-3，在DNA修复中发挥作用。体外研究表明，rucaparib诱导的细胞毒性可能会抑制PARP酶活性和促进PARP-DNA复合物的形成，从而导致DNA损伤、细胞凋亡和癌细胞死亡。在BRCA1/2和其他DNA修复基因缺失的肿瘤细胞系中观察到rucaparib诱导的细胞毒性和抗肿瘤活性增加。Rucaparib已被证明在人类癌症的小鼠异种移植模型中降低肿瘤生长，无论是否存在BRCA缺失。",
+                    "drug_mechanism_en": "An orally bioavailable tricyclic indole and inhibitor of poly(ADP-ribose) polymerases (PARPs) 1 (PARP1), 2 (PARP2) and 3 (PARP3), with potential chemo/radiosensitizing and antineoplastic activities. Upon administration, rucaparib selectively binds to PARP1, 2 and 3 and inhibits PARP-mediated DNA repair. This enhances the accumulation of DNA strand breaks, promotes genomic instability and induces cell cycle arrest and apoptosis. This may enhance the cytotoxicity of DNA-damaging agents and reverse tumor cell resistance to chemotherapy and radiation therapy. PARPs are enzymes activated by single-strand DNA breaks that catalyze the post-translational ADP-ribosylation of nuclear proteins, which induces signaling and the recruitment of other proteins to repair damaged DNA. The PARP-mediated repair pathway plays a key role in DNA repair and is dysregulated in a variety of cancer cell types.",
+                    "drug_name": "鲁卡帕尼;Rucaparib",
+                    "regimen_code": "aa825a44737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "鲁卡帕尼",
+            "regimen_en": "Rucaparib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "0a6cc667703f844eaedb52f06607bebd",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准尼拉帕利用于经3线及以上化疗的、HRD阳性（携带BRCA基因的致病或疑似致病性突变或基因组存在不稳定性并在对最后一次铂类化疗反应后6个月以上出现疾病进展）的晚期卵巢癌、输卵管癌及原发性腹膜癌成人患者的治疗。",
+                "FDA批准尼拉帕利用于经含铂化疗后达到完全缓解或部分缓解的复发性上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者的维持治疗。\n\n\n",
+                "FDA批准尼拉帕利用于一线含铂化疗后达到完全缓解或部分缓解的晚期上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者的维持治疗。",
+                "NMPA批准尼拉帕利用于晚期上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者对一线含铂化疗达到完全缓解或部分缓解后的维持治疗。\nNMPA批准尼拉帕利用于铂敏感的复发性上皮性卵巢癌、输卵管癌或原发性腹膜癌成人患者在含铂化疗达到完全缓解或部分缓解后的维持治疗。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved Niraparib for the treatment of adult patients with advanced ovarian, fallopian tube or primary peritoneal cancer who have been treated with 3 or more prior chemotherapy regimens and whose cancer is associated with homologous recombination deficiency (HRD) positive status defined by either:\n1）a deleterious or suspected deleterious BRCA mutation, or\n2）genomic instability and who have progressed more than 6 months after response to the last platinum-based chemotherapy.",
+                "FDA approved Niraparib for the maintenance treatment of adult patients with recurrent epithelial \novarian, fallopian tube, or primary peritoneal cancer who are in a complete or partial response to \nplatinum-based chemotherapy. ",
+                "FDA approved Niraparib for the maintenance treatment of adult patients with advanced epithelial ovarian, fallopian tube, or primary peritoneal cancer who are in a complete or partial response to first-line platinum-based chemotherapy."
+            ],
+            "approval_organization": [
+                "NMPA",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "卵巢/输卵管癌;Ovarian/Fallopian Tube Cancer",
+                "腹膜癌;Peritoneal Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92118818737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Niraparib（尼拉帕利）是聚（ADP-核糖）聚合酶（PARP）酶PARP-1和PARP-2的抑制剂，它们在DNA修复中起作用。 体外研究表明，Niraparib诱导的细胞毒性可能涉及抑制PARP酶活性和增加PARP-DNA复合物的形成，从而导致DNA损伤，细胞凋亡和细胞死亡。 在具有或不具有BRCA1 / 2缺陷的肿瘤细胞系中观察到了Niraparib诱导的细胞毒性增加。 在具有BRCA1 / 2缺陷的人类癌细胞系的小鼠异种移植模型中，以及在具有突变或野生型BRCA1 / 2的同源重组缺陷的人类患者源性异种移植肿瘤模型中，Niraparib降低了肿瘤的生长。",
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of poly (ADP-ribose) polymerase (PARP) types 1 and 2 (PARP-1 and -2), with antineoplastic activity. Upon administration, niraparib binds to and inhibits the activity of PARP-1 and -2, thereby inhibiting PARP-1 and -2-mediated DNA repair, enhancing the accumulation of DNA strand breaks, promoting genomic instability and resulting in apoptosis. The PARP family of proteins catalyzes post-translational ADP-ribosylation of nuclear proteins and is activated by single-strand DNA (ssDNA) breaks.",
+                    "drug_name": "尼拉帕利;Niraparib",
+                    "regimen_code": "a7b6cbf6737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "尼拉帕利",
+            "regimen_en": "Niraparib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "0a6cc667703f844eaedb52f06607bebd",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准他拉唑帕利用于携带BRCA胚系有害或疑似有害突变（gBRCAm）的HER2阴性的局部晚期或转移性乳腺癌成人患者的治疗。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved Talazoparib for the treatment of adult patients with deleterious or suspected deleterious germline BRCA-mutated (gBRCAm) HER2-negative locally advanced or metastatic breast cancer."
+            ],
+            "approval_organization": [
+                "FDA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "933733e6737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Talazoparib是一种多聚(adp -核糖)聚合酶(PARP)的抑制剂，包括PARP1和PARP2，在DNA修复中发挥作用。对含有BRCA 1和2等DNA修复基因缺陷的癌细胞株的体外研究表明，他拉唑帕利诱导的细胞毒性可能包括抑制PARP酶活性和增加PARP-DNA复合物的形成，从而导致DNA损伤、细胞增殖下降和凋亡。在表达突变型或野生型brca1和2的人类患者源性异种移植乳腺癌肿瘤模型中观察到他拉唑帕利的抗肿瘤活性",
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of the nuclear enzyme poly(ADP-ribose) polymerase (PARP) with potential antineoplastic activity. Talazoparib selectively binds to PARP and prevents PARP-mediated DNA repair of single strand DNA breaks via the base-excision repair pathway. This enhances the accumulation of DNA strand breaks, promotes genomic instability and eventually leads to apoptosis. PARP catalyzes post-translational ADP-ribosylation of nuclear proteins that signal and recruit other proteins to repair damaged DNA and is activated by single-strand DNA breaks.",
+                    "drug_name": "他拉唑帕利;Talazoparib",
+                    "regimen_code": "abd649d2737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "他拉唑帕利",
+            "regimen_en": "Talazoparib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "0a6cc667703f844eaedb52f06607bebd",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "NMPA批准氟唑帕利用于既往经过二线及以上化疗的伴有胚系BRCA突变(gBRCAm)的铂敏感复发性卵巢癌、输卵管癌或原发性腹膜癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NMPA"
+            ],
+            "approval_tumour": [
+                "卵巢/输卵管癌;Ovarian/Fallopian Tube Cancer",
+                "腹膜癌;Peritoneal Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90c6895e737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "氟唑帕利为小分子PARP抑制剂，可抑制BRCA1/2功能异常细胞中的DNA修复过程，诱导细胞周期阻滞，进而抑制肿瘤细胞增殖。",
+                    "drug_mechanism_en": "An orally available inhibitor of poly (ADP-ribose) polymerase (PARP) types 1 and 2, with potential antineoplastic activity. Upon oral administration, fluzoparib inhibits PARP 1 and 2 activity, which inhibits PARP-mediated repair of damaged DNA via the base excision repair (BER) pathway, enhances the accumulation of DNA strand breaks, promotes genomic instability, and leads to an induction of apoptosis. The PARP family of proteins catalyze post-translational ADP-ribosylation of nuclear proteins, which then transduce signals to recruit other proteins to repair damaged DNA. PARP inhibition may enhance the cytotoxicity of DNA-damaging agents and may reverse tumor cell chemoresistance and radioresistance.",
+                    "drug_name": "氟唑帕利;Fluzoparib",
+                    "regimen_code": "a32b35fe737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "氟唑帕利",
+            "regimen_en": "Fluzoparib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "0a6cc667703f844eaedb52f06607bebd",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "NMPA批准帕米帕利用于既往经过二线及以上化疗的伴有胚系BRCA（gBRCA）突变的复发性晚期卵巢癌、输卵管癌或原发性腹膜癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NMPA"
+            ],
+            "approval_tumour": [
+                "卵巢/输卵管癌;Ovarian/Fallopian Tube Cancer",
+                "腹膜癌;Peritoneal Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "9249c5d4737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "帕米帕利是一种PARP1 和 PARP2 的强效、选择性抑制剂。它通过抑制肿瘤细胞DNA单链损伤的修复和同源重组修复缺陷，对肿瘤细胞起到合成致死的作用，尤其对携带BRCA基因突变的DNA修复缺陷型肿瘤细胞敏感度高。",
+                    "drug_mechanism_en": "帕米帕利（pamiparib，BGB-290） 是百济神州自主研发的 PARP1 和 PARP2 抑制剂，PARP1 和 PARP2 作为靶向聚 ADP 核糖聚合酶（Poly ADP-ribose Polymerase）参与 DNA 复制和转录调节，并在相应 DNA 受损的细胞生存中发挥关键作用。",
+                    "drug_name": "帕米帕利;Pamiparib",
+                    "regimen_code": "a85dee0e737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "帕米帕利",
+            "regimen_en": "Pamiparib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "0a6cc667703f844eaedb52f06607bebd",
+            "var": [
+                {
+                    "gene_symbol": "BRCA2",
+                    "gene_region": "exon24",
+                    "hgvs_p_abbr": "p.Ile3044PhefsTer18",
+                    "hgvs_c": "c.9130del",
+                    "hgvs_p": "p.I3044Ffs*18"
+                }
+            ]
+        }
+    ]
+}

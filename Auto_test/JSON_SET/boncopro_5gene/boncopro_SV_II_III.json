@@ -1,0 +1,3752 @@
+{
+    "sample_info": {
+        "order_id": "boncopro_test_01",
+        "sample_parent_id": "受检编号test",
+        "sample_id": "2-lib",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": "患者01",
+        "gender": "男",
+        "age": "99",
+        "sample_type": "全血",
+        "control_sample_type": null,
+        "sample_amount": "1管",
+        "control_sample_amount": null,
+        "tumor_type": "肺癌",
+        "pathol_diagn": "病理诊断test",
+        "tumor_names_cn": "肺癌",
+        "pathological_id": "病理号test",
+        "company": "测试医院",
+        "origin_company": "测试单位-收费",
+        "report_number": null,
+        "hosp_depart": null,
+        "prod_names": "OncoPro Panel（血液）-5基因",
+        "prod_ids": "89",
+        "report_module_type": "clinical",
+        "json_batch_name": "20241121_SHXW_M041055_ADXOncoProPlus-bDNA_v0.1.0.export2024121816710",
+        "mark": null,
+        "tumor_content": null,
+        "sample_position": "部位test",
+        "sample_position_id": null,
+        "family_history": "家族史test",
+        "molecular_number": null,
+        "blood_collection_date": "2023-10-31",
+        "gather_data": null,
+        "receive_data": "2023-11-01",
+        "report_data": "2024-12-19",
+        "id_number": null,
+        "bed_number": null,
+        "doctor": null,
+        "phone": null,
+        "clinical_diagnosis": null,
+        "barcode_number": null,
+        "sampling_time": null,
+        "submission_time": null,
+        "registration_certificate": null,
+        "outpatient_hospitalization_no": null,
+        "submission_department": null,
+        "submission_doctor": null,
+        "fasting_time": null,
+        "time_since_last_chemotherapy": null,
+        "time_from_blood_collection_to_plasma_separation": null,
+        "application_date": null,
+        "submission_date": null,
+        "mol_pathological_id": null,
+        "disease_area": null,
+        "hospital_area": null,
+        "physical_examination_number": null,
+        "test_kit": null,
+        "test_method": null,
+        "test_instrument": null,
+        "analysis_software": null,
+        "test_laboratory": null,
+        "sampling_sites": null,
+        "outpatient_service_no": null,
+        "hospitalization_no": null,
+        "application_department": null,
+        "hospital_area_and_physical_examination_no": null,
+        "tissue_collection_date": null,
+        "serial_number": null,
+        "original_pathological_id": null,
+        "application_number": null,
+        "medical_record_number": null,
+        "inspection_number": null,
+        "analysis_date": null,
+        "analysis_version": null,
+        "health_card_number": null,
+        "patient_phonenumber": null,
+        "tester": null,
+        "interpreter": null,
+        "auditor": null,
+        "tumor_list": [
+            "肺癌",
+            "小细胞肺癌（合并）",
+            "炎性肌纤维母细胞性肺肿瘤",
+            "原位肺腺癌",
+            "肺神经内分泌瘤",
+            "非小细胞肺癌",
+            "胸膜肺母细胞瘤",
+            "肺淋巴管肌瘤病"
+        ]
+    },
+    "snvindel": [],
+    "sv": [
+        {
+            "three_prime_chr": "chr10",
+            "three_prime_chr_pos": "123060729",
+            "three_prime_flag": "+:-",
+            "three_prime_gene": "FGFR2",
+            "three_prime_cds": "FlankingRegion3",
+            "three_prime_transcript": "NM_000141.5",
+            "three_prime_region": "FlankingRegion3",
+            "five_prime_chr": "chr10",
+            "five_prime_chr_pos": "123241899",
+            "five_prime_flag": "-:-",
+            "five_prime_gene": "FGFR2",
+            "five_prime_cds": "exon17",
+            "five_prime_transcript": "NM_000141.5",
+            "five_prime_region": "exon17",
+            "depth": 18363.0,
+            "json_batch_name": "20241121_SHXW_M041055_ADXOncoProPlus-bDNA_v0.1.0.export2024121816710",
+            "var_auto_result": "T",
+            "var_hgvs": "FGFR2:NM_000141.5:exon17--FGFR2:NM_000141.5:FlankingRegion3",
+            "copies": null,
+            "freq": 0.0314,
+            "sample_id": "2-lib",
+            "order_code": "5f52e1aebda511ef92d30242ac150002",
+            "bio_category": "Sv",
+            "var_id": "hg19:FGFR2:NM_000141.5:exon17-FGFR2:NM_000141.5:FlankingRegion3:",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Uncertain",
+            "clinical_category": "Tier III",
+            "literature": "",
+            "polymorphism": "",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "",
+            "variant_desc_cn": "",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "gene_symbol": "FGFR2,FGFR2",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "FGFR2,FGFR2",
+                    "hgvs": "FGFR2:NM_000141.5:exon17--FGFR2:NM_000141.5:FlankingRegion3",
+                    "five_prime_gene": "FGFR2",
+                    "five_prime_transcript": "NM_000141.5",
+                    "five_prime_region": "exon17",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "FlankingRegion3"
+                }
+            },
+            "gene_function": null,
+            "three_prime_gene_function": "FGFR2基因属于原癌基因，编码的蛋白为成纤维细胞生长因子受体（FGFR）家族成员之一。FGFR蛋白的胞外段可与成纤维细胞生长因子结合，并启动下游的信号通路，最终影响细胞的分裂与分化。FGFR2扩增或突变在乳腺癌、胃癌、子宫内膜癌等肿瘤中均有报道。",
+            "five_prime_gene_function": "FGFR2基因属于原癌基因，编码的蛋白为成纤维细胞生长因子受体（FGFR）家族成员之一。FGFR蛋白的胞外段可与成纤维细胞生长因子结合，并启动下游的信号通路，最终影响细胞的分裂与分化。FGFR2扩增或突变在乳腺癌、胃癌、子宫内膜癌等肿瘤中均有报道。"
+        },
+        {
+            "three_prime_chr": "chr10",
+            "three_prime_chr_pos": "123240840",
+            "three_prime_flag": "+:-",
+            "three_prime_gene": "FGFR2",
+            "three_prime_cds": "exon18",
+            "three_prime_transcript": "NM_000141.5",
+            "three_prime_region": "exon18",
+            "five_prime_chr": "chr10",
+            "five_prime_chr_pos": "123160033",
+            "five_prime_flag": "+:-",
+            "five_prime_gene": "FGFR2",
+            "five_prime_cds": "FlankingRegion3",
+            "five_prime_transcript": "NM_000141.5",
+            "five_prime_region": "FlankingRegion3",
+            "depth": 22787.0,
+            "json_batch_name": "20241121_SHXW_M041055_ADXOncoProPlus-bDNA_v0.1.0.export2024121816710",
+            "var_auto_result": "T",
+            "var_hgvs": "FGFR2:NM_000141.5:FlankingRegion3--FGFR2:NM_000141.5:exon18",
+            "copies": null,
+            "freq": 0.01,
+            "sample_id": "2-lib",
+            "order_code": "5f52e1aebda511ef92d30242ac150002",
+            "bio_category": "Sv",
+            "var_id": "hg19:FGFR2:NM_000141.5:FlankingRegion3-FGFR2:NM_000141.5:exon18:",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Uncertain",
+            "clinical_category": "Tier III",
+            "literature": "",
+            "polymorphism": "",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "",
+            "variant_desc_cn": "",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "gene_symbol": "FGFR2,FGFR2",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "FGFR2,FGFR2",
+                    "hgvs": "FGFR2:NM_000141.5:FlankingRegion3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "FGFR2",
+                    "five_prime_transcript": "NM_000141.5",
+                    "five_prime_region": "FlankingRegion3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            },
+            "gene_function": null,
+            "three_prime_gene_function": "FGFR2基因属于原癌基因，编码的蛋白为成纤维细胞生长因子受体（FGFR）家族成员之一。FGFR蛋白的胞外段可与成纤维细胞生长因子结合，并启动下游的信号通路，最终影响细胞的分裂与分化。FGFR2扩增或突变在乳腺癌、胃癌、子宫内膜癌等肿瘤中均有报道。",
+            "five_prime_gene_function": "FGFR2基因属于原癌基因，编码的蛋白为成纤维细胞生长因子受体（FGFR）家族成员之一。FGFR蛋白的胞外段可与成纤维细胞生长因子结合，并启动下游的信号通路，最终影响细胞的分裂与分化。FGFR2扩增或突变在乳腺癌、胃癌、子宫内膜癌等肿瘤中均有报道。"
+        },
+        {
+            "three_prime_chr": "chr10",
+            "three_prime_chr_pos": "123242306",
+            "three_prime_flag": "+:-",
+            "three_prime_gene": "FGFR2",
+            "three_prime_cds": "exon18",
+            "three_prime_transcript": "NM_000141.5",
+            "three_prime_region": "exon18",
+            "five_prime_chr": "chr12",
+            "five_prime_chr_pos": "12603244",
+            "five_prime_flag": "+:+",
+            "five_prime_gene": "BORCS5",
+            "five_prime_cds": "exon3",
+            "five_prime_transcript": "NM_058169.6",
+            "five_prime_region": "exon3",
+            "depth": 16388.0,
+            "json_batch_name": "20241121_SHXW_M041055_ADXOncoProPlus-bDNA_v0.1.0.export2024121816710",
+            "var_auto_result": "T",
+            "var_hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+            "copies": null,
+            "freq": 0.0082,
+            "sample_id": "2-lib",
+            "order_code": "5f52e1aebda511ef92d30242ac150002",
+            "bio_category": "Sv",
+            "var_id": "hg19:BORCS5:NM_058169.6:exon3-FGFR2:NM_000141.5:exon18:",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Likely oncogenic",
+            "clinical_category": "Tier I",
+            "literature": "fb02aacb160d11ed9c04c7f1c3325cc0,db034b38368611ee93c10242ac1d0005,15337605160e11ed8463c7f1c3325cc0,f2b3ce55160d11edaaabc7f1c3325cc0",
+            "polymorphism": "",
+            "variant_interpret_cn": "测试",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "",
+            "variant_desc_cn": "该变异为BORCS5-FGFR2融合，融合模式为BORCS5:exon3-FGFR2:exon18。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "gene_symbol": "FGFR2",
+            "evi_sum": [
+                {
+                    "regimen_name": "Zoligratinib",
+                    "tumor_name_cn": "实体瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "fb02aacb160d11ed9c04c7f1c3325cc0,db034b38368611ee93c10242ac1d0005,15337605160e11ed8463c7f1c3325cc0,f2b3ce55160d11edaaabc7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase I",
+                    "evi_conclusion": "C1",
+                    "evi_interpretation": "一项开放标签、多中心、剂量爬坡的I期临床试验（PMID: 30745300），在71位实体瘤患者中筛选了FGFR1-3基因变异，其中58位接受Zoligratinib(Debi 1347)治疗。其中，FGFR1扩增、FGFR2突变、FGFR3突变、FGFR融合的患者占比分别为40%、12%、17%、21%，其余为FGFR2扩增、FGFR3扩增、FGFR1突变。57位疗效可评估的患者中，6位患者疗效为PR，还有10位患者肿瘤缩小30%以上。"
+                },
+                {
+                    "regimen_name": "厄达替尼",
+                    "tumor_name_cn": "实体瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "fb02aacb160d11ed9c04c7f1c3325cc0,db034b38368611ee93c10242ac1d0005,15337605160e11ed8463c7f1c3325cc0,f2b3ce55160d11edaaabc7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase II",
+                    "evi_conclusion": "C1",
+                    "evi_interpretation": "一项国际性的、单臂、II期临床试验中（NCT04083976, RAGNAR, PMID: 37541273），评估厄达替尼在FGFR突变的晚期实体瘤患者中的疗效和安全性，其中Broad Panel队列入组了217例（2019.12.5-2022.2.15）携带FGFR1-4突变/融合的经过前线治疗后疾病进展且无可选择的标准治疗方法的实体瘤患者（不包含尿路上皮癌），接受厄达替尼治疗，主要研究终点为客观缓解率（ORR）。截至2022.08.15，中位随访时间为17.9个月，ORR为30%（64/217）。"
+                },
+                {
+                    "regimen_name": "佩米替尼",
+                    "tumor_name_cn": "实体瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "fb02aacb160d11ed9c04c7f1c3325cc0,db034b38368611ee93c10242ac1d0005,15337605160e11ed8463c7f1c3325cc0,f2b3ce55160d11edaaabc7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase II",
+                    "evi_conclusion": "C1",
+                    "evi_interpretation": "一项开放标签、单臂、多中心II期研究（NCT03822117; FIGHT-207; 2023 AACR, Abstract CT016），旨在评估佩米替尼在FGFR突变或融合/重排的不可切除或晚期/转移性实体瘤患者中的作用。患者被分配到队列A (FGFR1-3融合，n=49)，B (FGFR1-3激活非激酶结构域突变，n=32)和C (FGFR1-3激酶结构域突变和意义未明变异，n=26)，并连续接受13.5 mg pemigatinib，每天1次。主要终点是经独立中心审查确认的RECIST v1.1或RANO的客观缓解率(ORR)。研究结果显示：A、B和C组的ORR分别为26.5%、9.4%和3.8%。在FGFR2 fusion、FGFR3 fusion、FGFR1 K656E（弥漫性星形细胞瘤）、FGFR2 C382R（胆管癌）、FGFR2 I291_Y308Del（胆管癌）、FGFR3 Y373C（尿道/膀胱癌）中均观察到疾病缓解。"
+                },
+                {
+                    "regimen_name": "Derazantinib",
+                    "tumor_name_cn": "胆道癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "CSCO",
+                    "literature": "fb02aacb160d11ed9c04c7f1c3325cc0,db034b38368611ee93c10242ac1d0005,15337605160e11ed8463c7f1c3325cc0,f2b3ce55160d11edaaabc7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-unknown phase",
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "CSCO胆道恶性肿瘤诊疗指南（2022）中，II级推荐佩米替尼、III级推荐Infigratinib、Futibatinib、厄达替尼、Derazantinib用于PS≤1分、FGFR2融合/重排的晚期胆道恶性肿瘤的二线治疗。"
+                },
+                {
+                    "regimen_name": "Futibatinib",
+                    "tumor_name_cn": "胆管癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "fb02aacb160d11ed9c04c7f1c3325cc0,db034b38368611ee93c10242ac1d0005,15337605160e11ed8463c7f1c3325cc0,f2b3ce55160d11edaaabc7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": "FDA加速批准Futibatinib用于治疗携带FGFR2基因融合或重排且先前接受过治疗的、不可切除的局部晚期或转移性肝内胆管癌患者。",
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase II",
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项单臂、开放、多中心Ⅱ期研究(FOENIX-CCA2，NCT02052778) ，纳入103例FGFR2融合/重排、既往至少接受过一线治疗后出现疾病进展的不可切除的、局部晚期或转移性肝内胆管癌患者，其中FGFR2融合和重排患者分别占比78％和22%。治疗方式为每日一次口服20 mg Futibatinib，直到疾病进展/不耐受。主要终点为客观缓解率(ORR)和缓解持续时间(DOR)。研究结果显示，ORR为42％，所有43例患者均获得了部分缓解；mDOR为9.7个月，31例（72％）患者缓解持续时间≥6个月，6例（14%）患者缓解持续时间≥12个月。基于上述研究，FDA加速批准Futibatinib用于治疗携带FGFR2基因融合或重排且先前接受过治疗的、不可切除的局部晚期或转移性肝内胆管癌患者。"
+                },
+                {
+                    "regimen_name": "Infigratinib",
+                    "tumor_name_cn": "胆道癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "CSCO",
+                    "literature": "fb02aacb160d11ed9c04c7f1c3325cc0,db034b38368611ee93c10242ac1d0005,15337605160e11ed8463c7f1c3325cc0,f2b3ce55160d11edaaabc7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-unknown phase",
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "CSCO胆道恶性肿瘤诊疗指南（2022）中，II级推荐佩米替尼、III级推荐Infigratinib、Futibatinib、厄达替尼、Derazantinib用于PS≤1分、FGFR2融合/重排的晚期胆道恶性肿瘤的二线治疗。"
+                },
+                {
+                    "regimen_name": "E7090",
+                    "tumor_name_cn": "胆管癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "fb02aacb160d11ed9c04c7f1c3325cc0,db034b38368611ee93c10242ac1d0005,15337605160e11ed8463c7f1c3325cc0,f2b3ce55160d11edaaabc7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase II",
+                    "evi_conclusion": "C4",
+                    "evi_interpretation": "一项单臂、多中心、开放标签、II期临床试验（NCT04238715, 2024 ASCO GI, Abstract 471），旨在评估Tasurgratinib（E7090）治疗伴有FGFR2基因融合的、经吉西他滨联合化疗失败的不可切除的、晚期或转移性胆管癌（CCA）患者中的疗效和安全性。主要终点为客观缓解率（ORR），次要终点包括反应持续时间（DOR）、反应时间（TTR）、疾病控制率（DCR），临床获益率（CBR）、无进展生存期（PFS）、总生存期（OS）和安全性。研究结果显示，63例患者的ORR为30%，DCR为79%，CBR为51%，应答者中位TTR为1.87个月，中位DOR为5.6个月，mPFS为5.4个月，mOS为13.1个月。研究结论：对于伴有FGFR2基因融合且既往接受过≥1次化疗方案治疗失败的CCA患者，Tasurgratinib（E7090）具有良好的抗肿瘤活性。"
+                },
+                {
+                    "regimen_name": "Gunagratinib",
+                    "tumor_name_cn": "胆管癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "fb02aacb160d11ed9c04c7f1c3325cc0,db034b38368611ee93c10242ac1d0005,15337605160e11ed8463c7f1c3325cc0,f2b3ce55160d11edaaabc7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase II",
+                    "evi_conclusion": "C4",
+                    "evi_interpretation": "一项IIa期剂量扩展研究（ICP-CL-00301, NCT03758664），入组18名既往接受过治疗的局部晚期或转移性的携带FGFR2融合突变的胆管癌患者，每天一次口服20 毫克Gunagratinib。在完成至少一次肿瘤评估的17例胆管癌患者中，总缓解率（ORR）为52.9%，疾病控制率（DCR）为94.1%，中位无进展生存期（mPFS）为6.93个月（5.42-未达到），且Gunagratinib安全性和耐受性良好。"
+                },
+                {
+                    "regimen_name": "Lirafugratinib",
+                    "tumor_name_cn": "胆管癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "fb02aacb160d11ed9c04c7f1c3325cc0,db034b38368611ee93c10242ac1d0005,15337605160e11ed8463c7f1c3325cc0,f2b3ce55160d11edaaabc7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase I",
+                    "evi_conclusion": "C4",
+                    "evi_interpretation": "一项全球性、开放标签、I/II期临床试验（NCT04526106, ReFocus），对于主要队列，招募大约100名FGFR2融合阳性胆管癌患者患者，这些患者未使用过FGFR抑制剂，并且之前接受过化疗。治疗方式为口服Lirafugratinib（RLY-4008）。试验关键目标为由研究者根据RECIST 1.1标准所检视的客观缓解率、缓解持续时间与安全性。2022 ESMO会议公布了该研究的初步数据（数据截止日期为2022年8月1日），RLY-4008对于FGFR抑制剂初治的携带FGFR2融合和重排胆管癌患者（所有剂量范围为20mg-100mg QD, N=38），92%的患者实现肿瘤缩小，ORR达到63.2%，cORR为57.9%,，DCR为94.7%。在RP2D剂量下（剂量70mg QD, N=17），ORR为88.2%，cORR为82.4%，DCR高达100%。71%的响应者持续响应，中位响应时间为 1.8 个月，暴露的中位持续时间为5.5 个月。研究结论：RLY-4008是一款具有前景的下一代抑制剂，可能变革FGFR2基因融合/重排、且之前未曾接受FGFR抑制剂治疗的胆管癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "ABSK061",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "fb02aacb160d11ed9c04c7f1c3325cc0,db034b38368611ee93c10242ac1d0005,15337605160e11ed8463c7f1c3325cc0,f2b3ce55160d11edaaabc7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Case report",
+                    "evi_conclusion": "D1",
+                    "evi_interpretation": "一项开放标签的I期临床试验（NCT05244551, ESMO TAT Congress 2024, Abstract 450），评估了ABSK061治疗晚期实体瘤患者的安全性和药代动力学（PK）。截至2023年11月，共28患者参与该研究的计量递增部分，。研究结果：未观察到剂量限制毒性（DLT）。最常见的治疗相关不良事件（TRAEs）包括ALT升高、AST升高和贫血。在既往接受过治疗且携带FGFR2融合/扩增或FGFR3融合的5例患者中，2例获得部分缓解（PR），2例达到疾病稳定（SD），客观缓解率（ORR）为40%，疾病控制率（DCR）为80%。在非小细胞肺癌（FGFR2融合）和尿路上皮癌（FGFR3融合）中观察到PR。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "Lirafugratinib",
+                    "Futibatinib",
+                    "Infigratinib",
+                    "E7090",
+                    "Gunagratinib",
+                    "Zoligratinib",
+                    "佩米替尼",
+                    "Derazantinib",
+                    "厄达替尼",
+                    "ABSK061"
+                ],
+                "var": {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            },
+            "gene_function": "FGFR2基因属于原癌基因，编码的蛋白为成纤维细胞生长因子受体（FGFR）家族成员之一。FGFR蛋白的胞外段可与成纤维细胞生长因子结合，并启动下游的信号通路，最终影响细胞的分裂与分化。FGFR2扩增或突变在乳腺癌、胃癌、子宫内膜癌等肿瘤中均有报道。",
+            "three_prime_gene_function": "FGFR2基因属于原癌基因，编码的蛋白为成纤维细胞生长因子受体（FGFR）家族成员之一。FGFR蛋白的胞外段可与成纤维细胞生长因子结合，并启动下游的信号通路，最终影响细胞的分裂与分化。FGFR2扩增或突变在乳腺癌、胃癌、子宫内膜癌等肿瘤中均有报道。",
+            "five_prime_gene_function": null
+        }
+    ],
+    "cnv": [],
+    "cnv_file_path": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [
+        {
+            "sample_id": "",
+            "order_code": "5f52e1aebda511ef92d30242ac150002",
+            "var_id": "MSS",
+            "msi_score": 49.06,
+            "img_path": null,
+            "var_auto_result": "T",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "",
+            "carcinogenicity_variant_interpret_en": "",
+            "variant_desc_cn": "微卫星（Microsatellite）又称简单重复序列（SSR），是指遍布于人类基因组中的短串联重复序列，一般由1-6个核苷酸组成。DNA复制时，肿瘤细胞内的微卫星由于重复单位的插入或缺失而造成的微卫星长度的变化，称为微卫星不稳定性（Microsatellite Instability, MSI）。大量研究表明，MSI是由错配修复（mismatch repair，MMR）基因突变或功能缺陷引起的（PMID: 25701956）。MSI在多种癌种中被发现，包括子宫内膜癌、结直肠癌和胃腺癌等。据报道，10%-15%的散发性结直肠癌患者存在MSI（PMID: 15528785），NCCN指南明确推荐所有结直肠癌患者均需考虑做MSI或MMR检测。临床上也已将MSI作为结直肠癌及其他实体瘤预后和制定辅助治疗方案的重要分子标志物。",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "biomarker_type": "MSS"
+                }
+            }
+        }
+    ],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "ALK",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "EGFR",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "MET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "RET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/G基因型的患者使用铂类治疗时疗效中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效中等",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/C基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，G/G基因型的患者使用顺铂+吉西他滨治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "顺铂+吉西他滨",
+            "drug_name_en": "cisplatin and gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用铂类药物治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "C/C",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，A/G基因型的患者使用顺铂+吉西他滨治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "顺铂+吉西他滨",
+            "drug_name_en": "cisplatin and gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG或AG基因型患者相比，A/A基因型的患者使用依托泊苷+铂类治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG或AA基因型患者相比，G/A基因型的患者使用吉西他滨治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)6或(TA)6/(TA)7基因型患者相比，(TA)7/(TA)7基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)7/(TA)7",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，A/A基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/G基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，C/C基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7779029",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "SEMA3C",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，G/C基因型的患者使用铂类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "G/C",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，C/C基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1517114",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "C8orf34",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/A基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 AG或AA 基因型患者相比，G/G基因型的患者使用铂类治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 AA 或 AG 基因型患者相比，G/G基因型的患者使用铂类治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/C基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7779029",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "SEMA3C",
+            "genotype": "T/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/G基因型的患者使用铂类药物治疗时药物疗效较差（亚裔）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GA或AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/A基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/A基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用依托泊苷+铂类治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类药物治疗时药物疗效较差（亚裔）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，A/C基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs2072671",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用依托泊苷+铂类治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用顺铂+吉西他滨治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "顺铂+吉西他滨",
+            "drug_name_en": "cisplatin and gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用吉西他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，A/A基因型的患者使用吉西他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs2072671",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用铂类治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/C基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，G/G基因型的患者使用铂类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，C/G基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1517114",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "C8orf34",
+            "genotype": "C/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 CG 和 GG 基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CC或CT基因型患者相比，T/T基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7779029",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "SEMA3C",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 CC 或 CG 基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1517114",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "C8orf34",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)6或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)7基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)7",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，C/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，C/T基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，A/G基因型的患者使用铂类治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，C/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 AA 或GG基因型患者相比，A/G基因型的患者使用铂类治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用铂类药物治疗时药物疗效较好（亚裔）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)7或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)6基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)6",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，C/C基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs2072671",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，A/A基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类治疗时疗效较差（但也有报道认为该基因型与生存期无关）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0,
+            "var_auto_result": null
+        }
+    ],
+    "PGx_analysis_result": [],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": [
+            {
+                "sample_id": "2-lib",
+                "library_id": "2-lib",
+                "bioinform_ver": null,
+                "json_batch_name": "20241121_SHXW_M041055_ADXOncoProPlus-bDNA_v0.1.0.export2024121816710",
+                "data_auto_result": "T",
+                "flowcell_lane": "BH7CKWDRX5_1",
+                "match_ratio": 1.0,
+                "bardist": null,
+                "residual_r1": null,
+                "residual_r2": null,
+                "cleandata_size": "14.69G",
+                "cleandata_gc_ratio": null,
+                "cleandata_q20": null,
+                "cleandata_q30": 0.9141,
+                "mapping_ratio": 0.9962,
+                "nonprope_ratio": null,
+                "lqreads_ratio": null,
+                "hqreads_ratio": null,
+                "read_ontarget_ratio": null,
+                "base_ontarget_ratio": null,
+                "gc_ontarget_ratio": null,
+                "gc_offtarget_ratio": null,
+                "inssize_ontarget": 175.98,
+                "inssize_offtarget": null,
+                "dup_ratio": 0.5196,
+                "cover_ratio": null,
+                "depth_mean": null,
+                "depth_ssbc": null,
+                "depth_dsbc": null,
+                "depth_median": 3992.0,
+                "depth_median_ssbc": null,
+                "depth_median_dsbc": null,
+                "uni20": null,
+                "reads_counts": null,
+                "unmatch_ratio": null,
+                "crossmatch_ratio": null,
+                "unassemble_ratio": null,
+                "judgment_ratio": null,
+                "depth_min": null,
+                "depth_max": null,
+                "depth_cv": null,
+                "depth_mean_rna": null,
+                "control_counts": null,
+                "uni20_ssbc": null,
+                "uni20_dsbc": null,
+                "uni50": null,
+                "uni50_ssbc": null,
+                "uni50_dsbc": null,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "qc_type": null,
+                "depth_hotregion_ssbc": null,
+                "depth_rna_ctrl": null,
+                "mtxplot": null,
+                "cellularity": null,
+                "ploidy": null,
+                "totaldata": "15.88G",
+                "totalreads": null,
+                "alignedreads": null,
+                "depth_mean_dsbc": null,
+                "depth_hotregion_dsbc": null,
+                "depth_mean_dsbc_hot": null,
+                "depth_nonhotregion_dsbc": null,
+                "depth_mean_dsbc_nonhot": null,
+                "depth_mean_ssbc": null,
+                "depth_mean_ssbc_hot": null,
+                "depth_nonhotregion_ssbc": null,
+                "depth_mean_ssbc_nonhot": null,
+                "depth_mean_uniq": null,
+                "depth_mean_uniq_hot": null,
+                "depth_mean_uniq_nonhot": null,
+                "hotdepth_median_dsbc": null,
+                "depth_median_dsbc_hot": null,
+                "nonhotdepth_median_dsbc": null,
+                "depth_median_dsbc_nonhot": null,
+                "hotdepth_median_ssbc": null,
+                "depth_median_ssbc_hot": null,
+                "nonhotdepth_median_ssbc": null,
+                "depth_median_ssbc_nonhot": null,
+                "depth_median_uniq": null,
+                "hotdepth_median_uniq": null,
+                "depth_median_uniq_hot": null,
+                "nonhotdepth_median_uniq": null,
+                "depth_median_uniq_nonhot": null,
+                "uni20_uniq": null,
+                "depth_hotregion_uni20": null,
+                "uni20_uniq_hot": null,
+                "depth_nonhotregion_uni20": null,
+                "uni20_uniq_nonhot": null,
+                "uni50_uniq": null,
+                "depth_hotregion_uni50": null,
+                "uni50_uniq_hot": null,
+                "depth_nonhotregion_uni50": null,
+                "uni50_uniq_nonhot": null,
+                "depth_mean_hot": null,
+                "depth_ssbc_hot": null,
+                "depth_dsbc_hot": null,
+                "coverage_ratio_uniq_hot": null,
+                "coverage_ratio_ssbc_hot": null,
+                "coverage_ratio_dsbc_hot": null,
+                "coverage_ratio_uniq": null,
+                "coverage_ratio_ssbc": null,
+                "coverage_ratio_dsbc": null,
+                "cnv_uni": null,
+                "cnv_cv": null,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "depth_noise": null,
+                "scale_log_post_prob": null,
+                "bam_path": "/amoydx/analysis/20241121_SHXW_M041055_ADXOncoProPlus-bDNA_v0.1.0/2-lib_2-lib_BH7CKWDRX5_1/2-lib_2-lib_BH7CKWDRX5_1.ssbc.bam",
+                "bai_path": "/amoydx/analysis/20241121_SHXW_M041055_ADXOncoProPlus-bDNA_v0.1.0/2-lib_2-lib_BH7CKWDRX5_1/2-lib_2-lib_BH7CKWDRX5_1.ssbc.bam.bai",
+                "cnvplot": null,
+                "cnv_noise": "0.05434733458071036",
+                "cnv_pon": null,
+                "cnv_purity": null,
+                "cnv_ploidy": null,
+                "paired_ratio": null,
+                "paired_stat": null,
+                "runstat": null,
+                "inssize_median": null,
+                "raw_read_ontarget_ratio": "0.8181999999999999",
+                "raw_amp_rate": null,
+                "brca_cover_ratio": null,
+                "brca_depth_mean": null,
+                "brca_depth_median_ssbc": null,
+                "brca_depth_ssbc": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null,
+                "cn2_ratio": null,
+                "cn2_ratio_length": null,
+                "cs_bam_path": "/amoydx/analysis/20241121_SHXW_M041055_ADXOncoProPlus-bDNA_v0.1.0/2-lib_2-lib_BH7CKWDRX5_1/2-lib_2-lib_BH7CKWDRX5_1.fusion.bam",
+                "cs_bai_path": "/amoydx/analysis/20241121_SHXW_M041055_ADXOncoProPlus-bDNA_v0.1.0/2-lib_2-lib_BH7CKWDRX5_1/2-lib_2-lib_BH7CKWDRX5_1.fusion.bam.bai",
+                "raw_base_ontarget_ratio": null,
+                "depth_mean_raw": null,
+                "paired_dist": null,
+                "pairedratio": null,
+                "pairedstat": null,
+                "uniq_depth_median": null,
+                "raw_depth_mean": null,
+                "uniq_depth_min": null,
+                "brca_uni20": null,
+                "brca_depth_cv": null,
+                "snp_depth_ssbc": null,
+                "snp_depth_median_ssbc": null,
+                "snp_depth_mean": null,
+                "snp_uni20": null,
+                "snp_depth_cv": null,
+                "slpp": null,
+                "cn2_length_ratio": null,
+                "cover_uni20_ratio": null,
+                "depth_median_raw": null,
+                "depth": null,
+                "snp_depth": null,
+                "snp_depth_median": null,
+                "snp_cover_ratio": null,
+                "snr_af": null,
+                "silhouette_score": null,
+                "conta_ratio": null,
+                "conta_stat": null,
+                "snv_indel_pass_vcf": null,
+                "snv_indel_discard_vcf": null,
+                "fq1_path": null,
+                "fq2_path": null,
+                "cnv_vcf": null,
+                "cover1000_ratio": "0.9933"
+            }
+        ],
+        "lib_dna_qc": [],
+        "qc_gradient": [],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "89",
+            "gene_symbol": "ABRAXAS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "AKT2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "AKT3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "APC",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "AR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "AR",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ARAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ARID1A",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ATM",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ATM",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ATR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ATR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "AURKA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "B2M",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "BAP1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "BARD1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "BCL2L11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "BRCA1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "BRCA1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "BRCA2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "BRCA2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "BRIP1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CCND1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CCND2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CCNE1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CD274",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CDH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CDK12",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CDK6",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CDKN2A",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CDKN2B",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CHEK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CHEK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "CYP2D6",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "DDR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "DPYD",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "EPCAM",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ERBB3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ERBB4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ERBB4",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ERCC1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ERCC2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ERCC2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ERCC3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ERCC4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ESR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ESR1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "EZH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FANCA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FANCA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FANCD2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FANCD2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FANCL",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FANCM",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FANCM",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FBXW7",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FGF19",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FGF3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FGFR4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FGFR4",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "FH",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "GATA3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "GEN1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "GNA11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "GNAQ",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "GNAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "HDAC2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "HNF1A",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "IDH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "IDH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "JAK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "JAK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "JAK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "KDR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "KEAP1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MAP2K1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MAP2K2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MAP2K4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MAPK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MAPK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MDM2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MDM4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MLH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MPL",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MRE11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MSH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MSH6",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MTAP",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MTOR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MTOR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MUTYH",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MYC",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "MYCN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NBN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NF1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NF1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NF2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NFE2L2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NOTCH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NOTCH1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NPM1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NRG1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NRG1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PALB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PDCD1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PIK3CB",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PIK3CB",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PIK3R1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PMS2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "POLD1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "POLD1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PPARG",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PTCH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PTCH1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "PTPN11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RAD50",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RAD50",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RAD51",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RAD51B",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RAD51C",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RAD51D",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RAD52",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RAD54L",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RAF1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RAF1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RASA1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RASA1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RHEB",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RHOA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RICTOR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RICTOR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RIT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "RNF43",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "SETD2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "SETD2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "SF3B1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "SLX4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "SMAD4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "SMARCA4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "SMARCA4",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "SMO",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "TMPRSS2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "TMPRSS2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "TSC1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "TSC1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "TSHR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "UGT1A1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "VHL",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "XRCC1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "89",
+            "gene_symbol": "XRCC2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "hd": [],
+    "gss": [],
+    "lib_quality_control": {
+        "lib_dna_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_lib_qc": []
+    },
+    "drug": [
+        {
+            "general_name_cn": "厄达替尼",
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ],
+            "general_name_en": "Erdafitinib",
+            "trade_name_cn": null,
+            "trade_name_en": "BALVERSA",
+            "approval_organization": [
+                "CSCO",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "Erdafitinib是一种激酶抑制剂，可根据体外数据与FGFR1，FGFR2，FGFR3和FGFR4结合并抑制其酶促活性。 Erdafitinib还与RET，CSF1R，PDGFRA，PDGFRB，FLT4，KIT和VEGFR2结合。 Erdafitinib可抑制FGFR磷酸化和信号传导，并降低表达FGFR遗传改变（包括点突变，扩增和融合）的细胞系中的细胞活力。 Erdafitinib在表达FGFR的细胞系和源自包括膀胱癌在内的肿瘤类型的异种移植模型中显示出抗肿瘤活性。",
+            "adaptation_disease_cn": [
+                "FDA批准厄达替尼用于携带FGFR3或FGFR2基因变异且在既往至少接受过一线含铂化疗（包括12个月以内的新辅助或辅助含铂化疗）期间或之后进展的局部晚期或转移性尿路上皮癌成年患者的治疗。\n",
+                "FDA批准厄达替尼用于治疗携带FGFR3基因变异的、既往接受过至少一种系统性治疗出现进展的局部晚期或转移性尿路上皮癌（mUC）成年患者。另外，FDA不推荐厄达替尼用于治疗符合资格但之前未接受过PD-1或PD-L1抑制剂治疗的患者。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": null,
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ],
+            "general_name_en": "ABSK061",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [],
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "drug_type": "Targeted therapy（靶向）"
+        },
+        {
+            "general_name_cn": "佩米替尼",
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ],
+            "general_name_en": "Pemigatinib",
+            "trade_name_cn": "达伯坦",
+            "trade_name_en": "PEMAZYRE",
+            "approval_organization": [
+                "NMPA",
+                "CSCO",
+                "NCCN",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "Pemigatinib是一种靶向FGFR1、2和3的小分子激酶抑制剂，IC50值小于2 nM。 Pemigatinib在体外对FGFR4的抑制作用也比抑制FGFR1、2和3的抑制作用高约100倍。Pemigatinib通过激活FGFR扩增和融合作用而抑制FGFR1-3磷酸化和信号传导并降低细胞活力，从而导致FGFR信号的组成性激活。 组成性FGFR信号传导可以支持恶性细胞的增殖和存活。 Pemigatinib在具有FGFR1，FGFR2或FGFR3改变的人类肿瘤的小鼠异种移植模型中表现出抗肿瘤活性，从而导致FGFR的组成性激活，包括表达肿瘤致癌性FGFR2Transformer-2β同源（TRA2b）融合蛋白的源自患者的胆管癌异种移植模型。",
+            "adaptation_disease_cn": [
+                "FDA批准佩米替尼用于既往接受过治疗的携带FGFR2融合或重排的不可切除局部晚期或转移性胆管癌成人患者的治疗。",
+                "NMPA批准佩米替尼用于既往至少接受过一种系统性治疗，且经检测确认存在有FGFR2融合或重排的晚期、转移性或不可手术切除的胆管癌成人患者的治疗。",
+                "FDA批准佩米替尼用于FGFR1重排的髓系/淋巴肿瘤（MLN）成人患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        }
+    ],
+    "io_gene_clinical": [],
+    "clinic_trial": [
+        {
+            "clinicaltrial_number": "CTR20200475",
+            "conditions": "晚期实体瘤",
+            "gene_symbol": "FGFR2",
+            "interventions": "Erdafitinib",
+            "phase": "II期",
+            "study_title": "一项在患有晚期实体瘤且具有FGFR基因变异的受试者中进行的Erdafitinib II期研究"
+        },
+        {
+            "clinicaltrial_number": "NCT02272998",
+            "conditions": "hematologic cancer,Advanced Solid Tumor",
+            "gene_symbol": "FGFR2",
+            "interventions": "Ponatinib",
+            "phase": "Phase II",
+            "study_title": "Ponatinib for Patients Whose Advanced Solid Tumor Cancer Has Activating Mutations Involving the Following Genes: FGFR1, FGFR2, FGFR3, FGFR4, RET, KIT."
+        },
+        {
+            "clinicaltrial_number": "NCT02393248",
+            "conditions": "endometrial cancer,lung squamous cell carcinoma,cholangiocarcinoma,myeloproliferative neoplasm,multiple myeloma,transitional cell carcinoma,breast cancer,Advanced Solid Tumor,stomach cancer",
+            "gene_symbol": "FGFR2",
+            "interventions": "Cisplatin + Gemcitabine + Pemigatinib,Docetaxel + Pemigatinib,Pemigatinib + Retifanlimab,Pemigatinib + Trastuzumab,Epacadostat + Pembrolizumab",
+            "phase": "Phase Ib/II",
+            "study_title": "Open-Label, Dose-Escalation Study of Pemigatinib in Subjects With Advanced Malignancies - (FIGHT-101)"
+        },
+        {
+            "clinicaltrial_number": "NCT02465060",
+            "conditions": "multiple myeloma,Advanced Solid Tumor,lymphoma",
+            "gene_symbol": "FGFR2",
+            "interventions": "Erdafitinib,Copanlisib,Trametinib,Crizotinib,Sunitinib,Sapanisertib,Nivolumab,AZD4547,Dasatinib,Pertuzumab + Trastuzumab,Dabrafenib + Trametinib,Binimetinib,Adavosertib,Osimertinib,Palbociclib,Afatinib,Capivasertib,Defactinib,GSK2636771,Vismodegib,Ado-trastuzumab emtansine,Larotrectinib,Taselisib",
+            "phase": "Phase II",
+            "study_title": "Targeted Therapy Directed by Genetic Testing in Treating Patients With Advanced Refractory Solid Tumors, Lymphomas, or Multiple Myeloma (The MATCH Screening Trial)"
+        },
+        {
+            "clinicaltrial_number": "NCT02693535",
+            "conditions": "Advanced Solid Tumor,multiple myeloma,B-cell lymphoma",
+            "gene_symbol": "FGFR2",
+            "interventions": "Cobimetinib + Vemurafenib,Regorafenib,Ipilimumab + Nivolumab,Palbociclib,Afatinib,Talazoparib,Pembrolizumab,Temsirolimus,Pertuzumab + Trastuzumab,Crizotinib,Abemaciclib,Sunitinib,Olaparib",
+            "phase": "Phase II",
+            "study_title": "TAPUR: Testing the Use of Food and Drug Administration (FDA) Approved Drugs That Target a Specific Abnormality in a Tumor Gene in People With Advanced Stage Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03155620",
+            "conditions": "sarcoma,non-Hodgkin lymphoma,lymphoma,medulloblastoma,hepatoblastoma,rhabdomyosarcoma,neuroectodermal tumor,Advanced Solid Tumor,lymphatic system cancer,Ewing sarcoma,childhood ependymoma,central nervous system cancer,neuroblastoma,childhood osteosarcoma",
+            "gene_symbol": "FGFR2",
+            "interventions": "Tazemetostat,Larotrectinib,LY3023414,Vemurafenib,Palbociclib,Olaparib,Ulixertinib,Erdafitinib,Selumetinib,Ensartinib",
+            "phase": "Phase II",
+            "study_title": "Targeted Therapy Directed by Genetic Testing in Treating Pediatric Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphomas, or Histiocytic Disorders (The Pediatric MATCH Screening Trial)"
+        },
+        {
+            "clinicaltrial_number": "NCT03210714",
+            "conditions": "childhood ependymoma,Advanced Solid Tumor,neuroblastoma,childhood osteosarcoma,hepatoblastoma,rhabdomyosarcoma,histiocytosis,neuroectodermal tumor,Ewing sarcoma,non-Hodgkin lymphoma,high grade glioma,childhood medulloblastoma,sarcoma",
+            "gene_symbol": "FGFR2",
+            "interventions": "Erdafitinib",
+            "phase": "Phase II",
+            "study_title": "Erdafitinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With FGFR Mutations (A Pediatric MATCH Treatment Trial)"
+        },
+        {
+            "clinicaltrial_number": "NCT03297606",
+            "conditions": "Advanced Solid Tumor,non-Hodgkin lymphoma,multiple myeloma",
+            "gene_symbol": "FGFR2",
+            "interventions": "Bosutinib,Palbociclib,Vismodegib,Ipilimumab + Nivolumab,Cobimetinib + Vemurafenib,Temsirolimus,Olaparib,Erlotinib,Crizotinib,Sunitinib,Afatinib,Dasatinib,Pertuzumab + Trastuzumab,Axitinib",
+            "phase": "Phase II",
+            "study_title": "Canadian Profiling and Targeted Agent Utilization Trial (CAPTUR) (CAPTUR)"
+        },
+        {
+            "clinicaltrial_number": "NCT03934372",
+            "conditions": "Advanced Solid Tumor,lymphoma,acute myeloid leukemia,acute lymphoblastic leukemia,central nervous system cancer,leukemia,chronic myeloid leukemia",
+            "gene_symbol": "FGFR2",
+            "interventions": "Ponatinib",
+            "phase": "Phase Ib/II",
+            "study_title": "Safety and Efficacy of Ponatinib for Treatment of Pediatric Recurrent or Refractory Leukemias or Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT04083976",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "FGFR2",
+            "interventions": "Erdafitinib",
+            "phase": "Phase II",
+            "study_title": "A Study of Erdafitinib in Participants With Advanced Solid Tumors and Fibroblast Growth Factor Receptor (FGFR) Gene Alterations"
+        },
+        {
+            "clinicaltrial_number": "NCT04092673",
+            "conditions": "Advanced Solid Tumor,pancreatic adenocarcinoma",
+            "gene_symbol": "FGFR2",
+            "interventions": "eFT226",
+            "phase": "Phase Ib/II",
+            "study_title": "Study of eFT226 in Subjects With Selected Advanced Solid Tumor Malignancies"
+        },
+        {
+            "clinicaltrial_number": "NCT04189445",
+            "conditions": "Advanced Solid Tumor,lymphoma,gastroesophageal junction adenocarcinoma,myeloid neoplasm,stomach cancer",
+            "gene_symbol": "FGFR2",
+            "interventions": "Futibatinib",
+            "phase": "Phase II",
+            "study_title": "Futibatinib in Patients With Specific FGFR Aberrations"
+        },
+        {
+            "clinicaltrial_number": "NCT04233567",
+            "conditions": "Advanced Solid Tumor,cholangiocarcinoma",
+            "gene_symbol": "FGFR2",
+            "interventions": "Infigratinib",
+            "phase": "Phase II",
+            "study_title": "Infigratinib for the Treatment of Advanced or Metastatic Solid Tumors in Patients With FGFR Gene Mutations"
+        },
+        {
+            "clinicaltrial_number": "NCT04526106",
+            "conditions": "Advanced Solid Tumor",
+            "gene_symbol": "FGFR2",
+            "interventions": "RLY-4008",
+            "phase": "Phase I",
+            "study_title": "First-in-human Study of Highly Selective FGFR2 Inhibitor, RLY-4008, in Patients With ICC and Other Advanced Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT04565275",
+            "conditions": "Advanced Solid Tumor,transitional cell carcinoma,cholangiocarcinoma",
+            "gene_symbol": "FGFR2",
+            "interventions": "ICP-192",
+            "phase": "Phase Ib/II",
+            "study_title": "A Study of ICP-192 in Patients With Advanced Solid Tumors"
+        }
+    ],
+    "refer": [
+        {
+            "authors": "Hiroyuki Yamamoto,Kohzoh Imai",
+            "date": "(2015)",
+            "journal": "Arch Toxicol",
+            "pmid": "[PMID:25701956]",
+            "title": "Microsatellite instability: an update.",
+            "vol": "89(6):899-921."
+        },
+        {
+            "authors": "Timothy M Pawlik,Chandrajit P Raut,Miguel A Rodriguez-Bigas",
+            "date": "(2004)",
+            "journal": "Dis Markers",
+            "pmid": "[PMID:15528785]",
+            "title": "Colorectal carcinogenesis: MSI-H versus MSI-L.",
+            "vol": "20(4-5):199-206."
+        },
+        {
+            "authors": "Martin H Voss,Cinta Hierro,Rebecca S Heist,et al.",
+            "date": "(2019)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:30745300]",
+            "title": "A Phase I, Open-Label, Multicenter, Dose-escalation Study of the Oral Selective FGFR Inhibitor Debio 1347 in Patients with Advanced Solid Tumors Harboring.",
+            "vol": "25(9):2699-2707."
+        },
+        {
+            "authors": "Lipika Goyal#,Lei Shi#,Leah Y Liu#,et al.",
+            "date": "(2019)",
+            "journal": "Cancer Discov",
+            "pmid": "[PMID:31109923]",
+            "title": "TAS-120 Overcomes Resistance to ATP-Competitive FGFR Inhibitors in Patients with FGFR2 Fusion-Positive Intrahepatic Cholangiocarcinoma.",
+            "vol": "9(8):1064-1079."
+        },
+        {
+            "authors": "Lipika Goyal,Supriya K Saha,Leah Y Liu,et al.",
+            "date": "(2017)",
+            "journal": "Cancer Discov",
+            "pmid": "[PMID:28034880]",
+            "title": "Polyclonal Secondary.",
+            "vol": "7(3):252-263."
+        },
+        {
+            "authors": "Shubham Pant,Martin Schuler,Gopa Iyer,et al.",
+            "date": "(2023)",
+            "journal": "Lancet Oncol",
+            "pmid": "[PMID:37541273]",
+            "title": "Erdafitinib in patients with advanced solid tumours with FGFR alterations (RAGNAR): an international, single-arm, phase 2 study.",
+            "vol": "24(8):925-935."
+        }
+    ],
+    "therapeutic_regimen": [
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "CSCO"
+            ],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "9059e4ac737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of the fibroblast growth factor receptor (FGFR) with potential antineoplastic activity. Derazantinib binds to and potently inhibits the activity of FGFR subtypes 1, 2 and 3. This may result in the inhibition of FGFR-mediated signal transduction pathways, tumor cell proliferation, tumor angiogenesis and tumor cell death in FGFR-overexpressing tumor cells. FGFR, a receptor tyrosine kinase, is upregulated in many tumor cell types and plays a key role in tumor cellular proliferation, differentiation, angiogenesis and survival.",
+                    "drug_name": "Derazantinib",
+                    "regimen_code": "a1449c08737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Derazantinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:BORCS5:NM_058169.6:exon3-FGFR2:NM_000141.5:exon18:",
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90b6e364737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An inhibitor of the fibroblast growth factor (FGF)/fibroblast growth factor receptor (FGFR) pathway, with potential antineoplastic activity. Upon administration, the FGF/FGFR pathway inhibitor E7090 selectively interferes with the binding of FGF to FGFR through an as of yet not fully elucidated mechanism. This inhibits FGFR-mediated signaling and leads to both cell proliferation inhibition and cell death in FGFR-overexpressing tumor cells. FGFR is a receptor tyrosine kinase essential to tumor cell proliferation, differentiation, and survival; its expression is upregulated in many tumor cell types.",
+                    "drug_name": "E7090",
+                    "regimen_code": "a2f87ac4737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "E7090",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:BORCS5:NM_058169.6:exon3-FGFR2:NM_000141.5:exon18:",
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90b79494737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of the fibroblast growth factor receptor subtypes 1 (FGFR-1), 2 (FGFR-2) and 3 (FGFR-3), with potential antineoplastic activity. FGFR inhibitor debio 1347 binds to and inhibits FGFR-1, -2, and -3, which result in the inhibition of FGFR-mediated signal transduction pathways. This leads to the inhibition of both tumor cell proliferation and angiogenesis, and causes cell death in FGFR-overexpressing tumor cells. FGFR, a family of receptor tyrosine kinases upregulated in many tumor cell types, is essential for tumor cellular proliferation, differentiation and survival.",
+                    "drug_name": "Zoligratinib",
+                    "regimen_code": "a2fb085c737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Zoligratinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:BORCS5:NM_058169.6:exon3-FGFR2:NM_000141.5:exon18:",
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA加速批准Futibatinib用于治疗携带FGFR2基因融合或重排且先前接受过治疗的、不可切除的局部晚期或转移性肝内胆管癌患者。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "CSCO",
+                "NCCN",
+                "FDA"
+            ],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90d09642737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Futibatinib是一种口服生物可利用的成纤维细胞生长因子受体（FGFR）抑制剂，具有潜在的抗肿瘤活性。Futibatinib选择性和不可逆地结合并抑制FGFR，这可能导致FGFR介导的信号转导途径和肿瘤细胞增殖的抑制，并增加FGFR过表达肿瘤细胞的细胞死亡。FGFR是一种对肿瘤细胞增殖、分化和生存至关重要的受体酪氨酸激酶，在许多肿瘤细胞类型中其表达上调。",
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of the fibroblast growth factor receptor (FGFR) with potential antineoplastic activity. Futibatinib selectively and irreversibly binds to and inhibits FGFR, which may result in the inhibition of both the FGFR-mediated signal transduction pathway and tumor cell proliferation, and increased cell death in FGFR-overexpressing tumor cells. FGFR is a receptor tyrosine kinase essential to tumor cell proliferation, differentiation and survival and its expression is upregulated in many tumor cell types.",
+                    "drug_name": "Futibatinib",
+                    "regimen_code": "a34fa272737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "Futibatinib",
+            "regimen_en": "Futibatinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:BORCS5:NM_058169.6:exon3-FGFR2:NM_000141.5:exon18:",
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准Infigratinib用于既往接受过治疗且携带FGFR2基因融合或其它重排类型的不可切除局部晚期或转移性胆管癌成人患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "CSCO",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "胆管癌;Cholangiocarcinoma"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "91402336737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Infigratinib 是 FGFR 的小分子激酶抑制剂，对 FGFR1、FGFR2、FGFR3 和 FGFR4 的 IC50 值分别为 1.1，1，2 和 61 nM。 与 infigratinib 相比，infigratinib 的主要人体代谢物 BHS697 和 CQM157 对 FGFR1、FGFR2 和 FGFR3 具有相似的体外结合亲和力。Infigratinib 通过激活 FGFR 扩增、突变或融合抑制 FGFR 信号并降低癌细胞系中的细胞增殖。组成型 FGFR 信号可以支持恶性细胞的增殖和存活。Infigratinib在具有激活 FGFR2 或 FGFR3 改变的人类肿瘤的小鼠和大鼠异种移植模型中具有抗肿瘤活性，包括表达 FGFR2-TTC28 或 FGFR2-TRA2B 融合的两种源自患者的胆管癌异种移植模型。",
+                    "drug_mechanism_en": "An orally bioavailable pan inhibitor of human fibroblast growth factor receptors (FGFRs) with potential antiangiogenic and antineoplastic activities. Infigratinib selectively binds to and inhibits the activities of FGFRs, which may result in the inhibition of tumor angiogenesis and tumor cell proliferation, and the induction of tumor cell death. FGFRs are a family of receptor tyrosine kinases which may be upregulated in various tumor cell types and may be involved in tumor cell differentiation and proliferation, tumor angiogenesis, and tumor cell survival.",
+                    "drug_name": "Infigratinib",
+                    "regimen_code": "a4db3264737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Infigratinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:BORCS5:NM_058169.6:exon3-FGFR2:NM_000141.5:exon18:",
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准厄达替尼用于携带FGFR3或FGFR2基因变异且在既往至少接受过一线含铂化疗（包括12个月以内的新辅助或辅助含铂化疗）期间或之后进展的局部晚期或转移性尿路上皮癌成年患者的治疗。\n",
+                "FDA批准厄达替尼用于治疗携带FGFR3基因变异的、既往接受过至少一种系统性治疗出现进展的局部晚期或转移性尿路上皮癌（mUC）成年患者。另外，FDA不推荐厄达替尼用于治疗符合资格但之前未接受过PD-1或PD-L1抑制剂治疗的患者。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "CSCO",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "尿路上皮癌;Urothelial Carcinoma"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "909edf30737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Erdafitinib是一种激酶抑制剂，可根据体外数据与FGFR1，FGFR2，FGFR3和FGFR4结合并抑制其酶促活性。 Erdafitinib还与RET，CSF1R，PDGFRA，PDGFRB，FLT4，KIT和VEGFR2结合。 Erdafitinib可抑制FGFR磷酸化和信号传导，并降低表达FGFR遗传改变（包括点突变，扩增和融合）的细胞系中的细胞活力。 Erdafitinib在表达FGFR的细胞系和源自包括膀胱癌在内的肿瘤类型的异种移植模型中显示出抗肿瘤活性。",
+                    "drug_mechanism_en": "An orally bioavailable, pan fibroblast growth factor receptor (FGFR) inhibitor with potential antineoplastic activity. Upon oral administration, erdafitinib binds to and inhibits FGFR, which may result in the inhibition of FGFR-related signal transduction pathways and thus the inhibition of tumor cell proliferation and tumor cell death in FGFR-overexpressing tumor cells. FGFR, upregulated in many tumor cell types, is a receptor tyrosine kinase essential to tumor cell proliferation, differentiation and survival.",
+                    "drug_name": "厄达替尼;Erdafitinib",
+                    "regimen_code": "a2a42b18737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "厄达替尼",
+            "regimen_en": "Erdafitinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:BORCS5:NM_058169.6:exon3-FGFR2:NM_000141.5:exon18:",
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准佩米替尼用于既往接受过治疗的携带FGFR2融合或重排的不可切除局部晚期或转移性胆管癌成人患者的治疗。",
+                "NMPA批准佩米替尼用于既往至少接受过一种系统性治疗，且经检测确认存在有FGFR2融合或重排的晚期、转移性或不可手术切除的胆管癌成人患者的治疗。",
+                "FDA批准佩米替尼用于FGFR1重排的髓系/淋巴肿瘤（MLN）成人患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NMPA",
+                "CSCO",
+                "NCCN",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "胆管癌;Cholangiocarcinoma"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "926a9020737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Pemigatinib是一种靶向FGFR1、2和3的小分子激酶抑制剂，IC50值小于2 nM。 Pemigatinib在体外对FGFR4的抑制作用也比抑制FGFR1、2和3的抑制作用高约100倍。Pemigatinib通过激活FGFR扩增和融合作用而抑制FGFR1-3磷酸化和信号传导并降低细胞活力，从而导致FGFR信号的组成性激活。 组成性FGFR信号传导可以支持恶性细胞的增殖和存活。 Pemigatinib在具有FGFR1，FGFR2或FGFR3改变的人类肿瘤的小鼠异种移植模型中表现出抗肿瘤活性，从而导致FGFR的组成性激活，包括表达肿瘤致癌性FGFR2Transformer-2β同源（TRA2b）融合蛋白的源自患者的胆管癌异种移植模型。",
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of the fibroblast growth factor receptor (FGFR) types 1, 2, and 3 (FGFR1/2/3), with potential antineoplastic activity. Pemigatinib binds to and inhibits FGFR1/2/3, which may result in the inhibition of FGFR1/2/3-related signal transduction pathways. This inhibits proliferation in FGFR1/2/3-overexpressing tumor cells. FGFR, a family of receptor tyrosine kinases upregulated in many tumor cell types, plays a key role in cellular proliferation, migration, and survival.",
+                    "drug_name": "佩米替尼;Pemigatinib",
+                    "regimen_code": "a8c060d4737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "佩米替尼",
+            "regimen_en": "Pemigatinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:BORCS5:NM_058169.6:exon3-FGFR2:NM_000141.5:exon18:",
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8e914dd838ab11edace40242ac140007",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of the fibroblast growth factor receptor 2 (FGFR2), with potential antineoplastic activity. Upon oral administration, lirafugratinib binds to and inhibits FGFR2, which results in the inhibition of FGFR2-mediated signal transduction pathways. This inhibits the proliferation of FGFR2-overexpressing tumor cells. FGFR2, a receptor tyrosine kinase upregulated in many tumor cell types, plays a key role in cellular proliferation, migration and survival.",
+                    "drug_name": "Lirafugratinib",
+                    "regimen_code": "8e92cd0238ab11edace40242ac140007"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "Lirafugratinib",
+            "regimen_en": "Lirafugratinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:BORCS5:NM_058169.6:exon3-FGFR2:NM_000141.5:exon18:",
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "5d993d789f9711edaa090242c0a85006",
+                    "drug_mechanism_cn": "Gunagratinib (ICP-192) 是一种低毒、具有口服活性的 pan-FGFR (成纤维细胞生长因子受体) 抑制剂，可通过共价结合有效、选择性地不可逆地抑制 FGFR 活性。",
+                    "drug_mechanism_en": null,
+                    "drug_name": "Gunagratinib",
+                    "regimen_code": "5d9abda69f9711edaa090242c0a85006"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "Gunagratinib",
+            "regimen_en": "Gunagratinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:BORCS5:NM_058169.6:exon3-FGFR2:NM_000141.5:exon18:",
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "e61a07061cd511efac0d0242ac1b0002",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": null,
+                    "drug_name": "ABSK061",
+                    "regimen_code": "e61b0f841cd511efac0d0242ac1b0002"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "ABSK061",
+            "regimen_en": "ABSK061",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:BORCS5:NM_058169.6:exon3-FGFR2:NM_000141.5:exon18:",
+            "var": [
+                {
+                    "gene_symbol": "FGFR2",
+                    "hgvs": "BORCS5:NM_058169.6:exon3--FGFR2:NM_000141.5:exon18",
+                    "five_prime_gene": "BORCS5",
+                    "five_prime_transcript": "NM_058169.6",
+                    "five_prime_region": "exon3",
+                    "three_prime_gene": "FGFR2",
+                    "three_prime_transcript": "NM_000141.5",
+                    "three_prime_region": "exon18"
+                }
+            ]
+        }
+    ],
+    "therapeutic_regimen_resistant": []
+}

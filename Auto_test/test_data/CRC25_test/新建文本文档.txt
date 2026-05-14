@@ -1,0 +1,39 @@
+------------------------ptCRC25---------------------
+*levelI
+*levelII
+*onconodrug
+*levelIII
+*KNB
+*N
+
+*Snvindel
+*CNV
+*SV
+*MSS/MSI-H
+*PD-L1肠癌 阳性
+*胚系
+------------------------tCRC25---------------------
+*levelI
+*levelII
+*onconodrug
+*levelIII
+*KNB
+*N
+
+*Snvindel
+*CNV
+*SV
+*MSS/MSI-H
+*PD-L1
+------------------------gCRC25---------------------
+*levelI 
+*levelII S22020435PD01
+*onconodrug
+*levelIII
+*KNB
+*N S22020446PD01
+
+*Snvindel
+*SV
+*PD-L1
+*胚系

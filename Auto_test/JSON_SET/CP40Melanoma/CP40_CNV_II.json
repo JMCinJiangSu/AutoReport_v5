@@ -1,0 +1,1062 @@
+{
+    "sample_info": {
+        "order_id": "36-22S061414",
+        "sample_parent_id": null,
+        "sample_id": "36-22S061414",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": null,
+        "gender": null,
+        "age": null,
+        "sample_type": null,
+        "control_sample_type": null,
+        "sample_amount": null,
+        "control_sample_amount": null,
+        "tumor_type": "乳腺癌",
+        "pathol_diagn": "(肺穿刺)结合免疫组化结果,符合转移性乳腺浸润性癌,非特殊型,III级",
+        "tumor_names_cn": "乳腺癌",
+        "pathological_id": "22S061414",
+        "company": "复旦大学附属中山医院",
+        "origin_company": null,
+        "report_number": null,
+        "hosp_depart": null,
+        "prod_names": "Classic Panel-黑色素",
+        "prod_ids": "5",
+        "report_module_type": "hospital",
+        "json_batch_name": "20221019_HH3MJ23_A000055_ADXHS-Classic-H_v1.3.7_20221020092525",
+        "mark": null,
+        "tumor_content": null,
+        "sample_position": null,
+        "sample_position_id": null,
+        "family_history": null,
+        "gather_data": "2022-10-19",
+        "receive_data": null,
+        "report_data": "2022-10-20",
+        "tumor_list": [
+            "乳腺癌",
+            "乳腺腺肌上皮瘤",
+            "乳腺原位导管癌",
+            "乳腺纤维上皮瘤",
+            "乳腺小叶原位癌",
+            "乳腺肿瘤（组织亚型不明）",
+            "乳腺肉瘤",
+            "炎性乳腺癌",
+            "浸润性乳腺癌",
+            "青少年乳腺分泌性癌",
+            "化生性乳腺癌",
+            "三阴性乳腺癌"
+        ]
+    },
+    "snvindel": [],
+    "sv": [],
+    "cnv": [
+        {
+            "sample_id": "36-22S061414",
+            "order_code": "01861af4501b11eda64c0242ac170005",
+            "bio_category": "Cnv",
+            "gene_symbol": "MYC",
+            "var_id": "hg19:MYC::Gain",
+            "region_exon": null,
+            "cnv_exons": null,
+            "cnv_type": "GAIN",
+            "cn_mean": 5.53866,
+            "cnv_noise": null,
+            "chr": null,
+            "start": null,
+            "end": null,
+            "location": null,
+            "amp_ratio": null,
+            "z_score": null,
+            "region": null,
+            "json_batch_name": "20221019_HH3MJ23_A000055_ADXHS-Classic-H_v1.3.7_20221020092525",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Likely oncogenic",
+            "clinical_category": "Tier I",
+            "literature": "10378696",
+            "polymorphism": "",
+            "variant_interpret_cn": "My Cancer Genome数据库记录，约3.97%的患者存在MYC扩增，其中以乳腺癌、肺腺癌、结肠腺癌、胰腺癌等最为常见。有文献报道（PMID: 10378696），MYC基因扩增与多种肿瘤相关，包括与乳腺癌复发/预后相关、与胃肠间质瘤的死亡率相关等。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "",
+            "variant_desc_en": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "AT7519",
+                    "tumor_name_cn": "骨肉瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "10378696",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项动物实验中（PMID: 30266815），CDK抑制剂AT7519、Dinaciclib、Flavopiridol可抑制MYC扩增的骨肉瘤移植瘤模型中的肿瘤生长。"
+                },
+                {
+                    "regimen_name": "Dinaciclib",
+                    "tumor_name_cn": "骨肉瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "10378696",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项动物实验中（PMID: 30266815），CDK抑制剂AT7519、Dinaciclib、Flavopiridol可抑制MYC扩增的骨肉瘤移植瘤模型中的肿瘤生长。"
+                },
+                {
+                    "regimen_name": "Flavopiridol",
+                    "tumor_name_cn": "骨肉瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "10378696",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项动物实验中（PMID: 30266815），CDK抑制剂AT7519、Dinaciclib、Flavopiridol可抑制MYC扩增的骨肉瘤移植瘤模型中的肿瘤生长。"
+                },
+                {
+                    "regimen_name": "伊布替尼",
+                    "tumor_name_cn": "食管癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "10378696",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项细胞实验中（PMID: 28830912），MYC扩增的食管肿瘤细胞系对伊布替尼（Ibrutinib）敏感，表现为伊布替尼（Ibrutinib）可以下调ERK介导的信号传导，引起G1细胞周期停滞和细胞凋亡。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "伊布替尼",
+                    "Dinaciclib",
+                    "Flavopiridol",
+                    "AT7519"
+                ],
+                "var": {
+                    "gene_symbol": "MYC",
+                    "cnv_type": "GAIN"
+                }
+            },
+            "gene_function": "MYC（MYC原癌基因，bHLH转录因子）是调控细胞周期进程、凋亡、细胞转化（PMID: 25038584, PMID: 32071436）和免疫系统（PMID: 29514782）相关基因表达的转录因子。在实体瘤和血液肿瘤中（PMID: 28587062, PMID: 32203465），MYC的扩增、过表达和重排相对常见，如肺癌（PMID: 32014901）和弥漫性大B细胞淋巴瘤（PMID: 32074595）。  "
+        }
+    ],
+    "cnv_file_path": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [
+        {
+            "sample_id": "",
+            "order_code": "01861af4501b11eda64c0242ac170005",
+            "var_id": "MSS",
+            "msi_score": 0.0182,
+            "img_path": "/var/www/html/report_backend/system_files/json_file/20221019_HH3MJ23_A000055_ADXHS-Classic-H_v1.3.7_20221020092525/36-22S061414_36-22S061414_AHM2V2AFX3_1/36-22S061414_36-22S061414_AHM2V2AFX3_1.msi.plot.png",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "微卫星（Microsatellite）又称简单重复序列（SSR），是指遍布于人类基因组中的短串联重复序列，一般由1-6个核苷酸组成。DNA复制时，肿瘤细胞内的微卫星由于重复单位的插入或缺失而造成的微卫星长度的变化，称为微卫星不稳定性（Microsatellite Instability, MSI）。大量研究表明，MSI是由错配修复（mismatch repair，MMR）基因突变或功能缺陷引起的（PMID: 25701956）。MSI在多种癌种中被发现，包括子宫内膜癌、结直肠癌和胃腺癌等。据报道，10%-15%的散发性结直肠癌患者存在MSI（PMID: 15528785），NCCN指南明确推荐所有结直肠癌患者均需考虑做MSI或MMR检测。临床上也已将MSI作为结直肠癌及其他实体瘤预后和制定辅助治疗方案的重要分子标志物。",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "biomarker_type": "MSS"
+                }
+            }
+        }
+    ],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "BRCA1",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "乳腺癌",
+            "tumor_name_en": "Breast Cancer"
+        },
+        {
+            "gene_symbol": "BRCA2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "乳腺癌",
+            "tumor_name_en": "Breast Cancer"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "乳腺癌",
+            "tumor_name_en": "Breast Cancer"
+        },
+        {
+            "gene_symbol": "PIK3CA",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "乳腺癌",
+            "tumor_name_en": "Breast Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GA或AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)6或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)7基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)7",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": [
+            {
+                "depth_min": null,
+                "depth_noise": null,
+                "depth_mean": 924.03,
+                "depth_ssbc": 214.27,
+                "depth_rna_ctrl": 9762,
+                "depth_mean_uniq": null,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "depth_median_uniq": null,
+                "depth_mean_ssbc": null,
+                "cleandata_q30": 0.9338,
+                "cleandata_q20": 0.9567,
+                "cover_ratio": 1.0,
+                "cnv_cv": null,
+                "cnv_uni": null,
+                "mapping_ratio": 0.9072,
+                "inssize_ontarget": null,
+                "uni20": 0.9145,
+                "uni20_uniq": null,
+                "totalreads": null,
+                "alignedreads": null,
+                "read_ontarget_ratio": null,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "scale_log_post_prob": null,
+                "qc_type": null,
+                "uni20_uniq_hot": null,
+                "uni20_uniq_nonhot": null,
+                "depth_mean_uniq_hot": null,
+                "depth_mean_uniq_nonhot": null,
+                "inssize_median": null,
+                "brca_cover_ratio": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null
+            }
+        ],
+        "lib_dna_qc": [],
+        "qc_gradient": [],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "5",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "DDR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "DPYD",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ESR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "IDH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "IDH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "KEAP1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MAP2K1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MYC",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NFE2L2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NKX2-1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NRG1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "UGT1A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "hd": [],
+    "gss": [],
+    "lib_quality_control": {
+        "lib_dna_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_lib_qc": []
+    },
+    "drug": [
+        {
+            "general_name_cn": null,
+            "var": [
+                {
+                    "gene_symbol": "MYC",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "AT7519",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [],
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "伊布替尼",
+            "var": [
+                {
+                    "gene_symbol": "MYC",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Ibrutinib",
+            "trade_name_cn": "亿珂",
+            "trade_name_en": "IMBRUVICA",
+            "approval_organization": [
+                "NMPA",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "伊布替尼是BTK的小分子抑制剂。 伊布替尼与BTK活性位点的半胱氨酸残基形成共价键，从而抑制BTK的酶促活性。 BTK是B细胞抗原受体（BCR）和细胞因子受体途径的信号传导分子。 BTK在通过B细胞表面受体发出信号中的作用导致激活B细胞运输，趋化性和粘附所需的途径。 非临床研究表明，伊布替尼在体内抑制恶性B细胞增殖和存活，以及在体外抑制细胞迁移和底物粘附。",
+            "adaptation_disease_cn": [
+                "FDA批准伊布替尼用于至少接受过一次治疗的套细胞淋巴瘤（MCL）成人患者的治疗。\nFDA批准伊布替尼用于慢性淋巴细胞白血病（CLL）/小淋巴细胞淋巴瘤（SLL）成人患者的治疗。\nFDA批准伊布替尼用于17p缺失的慢性淋巴细胞白血病（CLL）/小淋巴细胞淋巴瘤（SLL）的成人患者的治疗。\nFDA批准伊布替尼用于需要全身治疗，且接受过至少1次抗CD20治疗的边缘区淋巴瘤（MZL）的成人患者的治疗。\nFDA批准伊布替尼用于华氏巨球蛋白血症成人患者的治疗。\n\n\n\n\n",
+                "NMPA批准伊布替尼用于至少接受过一次治疗的套细胞淋巴瘤（MCL）成人患者的治疗。\nNMPA批准伊布替尼用于慢性淋巴细胞白血病（CLL）/小淋巴细胞淋巴瘤（SLL）成人患者的治疗。\nNMPA批准伊布替尼用于既往至少接受过一种治疗的华氏巨球蛋白血症患者的治疗，或者不适合接受化学免疫治疗的华氏巨球蛋白血症患者的一线治疗。\n\n\n\n",
+                "NMPA批准伊布替尼联用利妥昔单抗用于华氏巨球蛋白血症患者的治疗。\n"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        }
+    ],
+    "io_gene_clinical": [],
+    "clinic_trial": [
+        {
+            "clinicaltrial_number": "NCT01676753",
+            "conditions": "Advanced or Metastatic Breast Cancer Triple Negative Breast Cancer",
+            "gene_symbol": "MYC",
+            "interventions": "Drug: Dinaciclib Drug: Pembrolizumab",
+            "phase": "Phase 1",
+            "study_title": "Phase 1b Trial of Dinaciclib With Pembrolizumab for Advanced Breast Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03950570",
+            "conditions": "Solid Tumor Breast Cancer Metastatic",
+            "gene_symbol": "MYC",
+            "interventions": "Drug: Paclitaxel",
+            "phase": "Phase 1",
+            "study_title": "ORIN1001 in Patients With Advanced Solid Tumors and Relapsed Refractory Metastatic Breast Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03085368",
+            "conditions": "HER2-positive Breast Cancer",
+            "gene_symbol": "MYC",
+            "interventions": "Drug: lapatinib/herceptin",
+            "phase": "Phase 2 Phase 3",
+            "study_title": "A Randomized Controlled Trial of HER-2 Positive Breast Cancer Patients Treated With Lapatinib vs Herceptin"
+        }
+    ],
+    "refer": [
+        {
+            "authors": "Hiroyuki Yamamoto,Kohzoh Imai",
+            "date": "(2015)",
+            "journal": "Arch Toxicol",
+            "pmid": "[PMID:25701956]",
+            "title": "Microsatellite instability: an update.",
+            "vol": "89(6):899-921."
+        },
+        {
+            "authors": "Timothy M Pawlik,Chandrajit P Raut,Miguel A Rodriguez-Bigas",
+            "date": "(2004)",
+            "journal": "Dis Markers",
+            "pmid": "[PMID:15528785]",
+            "title": "Colorectal carcinogenesis: MSI-H versus MSI-L.",
+            "vol": "20(4-5):199-206."
+        },
+        {
+            "authors": "Irene Yushing Chong,Lauren Aronson,Hanna Bryant,et al.",
+            "date": "(2018)",
+            "journal": "Gut",
+            "pmid": "[PMID:28830912]",
+            "title": "Mapping genetic vulnerabilities reveals BTK as a novel therapeutic target in oesophageal cancer.",
+            "vol": "67(10):1780-1792."
+        },
+        {
+            "authors": "Leanne C Sayles#,Marcus R Breese#,Amanda L Koehne,et al.",
+            "date": "(2019)",
+            "journal": "Cancer Discov",
+            "pmid": "[PMID:30266815]",
+            "title": "Genome-Informed Targeted Therapy for Osteosarcoma.",
+            "vol": "9(1):46-63."
+        },
+        {
+            "authors": "Therese Wahlström,Marie Arsenian Henriksson",
+            "date": "(2015)",
+            "journal": "Biochim Biophys Acta",
+            "pmid": "[PMID:25038584]",
+            "title": "Impact of MYC in regulation of tumor cell metabolism.",
+            "vol": "1849(5):563-9."
+        },
+        {
+            "authors": "Apoorva Baluapuri,Elmar Wolf,Martin Eilers",
+            "date": "(2020)",
+            "journal": "Nat Rev Mol Cell Biol",
+            "pmid": "[PMID:32071436]",
+            "title": "Target gene-independent functions of MYC oncoproteins.",
+            "vol": "21(5):255-267."
+        },
+        {
+            "authors": "Stephanie C Casey,Virginie Baylot,Dean W Felsher",
+            "date": "(2018)",
+            "journal": "Blood",
+            "pmid": "[PMID:29514782]",
+            "title": "The MYC oncogene is a global regulator of the immune response.",
+            "vol": "131(18):2007-2015."
+        },
+        {
+            "authors": "Manpreet Kalkat,Jason De Melo,Katherine Ashley Hickman,et al.",
+            "date": "(2017)",
+            "journal": "Genes (Basel)",
+            "pmid": "[PMID:28587062]",
+            "title": "MYC Deregulation in Primary Human Cancers.",
+            "vol": "8(6):151."
+        },
+        {
+            "authors": "David J H Shih#,Naema Nayyar#,Ivanna Bihun,et al.",
+            "date": "(2020)",
+            "journal": "Nat Genet",
+            "pmid": "[PMID:32203465]",
+            "title": "Genomic characterization of human brain metastases identifies drivers of metastatic lung adenocarcinoma.",
+            "vol": "52(4):371-377."
+        },
+        {
+            "authors": "Pithi Chanvorachote,Nicharat Sriratanasak,Nongyao Nonpanya",
+            "date": "(2020)",
+            "journal": "Anticancer Res",
+            "pmid": "[PMID:32014901]",
+            "title": "C-myc Contributes to Malignancy of Lung Cancer: A Potential Anticancer Drug Target.",
+            "vol": "40(2):609-618."
+        },
+        {
+            "authors": "Yang Xia,Xinlian Zhang",
+            "date": "(2020)",
+            "journal": "Acta Haematol",
+            "pmid": "[PMID:32074595]",
+            "title": "The Spectrum of MYC Alterations in Diffuse Large B-Cell Lymphoma.",
+            "vol": "143(6):520-528."
+        },
+        {
+            "authors": "C E Nesbit,J M Tersak,E V Prochownik",
+            "date": "(1999)",
+            "journal": "Oncogene",
+            "pmid": "[PMID:10378696]",
+            "title": "MYC oncogenes and human neoplastic disease.",
+            "vol": "18(19):3004-16."
+        }
+    ],
+    "therapeutic_regimen": [
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90090b5e737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An orally bioavailable small molecule with potential antineoplastic activity. AT7519M selectively binds to and inhibits cyclin dependent kinases (CDKs), which may result in cell cycle arrest, induction of apoptosis, and inhibition of tumor cell proliferation. CDKs are serine/threonine kinases involved in regulation of the cell cycle and may be overexpressed in some types of cancer cells.",
+                    "drug_name": "AT7519",
+                    "regimen_code": "a01fc014737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "AT7519",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:MYC::Gain",
+            "var": [
+                {
+                    "gene_symbol": "MYC",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "9064868c737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "A pyrazolo[1,5-a]pyrimidine with potential antineoplastic activity. Dinaciclib selectively inhibits cyclin dependent kinases CDK1, CDK2, CDK5, and CDK9; inhibition of CDK1 and CDK2 may result in cell cycle repression and tumor cell apoptosis.",
+                    "drug_name": "Dinaciclib",
+                    "regimen_code": "a1665262737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Dinaciclib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:MYC::Gain",
+            "var": [
+                {
+                    "gene_symbol": "MYC",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90bccaea737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": null,
+                    "drug_name": "Flavopiridol",
+                    "regimen_code": "a30bf86a737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Flavopiridol",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:MYC::Gain",
+            "var": [
+                {
+                    "gene_symbol": "MYC",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准伊布替尼用于至少接受过一次治疗的套细胞淋巴瘤（MCL）成人患者的治疗。\nFDA批准伊布替尼用于慢性淋巴细胞白血病（CLL）/小淋巴细胞淋巴瘤（SLL）成人患者的治疗。\nFDA批准伊布替尼用于17p缺失的慢性淋巴细胞白血病（CLL）/小淋巴细胞淋巴瘤（SLL）的成人患者的治疗。\nFDA批准伊布替尼用于需要全身治疗，且接受过至少1次抗CD20治疗的边缘区淋巴瘤（MZL）的成人患者的治疗。\nFDA批准伊布替尼用于华氏巨球蛋白血症成人患者的治疗。\n\n\n\n\n",
+                "NMPA批准伊布替尼用于至少接受过一次治疗的套细胞淋巴瘤（MCL）成人患者的治疗。\nNMPA批准伊布替尼用于慢性淋巴细胞白血病（CLL）/小淋巴细胞淋巴瘤（SLL）成人患者的治疗。\nNMPA批准伊布替尼用于既往至少接受过一种治疗的华氏巨球蛋白血症患者的治疗，或者不适合接受化学免疫治疗的华氏巨球蛋白血症患者的一线治疗。\n\n\n\n"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NMPA",
+                "FDA"
+            ],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "912411b4737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "伊布替尼是BTK的小分子抑制剂。 伊布替尼与BTK活性位点的半胱氨酸残基形成共价键，从而抑制BTK的酶促活性。 BTK是B细胞抗原受体（BCR）和细胞因子受体途径的信号传导分子。 BTK在通过B细胞表面受体发出信号中的作用导致激活B细胞运输，趋化性和粘附所需的途径。 非临床研究表明，伊布替尼在体内抑制恶性B细胞增殖和存活，以及在体外抑制细胞迁移和底物粘附。",
+                    "drug_mechanism_en": "An orally bioavailable, small-molecule inhibitor of Bruton's tyrosine kinase (BTK) with potential antineoplastic activity. Upon oral administration, ibrutinib binds to and irreversibly inhibits BTK activity, thereby preventing both B-cell activation and B-cell-mediated signaling. This leads to an inhibition of the growth of malignant B cells that overexpress BTK. BTK, a member of the src-related BTK/Tec family of cytoplasmic tyrosine kinases, is required for B cell receptor signaling, plays a key role in B-cell maturation, and is overexpressed in a number of B-cell malignancies. The expression of BTK in tumor cells is also associated with increased proliferation and survival.",
+                    "drug_name": "伊布替尼;Ibrutinib",
+                    "regimen_code": "a484d748737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "伊布替尼",
+            "regimen_en": "Ibrutinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:MYC::Gain",
+            "var": [
+                {
+                    "gene_symbol": "MYC",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        }
+    ]
+}

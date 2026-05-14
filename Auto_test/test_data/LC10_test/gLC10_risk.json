@@ -1,0 +1,3638 @@
+{
+    "sample_info": {
+        "order_id": "A0036544-1",
+        "sample_parent_id": "SF220667",
+        "sample_id": "SF220667PD01",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": "202212",
+        "gender": "未知",
+        "age": null,
+        "sample_type": "血浆",
+        "control_sample_type": "DNA",
+        "sample_amount": "1管",
+        "control_sample_amount": "1管",
+        "tumor_type": "待定",
+        "pathol_diagn": "待定",
+        "tumor_names_cn": "肺癌",
+        "pathological_id": null,
+        "company": "宁波市临床病理诊断中心",
+        "origin_company": "上海厦维医学检验实验室有限公司",
+        "report_number": null,
+        "hosp_depart": null,
+        "prod_names": "10基因（血液）",
+        "prod_ids": "33",
+        "report_module_type": "hospital",
+        "json_batch_name": "20220710_SHXW_A008586_ADXLC10_v3.0.3.export2022725141641",
+        "mark": "联系方超",
+        "tumor_content": null,
+        "sample_position": null,
+        "sample_position_id": null,
+        "family_history": null,
+        "gather_data": "2022-07-06",
+        "receive_data": "2022-07-06",
+        "report_data": "2022-08-29",
+        "tumor_list": [
+            "肺癌",
+            "小细胞肺癌（合并）",
+            "炎性肌纤维母细胞性肺肿瘤",
+            "原位肺腺癌",
+            "肺神经内分泌瘤",
+            "非小细胞肺癌",
+            "胸膜肺母细胞瘤",
+            "肺淋巴管肌瘤病",
+            "肺肉瘤样癌"
+        ]
+    },
+    "snvindel": [
+        {
+            "sample_id": "SF220667PD01",
+            "order_code": "1ed92610028111ed84f2005056bdcbf7",
+            "bio_category": "Snvindel",
+            "gene_symbol": "ALK",
+            "transcript_primary": "NM_004304.5",
+            "var_id": "6336dc29d000b3e0896d6c3d81f74ada",
+            "hgvs_c": "c.3520T>C",
+            "hgvs_p": "p.F1174L",
+            "hgvs_p_abbr": null,
+            "chr": "chr2",
+            "start": "29443697",
+            "end": "29443697",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "exon23",
+            "freq": 0.0563,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.0563,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;HotSpot",
+            "igvplot": null,
+            "depth": 13950,
+            "json_batch_name": "20220710_SHXW_A008586_ADXLC10_v3.0.3.export2022725141641",
+            "var_origin": "",
+            "clinical_significance": "Likely pathogenic",
+            "function_classification": "Likely oncogenic",
+            "clinical_category": "Tier II",
+            "literature": "18923525,29533785,29907598,21030459,31452835",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "根据JAX CKB数据库记录，该突变位于Alk蛋白的蛋白激酶结构域，可导致Alk蛋白功能增强，表现为细胞转化活性及增殖能力提高（PMID: 18923525 , PMID: 29533785 , PMID: 29907598），在携带ALK融合的细胞中，该突变为其继发性耐药突变（PMID: 21030459 , PMID: 31452835）。ClinVar数据库记录该突变为Pathogenic/Likely pathogenic（ClinVarID=217849），OncoKB数据库记录该突变为Oncogenic。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第1174位氨基酸由苯丙氨酸突变为亮氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "Cep-28122",
+                    "tumor_name_cn": "神经母细胞瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "18923525,29533785,29907598,21030459,31452835",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项细胞实验中(PMID: 22203728)，CEP-28122可以抑制携带ALK R1275Q、ALK F1174L、ALK amplification突变的人神经母细胞瘤细胞系的增殖，并且可抑制携带EML4-ALK的NSCLC和携带NPM1-ALK融合的间变性大细胞淋巴瘤移植模型中的肿瘤的生长。"
+                },
+                {
+                    "regimen_name": "克唑替尼",
+                    "tumor_name_cn": "肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "18923525,29533785,29907598,21030459,31452835",
+                    "clinical_significance": "Resistant",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项细胞实验中（PMID: 21948233），携带ALK L1196M、ALK F1174L、ALK G1269S的EML4-ALK阳性肺癌细胞系对克唑替尼耐药，对TAE684敏感。"
+                },
+                {
+                    "regimen_name": "塞瑞替尼",
+                    "tumor_name_cn": "肺腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "18923525,29533785,29907598,21030459,31452835",
+                    "clinical_significance": "Predicted-Resistant",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D6",
+                    "evi_interpretation": "有病例报道（PMID: 31585938），1例携带ALK重排的肺腺癌患者前线使用克唑替尼治疗进展后使用塞瑞替尼治疗，疗效为部分缓解，4个月后疾病进展，穿刺组织检测发现ALK F1174L。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "Cep-28122"
+                ],
+                "var": {
+                    "gene_symbol": "ALK",
+                    "gene_region": "exon23",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.3520T>C",
+                    "hgvs_p": "p.F1174L"
+                }
+            },
+            "gene_function": "ALK基因属于原癌基因，编码一种受体酪氨酸激酶(RTK)，为跨膜蛋白，属于胰岛素受体超家族，在大脑发育与及特定的神经元中起重要作用。ALK融合、突变或扩增在多种肿瘤中均有发生，包括间变性大淋巴细胞瘤、成神经细胞瘤、结直肠癌以及肺癌等（PMID: 8122112, PMID: 18593892, PMID: 19737969）。"
+        },
+        {
+            "sample_id": "SF220667PD01",
+            "order_code": "1ed92610028111ed84f2005056bdcbf7",
+            "bio_category": "Snvindel",
+            "gene_symbol": "EGFR",
+            "transcript_primary": "NM_005228.5",
+            "var_id": "ad0981dfce0fcd88b7b53402f58cd22b",
+            "hgvs_c": "c.2284-5_2290dup",
+            "hgvs_p": "p.A763_Y764insFQEA",
+            "hgvs_p_abbr": null,
+            "chr": "chr7",
+            "start": "55248992",
+            "end": "55248993",
+            "ref": "-",
+            "alt": "TCCAGGAAGCCT",
+            "gene_region": "intron19_exon20",
+            "freq": 0.0226,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.0226,
+            "freq_sc": null,
+            "type": "nonFrameShift_Duplication",
+            "tag": "PASS;HotSpot",
+            "igvplot": null,
+            "depth": 20905,
+            "json_batch_name": "20220710_SHXW_A008586_ADXLC10_v3.0.3.export2022725141641",
+            "var_origin": "",
+            "clinical_significance": "Pathogenic",
+            "function_classification": "Oncogenic",
+            "clinical_category": "Tier I",
+            "literature": "23328547,23371856",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该突变为发生在EGFR基因的20号外显子上的插入突变，属于明确的致病性突变，其在EGFR突变阳性肺腺癌中的发生概率为2~3%（PMID: 23328547, PMID: 23371856）。该突变可导致EGFR的持续激活，从而导致下游信号通路的持续活化。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为插入突变，导致基因编码蛋白第763位到764位氨基酸之间插入苯丙氨酸、谷氨酰胺、谷氨酸和丙氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predisposing",
+                    "refer_agency": "NCCN",
+                    "literature": "",
+                    "clinical_significance": "Risk Elevate",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A2",
+                    "evi_interpretation": "BRCA1基因致病性或疑似致病性胚系变异女性携带者患卵巢癌的概率达35~46%（普通人群等位基因频率为为1.5%），患乳腺癌的概率达51~75%（普通人群为13%）；男性携带者终身患乳腺癌、前列腺癌等癌症风险增加（NCCN Genetic/Familial High-Risk Assessment: Breast, Ovarian, and Pancreatic，2022_V1)；BRCA1基因双等位基因致病性和/或疑似致病性胚系变异（纯合或复合型杂合）与范可尼贫血综合征明确相关。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "CLN-081",
+                    "EGFR-TKIs",
+                    "Amivantamab-vmjw",
+                    "莫博替尼"
+                ],
+                "var": {
+                    "gene_symbol": "EGFR",
+                    "gene_region": "intron19_exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2284-5_2290dup",
+                    "hgvs_p": "p.A763_Y764insFQEA"
+                }
+            },
+            "gene_function": "EGFR基因属于原癌基因，编码一种跨膜糖蛋白，是表皮生长因子受体家族中的一员，也属于受体酪氨酸激酶家族，可以激活RAS-RAF-MEK-ERK、PI3K-AKT-mTOR信号通路途径，导致细胞增殖和生长增加（PMID: 24312144）。EGFR基因突变和表达水平的升高与多种癌症相关，其中最常见于非小细胞肺癌（PMID: 26609494）。"
+        }
+    ],
+    "sv": [],
+    "cnv": [],
+    "cnv_file_path": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "ALK",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "EGFR",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "MET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "RET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，C/C基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs2072671",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，C/T基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用卡培他滨治疗时毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG或AG基因型患者相比，A/A基因型的患者使用依托泊苷+铂类治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，C/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类药物治疗时药物疗效较差（亚裔）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)6或(TA)6/(TA)7基因型患者相比，(TA)7/(TA)7基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)7/(TA)7",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GA或AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用依托泊苷+铂类治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，G/G基因型的患者使用铂类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，C/C基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7779029",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "SEMA3C",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/A基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/A基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)6或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)7基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)7",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/G基因型的患者使用铂类药物治疗时药物疗效较差（亚裔）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，A/A基因型的患者使用吉西他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs2072671",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用铂类治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC或CT基因型患者相比，T/T基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7779029",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "SEMA3C",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)7或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)6基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)6",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，A/A基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/G基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，A/A基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，G/C基因型的患者使用铂类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "G/C",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/A基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用卡培他滨治疗时毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/G基因型的患者使用铂类治疗时疗效中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效中等",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，C/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用铂类药物治疗时药物疗效较好（亚裔）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用铂类药物治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "C/C",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用依托泊苷+铂类治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用吉西他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/C基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7779029",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "SEMA3C",
+            "genotype": "T/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，A/C基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs2072671",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/C基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用卡培他滨治疗时毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用吉西他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/C基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 CG 和 GG 基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，A/G基因型的患者使用顺铂+吉西他滨治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "顺铂+吉西他滨",
+            "drug_name_en": "cisplatin and gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 或AG基因型患者相比，A/G基因型的患者使用铂类治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，G/G基因型的患者使用顺铂+吉西他滨治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "顺铂+吉西他滨",
+            "drug_name_en": "cisplatin and gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，G/G基因型的患者使用铂类治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，C/G基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1517114",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "C8orf34",
+            "genotype": "C/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，A/G基因型的患者使用顺铂治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 CC 或 CG 基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1517114",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "C8orf34",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，C/C基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1517114",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "C8orf34",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类治疗时疗效较差（但也有报道认为该基因型与生存期无关）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用顺铂治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 或 AG 基因型患者相比，G/G基因型的患者使用顺铂治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用顺铂+吉西他滨治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "顺铂+吉西他滨",
+            "drug_name_en": "cisplatin and gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": [
+            {
+                "depth_min": null,
+                "depth_noise": null,
+                "depth_mean": 65867.52,
+                "depth_ssbc": 15326.75,
+                "depth_rna_ctrl": null,
+                "depth_mean_uniq": null,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "depth_median_uniq": null,
+                "depth_mean_ssbc": null,
+                "cleandata_q30": 0.9129,
+                "cleandata_q20": 0.9616,
+                "cover_ratio": 1,
+                "cnv_cv": null,
+                "cnv_uni": null,
+                "mapping_ratio": 0.9944,
+                "inssize_ontarget": 155.91,
+                "uni20": 0.9749,
+                "uni20_uniq": null,
+                "totalreads": null,
+                "alignedreads": null,
+                "read_ontarget_ratio": 0.8813,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "scale_log_post_prob": null,
+                "qc_type": null,
+                "uni20_uniq_hot": null,
+                "uni20_uniq_nonhot": null,
+                "depth_mean_uniq_hot": null,
+                "depth_mean_uniq_nonhot": null,
+                "inssize_median": null,
+                "brca_cover_ratio": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null
+            }
+        ],
+        "lib_dna_qc": [],
+        "qc_gradient": [],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "33",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "33",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "33",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "33",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "33",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "33",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "33",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "33",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "33",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "33",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "33",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "33",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "33",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "hd": [],
+    "gss": [],
+    "lib_quality_control": {
+        "lib_dna_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_lib_qc": []
+    },
+    "drug": [
+        {
+            "general_name_cn": null,
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "gene_region": "exon23",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.3520T>C",
+                    "hgvs_p": "p.F1174L"
+                },
+                {
+                    "gene_symbol": "EGFR",
+                    "gene_region": "intron19_exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2284-5_2290dup",
+                    "hgvs_p": "p.A763_Y764insFQEA"
+                }
+            ],
+            "general_name_en": "EGFR-TKIs",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [
+                "NCCN"
+            ],
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "莫博替尼",
+            "var": [
+                {
+                    "gene_symbol": "EGFR",
+                    "gene_region": "intron19_exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2284-5_2290dup",
+                    "hgvs_p": "p.A763_Y764insFQEA"
+                }
+            ],
+            "general_name_en": "Mobocertinib",
+            "trade_name_cn": null,
+            "trade_name_en": "EXKIVITY",
+            "approval_organization": [
+                "FDA",
+                "NCCN"
+            ],
+            "drug_mechanism_cn": "莫博替尼是表皮生长因子受体（EGFR）的激酶抑制剂，其能够不可逆结合EGFR并抑制其功能，并且其对具有第20号外显子插入突变的EGFR的半抑制浓度低于其对野生型（WT）EGFR的半抑制浓度。在口服莫博替尼后的血浆中发现了具有与莫博替尼相似的抑制特征的两种药物活性代谢物（AP32960和AP32914）。在体外，莫博替尼在临床相关浓度（IC50值<2nM）下可抑制其他EGFR家族成员（HER2和HER4）和一种激酶（BLK）的活性。在体外细胞模型中，莫博替尼抑制各种EGFR第20号外显子插入突变型细胞增殖所需的药物浓度比抑制EGFR野生型细胞所需的浓度低1.5-10倍。在动物肿瘤移植模型中，莫博替尼表现出对携带EGFR第20号外显子插入NPH或插入ASV突变的异种移植瘤的抗肿瘤活性。",
+            "adaptation_disease_cn": [
+                "FDA批准莫博替尼用于携带EGFR 20号外显子插入突变的铂类化疗中或化疗后疾病进展的局部晚期或转移性非小细胞肺癌（NSCLC）成人患者的治疗。"
+            ],
+            "adaptation_disease_en": [
+                "EXKIVITY is a kinase inhibitor indicated for the treatment of adult patients with locally advanced or metastatic non-small cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) exon 20 insertion mutations, as detected by an FDA-approved test, whose disease has progressed on or after platinum-based chemotherapy."
+            ],
+            "drug_type": null
+        }
+    ],
+    "io_gene_clinical": [
+        {
+            "effect": "负相关",
+            "evidence": "一项Nivolumab和多西他赛用于非鳞状NSCLC二线治疗的疗效对比研究结果中，其主要研究终点OS的亚组分析显示 ，EGFR野生型患者较突变型患者从Nivolumab治疗中具有较好的生存获益，而EGFR突变组的HR(95% C I)为1.18(0.69-2.00)（PMID:26412456）。另一项研究为Pembrolizumab对比多西他赛用于经治的、 PD-L1阳性(≥1%)的晚期NSCLC，其中有9%的 EGFR突变患者，这些患者并没有从免疫治疗中得到明显的临床获益（PMID:26712084）。一项对58名接受PD-1 / PD-L1抑制剂治疗的非小细胞肺癌患者的回顾性分析显示，与EGFR野生型和ALK阴性/未知患者相比，携带EGFR突变或ALK重排的NSCLC患者接受PD-1 / PD-L1抑制剂的治疗，其ORR更低（PMID:27225694）。",
+            "gene_symbol": "EGFR",
+            "test_significance": "EGFR突变可能为免疫药物疗效负向预测因子。",
+            "tumor_name": "非小细胞肺癌",
+            "var_note": "激活性突变"
+        },
+        {
+            "effect": "负相关",
+            "evidence": "一项对58名接受PD-1 / PD-L1抑制剂治疗的非小细胞肺癌患者的回顾性分析显示，与EGFR野生型和ALK阴性/未知患者相比，携带EGFR突变或ALK重排的NSCLC患者接受PD-1 / PD-L1抑制剂的治疗，其ORR更低（PMID:27225694）。",
+            "gene_symbol": "ALK",
+            "test_significance": "ALK融合的NSCLC患者二线单药使用免疫药物的敏感度较低。",
+            "tumor_name": "非小细胞肺癌",
+            "var_note": "融合"
+        }
+    ],
+    "clinic_trial": [
+        {
+            "clinicaltrial_number": "CTR20192508",
+            "conditions": "局部晚期或转移性非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "SH-1028片",
+            "phase": "III期",
+            "study_title": "SH-1028片对照吉非替尼一线治疗EGFR突变的局部晚期或转移性非小细胞肺癌的随机、对照、双盲、 多中心的III期临床试验"
+        },
+        {
+            "clinicaltrial_number": "CTR20200770",
+            "conditions": "ALK阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "CT-707",
+            "phase": "III期",
+            "study_title": "比较CT-707与克唑替尼治疗ALK阳性晚期非小细胞肺癌患者有效性和安全性的多中心、随机、开放III期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20192178",
+            "conditions": "ALK阳性晚期非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "奥卡替尼胶囊",
+            "phase": "II期",
+            "study_title": "奥卡替尼治疗ALK阳性且经克唑替尼治疗失败的晚期NSCLC患者有效性和安全性的Ⅱ期临床试验"
+        },
+        {
+            "clinicaltrial_number": "CTR20200428",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "TQ-B3139胶囊",
+            "phase": "II期",
+            "study_title": "评价TQ-B3139对经克唑替尼治疗后耐药的间变性淋巴瘤激酶阳性晚期非小细胞肺癌的安全性和有效性研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191998",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "Poziotinib薄膜衣片",
+            "phase": "II期",
+            "study_title": "Poziotinib在EGFR或HER2外显子20突变的局部晚期或转移性非小细胞肺癌（NSCLC）中国和韩国患者中的2期研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191893",
+            "conditions": "EGFR突变的晚期非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "苹果酸法米替尼胶囊",
+            "phase": "II期",
+            "study_title": "苹果酸法米替尼联合HS-10296治疗EGFR突变的晚期非小细胞肺癌的单臂、开放、多中心Ⅱ期临床试验"
+        },
+        {
+            "clinicaltrial_number": "CTR20191831",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "TQ-B3139胶囊",
+            "phase": "II期",
+            "study_title": "评价TQB3139对经克唑替尼治疗后耐药的间变性淋巴瘤激酶阳性晚期非小细胞肺癌的安全性和有效性研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20200164",
+            "conditions": "用于治疗携带EGFR 20号外显子插入突变的局部晚期或转移性非小细胞肺癌患者。",
+            "gene_symbol": "EGFR",
+            "interventions": "TAK-788胶囊",
+            "phase": "III期",
+            "study_title": "在携带EGFR 20号外显子插入突变的非小细胞肺癌患者中比较TAK-788作为一线治疗相对于含铂化疗的疗效的Ⅲ期研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191523",
+            "conditions": "存在EGFR敏感突变的初诊或手术治疗后复发的局部晚期或转移性非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "ASK120067片",
+            "phase": "III期",
+            "study_title": "评价ASK120067片对照吉非替尼一线治疗表皮生长因子受体敏感突变的局部晚期或转移性非小细胞肺癌患者的有效性和安全性"
+        },
+        {
+            "clinicaltrial_number": "CTR20191289",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "TQ-B3139胶囊",
+            "phase": "III期",
+            "study_title": "比较 TQB3139 与克唑替尼治疗晚期非小细胞肺癌的安全性和有效性多中心、随机、开放、阳性对照研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191231",
+            "conditions": "ALK阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "WX-0593片",
+            "phase": "III期",
+            "study_title": "在ALK阳性晚期非小细胞肺癌患者中比较WX-0593片与克唑替尼的随机、开放、多中心的III期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190184",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "克唑替尼胶囊",
+            "phase": "IV期",
+            "study_title": "在伴有ALK或ROS1基因易位或倒位的NSCLC中国患者中开展的一项评价XALKORI长期安全性的开放性单臂研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190147",
+            "conditions": "晚期非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "重组人源化抗PD-1单克隆抗体注射液",
+            "phase": "III期",
+            "study_title": "评估特瑞普利单抗联合化疗一线治疗晚期非小细胞肺癌的随机双盲、多中心、III期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190139",
+            "conditions": "EGFR突变的晚期非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "SH-1028片",
+            "phase": "II期",
+            "study_title": "SH-1028片对局部晚期或转移性非小细胞肺癌患者的安全性和有效性的多中心、开放的II期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20170919",
+            "conditions": "肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "X-396胶囊",
+            "phase": "III期",
+            "study_title": "eXALT3：在间变性淋巴瘤激酶（ALK）阳性非小细胞肺癌（NSCLC）患者中比较Ensartinib与克唑替尼的III期随机研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190036",
+            "conditions": "EGFR突变阳性Ⅲ期非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "奥希替尼40mg",
+            "phase": "III期",
+            "study_title": "奥希替尼或安慰剂维持治疗在含铂根治性放化疗后未出现进展不可切的EGFR突变阳性Ⅲ期非小细胞肺癌的患者"
+        },
+        {
+            "clinicaltrial_number": "CTR20170762",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "X-396胶囊",
+            "phase": "II期",
+            "study_title": "评价X-396胶囊治疗克唑替尼耐药的ALK阳性非小细胞肺癌患者疗效和安全性的II期单臂、 多中心临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20182342",
+            "conditions": "晚期间变性淋巴瘤激酶阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "Brigatinib片",
+            "phase": "III期",
+            "study_title": "在接受克唑替尼治疗后疾病进展的晚期间变性淋巴瘤激酶阳性非小细胞肺癌患者中比较Brigatinib与Alectinib的研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20182341",
+            "conditions": "ALK+ 晚期非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "brigaitnib 片",
+            "phase": "II期",
+            "study_title": "研究brigatinib用于经alectinib或ceritinib治疗后出现疾病进展的间变性淋巴瘤激酶阳性（ALK+） 晚期非小细胞肺癌（NSCLC）患者"
+        },
+        {
+            "clinicaltrial_number": "CTR20170541",
+            "conditions": "晚期或转移性非小细胞肺癌 (EGFR 突变阳性，T790M阴性，一线TKI治疗失败)",
+            "gene_symbol": "EGFR",
+            "interventions": "Nivolumab 注射液",
+            "phase": "III期",
+            "study_title": "Nivolumab+培美曲塞/铂/伊匹木单抗对比培美曲塞+铂治疗EGFR突变/T790M阴性/1L TKI治疗失败的晚期非小细胞肺癌开放随机试验"
+        },
+        {
+            "clinicaltrial_number": "CTR20190789",
+            "conditions": "ALK/ROS1阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "WX-0593片",
+            "phase": "II期",
+            "study_title": "WX-0593片治疗克唑替尼耐药的ALK阳性、或克唑替尼耐药/未使用过克唑替尼的ROS1阳性非小细胞肺癌患者的疗效和安全性的II期研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190768",
+            "conditions": "EGFR敏感突变、EGFR-TKI治疗失败的晚期非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "特瑞普利单抗注射液",
+            "phase": "III期",
+            "study_title": "特瑞普利单抗联合化疗用于EGFR突变TKI失败晚期NSCLC的随机双盲、安慰剂对照多中心Ⅲ期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20171629",
+            "conditions": "初治晚期或复发性（综合治疗难治的IIIB期）或转移性（IV期）非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "Atezolizumab注射液",
+            "phase": "III期",
+            "study_title": "在不适合含铂方案的初治晚期或复发性或转移性非小细胞肺癌患者中研究ATEZOLIZUMAB对比化疗的疗效和安全性的研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20171624",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "Lorlatinib片",
+            "phase": "III期",
+            "study_title": "比较 LORLATINIB单药治疗和克唑替尼单药治疗用于晚期 ALK 阳性非小细胞肺癌患者一线治疗的 III 期、随机、开放性研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190681",
+            "conditions": "局部晚期或转移性非小细胞肺癌（仅限非耐药性罕见EGFR突变，包括L861Q、G719X和/或S768I）",
+            "gene_symbol": "EGFR",
+            "interventions": "马来酸苏特替尼胶囊",
+            "phase": "II期",
+            "study_title": "马来酸苏特替尼胶囊治疗局部晚期或转移性非小细胞肺癌（仅限非耐药性罕见EGFR突变，L861Q、G719X和/或S768I）探索性临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20182129",
+            "conditions": "晚期非小细胞肺癌（NSCLC）",
+            "gene_symbol": "EGFR",
+            "interventions": "马来酸艾维替尼胶囊",
+            "phase": "III期",
+            "study_title": "比较马来酸艾维替尼与一线标准治疗EGFR-TKI在治疗非小细胞肺癌患者的Ⅲ期临床试验"
+        },
+        {
+            "clinicaltrial_number": "CTR20190582",
+            "conditions": "携带EGFR 20号外显子插入突变的转移性非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "TAK-788胶囊",
+            "phase": "II期",
+            "study_title": "非小细胞肺癌患者口服EGFR/HER2抑制剂TAK-788（AP32788）的安全性、药代动力学和抗肿瘤活性的I/II期研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20182000",
+            "conditions": "间变性淋巴瘤激酶阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "通用名：盐酸阿来替尼胶囊，英文名：Alectinib，商品名：安圣莎",
+            "phase": "III期",
+            "study_title": "评价ALECTINIB辅助治疗与含铂化疗相比在完全切除的IB期（肿瘤≥4 cm）至IIIA期ALK阳性非小细胞肺癌患者中有效性和安全性"
+        },
+        {
+            "clinicaltrial_number": "CTR20181951",
+            "conditions": "局部晚期或转移性非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "HS-10296片",
+            "phase": "III期",
+            "study_title": "随机、双盲、III 期，评价 HS-10296 对照吉非替尼一线治疗局部晚期或转移性非小细胞肺癌的有效性和安全性临床试验"
+        },
+        {
+            "clinicaltrial_number": "CTR20160045",
+            "conditions": "局部晚期或转移性非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "AZD9291片",
+            "phase": "III期",
+            "study_title": "Ⅲ期、双盲、随机化对比AZD9291 和标准化治疗在局部晚期或转移性非小细胞肺癌患者中作为一线治疗的疗效和安全性研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190458",
+            "conditions": "EGFR突变的晚期非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "苹果酸法米替尼",
+            "phase": "II期",
+            "study_title": "苹果酸法米替尼联合HS-10296治疗EGFR突变的晚期非小细胞肺癌的单臂、开放、多中心Ⅱ期临床试验"
+        },
+        {
+            "clinicaltrial_number": "CTR20190442",
+            "conditions": "晚期或转移性非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "BPI-7711胶囊",
+            "phase": "III期",
+            "study_title": "BPI-7711胶囊治疗具有EGFR突变的局部晚期或复发转移性初治非小细胞肺癌患者的有效性和安全性Ⅲ期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190338",
+            "conditions": "局部晚期或转移性非小细胞肺癌（NSCLC）",
+            "gene_symbol": "EGFR",
+            "interventions": "D-0316胶囊",
+            "phase": "II期",
+            "study_title": "D-0316在EGFR突变局部晚期或转移性非小细胞肺癌患者中的II期临床试验"
+        },
+        {
+            "clinicaltrial_number": "CTR20181770",
+            "conditions": "克唑替尼耐药的晚期间变性淋巴瘤激酶突变阳性的非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "CT-707颗粒",
+            "phase": "II期",
+            "study_title": "评价CT-707治疗克唑替尼耐药的晚期ALK阳性非小细胞肺癌患者有效性和安全性的II期多中心临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20202097",
+            "conditions": "晚期非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "Lazertinib + Amivantamab",
+            "phase": "I期",
+            "study_title": "一项在晚期非小细胞肺癌受试者中评估 JNJ-73841937（Lazertinib）（第三代 EGFRTKI）单药治疗或与 JNJ-61186372（一种人类双特异性 EGFR 和 cMet 抗体）联合治疗 的安全性和药代动力学的 I/Ib 期开放性研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20202633",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "Amivantamab",
+            "phase": "III期",
+            "study_title": "评价Amivantamab联合卡铂与培美曲塞对比卡铂与培美曲塞治疗具有EGFR 20号外显子插入突变的局部晚期或转移性非小细胞肺癌的安全性和有效性的随机、开放标签的III期临床试验"
+        },
+        {
+            "clinicaltrial_number": "CTR20190589",
+            "conditions": "晚期非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "Amivantamab",
+            "phase": "I期",
+            "study_title": "一项在晚期非小细胞肺癌受试者中进行的 JNJ-61186372的 I 期、首次用于人体、开放性、剂量递增研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20202472",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "EGFR",
+            "interventions": "Amivantamab + Lazertinib/Lazertinib",
+            "phase": "III期",
+            "study_title": "一项在EGFR 突变局部晚期或转移性非小细胞肺癌患者中评价Amivantamab 和Lazertinib 联合给药对比奥希替尼或Lazertinib 单药一线治疗的III 期、随机研究"
+        },
+        {
+            "clinicaltrial_number": "NCT03853551",
+            "conditions": "Non Small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib",
+            "phase": "Phase 4",
+            "study_title": "Osimertinib Study in Indian Patients"
+        },
+        {
+            "clinicaltrial_number": "NCT02201992",
+            "conditions": "ALK Gene Rearrangement ALK Gene Translocation ALK Positive Stage IB Non-Small Cell Lung Carcinoma AJCC v7 Stage II Non-Small Cell Lung Cancer AJCC v7 Stage IIA Non-Small Cell Lung Carcinoma AJCC v7 St",
+            "gene_symbol": "ALK",
+            "interventions": "Other: Clinical Observation Drug: Crizotinib Other: Laboratory Biomarker Analysis",
+            "phase": "Phase 3",
+            "study_title": "Crizotinib in Treating Patients With Stage IB-IIIA Non-small Cell Lung Cancer That Has Been Removed by Surgery and ALK Fusion Mutations (An ALCHEMIST Treatment Trial)"
+        },
+        {
+            "clinicaltrial_number": "NCT03866980",
+            "conditions": "Lung Cancer Non-small Cell Stage IV",
+            "gene_symbol": "ALK",
+            "interventions": "Biological: AK105 Drug: carboplatin Drug: pemetrexed Drug: placebo",
+            "phase": "Phase 3",
+            "study_title": "A Study of Anti-PD-1 AK105 in Patients With Metastatic Nonsquamous Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03856411",
+            "conditions": "Treatment-naive Advanced Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: TORIPALIMAB INJECTION (JS001 ) combine with chemotherapy",
+            "phase": "Phase 3",
+            "study_title": "A Study to Evaluate the Efficacy and Safety of Toripalimab or Placebo Combined With Chemotherapy in Treatment-naive Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03391869",
+            "conditions": "Malignant Neoplasms of Respiratory and Intrathoracic Organs Non-small Cell Lung Cancer ALK wt Allele EGFR wt Allele Lung Adenocarcinoma Lung Non-Small Cell Carcinoma RET Gene Mutation ROS1 Gene Mutati",
+            "gene_symbol": "ALK",
+            "interventions": "Biological: Ipilimumab Procedure: Local Consolidation Therapy Biological: Nivolumab Other: Quality-of-Life Assessment Radiation: Radiation Therapy Procedure: Therapeutic Conventional Surgery",
+            "phase": "Phase 3",
+            "study_title": "Phase III Trial of (LCT) After Nivolumab and Ipilimumab"
+        },
+        {
+            "clinicaltrial_number": "NCT02714010",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: EGFR-TKI Radiation: whole brain radiotherapy",
+            "phase": "Phase 3",
+            "study_title": "EGFR-TKI Concurrent With/Without WBRT in Brain Metastasis From NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02125240",
+            "conditions": "EGFR Positive Non-small Cell Lung Cancer Adenocarcinoma",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Icotinib Drug: Placebo",
+            "phase": "Phase 3",
+            "study_title": "Icotinib Versus Placebo as Adjuvant Therapy in EGFR-mutant Lung Adenocarcinoma"
+        },
+        {
+            "clinicaltrial_number": "NCT03992885",
+            "conditions": "Non-squamous Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Icotinib",
+            "phase": "Phase 3",
+            "study_title": "Clinical Study of Combination Therapy With Ectiecinib, Pemetrexed and Platinum in Patients With Metastatic Non-squamous Non-small Cell Lung Cancer With EGFR Mutations."
+        },
+        {
+            "clinicaltrial_number": "NCT03515837",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Biological: pembrolizumab Drug: pemetrexed Drug: carboplatin Drug: cisplatin Drug: saline solution",
+            "phase": "Phase 3",
+            "study_title": "Study of Pemetrexed + Platinum Chemotherapy With or Without Pembrolizumab (MK-3475) in Adults With Tyrosine Kinase Inhibitor- (TKI)-Resistant Epidermal Growth Factor Receptor- (EGFR)-Mutated Metastati"
+        },
+        {
+            "clinicaltrial_number": "NCT04035486",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib Drug: Pemetrexed/Carboplatin Drug: Pemetrexed/Cisplatin",
+            "phase": "Phase 3",
+            "study_title": "A Study of Osimertinib With or Without Chemotherapy as 1st Line Treatment in Patients With Mutated Epidermal Growth Factor Receptor Non-Small Cell Lung Cancer (FLAURA2)"
+        },
+        {
+            "clinicaltrial_number": "NCT01996098",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: 6-month Icotinib Drug: 12-month icotinib",
+            "phase": "Phase 3",
+            "study_title": "Icotinib Following Chemotherapy Versus Chemotherapy as Adjuvant Therapy in Stage IIA-IIIA NSCLC With EGFR Mutation"
+        },
+        {
+            "clinicaltrial_number": "NCT02893332",
+            "conditions": "Stage IV EGFR Mutated Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Radiation: Radiation: SBRT Drug: TKI (Gefitinib or Tarceva )",
+            "phase": "Phase 3",
+            "study_title": "Stereotactic Body Radiation Therapy (SBRT) in Newly Diagnosed Advanced Staged Lung Adenocarcinoma (Sindas)"
+        },
+        {
+            "clinicaltrial_number": "NCT03924050",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: TORIPALIMAB INJECTION(JS001 )",
+            "phase": "Phase 3",
+            "study_title": "Toripalimab Plus Pemetrexed+Platinus in Advanced Non-small-cell Lungcancer Patients Previsouly Treated EGFR-TKI"
+        },
+        {
+            "clinicaltrial_number": "NCT02448797",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Icotinib Drug: Chemotherapy",
+            "phase": "Phase 3",
+            "study_title": "Icotinib as Adjuvant Therapy Compared With Standard Chemotherapy in Stage II-IIIA NSCLC With EGFR-mutation"
+        },
+        {
+            "clinicaltrial_number": "NCT03802240",
+            "conditions": "Non-Squamous Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Sintilimab Drug: IBI305 Drug: Pemetrexed Drug: Cisplatin Drug: Placebo1 Drug: Placebo2",
+            "phase": "Phase 3",
+            "study_title": "Sintilimab +/- IBI305 Plus Chemotherapy (Pemetrexed + Cisplatin) for EGFRm + Locally Advanced or Metastasis Non-Squamous NSCLC Patients After EGFR-TKI Treatment Failure"
+        },
+        {
+            "clinicaltrial_number": "NCT04058704",
+            "conditions": "Non Small Cell Lung Cancer Brain Metastases",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Icotinib Radiation: SRS/WBRT/HA-WBRT/SMART",
+            "phase": "Phase 3",
+            "study_title": "A Study to Determine the Efficiency For Brain Metastasis NSCLC Patients Treated With Icotinib Alone or Combined With Radiation Therapy"
+        },
+        {
+            "clinicaltrial_number": "NCT03521154",
+            "conditions": "Non Small Cell Lung Cancer (Stage III)",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib 80mg/40mg Drug: Placebo Osimertinib 80mg/40mg",
+            "phase": "Phase 3",
+            "study_title": "A Global Study to Assess the Effects of Osimertinib Following Chemoradiation in Patients With Stage III Unresectable Non-small Cell Lung Cancer (LAURA)"
+        },
+        {
+            "clinicaltrial_number": "NCT03849768",
+            "conditions": "Non Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: HS-10296 Drug: Gefitinib",
+            "phase": "Phase 3",
+            "study_title": "A Study to Evaluate Safety and Efficacy of HS-10296 as First-Line Treatment in Patients"
+        },
+        {
+            "clinicaltrial_number": "NCT03866980",
+            "conditions": "Lung Cancer Non-small Cell Stage IV",
+            "gene_symbol": "EGFR",
+            "interventions": "Biological: AK105 Drug: carboplatin Drug: pemetrexed Drug: placebo",
+            "phase": "Phase 3",
+            "study_title": "A Study of Anti-PD-1 AK105 in Patients With Metastatic Nonsquamous Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03856411",
+            "conditions": "Treatment-naive Advanced Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: TORIPALIMAB INJECTION (JS001 ) combine with chemotherapy",
+            "phase": "Phase 3",
+            "study_title": "A Study to Evaluate the Efficacy and Safety of Toripalimab or Placebo Combined With Chemotherapy in Treatment-naive Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03391869",
+            "conditions": "Malignant Neoplasms of Respiratory and Intrathoracic Organs Non-small Cell Lung Cancer ALK wt Allele EGFR wt Allele Lung Adenocarcinoma Lung Non-Small Cell Carcinoma RET Gene Mutation ROS1 Gene Mutati",
+            "gene_symbol": "EGFR",
+            "interventions": "Biological: Ipilimumab Procedure: Local Consolidation Therapy Biological: Nivolumab Other: Quality-of-Life Assessment Radiation: Radiation Therapy Procedure: Therapeutic Conventional Surgery",
+            "phase": "Phase 3",
+            "study_title": "Phase III Trial of (LCT) After Nivolumab and Ipilimumab"
+        },
+        {
+            "clinicaltrial_number": "NCT03178552",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Alectinib Drug: Atezolizumab Drug: Pemetrexed Drug: Cisplatin Drug: Carboplatin Drug: Gemcitabine Drug: Entrectinib",
+            "phase": "Phase 2 Phase 3",
+            "study_title": "A Study to Evaluate Efficacy and Safety of Multiple Targeted Therapies as Treatments for Participants With Non-Small Cell Lung Cancer (NSCLC)"
+        },
+        {
+            "clinicaltrial_number": "NCT03653546",
+            "conditions": "Non-small Cell Lung Cancer EGFR Gene Mutation Brain Metastases",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: AZD3759 Drug: Erlotinib Drug: Gefitinib",
+            "phase": "Phase 2 Phase 3",
+            "study_title": "First Line Treatment in EGFR Mutation Positive Advanced NSCLC Patients With Central Nervous System Metastases"
+        },
+        {
+            "clinicaltrial_number": "NCT02568267",
+            "conditions": "Breast Cancer Cholangiocarcinoma Colorectal Cancer Head and Neck Neoplasms Lymphoma, Large-Cell, Anaplastic Melanoma Neuroendocrine Tumors Non-Small Cell Lung Cancer Ovarian Cancer Pancreatic Cancer P",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Entrectinib",
+            "phase": "Phase 2",
+            "study_title": "Basket Study of Entrectinib (RXDX-101) for the Treatment of Patients With Solid Tumors Harboring NTRK 1/2/3 (Trk A/B/C), ROS1, or ALK Gene Rearrangements (Fusions)"
+        },
+        {
+            "clinicaltrial_number": "NCT03737994",
+            "conditions": "Lung Non-Squamous Non-Small Cell Carcinoma Stage IV Lung Cancer AJCC v8 Stage IVA Lung Cancer AJCC v8 Stage IVB Lung Cancer AJCC v8",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Alectinib Drug: Brigatinib Drug: Carboplatin Drug: Ceritinib Drug: Cisplatin Drug: Crizotinib Drug: Ensartinib Drug: Lorlatinib Drug: Pemetrexed",
+            "phase": "Phase 2",
+            "study_title": "Biomarker/ALK Inhibitor Combinations in Treating Patients With Stage IV ALK Positive Non-squamous Non-small Cell Lung Cancer (The NCI-NRG ALK Protocol)"
+        },
+        {
+            "clinicaltrial_number": "NCT02706626",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: brigatinib",
+            "phase": "Phase 2",
+            "study_title": "Trial of Brigatinib After Treatment With Next-Generation ALK Inhibitors"
+        },
+        {
+            "clinicaltrial_number": "NCT03242915",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Pembrolizumab Drug: Carboplatin Drug: Pemetrexed",
+            "phase": "Phase 2",
+            "study_title": "Pembrolizumab in Combination With Platinum-based Doublet Chemotherapy in Patients With EGFR Mutation and ALK Positive NSCLC (Non-Small Cell Lung Cancer) With Progressive Disease Following Prior Tyrosi"
+        },
+        {
+            "clinicaltrial_number": "NCT02927340",
+            "conditions": "Non-Small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Lorlatinib",
+            "phase": "Phase 2",
+            "study_title": "A Study of Lorlatinib in Advanced ALK and ROS1 Rearranged Lung Cancer With CNS Metastasis in the Absence of Measurable Extracranial Lesions"
+        },
+        {
+            "clinicaltrial_number": "NCT03088930",
+            "conditions": "Lung Cancer, Nonsmall Cell",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Crizotinib",
+            "phase": "Phase 2",
+            "study_title": "Evaluating Crizotinib in the Neoadjuvant Setting in Patients With Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03215693",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: X-396 capsule",
+            "phase": "Phase 2",
+            "study_title": "X-396 Capsule in Patients With ALK-positive Non-small Cell Lung Cancer Previously Treated With Crizotinib"
+        },
+        {
+            "clinicaltrial_number": "NCT03256136",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Carboplatin Drug: Nivolumab Drug: pemetrexed Drug: Ipilimumab",
+            "phase": "Phase 2",
+            "study_title": "Nivolumab in Combination With Chemotherapy, or Nivolumab in Combination With Ipilimumab, in Advanced EGFR-Mutant or ALK-Rearranged NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02314364",
+            "conditions": "Non-small Cell Lung Cancer Metastatic Targetable Oncogenes (EGFR, ALK, ROS1)",
+            "gene_symbol": "ALK",
+            "interventions": "Radiation: SBRT with protons or photons",
+            "phase": "Phase 2",
+            "study_title": "A Trial of Integrating SBRT With Targeted Therapy in Stage IV Oncogene-driven NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03164694",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Apatinib Drug: Pemetrexed Drug: Carboplatin",
+            "phase": "Phase 2",
+            "study_title": "APatinib Plus Chemotherapy vErsus Chemotherapy As First-line Treatment for Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02314481",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: MPDL3280A Drug: Vemurafenib Drug: Alectinib Drug: Trastuzumab emtansine",
+            "phase": "Phase 2",
+            "study_title": "Deciphering Antitumour Response and Resistance With INtratumour Heterogeneity"
+        },
+        {
+            "clinicaltrial_number": "NCT03798743",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Sintilimab Combined With Docetaxel",
+            "phase": "Phase 2",
+            "study_title": "Phase II Study on Sintilimab Combined With Docetaxel for Double Platinum-based Chemotherapy Failure Advanced Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03775486",
+            "conditions": "Non-small Cell Lung Cancer NSCLC",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Durvalumab Drug: Placebo for Olaparib Drug: Olaparib Drug: Nab-paclitaxel+carboplatin Drug: Gemcitabine+carboplatin Drug: Pemetrexed+carboplatin Drug: Gemcitabine+cisplatin Drug: Pemetrexed+cisp",
+            "phase": "Phase 2",
+            "study_title": "Study of Durvalumab+Olaparib or Durvalumab After Treatment With Durvalumab and Chemotherapy in Patients With Lung Cancer (ORION)"
+        },
+        {
+            "clinicaltrial_number": "NCT03399487",
+            "conditions": "Non-small Cell Lung Cancer Harboring ROS1 Rearrangement",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: LDK378(Ceritinib)",
+            "phase": "Phase 2",
+            "study_title": "A Study of LDK378 in Patients With Non-small Cell Lung Cancer Harboring ROS1 Rearrangement"
+        },
+        {
+            "clinicaltrial_number": "NCT03526900",
+            "conditions": "Non-small Cell Lung Cancer Stage IV",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Atezolizumab",
+            "phase": "Phase 2",
+            "study_title": "Atezolizumab in Combination With Carboplatin Plus Pemetrexed in Chemotherapy-naive Patients With Asymptomatic Brain Metastasis"
+        },
+        {
+            "clinicaltrial_number": "NCT03801304",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Atezolizumab Drug: Vinorelbine",
+            "phase": "Phase 2",
+            "study_title": "Trial to Evaluate Safety and Efficacy of Vinorelbine With Metronomic Administration in Combination With Atezolizumab as Second-line Treatment for Patients With Stage IV Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03778138",
+            "conditions": "Non-squamous Cell Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Anlotinib plus Pemetrexed",
+            "phase": "Phase 2",
+            "study_title": "Study of Anlotinib Combined With Pemetrexed in Patients With Advanced Nonsquamous NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03447678",
+            "conditions": "Non Small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Pembrolizumab",
+            "phase": "Phase 2",
+            "study_title": "Pembrolizumab in First Line Treatment of Advanced NSCLC Patients With PD-L1 Low Tumors."
+        },
+        {
+            "clinicaltrial_number": "NCT03823625",
+            "conditions": "Squamous-Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Nivolumab plus Ipilimumab Drug: Platinum-based chemotherapy plus Nivolumab",
+            "phase": "Phase 2",
+            "study_title": "An Open-label, Randomized, Parallel, Non Comparative, Phase II Trial of Nivolumab Plus Ipilimumab Versus Platinum-based Chemotherapy Plus Nivolumab in Chemonaive Metastatic or Recurrent Squamous-Cell "
+        },
+        {
+            "clinicaltrial_number": "NCT01964157",
+            "conditions": "Non-small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: LDK378",
+            "phase": "Phase 2",
+            "study_title": "An Open-label, Multicenter, Phase II Study of LDK378 in Patients With Non-small Cell Lung Cancer Harboring ROS1 Rearrangement"
+        },
+        {
+            "clinicaltrial_number": "NCT02276027",
+            "conditions": "Adenocarcinoma Lung Cancer; Squamous Cell Lung Carcinoma",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: BYL719 Drug: INC280 Drug: LDK378 Drug: MEK162",
+            "phase": "Phase 2",
+            "study_title": "A Phase II, Open Label, Multiple Arm Study of AUY922, BYL719, INC280, LDK378 and MEK162 in Chinese Patients With Advanced Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT02664935",
+            "conditions": "Non-Small Cell Lung Cancer Carcinoma, Squamous Cell Adenocarcinoma",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: AZD4547 Drug: Vistusertib Drug: Palbociclib Drug: Crizotinib Drug: Selumetinib Drug: Docetaxel Drug: AZD5363 Drug: Osimertinib Drug: Durvalumab Drug: Sitravatinib",
+            "phase": "Phase 2",
+            "study_title": "National Lung Matrix Trial: Multi-drug Phase II Trial in Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03808662",
+            "conditions": "TNBC - Triple-Negative Breast Cancer Triple Negative Breast Cancer NSCLC NSCLC Stage IV Non Small Cell Lung Cancer Non Small Cell Lung Cancer Metastatic NSCLC Stage IV Without EGFR/ALK Mutation",
+            "gene_symbol": "ALK",
+            "interventions": "Radiation: Sterotactic Body Radiotherapy/SBRT Drug: Standard of care",
+            "phase": "Phase 2",
+            "study_title": "Randomized Study of Stereotactic Body Radiation Therapy (SBRT) in Patients With Oligoprogressive Metastatic Cancers of the Breast and Lung"
+        },
+        {
+            "clinicaltrial_number": "NCT02852083",
+            "conditions": "Squamous Cell Lung Cancer Non-Squamous Cell Lung Cancer Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Pioglitazone Drug: nivolumab Drug: Treosulfan Drug: Clarithromycin",
+            "phase": "Phase 2",
+            "study_title": "A Trial With Metronomic Low-dose Treosulfan, Pioglitazone and Clarithromycin Versus Standard Treatment in NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03382795",
+            "conditions": "EGFR Positive Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: EGFR",
+            "phase": "Phase 2",
+            "study_title": "Retreatment With Epidermal Growth Factor Receptor(EGFR) Tyrosine Kinase Inhibitor in EGFR Mutation Positive Patients"
+        },
+        {
+            "clinicaltrial_number": "NCT03346811",
+            "conditions": "Plasma EGFR Mutation-positive Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Icotinib",
+            "phase": "Phase 2",
+            "study_title": "Efficiency of Icotinib in Plasma ctDNA EGFR Mutation-positive Patients Diagnosed With Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03811054",
+            "conditions": "Non Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Apatinib(250mg/d) combined with EGFR-TKI",
+            "phase": "Phase 2",
+            "study_title": "The Efficacy and Drug Resistance Molecular Biology of Apatinib Combined With EGFR-TK1 Treated for Advanced Slow-progressed Non-Small Cell Lung Cancer (NSCLC)"
+        },
+        {
+            "clinicaltrial_number": "NCT03865511",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: TAGRISSO 80mg (Osimertinib) Genetic: Tumor biopsies Genetic: ctDNA analysis",
+            "phase": "Phase 2",
+            "study_title": "MEchanisms of Resistance in EGFR Mutated Nonpretreated Advanced Lung Cancer Receiving OSimErtib"
+        },
+        {
+            "clinicaltrial_number": "NCT03994393",
+            "conditions": "EGFR Mutant Advanced Non Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Tremelimumab Drug: Durvalumab",
+            "phase": "Phase 2",
+            "study_title": "Non Small Cell Lung Cancer Trial of Durvalumab and Tremelimumab in Advanced Epidermal Growth Factor Receptor (EGFR) Mutant Disease."
+        },
+        {
+            "clinicaltrial_number": "NCT03810872",
+            "conditions": "Cancers Harbouring an EGFR Mutation, (Excluding Non-squamous Non- Small Cell Lung Cancer, a Registered Indication), a HER2 Mutation or a HER3 Mutation",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Afatinib Drug: Paclitaxel",
+            "phase": "Phase 2",
+            "study_title": "An Explorative Study of Afatinib in the Treatment of Advanced Cancer Carrying an EGFR, a HER2 or a HER3 Mutation"
+        },
+        {
+            "clinicaltrial_number": "NCT03066206",
+            "conditions": "EGFR Exon 20 Mutation ERBB2 Gene Mutation Recurrent Lung Non-Small Cell Carcinoma Stage IV Non-Small Cell Lung Cancer AJCC v7",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Poziotinib",
+            "phase": "Phase 2",
+            "study_title": "Poziotinib in EGFR Exon 20 Mutant Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02804776",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Gefitinib",
+            "phase": "Phase 2",
+            "study_title": "PRe-Operative Gefitinib in Resectable EGFR Mutation Positive Lung Cancer With Sector Sequencing for Biomarker Discovery"
+        },
+        {
+            "clinicaltrial_number": "NCT03749213",
+            "conditions": "EGF-R Positive Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Icotinib",
+            "phase": "Phase 2",
+            "study_title": "Icotinib as Neoadjuvant Therapy in EGFR-mutant Stage IIIA-N2 Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03396185",
+            "conditions": "EGFR Gene Mutation Non Small Cell Lung Cancer Stage IIIA Non Small Cell Lung Cancer Stage IIIB",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Icotinib",
+            "phase": "Phase 2",
+            "study_title": "Icotinib as Consolidation Therapy After Chemoradiotherapy in EGFR-Mutant Stage IIIA-IIIB Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03349203",
+            "conditions": "EGF-R Positive Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Icotinib",
+            "phase": "Phase 2",
+            "study_title": "Icotinib as Neoadjuvant and Adjuvant Therapy in EGFR-mutant Stage IIIB or Oligometastasis Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT02646020",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Aprepitant Drug: Desloratadine Drug: Placebo of aprepitant Drug: Placebo of desloratadine",
+            "phase": "Phase 2",
+            "study_title": "Aprepitant vs. Desloratadine in EGFR-TKIs Related Pruritus Treatment"
+        },
+        {
+            "clinicaltrial_number": "NCT03126799",
+            "conditions": "EGFR Positive Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Erlotinib plus Bevacizumab Drug: Erlotinib",
+            "phase": "Phase 2",
+            "study_title": "A Study of Tarceva vs. Avastin+Tarceva for Advanced NSCLC With EGFR m(+)"
+        },
+        {
+            "clinicaltrial_number": "NCT03257124",
+            "conditions": "Non-Small Cell Lung Cancer With EGFR T790M Mutation With Brain and/or Leptomeningeal Metastasis Failed Tyrosine Kinase Inhibitors",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: AZD9291",
+            "phase": "Phase 2",
+            "study_title": "Study of AZD9291 in NSCLC Patients Harboring T790M Mutation Who Failed EGFR TKI and With Brain and/or LMS"
+        },
+        {
+            "clinicaltrial_number": "NCT03769103",
+            "conditions": "Lung Cancer Non-small Cell Stage IV Brain Metastases",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib Radiation: Stereotactic radiotherapy",
+            "phase": "Phase 2",
+            "study_title": "Study of Osimertinib + SRS vs Osimertinib Alone for Brain Metastases in EGFR Positive Patients With NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03392246",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib Drug: Selumetinib",
+            "phase": "Phase 2",
+            "study_title": "A Phase 2 Study of Osimertinib in Combination With Selumetinib in EGFR Inhibitor naive Advanced EGFR Mutant Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03374280",
+            "conditions": "Non Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: pemetrexed/cisplatin intercalating gefitinib Drug: pemetrexed/cisplatin",
+            "phase": "Phase 2",
+            "study_title": "Pemetrexed/Cisplatin Intercalating Gefitinib Treating EGFR Wild NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03410043",
+            "conditions": "EGFR Exon 19 Deletion Mutation EGFR NP_005219.2:p.L858R EGFR NP_005219.2:p.T790M Lung Non-Small Cell Carcinoma Recurrent Lung Non-Small Cell Carcinoma Stage IIIB Lung Cancer AJCC v8 Stage IV Lung Canc",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib Radiation: Radiation Therapy Procedure: Therapeutic Conventional Surgery",
+            "phase": "Phase 2",
+            "study_title": "Osimertinib, Surgery, and Radiation Therapy in Treating Patients With Stage IIIB or IV Non-small Cell Lung Cancer With EGFR Mutations"
+        },
+        {
+            "clinicaltrial_number": "NCT03863483",
+            "conditions": "Nonsquamous Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Sintilimab Drug: Docetaxel Drug: Pemetrexed Drug: Placebo",
+            "phase": "Phase 2",
+            "study_title": "A Study of Sintilimab or Placebo in Combination With Chemotherapy as Second-line Treatment for Patients With Stage IV Nonsquamous Non-small Cell Lung Cancer With Wild-type EGFR After Failure With Plat"
+        },
+        {
+            "clinicaltrial_number": "NCT03434418",
+            "conditions": "Non Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: osimertinib",
+            "phase": "Phase 2",
+            "study_title": "A Study Osimertinib in Patients With Stage 4 Non-small Cell Lung Cancer With Uncommon EGFR Mutations"
+        },
+        {
+            "clinicaltrial_number": "NCT02726568",
+            "conditions": "Non-small Cell Lung Cancer Brain Metastases",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Icotinib Radiation: SRS",
+            "phase": "Phase 2",
+            "study_title": "High Dose Icotinib With Sequential SRS For NSCLC Patients Harboring EGFR Mutation With Brain Metastases"
+        },
+        {
+            "clinicaltrial_number": "NCT03667820",
+            "conditions": "Non-small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib Radiation: SABR",
+            "phase": "Phase 2",
+            "study_title": "Study of Osimertinib and Stereotactic Ablative Radiation (SABR) in EGFR Mutant NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03804580",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: osimertinib",
+            "phase": "Phase 2",
+            "study_title": "First-line Treatment With Osimertinib in EGFR-mutated Non-small Cell Lung Cancer, Coupled to Extensive Translational Studies"
+        },
+        {
+            "clinicaltrial_number": "NCT03091491",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Ipilimumab Drug: Nivolumab",
+            "phase": "Phase 2",
+            "study_title": "Study of Nivolumab Verses Nivolumab and Ipilimumab Combination in EGFR Mutant Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03300115",
+            "conditions": "Metastatic Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: AC0010",
+            "phase": "Phase 2",
+            "study_title": "Clinical Trial of the Efficacy and Safety of AC0010 in the Treatment of EGFR T790M Patients With Advanded NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02725918",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Pemetrexed Drug: Cisplatin",
+            "phase": "Phase 2",
+            "study_title": "Pemetrexed vs Pemetrexed Plus Cisplatin in EGFR-mutant NSCLC Patients After First Line EGFR-TKIs Failure"
+        },
+        {
+            "clinicaltrial_number": "NCT03242915",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Pembrolizumab Drug: Carboplatin Drug: Pemetrexed",
+            "phase": "Phase 2",
+            "study_title": "Pembrolizumab in Combination With Platinum-based Doublet Chemotherapy in Patients With EGFR Mutation and ALK Positive NSCLC (Non-Small Cell Lung Cancer) With Progressive Disease Following Prior Tyrosi"
+        },
+        {
+            "clinicaltrial_number": "NCT01553942",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Afatinib Radiation: Radiation Drug: Cisplatin Drug: Pemetrexed Procedure: Surgery",
+            "phase": "Phase 2",
+            "study_title": "Afatinib With CT and RT for EGFR-Mutant NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02264210",
+            "conditions": "Lung Neoplasms Squamous Cell Lung Cancer Adenocarcinoma of the Lung Adenosquamous Cell Lung Cancer Large Cell Lung Cancer Bronchial Neoplasms Stage IB Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Icotinib",
+            "phase": "Phase 2",
+            "study_title": "Icotinib for Completed Resected IB NSCLC With EGFR Mutation"
+        },
+        {
+            "clinicaltrial_number": "NCT02820116",
+            "conditions": "Non-small Cell Lung Cancer(NSCLC)",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Icotinib",
+            "phase": "Phase 2",
+            "study_title": "The Role of Icotinib in the Perioperative Treatment of IIIA - IIIB NSCLC Patients With EGFR Mutation"
+        },
+        {
+            "clinicaltrial_number": "NCT03433469",
+            "conditions": "Stage I Non-Small Cell Lung Cancer Stage IA Non-Small Cell Lung Cancer Stage IB Non-Small Cell Lung Cancer Stage II Non-Small Cell Lung Cancer Stage IIA Non-Small Cell Lung Cancer Stage IIB Non-Small ",
+            "gene_symbol": "EGFR",
+            "interventions": "Other: Laboratory Biomarker Analysis Drug: Osimertinib Procedure: Therapeutic Conventional Surgery",
+            "phase": "Phase 2",
+            "study_title": "Osimertinib in Treating Participants With Stage I-IIIA EGFR-mutant Non-small Cell Lung Cancer Before Surgery"
+        },
+        {
+            "clinicaltrial_number": "NCT02347839",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Procedure: Gefitinib-surgery-gefitinib",
+            "phase": "Phase 2",
+            "study_title": "NEoadjuvant Gefitinib fOllowed by Surgery and gefiTinib In unresectAble sTage III NSCLC With EGFR Mutations."
+        },
+        {
+            "clinicaltrial_number": "NCT03292133",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: EGF816 Drug: Gefitinib",
+            "phase": "Phase 2",
+            "study_title": "A Study of EGF816 and Gefitinib in TKI-naive EGFR-mutant Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03765775",
+            "conditions": "Carcinoma Non-small Cell Lung Cancer Lung Neoplasm",
+            "gene_symbol": "EGFR",
+            "interventions": "Biological: Sintilimab Drug: Anlotinib Hydrochloride",
+            "phase": "Phase 2",
+            "study_title": "Anlotinib Plus Sintilimab for NSCLC Patients With First-generation EGFR-TKIs Drug Resistance Along With T790M Negative"
+        },
+        {
+            "clinicaltrial_number": "NCT03909334",
+            "conditions": "Non Small Cell Lung Cancer EGFR Gene Mutation Advanced Cancer Metastatic Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib Drug: Ramucirumab",
+            "phase": "Phase 2",
+            "study_title": "Study of Osimertinib With and Without Ramucirumab in Locally Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)"
+        },
+        {
+            "clinicaltrial_number": "NCT03256136",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Carboplatin Drug: Nivolumab Drug: pemetrexed Drug: Ipilimumab",
+            "phase": "Phase 2",
+            "study_title": "Nivolumab in Combination With Chemotherapy, or Nivolumab in Combination With Ipilimumab, in Advanced EGFR-Mutant or ALK-Rearranged NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03830411",
+            "conditions": "Nonsquamous Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Sintilimab Drug: Docetaxel Drug: Pemetrexed",
+            "phase": "Phase 2",
+            "study_title": "A Study of Sintilimab Compared With Docetaxel or Pemetrexed as Second-line Treatment for Patients With Stage IV Nonsquamous Non-small Cell Lung Cancer After Failure With Platinum-Containing Chemothera"
+        },
+        {
+            "clinicaltrial_number": "NCT02314364",
+            "conditions": "Non-small Cell Lung Cancer Metastatic Targetable Oncogenes (EGFR, ALK, ROS1)",
+            "gene_symbol": "EGFR",
+            "interventions": "Radiation: SBRT with protons or photons",
+            "phase": "Phase 2",
+            "study_title": "A Trial of Integrating SBRT With Targeted Therapy in Stage IV Oncogene-driven NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03460275",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib Mesylate Tablets",
+            "phase": "Phase 2",
+            "study_title": "Osimertinib as First-line Therapy for Patients With Late-stage Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT01951482",
+            "conditions": "Non Squamous Non-small Cell Lung Cancer Brain Metastases Bevacizumab",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Pemetrexed/cisplatin Drug: Bevacizumab and Pemetrexed/cisplatin",
+            "phase": "Phase 2",
+            "study_title": "Pemetrexed/Cisplatin With or Without Bevacizumab in Brain Metastases From Non Squamous Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03595644",
+            "conditions": "Stage IV Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Radiation: SBRT+TKI Drug: TKI",
+            "phase": "Phase 2",
+            "study_title": "Maintenance Targeted Therapy With or Without Stereotactic Body Radiation Therapy for Stage IV Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT02183883",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Afatinib",
+            "phase": "Phase 2",
+            "study_title": "Deciphering Afatinib Response and Resistance With INtratumour Heterogeneity"
+        },
+        {
+            "clinicaltrial_number": "NCT02323126",
+            "conditions": "Non Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: EGF816 Drug: INC280 Drug: Nivolumab",
+            "phase": "Phase 2",
+            "study_title": "Study of Efficacy and Safety of Nivolumab in Combination With EGF816 and of Nivolumab in Combination With INC280 in Patients With Previously Treated Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03164694",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Apatinib Drug: Pemetrexed Drug: Carboplatin",
+            "phase": "Phase 2",
+            "study_title": "APatinib Plus Chemotherapy vErsus Chemotherapy As First-line Treatment for Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03987087",
+            "conditions": "Malignant Pleural Effusion Nonsmall Cell Lung Cancer, Stage IV",
+            "gene_symbol": "EGFR",
+            "interventions": "Radiation: Radiation Drug: Chemotherapy",
+            "phase": "Phase 2",
+            "study_title": "A Randomized Study of Primary Tumor Radiotherapy for Patients With MPE Stage IV NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02489903",
+            "conditions": "Small Cell Carcinoma Carcinoma, Non-Small-Cell Lung Neuroendocrine Tumors Ovarian Epithelial Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: RRx-001 Drug: Cisplatin Drug: Etoposide Drug: Carboplatin Drug: Irinotecan Drug: Vinorelbine Drug: Doxil Drug: Gemcitabine Drug: Taxane Drug: Paclitaxel Drug: Nab-Paclitaxel Drug: Pemetrexed",
+            "phase": "Phase 2",
+            "study_title": "RRx-001 in Lung Cancer, Ovarian Cancer and Neuroendocrine Tumors Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)"
+        },
+        {
+            "clinicaltrial_number": "NCT03119519",
+            "conditions": "Stage IV Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Radiation: Local Definitive Radiotherapy Drug: No Local Definitive Radiotherapy",
+            "phase": "Phase 2",
+            "study_title": "Local Non-salvage Radiotherapy for Synchronous Oligometastatic Non-small-cell Lung Cancer."
+        },
+        {
+            "clinicaltrial_number": "NCT03505710",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Trastuzumab deruxtecan (DS-8201a)",
+            "phase": "Phase 2",
+            "study_title": "DS-8201a in Human Epidermal Growth Factor Receptor 2 (HER2)-Expressing or -Mutated Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03798743",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Sintilimab Combined With Docetaxel",
+            "phase": "Phase 2",
+            "study_title": "Phase II Study on Sintilimab Combined With Docetaxel for Double Platinum-based Chemotherapy Failure Advanced Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03775486",
+            "conditions": "Non-small Cell Lung Cancer NSCLC",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Durvalumab Drug: Placebo for Olaparib Drug: Olaparib Drug: Nab-paclitaxel+carboplatin Drug: Gemcitabine+carboplatin Drug: Pemetrexed+carboplatin Drug: Gemcitabine+cisplatin Drug: Pemetrexed+cisp",
+            "phase": "Phase 2",
+            "study_title": "Study of Durvalumab+Olaparib or Durvalumab After Treatment With Durvalumab and Chemotherapy in Patients With Lung Cancer (ORION)"
+        },
+        {
+            "clinicaltrial_number": "NCT03399487",
+            "conditions": "Non-small Cell Lung Cancer Harboring ROS1 Rearrangement",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: LDK378(Ceritinib)",
+            "phase": "Phase 2",
+            "study_title": "A Study of LDK378 in Patients With Non-small Cell Lung Cancer Harboring ROS1 Rearrangement"
+        },
+        {
+            "clinicaltrial_number": "NCT03526900",
+            "conditions": "Non-small Cell Lung Cancer Stage IV",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Atezolizumab",
+            "phase": "Phase 2",
+            "study_title": "Atezolizumab in Combination With Carboplatin Plus Pemetrexed in Chemotherapy-naive Patients With Asymptomatic Brain Metastasis"
+        },
+        {
+            "clinicaltrial_number": "NCT03447678",
+            "conditions": "Non Small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Pembrolizumab",
+            "phase": "Phase 2",
+            "study_title": "Pembrolizumab in First Line Treatment of Advanced NSCLC Patients With PD-L1 Low Tumors."
+        },
+        {
+            "clinicaltrial_number": "NCT03801304",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Atezolizumab Drug: Vinorelbine",
+            "phase": "Phase 2",
+            "study_title": "Trial to Evaluate Safety and Efficacy of Vinorelbine With Metronomic Administration in Combination With Atezolizumab as Second-line Treatment for Patients With Stage IV Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03778138",
+            "conditions": "Non-squamous Cell Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Anlotinib plus Pemetrexed",
+            "phase": "Phase 2",
+            "study_title": "Study of Anlotinib Combined With Pemetrexed in Patients With Advanced Nonsquamous NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03823625",
+            "conditions": "Squamous-Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Nivolumab plus Ipilimumab Drug: Platinum-based chemotherapy plus Nivolumab",
+            "phase": "Phase 2",
+            "study_title": "An Open-label, Randomized, Parallel, Non Comparative, Phase II Trial of Nivolumab Plus Ipilimumab Versus Platinum-based Chemotherapy Plus Nivolumab in Chemonaive Metastatic or Recurrent Squamous-Cell "
+        },
+        {
+            "clinicaltrial_number": "NCT02736513",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: AZD9291",
+            "phase": "Phase 2",
+            "study_title": "Intracranial Activity of AZD9291 (TAGRISSO) in Advanced EGFRm NSCLC Patients With Asymptomatic Brain Metastases"
+        },
+        {
+            "clinicaltrial_number": "NCT03808662",
+            "conditions": "TNBC - Triple-Negative Breast Cancer Triple Negative Breast Cancer NSCLC NSCLC Stage IV Non Small Cell Lung Cancer Non Small Cell Lung Cancer Metastatic NSCLC Stage IV Without EGFR/ALK Mutation",
+            "gene_symbol": "EGFR",
+            "interventions": "Radiation: Sterotactic Body Radiotherapy/SBRT Drug: Standard of care",
+            "phase": "Phase 2",
+            "study_title": "Randomized Study of Stereotactic Body Radiation Therapy (SBRT) in Patients With Oligoprogressive Metastatic Cancers of the Breast and Lung"
+        },
+        {
+            "clinicaltrial_number": "NCT03944772",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib Drug: Savolitinib Drug: Gefitinib Drug: Necitumumab Drug: Durvalumab Drug: Carboplatin Drug: Pemetrexed",
+            "phase": "Phase 2",
+            "study_title": "Phase 2 Platform Study in Patients With Advanced Non-Small Lung Cancer Who Progressed on First-Line Osimertinib Therapy (ORCHARD)"
+        },
+        {
+            "clinicaltrial_number": "NCT03087448",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Ceritinib Drug: Trametinib",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Ceritinib + Trametinib in Patients With Advanced ALK-Positive Non-Small Cell Lung Cancer (NSCLC)"
+        },
+        {
+            "clinicaltrial_number": "NCT03202940",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Alectinib Drug: Cobimetinib",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "A Phase IB/II Study of Alectinib Combined With Cobimetinib in Advanced ALK-Rearranged (ALK+) NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02521051",
+            "conditions": "Non-Small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Alectinib Drug: Bevacizumab",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Phase I/II Trial of Alectinib and Bevacizumab in Patients With Advanced, Anaplastic Lymphoma Kinase (ALK)-Positive, Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03389815",
+            "conditions": "Advanced Solid Tumor, Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: WX-0593 Tablets",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "A Study Evaluates the Safety, Pharmacokinetics and Efficacy of WX-0593 in Advanced Solid Tumor Patients"
+        },
+        {
+            "clinicaltrial_number": "NCT03386929",
+            "conditions": "Non-small Cell Lung Cancer Metastatic Non-small Cell Lung Cancer Stage III",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Avelumab Drug: Axitinib Drug: Palbociclib",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Survival Prolongation by Rationale Innovative Genomics"
+        },
+        {
+            "clinicaltrial_number": "NCT02903914",
+            "conditions": "Metastatic Cancer Solid Tumors Colorectal Cancer (CRC) Gastric Cancer Head and Neck Cancer Lung Cancer Renal Cell Carcinoma (RCC) Bladder Cancer UC (Urothelial Cancer) Mesothelioma",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: INCB001158 Drug: Pembrolizumab",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Arginase Inhibitor INCB001158 as a Single Agent and in Combination With Immune Checkpoint Therapy in Patients With Advanced/Metastatic Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT03974022",
+            "conditions": "NonSmall Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: DZD9008",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Assessing an Oral EGFR Inhibitor, DZD9008 in Patients Who Have Advanced Non-small Cell Lung Cancer With EGFR or HER2 Mutation (WU-KONG1)"
+        },
+        {
+            "clinicaltrial_number": "NCT03122717",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Gefitinib Drug: Osimertinib",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Osimertinib and Gefitinib in EGFR Inhibitor naive Advanced EGFR Mutant Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT04036682",
+            "conditions": "Non Small Cell Lung Cancer EGFR Exon 20 Mutation",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: CLN-081",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "A Phase 1/2a Trial of CLN-081 in Patients With Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03455829",
+            "conditions": "Carcinoma, Non-Small-Cell Lung Lung Cancer Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: G1T38 Drug: Osimertinib",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "G1T38, a CDK 4/6 Inhibitor, in Combination With Osimertinib in EGFR-Mutant Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03831932",
+            "conditions": "Advanced Lung Carcinoma EGFR Activating Mutation EGFR Exon 19 Deletion Mutation EGFR NP_005219.2:p.L858R Lung Non-Small Cell Carcinoma Metastatic Lung Carcinoma Stage IV Lung Cancer AJCC v8 Stage IVA ",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Glutaminase Inhibitor CB-839 Drug: Glutaminase Inhibitor CB-839 Hydrochloride Drug: Osimertinib",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Glutaminase Inhibitor CB-839 Hydrochloride and Osimertinib in Treating Patients With EGFR-Mutated Stage IV Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03758287",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: CT053PTSA Drug: Gefitinib",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Ningetinib (CT053PTSA) Plus Gefitinib in Stage IIIB or IV NSCLC Patients With EGFR Mutation and T790M Negative"
+        },
+        {
+            "clinicaltrial_number": "NCT03386955",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: BPI-7711 Capsule",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "BPI-7711 Capsule in Patients With EGFR Mutation T790M Positive Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03201146",
+            "conditions": "Lung Cancer Non Small Cell Lung Cancer Combination Chemotherapy Apatinib",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Apatinib Drug: AP or AC Drug: Apatinib 250mg Drug: Apatinib 500mg Drug: Apatinib 750mg",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Apatinib Combine With Platinum-Based Doublet Chemotherapy for First-line Treatment of Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03076164",
+            "conditions": "Lung Adenocarcinoma Lung Cancer Lung Cancer Metastatic Lung Cancer Stage IV Recurrent Lung Adenocarcinoma Recurrent Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Trametinib Drug: Erlotinib",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "A Phase 1/2 Trial of Trametinib and Erlotinib in Patients With EGFR-Mutant Lung Adenocarcinomas and Acquired Resistance to Erlotinib"
+        },
+        {
+            "clinicaltrial_number": "NCT03450330",
+            "conditions": "Nonsmall Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: AZD4205",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Assessing an Oral Janus Kinase Inhibitor, AZD4205, in Combination With Osimertinib in Patients Who Have Advanced Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03094169",
+            "conditions": "Solid Tumor, Adult Triple Negative Breast Cancer Head and Neck Squamous Cell Carcinoma Non Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: AVID100 IV",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "AVID100 in Advanced Epithelial Carcinomas"
+        },
+        {
+            "clinicaltrial_number": "NCT03386929",
+            "conditions": "Non-small Cell Lung Cancer Metastatic Non-small Cell Lung Cancer Stage III",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Avelumab Drug: Axitinib Drug: Palbociclib",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Survival Prolongation by Rationale Innovative Genomics"
+        },
+        {
+            "clinicaltrial_number": "NCT03726736",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Anlotinib combined Docetaxel Drug: Docetaxel",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Anlotinib Combined With Docetaxel Versus Docetaxel for Previous Treated Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02947386",
+            "conditions": "EGFR Gene Mutation Recurrent Non-Small Cell Lung Carcinoma Stage IIIA Non-Small Cell Lung Cancer Stage IIIB Non-Small Cell Lung Cancer Stage IV Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Other: Laboratory Biomarker Analysis Biological: Nimotuzumab Biological: Nivolumab",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Nimotuzumab and Nivolumab in Treating Patients With Advanced Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03797391",
+            "conditions": "Neoplasms Neoplasm Metastasis Non-Small-Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: EMB-01",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "A Dose Escalation Study of EMB-01 in Participants With Advanced/Metastatic Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT02648724",
+            "conditions": "Oncology MET Gene Amplification NSCLC MET Gene Mutation Non Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Sym015",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Sym015 (Anti-MET) in Patients With Advanced Solid Tumor Malignancies"
+        },
+        {
+            "clinicaltrial_number": "NCT02959619",
+            "conditions": "Solid Tumor Non-Small Cell Lung Cancer Metastatic",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Ensartinib",
+            "phase": "Phase 1",
+            "study_title": "Ensartinib in Non-small Cell Lung Cancer Patients With Positive ALK"
+        },
+        {
+            "clinicaltrial_number": "NCT03611738",
+            "conditions": "Non-small Cell Lung Cancer Lung Cancer Non-small Cell Lung Cancer Metastatic Non-small Cell Lung Cancer Stage IIIB Stage IV Non-small Cell Lung Cancer EGFR Negative Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Ceritinib Drug: Docetaxel",
+            "phase": "Phase 1",
+            "study_title": "Ceritinib Plus Docetaxel in ALK-Negative, EGFR WT Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03607188",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Alkotinib",
+            "phase": "Phase 1",
+            "study_title": "A Phase I Study of Alkotinib in Patients With Advanced Non Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03917043",
+            "conditions": "Advanced Solid Cancer Non Small Cell Lung Cancer Esophageal Cancer Ovarian Cancer Malignant Pleural Mesothelioma",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: APG-2449",
+            "phase": "Phase 1",
+            "study_title": "APG-2449 in Patients With Advanced Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT03790228",
+            "conditions": "Non-squamous Cell Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Anlotinib Combined With Pemetrexed And Carboplatin",
+            "phase": "Phase 1",
+            "study_title": "Anlotinib Combined With Pemetrexed And Carboplatin as the First-line Treatment in Patients With Advanced Nonsquamous Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT04013542",
+            "conditions": "ALK Gene Rearrangement EGFR Gene Mutation Locally Advanced Lung Non-Small Cell Carcinoma Lung Non-Small Cell Carcinoma Stage II Lung Cancer AJCC v8 Stage IIA Lung Cancer AJCC v8 Stage IIB Lung Cancer ",
+            "gene_symbol": "ALK",
+            "interventions": "Biological: Ipilimumab Biological: Nivolumab Radiation: Radiation Therapy",
+            "phase": "Phase 1",
+            "study_title": "Ipilimumab and Nivolumab in Combination With Radiation Therapy in Treating Patients With Stage II-III Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT04001777",
+            "conditions": "EGFR Positive Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: APG-1252 Drug: Osimertinib Mesylate Tablets",
+            "phase": "Phase 1",
+            "study_title": "A Study of APG-1252 Plus Osimertinib(AZD9291) in EGFR TKI Resistant NSCLC Patients"
+        },
+        {
+            "clinicaltrial_number": "NCT03535363",
+            "conditions": "NSCLC Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib",
+            "phase": "Phase 1",
+            "study_title": "Osimertinib With Stereotactic Radiosurgery (SRS) in Brain Metastases From EGFR Positive NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03333343",
+            "conditions": "EGFR-mutant Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: EGF816 Drug: trametinib Drug: ribociclib Drug: LXH254 Drug: INC280 Drug: gefitinib",
+            "phase": "Phase 1",
+            "study_title": "Study of EGF816 in Combination With Selected Targeted Agents in EGFR-mutant NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03567642",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib Drug: Platinum Drug: Etoposide",
+            "phase": "Phase 1",
+            "study_title": "A Study of the Combination of Osimertinib, Platinum and Etoposide for Patients With Metastatic EGFR Mutant Lung Cancers"
+        },
+        {
+            "clinicaltrial_number": "NCT04085315",
+            "conditions": "Lung Cancer Metastatic EGFR Gene Mutation",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib Drug: Alisertib",
+            "phase": "Phase 1",
+            "study_title": "Alisertib in Combination With Osimertinib in Metastatic EGFR-mutant Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03810807",
+            "conditions": "Metastatic Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Dacomitinib Drug: Osimertinib",
+            "phase": "Phase 1",
+            "study_title": "Study of Dacomitinib and Osimertinib for Patients With Advanced EGFR Mutant Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03611738",
+            "conditions": "Non-small Cell Lung Cancer Lung Cancer Non-small Cell Lung Cancer Metastatic Non-small Cell Lung Cancer Stage IIIB Stage IV Non-small Cell Lung Cancer EGFR Negative Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Ceritinib Drug: Docetaxel",
+            "phase": "Phase 1",
+            "study_title": "Ceritinib Plus Docetaxel in ALK-Negative, EGFR WT Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03891615",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Niraparib Drug: Osimertinib",
+            "phase": "Phase 1",
+            "study_title": "Niraparib in Combination With Osimertinib in EGFR-Mutated Advanced Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03255083",
+            "conditions": "Non-small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: DS-1205c Drug: Osimertinib",
+            "phase": "Phase 1",
+            "study_title": "DS-1205c With Osimertinib for Metastatic or Unresectable Epidermal Growth Factor Receptor (EGFR)-Mutant Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03599518",
+            "conditions": "Non Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: DS-1205c Drug: Gefitinib",
+            "phase": "Phase 1",
+            "study_title": "DS-1205c With Gefitinib for Metastatic or Unresectable Epidermal Growth Factor Receptor (EGFR)-Mutant Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03807778",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: TAK-788",
+            "phase": "Phase 1",
+            "study_title": "A Phase 1 Study of TAK-788 in Japanese Patients"
+        },
+        {
+            "clinicaltrial_number": "NCT02729298",
+            "conditions": "Advanced Solid Tumors EGFR Positive Non-small Cell Lung Cancer Colorectal Carcinoma Recurrent Ovarian Carcinoma BRAF-Mutated Melanoma",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: TP-0903",
+            "phase": "Phase 1",
+            "study_title": "First-in-human Study of Oral TP-0903 (a Novel Inhibitor of AXL Kinase) in Patients With Advanced Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT03463525",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Osimertinib Drug: [11C]osimertinib",
+            "phase": "Phase 1",
+            "study_title": "Open-label PET Study With [11C]Osimertinib in Patients With EGFRm NSCLC and Brain Metastases"
+        },
+        {
+            "clinicaltrial_number": "NCT03452150",
+            "conditions": "Advanced Non Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: D-0316",
+            "phase": "Phase 1",
+            "study_title": "D-0316 First Time in Patients Ascending Dose Study"
+        },
+        {
+            "clinicaltrial_number": "NCT02991651",
+            "conditions": "Lung Cancer, Nonsmall Cell",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: IRX4204 Drug: erlotinib",
+            "phase": "Phase 1",
+            "study_title": "Study of IRX4204 With Erlotinib in Previously Treated Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03603262",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: SH-1028",
+            "phase": "Phase 1",
+            "study_title": "Safety, Tolerability and Pharmacokinetics of SH-1028 in Patients With Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03829436",
+            "conditions": "Hepatocellular Carcinoma Metastatic Castration Resistant Prostate Cancer Renal Cell Carcinoma Non-small Cell Lung Cancer Colorectal Cancer Squamous Cell Carcinoma of Head and Neck Triple-Negative Brea",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Part 1 TPST-1120 Drug: Part 2a TPST-1120 + nivolumab Drug: Part 2b TPST-1120 + docetaxel Drug: Part 2c TPST-1120 + cetuximab Drug: Part 3 TPST-1120 Drug: Part 4a TPST-1120 + nivolumab Drug: Part",
+            "phase": "Phase 1",
+            "study_title": "TPST-1120 as Monotherapy and in Combination With (Nivolumab, Docetaxel or Cetuximab) in Subjects With Advanced Cancers"
+        },
+        {
+            "clinicaltrial_number": "NCT02467569",
+            "conditions": "Neoplasms,Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Hemay020",
+            "phase": "Phase 1",
+            "study_title": "Study Evaluating Hemay020 In Subjects With Advanced Solid Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03628521",
+            "conditions": "Lung Cancer Advanced Stage",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Anlotinib,Erlotinib,IBI308,Pemetrexed,gemcitabine,carboplatin",
+            "phase": "Phase 1",
+            "study_title": "First-line Combination Treatment Based on Anlotinib"
+        },
+        {
+            "clinicaltrial_number": "NCT03790228",
+            "conditions": "Non-squamous Cell Non-Small Cell Lung Cancer",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Anlotinib Combined With Pemetrexed And Carboplatin",
+            "phase": "Phase 1",
+            "study_title": "Anlotinib Combined With Pemetrexed And Carboplatin as the First-line Treatment in Patients With Advanced Nonsquamous Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT04045496",
+            "conditions": "Non-small Cell Lung Cancer Colorectal Cancer Pancreatic Ductal Carcinoma Esophageal Squamous Cell Carcinoma Head and Neck Squamous Cell Carcinoma Breast Cancer Other Solid Tumors",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: JAB-3312",
+            "phase": "Phase 1",
+            "study_title": "A First-in-Human, Phase 1 Study of JAB-3312 in Adult Patients With Advanced Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT04025216",
+            "conditions": "Non-Small Cell Lung Cancer Ovarian Cancer Fallopian Tube Cancer Triple Negative Breast Cancer Multiple Myeloma Pancreatic Ductal Adenocarcinoma",
+            "gene_symbol": "EGFR",
+            "interventions": "Biological: CART-TnMUC1 Drug: Cyclophosphamide Drug: Fludarabine",
+            "phase": "Phase 1",
+            "study_title": "A Study of CART-TnMUC1 in Patients With TnMUC1-Positive Advanced Cancers"
+        },
+        {
+            "clinicaltrial_number": "NCT04013542",
+            "conditions": "ALK Gene Rearrangement EGFR Gene Mutation Locally Advanced Lung Non-Small Cell Carcinoma Lung Non-Small Cell Carcinoma Stage II Lung Cancer AJCC v8 Stage IIA Lung Cancer AJCC v8 Stage IIB Lung Cancer ",
+            "gene_symbol": "EGFR",
+            "interventions": "Biological: Ipilimumab Biological: Nivolumab Radiation: Radiation Therapy",
+            "phase": "Phase 1",
+            "study_title": "Ipilimumab and Nivolumab in Combination With Radiation Therapy in Treating Patients With Stage II-III Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03260491",
+            "conditions": "Non-Small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: U3-1402",
+            "phase": "Phase 1",
+            "study_title": "U3-1402 in Metastatic or Unresectable Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03565003",
+            "conditions": "Non-small Cell Lung Cancer Head and Neck Cancer Esophageal Cancer Other Metastatic Solid Tumors",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: JAB-3068",
+            "phase": "Phase 1",
+            "study_title": "A First-in-Human Study of JAB-3068 (SHP2 Inhibitor) in Adult Patients With Advanced Solid Tumors in China"
+        },
+        {
+            "clinicaltrial_number": "NCT03518554",
+            "conditions": "Non-small Cell Lung Cancer Head and Neck Cancer Esophageal Cancer Other Metastatic Solid Tumors",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: JAB-3068",
+            "phase": "Phase 1",
+            "study_title": "A First in Human, Dose Escalation Study of JAB-3068 (SHP2 Inhibitor) in Adult Patients With Advanced Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT03707938",
+            "conditions": "Advanced Lung Carcinoma ALK Gene Rearrangement Lung Non-Small Cell Carcinoma Recurrent Lung Non-Small Cell Carcinoma Stage IV Lung Cancer AJCC v8 Stage IVA Lung Cancer AJCC v8 Stage IVB Lung Cancer AJ",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Brigatinib Procedure: Local Consolidation Therapy",
+            "phase": "Early Phase 1",
+            "study_title": "Local Consolidative Therapy and Brigatinib in Treating Patients With Stage IV or Recurrent Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03755102",
+            "conditions": "EGFR Gene Mutation Lung Cancer Lung Cancer Metastatic",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: Dacomitinib",
+            "phase": "Early Phase 1",
+            "study_title": "A Study of Dacomitinib in Patients With Metastatic EGFR Mutant Lung Cancer Previously Treated With Osimertinib"
+        },
+        {
+            "clinicaltrial_number": "NCT04129502",
+            "conditions": "Non-Small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "EGFR",
+            "interventions": "Drug: TAK-788\nDrug: Pemetrexed\nDrug: Cisplatin\nDrug: Carboplatin",
+            "phase": "Phase 3",
+            "study_title": "TAK-788 as First-line Treatment Versus Platinum-Based Chemotherapy for Non-Small Cell Lung Cancer (NSCLC) With EGFR Exon 20 Insertion Mutations"
+        }
+    ],
+    "refer": [
+        {
+            "authors": "Anita Midha,Simon Dearden,Rose McCormack",
+            "date": "(2015)",
+            "journal": "Am J Cancer Res",
+            "pmid": "[PMID:26609494]",
+            "title": "EGFR mutation incidence in non-small-cell lung cancer of adenocarcinoma histology: a systematic review and global map by ethnicity (mutMapII).",
+            "vol": "5(9):2892-911."
+        },
+        {
+            "authors": "Kalliopi Domvri,Paul Zarogoulidis,Kaid Darwiche,et al.",
+            "date": "(2013)",
+            "journal": "J Cancer",
+            "pmid": "[PMID:24312144]",
+            "title": "Molecular Targeted Drugs and Biomarkers in NSCLC, the Evolving Role of Individualized Therapy.",
+            "vol": "4(9):736-54."
+        },
+        {
+            "authors": "Gregory J Riely,Joel W Neal,D Ross Camidge,et al.",
+            "date": "(2021)",
+            "journal": "Cancer Discov",
+            "pmid": "[PMID:33632775]",
+            "title": "Activity and Safety of Mobocertinib (TAK-788) in Previously Treated Non-Small Cell Lung Cancer with.",
+            "vol": "11(7):1688-1699."
+        },
+        {
+            "authors": "Gonzalo Recondo,Laura Mezquita,Francesco Facchinetti,et al.",
+            "date": "(2020)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:31585938]",
+            "title": "Diverse Resistance Mechanisms to the Third-Generation ALK Inhibitor Lorlatinib in ALK-Rearranged Lung Cancer.",
+            "vol": "26(1):242-255."
+        },
+        {
+            "authors": "Jikui Guan,Susanne Fransson,Joachim Tetteh Siaw,et al.",
+            "date": "(2018)",
+            "journal": "Cold Spring Harb Mol Case Stud",
+            "pmid": "[PMID:29907598]",
+            "title": "Clinical response of the novel activating ALK-I1171T mutation in neuroblastoma to the ALK inhibitor ceritinib.",
+            "vol": "4(4):a002550."
+        },
+        {
+            "authors": "Hibiki Udagawa#,Shinichi Hasako#,Akihiro Ohashi,et al.",
+            "date": "(2019)",
+            "journal": "Mol Cancer Res",
+            "pmid": "[PMID:31467113]",
+            "title": "TAS6417/CLN-081 Is a Pan-Mutation-Selective EGFR Tyrosine Kinase Inhibitor with a Broad Spectrum of Preclinical Activity against Clinically Relevant.",
+            "vol": "17(11):2233-2243."
+        },
+        {
+            "authors": "Johannes M Heuckmann,Michael Hölzel,Martin L Sos,et al.",
+            "date": "(2011)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:21948233]",
+            "title": "ALK mutations conferring differential resistance to structurally diverse ALK inhibitors.",
+            "vol": "17(23):7394-401."
+        },
+        {
+            "authors": "Patrick Kwok-Shing Ng,Jun Li,Kang Jin Jeong,et al.",
+            "date": "(2018)",
+            "journal": "Cancer Cell",
+            "pmid": "[PMID:29533785]",
+            "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+            "vol": "33(3):450-462.e10."
+        },
+        {
+            "authors": "Maria E Arcila,Khedoudja Nafa,Jamie E Chaft,et al.",
+            "date": "(2013)",
+            "journal": "Mol Cancer Ther",
+            "pmid": "[PMID:23371856]",
+            "title": "EGFR exon 20 insertion mutations in lung adenocarcinomas: prevalence, molecular heterogeneity, and clinicopathologic characteristics.",
+            "vol": "12(2):220-9."
+        },
+        {
+            "authors": "Eva Lin,Li Li,Yinghui Guan,et al.",
+            "date": "(2009)",
+            "journal": "Mol Cancer Res",
+            "pmid": "[PMID:19737969]",
+            "title": "Exon array profiling detects EML4-ALK fusion in breast, colorectal, and non-small cell lung cancers.",
+            "vol": "7(9):1466-76."
+        },
+        {
+            "authors": "Rani E George,Takaomi Sanda,Megan Hanna,et al.",
+            "date": "(2008)",
+            "journal": "Nature",
+            "pmid": "[PMID:18923525]",
+            "title": "Activating mutations in ALK provide a therapeutic target in neuroblastoma.",
+            "vol": "455(7215):975-8."
+        },
+        {
+            "authors": "Simon Durand,Cécile Pierre-Eugène,Olivier Mirabeau,et al.",
+            "date": "(2019)",
+            "journal": "Oncotarget",
+            "pmid": "[PMID:31452835]",
+            "title": "ALK mutation dynamics and clonal evolution in a neuroblastoma model exhibiting two ALK mutations.",
+            "vol": "10(48):4937-4950."
+        },
+        {
+            "authors": "Geoffrey R Oxnard,Peter C Lo,Mizuki Nishino,et al.",
+            "date": "(2013)",
+            "journal": "J Thorac Oncol",
+            "pmid": "[PMID:23328547]",
+            "title": "Natural history and molecular characteristics of lung cancers harboring EGFR exon 20 insertions.",
+            "vol": "8(2):179-84."
+        },
+        {
+            "authors": "Takaaki Sasaki,Katsuhiro Okuda,Wei Zheng,et al.",
+            "date": "(2010)",
+            "journal": "Cancer Res",
+            "pmid": "[PMID:21030459]",
+            "title": "The neuroblastoma-associated F1174L ALK mutation causes resistance to an ALK kinase inhibitor in ALK-translocated cancers.",
+            "vol": "70(24):10038-43."
+        },
+        {
+            "authors": "Mangeng Cheng,Matthew R Quail,Diane E Gingrich,et al.",
+            "date": "(2012)",
+            "journal": "Mol Cancer Ther",
+            "pmid": "[PMID:22203728]",
+            "title": "CEP-28122, a highly potent and selective orally active inhibitor of anaplastic lymphoma kinase with antitumor activity in experimental models of human cancers.",
+            "vol": "11(3):670-9."
+        },
+        {
+            "authors": "S W Morris,M N Kirstein,M B Valentine,et al.",
+            "date": "(1994)",
+            "journal": "Science",
+            "pmid": "[PMID:8122112]",
+            "title": "Fusion of a kinase gene, ALK, to a nucleolar protein gene, NPM, in non-Hodgkin's lymphoma.",
+            "vol": "263(5151):1281-4."
+        },
+        {
+            "authors": "Young Lim Choi,Kengo Takeuchi,Manabu Soda,et al.",
+            "date": "(2008)",
+            "journal": "Cancer Res",
+            "pmid": "[PMID:18593892]",
+            "title": "Identification of novel isoforms of the EML4-ALK transforming gene in non-small cell lung cancer.",
+            "vol": "68(13):4971-6."
+        }
+    ],
+    "therapeutic_regimen": [
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90135a64737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": null,
+                    "drug_name": "Cep-28122",
+                    "regimen_code": "a045fedc737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Cep-28122",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "6336dc29d000b3e0896d6c3d81f74ada",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "gene_region": "exon23",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.3520T>C",
+                    "hgvs_p": "p.F1174L"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90276734737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An orally available selective inhibitor of a broad spectrum of epidermal growth factor receptor (EGFR) mutations, including EGFR exon 20 insertion mutations (EGFR Ex20ins; Ex20ins mutations), with potential antineoplastic activity. CLN-081 is also active against other EGFR mutations including exon 19 deletions (exon19del), L858R, and T790M, as well as the less common G719X, L861Q and S768I mutations. Upon administration, the pan-mutation-selective EGFR inhibitor CLN-081 specifically and covalently binds to and inhibits a variety of EGFR mutations, with particularly high selectivity against EGFR Ex20ins, which prevents EGFR mutant-mediated signaling and leads to cell death in EGFR mutant-expressing tumor cells. Compared to some other EGFR inhibitors, CLN-081 may have therapeutic benefits in tumors with EGFR Ex20ins, as most EGFR mutant-selective inhibitors are not active against EGFR Ex20ins. This agent shows minimal activity against wild-type EGFR (wt EGFR), and does not cause dose-limiting toxicities that occur during the use of non-selective EGFR inhibitors, which also inhibit wt EGFR. EGFR, a receptor tyrosine kinase mutated in many tumor cell types, plays a key role in tumor cell proliferation and tumor vascularization.",
+                    "drug_name": "CLN-081",
+                    "regimen_code": "a08cd726737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "CLN-081",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "ad0981dfce0fcd88b7b53402f58cd22b",
+            "var": [
+                {
+                    "gene_symbol": "EGFR",
+                    "gene_region": "intron19_exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2284-5_2290dup",
+                    "hgvs_p": "p.A763_Y764insFQEA"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN"
+            ],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90881db8737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": null,
+                    "drug_name": "EGFR-TKIs",
+                    "regimen_code": "a23e497e737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "EGFR-TKIs",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "ad0981dfce0fcd88b7b53402f58cd22b",
+            "var": [
+                {
+                    "gene_symbol": "EGFR",
+                    "gene_region": "intron19_exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2284-5_2290dup",
+                    "hgvs_p": "p.A763_Y764insFQEA"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准莫博替尼用于携带EGFR 20号外显子插入突变的铂类化疗中或化疗后疾病进展的局部晚期或转移性非小细胞肺癌（NSCLC）成人患者的治疗。"
+            ],
+            "adaptation_disease_en": [
+                "EXKIVITY is a kinase inhibitor indicated for the treatment of adult patients with locally advanced or metastatic non-small cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) exon 20 insertion mutations, as detected by an FDA-approved test, whose disease has progressed on or after platinum-based chemotherapy."
+            ],
+            "approval_organization": [
+                "FDA",
+                "NCCN"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "91c6af1e737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "莫博替尼是表皮生长因子受体（EGFR）的激酶抑制剂，其能够不可逆结合EGFR并抑制其功能，并且其对具有第20号外显子插入突变的EGFR的半抑制浓度低于其对野生型（WT）EGFR的半抑制浓度。在口服莫博替尼后的血浆中发现了具有与莫博替尼相似的抑制特征的两种药物活性代谢物（AP32960和AP32914）。在体外，莫博替尼在临床相关浓度（IC50值<2nM）下可抑制其他EGFR家族成员（HER2和HER4）和一种激酶（BLK）的活性。在体外细胞模型中，莫博替尼抑制各种EGFR第20号外显子插入突变型细胞增殖所需的药物浓度比抑制EGFR野生型细胞所需的浓度低1.5-10倍。在动物肿瘤移植模型中，莫博替尼表现出对携带EGFR第20号外显子插入NPH或插入ASV突变的异种移植瘤的抗肿瘤活性。",
+                    "drug_mechanism_en": "An orally available inhibitor of specific mutant forms of both human epidermal growth factor receptor (EGFR) and human epidermal growth factor receptor 2 (HER2; ERBB2), with potential antineoplastic activity. Upon oral administration, EGFR/HER2 inhibitor TAK-788 specifically and irreversibly binds to and inhibits certain mutant forms of EGFR and HER2. This prevents EGFR- and HER2-mediated signaling and leads to cell death in EGFR mutant- and HER2 mutant-expressing tumor cells. EGFR and HER2, receptor tyrosine kinases mutated in many tumor cell types, play key roles in tumor cell proliferation and tumor vascularization.",
+                    "drug_name": "莫博替尼;Mobocertinib",
+                    "regimen_code": "a6d88292737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "莫博替尼",
+            "regimen_en": "Mobocertinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "ad0981dfce0fcd88b7b53402f58cd22b",
+            "var": [
+                {
+                    "gene_symbol": "EGFR",
+                    "gene_region": "intron19_exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2284-5_2290dup",
+                    "hgvs_p": "p.A763_Y764insFQEA"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准Amivantamab-vmjw（JNJ-6372）用于携带EGFR基因20号外显子插入突变的局部晚期或转移性非小细胞肺癌（NSCLC）患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA",
+                "NCCN"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8ec26664737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Rybrevant是一种结合EGFR和MET胞外结构域的双特异性抗体，靶向携带激活或耐药EGFR突变及MET突变和扩增的肿瘤，通过阻断配体结合来抑制EGFR和MET信号激活，其次通过降解受体（内吞后经溶酶体降解）诱导其失活，最后当肿瘤表面存在EGFR和MET时，免疫效应细胞（如NK细胞和巨噬细胞）将通过抗体依赖的细胞介导的细胞毒性作用（ADCC）和吞噬作用（trogocytosis）机制靶向杀伤这些肿瘤细胞。",
+                    "drug_mechanism_en": null,
+                    "drug_name": "Amivantamab-vmjw",
+                    "regimen_code": "9b176c02737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Amivantamab-vmjw",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "ad0981dfce0fcd88b7b53402f58cd22b",
+            "var": [
+                {
+                    "gene_symbol": "EGFR",
+                    "gene_region": "intron19_exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2284-5_2290dup",
+                    "hgvs_p": "p.A763_Y764insFQEA"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准塞瑞替尼用于克唑替尼治疗后进展或不耐受的ALK阳性转移性非小细胞肺癌患者的治疗。",
+                "NMPA批准塞瑞替尼用于ALK阳性的成人转移性非小细胞肺癌患者的治疗。",
+                "FDA批准塞瑞替尼用于ALK阳性的成人转移性非小细胞肺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "NCCN"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90151b10737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "塞瑞替尼是一种激酶抑制剂。生化、细胞试验显示塞瑞替尼在临床相关浓度下可抑制的靶点包括ALK、胰岛素样生长因子-1受体（IGF-1R）、胰岛素受体（InsR）和ROS1。其中，塞瑞替尼对ALK的抑制最为有效。体外和体内试验显示塞瑞替尼可抑制ALK的自磷酸化、ALK介导下游信号蛋白STAT3的磷酸化和ALK依赖性癌细胞的增殖。塞瑞替尼可抑制表达EML4-ALK和NPM-ALK融合蛋白的细胞株的体外增殖，并剂量依赖性抑制小鼠和大鼠EML4-ALK阳性非小细胞肺癌（NSCLC）异种移植瘤的生长。 在克唑替尼耐药的EML4-ALK阳性NSCLC异种移植小鼠模型中，赛瑞替尼在临床相关范围内的浓度下呈现出剂量依赖性的抗肿瘤活性。",
+                    "drug_mechanism_en": "An orally available inhibitor of the receptor tyrosine kinase activity of anaplastic lymphoma kinase (ALK) with antineoplastic activity. Upon administration, ceritinib binds to and inhibits wild-type ALK kinase, ALK fusion proteins and ALK point mutation variants. Inhibition of ALK leads to both the disruption of ALK-mediated signaling and the inhibition of cell growth in ALK-overexpressing tumor cells. ALK belongs to the insulin receptor superfamily and plays an important role in nervous system development. ALK dysregulation and gene rearrangements are associated with a variety of tumor cell types.",
+                    "drug_name": "塞瑞替尼;Ceritinib",
+                    "regimen_code": "a04d30f8737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "塞瑞替尼",
+            "regimen_en": "Ceritinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "6336dc29d000b3e0896d6c3d81f74ada",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "gene_region": "exon23",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.3520T>C",
+                    "hgvs_p": "p.F1174L"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准克唑替尼用于ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                "FDA批准克唑替尼用于ROS1阳性的转移性非小细胞肺癌患者。",
+                "FDA批准克唑替尼用于治疗ALK阳性的复发/难治性全身性间变性大细胞淋巴瘤(ALCL)1岁以上儿童和成年患者的治疗。",
+                "NMPA批准克唑替尼用于ROS1阳性晚期非小细胞肺癌患者的治疗。",
+                "NMPA批准克唑替尼用于ALK阳性的局部晚期或转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                "FDA批准克唑替尼用于不可切除、复发性或难治性ALK阳性炎症性肌纤维母细胞瘤成人和1岁以上的儿童患者。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved crizotinib for adult and pediatric patients 1 year of age and older with unresectable, recurrent, or refractory inflammatory anaplastic lymphoma kinase (ALK)-positive myofibroblastic tumors (IMT)."
+            ],
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "NCCN"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "903801ac737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "克唑替尼是一种受体酪氨酸激酶抑制剂，可抑制包括ALK、肝细胞生长因子受体（HGFR，c-Met）、ROS1（c-ros）和Recepteur d'Origine Nantais（RON）等受体酪氨酸激酶的活性。染色体易位可以影响ALK基因，导致癌基因融合蛋白的表达。ALK融合蛋白的形成导致基因表达和信号的失活和失调，这有助于提高表达这些蛋白的肿瘤细胞的增殖和存活率。克唑替尼在使用肿瘤细胞系的细胞分析中显示出对ALK、ROS1和c-Met磷酸化的浓度依赖性抑制作用，并且在表达EML4-ALK或NPM-ALK融合蛋白或c-Met的肿瘤异种移植小鼠模型中显示出抗肿瘤活性。",
+                    "drug_mechanism_en": "An orally available aminopyridine-based inhibitor of the receptor tyrosine kinase anaplastic lymphoma kinase (ALK) and the c-Met/hepatocyte growth factor receptor (HGFR) with antineoplastic activity. Crizotinib, in an ATP-competitive manner, binds to and inhibits ALK kinase and ALK fusion proteins. In addition, crizotinib inhibits c-Met kinase, and disrupts the c-Met signaling pathway. Altogether, this agent inhibits tumor cell growth. ALK belongs to the insulin receptor superfamily and plays an important role in nervous system development. ALK dysregulation and gene rearrangements are associated with a series of tumors.",
+                    "drug_name": "克唑替尼;Crizotinib",
+                    "regimen_code": "a0c4b3ee737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "克唑替尼",
+            "regimen_en": "Crizotinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "6336dc29d000b3e0896d6c3d81f74ada",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "gene_region": "exon23",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.3520T>C",
+                    "hgvs_p": "p.F1174L"
+                }
+            ]
+        }
+    ]
+}

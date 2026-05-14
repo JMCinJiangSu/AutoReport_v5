@@ -1,0 +1,2574 @@
+{
+    "sample_info": {
+        "order_id": "HC-R26-200Plus-01-HC009",
+        "sample_parent_id": "HC-R26-200Plus-01-HC009",
+        "sample_id": "HC-R26-200Plus-01-HC009",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": "测试1",
+        "gender": "女",
+        "age": "40",
+        "sample_type": "全血",
+        "control_sample_type": null,
+        "sample_amount": "1管",
+        "control_sample_amount": null,
+        "tumor_type": "乳腺癌",
+        "pathol_diagn": "乳腺癌",
+        "tumor_names_cn": "乳腺癌",
+        "pathological_id": null,
+        "company": "测试医院",
+        "origin_company": "测试医院-收费",
+        "report_number": null,
+        "hosp_depart": "病理科",
+        "prod_names": "Hereditary NGS",
+        "prod_ids": "52",
+        "report_module_type": "clinical",
+        "json_batch_name": "20240126_XMHC_M018419_ADXHS-gHC_v1.0.0_20240313161501",
+        "mark": null,
+        "tumor_content": null,
+        "sample_position": "乳腺",
+        "sample_position_id": null,
+        "family_history": "无家族史",
+        "molecular_number": null,
+        "blood_collection_date": "2023-10-31",
+        "gather_data": null,
+        "receive_data": "2023-11-01",
+        "report_data": "2024-03-14",
+        "id_number": null,
+        "bed_number": null,
+        "doctor": null,
+        "phone": null,
+        "clinical_diagnosis": null,
+        "barcode_number": null,
+        "sampling_time": null,
+        "submission_time": null,
+        "registration_certificate": null,
+        "outpatient_hospitalization_no": null,
+        "submission_department": null,
+        "submission_doctor": null,
+        "fasting_time": null,
+        "time_since_last_chemotherapy": null,
+        "time_from_blood_collection_to_plasma_separation": null,
+        "application_date": null,
+        "submission_date": null,
+        "mol_pathological_id": null,
+        "disease_area": null,
+        "hospital_area": null,
+        "physical_examination_number": null,
+        "test_kit": null,
+        "test_method": null,
+        "test_instrument": null,
+        "analysis_software": null,
+        "test_laboratory": null,
+        "sampling_sites": null,
+        "outpatient_service_no": null,
+        "hospitalization_no": null,
+        "application_department": null,
+        "hospital_area_and_physical_examination_no": null,
+        "tissue_collection_date": null,
+        "serial_number": null,
+        "original_pathological_id": null,
+        "application_number": null,
+        "medical_record_number": null,
+        "inspection_number": null,
+        "analysis_date": null,
+        "analysis_version": null,
+        "health_card_number": null,
+        "patient_phonenumber": null,
+        "tester": null,
+        "interpreter": null,
+        "auditor": null,
+        "tumor_list": [
+            "乳腺癌",
+            "乳腺腺肌上皮瘤",
+            "乳腺原位导管癌",
+            "乳腺纤维上皮瘤",
+            "乳腺小叶原位癌",
+            "乳腺肿瘤（组织亚型不明）",
+            "乳腺肉瘤",
+            "炎性乳腺癌",
+            "浸润性乳腺癌",
+            "青少年乳腺分泌性癌",
+            "化生性乳腺癌",
+            "三阴性乳腺癌"
+        ]
+    },
+    "snvindel": [],
+    "sv": [],
+    "cnv": [],
+    "cnv_file_path": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "BRCA1",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "乳腺癌",
+            "tumor_name_en": "Breast Cancer"
+        },
+        {
+            "gene_symbol": "BRCA2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "乳腺癌",
+            "tumor_name_en": "Breast Cancer"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "乳腺癌",
+            "tumor_name_en": "Breast Cancer"
+        },
+        {
+            "gene_symbol": "PIK3CA",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "乳腺癌",
+            "tumor_name_en": "Breast Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG或AG基因型患者相比，A/A基因型的患者使用蒽环类药物治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，A/A基因型的患者使用环磷酰胺+多柔比星+氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "环磷酰胺+多柔比星+氟尿嘧啶",
+            "drug_name_en": "cyclophosphamide, doxorubicin and fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用吉西他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/A基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用蒽环类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，A/G基因型的患者使用环磷酰胺+多柔比星+氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "环磷酰胺+多柔比星+氟尿嘧啶",
+            "drug_name_en": "cyclophosphamide, doxorubicin and fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/C基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 或AG基因型患者相比，G/G基因型的患者使用环磷酰胺+多柔比星+氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "环磷酰胺+多柔比星+氟尿嘧啶",
+            "drug_name_en": "cyclophosphamide, doxorubicin and fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用依托泊苷+铂类治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG或AG基因型患者相比，A/A基因型的患者使用紫杉烷类药物治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "紫杉烷类药物",
+            "drug_name_en": "taxanes",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 CG 和 GG 基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用紫杉烷类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "紫杉烷类药物",
+            "drug_name_en": "taxanes",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用紫杉烷类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "紫杉烷类药物",
+            "drug_name_en": "taxanes",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/G基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TC或TT基因型患者相比，C/C基因型的患者使用环磷酰胺+多柔比星+氟尿嘧啶（FAC）治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs25487",
+            "drug_name_cn": "环磷酰胺+多柔比星+氟尿嘧啶",
+            "drug_name_en": "cyclophosphamide, doxorubicin and fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "XRCC1",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/C基因型的患者使用环磷酰胺+多柔比星+氟尿嘧啶（FAC）治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs25487",
+            "drug_name_cn": "环磷酰胺+多柔比星+氟尿嘧啶",
+            "drug_name_en": "cyclophosphamide, doxorubicin and fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "XRCC1",
+            "genotype": "T/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，A/A基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/C基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用环磷酰胺+多柔比星+氟尿嘧啶（FAC）治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs25487",
+            "drug_name_cn": "环磷酰胺+多柔比星+氟尿嘧啶",
+            "drug_name_en": "cyclophosphamide, doxorubicin and fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "XRCC1",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/A基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG或AA基因型患者相比，G/A基因型的患者使用吉西他滨治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，A/G基因型的患者使用铂类治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，C/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 或 AG 基因型患者相比，G/G基因型的患者使用铂类治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用多西他赛治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "多西他赛",
+            "drug_name_en": "docetaxel",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，A/G基因型的患者使用多西他赛治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "多西他赛",
+            "drug_name_en": "docetaxel",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，C/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，A/A基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，G/G基因型的患者使用多西他赛治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "多西他赛",
+            "drug_name_en": "docetaxel",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/A基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)7或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)6基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)6",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用铂类药物治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "C/C",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用环磷酰胺+多柔比星+氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "环磷酰胺+多柔比星+氟尿嘧啶",
+            "drug_name_en": "cyclophosphamide, doxorubicin and fluorouracil (FAC) ",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，G/C基因型的患者使用铂类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "G/C",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，A/G基因型的患者使用环磷酰胺+多柔比星+氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "环磷酰胺+多柔比星+氟尿嘧啶",
+            "drug_name_en": "cyclophosphamide, doxorubicin and fluorouracil (FAC) ",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，C/T基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，G/G基因型的患者使用铂类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，G/G基因型的患者使用环磷酰胺+多柔比星+氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "环磷酰胺+多柔比星+氟尿嘧啶",
+            "drug_name_en": "cyclophosphamide, doxorubicin and fluorouracil (FAC) ",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AG基因型患者相比，A/A基因型的患者使用他莫昔芬治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "他莫昔芬",
+            "drug_name_en": "tamoxifen",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GA或AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG或AG基因型患者相比，A/A基因型的患者使用依托泊苷+铂类治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)6或(TA)6/(TA)7基因型患者相比，(TA)7/(TA)7基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)7/(TA)7",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或GG基因型患者相比，A/G基因型的患者使用他莫昔芬治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "他莫昔芬",
+            "drug_name_en": "tamoxifen",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 或GG基因型患者相比，A/G基因型的患者使用铂类治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)6或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)7基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)7",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AG基因型患者相比，G/G基因型的患者使用他莫昔芬治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "他莫昔芬",
+            "drug_name_en": "tamoxifen",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AG或AA 基因型患者相比，G/G基因型的患者使用铂类治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用依托泊苷+铂类治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用环磷酰胺+多柔比星+环磷酰胺治疗时毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "环磷酰胺+多柔比星+环磷酰胺",
+            "drug_name_en": "cyclophosphamide,doxorubicin,fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类治疗时疗效较差（但也有报道认为该基因型与生存期无关）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者，使用他莫昔芬治疗时，药物疗效较差（绝经后）/药物疗效较好（绝经前）",
+            "clin_anno_en": null,
+            "dbsnp": "rs4646",
+            "drug_name_cn": "他莫昔芬",
+            "drug_name_en": "tamoxifen",
+            "evi_level": "3",
+            "gene_symbol": "CYP19A1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差（绝经后），药物疗效较好（绝经前）",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/G基因型的患者使用环磷酰胺+多柔比星+环磷酰胺治疗时毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "环磷酰胺+多柔比星+环磷酰胺",
+            "drug_name_en": "cyclophosphamide,doxorubicin,fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/G基因型的患者使用铂类治疗时疗效中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效中等",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型的患者相比，AC基因型的患者，使用他莫昔芬治疗时，药物疗效较好（绝经后）",
+            "clin_anno_en": null,
+            "dbsnp": "rs4646",
+            "drug_name_cn": "他莫昔芬",
+            "drug_name_en": "tamoxifen",
+            "evi_level": "3",
+            "gene_symbol": "CYP19A1",
+            "genotype": "A/C",
+            "impact_type_cn": "药物疗效较好（绝经后）",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用铂类治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CC基因型的患者相比，AC基因型的患者，使用他莫昔芬治疗时，药物疗效较好（绝经前）",
+            "clin_anno_en": null,
+            "dbsnp": "rs4646",
+            "drug_name_cn": "他莫昔芬",
+            "drug_name_en": "tamoxifen",
+            "evi_level": "3",
+            "gene_symbol": "CYP19A1",
+            "genotype": "A/C",
+            "impact_type_cn": "药物疗效较好（绝经前）",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用环磷酰胺+多柔比星+环磷酰胺治疗时毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "环磷酰胺+多柔比星+环磷酰胺",
+            "drug_name_en": "cyclophosphamide,doxorubicin,fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型的患者相比，CC基因型的患者，使用他莫昔芬治疗时，药物疗效较好（绝经后）",
+            "clin_anno_en": null,
+            "dbsnp": "rs4646",
+            "drug_name_cn": "他莫昔芬",
+            "drug_name_en": "tamoxifen",
+            "evi_level": "3",
+            "gene_symbol": "CYP19A1",
+            "genotype": "C/C",
+            "impact_type_cn": "药物疗效较好（绝经后）",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA或AC基因型患者相比，CC基因型的患者，使用他莫昔芬治疗时，药物疗效较差（绝经前）",
+            "clin_anno_en": null,
+            "dbsnp": "rs4646",
+            "drug_name_cn": "他莫昔芬",
+            "drug_name_en": "tamoxifen",
+            "evi_level": "3",
+            "gene_symbol": "CYP19A1",
+            "genotype": "C/C",
+            "impact_type_cn": "药物疗效较差（绝经前）",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用环磷酰胺治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs4880",
+            "drug_name_cn": "环磷酰胺",
+            "drug_name_en": "cyclophosphamide",
+            "evi_level": "3",
+            "gene_symbol": "SOD2",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用环磷酰胺治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs4880",
+            "drug_name_cn": "环磷酰胺",
+            "drug_name_en": "cyclophosphamide",
+            "evi_level": "3",
+            "gene_symbol": "SOD2",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA或GG基因型患者相比，A/G基因型的患者使用环磷酰胺治疗时药物疗效中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs4880",
+            "drug_name_cn": "环磷酰胺",
+            "drug_name_en": "cyclophosphamide",
+            "evi_level": "3",
+            "gene_symbol": "SOD2",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效中等",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AG或GG基因型患者相比，A/A基因型的患者使用紫杉醇治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs4880",
+            "drug_name_cn": "紫杉醇",
+            "drug_name_en": "paclitaxel",
+            "evi_level": "3",
+            "gene_symbol": "SOD2",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用紫杉醇治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4880",
+            "drug_name_cn": "紫杉醇",
+            "drug_name_en": "paclitaxel",
+            "evi_level": "3",
+            "gene_symbol": "SOD2",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用紫杉醇治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4880",
+            "drug_name_cn": "紫杉醇",
+            "drug_name_en": "paclitaxel",
+            "evi_level": "3",
+            "gene_symbol": "SOD2",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": [
+            {
+                "sample_id": "HC-R26-200Plus-01-HC009",
+                "library_id": "HC-R26-200Plus-01-HC009",
+                "bioinform_ver": null,
+                "json_batch_name": "20240126_XMHC_M018419_ADXHS-gHC_v1.0.0_20240313161501",
+                "data_auto_result": "T",
+                "flowcell_lane": "K450010857_1",
+                "match_ratio": 0.9128,
+                "bardist": null,
+                "residual_r1": null,
+                "residual_r2": null,
+                "cleandata_size": "868.95M",
+                "cleandata_gc_ratio": 0.4594,
+                "cleandata_q20": 0.9524,
+                "cleandata_q30": 0.8909,
+                "mapping_ratio": 0.999,
+                "nonprope_ratio": null,
+                "lqreads_ratio": null,
+                "hqreads_ratio": null,
+                "read_ontarget_ratio": null,
+                "base_ontarget_ratio": null,
+                "gc_ontarget_ratio": null,
+                "gc_offtarget_ratio": null,
+                "inssize_ontarget": null,
+                "inssize_offtarget": null,
+                "dup_ratio": null,
+                "cover_ratio": 0.9995,
+                "depth_mean": 502.0,
+                "depth_ssbc": 214.0,
+                "depth_dsbc": null,
+                "depth_median": null,
+                "depth_median_ssbc": 192.0,
+                "depth_median_dsbc": null,
+                "uni20": 0.9993,
+                "reads_counts": "6205720",
+                "unmatch_ratio": null,
+                "crossmatch_ratio": null,
+                "unassemble_ratio": null,
+                "judgment_ratio": null,
+                "depth_min": null,
+                "depth_max": null,
+                "depth_CV": null,
+                "depth_mean_rna": null,
+                "control_counts": null,
+                "uni20_ssbc": null,
+                "uni20_dsbc": null,
+                "uni50": null,
+                "uni50_ssbc": null,
+                "uni50_dsbc": null,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "qc_type": null,
+                "depth_hotregion_ssbc": null,
+                "depth_rna_ctrl": null,
+                "mtxplot": null,
+                "cellularity": null,
+                "ploidy": null,
+                "totaldata": null,
+                "totalreads": 6205720,
+                "alignedreads": null,
+                "depth_mean_dsbc": null,
+                "depth_hotregion_dsbc": null,
+                "depth_mean_dsbc_hot": null,
+                "depth_nonhotregion_dsbc": null,
+                "depth_mean_dsbc_nonhot": null,
+                "depth_mean_ssbc": null,
+                "depth_mean_ssbc_hot": null,
+                "depth_nonhotregion_ssbc": null,
+                "depth_mean_ssbc_nonhot": null,
+                "depth_mean_uniq": 214.0,
+                "depth_mean_uniq_hot": null,
+                "depth_mean_uniq_nonhot": null,
+                "hotdepth_median_dsbc": null,
+                "depth_median_dsbc_hot": null,
+                "nonhotdepth_median_dsbc": null,
+                "depth_median_dsbc_nonhot": null,
+                "hotdepth_median_ssbc": null,
+                "depth_median_ssbc_hot": null,
+                "nonhotdepth_median_ssbc": null,
+                "depth_median_ssbc_nonhot": null,
+                "depth_median_uniq": null,
+                "hotdepth_median_uniq": null,
+                "depth_median_uniq_hot": null,
+                "nonhotdepth_median_uniq": null,
+                "depth_median_uniq_nonhot": null,
+                "uni20_uniq": 0.9993,
+                "depth_hotregion_uni20": null,
+                "uni20_uniq_hot": null,
+                "depth_nonhotregion_uni20": null,
+                "uni20_uniq_nonhot": null,
+                "uni50_uniq": null,
+                "depth_hotregion_uni50": null,
+                "uni50_uniq_hot": null,
+                "depth_nonhotregion_uni50": null,
+                "uni50_uniq_nonhot": null,
+                "depth_mean_hot": null,
+                "depth_ssbc_hot": null,
+                "depth_dsbc_hot": null,
+                "coverage_ratio_uniq_hot": null,
+                "coverage_ratio_ssbc_hot": null,
+                "coverage_ratio_dsbc_hot": null,
+                "coverage_ratio_uniq": null,
+                "coverage_ratio_ssbc": null,
+                "coverage_ratio_dsbc": null,
+                "cnv_uni": null,
+                "cnv_cv": null,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "depth_noise": null,
+                "scale_log_post_prob": null,
+                "bam_path": "/amoydx/analysis/20240126_XMHC_M018419_ADXHS-gHC_v1.0.0/HC-R26-200Plus-01-HC009_HC-R26-200Plus-01-HC009_K450010857_1/HC-R26-200Plus-01-HC009_HC-R26-200Plus-01-HC009_K450010857_1.ssbc.bam",
+                "bai_path": "/amoydx/analysis/20240126_XMHC_M018419_ADXHS-gHC_v1.0.0/HC-R26-200Plus-01-HC009_HC-R26-200Plus-01-HC009_K450010857_1/HC-R26-200Plus-01-HC009_HC-R26-200Plus-01-HC009_K450010857_1.ssbc.bam.bai",
+                "cnvplot": "HC-R26-200Plus-01-HC009_HC-R26-200Plus-01-HC009_K450010857_1/HC-R26-200Plus-01-HC009_HC-R26-200Plus-01-HC009_K450010857_1.cnv.png",
+                "cnv_noise": null,
+                "cnv_pon": null,
+                "cnv_purity": null,
+                "cnv_ploidy": null,
+                "paired_ratio": null,
+                "paired_stat": null,
+                "runstat": null,
+                "inssize_median": null,
+                "raw_read_ontarget_ratio": null,
+                "raw_amp_rate": "0.9128000000000001",
+                "brca_cover_ratio": null,
+                "brca_depth_mean": null,
+                "brca_depth_median_ssbc": null,
+                "brca_depth_ssbc": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null,
+                "cn2_ratio": null,
+                "cn2_ratio_length": null,
+                "cs_bam_path": null,
+                "cs_bai_path": null,
+                "raw_base_ontarget_ratio": null,
+                "depth_mean_raw": null,
+                "paired_dist": null,
+                "PairedRatio": null,
+                "PairedStat": null,
+                "uniq_depth_median": "192",
+                "raw_depth_mean": "502",
+                "uniq_depth_min": null,
+                "brca_uni20": null,
+                "brca_depth_CV": null,
+                "snp_depth_ssbc": null,
+                "snp_depth_median_ssbc": null,
+                "snp_depth_mean": null,
+                "snp_uni20": null,
+                "snp_depth_CV": null,
+                "slpp": null,
+                "cn2_length_ratio": null,
+                "cover_uni20_ratio": null,
+                "depth_median_raw": null
+            }
+        ],
+        "lib_dna_qc": [],
+        "qc_gradient": [],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "52",
+            "gene_symbol": "ABRAXAS1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "AIP",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "APC",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "ASXL1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "ATM",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "ATR",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "ATRIP",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "AXIN2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "BAP1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "BARD1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "BLM",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "BMPR1A",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "BRCA1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "BRCA2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "BRIP1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "BUB1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "BUB3",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "CDC73",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "CDH1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "CDK12",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "CDKN1B",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "CDKN1C",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "CDKN2A",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "CFTR",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "CHEK1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "CHEK2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "CTNNA1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "DDB2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "DDX41",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "DICER1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "DIS3L2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "DLST",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "ELAC2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "EPCAM",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "ERCC1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "ERCC2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "ERCC3",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "ERCC4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "ERCC5",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "EXT1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "EXT2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FAN1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FANCA",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FANCB",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FANCC",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FANCD2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FANCE",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FANCF",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FANCG",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FANCI",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FANCL",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FANCM",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FH",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FLCN",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "FOXE1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "GALNT12",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "GEN1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "GNAS",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "GPR101",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "GREM1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "HDAC2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "HNF1A",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "HNF1B",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "HOXB13",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "LRP6",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MAD2L2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MAX",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MBD4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MC1R",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MEN1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MET",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MITF",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MLH1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MLH3",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MRE11",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MSH2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MSH3",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MSH6",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "MUTYH",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "NBN",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "NF1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "NF2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "NTHL1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "PALB2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "PALLD",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "PMS2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "POLD1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "POLE2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "POLH",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "POT1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "PPP2R2A",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "PRKAR1A",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "PRSS1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "PTCH1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RAD50",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RAD51",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RAD51B",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RAD51C",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RAD51D",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RAD54L",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RBBP8",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RECQL",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RECQL4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "REST",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RET",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RHBDF2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RNASEL",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RNF43",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "RPS20",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SDHA",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SDHAF2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SDHB",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SDHC",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SDHD",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SLC25A11",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SLX4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SMAD4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SMARCA2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SMARCA4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SMARCB1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SPINK1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "SUFU",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "TGFBR2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "TMEM127",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "TRIM37",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "TRIP13",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "TSC1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "UBE2T",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "VHL",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "WRN",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "WT1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "XPA",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "XPC",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "XRCC2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "52",
+            "gene_symbol": "XRCC3",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "hd": [],
+    "gss": [],
+    "lib_quality_control": {
+        "lib_dna_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_lib_qc": []
+    },
+    "drug": [],
+    "io_gene_clinical": [],
+    "clinic_trial": [],
+    "refer": [],
+    "therapeutic_regimen": [],
+    "therapeutic_regimen_resistant": []
+}

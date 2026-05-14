@@ -1,0 +1,946 @@
+{
+    "sample_info": {
+        "order_id": "A0088460",
+        "sample_parent_id": "S22060126",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": "刘二明",
+        "gender": "男",
+        "age": "77",
+        "sample_type": "石蜡蜡卷",
+        "control_sample_type": null,
+        "sample_amount": "1管",
+        "control_sample_amount": null,
+        "tumor_type": "滤泡性甲状腺癌",
+        "pathol_diagn": "滤泡性甲状腺癌",
+        "tumor_names_cn": "滤泡性甲状腺癌",
+        "pathological_id": "5072",
+        "company": "中国人民解放军联勤保障部队第九二0医院",
+        "origin_company": "中国人民解放军联勤保障部队第九二0医院",
+        "report_number": null,
+        "hosp_depart": null,
+        "prod_names": "TC21（组织）",
+        "prod_ids": "29",
+        "report_module_type": "clinical",
+        "json_batch_name": "20220620_SHXW_M020666_ADXPAN116_v0.1.1.export2022712112329",
+        "mark": null,
+        "gather_data": null,
+        "receive_data": "2022-06-16",
+        "report_data": "2022-07-14",
+        "tumor_list": [
+            "滤泡性甲状腺癌",
+            "分化型甲状腺癌",
+            "甲状腺癌"
+        ],
+        "sample_id": "S22060126FD01"
+    },
+    "snvindel": [
+        {
+            "sample_id": "S22060126FD01",
+            "order_code": "488388b6028111ed84f2005056bdcbf7",
+            "bio_category": "Snvindel",
+            "gene_symbol": "TERT",
+            "transcript_primary": "NM_198253.3",
+            "var_id": "d4fcd296bcda67d73918fb28f14d25b4",
+            "hgvs_c": "c.-245T>C",
+            "hgvs_p": "p.?",
+            "hgvs_p_abbr": "p.?",
+            "chr": "chr5",
+            "start": "1295349",
+            "end": "1295349",
+            "ref": "A",
+            "alt": "G",
+            "gene_region": "FlankingRegion5",
+            "freq": 0.4659,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.4592,
+            "freq_sc": null,
+            "type": "FlankingRegion5",
+            "tag": "PASS;WBC;BackGround",
+            "igvplot": "/amoydx/report_v2/pre-production/json_file/20220620_SHXW_M020666_ADXPAN116_v0.1.1.export2022712112329/S22060126FD01_S22060126FD01L01_BH7WKGDRX2_1/IGV/chr5_1295349_1295349.svg",
+            "depth": 734,
+            "json_batch_name": "20220620_SHXW_M020666_ADXPAN116_v0.1.1.export2022712112329",
+            "var_origin": "",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": null,
+            "literature": "",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "1000G、gnomADg数据库记录人群频率为0.297923（1492/5008）、0.239453（7447/31100）。ClinVar数据库记录该突变为Benign（ClinVarID=539240）。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为基因上游区突变。",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "TERT",
+                    "gene_region": "FlankingRegion5",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.-245T>C",
+                    "hgvs_p": "p.?"
+                }
+            },
+            "gene_function": "TERT基因属于原癌基因，编码端粒酶的催化亚基，端粒酶是维持端粒长度和基因组完整性的酶。TERT在体细胞中表达低或缺失；然而，端粒酶活的激活在绝大多数肿瘤中，可能有助于癌症的发生（PMID: 24657534; PMID: 9282118）。目前已经在多种肿瘤中发现TERT基因的活化突变，如黑素瘤、肝细胞癌、尿路上皮癌、成神经管细胞瘤和神经胶质瘤等（PMID: 23348506,PMID: 23530248）。"
+        },
+        {
+            "sample_id": "S22060126FD01",
+            "order_code": "488388b6028111ed84f2005056bdcbf7",
+            "bio_category": "Snvindel",
+            "gene_symbol": "TERT",
+            "transcript_primary": "NM_198253.3",
+            "var_id": "f5de7314f054cbee421be7b571fe99e0",
+            "hgvs_c": "c.-124C>T",
+            "hgvs_p": "p.?",
+            "hgvs_p_abbr": "p.?",
+            "chr": "chr5",
+            "start": "1295228",
+            "end": "1295228",
+            "ref": "G",
+            "alt": "A",
+            "gene_region": "FlankingRegion5",
+            "freq": 0.0653,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.0759,
+            "freq_sc": null,
+            "type": "FlankingRegion5",
+            "tag": "PASS;HotSpot",
+            "igvplot": "/amoydx/report_v2/pre-production/json_file/20220620_SHXW_M020666_ADXPAN116_v0.1.1.export2022712112329/S22060126FD01_S22060126FD01L01_BH7WKGDRX2_1/IGV/chr5_1295228_1295228.svg",
+            "depth": 689,
+            "json_batch_name": "20220620_SHXW_M020666_ADXPAN116_v0.1.1.export2022712112329",
+            "var_origin": "",
+            "clinical_significance": "Pathogenic",
+            "function_classification": "Oncogenic",
+            "clinical_category": null,
+            "literature": "23955565,26733501",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该突变与C250T为TERT基因启动子区最常见的突变，在胶质母细胞瘤、甲状腺癌、头颈癌等癌种中常有发生，这2个突变都可以形成11个碱基的核苷酸伸展5’-CCCCTTCCGGG-3’，其中包含与ETS转录因子结合位点GGAA，ETS转录因子靶向作用于MAPK信号转导通路。40.15%的胶质母细胞瘤患者携带该突变，且TERT突变（C228T，C250T）与更短的生存期相关（PMID: 23955565）；甲状腺癌中，C228T较C250T更为常见，这2个突变在良性甲状腺肿瘤、乳头状甲状腺癌、滤泡状甲状腺癌、低分化甲状腺癌和未分化甲状腺癌中的发生率为0%、11.3%、17.1%、43.2%和40.1%，与甲状腺癌的侵袭性相关（PMID: 26733501）。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为基因上游区突变，另有命名为C228T。",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "TERT",
+                    "gene_region": "FlankingRegion5",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.-124C>T",
+                    "hgvs_p": "p.?"
+                }
+            },
+            "gene_function": "TERT基因属于原癌基因，编码端粒酶的催化亚基，端粒酶是维持端粒长度和基因组完整性的酶。TERT在体细胞中表达低或缺失；然而，端粒酶活的激活在绝大多数肿瘤中，可能有助于癌症的发生（PMID: 24657534; PMID: 9282118）。目前已经在多种肿瘤中发现TERT基因的活化突变，如黑素瘤、肝细胞癌、尿路上皮癌、成神经管细胞瘤和神经胶质瘤等（PMID: 23348506,PMID: 23530248）。"
+        }
+    ],
+    "sv": [],
+    "cnv": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [
+        {
+            "sample_id": "",
+            "order_code": "488388b6028111ed84f2005056bdcbf7",
+            "var_id": "MSS",
+            "msi_score": 0.0179,
+            "img_path": "/amoydx/report_v2/pre-production/json_file/20220620_SHXW_M020666_ADXPAN116_v0.1.1.export2022712112329/S22060126FD01_S22060126FD01L01_BH7WKGDRX2_1/S22060126FD01_S22060126FD01L01_BH7WKGDRX2_1.msi.png",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "微卫星（Microsatellite）又称简单重复序列（SSR），是指遍布于人类基因组中的短串联重复序列，一般由1-6个核苷酸组成。DNA复制时，肿瘤细胞内的微卫星由于重复单位的插入或缺失而造成的微卫星长度的变化，称为微卫星不稳定性（Microsatellite Instability, MSI）。大量研究表明，MSI是由错配修复（mismatch repair，MMR）基因突变或功能缺陷引起的（PMID: 25701956）。MSI在多种癌种中被发现，包括子宫内膜癌、结直肠癌和胃腺癌等。据报道，10%-15%的散发性结直肠癌患者存在MSI（PMID: 15528785），NCCN指南明确推荐所有结直肠癌患者均需考虑做MSI或MMR检测。临床上也已将MSI作为结直肠癌及其他实体瘤预后和制定辅助治疗方案的重要分子标志物。",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "biomarker_type": "MSS"
+                }
+            }
+        }
+    ],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "BRAF",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "甲状腺癌",
+            "tumor_name_en": "Thyroid Cancer"
+        },
+        {
+            "gene_symbol": "RET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "甲状腺癌",
+            "tumor_name_en": "Thyroid Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，A/G基因型的患者使用顺铂治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用卡培他滨治疗时毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，G/C基因型的患者使用铂类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "G/C",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/G基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用依托泊苷+铂类治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类治疗时疗效较差（但也有报道认为该基因型与生存期无关）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)7或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)6基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)6",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": {
+            "depth_min": null,
+            "depth_noise": null,
+            "depth_mean": null,
+            "depth_ssbc": null,
+            "depth_rna_ctrl": null,
+            "depth_mean_uniq": 1413.7761,
+            "depth_hotregion_mean": null,
+            "depth_nonhotregion_mean": null,
+            "depth_median_uniq": 1188,
+            "depth_mean_ssbc": 933.3658,
+            "cleandata_q30": 0.9209,
+            "cleandata_q20": 0.9599,
+            "cover_ratio": 0.9958,
+            "cnv_cv": 0.11,
+            "cnv_uni": 1.03,
+            "mapping_ratio": 0.9946,
+            "inssize_ontarget": 221.249,
+            "uni20": null,
+            "uni20_uniq": 0.9897,
+            "totalreads": null,
+            "alignedreads": null,
+            "read_ontarget_ratio": 0.451,
+            "uni20_mean_hotregion": null,
+            "uni20_mean_nonhotregion": null,
+            "scale_log_post_prob": null,
+            "qc_type": null
+        },
+        "lib_dna_qc": [],
+        "qc_gradient": [
+            {
+                "sample_id": "S22060126FD01",
+                "gradient_ratio": "0.3836093467843842",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_uniq"
+            },
+            {
+                "sample_id": "S22060126FD01",
+                "gradient_ratio": "0.9913463423178457",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_uniq"
+            },
+            {
+                "sample_id": "S22060126FD01",
+                "gradient_ratio": "0.15737562712952963",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_ssbc"
+            },
+            {
+                "sample_id": "S22060126FD01",
+                "gradient_ratio": "0.9860332050228748",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_ssbc"
+            },
+            {
+                "sample_id": "S22060126FD01",
+                "gradient_ratio": "0.004662549054770355",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_dsbc"
+            },
+            {
+                "sample_id": "S22060126FD01",
+                "gradient_ratio": "0.974581183820371",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_dsbc"
+            },
+            {
+                "sample_id": "S22060126FD01",
+                "gradient_ratio": "0.45044781931464173",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_uniq_hot"
+            },
+            {
+                "sample_id": "S22060126FD01",
+                "gradient_ratio": "1",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_uniq_hot"
+            },
+            {
+                "sample_id": "S22060126FD01",
+                "gradient_ratio": "0.1898039979231568",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_ssbc_hot"
+            },
+            {
+                "sample_id": "S22060126FD01",
+                "gradient_ratio": "0.9988642263759087",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_ssbc_hot"
+            },
+            {
+                "sample_id": "S22060126FD01",
+                "gradient_ratio": "0.004380841121495327",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_dsbc_hot"
+            },
+            {
+                "sample_id": "S22060126FD01",
+                "gradient_ratio": "0.9955218068535826",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_dsbc_hot"
+            }
+        ],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "29",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "C8orf34",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "CDA",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "CYP19A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "DYNC2H1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "EIF1AX",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "ERCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "GNAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "MTRR",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "PAX8",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "PAX8",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "RASAL1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "RET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "SEMA3C",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "SLC28A3",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "SOD2",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "TSHR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "UMPS",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "XPC",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "29",
+            "gene_symbol": "XRCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "drug": [],
+    "io_gene_clinical": [
+        {
+            "effect": "正相关",
+            "evidence": "一项临床研究中，分析了521名接受免疫治疗的患者，其中携带TERT基因突变患者的中位生存期24个月，而无突变患者只有17个月。在非小细胞肺癌患者中，TERT突变的患者有效率更高（35.4%vs 17.4%）、中位无疾病进展生存时间更长（8.8个月vs 3.1个月）(PMID:32241817)。",
+            "gene_symbol": "TERT",
+            "test_significance": "TERT突变可能为免疫药物疗效正向预测因子。",
+            "tumor_name": "非小细胞肺癌",
+            "var_note": "突变"
+        }
+    ],
+    "clinic_trial": [],
+    "refer": [
+        {
+            "authors": "Hiroyuki Yamamoto,Kohzoh Imai",
+            "date": "(2015)",
+            "journal": "Arch Toxicol",
+            "pmid": "[PMID:25701956]",
+            "title": "Microsatellite instability: an update.",
+            "vol": "89(6):899-921."
+        },
+        {
+            "authors": "Timothy M Pawlik,Chandrajit P Raut,Miguel A Rodriguez-Bigas",
+            "date": "(2004)",
+            "journal": "Dis Markers",
+            "pmid": "[PMID:15528785]",
+            "title": "Colorectal carcinogenesis: MSI-H versus MSI-L.",
+            "vol": "20(4-5):199-206."
+        },
+        {
+            "authors": "J W Shay,S Bacchetti",
+            "date": "(1997)",
+            "journal": "Eur J Cancer",
+            "pmid": "[PMID:9282118]",
+            "title": "A survey of telomerase activity in human cancer.",
+            "vol": "33(5):787-91."
+        },
+        {
+            "authors": "Franklin W Huang,Eran Hodis,Mary Jue Xu,et al.",
+            "date": "(2013)",
+            "journal": "Science",
+            "pmid": "[PMID:23348506]",
+            "title": "Highly recurrent TERT promoter mutations in human melanoma.",
+            "vol": "339(6122):957-9."
+        },
+        {
+            "authors": "Patrick J Killela,Zachary J Reitman,Yuchen Jiao,et al.",
+            "date": "(2013)",
+            "journal": "Proc Natl Acad Sci U S A",
+            "pmid": "[PMID:23530248]",
+            "title": "TERT promoter mutations occur frequently in gliomas and a subset of tumors derived from cells with low rates of self-renewal.",
+            "vol": "110(15):6021-6."
+        },
+        {
+            "authors": "Rengyun Liu,Mingzhao Xing",
+            "date": "(2016)",
+            "journal": "Endocr Relat Cancer",
+            "pmid": "[PMID:26733501]",
+            "title": "TERT promoter mutations in thyroid cancer.",
+            "vol": "23(3):R143-55."
+        },
+        {
+            "authors": "Naosuke Nonoguchi,Takashi Ohta,Ji-Eun Oh,et al.",
+            "date": "(2013)",
+            "journal": "Acta Neuropathol",
+            "pmid": "[PMID:23955565]",
+            "title": "TERT promoter mutations in primary and secondary glioblastomas.",
+            "vol": "126(6):931-7."
+        }
+    ]
+}

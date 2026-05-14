@@ -1,0 +1,11 @@
+2026-05-13 09:15:23,921 - AutoTest_v3.py[line:165] - INFO: **********本次共测试1条配置信息1个模板**********
+2026-05-13 09:15:23,922 - AutoTest_v3.py[line:168] - INFO: *****配置1/1测试开始*****
+2026-05-13 09:15:23,923 - AutoTest_v3.py[line:169] - INFO:       a. 项目：Classic Panel
+2026-05-13 09:15:23,923 - AutoTest_v3.py[line:170] - INFO:       b. 业务类型：hospital
+2026-05-13 09:15:23,924 - AutoTest_v3.py[line:171] - INFO:       c. 送检单位：复旦大学附属中山医院
+2026-05-13 09:15:23,924 - AutoTest_v3.py[line:172] - INFO:       d. 预计使用模板：ClassicPanel_CustomEdition_FDZS_v2.4.1.docx
+2026-05-13 09:15:23,925 - AutoTest_v3.py[line:173] - INFO:       e. 药企项目：非药企项目
+2026-05-13 09:15:23,925 - AutoTest_v3.py[line:174] - INFO:       f. 免费类型：
+2026-05-13 09:15:23,926 - AutoTest_v3.py[line:175] - INFO:       g. 订单类型：
+2026-05-13 09:15:23,926 - AutoTest_v3.py[line:176] - INFO:       h. 订单来源：
+2026-05-13 09:15:41,826 - AutoTest_v3.py[line:191] - WARNING: 样本1：CP40_CNV_I，模板调用跟预期不一致（ClassicPanel_CustomEdition_FDZS_v2.4.0.docx），注意排查！

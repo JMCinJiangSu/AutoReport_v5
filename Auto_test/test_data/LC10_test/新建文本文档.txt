@@ -1,0 +1,24 @@
+组织
+*snvindel-I S22070193FD01
+*snvindel-II
+*snvindel-III S22070175TD01
+*snvindel-onconodrug 归为III S22070169FD01
+*MET CNV S22070175TD01
+*SV-I SF220742FD01
+*SV-II
+*SV-III SF220742FD01
+*SV-onconodrug 归为III
+*KNB阴性 S22070186FD01
+*阴性 SF220740FD01
+
+全血
+*snvindel-I SF220667PD01
+*snvindel-II SF220667PD01
+snvindel-III
+snvindel-onconodrug
+SV-I
+SV-II
+*SV-III S22070145PD01
+SV- onconodrug
+*KNB阴性 S22070070EPD01
+*阴性 S22070085PD01

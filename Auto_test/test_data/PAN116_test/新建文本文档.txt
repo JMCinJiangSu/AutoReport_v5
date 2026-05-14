@@ -1,0 +1,47 @@
+------------------------ptPAN116---------------------
+*levelI
+*levelII
+*onconodrug
+*levelIII
+*KNB
+*EC
+*N
+
+*Snvindel
+*CNV
+*SV
+*MSS/MSI-H
+*PD-L1肺癌 阳性 22070154F001D01
+*PD-L1肺癌 阴性 22070034F001D01
+*PD-L1非肺癌 阳性 22062661F001D01L01
+*PD-L1非肺癌 阴性 22070211F001D01
+*胚系
+*BCL2L11
+------------------------tPAN116---------------------
+*levelI
+*levelII
+*onconodrug
+*levelIII
+*KNB
+*EC
+*N
+
+*Snvindel
+*CNV
+*SV
+*MSS/MSI-H
+*PD-L1
+*BCL2L11
+------------------------gPAN116---------------------
+*levelI
+*levelII
+*onconodrug
+*levelIII
+*KNB
+*N
+
+*Snvindel
+*SV
+*PD-L1肺癌 阳性 S22060104PD01
+*胚系
+*BCL2L11

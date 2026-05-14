@@ -1,0 +1,1277 @@
+{
+    "sample_info": {
+        "order_id": "A0080027",
+        "sample_parent_id": "22062986",
+        "control_sample_id": "22062986",
+        "rna_sample_id": null,
+        "patient_name": "任雪蚕",
+        "gender": "女",
+        "age": "31",
+        "sample_type": "石蜡玻片",
+        "control_sample_type": "全血对照",
+        "sample_amount": "10片",
+        "control_sample_amount": "2管",
+        "tumor_type": "结直肠癌",
+        "pathol_diagn": "结直肠癌",
+        "tumor_names_cn": "结直肠癌",
+        "pathological_id": "2213249-F",
+        "company": "陕西省人民医院",
+        "origin_company": "陕西省人民医院-收费",
+        "report_number": null,
+        "hosp_depart": null,
+        "prod_names": "CRC25（组织）",
+        "prod_ids": "27",
+        "report_module_type": "clinical",
+        "json_batch_name": "20220705_XMHC_A000958_ADXPAN116-Pair_v0.1.0.export2022714133139",
+        "mark": null,
+        "gather_data": "2022-06-27",
+        "receive_data": "2022-06-29",
+        "tissue_date_received": "2022-06-30",
+        "blood_date_received": null,
+        "report_data": "2022-07-14",
+        "tumor_list": [
+            "结直肠癌",
+            "肠癌",
+            "结直肠腺癌",
+            "结肠髓样癌"
+        ],
+        "sample_id": "22062986F001D01"
+    },
+    "snvindel": [
+        {
+            "sample_id": "22062986F001D01",
+            "order_code": "30d86a9c028111ed84f2005056bdcbf7",
+            "bio_category": "Snvindel",
+            "gene_symbol": "MSH2",
+            "transcript_primary": "NM_000251.3",
+            "var_id": "ad223eb9ea855a478476ba52eaa8c7cc",
+            "hgvs_c": "c.1477C>T",
+            "hgvs_p": "p.Q493*",
+            "hgvs_p_abbr": "p.Gln493Ter",
+            "chr": "chr2",
+            "start": "47690260",
+            "end": "47690260",
+            "ref": "C",
+            "alt": "T",
+            "gene_region": "exon9",
+            "freq": 0.4911,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.519,
+            "freq_sc": null,
+            "type": "Nonsense_Mutation",
+            "tag": "PASS;Germline",
+            "igvplot": "/amoydx/report_v2/pre-production/json_file/20220705_XMHC_A000958_ADXPAN116-Pair_v0.1.0.export2022714133139/22062986F001D01_22062986F001D01L01_AHVTWWBGXL_1/IGV/chr2_47690260_47690260.svg",
+            "depth": 560,
+            "json_batch_name": "20220705_XMHC_A000958_ADXPAN116-Pair_v0.1.0.export2022714133139",
+            "var_origin": "germline",
+            "clinical_significance": "Pathogenic",
+            "function_classification": "",
+            "clinical_category": "",
+            "literature": "",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "测试用！",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为无义突变，导致基因编码蛋白第493位氨基酸由谷氨酰胺突变为终止密码子。",
+            "variant_desc_en": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "",
+                    "evidence_type": "Predisposing",
+                    "refer_agency": "NCCN",
+                    "literature": "30078507,22970155,28692638,8531968,17922413,23479189,28724667,30720863,27257965,28176296,30972954,30875412,30702160",
+                    "clinical_significance": "Risk Elevate",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A2",
+                    "evi_interpretation": "测试"
+                },
+                {
+                    "regimen_name": "奥拉帕利",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "30078507,22970155,28692638,8531968,17922413,23479189,28724667,30720863,27257965,28176296,30972954,30875412,30702160",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "测试"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "MSH2",
+                    "gene_region": "exon9",
+                    "hgvs_p_abbr": "p.Gln493Ter",
+                    "hgvs_c": "c.1477C>T",
+                    "hgvs_p": "p.Q493*"
+                }
+            },
+            "gene_function": null
+        }
+    ],
+    "sv": [],
+    "cnv": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [
+        {
+            "sample_id": "",
+            "order_code": "30d86a9c028111ed84f2005056bdcbf7",
+            "var_id": "MSI-H",
+            "msi_score": 0.6071,
+            "img_path": "/amoydx/report_v2/pre-production/json_file/20220705_XMHC_A000958_ADXPAN116-Pair_v0.1.0.export2022714133139/22062986F001D01_22062986F001D01L01_AHVTWWBGXL_1/22062986F001D01_22062986F001D01L01_AHVTWWBGXL_1.msi.png",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "微卫星（Microsatellite）又称简单重复序列（SSR），是指遍布于人类基因组中的短串联重复序列，一般由1-6个核苷酸组成。DNA复制时，肿瘤细胞内的微卫星由于重复单位的插入或缺失而造成的微卫星长度的变化，称为微卫星不稳定性（Microsatellite Instability, MSI）。大量研究表明，MSI是由错配修复（mismatch repair，MMR）基因突变或功能缺陷引起的（PMID: 25701956）。MSI在多种癌种中被发现，包括子宫内膜癌、结直肠癌和胃腺癌等。据报道，10%-15%的散发性结直肠癌患者存在MSI（PMID: 15528785），NCCN指南明确推荐所有结直肠癌患者均需考虑做MSI或MMR检测。临床上也已将MSI作为结直肠癌及其他实体瘤预后和制定辅助治疗方案的重要分子标志物。",
+            "variant_desc_en": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "恩沃利单抗",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NMPA",
+                    "literature": "25701956,15528785",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项单臂开放标签II期临床试验（CTR20181127），恩沃利单抗单药治疗MSI-H/dMMR晚期实体瘤患者，总体人群（n=103）中由独立审评委员会（BIRC）评价经确认的客观缓解率达到42.7%。该数据在结直肠癌（CRC）、胃癌（GC）以及其他实体瘤患者中分别是43.1%、44.4%和40%。总体人群中位缓解时间（DOR）未达到，12个月DOR率为92.2%；中位无进展生存期（PFS）为11.1个月；中位生存（OS）未达到，12个月OS率为74.6%。基于上述研究，NMPA批准恩沃利单抗用于不可切除或转移性微卫星高度不稳定（MSI-H）或错配修复基因缺陷型（dMMR）的成人晚期实体瘤患者的治疗，包括既往经过氟尿嘧啶类、奥沙利铂和伊立替康治疗后出现疾病进展的晚期结直肠癌患者以及既往治疗后出现疾病进展且无满意替代治疗方案的其他晚期实体瘤患者。"
+                },
+                {
+                    "regimen_name": "纳武利尤单抗",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "25701956,15528785",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项多中心、非随机、多平行队列、开放标签的II期临床试验（CHECKMATE-142，NCT02060188），入组193名接受以氟尿嘧啶、奥沙利铂或伊立替康为基础的化疗治疗期间或之后发生疾病进展的错配修复缺陷型（dMMR）或微卫星不稳定性高（MSI-H）的转移性结直肠癌（mCRC）患者，并对纳武利尤单抗和纳武利尤单抗联合伊匹木单抗的疗效进行了评估。74名患者入组了纳武利尤单抗队列，每2周接受静脉滴注3mg/kg纳武利尤单抗治疗。119名患者入组了纳武利尤单抗联合伊匹木单抗队列，接受每3周静脉注射3mg/kg纳武利尤单抗和1mg/kg伊匹木单抗治疗，然后接受每2周静脉注射3mg/kg纳武利尤单抗治疗。研究的主要终点为客观缓解率（ORR）和缓解持续时间（DoR）。结果显示，纳武利尤单抗队列中所有患者和既往接受过氟尿嘧啶、奥沙利铂或伊立替康化疗的患者的ORR分别为38%和32%。纳武利尤单抗联合伊匹木单抗队列中所有患者和既往接受过氟尿嘧啶、奥沙利铂或伊立替康为基础的化疗的患者的ORR分别为60%和56%。纳武利尤单抗队列中86%的患者和纳武利尤单抗联合伊匹木单抗队列中89%的患者的缓解持续时间长达6个月以上。基于上述研究，FDA批准那武利尤单抗±伊匹木单抗用于经过氟尿嘧啶、奥沙利铂和伊立替康治疗后进展的MSI-H/dMMR转移性结直肠癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "纳武利尤单抗+伊匹木单抗",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "25701956,15528785",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项多中心、非随机、多平行队列、开放标签的II期临床试验（CHECKMATE-142，NCT02060188），入组193名接受以氟尿嘧啶、奥沙利铂或伊立替康为基础的化疗治疗期间或之后发生疾病进展的错配修复缺陷型（dMMR）或微卫星不稳定性高（MSI-H）的转移性结直肠癌（mCRC）患者，并对纳武利尤单抗和纳武利尤单抗联合伊匹木单抗的疗效进行了评估。74名患者入组了纳武利尤单抗队列，每2周接受静脉滴注3mg/kg纳武利尤单抗治疗。119名患者入组了纳武利尤单抗联合伊匹木单抗队列，接受每3周静脉注射3mg/kg纳武利尤单抗和1mg/kg伊匹木单抗治疗，然后接受每2周静脉注射3mg/kg纳武利尤单抗治疗。研究的主要终点为客观缓解率（ORR）和缓解持续时间（DoR）。结果显示，纳武利尤单抗队列中所有患者和既往接受过氟尿嘧啶、奥沙利铂或伊立替康化疗的患者的ORR分别为38%和32%。纳武利尤单抗联合伊匹木单抗队列中所有患者和既往接受过氟尿嘧啶、奥沙利铂或伊立替康为基础的化疗的患者的ORR分别为60%和56%。纳武利尤单抗队列中86%的患者和纳武利尤单抗联合伊匹木单抗队列中89%的患者的缓解持续时间长达6个月以上。基于上述研究，FDA批准那武利尤单抗±伊匹木单抗用于经过氟尿嘧啶、奥沙利铂和伊立替康治疗后进展的MSI-H/dMMR转移性结直肠癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "帕博利珠单抗",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "25701956,15528785",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项多中心、开放标签的随机性临床试验（KEYNOTE‑177）中，入组的307例MSI-H或dMMR阳性的晚期结直肠癌患者按1:1的比例被随机分配接受帕博利珠单抗或化疗联合西妥昔单抗/贝伐单抗治疗（化疗组）；结果显示，帕博利珠单抗组的无病生存期（PFS）为16.5个月，要显著高于化疗组的8.2个月（95%CI: 5.4-2.34, p-value=0.0004），提示MSI-H阳性的结直肠癌患者可从帕博利珠单抗的治疗中获益；FDA以及批准了帕博利珠单抗用于MSI-H/dMMR的不可切除或转移性结直肠患者的一线治疗。"
+                },
+                {
+                    "regimen_name": "替雷利珠单抗",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NMPA",
+                    "literature": "25701956,15528785",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项单臂、开放标签、多中心的II期临床试验（NCT03736889），研究替雷利珠单抗在既往治疗过的、局部晚期、不可切除或转移性的MSI-H/dMMR的中国成年实体瘤患者中的有效性和安全性。使用替雷利珠单抗治疗（200\u202fmg/3周,静脉注射），直到疾病进展、不可接受的毒性或停药。主要终点为独立审查委员会（IRC）评估的客观缓解率（ORR），次要终点为疾病控制率（DCR）、缓解持续时间（DoR）。入组的80例患者，中位随访时间为11.8个月，其中74例患者纳入疗效分析。结果显示，IRC评估的ORR为45.9%（4例完全缓解+30例部分缓解），其中，结直肠癌和非结直肠癌患者的ORR分别为39.1%（18/46）和57.1%（16/28）。74例患者中，DCR达到71.6%（53/74）。中位DoR尚未达到，34例缓解的患者均未出现疾病进展，其中33例仍在接受治疗（12个月的DoR率为100%）。基于上述研究，NMPA批准替雷利珠单抗用于不可切除或转移性MSI-H/dMMR的成人晚期实体瘤患者的治疗，包括既往经过氟尿嘧啶类、奥沙利铂和伊立替康治疗后出现疾病进展的晚期结直肠癌患者以及既往治疗后出现疾病进展且无满意替代治疗方案的其他晚期实体瘤患者。"
+                },
+                {
+                    "regimen_name": "Dostarlimab-gxly",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NCCN",
+                    "literature": "25701956,15528785",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A2",
+                    "evi_interpretation": "NCCN 结/直肠癌指南推荐dMMR/MSI-H的患者使用帕博利珠单抗、Dostarlimab-gxly、纳武利尤单抗±伊匹木单抗等药物进行治疗。"
+                },
+                {
+                    "regimen_name": "阿维鲁单抗",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NCCN",
+                    "literature": "25701956,15528785",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "NCCN 子宫内膜癌指南推荐dMMR/MSI-H的患者使用帕博利珠单抗、Dostarlimab-gxly、纳武利尤单抗、Avelumab等药物进行治疗。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "纳武利尤单抗",
+                    "帕博利珠单抗",
+                    "Dostarlimab-gxly",
+                    "恩沃利单抗",
+                    "替雷利珠单抗",
+                    "阿维鲁单抗",
+                    "伊匹木单抗"
+                ],
+                "var": {
+                    "biomarker_type": "MSI-H"
+                }
+            }
+        }
+    ],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [
+        {
+            "sample_id": "",
+            "order_code": "30d86a9c028111ed84f2005056bdcbf7",
+            "var_id": "KRAS/NRAS/BRAF WT",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "KRAS/NRAS exon2/3/4和BRAF V600E野生型",
+            "variant_desc_en": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "帕尼单抗",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NCCN",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A2",
+                    "evi_interpretation": "NCCN结直肠癌指南中认为，所有转移性结直肠癌患者均应进行RAS基因（KRAS和NRAS）及BRAF基因突变检测；并指出，KRAS、NRAS基因突变（2/3/4号外显子中）的结直肠癌患者不能用西妥昔单抗或帕尼单抗进行治疗；而BRAF V600E突变的患者除非同时使用BRAF抑制剂，否则极有可能对西妥昔单抗和帕尼单抗无反应。对于KRAS/NRAS/BRAF基因突变为阴性的左半结肠癌患者，可根据疾病分期和转移状态，使用西妥昔单抗/帕尼单抗联合不同的化疗药物进行治疗。"
+                },
+                {
+                    "regimen_name": "西妥昔单抗",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NCCN",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A2",
+                    "evi_interpretation": "NCCN结直肠癌指南中认为，所有转移性结直肠癌患者均应进行RAS基因（KRAS和NRAS）及BRAF基因突变检测；并指出，KRAS、NRAS基因突变（2/3/4号外显子中）的结直肠癌患者不能用西妥昔单抗或帕尼单抗进行治疗；而BRAF V600E突变的患者除非同时使用BRAF抑制剂，否则极有可能对西妥昔单抗和帕尼单抗无反应。对于KRAS/NRAS/BRAF基因突变为阴性的左半结肠癌患者，可根据疾病分期和转移状态，使用西妥昔单抗/帕尼单抗联合不同的化疗药物进行治疗。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "帕尼单抗",
+                    "西妥昔单抗"
+                ],
+                "var": {
+                    "biomarker_type": "KRAS/NRAS/BRAF WT"
+                }
+            }
+        }
+    ],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "BRAF",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "结直肠癌",
+            "tumor_name_en": "Colorectal cancer"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "结直肠癌",
+            "tumor_name_en": "Colorectal cancer"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "结直肠癌",
+            "tumor_name_en": "Colorectal cancer"
+        },
+        {
+            "gene_symbol": "NRAS",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "结直肠癌",
+            "tumor_name_en": "Colorectal cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，A/A基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil ",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG或AG基因型患者相比，A/A基因型的患者使用依托泊苷+铂类治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)7或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)6基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)6",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/G基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用FOLFOX治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "FOLFOX",
+            "drug_name_en": "FOLFOX (fluorouracil, leucovorin, oxaliplatin) ",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 或 AG 基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类治疗时疗效较差（但也有报道认为该基因型与生存期无关）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，A/A基因型的患者使用卡培他滨+表柔比星+铂类治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "卡培他滨+表柔比星+铂类",
+            "drug_name_en": "capecitabine, epirubicin and platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用卡培他滨治疗时毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/C基因型的患者使用氟尿嘧啶治疗时药物毒性较高，药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs25487",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "XRCC1",
+            "genotype": "T/C",
+            "impact_type_cn": "药物毒性较高，药物疗效较差",
+            "impact_type_en": "Toxicity/Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，G/C基因型的患者使用铂类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "G/C",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用FOLFOX治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "FOLFOX",
+            "drug_name_en": "FOLFOX (fluorouracil, leucovorin, oxaliplatin) ",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 或 AG 基因型患者相比，G/G基因型的患者使用顺铂治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用奥沙利铂治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "奥沙利铂",
+            "drug_name_en": "oxaliplatin",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/C基因型的患者使用氟尿嘧啶治疗时药物毒性较高，药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs25487",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "3",
+            "gene_symbol": "XRCC1",
+            "genotype": "T/C",
+            "impact_type_cn": "药物毒性较高，药物疗效较差",
+            "impact_type_en": "Toxicity/Efficacy",
+            "is_same_tumor": 1
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": {
+            "depth_min": null,
+            "depth_noise": null,
+            "depth_mean": null,
+            "depth_ssbc": null,
+            "depth_rna_ctrl": null,
+            "depth_mean_uniq": 1783.1544,
+            "depth_hotregion_mean": null,
+            "depth_nonhotregion_mean": null,
+            "depth_median_uniq": 1986.5,
+            "depth_mean_ssbc": 878.6516,
+            "cleandata_q30": 0.9134,
+            "cleandata_q20": 0.9446,
+            "cover_ratio": 0.996,
+            "cnv_cv": 0.4,
+            "cnv_uni": 1.38,
+            "mapping_ratio": 0.9933,
+            "inssize_ontarget": 201.3216,
+            "uni20": null,
+            "uni20_uniq": 0.9816,
+            "totalreads": null,
+            "alignedreads": null,
+            "read_ontarget_ratio": 0.4455,
+            "uni20_mean_hotregion": null,
+            "uni20_mean_nonhotregion": null,
+            "scale_log_post_prob": null,
+            "qc_type": null
+        },
+        "lib_dna_qc": [],
+        "qc_gradient": [
+            {
+                "sample_id": "22062986F001D01",
+                "gradient_ratio": "0.5309759240646752",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_uniq"
+            },
+            {
+                "sample_id": "22062986F001D01",
+                "gradient_ratio": "0.9920678279944783",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_uniq"
+            },
+            {
+                "sample_id": "22062986F001D01",
+                "gradient_ratio": "0.1516871504652123",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_ssbc"
+            },
+            {
+                "sample_id": "22062986F001D01",
+                "gradient_ratio": "0.9459678125638599",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_ssbc"
+            },
+            {
+                "sample_id": "22062986F001D01",
+                "gradient_ratio": "0.0001834992472360426",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_dsbc"
+            },
+            {
+                "sample_id": "22062986F001D01",
+                "gradient_ratio": "0.84466788721469",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_dsbc"
+            },
+            {
+                "sample_id": "22062986F001D01",
+                "gradient_ratio": "0.5546793873312564",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_uniq_hot"
+            },
+            {
+                "sample_id": "22062986F001D01",
+                "gradient_ratio": "1",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_uniq_hot"
+            },
+            {
+                "sample_id": "22062986F001D01",
+                "gradient_ratio": "0.16484942886812046",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_ssbc_hot"
+            },
+            {
+                "sample_id": "22062986F001D01",
+                "gradient_ratio": "0.9689122533748702",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_ssbc_hot"
+            },
+            {
+                "sample_id": "22062986F001D01",
+                "gradient_ratio": "0",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_dsbc_hot"
+            },
+            {
+                "sample_id": "22062986F001D01",
+                "gradient_ratio": "0.859358774662513",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_dsbc_hot"
+            }
+        ],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "27",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "ARAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "C8orf34",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "CDA",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "CYP19A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "DPYD",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "DYNC2H1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "EPCAM",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "ERCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "FBXW7",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "GNAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "KDR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "MAP2K1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "MET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "MLH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "MSH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "MSH6",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "MTRR",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "PMS2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "SEMA3C",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "SLC28A3",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "SMAD4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "SOD2",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "UGT1A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "UMPS",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "XPC",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "27",
+            "gene_symbol": "XRCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "drug": [
+        {
+            "general_name_cn": "纳武利尤单抗",
+            "var": [
+                {
+                    "biomarker_type": "MSI-H"
+                }
+            ],
+            "general_name_en": "Nivolumab",
+            "trade_name_cn": "欧狄沃",
+            "trade_name_en": "Opdivo",
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "PMDA"
+            ],
+            "drug_mechanism_cn": "PD-1配体PD-L1和PD-L2与T细胞上的PD-1受体的结合会抑制T细胞增殖和细胞因子的产生。 PD-1配体的上调发生在某些肿瘤中，通过该途径的信号传导可能有助于抑制肿瘤的主动T细胞免疫监视。 Nivolumab是一种人类免疫球蛋白G4（IgG4）单克隆抗体，与PD-1受体结合并阻断其与PD-L1和PD-L2的相互作用，从而释放PD-1途径介导的免疫应答抑制作用，包括抗肿瘤作用免疫反应。在同系小鼠肿瘤模型中，阻断PD-1活性导致肿瘤生长减少。结合的nivolumab（抗PD-1）和ipilimumab（抗CTLA-4）介导的抑制作用导致增强的T细胞功能，其作用大于单独使用任一抗体的作用，并提高了转移性黑素瘤和高级RCC的抗肿瘤反应。在鼠类同系肿瘤模型中，PD-1和CTLA-4的双重阻断导致抗肿瘤活性增加。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": null,
+            "var": [
+                {
+                    "biomarker_type": "MSI-H"
+                }
+            ],
+            "general_name_en": "Dostarlimab-gxly",
+            "trade_name_cn": null,
+            "trade_name_en": "JEMPERLI",
+            "approval_organization": [
+                "FDA"
+            ],
+            "drug_mechanism_cn": "PD-1配体PD-L1和PD-L2与T细胞上的PD-1受体结合可以抑制T细胞的增殖和细胞因子的产生。PD-1配体的上调在一些肿瘤中发生，通过这一途径的信号传导可以抑制肿瘤的活性t细胞免疫监视。Dostarlimab-gxly是一种人源化IgG4同型单克隆抗体，可与PD-1受体结合，阻断其与PD-L1和PD-L2的相互作用，释放PD-1通路介导的免疫反应抑制，包括抗肿瘤免疫反应。在同基因小鼠肿瘤模型中，阻断PD-1活性导致肿瘤生长下降。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "帕尼单抗",
+            "var": [
+                {
+                    "biomarker_type": "KRAS/NRAS/BRAF WT"
+                }
+            ],
+            "general_name_en": "Panitumumab",
+            "trade_name_cn": "维克替比",
+            "trade_name_en": "Vectibix",
+            "approval_organization": [
+                "FDA",
+                "PMDA"
+            ],
+            "drug_mechanism_cn": "Panitumumab与正常和肿瘤细胞上的EGFR特异性结合，并竞争性抑制EGFR配体的结合。 非临床研究表明，Panitumumab与EGFR结合可阻止配体诱导的受体自磷酸化和受体相关激酶的激活，从而抑制细胞生长，诱导凋亡，减少促炎细胞因子和血管生长因子的产生以及EGFR的内化。 体外测定和体内动物研究表明，Panitumumab可以抑制表达EGFR的某些人类肿瘤细胞系的生长和存活。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "帕博利珠单抗",
+            "var": [
+                {
+                    "biomarker_type": "MSI-H"
+                }
+            ],
+            "general_name_en": "Pembrolizumab",
+            "trade_name_cn": "可瑞达",
+            "trade_name_en": "Keytruda",
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "PMDA"
+            ],
+            "drug_mechanism_cn": "PD-1配体PD-L1和PD-L2与T细胞上的PD-1受体的结合可抑制T细胞增殖和细胞因子的产生。 PD-1配体的上调发生在某些肿瘤中，通过该途径的信号传导可能有助于抑制肿瘤的主动T细胞免疫监视。 Pembrolizumab是与PD-1受体结合并阻断其与PD-L1和PD-L2相互作用的单克隆抗体，可释放PD-1途径介导的免疫应答抑制作用，包括抗肿瘤免疫应答。 在同系小鼠肿瘤模型中，阻断PD-1活性导致肿瘤生长减少。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "恩沃利单抗",
+            "var": [
+                {
+                    "biomarker_type": "MSI-H"
+                }
+            ],
+            "general_name_en": "Envafolimab",
+            "trade_name_cn": "恩维达",
+            "trade_name_en": null,
+            "approval_organization": [
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "恩沃利单抗注射液为重组人源化PD-L1单域抗体Fc融合蛋白注射液，可结合人PD-L1 蛋白，并阻断其与受体PD-1的相互作用，解除肿瘤通过PD-1/PD-L1途径对T细胞的抑制作用，调动免疫系统的抗肿瘤活性杀伤肿瘤。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "西妥昔单抗",
+            "var": [
+                {
+                    "biomarker_type": "KRAS/NRAS/BRAF WT"
+                }
+            ],
+            "general_name_en": "Cetuximab",
+            "trade_name_cn": "爱必妥",
+            "trade_name_en": "Erbitux",
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "PMDA"
+            ],
+            "drug_mechanism_cn": "表皮生长因子受体（EGFR，HER1，c-ErbB-1）是跨膜糖蛋白，是I型受体酪氨酸激酶（包括EGFR，HER2，HER3和HER4）亚族成员之一。 EGFR在包括皮肤和毛囊在内的许多正常上皮组织中组成性表达。EGFR的表达在多种人类癌症（包括头颈部癌、结肠和直肠癌）中同样被检出。西妥昔单抗与正常和肿瘤细胞上的EGFR特异性结合，并竞争性抑制表皮生长因子（EGF）和其他配体（如转化生长因子-α）的结合。体外试验和体内动物研究表明，西妥昔单抗与EGFR的结合可阻断受体相关激酶的磷酸化和激活，从而抑制细胞生长，诱导细胞凋亡，并降低基质金属蛋白酶和血管内皮生长因子的产生。EGFR信号转导可导致野生型Ras蛋白的激活，但是在具有激活性Ras体细胞突变的细胞中，突变Ras蛋白都表现出持续的活性，不受EGFR调控状态的影响。在体外，西妥昔单抗可调节针对部分类型人类肿瘤的抗体依赖性细胞毒性（ADCC）。体外试验和体内动物研究表明，西妥昔单抗可抑制EGFR表达肿瘤细胞的生长和存活。在缺乏EGFR表达的人源肿瘤异种移植体中未观察到西妥昔单抗的抗肿瘤作用。在人源肿瘤异种移植小鼠模型中，西妥昔单抗加放疗或西妥昔单抗加伊立替康的抗肿瘤效果强于单独的放疗或化疗。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "替雷利珠单抗",
+            "var": [
+                {
+                    "biomarker_type": "MSI-H"
+                }
+            ],
+            "general_name_en": "Tislelizumab",
+            "trade_name_cn": "百泽安",
+            "trade_name_en": null,
+            "approval_organization": [
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "替雷利珠单抗为人源化重组抗PD-1单克隆抗体。T细胞表达的PD-1受体与其配体PD-L1和PD-L2结合，可以抑制T细胞增殖和细胞因子生成。部分肿瘤细胞的PD-1配体上调，通过这个通路信号传导可抑制激活的T细胞对肿瘤细胞的免疫监视。替雷利珠单抗与人重组PD-1结合的EC50为0.12nM，抑制PD-1与PD-1结合的IC50约为0.5nM，抑制PD-1与PDL2结合的IC50约为0.4~0.6nM.",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "阿维鲁单抗",
+            "var": [
+                {
+                    "biomarker_type": "MSI-H"
+                }
+            ],
+            "general_name_en": "Avelumab",
+            "trade_name_cn": null,
+            "trade_name_en": "Bavencio",
+            "approval_organization": [
+                "FDA"
+            ],
+            "drug_mechanism_cn": "细胞毒性T细胞活性，T细胞增殖和细胞因子产生。 Avelumab结合PD-L1并阻断PD-L1及其受体PD-1和B7.1之间的相互作用。 这种相互作用释放了PD-L1对免疫反应的抑制作用，导致免疫反应（包括抗肿瘤免疫反应）的恢复。 Avelumab还被证明可以在体外诱导抗体依赖性细胞介导的细胞毒性（ADCC）。 在同系小鼠肿瘤模型中，阻断PD-L1活性导致肿瘤生长减少。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "伊匹木单抗",
+            "var": [
+                {
+                    "biomarker_type": "MSI-H"
+                }
+            ],
+            "general_name_en": "Ipilimumab",
+            "trade_name_cn": "逸沃",
+            "trade_name_en": "YERVOY",
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "CTLA-4是T细胞活性的负调节剂。 伊匹木单抗是一种单克隆抗体，可与CTLA-4结合并阻断CTLA-4与其配体CD80 / CD86的相互作用。 已显示对CTLA-4的阻断可增强T细胞的活化和增殖，包括肿瘤浸润性T效应细胞的活化和增殖。 抑制CTLA-4信号传导还可以降低T调节细胞功能，这可能有助于T细胞反应性的普遍提高，包括抗肿瘤免疫反应。",
+            "adaptation_disease_cn": null
+        }
+    ],
+    "io_gene_clinical": [],
+    "clinic_trial": [],
+    "refer": [
+        {
+            "authors": "Hiroyuki Yamamoto,Kohzoh Imai",
+            "date": "(2015)",
+            "journal": "Arch Toxicol",
+            "pmid": "[PMID:25701956]",
+            "title": "Microsatellite instability: an update.",
+            "vol": "89(6):899-921."
+        },
+        {
+            "authors": "Timothy M Pawlik,Chandrajit P Raut,Miguel A Rodriguez-Bigas",
+            "date": "(2004)",
+            "journal": "Dis Markers",
+            "pmid": "[PMID:15528785]",
+            "title": "Colorectal carcinogenesis: MSI-H versus MSI-L.",
+            "vol": "20(4-5):199-206."
+        }
+    ]
+}

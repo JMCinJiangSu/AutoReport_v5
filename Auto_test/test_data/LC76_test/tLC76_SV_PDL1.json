@@ -1,0 +1,2277 @@
+{
+    "sample_info": {
+        "order_id": "A0041206",
+        "sample_parent_id": "S22030448",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": "刘方伟",
+        "gender": "男",
+        "age": "67",
+        "sample_type": "石蜡蜡卷,石蜡玻片",
+        "control_sample_type": null,
+        "sample_amount": "1管,1片",
+        "control_sample_amount": null,
+        "tumor_type": "肺腺癌",
+        "pathol_diagn": "肺腺癌",
+        "tumor_names_cn": "肺腺癌",
+        "pathological_id": "SI22-00462/BI22-05644-6",
+        "company": "华中科技大学同济医学院附属协和医院",
+        "origin_company": "华中科技大学同济医学院附属协和医院-汇总",
+        "report_number": null,
+        "hosp_depart": null,
+        "prod_names": "LC76（组织）",
+        "prod_ids": "25",
+        "report_module_type": "clinical",
+        "json_batch_name": "20220316_SHXW_A007720_ADXPAN116_v0.1.1.export202271211239",
+        "mark": null,
+        "gather_data": "2022-03-09",
+        "receive_data": "2022-03-11",
+        "report_data": "2022-07-13",
+        "tumor_list": [
+            "肺腺癌",
+            "非鳞非小细胞肺癌",
+            "非小细胞肺癌",
+            "肺癌"
+        ],
+        "sample_id": "S22030448FD01"
+    },
+    "snvindel": [],
+    "sv": [
+        {
+            "sample_id": "S22030448FD01",
+            "order_code": "afcefc92027911edaee2005056bdcbf7",
+            "bio_category": "Sv",
+            "three_prime_chr": "chr2",
+            "three_prime_chr_pos": "29448239",
+            "three_prime_flag": null,
+            "three_prime_gene": "ALK",
+            "three_prime_cds": "exon20",
+            "three_prime_transcript": "NM_004304.5",
+            "three_prime_region": "exon20",
+            "five_prime_chr": "chr2",
+            "five_prime_chr_pos": "42493147",
+            "five_prime_flag": null,
+            "five_prime_gene": "EML4",
+            "five_prime_cds": "exon6",
+            "five_prime_transcript": "NM_019063.5",
+            "five_prime_region": "exon6",
+            "depth": null,
+            "json_batch_name": "20220316_SHXW_A007720_ADXPAN116_v0.1.1.export202271211239",
+            "var_id": "hg19:EML4:NM_019063.5:exon6-ALK:NM_004304.5:exon20:",
+            "var_hgvs": "EML4:NM_019063.5_exon6--ALK:NM_004304.5_exon20",
+            "copies": null,
+            "freq": 0.2541,
+            "var_origin": "",
+            "clinical_significance": "Pathogenic",
+            "function_classification": "Oncogenic",
+            "clinical_category": null,
+            "literature": "",
+            "polymorphism": "",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为EML4-ALK融合，融合模式为：EML4:exon6-ALK:exon20。",
+            "variant_desc_en": "",
+            "gene_symbol": "ALK",
+            "evi_sum": [
+                {
+                    "regimen_name": "阿来替尼",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项开放标签、随机的多中心III期临床研究（ALEX, NCT02075840, PMID: 28586279），入组303例未经治疗的ALK阳性非小细胞肺癌患者，其中包含中枢神经系统（CNS）转移但无症状的患者。患者被随机分为1:1，每天两次口服阿来替尼600 mg（n=152）或克唑替尼250 mg（n=151）。研究结果显示，两组患者（阿来替尼VS克唑替尼）的中位PFS为25.7个月VS10.4个月，ORR为79% VS 72%，DOR（反应持续时间≥18个月）为37% VS 14%；CNS-ORR为81% VS 50%，CNS-DOR（反应持续时间≥12个月）为59% VS 36%。基于上述研究，FDA批准阿来替尼用于ALK阳性的转移性非小细胞肺癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "布格替尼",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "两项随机、开放标签、多中心临床试验（ALTA-1L，ALTA），分别入组275例（ALTA-1L）未经TKI治疗，222例（ALTA）既往克唑替尼治疗过的，ALK阳性的晚期或转移性非小细胞肺癌成年患者。ALTA-1L试验将患者随机分成布格替尼组和克唑替尼组， ALTA试验组中，患者接受不同剂量的布格替尼治疗。主要评价终点，ALTA-1L为无进展生存(PFS)，ALTA为总体缓解率(ORR)，次要终点ALTA-1L为总体缓解率(ORR)、缓解持续时间(DOR)、颅内ORR和颅内DOR，ALTA为反应时间(DOR)、颅内ORR和颅内DOR。研究结果显示，ALTA-1L中两组患者（布格替尼VS克唑替尼）的PFS为24个月 VS 11个月，ORR为74% VS 62%，DOR为NR（Not Reached） VS 13.8个月，颅内ORR为78% VS 26%，颅内DOR（反应持续时间≥24个月）为64% VS NE（Not Estimable）。ALTA中，两组患者（90mg组 VS 90→180mg组）的ORR为48% VS 53%，DOR为13.8个月 VS 13.8个月，颅内ORR为42% VS 67%，颅内DOR（反应持续时间≥12个月）36% VS 25%。基于上述研究，FDA批准布格替尼用于治疗ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。"
+                },
+                {
+                    "regimen_name": "恩沙替尼",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NMPA",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项开放标签、单臂、多中心的II期临床试验（NCT03215693, PMID: 31628085），入组156例经克唑替尼治疗后进展的ALK阳性IIIb期或IV期的NSCLC患者，评价恩沙替尼治疗有效性。研究结果显示，在147位可进行评估的患者中，76位患者的肿瘤显著缩小，客观缓解率（ORR）为52%，137位患者的疾病获得控制，疾病控制率（DCR）为93%，中位无进展生存期（PFS）为9.6个月。40例脑转移基线可测量的患者中，颅内客观缓解率（iORR）为70%，颅内疾病控制率（iDCR）为98%。恩沙替尼对ALK的继发性突变的客观缓解率为44%（20/45）。其中，L1196M为25%（3/12），C1156Y为71%（5/7），F1174L/V为71%（5/7），G1202R为33%（2/6），G1269A为67%（4/6），I1171T/S为50%（2/4），L1152R/V为50%（2/4），T1151R/M为67%（2/3），其他位点为17%（1/6）。常见的ALK继发性耐药突变中F1174L/V、G1269A、C1156Y和T1151R/M对恩沙替尼药物特别敏感；L1196M、G1202R、I1171T/S、L1152R/V及其他突变对恩沙替尼也有部分应答。基于上述研究，NMPA批准恩沙替尼用于此前接受过克唑替尼治疗后进展或对克唑替尼不耐受的ALK阳性、局部晚期或转移性NSCLC患者的治疗。"
+                },
+                {
+                    "regimen_name": "克唑替尼",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "两项随机、多中心、开放标签、活性对照的Ⅲ期临床试验（PROFILE 1014, NCT01154140和PROFILE 1007，NCT00932893），分别入组343例未经治和347例既往接受过治疗的转移性非小细胞肺癌患者，患者均为ALK阳性。患者随机分配为克唑替尼组或化疗组。研究结果显示，PROFILE 1014中两组患者（克唑替尼VS化疗）的中位PFS为10.9个月 VS 7个月，ORR为74% VS 45%，中位DOR为11.3个月 VS 5.3个月，中位OS为NR VS 47.5个月；PROFILE 1007中两组患者（克唑替尼VS化疗）的中位PFS为7.7个月 VS 3个月，ORR为65% VS 20%，中位DOR为7.4个月 VS 5.6个月，中位OS为21.7个月 VS 21.9个月。基于上述研究，FDA批准克唑替尼用于ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。"
+                },
+                {
+                    "regimen_name": "洛拉替尼",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项随机、多中心、开放标签的III期临床试验(Study B7461006; NCT03052608)，入组了未经全身治疗的296例ALK阳性转移性NSCLC患者，按照1:1随机分为两组分别接受劳拉替尼（n=149）或克唑替尼（n=147）治疗。研究结果显示，劳拉替尼组和克唑替尼组的中位PFS分别为未达到和9.3个月（HR=0.28，P< 0.001），ORR分别为76%和58%；在有可测量的脑转移的患者中，两组分别有82%（95% CI，57～96）和23%（95% CI，5～54）的患者达到了颅内缓解，劳拉替尼组71%的患者达到了颅内完全缓解。基于以上研究，FDA批准劳拉替尼用于ALK阳性的转移性NSCLC成年患者的治疗。"
+                },
+                {
+                    "regimen_name": "塞瑞替尼",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项开放标签、随机、活性对照、多中心Ⅲ期临床试验（ASCEND-4, NCT01828099），入组376例未经系统治疗的ALK阳性转移性非小细胞肺癌患者。患者被随机（1:1）分为塞瑞替尼组和化疗组。研究结果显示：两组患者（塞瑞替尼 VS 化疗）的中位PFS为16.6个月 vs 8.1个月，ORR为73% vs 27%，中位DOR为23.9个月 vs 11.1个月，OS无显著差异。基于上述研究，FDA批准塞瑞替尼用于ALK阳性的成人转移性非小细胞肺癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "培美曲塞",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C1",
+                    "evi_interpretation": "一项回顾性研究中（PMID: 27385988），对52例接受培美曲塞一线化疗的ALK阳性晚期NSCLC患者的临床病理特征和治疗结果进行分析发现，中位PFS为9.5个月(95% confidence interval 7.454-11.536)。18名（34.6%）患者部分缓解，26名（50.0%）患者病情稳定，8名（15.4%）患者疾病进展；没有患者达到完全缓解。客观缓解率为34.6%，疾病控制率为84.6%。研究结论为：培美曲塞作为中国患者队列中ALK阳性NSCLC的一线治疗有效且耐受。"
+                },
+                {
+                    "regimen_name": "Cep-28122",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项细胞实验中(PMID: 22203728)，CEP-28122可以抑制携带ALK R1275Q、ALK F1174L、ALK amplification突变的人神经母细胞瘤细胞系的增殖，并且可抑制携带EML4-ALK的NSCLC和携带NPM1-ALK融合的间变性大细胞淋巴瘤移植模型中的肿瘤的生长。"
+                },
+                {
+                    "regimen_name": "Repotrectinib",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项临床前研究中(PMID: 30093503)， Repotrectinib可抑制携带EML4-ALK、ALK  G1202R+EML4-ALK的细胞系的生长和小鼠异种移植模型的肿瘤生长。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "洛拉替尼",
+                    "布格替尼",
+                    "塞瑞替尼",
+                    "阿来替尼",
+                    "培美曲塞",
+                    "克唑替尼",
+                    "恩沙替尼",
+                    "Cep-28122",
+                    "Repotrectinib"
+                ],
+                "var": {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.5_exon6--ALK:NM_004304.5_exon20"
+                }
+            },
+            "gene_function": "ALK基因属于原癌基因，编码一种受体酪氨酸激酶(RTK)，为跨膜蛋白，属于胰岛素受体超家族，在大脑发育与及特定的神经元中起重要作用。ALK融合、突变或扩增在多种肿瘤中均有发生，包括间变性大淋巴细胞瘤、成神经细胞瘤、结直肠癌以及肺癌等（PMID: 8122112; PMID: 18593892; PMID: 19737969）。",
+            "three_prime_gene_function": "ALK基因属于原癌基因，编码一种受体酪氨酸激酶(RTK)，为跨膜蛋白，属于胰岛素受体超家族，在大脑发育与及特定的神经元中起重要作用。ALK融合、突变或扩增在多种肿瘤中均有发生，包括间变性大淋巴细胞瘤、成神经细胞瘤、结直肠癌以及肺癌等（PMID: 8122112; PMID: 18593892; PMID: 19737969）。",
+            "five_prime_gene_function": null
+        }
+    ],
+    "cnv": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [
+        {
+            "sample_id": "",
+            "order_code": "afcefc92027911edaee2005056bdcbf7",
+            "var_id": "MSS",
+            "msi_score": 0,
+            "img_path": "/amoydx/report_v2/pre-production/json_file/20220316_SHXW_A007720_ADXPAN116_v0.1.1.export202271211239/S22030448FD01_S22030448FD01L01_AHT322DRXY_1/S22030448FD01_S22030448FD01L01_AHT322DRXY_1.msi.png",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "微卫星（Microsatellite）又称简单重复序列（SSR），是指遍布于人类基因组中的短串联重复序列，一般由1-6个核苷酸组成。DNA复制时，肿瘤细胞内的微卫星由于重复单位的插入或缺失而造成的微卫星长度的变化，称为微卫星不稳定性（Microsatellite Instability, MSI）。大量研究表明，MSI是由错配修复（mismatch repair，MMR）基因突变或功能缺陷引起的（PMID: 25701956）。MSI在多种癌种中被发现，包括子宫内膜癌、结直肠癌和胃腺癌等。据报道，10%-15%的散发性结直肠癌患者存在MSI（PMID: 15528785），NCCN指南明确推荐所有结直肠癌患者均需考虑做MSI或MMR检测。临床上也已将MSI作为结直肠癌及其他实体瘤预后和制定辅助治疗方案的重要分子标志物。",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "biomarker_type": "MSS"
+                }
+            }
+        }
+    ],
+    "tmb": [],
+    "pdl1": [
+        {
+            "sample_id": "",
+            "order_code": "afcefc92027911edaee2005056bdcbf7",
+            "var_id": "PD-L1+",
+            "result": "阳性",
+            "value": 0.5,
+            "type": "TPS",
+            "file_nc": "",
+            "file_pdl1": "/amoydx/report_v2/pre-production/report_file/IHC/PD-L1/PD-L1_20220710_1657697342/PD-L1_S22030448FD01_20220710_out.jpg",
+            "file_he": "",
+            "file_pc": "",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "PD-L1阳性，具体内容待修改",
+            "variant_desc_en": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "阿替利珠单抗+紫杉醇",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项多中心、双盲的多国合作临床试验中，入组的902例三阴性乳腺癌（TNBC）患者按1:1的比例随机分配至实验组和对照组，实验组每28天接受15天的阿替利珠单抗（atezolizumab）联合白蛋白紫杉醇的治疗，对照组仅接受安慰剂联合白蛋白紫杉醇的治疗，这些患者样本均通过检测确认PD-L1表达情况；结果显示，表达PD-L1蛋白的肿瘤患者在接受阿替利珠单抗治疗后无病生存期（PFS）显著延长（实验组 7.4个月 vs 对照组4.8个月）；FDA以此批准阿替利珠单抗联合白蛋白紫杉醇用于三阴性乳腺癌患者的治疗。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "紫杉醇",
+                    "阿替利珠单抗"
+                ],
+                "var": {
+                    "biomarker_type": "PD-L1+"
+                }
+            }
+        }
+    ],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "ALK",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "EGFR",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "MET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "RET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类治疗时疗效较差（但也有报道认为该基因型与生存期无关）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/G基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)7或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)6基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)6",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，C/G基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1517114",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "C8orf34",
+            "genotype": "C/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，A/G基因型的患者使用顺铂+吉西他滨治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "顺铂+吉西他滨",
+            "drug_name_en": "cisplatin and gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用卡培他滨治疗时毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，G/C基因型的患者使用铂类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "G/C",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，A/A基因型的患者使用吉西他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs2072671",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC或CT基因型患者相比，T/T基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7779029",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "SEMA3C",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/G基因型的患者使用铂类药物治疗时药物疗效较差（亚裔）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG或AG基因型患者相比，A/A基因型的患者使用依托泊苷+铂类治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，A/G基因型的患者使用顺铂治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GA或AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": {
+            "depth_min": null,
+            "depth_noise": null,
+            "depth_mean": null,
+            "depth_ssbc": null,
+            "depth_rna_ctrl": null,
+            "depth_mean_uniq": 1968.2223,
+            "depth_hotregion_mean": null,
+            "depth_nonhotregion_mean": null,
+            "depth_median_uniq": 1410,
+            "depth_mean_ssbc": 955.5821,
+            "cleandata_q30": 0.9201,
+            "cleandata_q20": 0.9677,
+            "cover_ratio": 0.9964,
+            "cnv_cv": 0.17,
+            "cnv_uni": 1.38,
+            "mapping_ratio": 0.9874,
+            "inssize_ontarget": 211.7635,
+            "uni20": null,
+            "uni20_uniq": 0.9878,
+            "totalreads": null,
+            "alignedreads": null,
+            "read_ontarget_ratio": 0.5051,
+            "uni20_mean_hotregion": null,
+            "uni20_mean_nonhotregion": null,
+            "scale_log_post_prob": null,
+            "qc_type": null
+        },
+        "lib_dna_qc": [],
+        "qc_gradient": [
+            {
+                "sample_id": "S22030448FD01",
+                "gradient_ratio": "0.4609542794943762",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_uniq"
+            },
+            {
+                "sample_id": "S22030448FD01",
+                "gradient_ratio": "0.9912879561937251",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_uniq"
+            },
+            {
+                "sample_id": "S22030448FD01",
+                "gradient_ratio": "0.22345620832169086",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_ssbc"
+            },
+            {
+                "sample_id": "S22030448FD01",
+                "gradient_ratio": "0.9759324055500181",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_ssbc"
+            },
+            {
+                "sample_id": "S22030448FD01",
+                "gradient_ratio": "0.07106008349215749",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_dsbc"
+            },
+            {
+                "sample_id": "S22030448FD01",
+                "gradient_ratio": "0.9438700825329569",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_dsbc"
+            },
+            {
+                "sample_id": "S22030448FD01",
+                "gradient_ratio": "0.4893886292834891",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_uniq_hot"
+            },
+            {
+                "sample_id": "S22030448FD01",
+                "gradient_ratio": "1",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_uniq_hot"
+            },
+            {
+                "sample_id": "S22030448FD01",
+                "gradient_ratio": "0.29578790238836966",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_ssbc_hot"
+            },
+            {
+                "sample_id": "S22030448FD01",
+                "gradient_ratio": "0.9947754413291796",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_ssbc_hot"
+            },
+            {
+                "sample_id": "S22030448FD01",
+                "gradient_ratio": "0.08852544132917965",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_dsbc_hot"
+            },
+            {
+                "sample_id": "S22030448FD01",
+                "gradient_ratio": "0.9822170301142263",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_dsbc_hot"
+            }
+        ],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "25",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "AKT2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "AKT2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "APC",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ARAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ATM",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "BCL2L11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "BRCA1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "BRCA2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "C8orf34",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CCND1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CCND1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CD274",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CD274",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CDA",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CDK6",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CDK6",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CDKN2A",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CREBBP",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CYP19A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "CYP2D6",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "DDR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "DPYD",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "DYNC2H1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ERBB3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ERBB4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ERCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ESR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ETS2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FBXW7",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FGF19",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FGF19",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "FLT3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "GNAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "IDH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "IDH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "IGF1R",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "IGF1R",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "JAK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "JAK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "JAK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "MAP2K1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "MAPK1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "MAPK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "MET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "MTOR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "MTRR",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "MYC",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "MYC",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "NF1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "NOTCH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "NRG1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "PDCD1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "POLD1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "PTCH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "RAF1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "RASA1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "RET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "RICTOR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "RICTOR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "RIT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "SEMA3C",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "SLC28A3",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "SMAD4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "SMARCA4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "SMO",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "SMO",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "SOD2",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "TSC1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "UGT1A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "UMPS",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "XPC",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "25",
+            "gene_symbol": "XRCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "drug": [
+        {
+            "general_name_cn": null,
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.5_exon6--ALK:NM_004304.5_exon20"
+                }
+            ],
+            "general_name_en": "Repotrectinib",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": "",
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "洛拉替尼",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.5_exon6--ALK:NM_004304.5_exon20"
+                }
+            ],
+            "general_name_en": "Lorlatinib",
+            "trade_name_cn": null,
+            "trade_name_en": "Lorbrena",
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "PMDA",
+                "EMA"
+            ],
+            "drug_mechanism_cn": "Lorlatinib（洛拉替尼）是一种激酶抑制剂，对ALK和ROS1以及TYK1，FER，FPS，TRKA，TRKB，TRKC，FAK，FAK2和ACK具有体外活性。 洛拉替尼在体外表现出针对多种突变形式的ALK酶的活性，包括在克唑替尼和其他ALK抑制剂疾病进展时在肿瘤中检测到的某些突变。 在皮下植入了带有ALK变体1或ALK突变的EML4融合蛋白的肿瘤的小鼠，其中包括在疾病进展时在ALK抑制剂上在肿瘤中检测到的G1202R和I1171T突变，施用洛拉替尼会产生抗肿瘤活性。 洛拉替尼还显示出在颅内植入EML4-ALK驱动的肿瘤细胞系的小鼠中的抗肿瘤活性和延长的生存期。 洛拉替尼在体内模型中的总体抗肿瘤活性是剂量依赖性的，并且与ALK磷酸化的抑制作用有关。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "布格替尼",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.5_exon6--ALK:NM_004304.5_exon20"
+                }
+            ],
+            "general_name_en": "Brigatinib",
+            "trade_name_cn": "安伯瑞",
+            "trade_name_en": "Alunbrig",
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "PMDA"
+            ],
+            "drug_mechanism_cn": "布格替尼是一种酪氨酸激酶抑制剂，在临床可达浓度下具有抗多种激酶（包括ALK、ROS1、胰岛素样生长因子-1受体（IGF-1R）、FLT-3）以及EGFR缺失和点突变的体外活性。体外和体内实验显示，布格替尼可抑制ALK的自磷酸化与ALK介导的下游信号蛋白STAT3、AKT、ERK1/2和S6的磷酸化。布格替尼还可抑制EML4-ALK和NPM-ALK融合蛋白表达细胞系的体外增殖，并且剂量依赖性抑制EML4-ALK阳性非小细胞肺癌（NSCLC）异种移植小鼠的生长。在临床可达浓度（≤500 nM）下，布格替尼可体外抑制表达EML4-ALK、17种与ALK抑制剂（包括crizotinib）耐药性相关突变或EGFR  Del（E746-A750）、ROS1-L2026M、FLT3-F691L、FLT3-D835Y突变型细胞的活性。布格替尼针对4种EML4-ALK突变型表现出体内抗肿瘤活性，包括在使用crizotinib后疾病进展的NSCLC肿瘤中发现的G1202R和L1196M突变型。布格替尼还可减轻ALK驱动肿瘤细胞颅内移植小鼠的肿瘤负担，并延长的存活时间。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "塞瑞替尼",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.5_exon6--ALK:NM_004304.5_exon20"
+                }
+            ],
+            "general_name_en": "Ceritinib",
+            "trade_name_cn": "赞可达",
+            "trade_name_en": "Zykadia",
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "PMDA"
+            ],
+            "drug_mechanism_cn": "塞瑞替尼是一种激酶抑制剂。生化、细胞试验显示塞瑞替尼在临床相关浓度下可抑制的靶点包括ALK、胰岛素样生长因子-1受体（IGF-1R）、胰岛素受体（InsR）和ROS1。其中，塞瑞替尼对ALK的抑制最为有效。体外和体内试验显示塞瑞替尼可抑制ALK的自磷酸化、ALK介导下游信号蛋白STAT3的磷酸化和ALK依赖性癌细胞的增殖。塞瑞替尼可抑制表达EML4-ALK和NPM-ALK融合蛋白的细胞株的体外增殖，并剂量依赖性抑制小鼠和大鼠EML4-ALK阳性非小细胞肺癌（NSCLC）异种移植瘤的生长。 在克唑替尼耐药的EML4-ALK阳性NSCLC异种移植小鼠模型中，赛瑞替尼在临床相关范围内的浓度下呈现出剂量依赖性的抗肿瘤活性。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "阿替利珠单抗",
+            "var": [
+                {
+                    "biomarker_type": "PD-L1+"
+                }
+            ],
+            "general_name_en": "Atezolizumab",
+            "trade_name_cn": "泰圣奇",
+            "trade_name_en": "Tecentriq",
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "PMDA"
+            ],
+            "drug_mechanism_cn": "PD-L1可以在肿瘤细胞和/或肿瘤浸润性免疫细胞上表达，并且可以在肿瘤微环境中有助于抑制抗肿瘤免疫反应。PD-L1与T细胞和抗原呈递细胞上的PD-1和B7.1受体结合，抑制细胞毒性T细胞活性、T细胞增殖和细胞因子的产生。\nAtezolizumab是与PD-L1结合并阻断其与PD-1和B7.1受体相互作用的单克隆抗体。这释放了PD-L1 / PD-1介导的免疫反应抑制作用，包括抗肿瘤免疫反应的激活，而不会引起抗体依赖性细胞毒性。在同系小鼠肿瘤模型中，阻断PD-L1活性可导致肿瘤生长减少。\n在癌症的小鼠模型中，与单独的靶向治疗相比，PD-1 / PD-L1和MAPK途径的双重抑制可通过增加抗原呈递，T细胞浸润和激活来抑制肿瘤生长并提高肿瘤免疫原性。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "阿来替尼",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.5_exon6--ALK:NM_004304.5_exon20"
+                }
+            ],
+            "general_name_en": "Alectinib",
+            "trade_name_cn": "安圣莎",
+            "trade_name_en": "Alecensa",
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "PMDA"
+            ],
+            "drug_mechanism_cn": "Alectinib是靶向ALK和RET的酪氨酸激酶抑制剂。 在非临床研究中，Alectinib抑制ALK磷酸化和ALK介导的下游信号蛋白STAT3和AKT的活化，并降低携带ALK融合，扩增或激活突变的多种细胞系中肿瘤细胞的活力。 Alectinib的主要活性代谢产物M4表现出相似的体外效价和活性。\nAlectinib和M4表现出针对多种ALK酶突变形式的体外和体内活性，包括在克唑替尼进展的NSCLC肿瘤患者中发现的一些突变。在植入了携带ALK融合蛋白的肿瘤的小鼠模型中，施用Alectinib可产生抗肿瘤活性并延长生存期，包括在植入ALK驱动的肿瘤细胞系的小鼠模型中。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "紫杉醇",
+            "var": [
+                {
+                    "biomarker_type": "PD-L1+"
+                }
+            ],
+            "general_name_en": "Paclitaxel",
+            "trade_name_cn": null,
+            "trade_name_en": "Abraxane, Taxol",
+            "approval_organization": "",
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "培美曲塞",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.5_exon6--ALK:NM_004304.5_exon20"
+                }
+            ],
+            "general_name_en": "Pemetrexed",
+            "trade_name_cn": null,
+            "trade_name_en": "Alimta",
+            "approval_organization": "",
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "克唑替尼",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.5_exon6--ALK:NM_004304.5_exon20"
+                }
+            ],
+            "general_name_en": "Crizotinib",
+            "trade_name_cn": "赛可瑞",
+            "trade_name_en": "Xalkori",
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "PMDA"
+            ],
+            "drug_mechanism_cn": "克唑替尼是一种受体酪氨酸激酶抑制剂，可抑制包括ALK、肝细胞生长因子受体（HGFR，c-Met）、ROS1（c-ros）和Recepteur d'Origine Nantais（RON）等受体酪氨酸激酶的活性。染色体易位可以影响ALK基因，导致癌基因融合蛋白的表达。ALK融合蛋白的形成导致基因表达和信号的失活和失调，这有助于提高表达这些蛋白的肿瘤细胞的增殖和存活率。克唑替尼在使用肿瘤细胞系的细胞分析中显示出对ALK、ROS1和c-Met磷酸化的浓度依赖性抑制作用，并且在表达EML4-ALK或NPM-ALK融合蛋白或c-Met的肿瘤异种移植小鼠模型中显示出抗肿瘤活性。",
+            "adaptation_disease_cn": null
+        },
+        {
+            "general_name_cn": "恩沙替尼",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.5_exon6--ALK:NM_004304.5_exon20"
+                }
+            ],
+            "general_name_en": "Ensartinib",
+            "trade_name_cn": "贝美纳",
+            "trade_name_en": "Ensacove",
+            "approval_organization": [
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "恩沙替尼是一种酪氨酸激酶间变性淋巴瘤激酶（ALK）小分子抑制剂，具有潜在的抗肿瘤活性。恩沙替尼结合并抑制ALK从而使ALK介导的信号传导中断，最终抑制ALK表达肿瘤细胞的肿瘤细胞生长。体外细胞学研究中，相比一代ALK抑制剂克唑替尼，在抑制ALK阳性肺癌细胞系的生长能力方面，恩沙替尼是克唑替尼的10倍。对于导致克唑替尼耐药的L1196M和C1156Y突变，恩沙替尼也表现出较强的抑制活性。",
+            "adaptation_disease_cn": null
+        }
+    ],
+    "io_gene_clinical": [
+        {
+            "effect": "负相关",
+            "evidence": "一项对58名接受PD-1 / PD-L1抑制剂治疗的非小细胞肺癌患者的回顾性分析显示，与EGFR野生型和ALK阴性/未知患者相比，携带EGFR突变或ALK重排的NSCLC患者接受PD-1 / PD-L1抑制剂的治疗，其ORR更低（PMID:27225694）。",
+            "gene_symbol": "ALK",
+            "test_significance": "ALK融合的NSCLC患者二线单药使用免疫药物的敏感度较低。",
+            "tumor_name": "非小细胞肺癌",
+            "var_note": "融合"
+        }
+    ],
+    "clinic_trial": [
+        {
+            "clinicaltrial_number": "CTR20200770",
+            "conditions": "ALK阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "CT-707",
+            "phase": "III期",
+            "study_title": "比较CT-707与克唑替尼治疗ALK阳性晚期非小细胞肺癌患者有效性和安全性的多中心、随机、开放III期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20192178",
+            "conditions": "ALK阳性晚期非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "奥卡替尼胶囊",
+            "phase": "II期",
+            "study_title": "奥卡替尼治疗ALK阳性且经克唑替尼治疗失败的晚期NSCLC患者有效性和安全性的Ⅱ期临床试验"
+        },
+        {
+            "clinicaltrial_number": "CTR20200428",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "TQ-B3139胶囊",
+            "phase": "II期",
+            "study_title": "评价TQ-B3139对经克唑替尼治疗后耐药的间变性淋巴瘤激酶阳性晚期非小细胞肺癌的安全性和有效性研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191831",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "TQ-B3139胶囊",
+            "phase": "II期",
+            "study_title": "评价TQB3139对经克唑替尼治疗后耐药的间变性淋巴瘤激酶阳性晚期非小细胞肺癌的安全性和有效性研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20192708",
+            "conditions": "IIIB-IV期的不能手术治疗或不能行根治性放疗或拒绝行根治性放疗的局部晚期、复发性或转移性的非鳞状细胞非小细胞肺癌患者",
+            "gene_symbol": "ALK",
+            "interventions": "重组抗VEGF人源化单克隆抗体注射液",
+            "phase": "III期",
+            "study_title": "随机、双盲、平行对照比较重组抗VEGF注射液和安维汀治疗非鳞状细胞非小细胞肺癌患者疗效和安全性Ⅲ期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191289",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "TQ-B3139胶囊",
+            "phase": "III期",
+            "study_title": "比较 TQB3139 与克唑替尼治疗晚期非小细胞肺癌的安全性和有效性多中心、随机、开放、阳性对照研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191263",
+            "conditions": "转移性非鳞状非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "重组抗VEGF人源化单克隆抗体注射液",
+            "phase": "III期",
+            "study_title": "一项比较HLX10联合化疗、HLX10＋HLX04联合化疗与化疗一线治疗转移性非鳞状非小细胞肺癌的III期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191231",
+            "conditions": "ALK阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "WX-0593片",
+            "phase": "III期",
+            "study_title": "在ALK阳性晚期非小细胞肺癌患者中比较WX-0593片与克唑替尼的随机、开放、多中心的III期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190184",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "克唑替尼胶囊",
+            "phase": "IV期",
+            "study_title": "在伴有ALK或ROS1基因易位或倒位的NSCLC中国患者中开展的一项评价XALKORI长期安全性的开放性单臂研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190147",
+            "conditions": "晚期非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "重组人源化抗PD-1单克隆抗体注射液",
+            "phase": "III期",
+            "study_title": "评估特瑞普利单抗联合化疗一线治疗晚期非小细胞肺癌的随机双盲、多中心、III期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20170919",
+            "conditions": "肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "X-396胶囊",
+            "phase": "III期",
+            "study_title": "eXALT3：在间变性淋巴瘤激酶（ALK）阳性非小细胞肺癌（NSCLC）患者中比较Ensartinib与克唑替尼的III期随机研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20170762",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "X-396胶囊",
+            "phase": "II期",
+            "study_title": "评价X-396胶囊治疗克唑替尼耐药的ALK阳性非小细胞肺癌患者疗效和安全性的II期单臂、 多中心临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20182342",
+            "conditions": "晚期间变性淋巴瘤激酶阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "Brigatinib片",
+            "phase": "III期",
+            "study_title": "在接受克唑替尼治疗后疾病进展的晚期间变性淋巴瘤激酶阳性非小细胞肺癌患者中比较Brigatinib与Alectinib的研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20182341",
+            "conditions": "ALK+ 晚期非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "brigaitnib 片",
+            "phase": "II期",
+            "study_title": "研究brigatinib用于经alectinib或ceritinib治疗后出现疾病进展的间变性淋巴瘤激酶阳性（ALK+） 晚期非小细胞肺癌（NSCLC）患者"
+        },
+        {
+            "clinicaltrial_number": "CTR20190789",
+            "conditions": "ALK/ROS1阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "WX-0593片",
+            "phase": "II期",
+            "study_title": "WX-0593片治疗克唑替尼耐药的ALK阳性、或克唑替尼耐药/未使用过克唑替尼的ROS1阳性非小细胞肺癌患者的疗效和安全性的II期研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20171624",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "Lorlatinib片",
+            "phase": "III期",
+            "study_title": "比较 LORLATINIB单药治疗和克唑替尼单药治疗用于晚期 ALK 阳性非小细胞肺癌患者一线治疗的 III 期、随机、开放性研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20182000",
+            "conditions": "间变性淋巴瘤激酶阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "通用名：盐酸阿来替尼胶囊，英文名：Alectinib，商品名：安圣莎",
+            "phase": "III期",
+            "study_title": "评价ALECTINIB辅助治疗与含铂化疗相比在完全切除的IB期（肿瘤≥4 cm）至IIIA期ALK阳性非小细胞肺癌患者中有效性和安全性"
+        },
+        {
+            "clinicaltrial_number": "CTR20181770",
+            "conditions": "克唑替尼耐药的晚期间变性淋巴瘤激酶突变阳性的非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "CT-707颗粒",
+            "phase": "II期",
+            "study_title": "评价CT-707治疗克唑替尼耐药的晚期ALK阳性非小细胞肺癌患者有效性和安全性的II期多中心临床研究"
+        },
+        {
+            "clinicaltrial_number": "NCT02201992",
+            "conditions": "ALK Gene Rearrangement ALK Gene Translocation ALK Positive Stage IB Non-Small Cell Lung Carcinoma AJCC v7 Stage II Non-Small Cell Lung Cancer AJCC v7 Stage IIA Non-Small Cell Lung Carcinoma AJCC v7 St",
+            "gene_symbol": "ALK",
+            "interventions": "Other: Clinical Observation Drug: Crizotinib Other: Laboratory Biomarker Analysis",
+            "phase": "Phase 3",
+            "study_title": "Crizotinib in Treating Patients With Stage IB-IIIA Non-small Cell Lung Cancer That Has Been Removed by Surgery and ALK Fusion Mutations (An ALCHEMIST Treatment Trial)"
+        },
+        {
+            "clinicaltrial_number": "NCT03866980",
+            "conditions": "Lung Cancer Non-small Cell Stage IV",
+            "gene_symbol": "ALK",
+            "interventions": "Biological: AK105 Drug: carboplatin Drug: pemetrexed Drug: placebo",
+            "phase": "Phase 3",
+            "study_title": "A Study of Anti-PD-1 AK105 in Patients With Metastatic Nonsquamous Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT02194738",
+            "conditions": "Lung Adenocarcinoma Lung Large Cell Carcinoma Stage IB Lung Non-Small Cell Carcinoma AJCC v7 Stage IB Lung Squamous Cell Carcinoma AJCC v7 Stage II Lung Non-Small Cell Cancer AJCC v7 Stage II Lung Squ",
+            "gene_symbol": "ALK",
+            "interventions": "Other: Clinical Observation Drug: Crizotinib Other: Cytology Specimen Collection Procedure Drug: Erlotinib Hydrochloride Biological: Nivolumab Other: Placebo",
+            "phase": "Phase 3",
+            "study_title": "Genetic Testing in Screening Patients With Stage IB-IIIA Non-Small Cell Lung Cancer That Has Been or Will Be Removed by Surgery (The ALCHEMIST Screening Trial)"
+        },
+        {
+            "clinicaltrial_number": "NCT03856411",
+            "conditions": "Treatment-naive Advanced Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: TORIPALIMAB INJECTION (JS001 ) combine with chemotherapy",
+            "phase": "Phase 3",
+            "study_title": "A Study to Evaluate the Efficacy and Safety of Toripalimab or Placebo Combined With Chemotherapy in Treatment-naive Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03391869",
+            "conditions": "Malignant Neoplasms of Respiratory and Intrathoracic Organs Non-small Cell Lung Cancer ALK wt Allele EGFR wt Allele Lung Adenocarcinoma Lung Non-Small Cell Carcinoma RET Gene Mutation ROS1 Gene Mutati",
+            "gene_symbol": "ALK",
+            "interventions": "Biological: Ipilimumab Procedure: Local Consolidation Therapy Biological: Nivolumab Other: Quality-of-Life Assessment Radiation: Radiation Therapy Procedure: Therapeutic Conventional Surgery",
+            "phase": "Phase 3",
+            "study_title": "Phase III Trial of (LCT) After Nivolumab and Ipilimumab"
+        },
+        {
+            "clinicaltrial_number": "NCT03178552",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Alectinib Drug: Atezolizumab Drug: Pemetrexed Drug: Cisplatin Drug: Carboplatin Drug: Gemcitabine Drug: Entrectinib",
+            "phase": "Phase 2 Phase 3",
+            "study_title": "A Study to Evaluate Efficacy and Safety of Multiple Targeted Therapies as Treatments for Participants With Non-Small Cell Lung Cancer (NSCLC)"
+        },
+        {
+            "clinicaltrial_number": "NCT02568267",
+            "conditions": "Breast Cancer Cholangiocarcinoma Colorectal Cancer Head and Neck Neoplasms Lymphoma, Large-Cell, Anaplastic Melanoma Neuroendocrine Tumors Non-Small Cell Lung Cancer Ovarian Cancer Pancreatic Cancer P",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Entrectinib",
+            "phase": "Phase 2",
+            "study_title": "Basket Study of Entrectinib (RXDX-101) for the Treatment of Patients With Solid Tumors Harboring NTRK 1/2/3 (Trk A/B/C), ROS1, or ALK Gene Rearrangements (Fusions)"
+        },
+        {
+            "clinicaltrial_number": "NCT03737994",
+            "conditions": "Lung Non-Squamous Non-Small Cell Carcinoma Stage IV Lung Cancer AJCC v8 Stage IVA Lung Cancer AJCC v8 Stage IVB Lung Cancer AJCC v8",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Alectinib Drug: Brigatinib Drug: Carboplatin Drug: Ceritinib Drug: Cisplatin Drug: Crizotinib Drug: Ensartinib Drug: Lorlatinib Drug: Pemetrexed",
+            "phase": "Phase 2",
+            "study_title": "Biomarker/ALK Inhibitor Combinations in Treating Patients With Stage IV ALK Positive Non-squamous Non-small Cell Lung Cancer (The NCI-NRG ALK Protocol)"
+        },
+        {
+            "clinicaltrial_number": "NCT02706626",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: brigatinib",
+            "phase": "Phase 2",
+            "study_title": "Trial of Brigatinib After Treatment With Next-Generation ALK Inhibitors"
+        },
+        {
+            "clinicaltrial_number": "NCT03242915",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Pembrolizumab Drug: Carboplatin Drug: Pemetrexed",
+            "phase": "Phase 2",
+            "study_title": "Pembrolizumab in Combination With Platinum-based Doublet Chemotherapy in Patients With EGFR Mutation and ALK Positive NSCLC (Non-Small Cell Lung Cancer) With Progressive Disease Following Prior Tyrosi"
+        },
+        {
+            "clinicaltrial_number": "NCT02927340",
+            "conditions": "Non-Small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Lorlatinib",
+            "phase": "Phase 2",
+            "study_title": "A Study of Lorlatinib in Advanced ALK and ROS1 Rearranged Lung Cancer With CNS Metastasis in the Absence of Measurable Extracranial Lesions"
+        },
+        {
+            "clinicaltrial_number": "NCT03088930",
+            "conditions": "Lung Cancer, Nonsmall Cell",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Crizotinib",
+            "phase": "Phase 2",
+            "study_title": "Evaluating Crizotinib in the Neoadjuvant Setting in Patients With Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03215693",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: X-396 capsule",
+            "phase": "Phase 2",
+            "study_title": "X-396 Capsule in Patients With ALK-positive Non-small Cell Lung Cancer Previously Treated With Crizotinib"
+        },
+        {
+            "clinicaltrial_number": "NCT03256136",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Carboplatin Drug: Nivolumab Drug: pemetrexed Drug: Ipilimumab",
+            "phase": "Phase 2",
+            "study_title": "Nivolumab in Combination With Chemotherapy, or Nivolumab in Combination With Ipilimumab, in Advanced EGFR-Mutant or ALK-Rearranged NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02314364",
+            "conditions": "Non-small Cell Lung Cancer Metastatic Targetable Oncogenes (EGFR, ALK, ROS1)",
+            "gene_symbol": "ALK",
+            "interventions": "Radiation: SBRT with protons or photons",
+            "phase": "Phase 2",
+            "study_title": "A Trial of Integrating SBRT With Targeted Therapy in Stage IV Oncogene-driven NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03164694",
+            "conditions": "Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Apatinib Drug: Pemetrexed Drug: Carboplatin",
+            "phase": "Phase 2",
+            "study_title": "APatinib Plus Chemotherapy vErsus Chemotherapy As First-line Treatment for Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02314481",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: MPDL3280A Drug: Vemurafenib Drug: Alectinib Drug: Trastuzumab emtansine",
+            "phase": "Phase 2",
+            "study_title": "Deciphering Antitumour Response and Resistance With INtratumour Heterogeneity"
+        },
+        {
+            "clinicaltrial_number": "NCT03798743",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Sintilimab Combined With Docetaxel",
+            "phase": "Phase 2",
+            "study_title": "Phase II Study on Sintilimab Combined With Docetaxel for Double Platinum-based Chemotherapy Failure Advanced Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03775486",
+            "conditions": "Non-small Cell Lung Cancer NSCLC",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Durvalumab Drug: Placebo for Olaparib Drug: Olaparib Drug: Nab-paclitaxel+carboplatin Drug: Gemcitabine+carboplatin Drug: Pemetrexed+carboplatin Drug: Gemcitabine+cisplatin Drug: Pemetrexed+cisp",
+            "phase": "Phase 2",
+            "study_title": "Study of Durvalumab+Olaparib or Durvalumab After Treatment With Durvalumab and Chemotherapy in Patients With Lung Cancer (ORION)"
+        },
+        {
+            "clinicaltrial_number": "NCT03399487",
+            "conditions": "Non-small Cell Lung Cancer Harboring ROS1 Rearrangement",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: LDK378(Ceritinib)",
+            "phase": "Phase 2",
+            "study_title": "A Study of LDK378 in Patients With Non-small Cell Lung Cancer Harboring ROS1 Rearrangement"
+        },
+        {
+            "clinicaltrial_number": "NCT03526900",
+            "conditions": "Non-small Cell Lung Cancer Stage IV",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Atezolizumab",
+            "phase": "Phase 2",
+            "study_title": "Atezolizumab in Combination With Carboplatin Plus Pemetrexed in Chemotherapy-naive Patients With Asymptomatic Brain Metastasis"
+        },
+        {
+            "clinicaltrial_number": "NCT03801304",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Atezolizumab Drug: Vinorelbine",
+            "phase": "Phase 2",
+            "study_title": "Trial to Evaluate Safety and Efficacy of Vinorelbine With Metronomic Administration in Combination With Atezolizumab as Second-line Treatment for Patients With Stage IV Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03778138",
+            "conditions": "Non-squamous Cell Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Anlotinib plus Pemetrexed",
+            "phase": "Phase 2",
+            "study_title": "Study of Anlotinib Combined With Pemetrexed in Patients With Advanced Nonsquamous NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03447678",
+            "conditions": "Non Small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Pembrolizumab",
+            "phase": "Phase 2",
+            "study_title": "Pembrolizumab in First Line Treatment of Advanced NSCLC Patients With PD-L1 Low Tumors."
+        },
+        {
+            "clinicaltrial_number": "NCT03823625",
+            "conditions": "Squamous-Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Nivolumab plus Ipilimumab Drug: Platinum-based chemotherapy plus Nivolumab",
+            "phase": "Phase 2",
+            "study_title": "An Open-label, Randomized, Parallel, Non Comparative, Phase II Trial of Nivolumab Plus Ipilimumab Versus Platinum-based Chemotherapy Plus Nivolumab in Chemonaive Metastatic or Recurrent Squamous-Cell "
+        },
+        {
+            "clinicaltrial_number": "NCT01964157",
+            "conditions": "Non-small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: LDK378",
+            "phase": "Phase 2",
+            "study_title": "An Open-label, Multicenter, Phase II Study of LDK378 in Patients With Non-small Cell Lung Cancer Harboring ROS1 Rearrangement"
+        },
+        {
+            "clinicaltrial_number": "NCT02276027",
+            "conditions": "Adenocarcinoma Lung Cancer; Squamous Cell Lung Carcinoma",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: BYL719 Drug: INC280 Drug: LDK378 Drug: MEK162",
+            "phase": "Phase 2",
+            "study_title": "A Phase II, Open Label, Multiple Arm Study of AUY922, BYL719, INC280, LDK378 and MEK162 in Chinese Patients With Advanced Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT02664935",
+            "conditions": "Non-Small Cell Lung Cancer Carcinoma, Squamous Cell Adenocarcinoma",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: AZD4547 Drug: Vistusertib Drug: Palbociclib Drug: Crizotinib Drug: Selumetinib Drug: Docetaxel Drug: AZD5363 Drug: Osimertinib Drug: Durvalumab Drug: Sitravatinib",
+            "phase": "Phase 2",
+            "study_title": "National Lung Matrix Trial: Multi-drug Phase II Trial in Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03808662",
+            "conditions": "TNBC - Triple-Negative Breast Cancer Triple Negative Breast Cancer NSCLC NSCLC Stage IV Non Small Cell Lung Cancer Non Small Cell Lung Cancer Metastatic NSCLC Stage IV Without EGFR/ALK Mutation",
+            "gene_symbol": "ALK",
+            "interventions": "Radiation: Sterotactic Body Radiotherapy/SBRT Drug: Standard of care",
+            "phase": "Phase 2",
+            "study_title": "Randomized Study of Stereotactic Body Radiation Therapy (SBRT) in Patients With Oligoprogressive Metastatic Cancers of the Breast and Lung"
+        },
+        {
+            "clinicaltrial_number": "NCT02852083",
+            "conditions": "Squamous Cell Lung Cancer Non-Squamous Cell Lung Cancer Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Pioglitazone Drug: nivolumab Drug: Treosulfan Drug: Clarithromycin",
+            "phase": "Phase 2",
+            "study_title": "A Trial With Metronomic Low-dose Treosulfan, Pioglitazone and Clarithromycin Versus Standard Treatment in NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03087448",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Ceritinib Drug: Trametinib",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Ceritinib + Trametinib in Patients With Advanced ALK-Positive Non-Small Cell Lung Cancer (NSCLC)"
+        },
+        {
+            "clinicaltrial_number": "NCT03202940",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Alectinib Drug: Cobimetinib",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "A Phase IB/II Study of Alectinib Combined With Cobimetinib in Advanced ALK-Rearranged (ALK+) NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02521051",
+            "conditions": "Non-Small Cell Lung Cancer (NSCLC)",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Alectinib Drug: Bevacizumab",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Phase I/II Trial of Alectinib and Bevacizumab in Patients With Advanced, Anaplastic Lymphoma Kinase (ALK)-Positive, Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03389815",
+            "conditions": "Advanced Solid Tumor, Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: WX-0593 Tablets",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "A Study Evaluates the Safety, Pharmacokinetics and Efficacy of WX-0593 in Advanced Solid Tumor Patients"
+        },
+        {
+            "clinicaltrial_number": "NCT03386929",
+            "conditions": "Non-small Cell Lung Cancer Metastatic Non-small Cell Lung Cancer Stage III",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Avelumab Drug: Axitinib Drug: Palbociclib",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Survival Prolongation by Rationale Innovative Genomics"
+        },
+        {
+            "clinicaltrial_number": "NCT02903914",
+            "conditions": "Metastatic Cancer Solid Tumors Colorectal Cancer (CRC) Gastric Cancer Head and Neck Cancer Lung Cancer Renal Cell Carcinoma (RCC) Bladder Cancer UC (Urothelial Cancer) Mesothelioma",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: INCB001158 Drug: Pembrolizumab",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Arginase Inhibitor INCB001158 as a Single Agent and in Combination With Immune Checkpoint Therapy in Patients With Advanced/Metastatic Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT02959619",
+            "conditions": "Solid Tumor Non-Small Cell Lung Cancer Metastatic",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Ensartinib",
+            "phase": "Phase 1",
+            "study_title": "Ensartinib in Non-small Cell Lung Cancer Patients With Positive ALK"
+        },
+        {
+            "clinicaltrial_number": "NCT03611738",
+            "conditions": "Non-small Cell Lung Cancer Lung Cancer Non-small Cell Lung Cancer Metastatic Non-small Cell Lung Cancer Stage IIIB Stage IV Non-small Cell Lung Cancer EGFR Negative Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Ceritinib Drug: Docetaxel",
+            "phase": "Phase 1",
+            "study_title": "Ceritinib Plus Docetaxel in ALK-Negative, EGFR WT Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT03607188",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Alkotinib",
+            "phase": "Phase 1",
+            "study_title": "A Phase I Study of Alkotinib in Patients With Advanced Non Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03917043",
+            "conditions": "Advanced Solid Cancer Non Small Cell Lung Cancer Esophageal Cancer Ovarian Cancer Malignant Pleural Mesothelioma",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: APG-2449",
+            "phase": "Phase 1",
+            "study_title": "APG-2449 in Patients With Advanced Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT03790228",
+            "conditions": "Non-squamous Cell Non-Small Cell Lung Cancer",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Anlotinib Combined With Pemetrexed And Carboplatin",
+            "phase": "Phase 1",
+            "study_title": "Anlotinib Combined With Pemetrexed And Carboplatin as the First-line Treatment in Patients With Advanced Nonsquamous Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT04013542",
+            "conditions": "ALK Gene Rearrangement EGFR Gene Mutation Locally Advanced Lung Non-Small Cell Carcinoma Lung Non-Small Cell Carcinoma Stage II Lung Cancer AJCC v8 Stage IIA Lung Cancer AJCC v8 Stage IIB Lung Cancer ",
+            "gene_symbol": "ALK",
+            "interventions": "Biological: Ipilimumab Biological: Nivolumab Radiation: Radiation Therapy",
+            "phase": "Phase 1",
+            "study_title": "Ipilimumab and Nivolumab in Combination With Radiation Therapy in Treating Patients With Stage II-III Non-small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03707938",
+            "conditions": "Advanced Lung Carcinoma ALK Gene Rearrangement Lung Non-Small Cell Carcinoma Recurrent Lung Non-Small Cell Carcinoma Stage IV Lung Cancer AJCC v8 Stage IVA Lung Cancer AJCC v8 Stage IVB Lung Cancer AJ",
+            "gene_symbol": "ALK",
+            "interventions": "Drug: Brigatinib Procedure: Local Consolidation Therapy",
+            "phase": "Early Phase 1",
+            "study_title": "Local Consolidative Therapy and Brigatinib in Treating Patients With Stage IV or Recurrent Non-small Cell Lung Cancer"
+        }
+    ],
+    "refer": [
+        {
+            "authors": "Hiroyuki Yamamoto,Kohzoh Imai",
+            "date": "(2015)",
+            "journal": "Arch Toxicol",
+            "pmid": "[PMID:25701956]",
+            "title": "Microsatellite instability: an update.",
+            "vol": "89(6):899-921."
+        },
+        {
+            "authors": "Timothy M Pawlik,Chandrajit P Raut,Miguel A Rodriguez-Bigas",
+            "date": "(2004)",
+            "journal": "Dis Markers",
+            "pmid": "[PMID:15528785]",
+            "title": "Colorectal carcinogenesis: MSI-H versus MSI-L.",
+            "vol": "20(4-5):199-206."
+        },
+        {
+            "authors": "Solange Peters,D Ross Camidge,Alice T Shaw,et al.",
+            "date": "(2017)",
+            "journal": "N Engl J Med",
+            "pmid": "[PMID:28586279]",
+            "title": "Alectinib versus Crizotinib in Untreated ALK-Positive Non-Small-Cell Lung Cancer.",
+            "vol": "377(9):829-838."
+        },
+        {
+            "authors": "Yunpeng Yang,Jianya Zhou,Jianying Zhou,et al.",
+            "date": "(2020)",
+            "journal": "Lancet Respir Med",
+            "pmid": "[PMID:31628085]",
+            "title": "Efficacy, safety, and biomarker analysis of ensartinib in crizotinib-resistant, ALK-positive non-small-cell lung cancer: a multicentre, phase 2 trial.",
+            "vol": "8(1):45-53."
+        },
+        {
+            "authors": "Di Ma,Xuezhi Hao,Yan Wang,et al.",
+            "date": "(2016)",
+            "journal": "Thorac Cancer",
+            "pmid": "[PMID:27385988]",
+            "title": "Clinical effect of pemetrexed as the first-line treatment in Chinese patients with advanced anaplastic lymphoma kinase-positive non-small cell lung cancer.",
+            "vol": "7(4):452-8."
+        },
+        {
+            "authors": "Alexander Drilon,Sai-Hong Ignatius Ou,Byoung Chul Cho,et al.",
+            "date": "(2018)",
+            "journal": "Cancer Discov",
+            "pmid": "[PMID:30093503]",
+            "title": "Repotrectinib (TPX-0005) Is a Next-Generation ROS1/TRK/ALK Inhibitor That Potently Inhibits ROS1/TRK/ALK Solvent- Front Mutations.",
+            "vol": "8(10):1227-1236."
+        },
+        {
+            "authors": "Eva Lin,Li Li,Yinghui Guan,et al.",
+            "date": "(2009)",
+            "journal": "Mol Cancer Res",
+            "pmid": "[PMID:19737969]",
+            "title": "Exon array profiling detects EML4-ALK fusion in breast, colorectal, and non-small cell lung cancers.",
+            "vol": "7(9):1466-76."
+        }
+    ]
+}

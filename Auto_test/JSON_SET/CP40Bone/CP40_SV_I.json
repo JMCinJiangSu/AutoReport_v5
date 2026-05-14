@@ -1,0 +1,1803 @@
+{
+    "sample_info": {
+        "order_id": "25-FZ22-09776",
+        "sample_parent_id": null,
+        "sample_id": "25-FZ22-09776",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": null,
+        "gender": null,
+        "age": null,
+        "sample_type": null,
+        "control_sample_type": null,
+        "sample_amount": null,
+        "control_sample_amount": null,
+        "tumor_type": "肺癌",
+        "pathol_diagn": "肺癌",
+        "tumor_names_cn": "肺癌",
+        "pathological_id": null,
+        "company": "青岛大学附属医院",
+        "origin_company": null,
+        "report_number": null,
+        "hosp_depart": null,
+        "prod_names": "Classic Panel-骨",
+        "prod_ids": "5",
+        "report_module_type": "hospital",
+        "json_batch_name": "20221112_0461_ADXHS-Classic-H_v1.3.7_20221114103642",
+        "mark": null,
+        "tumor_content": null,
+        "sample_position": null,
+        "sample_position_id": null,
+        "family_history": null,
+        "molecular_number": null,
+        "gather_data": null,
+        "receive_data": null,
+        "report_data": "2022-11-14",
+        "tumor_list": [
+            "肺癌",
+            "小细胞肺癌（合并）",
+            "炎性肌纤维母细胞性肺肿瘤",
+            "原位肺腺癌",
+            "肺神经内分泌瘤",
+            "非小细胞肺癌",
+            "胸膜肺母细胞瘤",
+            "肺淋巴管肌瘤病",
+            "肺肉瘤样癌"
+        ]
+    },
+    "snvindel": [],
+    "sv": [
+        {
+            "sample_id": "25-FZ22-09776",
+            "order_code": "d1ca992863cc11ed80b80242ac180006",
+            "bio_category": "Sv",
+            "three_prime_chr": null,
+            "three_prime_chr_pos": null,
+            "three_prime_flag": null,
+            "three_prime_gene": "ALK",
+            "three_prime_cds": "exon20",
+            "three_prime_transcript": "NM_004304.4",
+            "three_prime_region": "exon20",
+            "five_prime_chr": null,
+            "five_prime_chr_pos": null,
+            "five_prime_flag": null,
+            "five_prime_gene": "EML4",
+            "five_prime_cds": "exon20",
+            "five_prime_transcript": "NM_019063.4",
+            "five_prime_region": "exon20",
+            "depth": null,
+            "json_batch_name": "20221112_0461_ADXHS-Classic-H_v1.3.7_20221114103642",
+            "var_id": "hg19:EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20:",
+            "var_hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+            "copies": "3387",
+            "freq": null,
+            "var_origin": "",
+            "clinical_significance": "Pathogenic",
+            "function_classification": "Oncogenic",
+            "clinical_category": "Tier I",
+            "literature": "f54758b3160d11edab62c7f1c3325cc0,f0ff9c8a160d11ed8777c7f1c3325cc0,4f435692160e11edbc0cc7f1c3325cc0,f4ff27ee160d11eda9bec7f1c3325cc0,4f3e9b62160e11ed8e01c7f1c3325cc0,ef3b3b97160d11eda86cc7f1c3325cc0,ef581411160d11ed8da1c7f1c3325cc0,ef23baa1160d11ed802fc7f1c3325cc0,ef31ec42160d11ed8cfec7f1c3325cc0,ef401dde160d11edb052c7f1c3325cc0,f0bcc34e160d11edbfe4c7f1c3325cc0,ef0caedd160d11ed9901c7f1c3325cc0,4f34d6cd160e11edbadcc7f1c3325cc0,f2f08cba160d11edb3bcc7f1c3325cc0,4f39b91a160e11edb70fc7f1c3325cc0,ee3d18dd160d11ed8152c7f1c3325cc0,ef19f60c160d11ed90c8c7f1c3325cc0,ef624ddd160d11edb614c7f1c3325cc0,ef153acf160d11ed8b64c7f1c3325cc0,4fe4a3a3160e11ed91d1c7f1c3325cc0,ee35ec7f160d11edac72c7f1c3325cc0",
+            "polymorphism": "",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为EML4-ALK融合，融合模式为：EML4:exon20-ALK:exon20。",
+            "variant_desc_en": "",
+            "gene_symbol": "ALK",
+            "evi_sum": [
+                {
+                    "regimen_name": "阿来替尼",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "f54758b3160d11edab62c7f1c3325cc0,f0ff9c8a160d11ed8777c7f1c3325cc0,4f435692160e11edbc0cc7f1c3325cc0,f4ff27ee160d11eda9bec7f1c3325cc0,4f3e9b62160e11ed8e01c7f1c3325cc0,ef3b3b97160d11eda86cc7f1c3325cc0,ef581411160d11ed8da1c7f1c3325cc0,ef23baa1160d11ed802fc7f1c3325cc0,ef31ec42160d11ed8cfec7f1c3325cc0,ef401dde160d11edb052c7f1c3325cc0,f0bcc34e160d11edbfe4c7f1c3325cc0,ef0caedd160d11ed9901c7f1c3325cc0,4f34d6cd160e11edbadcc7f1c3325cc0,f2f08cba160d11edb3bcc7f1c3325cc0,4f39b91a160e11edb70fc7f1c3325cc0,ee3d18dd160d11ed8152c7f1c3325cc0,ef19f60c160d11ed90c8c7f1c3325cc0,ef624ddd160d11edb614c7f1c3325cc0,ef153acf160d11ed8b64c7f1c3325cc0,4fe4a3a3160e11ed91d1c7f1c3325cc0,ee35ec7f160d11edac72c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": "FDA批准阿来替尼用于ALK阳性的转移性非小细胞肺癌患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项开放标签、随机的多中心III期临床研究（ALEX, NCT02075840, PMID: 28586279），入组303例未经治疗的ALK阳性非小细胞肺癌患者，其中包含中枢神经系统（CNS）转移但无症状的患者。患者被随机分为1:1，每天两次口服阿来替尼600 mg（n=152）或克唑替尼250 mg（n=151）。研究结果显示，两组患者（阿来替尼VS克唑替尼）的中位PFS为25.7个月VS10.4个月，ORR为79% VS 72%，DOR（反应持续时间≥18个月）为37% VS 14%；CNS-ORR为81% VS 50%，CNS-DOR（反应持续时间≥12个月）为59% VS 36%。基于上述研究，FDA批准阿来替尼用于ALK阳性的转移性非小细胞肺癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "布格替尼",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "f54758b3160d11edab62c7f1c3325cc0,f0ff9c8a160d11ed8777c7f1c3325cc0,4f435692160e11edbc0cc7f1c3325cc0,f4ff27ee160d11eda9bec7f1c3325cc0,4f3e9b62160e11ed8e01c7f1c3325cc0,ef3b3b97160d11eda86cc7f1c3325cc0,ef581411160d11ed8da1c7f1c3325cc0,ef23baa1160d11ed802fc7f1c3325cc0,ef31ec42160d11ed8cfec7f1c3325cc0,ef401dde160d11edb052c7f1c3325cc0,f0bcc34e160d11edbfe4c7f1c3325cc0,ef0caedd160d11ed9901c7f1c3325cc0,4f34d6cd160e11edbadcc7f1c3325cc0,f2f08cba160d11edb3bcc7f1c3325cc0,4f39b91a160e11edb70fc7f1c3325cc0,ee3d18dd160d11ed8152c7f1c3325cc0,ef19f60c160d11ed90c8c7f1c3325cc0,ef624ddd160d11edb614c7f1c3325cc0,ef153acf160d11ed8b64c7f1c3325cc0,4fe4a3a3160e11ed91d1c7f1c3325cc0,ee35ec7f160d11edac72c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": "FDA批准布格替尼用于治疗ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "两项随机、开放标签、多中心临床试验（ALTA-1L，ALTA），分别入组275例（ALTA-1L）未经TKI治疗，222例（ALTA）既往克唑替尼治疗过的，ALK阳性的晚期或转移性非小细胞肺癌成年患者。ALTA-1L试验将患者随机分成布格替尼组和克唑替尼组， ALTA试验组中，患者接受不同剂量的布格替尼治疗。主要评价终点，ALTA-1L为无进展生存(PFS)，ALTA为总体缓解率(ORR)，次要终点ALTA-1L为总体缓解率(ORR)、缓解持续时间(DOR)、颅内ORR和颅内DOR，ALTA为反应时间(DOR)、颅内ORR和颅内DOR。研究结果显示，ALTA-1L中两组患者（布格替尼VS克唑替尼）的PFS为24个月 VS 11个月，ORR为74% VS 62%，DOR为NR（Not Reached） VS 13.8个月，颅内ORR为78% VS 26%，颅内DOR（反应持续时间≥24个月）为64% VS NE（Not Estimable）。ALTA中，两组患者（90mg组 VS 90→180mg组）的ORR为48% VS 53%，DOR为13.8个月 VS 13.8个月，颅内ORR为42% VS 67%，颅内DOR（反应持续时间≥12个月）36% VS 25%。基于上述研究，FDA批准布格替尼用于治疗ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。"
+                },
+                {
+                    "regimen_name": "恩沙替尼",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NMPA",
+                    "literature": "f54758b3160d11edab62c7f1c3325cc0,f0ff9c8a160d11ed8777c7f1c3325cc0,4f435692160e11edbc0cc7f1c3325cc0,f4ff27ee160d11eda9bec7f1c3325cc0,4f3e9b62160e11ed8e01c7f1c3325cc0,ef3b3b97160d11eda86cc7f1c3325cc0,ef581411160d11ed8da1c7f1c3325cc0,ef23baa1160d11ed802fc7f1c3325cc0,ef31ec42160d11ed8cfec7f1c3325cc0,ef401dde160d11edb052c7f1c3325cc0,f0bcc34e160d11edbfe4c7f1c3325cc0,ef0caedd160d11ed9901c7f1c3325cc0,4f34d6cd160e11edbadcc7f1c3325cc0,f2f08cba160d11edb3bcc7f1c3325cc0,4f39b91a160e11edb70fc7f1c3325cc0,ee3d18dd160d11ed8152c7f1c3325cc0,ef19f60c160d11ed90c8c7f1c3325cc0,ef624ddd160d11edb614c7f1c3325cc0,ef153acf160d11ed8b64c7f1c3325cc0,4fe4a3a3160e11ed91d1c7f1c3325cc0,ee35ec7f160d11edac72c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "NMPA",
+                    "evi_adaptation_disease_cn": "NMPA批准恩沙替尼用于此前接受过克唑替尼治疗后进展或对克唑替尼不耐受的ALK阳性、局部晚期或转移性NSCLC患者的治疗。\n",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项开放标签、单臂、多中心的II期临床试验（NCT03215693, PMID: 31628085），入组156例经克唑替尼治疗后进展的ALK阳性IIIb期或IV期的NSCLC患者，评价恩沙替尼治疗有效性。研究结果显示，在147位可进行评估的患者中，76位患者的肿瘤显著缩小，客观缓解率（ORR）为52%，137位患者的疾病获得控制，疾病控制率（DCR）为93%，中位无进展生存期（PFS）为9.6个月。40例脑转移基线可测量的患者中，颅内客观缓解率（iORR）为70%，颅内疾病控制率（iDCR）为98%。恩沙替尼对ALK的继发性突变的客观缓解率为44%（20/45）。其中，L1196M为25%（3/12），C1156Y为71%（5/7），F1174L/V为71%（5/7），G1202R为33%（2/6），G1269A为67%（4/6），I1171T/S为50%（2/4），L1152R/V为50%（2/4），T1151R/M为67%（2/3），其他位点为17%（1/6）。常见的ALK继发性耐药突变中F1174L/V、G1269A、C1156Y和T1151R/M对恩沙替尼药物特别敏感；L1196M、G1202R、I1171T/S、L1152R/V及其他突变对恩沙替尼也有部分应答。基于上述研究，NMPA批准恩沙替尼用于此前接受过克唑替尼治疗后进展或对克唑替尼不耐受的ALK阳性、局部晚期或转移性NSCLC患者的治疗。"
+                },
+                {
+                    "regimen_name": "克唑替尼",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "f54758b3160d11edab62c7f1c3325cc0,f0ff9c8a160d11ed8777c7f1c3325cc0,4f435692160e11edbc0cc7f1c3325cc0,f4ff27ee160d11eda9bec7f1c3325cc0,4f3e9b62160e11ed8e01c7f1c3325cc0,ef3b3b97160d11eda86cc7f1c3325cc0,ef581411160d11ed8da1c7f1c3325cc0,ef23baa1160d11ed802fc7f1c3325cc0,ef31ec42160d11ed8cfec7f1c3325cc0,ef401dde160d11edb052c7f1c3325cc0,f0bcc34e160d11edbfe4c7f1c3325cc0,ef0caedd160d11ed9901c7f1c3325cc0,4f34d6cd160e11edbadcc7f1c3325cc0,f2f08cba160d11edb3bcc7f1c3325cc0,4f39b91a160e11edb70fc7f1c3325cc0,ee3d18dd160d11ed8152c7f1c3325cc0,ef19f60c160d11ed90c8c7f1c3325cc0,ef624ddd160d11edb614c7f1c3325cc0,ef153acf160d11ed8b64c7f1c3325cc0,4fe4a3a3160e11ed91d1c7f1c3325cc0,ee35ec7f160d11edac72c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": "FDA批准克唑替尼用于ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "两项随机、多中心、开放标签、活性对照的Ⅲ期临床试验（PROFILE 1014, NCT01154140和PROFILE 1007，NCT00932893），分别入组343例未经治和347例既往接受过治疗的转移性非小细胞肺癌患者，患者均为ALK阳性。患者随机分配为克唑替尼组或化疗组。研究结果显示，PROFILE 1014中两组患者（克唑替尼VS化疗）的中位PFS为10.9个月 VS 7个月，ORR为74% VS 45%，中位DOR为11.3个月 VS 5.3个月，中位OS为NR VS 47.5个月；PROFILE 1007中两组患者（克唑替尼VS化疗）的中位PFS为7.7个月 VS 3个月，ORR为65% VS 20%，中位DOR为7.4个月 VS 5.6个月，中位OS为21.7个月 VS 21.9个月。基于上述研究，FDA批准克唑替尼用于ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。"
+                },
+                {
+                    "regimen_name": "洛拉替尼",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "f54758b3160d11edab62c7f1c3325cc0,f0ff9c8a160d11ed8777c7f1c3325cc0,4f435692160e11edbc0cc7f1c3325cc0,f4ff27ee160d11eda9bec7f1c3325cc0,4f3e9b62160e11ed8e01c7f1c3325cc0,ef3b3b97160d11eda86cc7f1c3325cc0,ef581411160d11ed8da1c7f1c3325cc0,ef23baa1160d11ed802fc7f1c3325cc0,ef31ec42160d11ed8cfec7f1c3325cc0,ef401dde160d11edb052c7f1c3325cc0,f0bcc34e160d11edbfe4c7f1c3325cc0,ef0caedd160d11ed9901c7f1c3325cc0,4f34d6cd160e11edbadcc7f1c3325cc0,f2f08cba160d11edb3bcc7f1c3325cc0,4f39b91a160e11edb70fc7f1c3325cc0,ee3d18dd160d11ed8152c7f1c3325cc0,ef19f60c160d11ed90c8c7f1c3325cc0,ef624ddd160d11edb614c7f1c3325cc0,ef153acf160d11ed8b64c7f1c3325cc0,4fe4a3a3160e11ed91d1c7f1c3325cc0,ee35ec7f160d11edac72c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": "FDA批准洛拉替尼用于ALK阳性的转移性非小细胞肺癌成年患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项随机、多中心、开放标签的III期临床试验(Study B7461006; NCT03052608, PMID: 34585621)，入组了未经全身治疗的296例ALK阳性转移性非小细胞肺癌患者，按照1:1随机分为两组分别接受洛拉替尼（n=149）或克唑替尼（n=147）治疗。研究结果显示，洛拉替尼组和克唑替尼组的中位PFS分别为未达到和9.3个月（HR=0.28，P< 0.001），ORR分别为76%和58%；在有可测量的脑转移的患者中，两组分别有82%（95% CI，57～96）和23%（95% CI，5～54）的患者达到了颅内缓解，洛拉替尼组71%的患者达到了颅内完全缓解。一项非随机、剂量范围和活性评估、多队列、多中心研究的Ⅱ期临床试验（B7461001, NCT01970865），入组215例携带ALK重排且之前接受过一种或多种ALK激酶抑制剂治疗的转移性非小细胞肺癌患者（包括无症状的中枢神经系统转移患者）。入组患者每日一次口服100mg洛拉替尼。研究结果显示，ORR为48%，中位DOR为12.5个月；颅内ORR为60%，颅内中位DOR为19.5个月。基于以上研究，FDA批准洛拉替尼用于ALK阳性的转移性非小细胞肺癌成年患者的治疗。"
+                },
+                {
+                    "regimen_name": "塞瑞替尼",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "f54758b3160d11edab62c7f1c3325cc0,f0ff9c8a160d11ed8777c7f1c3325cc0,4f435692160e11edbc0cc7f1c3325cc0,f4ff27ee160d11eda9bec7f1c3325cc0,4f3e9b62160e11ed8e01c7f1c3325cc0,ef3b3b97160d11eda86cc7f1c3325cc0,ef581411160d11ed8da1c7f1c3325cc0,ef23baa1160d11ed802fc7f1c3325cc0,ef31ec42160d11ed8cfec7f1c3325cc0,ef401dde160d11edb052c7f1c3325cc0,f0bcc34e160d11edbfe4c7f1c3325cc0,ef0caedd160d11ed9901c7f1c3325cc0,4f34d6cd160e11edbadcc7f1c3325cc0,f2f08cba160d11edb3bcc7f1c3325cc0,4f39b91a160e11edb70fc7f1c3325cc0,ee3d18dd160d11ed8152c7f1c3325cc0,ef19f60c160d11ed90c8c7f1c3325cc0,ef624ddd160d11edb614c7f1c3325cc0,ef153acf160d11ed8b64c7f1c3325cc0,4fe4a3a3160e11ed91d1c7f1c3325cc0,ee35ec7f160d11edac72c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": "FDA批准塞瑞替尼用于克唑替尼治疗后进展或不耐受的ALK阳性转移性非小细胞肺癌患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项多中心、单臂、开放标签的Ⅰ期临床试验（ASCEND-1, NCT01283516），入组163例ALK阳性且接受克唑替尼治疗时进展或不耐受的转移性非小细胞肺癌患者。治疗方式为在禁食条件下每日一次塞瑞替尼750mg。研究结果：研究人员和BIRC评估的ORR分别为55%和44%，中位DOR分别为7.4个月和7.1个月。基于上述研究，FDA批准塞瑞替尼用于克唑替尼治疗后进展或不耐受的ALK阳性转移性非小细胞肺癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "Cep-28122",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "f54758b3160d11edab62c7f1c3325cc0,f0ff9c8a160d11ed8777c7f1c3325cc0,4f435692160e11edbc0cc7f1c3325cc0,f4ff27ee160d11eda9bec7f1c3325cc0,4f3e9b62160e11ed8e01c7f1c3325cc0,ef3b3b97160d11eda86cc7f1c3325cc0,ef581411160d11ed8da1c7f1c3325cc0,ef23baa1160d11ed802fc7f1c3325cc0,ef31ec42160d11ed8cfec7f1c3325cc0,ef401dde160d11edb052c7f1c3325cc0,f0bcc34e160d11edbfe4c7f1c3325cc0,ef0caedd160d11ed9901c7f1c3325cc0,4f34d6cd160e11edbadcc7f1c3325cc0,f2f08cba160d11edb3bcc7f1c3325cc0,4f39b91a160e11edb70fc7f1c3325cc0,ee3d18dd160d11ed8152c7f1c3325cc0,ef19f60c160d11ed90c8c7f1c3325cc0,ef624ddd160d11edb614c7f1c3325cc0,ef153acf160d11ed8b64c7f1c3325cc0,4fe4a3a3160e11ed91d1c7f1c3325cc0,ee35ec7f160d11edac72c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项细胞实验中(PMID: 22203728)，CEP-28122可以抑制携带ALK R1275Q、ALK F1174L、ALK amplification突变的人神经母细胞瘤细胞系的增殖，并且可抑制携带EML4-ALK的NSCLC和携带NPM1-ALK融合的间变性大细胞淋巴瘤移植模型中的肿瘤的生长。"
+                },
+                {
+                    "regimen_name": "Repotrectinib",
+                    "tumor_name_cn": "实体瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "f54758b3160d11edab62c7f1c3325cc0,f0ff9c8a160d11ed8777c7f1c3325cc0,4f435692160e11edbc0cc7f1c3325cc0,f4ff27ee160d11eda9bec7f1c3325cc0,4f3e9b62160e11ed8e01c7f1c3325cc0,ef3b3b97160d11eda86cc7f1c3325cc0,ef581411160d11ed8da1c7f1c3325cc0,ef23baa1160d11ed802fc7f1c3325cc0,ef31ec42160d11ed8cfec7f1c3325cc0,ef401dde160d11edb052c7f1c3325cc0,f0bcc34e160d11edbfe4c7f1c3325cc0,ef0caedd160d11ed9901c7f1c3325cc0,4f34d6cd160e11edbadcc7f1c3325cc0,f2f08cba160d11edb3bcc7f1c3325cc0,4f39b91a160e11edb70fc7f1c3325cc0,ee3d18dd160d11ed8152c7f1c3325cc0,ef19f60c160d11ed90c8c7f1c3325cc0,ef624ddd160d11edb614c7f1c3325cc0,ef153acf160d11ed8b64c7f1c3325cc0,4fe4a3a3160e11ed91d1c7f1c3325cc0,ee35ec7f160d11edac72c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项临床前研究中(PMID: 30093503)，Repotrectinib可抑制携带EML4-ALK、ALK G1202R+EML4-ALK的细胞系的生长和小鼠异种移植模型的肿瘤生长。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "塞瑞替尼",
+                    "Repotrectinib",
+                    "克唑替尼",
+                    "恩沙替尼",
+                    "阿来替尼",
+                    "洛拉替尼",
+                    "布格替尼",
+                    "Cep-28122"
+                ],
+                "var": {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            },
+            "gene_function": "ALK基因属于原癌基因，编码一种受体酪氨酸激酶(RTK)，为跨膜蛋白，属于胰岛素受体超家族，在大脑发育与及特定的神经元中起重要作用。ALK融合、突变或扩增在多种肿瘤中均有发生，包括间变性大淋巴细胞瘤、成神经细胞瘤、结直肠癌以及肺癌等（PMID: 8122112, PMID: 18593892, PMID: 19737969）。",
+            "three_prime_gene_function": "ALK基因属于原癌基因，编码一种受体酪氨酸激酶(RTK)，为跨膜蛋白，属于胰岛素受体超家族，在大脑发育与及特定的神经元中起重要作用。ALK融合、突变或扩增在多种肿瘤中均有发生，包括间变性大淋巴细胞瘤、成神经细胞瘤、结直肠癌以及肺癌等（PMID: 8122112, PMID: 18593892, PMID: 19737969）。",
+            "five_prime_gene_function": "EML4，棘皮动物微管相关蛋白 4，在微管形成中起作用 (PMID: 16890222)。 EML4-ALK 的融合蛋白具有转化活性，并且存在于一小部分非小细胞肺癌患者中（PMID: 17625570，PMID: 23341890）。"
+        }
+    ],
+    "cnv": [],
+    "cnv_file_path": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [
+        {
+            "sample_id": "",
+            "order_code": "d1ca992863cc11ed80b80242ac180006",
+            "var_id": "MSS",
+            "msi_score": 0.0,
+            "img_path": "/var/www/html/report_backend/system_files/json_file/20221112_0461_ADXHS-Classic-H_v1.3.7_20221114103642/25-FZ22-09776_25-FZ22-09776_AHTM3LAFX3_1.msi.plot.png",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "微卫星（Microsatellite）又称简单重复序列（SSR），是指遍布于人类基因组中的短串联重复序列，一般由1-6个核苷酸组成。DNA复制时，肿瘤细胞内的微卫星由于重复单位的插入或缺失而造成的微卫星长度的变化，称为微卫星不稳定性（Microsatellite Instability, MSI）。大量研究表明，MSI是由错配修复（mismatch repair，MMR）基因突变或功能缺陷引起的（PMID: 25701956）。MSI在多种癌种中被发现，包括子宫内膜癌、结直肠癌和胃腺癌等。据报道，10%-15%的散发性结直肠癌患者存在MSI（PMID: 15528785），NCCN指南明确推荐所有结直肠癌患者均需考虑做MSI或MMR检测。临床上也已将MSI作为结直肠癌及其他实体瘤预后和制定辅助治疗方案的重要分子标志物。",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "biomarker_type": "MSS"
+                }
+            }
+        }
+    ],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "ALK",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "EGFR",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "MET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "RET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)7或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)6基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)6",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GA或AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": [
+            {
+                "depth_min": null,
+                "depth_noise": null,
+                "depth_mean": 9015.27,
+                "depth_ssbc": 821.92,
+                "depth_rna_ctrl": 2994,
+                "depth_mean_uniq": null,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "depth_median_uniq": null,
+                "depth_mean_ssbc": null,
+                "cleandata_q30": 0.8624,
+                "cleandata_q20": 0.9182,
+                "cover_ratio": 1.0,
+                "cnv_cv": null,
+                "cnv_uni": null,
+                "mapping_ratio": 0.9183,
+                "inssize_ontarget": null,
+                "uni20": 0.9282,
+                "uni20_uniq": null,
+                "totalreads": null,
+                "alignedreads": null,
+                "read_ontarget_ratio": null,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "scale_log_post_prob": null,
+                "qc_type": null,
+                "uni20_uniq_hot": null,
+                "uni20_uniq_nonhot": null,
+                "depth_mean_uniq_hot": null,
+                "depth_mean_uniq_nonhot": null,
+                "inssize_median": null,
+                "brca_cover_ratio": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null
+            }
+        ],
+        "lib_dna_qc": [],
+        "qc_gradient": [],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "5",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "DDR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "DPYD",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ESR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "IDH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "IDH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "KEAP1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MAP2K1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MYC",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NFE2L2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NKX2-1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NRG1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "UGT1A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "hd": [],
+    "gss": [],
+    "lib_quality_control": {
+        "lib_dna_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_lib_qc": []
+    },
+    "drug": [
+        {
+            "general_name_cn": "塞瑞替尼",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ],
+            "general_name_en": "Ceritinib",
+            "trade_name_cn": "赞可达",
+            "trade_name_en": "Zykadia",
+            "approval_organization": [
+                "NCCN",
+                "NMPA",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "塞瑞替尼是一种激酶抑制剂。生化、细胞试验显示塞瑞替尼在临床相关浓度下可抑制的靶点包括ALK、胰岛素样生长因子-1受体（IGF-1R）、胰岛素受体（InsR）和ROS1。其中，塞瑞替尼对ALK的抑制最为有效。体外和体内试验显示塞瑞替尼可抑制ALK的自磷酸化、ALK介导下游信号蛋白STAT3的磷酸化和ALK依赖性癌细胞的增殖。塞瑞替尼可抑制表达EML4-ALK和NPM-ALK融合蛋白的细胞株的体外增殖，并剂量依赖性抑制小鼠和大鼠EML4-ALK阳性非小细胞肺癌（NSCLC）异种移植瘤的生长。 在克唑替尼耐药的EML4-ALK阳性NSCLC异种移植小鼠模型中，赛瑞替尼在临床相关范围内的浓度下呈现出剂量依赖性的抗肿瘤活性。",
+            "adaptation_disease_cn": [
+                "FDA批准塞瑞替尼用于克唑替尼治疗后进展或不耐受的ALK阳性转移性非小细胞肺癌患者的治疗。",
+                "NMPA批准塞瑞替尼用于ALK阳性的成人转移性非小细胞肺癌患者的治疗。",
+                "FDA批准塞瑞替尼用于ALK阳性的成人转移性非小细胞肺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "恩沙替尼",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ],
+            "general_name_en": "Ensartinib",
+            "trade_name_cn": "贝美纳",
+            "trade_name_en": "Ensacove",
+            "approval_organization": [
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "恩沙替尼是一种酪氨酸激酶间变性淋巴瘤激酶（ALK）小分子抑制剂，具有潜在的抗肿瘤活性。恩沙替尼结合并抑制ALK从而使ALK介导的信号传导中断，最终抑制ALK表达肿瘤细胞的肿瘤细胞生长。体外细胞学研究中，相比一代ALK抑制剂克唑替尼，在抑制ALK阳性肺癌细胞系的生长能力方面，恩沙替尼是克唑替尼的10倍。对于导致克唑替尼耐药的L1196M和C1156Y突变，恩沙替尼也表现出较强的抑制活性。",
+            "adaptation_disease_cn": [
+                "NMPA批准恩沙替尼用于此前接受过克唑替尼治疗后进展或对克唑替尼不耐受的ALK阳性、局部晚期或转移性NSCLC患者的治疗。\n"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "克唑替尼",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ],
+            "general_name_en": "Crizotinib",
+            "trade_name_cn": "赛可瑞",
+            "trade_name_en": "Xalkori",
+            "approval_organization": [
+                "NCCN",
+                "NMPA",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "克唑替尼是一种受体酪氨酸激酶抑制剂，可抑制包括ALK、肝细胞生长因子受体（HGFR，c-Met）、ROS1（c-ros）和Recepteur d'Origine Nantais（RON）等受体酪氨酸激酶的活性。染色体易位可以影响ALK基因，导致癌基因融合蛋白的表达。ALK融合蛋白的形成导致基因表达和信号的失活和失调，这有助于提高表达这些蛋白的肿瘤细胞的增殖和存活率。克唑替尼在使用肿瘤细胞系的细胞分析中显示出对ALK、ROS1和c-Met磷酸化的浓度依赖性抑制作用，并且在表达EML4-ALK或NPM-ALK融合蛋白或c-Met的肿瘤异种移植小鼠模型中显示出抗肿瘤活性。",
+            "adaptation_disease_cn": [
+                "FDA批准克唑替尼用于ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                "FDA批准克唑替尼用于ROS1阳性的转移性非小细胞肺癌患者。",
+                "FDA批准克唑替尼用于治疗ALK阳性的复发/难治性全身性间变性大细胞淋巴瘤(ALCL)1岁以上儿童和成年患者的治疗。",
+                "NMPA批准克唑替尼用于ROS1阳性晚期非小细胞肺癌患者的治疗。",
+                "NMPA批准克唑替尼用于ALK阳性的局部晚期或转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                "FDA批准克唑替尼用于不可切除、复发性或难治性ALK阳性炎症性肌纤维母细胞瘤成人和1岁以上的儿童患者。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved crizotinib for adult and pediatric patients 1 year of age and older with unresectable, recurrent, or refractory inflammatory anaplastic lymphoma kinase (ALK)-positive myofibroblastic tumors (IMT)."
+            ],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": null,
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ],
+            "general_name_en": "Repotrectinib",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [],
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "阿来替尼",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ],
+            "general_name_en": "Alectinib",
+            "trade_name_cn": "安圣莎",
+            "trade_name_en": "Alecensa",
+            "approval_organization": [
+                "NCCN",
+                "NMPA",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "Alectinib是靶向ALK和RET的酪氨酸激酶抑制剂。 在非临床研究中，Alectinib抑制ALK磷酸化和ALK介导的下游信号蛋白STAT3和AKT的活化，并降低携带ALK融合，扩增或激活突变的多种细胞系中肿瘤细胞的活力。 Alectinib的主要活性代谢产物M4表现出相似的体外效价和活性。\nAlectinib和M4表现出针对多种ALK酶突变形式的体外和体内活性，包括在克唑替尼进展的NSCLC肿瘤患者中发现的一些突变。在植入了携带ALK融合蛋白的肿瘤的小鼠模型中，施用Alectinib可产生抗肿瘤活性并延长生存期，包括在植入ALK驱动的肿瘤细胞系的小鼠模型中。",
+            "adaptation_disease_cn": [
+                "FDA批准阿来替尼用于ALK阳性的转移性非小细胞肺癌患者的治疗。",
+                "NMPA批准阿来替尼用于ALK阳性的局部晚期或转移性非小细胞肺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "洛拉替尼",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ],
+            "general_name_en": "Lorlatinib",
+            "trade_name_cn": "博瑞纳",
+            "trade_name_en": "Lorbrena",
+            "approval_organization": [
+                "NCCN",
+                "NMPA",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "Lorlatinib（洛拉替尼）是一种激酶抑制剂，对ALK和ROS1以及TYK1，FER，FPS，TRKA，TRKB，TRKC，FAK，FAK2和ACK具有体外活性。 洛拉替尼在体外表现出针对多种突变形式的ALK酶的活性，包括在克唑替尼和其他ALK抑制剂疾病进展时在肿瘤中检测到的某些突变。 在皮下植入了带有ALK变体1或ALK突变的EML4融合蛋白的肿瘤的小鼠，其中包括在疾病进展时在ALK抑制剂上在肿瘤中检测到的G1202R和I1171T突变，施用洛拉替尼会产生抗肿瘤活性。 洛拉替尼还显示出在颅内植入EML4-ALK驱动的肿瘤细胞系的小鼠中的抗肿瘤活性和延长的生存期。 洛拉替尼在体内模型中的总体抗肿瘤活性是剂量依赖性的，并且与ALK磷酸化的抑制作用有关。",
+            "adaptation_disease_cn": [
+                "FDA批准洛拉替尼用于以下几种治疗方案治疗后进展的ALK阳性的转移性非小细胞肺癌患者：1）克唑替尼及至少1种其他ALK抑制剂治疗；2）阿来替尼作为一线治疗；3）塞瑞替尼作为一线治疗。",
+                "FDA批准洛拉替尼用于ALK阳性的转移性非小细胞肺癌成年患者的治疗。",
+                "NMPA批准洛拉替尼单药用于间变性淋巴瘤激酶（ALK）阳性的局部晚期或转移性非小细胞肺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Targeted therapy（靶向）"
+        },
+        {
+            "general_name_cn": "布格替尼",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ],
+            "general_name_en": "Brigatinib",
+            "trade_name_cn": "安伯瑞",
+            "trade_name_en": "Alunbrig",
+            "approval_organization": [
+                "NCCN",
+                "NMPA",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "布格替尼是一种酪氨酸激酶抑制剂，在临床可达浓度下具有抗多种激酶（包括ALK、ROS1、胰岛素样生长因子-1受体（IGF-1R）、FLT-3）以及EGFR缺失和点突变的体外活性。体外和体内实验显示，布格替尼可抑制ALK的自磷酸化与ALK介导的下游信号蛋白STAT3、AKT、ERK1/2和S6的磷酸化。布格替尼还可抑制EML4-ALK和NPM-ALK融合蛋白表达细胞系的体外增殖，并且剂量依赖性抑制EML4-ALK阳性非小细胞肺癌（NSCLC）异种移植小鼠的生长。在临床可达浓度（≤500 nM）下，布格替尼可体外抑制表达EML4-ALK、17种与ALK抑制剂（包括crizotinib）耐药性相关突变或EGFR  Del（E746-A750）、ROS1-L2026M、FLT3-F691L、FLT3-D835Y突变型细胞的活性。布格替尼针对4种EML4-ALK突变型表现出体内抗肿瘤活性，包括在使用crizotinib后疾病进展的NSCLC肿瘤中发现的G1202R和L1196M突变型。布格替尼还可减轻ALK驱动肿瘤细胞颅内移植小鼠的肿瘤负担，并延长的存活时间。",
+            "adaptation_disease_cn": [
+                "NMPA批准布格替尼用于治疗ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                "FDA批准布格替尼用于治疗ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        }
+    ],
+    "io_gene_clinical": [
+        {
+            "effect": "负相关",
+            "evidence": "一项对58名接受PD-1 / PD-L1抑制剂治疗的非小细胞肺癌患者的回顾性分析显示，与EGFR野生型和ALK阴性/未知患者相比，携带EGFR突变或ALK重排的NSCLC患者接受PD-1 / PD-L1抑制剂的治疗，其ORR更低（PMID:27225694）。",
+            "gene_symbol": "ALK",
+            "test_significance": "ALK融合的NSCLC患者二线单药使用免疫药物的敏感度较低。",
+            "tumor_name": "非小细胞肺癌",
+            "var_note": "融合"
+        }
+    ],
+    "clinic_trial": [
+        {
+            "clinicaltrial_number": "CTR20200770",
+            "conditions": "ALK阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "CT-707",
+            "phase": "III期",
+            "study_title": "比较CT-707与克唑替尼治疗ALK阳性晚期非小细胞肺癌患者有效性和安全性的多中心、随机、开放III期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20192178",
+            "conditions": "ALK阳性晚期非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "奥卡替尼胶囊",
+            "phase": "II期",
+            "study_title": "奥卡替尼治疗ALK阳性且经克唑替尼治疗失败的晚期NSCLC患者有效性和安全性的Ⅱ期临床试验"
+        },
+        {
+            "clinicaltrial_number": "CTR20200428",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "TQ-B3139胶囊",
+            "phase": "II期",
+            "study_title": "评价TQ-B3139对经克唑替尼治疗后耐药的间变性淋巴瘤激酶阳性晚期非小细胞肺癌的安全性和有效性研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191831",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "TQ-B3139胶囊",
+            "phase": "II期",
+            "study_title": "评价TQB3139对经克唑替尼治疗后耐药的间变性淋巴瘤激酶阳性晚期非小细胞肺癌的安全性和有效性研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191289",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "TQ-B3139胶囊",
+            "phase": "III期",
+            "study_title": "比较 TQB3139 与克唑替尼治疗晚期非小细胞肺癌的安全性和有效性多中心、随机、开放、阳性对照研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191231",
+            "conditions": "ALK阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "WX-0593片",
+            "phase": "III期",
+            "study_title": "在ALK阳性晚期非小细胞肺癌患者中比较WX-0593片与克唑替尼的随机、开放、多中心的III期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190184",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "克唑替尼胶囊",
+            "phase": "IV期",
+            "study_title": "在伴有ALK或ROS1基因易位或倒位的NSCLC中国患者中开展的一项评价XALKORI长期安全性的开放性单臂研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190147",
+            "conditions": "晚期非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "重组人源化抗PD-1单克隆抗体注射液",
+            "phase": "III期",
+            "study_title": "评估特瑞普利单抗联合化疗一线治疗晚期非小细胞肺癌的随机双盲、多中心、III期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20170919",
+            "conditions": "肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "X-396胶囊",
+            "phase": "III期",
+            "study_title": "eXALT3：在间变性淋巴瘤激酶（ALK）阳性非小细胞肺癌（NSCLC）患者中比较Ensartinib与克唑替尼的III期随机研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20170762",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "X-396胶囊",
+            "phase": "II期",
+            "study_title": "评价X-396胶囊治疗克唑替尼耐药的ALK阳性非小细胞肺癌患者疗效和安全性的II期单臂、 多中心临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20182342",
+            "conditions": "晚期间变性淋巴瘤激酶阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "Brigatinib片",
+            "phase": "III期",
+            "study_title": "在接受克唑替尼治疗后疾病进展的晚期间变性淋巴瘤激酶阳性非小细胞肺癌患者中比较Brigatinib与Alectinib的研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20182341",
+            "conditions": "ALK+ 晚期非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "brigaitnib 片",
+            "phase": "II期",
+            "study_title": "研究brigatinib用于经alectinib或ceritinib治疗后出现疾病进展的间变性淋巴瘤激酶阳性（ALK+） 晚期非小细胞肺癌（NSCLC）患者"
+        },
+        {
+            "clinicaltrial_number": "CTR20190789",
+            "conditions": "ALK/ROS1阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "WX-0593片",
+            "phase": "II期",
+            "study_title": "WX-0593片治疗克唑替尼耐药的ALK阳性、或克唑替尼耐药/未使用过克唑替尼的ROS1阳性非小细胞肺癌患者的疗效和安全性的II期研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20171624",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "Lorlatinib片",
+            "phase": "III期",
+            "study_title": "比较 LORLATINIB单药治疗和克唑替尼单药治疗用于晚期 ALK 阳性非小细胞肺癌患者一线治疗的 III 期、随机、开放性研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20182000",
+            "conditions": "间变性淋巴瘤激酶阳性非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "通用名：盐酸阿来替尼胶囊，英文名：Alectinib，商品名：安圣莎",
+            "phase": "III期",
+            "study_title": "评价ALECTINIB辅助治疗与含铂化疗相比在完全切除的IB期（肿瘤≥4 cm）至IIIA期ALK阳性非小细胞肺癌患者中有效性和安全性"
+        },
+        {
+            "clinicaltrial_number": "CTR20181770",
+            "conditions": "克唑替尼耐药的晚期间变性淋巴瘤激酶突变阳性的非小细胞肺癌",
+            "gene_symbol": "ALK",
+            "interventions": "CT-707颗粒",
+            "phase": "II期",
+            "study_title": "评价CT-707治疗克唑替尼耐药的晚期ALK阳性非小细胞肺癌患者有效性和安全性的II期多中心临床研究"
+        },
+        {
+            "clinicaltrial_number": "NCT04169841",
+            "conditions": "endometrial cancer,clear cell renal cell carcinoma,ovarian cancer,lung cancer,breast cancer,prostate cancer,head and neck cancer,transitional cell carcinoma",
+            "gene_symbol": "ALK",
+            "interventions": "Durvalumab + Olaparib + Tremelimumab",
+            "phase": "Phase II",
+            "study_title": "Study Evaluating the Efficacy of a Double Immunotherapy Combined With Olaparib in Patients With Solid Cancers and Carriers of Homologous Recombination Repair Genes After Olaparib Treatment (GUIDE2REPAIR)"
+        }
+    ],
+    "refer": [
+        {
+            "authors": "Hiroyuki Yamamoto,Kohzoh Imai",
+            "date": "(2015)",
+            "journal": "Arch Toxicol",
+            "pmid": "[PMID:25701956]",
+            "title": "Microsatellite instability: an update.",
+            "vol": "89(6):899-921."
+        },
+        {
+            "authors": "Timothy M Pawlik,Chandrajit P Raut,Miguel A Rodriguez-Bigas",
+            "date": "(2004)",
+            "journal": "Dis Markers",
+            "pmid": "[PMID:15528785]",
+            "title": "Colorectal carcinogenesis: MSI-H versus MSI-L.",
+            "vol": "20(4-5):199-206."
+        },
+        {
+            "authors": "Solange Peters,D Ross Camidge,Alice T Shaw,et al.",
+            "date": "(2017)",
+            "journal": "N Engl J Med",
+            "pmid": "[PMID:28586279]",
+            "title": "Alectinib versus Crizotinib in Untreated ALK-Positive Non-Small-Cell Lung Cancer.",
+            "vol": "377(9):829-838."
+        },
+        {
+            "authors": "Yunpeng Yang,Jianya Zhou,Jianying Zhou,et al.",
+            "date": "(2020)",
+            "journal": "Lancet Respir Med",
+            "pmid": "[PMID:31628085]",
+            "title": "Efficacy, safety, and biomarker analysis of ensartinib in crizotinib-resistant, ALK-positive non-small-cell lung cancer: a multicentre, phase 2 trial.",
+            "vol": "8(1):45-53."
+        },
+        {
+            "authors": "Alice T Shaw,Luc Friboulet,Ignaty Leshchiner,et al.",
+            "date": "(2016)",
+            "journal": "N Engl J Med",
+            "pmid": "[PMID:26698910]",
+            "title": "Resensitization to Crizotinib by the Lorlatinib ALK Resistance Mutation L1198F.",
+            "vol": "374(1):54-61."
+        },
+        {
+            "authors": "Hisashi Tanaka,Akihito Hayashi,Takeshi Morimoto,et al.",
+            "date": "(2012)",
+            "journal": "BMC Cancer",
+            "pmid": "[PMID:23181703]",
+            "title": "A case of lung adenocarcinoma harboring EGFR mutation and EML4-ALK fusion gene.",
+            "vol": "12:558."
+        },
+        {
+            "authors": "Alison C Johnson,Pascal Dô,Nicolas Richard,et al.",
+            "date": "(2016)",
+            "journal": "Lung Cancer",
+            "pmid": "[PMID:27565911]",
+            "title": "Identification of I1171N resistance mutation in ALK-positive non-small-cell lung cancer tumor sample and circulating tumor DNA.",
+            "vol": "99:38-40."
+        },
+        {
+            "authors": "Ryohei Katayama,Luc Friboulet,Sumie Koike,et al.",
+            "date": "(2014)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:25228534]",
+            "title": "Two novel ALK mutations mediate acquired resistance to the next-generation ALK inhibitor alectinib.",
+            "vol": "20(22):5686-96."
+        },
+        {
+            "authors": "Sai-Hong Ou,Jeffrey C Milliken,Michele C Azada,et al.",
+            "date": "(2016)",
+            "journal": "Lung Cancer",
+            "pmid": "[PMID:26464158]",
+            "title": "ALK F1174V mutation confers sensitivity while ALK I1171 mutation confers resistance to alectinib. The importance of serial biopsy post progression.",
+            "vol": "91:70-2."
+        },
+        {
+            "authors": "Gouji Toyokawa,Eiko Inamasu,Shinichiro Shimamatsu,et al.",
+            "date": "(2015)",
+            "journal": "J Thorac Oncol",
+            "pmid": "[PMID:26134233]",
+            "title": "Identification of a Novel ALK G1123S Mutation in a Patient with ALK-rearranged Non-small-cell Lung Cancer Exhibiting Resistance to Ceritinib.",
+            "vol": "10(7):e55-7."
+        },
+        {
+            "authors": "Sandeep Kodityal,Julia A Elvin,Rachel Squillace,et al.",
+            "date": "(2016)",
+            "journal": "Lung Cancer",
+            "pmid": "[PMID:26775591]",
+            "title": "A novel acquired ALK F1245C mutation confers resistance to crizotinib in ALK-positive NSCLC but is sensitive to ceritinib.",
+            "vol": "92:19-21."
+        },
+        {
+            "authors": "Nishan Tchekmedyian,Siraj M Ali,Vincent A Miller,et al.",
+            "date": "(2016)",
+            "journal": "J Thorac Oncol",
+            "pmid": "[PMID:27091190]",
+            "title": "Acquired ALK L1152R Mutation Confers Resistance to Ceritinib and Predicts Response to Alectinib.",
+            "vol": "11(7):e87-8."
+        },
+        {
+            "authors": "Jessica J Lin,Viola W Zhu,Adam J Schoenfeld,et al.",
+            "date": "(2018)",
+            "journal": "J Thorac Oncol",
+            "pmid": "[PMID:29935304]",
+            "title": "Brigatinib in Patients With Alectinib-Refractory ALK-Positive NSCLC.",
+            "vol": "13(10):1530-1538."
+        },
+        {
+            "authors": "Helen Y Zou,Luc Friboulet,David P Kodack,et al.",
+            "date": "(2015)",
+            "journal": "Cancer Cell",
+            "pmid": "[PMID:26144315]",
+            "title": "PF-06463922, an ALK/ROS1 Inhibitor, Overcomes Resistance to First and Second Generation ALK Inhibitors in Preclinical Models.",
+            "vol": "28(1):70-81."
+        },
+        {
+            "authors": "Justin F Gainor,Leila Dardaei,Satoshi Yoda,et al.",
+            "date": "(2016)",
+            "journal": "Cancer Discov",
+            "pmid": "[PMID:27432227]",
+            "title": "Molecular Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in ALK-Rearranged Lung Cancer.",
+            "vol": "6(10):1118-1133."
+        },
+        {
+            "authors": "Johannes M Heuckmann,Michael Hölzel,Martin L Sos,et al.",
+            "date": "(2011)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:21948233]",
+            "title": "ALK mutations conferring differential resistance to structurally diverse ALK inhibitors.",
+            "vol": "17(23):7394-401."
+        },
+        {
+            "authors": "Alexander Drilon,Sai-Hong Ignatius Ou,Byoung Chul Cho,et al.",
+            "date": "(2018)",
+            "journal": "Cancer Discov",
+            "pmid": "[PMID:30093503]",
+            "title": "Repotrectinib (TPX-0005) Is a Next-Generation ROS1/TRK/ALK Inhibitor That Potently Inhibits ROS1/TRK/ALK Solvent- Front Mutations.",
+            "vol": "8(10):1227-1236."
+        },
+        {
+            "authors": "Gaëlle Pérot,Isabelle Soubeyran,Agnès Ribeiro,et al.",
+            "date": "(2014)",
+            "journal": "PLoS One",
+            "pmid": "[PMID:24475247]",
+            "title": "Identification of a recurrent STRN/ALK fusion in thyroid carcinomas.",
+            "vol": "9(1):e87170."
+        },
+        {
+            "authors": "Eva Lin,Li Li,Yinghui Guan,et al.",
+            "date": "(2009)",
+            "journal": "Mol Cancer Res",
+            "pmid": "[PMID:19737969]",
+            "title": "Exon array profiling detects EML4-ALK fusion in breast, colorectal, and non-small cell lung cancers.",
+            "vol": "7(9):1466-76."
+        },
+        {
+            "authors": "Marc Pollmann,Reza Parwaresch,Sabine Adam-Klages,et al.",
+            "date": "(2006)",
+            "journal": "Exp Cell Res",
+            "pmid": "[PMID:16890222]",
+            "title": "Human EML4, a novel member of the EMAP family, is essential for microtubule formation.",
+            "vol": "312(17):3241-51."
+        },
+        {
+            "authors": "Manabu Soda,Young Lim Choi,Munehiro Enomoto,et al.",
+            "date": "(2007)",
+            "journal": "Nature",
+            "pmid": "[PMID:17625570]",
+            "title": "Identification of the transforming EML4-ALK fusion gene in non-small-cell lung cancer.",
+            "vol": "448(7153):561-6."
+        },
+        {
+            "authors": "Ying Li,Yongwen Li,Tong Yang,et al.",
+            "date": "(2013)",
+            "journal": "PLoS One",
+            "pmid": "[PMID:23341890]",
+            "title": "Clinical significance of EML4-ALK fusion gene and association with EGFR and KRAS gene mutations in 208 Chinese patients with non-small cell lung cancer.",
+            "vol": "8(1):e52093."
+        },
+        {
+            "authors": "Federica Panebianco,Alyaksandr V Nikitski,Marina N Nikiforova,et al.",
+            "date": "(2019)",
+            "journal": "Endocr Relat Cancer",
+            "pmid": "[PMID:31539879]",
+            "title": "Characterization of thyroid cancer driven by known and novel ALK fusions.",
+            "vol": "26(11):803-814."
+        },
+        {
+            "authors": "Gahee Park,Tae Hyuk Kim,Hae-Ock Lee,et al.",
+            "date": "(2015)",
+            "journal": "Endocr Relat Cancer",
+            "pmid": "[PMID:25527510]",
+            "title": "Standard immunohistochemistry efficiently screens for anaplastic lymphoma kinase rearrangements in differentiated thyroid cancer.",
+            "vol": "22(1):55-63."
+        },
+        {
+            "authors": "André Uchimura Bastos,Ana Carolina de Jesus,Janete Maria Cerutti",
+            "date": "(2018)",
+            "journal": "Eur J Endocrinol",
+            "pmid": "[PMID:29046324]",
+            "title": "",
+            "vol": "178(1):83-91."
+        },
+        {
+            "authors": "Marina N Nikiforova,Stephanie Mercurio,Abigail I Wald,et al.",
+            "date": "(2018)",
+            "journal": "Cancer",
+            "pmid": "[PMID:29345728]",
+            "title": "Analytical performance of the ThyroSeq v3 genomic classifier for cancer diagnosis in thyroid nodules.",
+            "vol": "124(8):1682-1690."
+        },
+        {
+            "authors": "Benjamin J Solomon,Todd M Bauer,Filippo de Marinis,et al.",
+            "date": "(2021)",
+            "journal": "Future Oncol",
+            "pmid": "[PMID:34585621]",
+            "title": "Plain language summary of the CROWN study comparing lorlatinib with crizotinib for people with untreated non-small cell lung cancer.",
+            "vol": "17(34):4649-4656."
+        },
+        {
+            "authors": "Mangeng Cheng,Matthew R Quail,Diane E Gingrich,et al.",
+            "date": "(2012)",
+            "journal": "Mol Cancer Ther",
+            "pmid": "[PMID:22203728]",
+            "title": "CEP-28122, a highly potent and selective orally active inhibitor of anaplastic lymphoma kinase with antitumor activity in experimental models of human cancers.",
+            "vol": "11(3):670-9."
+        },
+        {
+            "authors": "S W Morris,M N Kirstein,M B Valentine,et al.",
+            "date": "(1994)",
+            "journal": "Science",
+            "pmid": "[PMID:8122112]",
+            "title": "Fusion of a kinase gene, ALK, to a nucleolar protein gene, NPM, in non-Hodgkin's lymphoma.",
+            "vol": "263(5151):1281-4."
+        },
+        {
+            "authors": "Young Lim Choi,Kengo Takeuchi,Manabu Soda,et al.",
+            "date": "(2008)",
+            "journal": "Cancer Res",
+            "pmid": "[PMID:18593892]",
+            "title": "Identification of novel isoforms of the EML4-ALK transforming gene in non-small cell lung cancer.",
+            "vol": "68(13):4971-6."
+        }
+    ],
+    "therapeutic_regimen": [
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90135a64737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": null,
+                    "drug_name": "Cep-28122",
+                    "regimen_code": "a045fedc737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Cep-28122",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20:",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92d77604737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An orally available inhibitor of multiple kinases, including the receptor tyrosine kinase anaplastic lymphoma kinase (ALK), c-ros oncogene 1 (ROS1), the neurotrophic tyrosine receptor kinase (NTRK) types 1, 2 and 3, the proto-oncogene SRC, and focal adhesion kinase (FAK), with potential antineoplastic activity. Upon oral administration, repotrectinib binds to and inhibits wild-type, point mutants and fusion proteins of ALK, ROS1, NTRK1-3, SRC, FAK and, to a lesser extent, other kinases. Inhibition of these kinases leads to the disruption of downstream signaling pathways and the inhibition of cell growth of tumors in which these kinases are overexpressed, rearranged or mutated.",
+                    "drug_name": "Repotrectinib",
+                    "regimen_code": "aa371480737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Repotrectinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20:",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "NMPA批准恩沙替尼用于此前接受过克唑替尼治疗后进展或对克唑替尼不耐受的ALK阳性、局部晚期或转移性NSCLC患者的治疗。\n"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NMPA"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "9096b594737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "恩沙替尼是一种酪氨酸激酶间变性淋巴瘤激酶（ALK）小分子抑制剂，具有潜在的抗肿瘤活性。恩沙替尼结合并抑制ALK从而使ALK介导的信号传导中断，最终抑制ALK表达肿瘤细胞的肿瘤细胞生长。体外细胞学研究中，相比一代ALK抑制剂克唑替尼，在抑制ALK阳性肺癌细胞系的生长能力方面，恩沙替尼是克唑替尼的10倍。对于导致克唑替尼耐药的L1196M和C1156Y突变，恩沙替尼也表现出较强的抑制活性。",
+                    "drug_mechanism_en": "An orally available small molecule inhibitor of the receptor tyrosine kinase anaplastic lymphoma kinase (ALK) with potential antineoplastic activity. Upon oral administration, ensartinib binds to and inhibits ALK kinase, ALK fusion proteins and ALK point mutation variants. Inhibition of ALK leads to the disruption of ALK-mediated signaling and eventually inhibits tumor cell growth in ALK-expressing tumor cells. ALK belongs to the insulin receptor superfamily and plays an important role in nervous system development. ALK is not expressed in healthy adult human tissue but ALK dysregulation and gene rearrangements are associated with a series of tumors; ALK mutations are associated with acquired resistance to small molecule tyrosine kinase inhibitors.",
+                    "drug_name": "恩沙替尼;Ensartinib",
+                    "regimen_code": "a2869ae4737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "恩沙替尼",
+            "regimen_en": "Ensartinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20:",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准阿来替尼用于ALK阳性的转移性非小细胞肺癌患者的治疗。",
+                "NMPA批准阿来替尼用于ALK阳性的局部晚期或转移性非小细胞肺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN",
+                "NMPA",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8ea27160737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Alectinib是靶向ALK和RET的酪氨酸激酶抑制剂。 在非临床研究中，Alectinib抑制ALK磷酸化和ALK介导的下游信号蛋白STAT3和AKT的活化，并降低携带ALK融合，扩增或激活突变的多种细胞系中肿瘤细胞的活力。 Alectinib的主要活性代谢产物M4表现出相似的体外效价和活性。\nAlectinib和M4表现出针对多种ALK酶突变形式的体外和体内活性，包括在克唑替尼进展的NSCLC肿瘤患者中发现的一些突变。在植入了携带ALK融合蛋白的肿瘤的小鼠模型中，施用Alectinib可产生抗肿瘤活性并延长生存期，包括在植入ALK驱动的肿瘤细胞系的小鼠模型中。",
+                    "drug_mechanism_en": "An orally available inhibitor of the receptor tyrosine kinase anaplastic lymphoma kinase (ALK) with antineoplastic activity. Upon administration, alectinib binds to and inhibits ALK kinase, ALK fusion proteins as well as the gatekeeper mutation ALKL1196M known as one of the mechanisms of acquired resistance to small-molecule kinase inhibitors. The inhibition leads to disruption of ALK-mediated signaling and eventually inhibits tumor cell growth in ALK-overexpressing tumor cells. ALK belongs to the insulin receptor superfamily and plays an important role in nervous system development. ALK dysregulation and gene rearrangements are associated with a series of tumors.",
+                    "drug_name": "阿来替尼;Alectinib",
+                    "regimen_code": "9aa2b088737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "阿来替尼",
+            "regimen_en": "Alectinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20:",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "NMPA批准布格替尼用于治疗ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                "FDA批准布格替尼用于治疗ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN",
+                "NMPA",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8fdb6884737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "布格替尼是一种酪氨酸激酶抑制剂，在临床可达浓度下具有抗多种激酶（包括ALK、ROS1、胰岛素样生长因子-1受体（IGF-1R）、FLT-3）以及EGFR缺失和点突变的体外活性。体外和体内实验显示，布格替尼可抑制ALK的自磷酸化与ALK介导的下游信号蛋白STAT3、AKT、ERK1/2和S6的磷酸化。布格替尼还可抑制EML4-ALK和NPM-ALK融合蛋白表达细胞系的体外增殖，并且剂量依赖性抑制EML4-ALK阳性非小细胞肺癌（NSCLC）异种移植小鼠的生长。在临床可达浓度（≤500 nM）下，布格替尼可体外抑制表达EML4-ALK、17种与ALK抑制剂（包括crizotinib）耐药性相关突变或EGFR  Del（E746-A750）、ROS1-L2026M、FLT3-F691L、FLT3-D835Y突变型细胞的活性。布格替尼针对4种EML4-ALK突变型表现出体内抗肿瘤活性，包括在使用crizotinib后疾病进展的NSCLC肿瘤中发现的G1202R和L1196M突变型。布格替尼还可减轻ALK驱动肿瘤细胞颅内移植小鼠的肿瘤负担，并延长的存活时间。",
+                    "drug_mechanism_en": "An orally available inhibitor of receptor tyrosine kinases anaplastic lymphoma kinase (ALK) and the epidermal growth factor receptor (EGFR) with potential antineoplastic activity. Brigatinib binds to and inhibits ALK kinase and ALK fusion proteins as well as EGFR and mutant forms. This leads to the inhibition of ALK kinase and EGFR kinase, disrupts their signaling pathways and eventually inhibits tumor cell growth in susceptible tumor cells. In addition, AP26113 appears to overcome mutation-based resistance. ALK belongs to the insulin receptor superfamily and plays an important role in nervous system development; ALK dysregulation and gene rearrangements are associated with a series of tumors. EGFR is overexpressed in a variety of cancer cell types.",
+                    "drug_name": "布格替尼;Brigatinib",
+                    "regimen_code": "9f56b3a4737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "布格替尼",
+            "regimen_en": "Brigatinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20:",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准塞瑞替尼用于克唑替尼治疗后进展或不耐受的ALK阳性转移性非小细胞肺癌患者的治疗。",
+                "NMPA批准塞瑞替尼用于ALK阳性的成人转移性非小细胞肺癌患者的治疗。",
+                "FDA批准塞瑞替尼用于ALK阳性的成人转移性非小细胞肺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN",
+                "NMPA",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90151b10737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "塞瑞替尼是一种激酶抑制剂。生化、细胞试验显示塞瑞替尼在临床相关浓度下可抑制的靶点包括ALK、胰岛素样生长因子-1受体（IGF-1R）、胰岛素受体（InsR）和ROS1。其中，塞瑞替尼对ALK的抑制最为有效。体外和体内试验显示塞瑞替尼可抑制ALK的自磷酸化、ALK介导下游信号蛋白STAT3的磷酸化和ALK依赖性癌细胞的增殖。塞瑞替尼可抑制表达EML4-ALK和NPM-ALK融合蛋白的细胞株的体外增殖，并剂量依赖性抑制小鼠和大鼠EML4-ALK阳性非小细胞肺癌（NSCLC）异种移植瘤的生长。 在克唑替尼耐药的EML4-ALK阳性NSCLC异种移植小鼠模型中，赛瑞替尼在临床相关范围内的浓度下呈现出剂量依赖性的抗肿瘤活性。",
+                    "drug_mechanism_en": "An orally available inhibitor of the receptor tyrosine kinase activity of anaplastic lymphoma kinase (ALK) with antineoplastic activity. Upon administration, ceritinib binds to and inhibits wild-type ALK kinase, ALK fusion proteins and ALK point mutation variants. Inhibition of ALK leads to both the disruption of ALK-mediated signaling and the inhibition of cell growth in ALK-overexpressing tumor cells. ALK belongs to the insulin receptor superfamily and plays an important role in nervous system development. ALK dysregulation and gene rearrangements are associated with a variety of tumor cell types.",
+                    "drug_name": "塞瑞替尼;Ceritinib",
+                    "regimen_code": "a04d30f8737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "塞瑞替尼",
+            "regimen_en": "Ceritinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20:",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准克唑替尼用于ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                "FDA批准克唑替尼用于ROS1阳性的转移性非小细胞肺癌患者。",
+                "FDA批准克唑替尼用于治疗ALK阳性的复发/难治性全身性间变性大细胞淋巴瘤(ALCL)1岁以上儿童和成年患者的治疗。",
+                "NMPA批准克唑替尼用于ROS1阳性晚期非小细胞肺癌患者的治疗。",
+                "NMPA批准克唑替尼用于ALK阳性的局部晚期或转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                "FDA批准克唑替尼用于不可切除、复发性或难治性ALK阳性炎症性肌纤维母细胞瘤成人和1岁以上的儿童患者。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved crizotinib for adult and pediatric patients 1 year of age and older with unresectable, recurrent, or refractory inflammatory anaplastic lymphoma kinase (ALK)-positive myofibroblastic tumors (IMT)."
+            ],
+            "approval_organization": [
+                "NCCN",
+                "NMPA",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "903801ac737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "克唑替尼是一种受体酪氨酸激酶抑制剂，可抑制包括ALK、肝细胞生长因子受体（HGFR，c-Met）、ROS1（c-ros）和Recepteur d'Origine Nantais（RON）等受体酪氨酸激酶的活性。染色体易位可以影响ALK基因，导致癌基因融合蛋白的表达。ALK融合蛋白的形成导致基因表达和信号的失活和失调，这有助于提高表达这些蛋白的肿瘤细胞的增殖和存活率。克唑替尼在使用肿瘤细胞系的细胞分析中显示出对ALK、ROS1和c-Met磷酸化的浓度依赖性抑制作用，并且在表达EML4-ALK或NPM-ALK融合蛋白或c-Met的肿瘤异种移植小鼠模型中显示出抗肿瘤活性。",
+                    "drug_mechanism_en": "An orally available aminopyridine-based inhibitor of the receptor tyrosine kinase anaplastic lymphoma kinase (ALK) and the c-Met/hepatocyte growth factor receptor (HGFR) with antineoplastic activity. Crizotinib, in an ATP-competitive manner, binds to and inhibits ALK kinase and ALK fusion proteins. In addition, crizotinib inhibits c-Met kinase, and disrupts the c-Met signaling pathway. Altogether, this agent inhibits tumor cell growth. ALK belongs to the insulin receptor superfamily and plays an important role in nervous system development. ALK dysregulation and gene rearrangements are associated with a series of tumors.",
+                    "drug_name": "克唑替尼;Crizotinib",
+                    "regimen_code": "a0c4b3ee737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "克唑替尼",
+            "regimen_en": "Crizotinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20:",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准洛拉替尼用于以下几种治疗方案治疗后进展的ALK阳性的转移性非小细胞肺癌患者：1）克唑替尼及至少1种其他ALK抑制剂治疗；2）阿来替尼作为一线治疗；3）塞瑞替尼作为一线治疗。",
+                "FDA批准洛拉替尼用于ALK阳性的转移性非小细胞肺癌成年患者的治疗。",
+                "NMPA批准洛拉替尼单药用于间变性淋巴瘤激酶（ALK）阳性的局部晚期或转移性非小细胞肺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN",
+                "NMPA",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "91818006737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Lorlatinib（洛拉替尼）是一种激酶抑制剂，对ALK和ROS1以及TYK1，FER，FPS，TRKA，TRKB，TRKC，FAK，FAK2和ACK具有体外活性。 洛拉替尼在体外表现出针对多种突变形式的ALK酶的活性，包括在克唑替尼和其他ALK抑制剂疾病进展时在肿瘤中检测到的某些突变。 在皮下植入了带有ALK变体1或ALK突变的EML4融合蛋白的肿瘤的小鼠，其中包括在疾病进展时在ALK抑制剂上在肿瘤中检测到的G1202R和I1171T突变，施用洛拉替尼会产生抗肿瘤活性。 洛拉替尼还显示出在颅内植入EML4-ALK驱动的肿瘤细胞系的小鼠中的抗肿瘤活性和延长的生存期。 洛拉替尼在体内模型中的总体抗肿瘤活性是剂量依赖性的，并且与ALK磷酸化的抑制作用有关。",
+                    "drug_mechanism_en": "An orally available, ATP-competitive inhibitor of the receptor tyrosine kinases, anaplastic lymphoma kinase (ALK) and C-ros oncogene 1 (Ros1), with potential antineoplastic activity. Upon administration, lorlatinib binds to and inhibits both ALK and ROS1 kinases. The kinase inhibition leads to disruption of ALK- and ROS1-mediated signaling and eventually inhibits tumor cell growth in ALK- and ROS1-overexpressing tumor cells. In addition, PF-06463922 is able to cross the blood brain barrier. ALK belongs to the insulin receptor superfamily and plays an important role in nervous system development; ALK dysregulation and gene rearrangements are associated with a series of tumors. ROS1, overexpressed in certain cancer cells, plays a key role in cell growth and survival of cancer cells.",
+                    "drug_name": "洛拉替尼;Lorlatinib",
+                    "regimen_code": "a5bce718737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "洛拉替尼",
+            "regimen_en": "Lorlatinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20:",
+            "var": [
+                {
+                    "gene_symbol": "ALK",
+                    "hgvs": "EML4:NM_019063.4:exon20-ALK:NM_004304.4:exon20",
+                    "five_prime_gene": "EML4",
+                    "five_prime_transcript": "NM_019063.4",
+                    "five_prime_region": "exon20",
+                    "three_prime_gene": "ALK",
+                    "three_prime_transcript": "NM_004304.4",
+                    "three_prime_region": "exon20"
+                }
+            ]
+        }
+    ]
+}

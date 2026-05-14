@@ -1,0 +1,3907 @@
+{
+    "sample_info": {
+        "order_id": "A0233236",
+        "sample_parent_id": "24082329",
+        "sample_id": "24082329B001P01D01",
+        "control_sample_id": "24082329B001W01D01",
+        "rna_sample_id": null,
+        "patient_name": "齐桂兰",
+        "gender": "女",
+        "age": "68",
+        "sample_type": "石蜡玻片,全血",
+        "control_sample_type": null,
+        "sample_amount": "3片,1管",
+        "control_sample_amount": null,
+        "tumor_type": "肺腺癌",
+        "pathol_diagn": "肺腺癌",
+        "tumor_names_cn": "肺腺癌",
+        "pathological_id": "2455907",
+        "company": "哈尔滨医科大学附属肿瘤医院（黑龙江省肿瘤医院）",
+        "origin_company": "哈尔滨医科大学附属肿瘤医院（黑龙江省肿瘤医院）-SF",
+        "report_number": "CF2408792",
+        "hosp_depart": null,
+        "prod_names": "Pan116（血液）-胰腺",
+        "prod_ids": "8",
+        "report_module_type": "clinical",
+        "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+        "mark": "报告不体现送检医院  报告一起邮寄 不需要发票  116组织该做116血液 600元已补",
+        "tumor_content": "10%",
+        "sample_position": "肺",
+        "sample_position_id": "336",
+        "family_history": " ",
+        "molecular_number": null,
+        "blood_collection_date": "2024-09-03 00:00:00",
+        "gather_data": "2024-08-21 00:00:00",
+        "receive_data": "2024-09-06 09:06:36",
+        "report_data": "2024-09-12",
+        "id_number": null,
+        "bed_number": null,
+        "doctor": null,
+        "phone": null,
+        "clinical_diagnosis": null,
+        "barcode_number": null,
+        "sampling_time": null,
+        "submission_time": null,
+        "registration_certificate": null,
+        "outpatient_hospitalization_no": null,
+        "submission_department": null,
+        "submission_doctor": null,
+        "fasting_time": null,
+        "time_since_last_chemotherapy": null,
+        "time_from_blood_collection_to_plasma_separation": null,
+        "application_date": null,
+        "submission_date": null,
+        "mol_pathological_id": null,
+        "disease_area": null,
+        "hospital_area": null,
+        "physical_examination_number": null,
+        "test_kit": null,
+        "test_method": null,
+        "test_instrument": null,
+        "analysis_software": null,
+        "test_laboratory": null,
+        "sampling_sites": null,
+        "outpatient_service_no": null,
+        "hospitalization_no": null,
+        "application_department": null,
+        "hospital_area_and_physical_examination_no": null,
+        "tissue_collection_date": null,
+        "serial_number": null,
+        "original_pathological_id": null,
+        "application_number": null,
+        "medical_record_number": null,
+        "inspection_number": null,
+        "analysis_date": null,
+        "analysis_version": null,
+        "health_card_number": null,
+        "patient_phonenumber": null,
+        "tester": null,
+        "interpreter": null,
+        "auditor": null,
+        "tumor_list": [
+            "肺腺癌",
+            "非鳞非小细胞肺癌",
+            "非小细胞肺癌",
+            "肺癌"
+        ]
+    },
+    "snvindel": [
+        {
+            "gene_symbol": "BCL2L11",
+            "transcript_primary": "NM_138621.5",
+            "hgvs_c": "c.394+1479_394+4381del",
+            "hgvs_p": "p.?",
+            "hgvs_p_abbr": "",
+            "chr": "chr2",
+            "start": "111883195",
+            "end": "111886097",
+            "ref": "GGCAGGCCTTTGCCCATGTTATAGAATTGGAAAGAACCTCAGAGTGGTGGTCACTTGTCAGAGGTTGGGCACACCTGTGAGGTGGTGGGGAGAAATGACAGACATCCCAGCAGCTACACATGCTGGCTGCACGTCTCTTGCCAAATGCCAGGAGGTAATTTTTTAGGGTCCCTCCTTAGGGAAAGGGGCTGGAAGTTTTATTATTGCTGTTACTACTGCTCGTGAACTCATTTCAGCCTTAGAAGTTCTTGGCTTGTAGTTTTTGTTGTACTCATGAAAATGCTCCCCCATATATATGATCATTCTCGCTTACTATAACATCCTTGCTTACTAAATGAGTTAACAGGGCTTTATGGTGTGTATCGTGAAACACACGTGCATTAAAGACCCTCTGGAAGGTATTAGCTTTTCACACTTTCACAACAAAAGCTTCACACTTGTGGTTATTAAGCTATTTTCTCTAACCAGTTCCCTTTCAAGCAAAATGCATACATTGGTCTCTGTAGGTGATGGGTTAATGCATGGAAATAGTTTCTCCTTCCCTGGAACTGGGAATAGTGGGTGAGATAGTGTATTTTTTAATGTAAAGACAGGCACAAATGCTTTTTTTGTTGATAAATACTATTTTACAAGCTAATTATAAGTTAAGCACTGTTACTTGAGATGAAATATACAGGGCTTCAAAGATCATAATCTAAATAATTATGCACAGCTAATGGTTATACCTGTGAAGTAAAGTAGTGGATCCTGAGGTGTAATTTTATAGTATTAGCTGCATTTCAGTAGATGGTGTGATGAAGAGTTTAATGCATAGGATTAAATGAGAAGTTACGAGGAGTTTGTTTAAAGTTAATGTACCGAGGTAAGTTTTCAGTGTTAAGTTTTTGGGAGATTTGTTTTGGGAGAGGATGAGTTGGGGTTGGGGGAGGAAAGGACTTAGCCAGATGTGAGTTTCTTAAATTGAAGCATAAAATTTACAATTTATGTAGTCCATAATTTTCTCTGGACATTCTACAGTCTTAGTTCATGCCTGAAGACCACTGAAATAATGCTGAGTTGATAAGTGGTTCTCTTGACTTTGTTTAGTATTCTTTACTCAACCCTATCCATGAAGTTCTTCAATGAAGCTTTTGATAATTTATTGCAAAATACATTTTCCACAAAGAAGTCATTATGATTGGTTTGAACTAGTGGAACACAAATGTGAGGTTATAAAGAGGTTCGCCTTAGCCAGGGGCTCCTTTAGCTGCAAAGCAGTTTTTTGCTCAGCAACTTGGGGTAGAGATCAGTGTGTCTTGAAGTTTTGTTTTGCAAAACTTTGTTCTAATGAGAAAGTCAAGTCTTAGGAGGAATGTATAGTAGTTGAGTGTTTGTATTAACACTGTTTTCATATTTTCCTTTTATGTCTCTGATTTTTCTGAAGACAAGTTCAAGGAATATATTTCTCTGTGGGGCAACAGATACAGTTTTTTCACTTTTCCTCAATTTTAGTCTCCTTACACTCTGGGAGGATTAACTTGACAAATGATACCTTAGTGAATAACTGATTATTTTTATCAAAATCACTCACATGTGTTGGTTTACTGAGTGCCTTTTTGGATGAGTGTTTTATGCCATATGTGTTTTTAATGGAAATTAAAGTGTAGTCAGTACACTAAAGTGTAGTCAGTACAATTGGAAATAAGAGTTGAGAAAAGTCAGGATATGGAGGAATGCTCCCTAGTGTCATGTTAGTAAATGTCTTAAATTTTATACTTGTTCCCTGGCACATTGGAATTCACAGATGGGAGTTAATGGCTTTCTTTTTTTTTTTTTTTTTTTCCTCAGCGTCTTGTGGGTACTTCTCTTATAGCTGGTACTTGTCTGACCCCTCCTTTAGTTTGTGAGCTCCCTGGGCGGGGAATAATGGCCTGCAGATGCTAGCGAGTGCCTGACAAAGAGGAGAAGCCCAGGAGATGTTGAGAGTCAGTCCAGCTCTGCCTGTTAGCCTTTCAGACAAATAAAGTTGAAGAAGGCAGGTAGCAAGAAAAAGATCCTGACCTCTGCTCTGCCAAAGTGTTTTTAATTACCTGGATCTAGCTGTAAGGTTTGCCACGTAGTGGTGACAGCTGAGGTCTAGCTCAGCACTACTCAGCAGGGAAGCCACACATGCATTAAGCACTTGACATAGGACTAGTCTGAACTGAGTTGTGCTGTCATTATTGATACACACTGGATTTTGAGGAGACAAAAAAGAATGCAAAATAGTTTAATTGTTTTCATATGGGTTACATGTTGAAATGGTGTTTTAAATATATAGGTTAAATAAAATATAAACTTGTATTGCAGTTAAACACAAAGCGTAAAATTTACCATCTGAACCATTTATTTCTAAGTGTACTGTTCAGTAGTGTTAAGTGCACTTATTTTGTTGTGCGGCCAATCTCCAGAACTTCTTCACCTTGCAAAACAGAAATTCTGTACTCATTAAACAACTCCCCATTTCCCCCTCCCCCCAGCTTCTGACAACCACCATTCTATTTTCTGTCTATTAATTTGACAACTTCAGATACCTTATATAAGTGAAATTTATATAGTATTTGCTCTTCCATGACAGGCTTATTTCACTTAGCGTAATGTCGTCAGGGTTCATTTATCTTGCAACATGTCAGAATTTCCTTCCTTTTTAAGGCTGAAGGTTGTTCCAGTGTGTGTATATCACATACTTCATTTATCCATTCATCCATCAGGAGATACTTGGGTTGCTTCCACTTTTTGGCTATTGTGAGTAGTGCTGCTATGAACATGGGTATGCAAATATCTTTTGGGGGATTCTGCTTTGAATTTTTTTGGATATATACTTGGAAGTGGAATTGCTGGATCATATGGTAATTCTATTTTTAATTTTTTGGGGAACCATCATG",
+            "alt": "-",
+            "gene_region": "intron2",
+            "freq": 0.31553,
+            "freq_case": 0.31553,
+            "freq_ctrl": 0.1762,
+            "freq_ss": 0.23625,
+            "freq_sc": 0.06667,
+            "freq_rc": 0.1762,
+            "type": "Intronic",
+            "tag": "HotSpot;PASS",
+            "igvplot": null,
+            "depth": 9511.0,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "sample_id": "24082329B001P01D01",
+            "order_code": "debded8669b711ef90170242ac120002",
+            "bio_category": "Snvindel",
+            "var_id": "51595e2a97f703a3a058329e38c5d44e",
+            "var_origin": "somatic",
+            "clinical_significance": "-",
+            "function_classification": "Uncertain",
+            "clinical_category": "Tier III",
+            "literature": "22426421,26271547,32508032,26767045,27926478,28717678",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "目前该变异的临床意义仍存在较大争议，有研究认为该变异与EGFR-TKI的耐药有关（PMID: 22426421, PMID: 27926478, PMID: 26767045），但也有一些与其矛盾的研究（PMID: 26271547, PMID: 28717678, PMID: 32508032），其中吴一龙团队2020年发表的文章表明该变异与一代、二代、三代EGFR TKIs治疗疗效受损没有关系（PMID: 32508032）。  ",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "目前该变异的临床意义仍存在较大争议，有研究认为该变异与EGFR-TKI的耐药有关（PMID: 22426421, PMID: 27926478, PMID: 26767045），但也有一些与其矛盾的研究（PMID: 26271547, PMID: 28717678, PMID: 32508032），其中吴一龙团队2020年发表的文章表明该变异与一代、二代、三代EGFR TKIs治疗疗效受损没有关系（PMID: 32508032）。  ",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "OP4",
+            "variant_desc_cn": "该变异为内含子区突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "OP4",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BCL2L11",
+                    "gene_region": "intron2",
+                    "hgvs_p_abbr": "",
+                    "hgvs_c": "c.394+1479_394+4381del",
+                    "hgvs_p": "p.?"
+                }
+            },
+            "gene_function": "BCL2L11，BCL2样11，是BCL2家族中激活细胞凋亡的程序化细胞死亡调节因子的一员（PMID:26405162）。BCL2L11的下调在包括淋巴瘤和结直肠癌在内的各种癌症中被发现（PMID:26405162），并且与非小细胞肺癌对酪氨酸激酶抑制剂治疗的耐药性有关（PMID:26325082）。"
+        },
+        {
+            "gene_symbol": "APC",
+            "transcript_primary": "NM_000038.6",
+            "hgvs_c": "c.4349G>C",
+            "hgvs_p": "p.R1450P",
+            "hgvs_p_abbr": "",
+            "chr": "chr5",
+            "start": "112175640",
+            "end": "112175640",
+            "ref": "G",
+            "alt": "C",
+            "gene_region": "exon16",
+            "freq": 0.4979,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.4939,
+            "freq_sc": 0.4835,
+            "freq_rc": 0.4719,
+            "type": "nonSynonymous_Substitution",
+            "tag": "Germline;IC;PASS;PW;WBC",
+            "igvplot": null,
+            "depth": 8281.0,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "sample_id": "24082329B001P01D01",
+            "order_code": "debded8669b711ef90170242ac120002",
+            "bio_category": "Snvindel",
+            "var_id": "d52ff2fc49d69f155e6a45d94982c114",
+            "var_origin": "germline",
+            "clinical_significance": "Likely benign",
+            "function_classification": "-",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异在gnomADe数据库EAS人群等位基因频率为0.00005440（1/18382），gnomADg、iJGVD数据库人群等位基因频率分别为0.00003187（1/31376）、0.0001381（15/108592），1000G、ExAC数据库无记录；ClinVar数据库报道为Uncertain significance（ID=921852，可靠度为两颗星）。基于剪接预测软件SpliceAI认为该变异不影响剪接；LOF机制是APC基因的主要致病机制，该变异位于β连环蛋白结合结构域前15个氨基酸（p.1021-p.1035）范围之外。",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "该变异在gnomADe数据库EAS人群等位基因频率为0.00005440（1/18382），gnomADg、iJGVD数据库人群等位基因频率分别为0.00003187（1/31376）、0.0001381（15/108592），1000G、ExAC数据库无记录；Cancer Hotspots、COSMIC数据库无记录。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "SBS1",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第1450位氨基酸由精氨酸突变为脯氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BS1;BP1",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "APC",
+                    "gene_region": "exon16",
+                    "hgvs_p_abbr": "",
+                    "hgvs_c": "c.4349G>C",
+                    "hgvs_p": "p.R1450P"
+                }
+            },
+            "gene_function": "APC基因属于抑癌基因，编码蛋白通过与β-catenin相互作用来抑制Wnt信号通路（PMID：11978510）。活性丧失时，激活Wnt信号通路，导致细胞增殖异常（PMID：8259511）。"
+        },
+        {
+            "gene_symbol": "TSC2",
+            "transcript_primary": "NM_000548.5",
+            "hgvs_c": "c.5058G>A",
+            "hgvs_p": "p.(Q1686=)",
+            "hgvs_p_abbr": "",
+            "chr": "chr16",
+            "start": "2137932",
+            "end": "2137932",
+            "ref": "G",
+            "alt": "A",
+            "gene_region": "exon39",
+            "freq": 0.4773,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.4858,
+            "freq_sc": 0.4925,
+            "freq_rc": 0.4108,
+            "type": "Synonymous_Substitution",
+            "tag": "Germline;IC;PASS;PW;WBC",
+            "igvplot": null,
+            "depth": 7879.0,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "sample_id": "24082329B001P01D01",
+            "order_code": "debded8669b711ef90170242ac120002",
+            "bio_category": "Snvindel",
+            "var_id": "009beb4e2a64616c3661cbf9502ac6b9",
+            "var_origin": "germline",
+            "clinical_significance": "Uncertain",
+            "function_classification": "-",
+            "clinical_category": "Tier III",
+            "literature": "",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomADe、iJGVD数据库人群等位基因频率分别为0.0001997（1/5008）、0.00001682（2/118920）、0.00002001（5/249848）、0.00006446（7/108602），gnomADg数据库无记录；ClinVar数据库报道为Benign/Likely benign（ID=486624，可靠度为两颗星）。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "该变异在1000G、iJGVD数据库人群等位基因频率分别为0.0001997（1/5008）、0.00007748（6/77442），ExAC、gnomADe数据库EAS人群等位基因频率分别为0.0001169（1/8556）、0.0001089（2/18368），gnomADg数据库无记录；Cancer Hotspots、COSMIC数据库无记录。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "OP4;SBP1",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BP4;PM2_Supporting",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "TSC2",
+                    "gene_region": "exon39",
+                    "hgvs_p_abbr": "",
+                    "hgvs_c": "c.5058G>A",
+                    "hgvs_p": "p.(Q1686=)"
+                }
+            },
+            "gene_function": "TSC2基因属于抑癌基因，编码蛋白可与TBC1D7和TSC1组成TSC复合物并利用其本身的GTP酶活性抑制RHEB的活性（PMID: 24714658），属于mTOR通路上关键的负调控因子。"
+        },
+        {
+            "gene_symbol": "SMARCA4",
+            "transcript_primary": "NM_003072.5",
+            "hgvs_c": "c.3216-18G>A",
+            "hgvs_p": "p.?",
+            "hgvs_p_abbr": "",
+            "chr": "chr19",
+            "start": "11138442",
+            "end": "11138442",
+            "ref": "G",
+            "alt": "A",
+            "gene_region": "intron23",
+            "freq": 0.4891,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.4828,
+            "freq_sc": 0.3333,
+            "freq_rc": 0.4538,
+            "type": "Intronic",
+            "tag": "Germline;IC;PASS;WBC",
+            "igvplot": null,
+            "depth": 7514.0,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "sample_id": "24082329B001P01D01",
+            "order_code": "debded8669b711ef90170242ac120002",
+            "bio_category": "Snvindel",
+            "var_id": "1614a228ca0acdae8c00370fb4c24f81",
+            "var_origin": "germline",
+            "clinical_significance": "Uncertain",
+            "function_classification": "-",
+            "clinical_category": "Tier III",
+            "literature": "",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomAD、iJGVD数据库无记录；ClinVar数据库报道为Likely benign（ID=2728887，可靠度为一颗星）。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "该变异在1000G、ExAC、gnomAD、iJGVD数据库无记录；Cancer Hotspots、COSMIC数据库无记录。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "OP4;SBP1",
+            "variant_desc_cn": "该变异为内含子区突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "BP4;PM2_Supporting",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "SMARCA4",
+                    "gene_region": "intron23",
+                    "hgvs_p_abbr": "",
+                    "hgvs_c": "c.3216-18G>A",
+                    "hgvs_p": "p.?"
+                }
+            },
+            "gene_function": "SMARCA4基因属于抑癌基因，编码ATP依赖性解旋酶，属于SWI/SNF染色质重构蛋白复合体的其中一个催化亚基（PMID: 21654818），通过染色质重塑来调节转录（PMID: 27413115）。在2021版胸部肿瘤WHO分类中，将携带SMARCA4突变的胸部肿瘤划分为一种新的肿瘤实体，称为“胸部SMARCA4缺陷未分化肿瘤（SMARCA4-UT）”。SMARCA4-UT是一种高级别恶性肿瘤，多呈侵袭性生长，预后差，通常对细胞毒性化疗无效（PMID: 3114851）。研究表明，在5%~10%的经典NSCLC以及部分甲状腺转录因子1(TTF-1)阴性的NEC(SCLC和LCNEC)存在SMARCA4的表达缺失（PMID: 38413251）。"
+        }
+    ],
+    "sv": [],
+    "cnv": [],
+    "cnv_file_path": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "ALK",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "EGFR",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "MET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "RET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用依托泊苷+铂类治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与 AA 或 AG 基因型患者相比，G/G基因型的患者使用铂类治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，C/G基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1517114",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "C8orf34",
+            "genotype": "C/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，G/G基因型的患者使用顺铂+吉西他滨治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "顺铂+吉西他滨",
+            "drug_name_en": "cisplatin and gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，G/C基因型的患者使用铂类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "G/C",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用铂类药物治疗时药物疗效较好（亚裔）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与CC或CT基因型患者相比，T/T基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7779029",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "SEMA3C",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，A/A基因型的患者使用吉西他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs2072671",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类治疗时疗效较差（但也有报道认为该基因型与生存期无关）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)7或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)6基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)6",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        },
+        {
+            "clin_anno_cn": "与 CG 和 GG 基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0,
+            "var_auto_result": "T"
+        }
+    ],
+    "PGx_analysis_result": [
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr8",
+            "start": "69389217",
+            "end": "69389217",
+            "genotype": "C/G",
+            "freq": "0.4292",
+            "gene_id": null,
+            "gene_symbol": "C8orf34",
+            "dbsnp": "rs1517114",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "1815"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "20915701",
+            "end": "20915701",
+            "genotype": "A/A",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "CDA",
+            "dbsnp": "rs2072671",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2599"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "20931474",
+            "end": "20931474",
+            "genotype": "G/G",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "CDA",
+            "dbsnp": "rs60369023",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2962"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr15",
+            "start": "51502844",
+            "end": "51502844",
+            "genotype": "A/C",
+            "freq": "0.5049",
+            "gene_id": null,
+            "gene_symbol": "CYP19A1",
+            "dbsnp": "rs4646",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3052"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "97915622",
+            "end": "97915622",
+            "genotype": "G/G",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs72549303",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3361"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "97981421",
+            "end": "97981421",
+            "genotype": "C/C",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs1801158",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3514"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "97981395",
+            "end": "97981395",
+            "genotype": "T/T",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs1801159",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3944"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "97770920",
+            "end": "97770920",
+            "genotype": "C/C",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs1801160",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2635"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "98205971",
+            "end": "98205974",
+            "genotype": "ATGA/ATGA",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs72549309",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2037"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "98157332",
+            "end": "98157332",
+            "genotype": "G/G",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs1801266",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2768"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "98348885",
+            "end": "98348885",
+            "genotype": "A/A",
+            "freq": "1.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs1801265",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2263"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "97564154",
+            "end": "97564154",
+            "genotype": "C/C",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs1801267",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2660"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "97544627",
+            "end": "97544627",
+            "genotype": "C/C",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs1801268",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2992"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "98058899",
+            "end": "98058899",
+            "genotype": "C/C",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs72549306",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2970"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "98039499",
+            "end": "98039499",
+            "genotype": "C/C",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs78060119",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2242"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "97981343",
+            "end": "97981343",
+            "genotype": "A/A",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs55886062",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3874"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "98045449",
+            "end": "98045449",
+            "genotype": "G/G",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs75017182",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2523"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "97547947",
+            "end": "97547947",
+            "genotype": "T/T",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs67376798",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3512"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "98165030",
+            "end": "98165030",
+            "genotype": "T/T",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs115232898",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3574"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "98348908",
+            "end": "98348908",
+            "genotype": "C/C",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs80081766",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2240"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "98165091",
+            "end": "98165091",
+            "genotype": "T/T",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs2297595",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3129"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "98039437",
+            "end": "98039437",
+            "genotype": "C/C",
+            "freq": "0.0004",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs61622928",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2315"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "97915624",
+            "end": "97915624",
+            "genotype": "A/A",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs17376848",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3421"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr11",
+            "start": "103418158",
+            "end": "103418158",
+            "genotype": "A/G",
+            "freq": "0.5159",
+            "gene_id": null,
+            "gene_symbol": "DYNC2H1",
+            "dbsnp": "rs716274",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2826"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr19",
+            "start": "45923653",
+            "end": "45923653",
+            "genotype": "G/G",
+            "freq": "1.0",
+            "gene_id": null,
+            "gene_symbol": "ERCC1",
+            "dbsnp": "rs11615",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "1893"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr5",
+            "start": "7870973",
+            "end": "7870973",
+            "genotype": "A/A",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "MTRR",
+            "dbsnp": "rs1801394",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2919"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr7",
+            "start": "80532112",
+            "end": "80532112",
+            "genotype": "T/T",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "SEMA3C",
+            "dbsnp": "rs7779029",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2694"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr9",
+            "start": "86909550",
+            "end": "86909550",
+            "genotype": "G/G",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "SLC28A3",
+            "dbsnp": "rs885004",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2585"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr9",
+            "start": "86900926",
+            "end": "86900926",
+            "genotype": "G/G",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "SLC28A3",
+            "dbsnp": "rs7853758",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2707"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr6",
+            "start": "160113872",
+            "end": "160113872",
+            "genotype": "A/A",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "SOD2",
+            "dbsnp": "rs4880",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "1338"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr2",
+            "start": "234665782",
+            "end": "234665782",
+            "genotype": "G/G",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "UGT1A1",
+            "dbsnp": "rs10929302",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "4076"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr3",
+            "start": "124456742",
+            "end": "124456742",
+            "genotype": "C/C",
+            "freq": "1.0",
+            "gene_id": null,
+            "gene_symbol": "UMPS",
+            "dbsnp": "rs1801019",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2867"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr3",
+            "start": "14187449",
+            "end": "14187449",
+            "genotype": "T/T",
+            "freq": "1.0",
+            "gene_id": null,
+            "gene_symbol": "XPC",
+            "dbsnp": "rs2228001",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2240"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr19",
+            "start": "44055726",
+            "end": "44055726",
+            "genotype": "T/C",
+            "freq": "0.5052",
+            "gene_id": null,
+            "gene_symbol": "XRCC1",
+            "dbsnp": "rs25487",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2702"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr19",
+            "start": "44057574",
+            "end": "44057574",
+            "genotype": "G/A",
+            "freq": "0.4714",
+            "gene_id": null,
+            "gene_symbol": "XRCC1",
+            "dbsnp": "rs1799782",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2346"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr7",
+            "start": "87138645",
+            "end": "87138645",
+            "genotype": "G/G",
+            "freq": "1.0",
+            "gene_id": null,
+            "gene_symbol": "ABCB1",
+            "dbsnp": "rs1045642",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "4927"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr7",
+            "start": "87160618",
+            "end": "87160618",
+            "genotype": "C/C",
+            "freq": "1.0",
+            "gene_id": null,
+            "gene_symbol": "ABCB1",
+            "dbsnp": "rs2032582",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "2683"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr22",
+            "start": "42526694",
+            "end": "42526694",
+            "genotype": "A/A",
+            "freq": "1.0",
+            "gene_id": null,
+            "gene_symbol": "CYP2D6",
+            "dbsnp": "rs1065852",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "5709"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "97915614",
+            "end": "97915614",
+            "genotype": "C/C",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "DPYD",
+            "dbsnp": "rs3918290",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3185"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr11",
+            "start": "67352689",
+            "end": "67352689",
+            "genotype": "A/A",
+            "freq": "0.0",
+            "gene_id": null,
+            "gene_symbol": "GSTP1",
+            "dbsnp": "rs1695",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3800"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr1",
+            "start": "11856378",
+            "end": "11856378",
+            "genotype": "G/A",
+            "freq": "0.5084000000000001",
+            "gene_id": null,
+            "gene_symbol": "MTHFR",
+            "dbsnp": "rs1801133",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3851"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr17",
+            "start": "7579472",
+            "end": "7579472",
+            "genotype": "G/C",
+            "freq": "0.4808",
+            "gene_id": null,
+            "gene_symbol": "TP53",
+            "dbsnp": "rs1042522",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "5277"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr2",
+            "start": "234669144",
+            "end": "234669144",
+            "genotype": "G/A",
+            "freq": "0.4855",
+            "gene_id": null,
+            "gene_symbol": "UGT1A1",
+            "dbsnp": "rs4148323",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3992"
+        },
+        {
+            "sample_id": "24082329B001P01D01",
+            "library_id": "24082329B001P01D01L01",
+            "bioinform_ver": null,
+            "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+            "var_auto_result": "T",
+            "flowcell_lane": "S250106781_1",
+            "chr": "chr2",
+            "start": "234668880",
+            "end": "234668893",
+            "genotype": "(TA)6/(TA)6",
+            "freq": "0.0128",
+            "gene_id": null,
+            "gene_symbol": "UGT1A1",
+            "dbsnp": "rs8175347",
+            "depth_total": null,
+            "depth_ss": null,
+            "depth_ds": null,
+            "depth_uniq": "3033"
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": [
+            {
+                "sample_id": "24082329B001P01D01",
+                "library_id": "24082329B001P01D01L01",
+                "bioinform_ver": null,
+                "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+                "data_auto_result": "T",
+                "flowcell_lane": "S250106781_1",
+                "match_ratio": 1.0,
+                "bardist": "100",
+                "residual_r1": 0.0,
+                "residual_r2": 0.0,
+                "cleandata_size": "15.18G",
+                "cleandata_gc_ratio": 0.479,
+                "cleandata_q20": 0.9773,
+                "cleandata_q30": 0.942,
+                "mapping_ratio": 0.9999,
+                "nonprope_ratio": 0.0009,
+                "lqreads_ratio": 0.0127,
+                "hqreads_ratio": 0.9638,
+                "read_ontarget_ratio": 0.627,
+                "base_ontarget_ratio": 0.5744,
+                "gc_ontarget_ratio": 0.4744,
+                "gc_offtarget_ratio": 0.4635,
+                "inssize_ontarget": 197.68,
+                "inssize_offtarget": 212.77,
+                "dup_ratio": 0.6485,
+                "cover_ratio": 0.9978,
+                "depth_mean": null,
+                "depth_ssbc": null,
+                "depth_dsbc": null,
+                "depth_median": null,
+                "depth_median_ssbc": 4954.0,
+                "depth_median_dsbc": 3634.0,
+                "uni20": null,
+                "reads_counts": null,
+                "unmatch_ratio": null,
+                "crossmatch_ratio": null,
+                "unassemble_ratio": null,
+                "judgment_ratio": null,
+                "depth_min": null,
+                "depth_max": null,
+                "depth_cv": null,
+                "depth_mean_rna": null,
+                "control_counts": null,
+                "uni20_ssbc": 0.9742,
+                "uni20_dsbc": 0.973,
+                "uni50": null,
+                "uni50_ssbc": 0.8674,
+                "uni50_dsbc": 0.8703,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "qc_type": null,
+                "depth_hotregion_ssbc": null,
+                "depth_rna_ctrl": null,
+                "mtxplot": "/var/www/html/report_backend/system_files/json_file/20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959/20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.svg",
+                "cellularity": null,
+                "ploidy": null,
+                "totaldata": "16.32G",
+                "totalreads": 108809034,
+                "alignedreads": 108794061,
+                "depth_mean_dsbc": 3464.45,
+                "depth_hotregion_dsbc": null,
+                "depth_mean_dsbc_hot": 4615.8887,
+                "depth_nonhotregion_dsbc": null,
+                "depth_mean_dsbc_nonhot": 3858.4404,
+                "depth_mean_ssbc": 4761.79,
+                "depth_mean_ssbc_hot": 6419.272,
+                "depth_nonhotregion_ssbc": null,
+                "depth_mean_ssbc_nonhot": 5326.1069,
+                "depth_mean_uniq": 6189.0498,
+                "depth_mean_uniq_hot": 7660.2729,
+                "depth_mean_uniq_nonhot": 6798.085,
+                "hotdepth_median_dsbc": null,
+                "depth_median_dsbc_hot": 4648.0,
+                "nonhotdepth_median_dsbc": null,
+                "depth_median_dsbc_nonhot": 4070.0,
+                "hotdepth_median_ssbc": null,
+                "depth_median_ssbc_hot": 6441.0,
+                "nonhotdepth_median_ssbc": null,
+                "depth_median_ssbc_nonhot": 5576.0,
+                "depth_median_uniq": 6574.0,
+                "hotdepth_median_uniq": null,
+                "depth_median_uniq_hot": 7674.0,
+                "nonhotdepth_median_uniq": null,
+                "depth_median_uniq_nonhot": 7084.0,
+                "uni20_uniq": 0.985,
+                "depth_hotregion_uni20": null,
+                "uni20_uniq_hot": 0.9994,
+                "depth_nonhotregion_uni20": null,
+                "uni20_uniq_nonhot": 0.983,
+                "uni50_uniq": 0.9135,
+                "depth_hotregion_uni50": null,
+                "uni50_uniq_hot": 0.9954,
+                "depth_nonhotregion_uni50": null,
+                "uni50_uniq_nonhot": 0.9576,
+                "depth_mean_hot": 7660.2729,
+                "depth_ssbc_hot": 6419.272,
+                "depth_dsbc_hot": 4615.8887,
+                "coverage_ratio_uniq_hot": null,
+                "coverage_ratio_ssbc_hot": null,
+                "coverage_ratio_dsbc_hot": null,
+                "coverage_ratio_uniq": null,
+                "coverage_ratio_ssbc": null,
+                "coverage_ratio_dsbc": null,
+                "cnv_uni": null,
+                "cnv_cv": null,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "depth_noise": null,
+                "scale_log_post_prob": null,
+                "bam_path": "/amoydx/analysis/20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0/24082329B001P01D01_24082329B001P01D01L01_S250106781_1/24082329B001P01D01_24082329B001P01D01L01_S250106781_1.ssbc.bam",
+                "bai_path": "/amoydx/analysis/20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0/24082329B001P01D01_24082329B001P01D01L01_S250106781_1/24082329B001P01D01_24082329B001P01D01L01_S250106781_1.ssbc.bam.bai",
+                "cnvplot": null,
+                "cnv_noise": null,
+                "cnv_pon": null,
+                "cnv_purity": null,
+                "cnv_ploidy": null,
+                "paired_ratio": null,
+                "paired_stat": "Paired",
+                "runstat": null,
+                "inssize_median": "170",
+                "raw_read_ontarget_ratio": "0.8173",
+                "raw_amp_rate": null,
+                "brca_cover_ratio": null,
+                "brca_depth_mean": null,
+                "brca_depth_median_ssbc": null,
+                "brca_depth_ssbc": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null,
+                "cn2_ratio": null,
+                "cn2_ratio_length": null,
+                "cs_bam_path": "/amoydx/analysis/20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0/24082329B001P01D01_24082329B001P01D01L01_S250106781_1/24082329B001P01D01_24082329B001P01D01L01_S250106781_1.fusion.bam",
+                "cs_bai_path": "/amoydx/analysis/20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0/24082329B001P01D01_24082329B001P01D01L01_S250106781_1/24082329B001P01D01_24082329B001P01D01L01_S250106781_1.fusion.bam.bai",
+                "raw_base_ontarget_ratio": "0.7655",
+                "depth_mean_raw": "23884.503358605944",
+                "paired_dist": "15.85",
+                "pairedratio": null,
+                "pairedstat": null,
+                "uniq_depth_median": null,
+                "raw_depth_mean": null,
+                "uniq_depth_min": null,
+                "brca_uni20": null,
+                "brca_depth_cv": null,
+                "snp_depth_ssbc": null,
+                "snp_depth_median_ssbc": null,
+                "snp_depth_mean": null,
+                "snp_uni20": null,
+                "snp_depth_cv": null,
+                "slpp": null,
+                "cn2_length_ratio": null,
+                "cover_uni20_ratio": null,
+                "depth_median_raw": null,
+                "depth": null,
+                "snp_depth": null,
+                "snp_depth_median": null,
+                "snp_cover_ratio": null,
+                "snr_af": null,
+                "silhouette_score": null,
+                "conta_ratio": null,
+                "conta_stat": null,
+                "snv_indel_pass_vcf": null,
+                "snv_indel_discard_vcf": null,
+                "fq1_path": null,
+                "fq2_path": null,
+                "cnv_vcf": null
+            }
+        ],
+        "lib_dna_qc": [],
+        "qc_gradient": [
+            {
+                "sample_id": "24082329B001P01D01",
+                "gradient_ratio": "0.9939291177809908",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_uniq"
+            },
+            {
+                "sample_id": "24082329B001P01D01",
+                "gradient_ratio": "0.9795063132558437",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_uniq"
+            },
+            {
+                "sample_id": "24082329B001P01D01",
+                "gradient_ratio": "0.9406216096546544",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_ssbc"
+            },
+            {
+                "sample_id": "24082329B001P01D01",
+                "gradient_ratio": "1",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_uniq_hot"
+            },
+            {
+                "sample_id": "24082329B001P01D01",
+                "gradient_ratio": "0.9993185358255452",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_uniq_hot"
+            }
+        ],
+        "control_data_qc": [
+            {
+                "sample_id": "24082329B001W01D01",
+                "library_id": "24082329B001W01D01L01",
+                "bioinform_ver": null,
+                "json_batch_name": "20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0.export2024912153959",
+                "data_auto_result": "",
+                "flowcell_lane": "S250106781_1",
+                "match_ratio": 0.948,
+                "bardist": "33:36:31",
+                "residual_r1": 0.0035,
+                "residual_r2": 0.0008,
+                "cleandata_size": "441.46M",
+                "cleandata_gc_ratio": 0.452,
+                "cleandata_q20": 0.9713,
+                "cleandata_q30": 0.9372,
+                "mapping_ratio": 1.0,
+                "nonprope_ratio": 0.0049,
+                "lqreads_ratio": 0.0193,
+                "hqreads_ratio": 0.9791,
+                "read_ontarget_ratio": 0.7853,
+                "base_ontarget_ratio": 0.7009,
+                "gc_ontarget_ratio": 0.4521,
+                "gc_offtarget_ratio": 0.4503,
+                "inssize_ontarget": 270.7,
+                "inssize_offtarget": 314.22,
+                "dup_ratio": 0.0788,
+                "cover_ratio": 0.9963,
+                "depth_mean": null,
+                "depth_ssbc": null,
+                "depth_dsbc": null,
+                "depth_median": null,
+                "depth_median_ssbc": 48.0,
+                "depth_median_dsbc": 64.0,
+                "uni20": null,
+                "reads_counts": null,
+                "unmatch_ratio": null,
+                "crossmatch_ratio": null,
+                "unassemble_ratio": null,
+                "judgment_ratio": null,
+                "depth_min": null,
+                "depth_max": null,
+                "depth_cv": null,
+                "depth_mean_rna": null,
+                "control_counts": null,
+                "uni20_ssbc": 0.9597,
+                "uni20_dsbc": 0.9534,
+                "uni50": null,
+                "uni50_ssbc": 0.7824,
+                "uni50_dsbc": 0.7763,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "qc_type": "seq_ctrl",
+                "depth_hotregion_ssbc": null,
+                "depth_rna_ctrl": null,
+                "mtxplot": null,
+                "cellularity": null,
+                "ploidy": null,
+                "totaldata": "516.95M",
+                "totalreads": 3267050,
+                "alignedreads": 3266964,
+                "depth_mean_dsbc": 73.03,
+                "depth_hotregion_dsbc": null,
+                "depth_mean_dsbc_hot": 117.7137,
+                "depth_nonhotregion_dsbc": null,
+                "depth_mean_dsbc_nonhot": 82.9824,
+                "depth_mean_ssbc": 54.9,
+                "depth_mean_ssbc_hot": 87.5672,
+                "depth_nonhotregion_ssbc": null,
+                "depth_mean_ssbc_nonhot": 62.3746,
+                "depth_mean_uniq": 585.5651,
+                "depth_mean_uniq_hot": 814.973,
+                "depth_mean_uniq_nonhot": 649.8122,
+                "hotdepth_median_dsbc": null,
+                "depth_median_dsbc_hot": 112.0,
+                "nonhotdepth_median_dsbc": null,
+                "depth_median_dsbc_nonhot": 76.0,
+                "hotdepth_median_ssbc": null,
+                "depth_median_ssbc_hot": 87.0,
+                "nonhotdepth_median_ssbc": null,
+                "depth_median_ssbc_nonhot": 58.0,
+                "depth_median_uniq": 557.0,
+                "hotdepth_median_uniq": null,
+                "depth_median_uniq_hot": 797.0,
+                "nonhotdepth_median_uniq": null,
+                "depth_median_uniq_nonhot": 633.0,
+                "uni20_uniq": 0.985,
+                "depth_hotregion_uni20": null,
+                "uni20_uniq_hot": 0.9935,
+                "depth_nonhotregion_uni20": null,
+                "uni20_uniq_nonhot": 0.9817,
+                "uni50_uniq": 0.8846,
+                "depth_hotregion_uni50": null,
+                "uni50_uniq_hot": 0.921,
+                "depth_nonhotregion_uni50": null,
+                "uni50_uniq_nonhot": 0.928,
+                "depth_mean_hot": 814.973,
+                "depth_ssbc_hot": 87.5672,
+                "depth_dsbc_hot": 117.7137,
+                "coverage_ratio_uniq_hot": null,
+                "coverage_ratio_ssbc_hot": null,
+                "coverage_ratio_dsbc_hot": null,
+                "coverage_ratio_uniq": null,
+                "coverage_ratio_ssbc": null,
+                "coverage_ratio_dsbc": null,
+                "cnv_uni": null,
+                "cnv_cv": null,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "depth_noise": null,
+                "scale_log_post_prob": null,
+                "bam_path": "/amoydx/analysis/20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0/24082329B001P01D01_24082329B001P01D01L01_S250106781_1/24082329B001W01D01_24082329B001W01D01L01_S250106781_1.ssbc.bam",
+                "bai_path": "/amoydx/analysis/20240912_XMHL_A008671_ADXPAN116-Pair_v0.5.0/24082329B001P01D01_24082329B001P01D01L01_S250106781_1/24082329B001W01D01_24082329B001W01D01L01_S250106781_1.ssbc.bam.bai",
+                "cnvplot": null,
+                "cnv_noise": null,
+                "cnv_pon": null,
+                "cnv_purity": null,
+                "cnv_ploidy": null,
+                "paired_ratio": null,
+                "paired_stat": null,
+                "runstat": null,
+                "inssize_median": null,
+                "raw_read_ontarget_ratio": null,
+                "raw_amp_rate": null,
+                "brca_cover_ratio": null,
+                "brca_depth_mean": null,
+                "brca_depth_median_ssbc": null,
+                "brca_depth_ssbc": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null,
+                "cn2_ratio": null,
+                "cn2_ratio_length": null,
+                "cs_bam_path": null,
+                "cs_bai_path": null,
+                "raw_base_ontarget_ratio": null,
+                "depth_mean_raw": "646.2789730912815",
+                "paired_dist": null,
+                "pairedratio": null,
+                "pairedstat": null,
+                "uniq_depth_median": null,
+                "raw_depth_mean": null,
+                "uniq_depth_min": null,
+                "brca_uni20": null,
+                "brca_depth_cv": null,
+                "snp_depth_ssbc": null,
+                "snp_depth_median_ssbc": null,
+                "snp_depth_mean": null,
+                "snp_uni20": null,
+                "snp_depth_cv": null,
+                "slpp": null,
+                "cn2_length_ratio": null,
+                "cover_uni20_ratio": null,
+                "depth_median_raw": null,
+                "depth": null,
+                "snp_depth": null,
+                "snp_depth_median": null,
+                "snp_cover_ratio": null,
+                "snr_af": null,
+                "silhouette_score": null,
+                "conta_ratio": null,
+                "conta_stat": null,
+                "snv_indel_pass_vcf": null,
+                "snv_indel_discard_vcf": null,
+                "fq1_path": null,
+                "fq2_path": null,
+                "cnv_vcf": null
+            }
+        ],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "8",
+            "gene_symbol": "ABCB1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "AKT2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "AKT2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "AKT3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "AKT3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "APC",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "APC",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "APC",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "AR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "AR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ARAF",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ARAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ARID1A",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ARID1A",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ATM",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ATM",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ATM",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ATR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ATR",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ATR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "AURKA",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "AURKA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BAP1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BAP1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BAP1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BCL2L11",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BCL2L11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BRCA1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BRCA1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BRCA1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BRCA2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BRCA2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "BRCA2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "C8orf34",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CCND1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CCND1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CCNE1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CCNE1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CD274",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CD274",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDA",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDK12",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDK12",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDK12",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDK6",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDK6",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDKN2A",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDKN2A",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDKN2A",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDKN2B",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CDKN2B",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CREBBP",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CREBBP",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CYP19A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "CYP2D6",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "DDR2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "DDR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "DPYD",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "DYNC2H1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "EIF1AX",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "EIF1AX",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "EPAS1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "EPAS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "EPCAM",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "EPCAM",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "EPCAM",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ERBB3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ERBB3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ERBB4",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ERBB4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ERCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ESR1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ESR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ETS2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ETS2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FANCA",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FANCA",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FANCA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FBXW7",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FBXW7",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGF19",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGF19",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGF3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGF3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGFR4",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FGFR4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FLCN",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FLCN",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FLCN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FLT3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "FLT3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "GNAS",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "GNAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "GSTP1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "HIF1A",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "HIF1A",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "IDH1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "IDH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "IDH2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "IDH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "IGF1R",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "IGF1R",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "JAK1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "JAK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "JAK2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "JAK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "JAK3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "JAK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "KDM5C",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "KDM5C",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "KDR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "KDR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MAP2K1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MAP2K1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MAPK1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MAPK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MET",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MET",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MLH1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MLH1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MLH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MRE11",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MRE11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MSH2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MSH2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MSH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MSH6",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MSH6",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MSH6",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MTHFR",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MTOR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MTOR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MTRR",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MYC",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "MYC",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NF1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NF1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NF1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NF2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NF2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NF2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NOTCH1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NOTCH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NRG1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PALB2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PALB2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PALB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PAX8",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PAX8",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PAX8",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PDCD1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PDCD1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PGR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PGR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PIK3R1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PIK3R1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PMS2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PMS2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PMS2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "POLD1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "POLD1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "POLD1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PSMD4",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PSMD4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PTCH1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PTCH1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PTCH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RAF1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RAF1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RASA1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RASA1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RASAL1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RASAL1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RET",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RET",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RICTOR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RICTOR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RIT1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RIT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RSF1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "RSF1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SEMA3C",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SF3B1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SF3B1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SLC28A3",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SMAD4",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SMAD4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SMAD4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SMARCA4",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SMARCA4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SMARCA4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SMO",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SMO",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "SOD2",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TOP2A",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TOP2A",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TSC1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TSC1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TSC1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TSHR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "TSHR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "UGT1A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "UMPS",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "VHL",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "VHL",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "VHL",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "XPC",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "8",
+            "gene_symbol": "XRCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "hd": [],
+    "gss": [],
+    "lib_quality_control": {
+        "lib_dna_qc": [
+            {
+                "seq": "20",
+                "sample_dna_id": "24082329B001P01D01",
+                "library_id": "24082329B001P01D01L01",
+                "dna_concn_q": "0.361",
+                "dna_qty": "18.05",
+                "total_dna_quality_control": "合格",
+                "i7_index": "ADx-7418",
+                "i5_index": "ADx-5418",
+                "library_concn": "37",
+                "library_qty": "1110",
+                "expected_data_volume": "10",
+                "total_library_quality_control": "合格"
+            }
+        ],
+        "control_lib_dna_qc": [
+            {
+                "seq": "8",
+                "sample_dna_id": "24082329B001W01D01",
+                "library_id": "24082329B001W01D01L01",
+                "dna_concn_q": "9",
+                "dna_qty": "810",
+                "total_dna_quality_control": "合格",
+                "break_dna_qty": "60",
+                "i7_index": "ADx-7405",
+                "i5_index": "ADx-5405",
+                "library_concn": "100",
+                "library_qty": "3000",
+                "expected_data_volume": "0.5",
+                "total_library_quality_control": "合格"
+            }
+        ],
+        "rna_lib_qc": []
+    },
+    "drug": [],
+    "io_gene_clinical": [],
+    "clinic_trial": [],
+    "refer": [
+        {
+            "authors": "Wei Nie,Xia Tao,Hua Wei,et al.",
+            "date": "(2015)",
+            "journal": "Oncotarget",
+            "pmid": "[PMID:26325082]",
+            "title": "The BIM deletion polymorphism is a prognostic biomarker of EGFR-TKIs response in NSCLC: A systematic review and meta-analysis.",
+            "vol": "6(28):25696-700."
+        },
+        {
+            "authors": "Ronit Vogt Sionov,Spiros A Vlahopoulos,Zvi Granot",
+            "date": "(2015)",
+            "journal": "Oncotarget",
+            "pmid": "[PMID:26405162]",
+            "title": "Regulation of Bim in Health and Disease.",
+            "vol": "6(27):23058-134."
+        },
+        {
+            "authors": "Boris G Wilson,Charles W M Roberts",
+            "date": "(2011)",
+            "journal": "Nat Rev Cancer",
+            "pmid": "[PMID:21654818]",
+            "title": "SWI/SNF nucleosome remodellers and cancer.",
+            "vol": "11(7):481-92."
+        },
+        {
+            "authors": "King Pan Ng,Axel M Hillmer,Charles T H Chuah,et al.",
+            "date": "(2012)",
+            "journal": "Nat Med",
+            "pmid": "[PMID:22426421]",
+            "title": "A common BIM deletion polymorphism mediates intrinsic resistance and inferior responses to tyrosine kinase inhibitors in cancer.",
+            "vol": "18(4):521-8."
+        },
+        {
+            "authors": "Andrés F Cardona,Leonardo Rojas,Beatriz Wills,et al.",
+            "date": "(2016)",
+            "journal": "Oncotarget",
+            "pmid": "[PMID:27926478]",
+            "title": "BIM deletion polymorphisms in Hispanic patients with non-small cell lung cancer carriers of EGFR mutations.",
+            "vol": "7(42):68933-68942."
+        },
+        {
+            "authors": "Jia Zhong,Zheng-Xiang Li,Jun Zhao,et al.",
+            "date": "(2014)",
+            "journal": "Thorac Cancer",
+            "pmid": "[PMID:26767045]",
+            "title": "Analysis of BIM (BCL-2 like 11 gene) deletion polymorphism in Chinese non-small cell lung cancer patients.",
+            "vol": "5(6):509-16."
+        },
+        {
+            "authors": "Eun Na Cho,Eun Young Kim,Ji Ye Jung,et al.",
+            "date": "(2015)",
+            "journal": "Lung Cancer",
+            "pmid": "[PMID:26271547]",
+            "title": "BCL2-like 11 intron 2 deletion polymorphism is not associated with non-small cell lung cancer risk and prognosis.",
+            "vol": "90(1):106-10."
+        },
+        {
+            "authors": "Jun Atsumi,Kimihiro Shimizu,Yoichi Ohtaki,et al.",
+            "date": "(2015)",
+            "journal": "J Glob Oncol",
+            "pmid": "[PMID:28717678]",
+            "title": "Impact of the Bim Deletion Polymorphism on Survival Among Patients With Completely Resected Non-Small-Cell Lung Carcinoma.",
+            "vol": "2(1):15-25."
+        },
+        {
+            "authors": "Si-Yang Liu,Jia-Ying Zhou,Wen-Feng Li,et al.",
+            "date": "(2020)",
+            "journal": "Clin Transl Med",
+            "pmid": "[PMID:32508032]",
+            "title": "Concomitant genetic alterations having greater impact on the clinical benefit of EGFR-TKIs in EGFR-mutant advanced NSCLC than BIM deletion polymorphism.",
+            "vol": "10(1):337-345."
+        },
+        {
+            "authors": "Arthur Jorge Santiago Lima,Marianne Hoogeveen-Westerveld,Akio Nakashima,et al.",
+            "date": "(2014)",
+            "journal": "PLoS One",
+            "pmid": "[PMID:24714658]",
+            "title": "Identification of regions critical for the integrity of the TSC1-TSC2-TBC1D7 complex.",
+            "vol": "9(4):e93940."
+        },
+        {
+            "authors": "Courtney Hodges,Jacob G Kirkland,Gerald R Crabtree",
+            "date": "(2016)",
+            "journal": "Cold Spring Harb Perspect Med",
+            "pmid": "[PMID:27413115]",
+            "title": "The Many Roles of BAF (mSWI/SNF) and PBAF Complexes in Cancer.",
+            "vol": "6(8):a026930."
+        },
+        {
+            "authors": "M D Hammond,S C Hempleman",
+            "date": "(1987)",
+            "journal": "Respir Physiol",
+            "pmid": "[PMID:3114851]",
+            "title": "Oxygen diffusing capacity estimates derived from measured VA/Q distributions in man.",
+            "vol": "69(2):129-47."
+        }
+    ],
+    "therapeutic_regimen": [],
+    "therapeutic_regimen_resistant": []
+}

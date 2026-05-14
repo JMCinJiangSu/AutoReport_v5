@@ -1,0 +1,4138 @@
+{
+    "sample_info": {
+        "order_id": "N20230282",
+        "sample_parent_id": "916861",
+        "sample_id": "N20230282",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": "吴艳霞",
+        "gender": "女",
+        "age": "51",
+        "sample_type": "石蜡样本",
+        "control_sample_type": null,
+        "sample_amount": "1管",
+        "control_sample_amount": null,
+        "tumor_type": "子宫内膜癌",
+        "pathol_diagn": "（内膜）子宫内膜样腺癌Ⅲ级，局灶伴鳞状分化",
+        "tumor_names_cn": "子宫内膜癌",
+        "pathological_id": "202327049-41",
+        "company": "江门市中心医院",
+        "origin_company": null,
+        "report_number": "N20230282",
+        "hosp_depart": "妇科一区",
+        "prod_names": "Pan116（组织）",
+        "prod_ids": "7",
+        "report_module_type": "hospital",
+        "json_batch_name": "20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320",
+        "mark": null,
+        "tumor_content": null,
+        "sample_position": null,
+        "sample_position_id": null,
+        "family_history": null,
+        "molecular_number": null,
+        "blood_collection_date": null,
+        "gather_data": null,
+        "receive_data": "2023-06-21",
+        "report_data": "2023-06-27",
+        "tumor_list": [
+            "子宫内膜癌",
+            "子宫癌",
+            "子宫低分化癌",
+            "子宫腺鳞癌",
+            "子宫癌肉瘤/子宫恶性混合苗勒氏管瘤",
+            "子宫透明细胞癌",
+            "子宫去分化癌",
+            "子宫内膜样癌",
+            "子宫中肾癌",
+            "混合型子宫内膜癌",
+            "子宫黏液癌",
+            "子宫神经内分泌癌",
+            "子宫浆液性癌/子宫乳头状浆液性癌",
+            "子宫未分化癌"
+        ]
+    },
+    "snvindel": [
+        {
+            "sample_id": "N20230282",
+            "order_code": "780bb6cc149a11eeaeb50242ac190002",
+            "bio_category": "Snvindel",
+            "gene_symbol": "ARID1A",
+            "transcript_primary": "NM_006015.6",
+            "var_id": "44215ecc66654d09de285150f4f49d7f",
+            "hgvs_c": "c.6191T>G",
+            "hgvs_p": "p.L2064R",
+            "hgvs_p_abbr": "p.Leu2064Arg",
+            "chr": "chr1",
+            "start": "27106580",
+            "end": "27106580",
+            "ref": "T",
+            "alt": "G",
+            "gene_region": "exon20",
+            "freq": 0.0637,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.0627,
+            "freq_sc": null,
+            "freq_rc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS",
+            "igvplot": "/var/www/html/report_backend/system_files/json_file/20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320/N20230282_N20230282_K450005249_1/IGV/chr1_27106580_27106580.svg",
+            "depth": 1851.0,
+            "json_batch_name": "20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Uncertain",
+            "clinical_category": "Tier III",
+            "literature": "",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomAD、iJGVD数据库无记录；OncoKB数据库报道为Unknown，Cancer Hotspots、COSMIC数据库无记录。基于整合预测工具REVEL认为该变异为disease-causing，剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "该变异在1000G、ExAC、gnomAD、iJGVD数据库无记录；OncoKB数据库报道为Unknown，Cancer Hotspots、COSMIC数据库无记录。基于整合预测工具REVEL认为该变异为disease-causing，剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "OP4;OP1",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第2064位氨基酸由亮氨酸突变为精氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "OP4;OP1",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "ARID1A",
+                    "gene_region": "exon20",
+                    "hgvs_p_abbr": "p.Leu2064Arg",
+                    "hgvs_c": "c.6191T>G",
+                    "hgvs_p": "p.L2064R"
+                }
+            },
+            "gene_function": "ARID1A基因属于抑癌基因，在动物实验中显示，ARID1A基因的功能与调节基因转录的增强子相关，其突变失活可能影响多种基因的表达和活性（PMID: 27941798）。ARID1A基因在多种肿瘤中均有发生，包括卵巢癌、子宫内膜癌、结直肠癌等（PMID: 21590771; PMID: 21900401） 。"
+        },
+        {
+            "sample_id": "N20230282",
+            "order_code": "780bb6cc149a11eeaeb50242ac190002",
+            "bio_category": "Snvindel",
+            "gene_symbol": "PIK3CA",
+            "transcript_primary": "NM_006218.4",
+            "var_id": "d62c5a22f5017cb38d93b8aa7c010877",
+            "hgvs_c": "c.3130A>C",
+            "hgvs_p": "p.N1044H",
+            "hgvs_p_abbr": "p.Asn1044His",
+            "chr": "chr3",
+            "start": "178952075",
+            "end": "178952075",
+            "ref": "A",
+            "alt": "C",
+            "gene_region": "exon21",
+            "freq": 0.0342,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.0358,
+            "freq_sc": null,
+            "freq_rc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS",
+            "igvplot": "/var/www/html/report_backend/system_files/json_file/20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320/N20230282_N20230282_K450005249_1/IGV/chr3_178952075_178952075.svg",
+            "depth": 2254.0,
+            "json_batch_name": "20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Uncertain",
+            "clinical_category": "Tier III",
+            "literature": "",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomAD、iJGVD数据库无记录；OncoKB数据库报道为Likely Oncogenic，COSMIC数据库记录80次PIK3CA蛋白第1044位氨基酸上的变异，其中突变型H记录1次。基于整合预测工具REVEL认为该变异为intermediate，剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "该变异在1000G、ExAC、gnomAD、iJGVD数据库无记录；OncoKB数据库报道为Likely Oncogenic，COSMIC数据库记录80次PIK3CA蛋白第1044位氨基酸上的变异，其中突变型H记录1次。基于整合预测工具REVEL认为该变异为intermediate，剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "OP4",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第1044位氨基酸由天冬酰胺突变为组氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "OP4",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "PIK3CA",
+                    "gene_region": "exon21",
+                    "hgvs_p_abbr": "p.Asn1044His",
+                    "hgvs_c": "c.3130A>C",
+                    "hgvs_p": "p.N1044H"
+                }
+            },
+            "gene_function": "PIK3CA基因属于原癌基因，编码蛋白是PI3Ks的催化亚单位。PI3K/AKT通路是细胞信号传导中一个重要通路，PI3Ks能特异性磷酸化磷脂酰肌醇的3位羟基，产生第二信使肌醇类物质如PIP3，PIP3可促使AKT转移到细胞膜上并被PDK1/PDK2活化，AKT则是PI3K/AKT信号通路中核心因子，异常活化的AKT会导致肿瘤发生。"
+        },
+        {
+            "sample_id": "N20230282",
+            "order_code": "780bb6cc149a11eeaeb50242ac190002",
+            "bio_category": "Snvindel",
+            "gene_symbol": "RASA1",
+            "transcript_primary": "NM_002890.3",
+            "var_id": "d3957b5319998aeed1a95d8a10491a9a",
+            "hgvs_c": "c.1968A>T",
+            "hgvs_p": "p.(I656=)",
+            "hgvs_p_abbr": "p.(Ile656=)",
+            "chr": "chr5",
+            "start": "86670690",
+            "end": "86670690",
+            "ref": "A",
+            "alt": "T",
+            "gene_region": "exon15",
+            "freq": 0.6123,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.6435,
+            "freq_sc": null,
+            "freq_rc": null,
+            "type": "Synonymous_Substitution",
+            "tag": "PASS;PW;WBC",
+            "igvplot": "/var/www/html/report_backend/system_files/json_file/20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320/N20230282_N20230282_K450005249_1/IGV/chr5_86670690_86670690.svg",
+            "depth": 632.0,
+            "json_batch_name": "20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320",
+            "var_origin": "",
+            "clinical_significance": "Benign",
+            "function_classification": "Benign",
+            "clinical_category": "Tier IV",
+            "literature": "",
+            "polymorphism": "Polymorphism",
+            "variant_interpret_cn": "该变异在1000G数据库EAS_CDX人群等位基因频率为0.01613（3/186），gnomADg数据库人群等位基因频率为0.0001596（5/31338），ExAC、gnomADe数据库EAS人群等位基因频率分别为0.001287（11/8550）、0.001036（19/18346），iJGVD数据库无记录；OncoKB数据库报道为Unknown，Cancer Hotspots、COSMIC数据库无记录。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "该变异在1000G数据库EAS_CDX人群等位基因频率为0.01613（3/186），gnomADg数据库人群等位基因频率为0.0001596（5/31338），ExAC、gnomADe数据库EAS人群等位基因频率分别为0.001287（11/8550）、0.001036（19/18346），iJGVD数据库无记录；OncoKB数据库报道为Unknown，Cancer Hotspots、COSMIC数据库无记录。基于剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "SBVS1;SBP1",
+            "variant_desc_cn": "该变异为同义突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "SBVS1;SBP1",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "RASA1",
+                    "gene_region": "exon15",
+                    "hgvs_p_abbr": "p.(Ile656=)",
+                    "hgvs_c": "c.1968A>T",
+                    "hgvs_p": "p.(I656=)"
+                }
+            },
+            "gene_function": "RASA1基因属于抑癌基因，它是一种RAS-GTP激活蛋白（RasGAP），它促进RAS-GTP水解以调节RAS通路信号，并在细胞增殖、迁移、凋亡和血管生成中发挥作用（PMID: 19022332;PMID: 29127119）。在非小细胞肺癌（PMID: 29127119）中发现RASA1与NF1共突变，在转移性黑色素瘤中发现RASA1表达降低和RASA1突变（PMID: 26993606）。"
+        },
+        {
+            "sample_id": "N20230282",
+            "order_code": "780bb6cc149a11eeaeb50242ac190002",
+            "bio_category": "Snvindel",
+            "gene_symbol": "RASA1",
+            "transcript_primary": "NM_002890.3",
+            "var_id": "898bb0d7b9e4360a95e19e6577d46004",
+            "hgvs_c": "c.2149dup",
+            "hgvs_p": "p.I717Nfs*9",
+            "hgvs_p_abbr": "p.Ile717AsnfsTer9",
+            "chr": "chr5",
+            "start": "86672347",
+            "end": "86672348",
+            "ref": "-",
+            "alt": "A",
+            "gene_region": "exon16",
+            "freq": 0.1939,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.2084,
+            "freq_sc": null,
+            "freq_rc": null,
+            "type": "FrameShift_Duplication",
+            "tag": "PASS;Polymer",
+            "igvplot": "/var/www/html/report_backend/system_files/json_file/20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320/N20230282_N20230282_K450005249_1/IGV/chr5_86672347_86672348.svg",
+            "depth": 1171.0,
+            "json_batch_name": "20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320",
+            "var_origin": "",
+            "clinical_significance": "Likely pathogenic",
+            "function_classification": "Likely oncogenic",
+            "clinical_category": "Tier III",
+            "literature": "",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异可能形成功能损伤或失活的蛋白。该变异在1000G、ExAC、gnomAD、iJGVD数据库无记录；COSMIC数据库记录1次RASA1蛋白第717位氨基酸上的变异，其中突变型I717Nfs*9记录1次。",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "该变异可能形成功能损伤或失活的蛋白。该变异在1000G、ExAC、gnomAD、iJGVD数据库无记录；COSMIC数据库记录1次RASA1蛋白第717位氨基酸上的变异，其中突变型I717Nfs*9记录1次。",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "OP4;OVS1",
+            "variant_desc_cn": "该变异为移码突变，导致基因编码蛋白第717位氨基酸由异亮氨酸突变为天冬酰胺并于725位发生终止。",
+            "variant_desc_en": "",
+            "evidence_categorys": "OP4;OVS1",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "RASA1",
+                    "gene_region": "exon16",
+                    "hgvs_p_abbr": "p.Ile717AsnfsTer9",
+                    "hgvs_c": "c.2149dup",
+                    "hgvs_p": "p.I717Nfs*9"
+                }
+            },
+            "gene_function": "RASA1基因属于抑癌基因，它是一种RAS-GTP激活蛋白（RasGAP），它促进RAS-GTP水解以调节RAS通路信号，并在细胞增殖、迁移、凋亡和血管生成中发挥作用（PMID: 19022332;PMID: 29127119）。在非小细胞肺癌（PMID: 29127119）中发现RASA1与NF1共突变，在转移性黑色素瘤中发现RASA1表达降低和RASA1突变（PMID: 26993606）。"
+        },
+        {
+            "sample_id": "N20230282",
+            "order_code": "780bb6cc149a11eeaeb50242ac190002",
+            "bio_category": "Snvindel",
+            "gene_symbol": "PTEN",
+            "transcript_primary": "NM_000314.8",
+            "var_id": "8c8a6ef6dd1ac4b204c426e1eedac151",
+            "hgvs_c": "c.808dup",
+            "hgvs_p": "p.M270Nfs*28",
+            "hgvs_p_abbr": "p.Met270AsnfsTer28",
+            "chr": "chr10",
+            "start": "89720657",
+            "end": "89720658",
+            "ref": "-",
+            "alt": "A",
+            "gene_region": "exon8",
+            "freq": 0.0529,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.063,
+            "freq_sc": null,
+            "freq_rc": null,
+            "type": "FrameShift_Duplication",
+            "tag": "PASS",
+            "igvplot": "/var/www/html/report_backend/system_files/json_file/20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320/N20230282_N20230282_K450005249_1/IGV/chr10_89720657_89720658.svg",
+            "depth": 737.0,
+            "json_batch_name": "20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320",
+            "var_origin": "",
+            "clinical_significance": "Likely pathogenic",
+            "function_classification": "Likely oncogenic",
+            "clinical_category": "Tier I",
+            "literature": "f0181f3a160d11edb100c7f1c3325cc0,f402ee1a160d11ed962fc7f1c3325cc0,f447b440160d11edbc58c7f1c3325cc0",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异可能形成功能损伤或失活的蛋白。该变异在1000G、ExAC、gnomAD、iJGVD数据库无记录；ClinVar数据库无记录。",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "该变异可能形成功能损伤或失活的蛋白。该变异在1000G、ExAC、gnomAD、iJGVD数据库无记录；COSMIC数据库无记录。",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "OP4;OVS1",
+            "variant_desc_cn": "该变异为移码突变，导致基因编码蛋白第270位氨基酸由蛋氨酸突变为天冬酰胺并于297位发生终止。",
+            "variant_desc_en": "",
+            "evidence_categorys": "PM2;PVS1",
+            "evi_sum": [
+                {
+                    "regimen_name": "",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predisposing",
+                    "refer_agency": "NCCN",
+                    "literature": "f0181f3a160d11edb100c7f1c3325cc0,f402ee1a160d11ed962fc7f1c3325cc0,f447b440160d11edbc58c7f1c3325cc0",
+                    "clinical_significance": "Risk Elevate",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-retrospective",
+                    "evi_conclusion": "A2",
+                    "evi_interpretation": "PTEN基因致病性或疑似致病性胚系变异携带者患乳腺癌风险为40%-60%（历史队列数据）、>60%（估计风险）（NCCN Genetic/Familial High-Risk Assessment: Breast, Ovarian and Pancreatic Version 2.2022）。"
+                },
+                {
+                    "regimen_name": "Sapanisertib+二甲双胍",
+                    "tumor_name_cn": "实体瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "f0181f3a160d11edb100c7f1c3325cc0,f402ee1a160d11ed962fc7f1c3325cc0,f447b440160d11edbc58c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase I",
+                    "evi_conclusion": "C1",
+                    "evi_interpretation": "一项I期临床试验（NCT03017833），入组30位对标准治疗耐药的晚期转移性实体瘤患者，使用Sapanisertib+Metformin的治疗方案进行治疗（4种不同的剂量队列）。4位患者疗效为PR，14位患者疗效为SD，疾病控制率(CR+PR+SD）为60%。在4个PR的患者中，有3个携带PTEN突变，其中2个携带TSC或STK11的共突变。最常见的毒副作用为恶心、厌食、腹泻、皮疹等。结论：Sapanisertib+Metformin联合治疗方案毒性可耐受，且在PTEN突变和AKT/mTOR通路突变的晚期实体瘤患者中有观察到抗肿瘤活性（2021 ASCO, Abstract 3017）。"
+                },
+                {
+                    "regimen_name": "CC-115+恩扎卢胺",
+                    "tumor_name_cn": "前列腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "f0181f3a160d11edb100c7f1c3325cc0,f402ee1a160d11ed962fc7f1c3325cc0,f447b440160d11edbc58c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase I",
+                    "evi_conclusion": "C4",
+                    "evi_interpretation": "一项Ib期临床试验（NCT02833883），入组41位去势抵抗的前列腺癌患者，使用CC-115+恩杂鲁胺治疗。在40位可评估疗效的患者中，80%的患者PSA降低50%以上，58%的患者PSA降低90%以上。其中，携带PTEN缺失/突变（11位）或PI3K通路突变（16位）的患者具有更高的PSA响应和更长的中位治疗时间；PTEN缺失/突变的患者中，91%的患者PSA降低50%以上，55%的患者PSA降低90%以上，中位治疗时间为59周。"
+                },
+                {
+                    "regimen_name": "Capivasertib+氟维司群",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "f0181f3a160d11edb100c7f1c3325cc0,f402ee1a160d11ed962fc7f1c3325cc0,f447b440160d11edbc58c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase III",
+                    "evi_conclusion": "C4",
+                    "evi_interpretation": "一项双盲、随机的III期临床试验（CAPItello-291, NCT04305496），评估了Capivasertib+氟维司群 vs 安慰剂+氟维司群治疗经芳香化酶抑制剂（AI）治疗中/后复发或进展的局部晚期（不适合手术治疗）或转移性HR+、HER2-乳腺癌患者的疗效。研究纳入708例HR+、HER2低表达或阴性，使用或没有使用过CDK4/6抑制剂，针对晚期疾病至多接受过一线化疗的患者。患者被1：1随机分配接受Capivasertib+氟维司群（n=355）、安慰剂+氟维司群（n=353）治疗。研究的主要终点为总人群或PIK3CA、AKT1或PTEN突变（AKT通路）人群的PFS。研究结果提示，与安慰剂+氟维司群治疗组相比较，Capivasertib+氟维司群治疗组降低了40%的疾病进展或死亡风险，mPFS为7.2个月 vs 3.6个月（p<0.001）；AKT通路突变的亚组人群中，mPFS为7.3个月 vs 3.1个月（p<0.001）。"
+                },
+                {
+                    "regimen_name": "Capivasertib+紫杉醇",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "f0181f3a160d11edb100c7f1c3325cc0,f402ee1a160d11ed962fc7f1c3325cc0,f447b440160d11edbc58c7f1c3325cc0",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase II",
+                    "evi_conclusion": "C4",
+                    "evi_interpretation": "一项双盲、安慰剂对照、随机的II期临床试验（PMID: 31841354），入组140位未接受过治疗的转移性三阴性乳腺癌患者，按1:1分组，分别使用Capivasertib+紫杉醇或安慰剂+紫杉醇治疗。使用NGS技术对患者样品中的PIK3CA、AKT1、PTEN的突变状态进行检测，在112位有检测结果的患者中，28位携带PIK3CA/AKT1激活突变或PTEN失活突变。研究结果中，PIK3CA/AKT1/PTEN改变的患者，Capivasertib+紫杉醇和安慰剂+紫杉醇组的PFS具有显著差别（9.3个月 vs 3.7个月，p=0.01），而PIK3CA/AKT1/PTEN未发生改变的患者中则未观察到这一区别。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "恩扎卢胺",
+                    "CC-115",
+                    "氟维司群",
+                    "Capivasertib",
+                    "Sapanisertib",
+                    "二甲双胍",
+                    "紫杉醇"
+                ],
+                "var": {
+                    "gene_symbol": "PTEN",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Met270AsnfsTer28",
+                    "hgvs_c": "c.808dup",
+                    "hgvs_p": "p.M270Nfs*28"
+                }
+            },
+            "gene_function": "PTEN基因属于抑癌基因，编码蛋白在PI3K/AKT/mTOR信号通路中起着负调控作用。"
+        },
+        {
+            "sample_id": "N20230282",
+            "order_code": "780bb6cc149a11eeaeb50242ac190002",
+            "bio_category": "Snvindel",
+            "gene_symbol": "BCL2L11",
+            "transcript_primary": "NM_138621.5",
+            "var_id": "50f50cee7d3efa02be647441960c576d",
+            "hgvs_c": "c.394+1479_394+4381del",
+            "hgvs_p": "p.?",
+            "hgvs_p_abbr": "p.?",
+            "chr": "chr2",
+            "start": "111883195",
+            "end": "111886097",
+            "ref": "2903",
+            "alt": "-",
+            "gene_region": "intron2",
+            "freq": 0.1519,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.0822,
+            "freq_sc": null,
+            "freq_rc": null,
+            "type": "Intronic",
+            "tag": "PASS;HotSpot",
+            "igvplot": "/var/www/html/report_backend/system_files/json_file/20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320/N20230282_N20230282_K450005249_1/IGV/chr2_111883195_111886097.svg",
+            "depth": 2488.0,
+            "json_batch_name": "20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Uncertain",
+            "clinical_category": "Tier III",
+            "literature": "26271547,22426421,28717678,27926478,32508032,26767045",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异在1000G、ExAC、gnomAD、iJGVD数据库无记录；COSMIC数据库无记录。目前该变异的临床意义仍存在较大争议，有研究认为该变异与EGFR-TKI的耐药有关（PMID: 22426421, PMID: 27926478, PMID: 26767045），但也有一些与其矛盾的研究（PMID: 26271547, PMID: 28717678, PMID: 32508032），其中吴一龙团队2020年发表的文章表明该变异与一代、二代、三代EGFR TKIs治疗疗效受损没有关系（PMID: 32508032）。",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "该变异在1000G、ExAC、gnomAD、iJGVD数据库无记录；COSMIC数据库无记录。目前该变异的临床意义仍存在较大争议，有研究认为该变异与EGFR-TKI的耐药有关（PMID: 22426421, PMID: 27926478, PMID: 26767045），但也有一些与其矛盾的研究（PMID: 26271547, PMID: 28717678, PMID: 32508032），其中吴一龙团队2020年发表的文章表明该变异与一代、二代、三代EGFR TKIs治疗疗效受损没有关系（PMID: 32508032）。",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "OP4",
+            "variant_desc_cn": "该变异为内含子区突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "OP4",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "BCL2L11",
+                    "gene_region": "intron2",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.394+1479_394+4381del",
+                    "hgvs_p": "p.?"
+                }
+            },
+            "gene_function": "BCL2L11，BCL2样11，是BCL2家族中激活细胞凋亡的程序化细胞死亡调节因子的一员（PMID:26405162）。BCL2L11的下调在包括淋巴瘤和结直肠癌在内的各种癌症中被发现（PMID:26405162），并且与非小细胞肺癌对酪氨酸激酶抑制剂治疗的耐药性有关（PMID:26325082）。"
+        },
+        {
+            "sample_id": "N20230282",
+            "order_code": "780bb6cc149a11eeaeb50242ac190002",
+            "bio_category": "Snvindel",
+            "gene_symbol": "TP53",
+            "transcript_primary": "NM_000546.5",
+            "var_id": "ed318a152262adcbafe569b587f105aa",
+            "hgvs_c": "c.818G>A",
+            "hgvs_p": "p.R273H",
+            "hgvs_p_abbr": "p.Arg273His",
+            "chr": "chr17",
+            "start": "7577120",
+            "end": "7577120",
+            "ref": "C",
+            "alt": "T",
+            "gene_region": "exon8",
+            "freq": 0.2941,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.2865,
+            "freq_sc": null,
+            "freq_rc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;HotSpot;PW",
+            "igvplot": "/var/www/html/report_backend/system_files/json_file/20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320/N20230282_N20230282_K450005249_1/IGV/chr17_7577120_7577120.svg",
+            "depth": 2251.0,
+            "json_batch_name": "20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320",
+            "var_origin": "",
+            "clinical_significance": "Pathogenic",
+            "function_classification": "Likely oncogenic",
+            "clinical_category": "Tier I",
+            "literature": "20693561,4f705ca0160e11eda7e2c7f1c3325cc0,4fccd47f160e11ed8966c7f1c3325cc0,eeb1652e160d11ed9a57c7f1c3325cc0,31776133,21484931,eea88b11160d11edbd8fc7f1c3325cc0,53b9c146160e11ed951ac7f1c3325cc0,17540308,22114072,4fd64aea160e11eda8d6c7f1c3325cc0,25584008,eeacf81c160d11ed84cec7f1c3325cc0,28232952,10f9b6dcb34c11eda24b0242c0a89002,16489069,9242456,17636407,eeb9ca23160d11ed9997c7f1c3325cc0,12826609,25787918,21552135,99f0c95a7ce511edb4cc0242c0a80005,4fd1689f160e11edbf09c7f1c3325cc0,30224644,29979965,4fc81948160e11ed9addc7f1c3325cc0,31395785,15390294,4fdb2d33160e11edb397c7f1c3325cc0,26181206,8423216,9cbc36867d0a11edaba80242c0a80005,eeb58422160d11ed84f0c7f1c3325cc0,16401470,4fc33700160e11eda1c0c7f1c3325cc0,33372952,10864200",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异在1000G数据库EUR人群等位基因频率为0.0009940（1/1006），ExAC数据库NFE人群等位基因频率为0.00004746（3/63210），gnomADe数据库ASJ人群等位基因频率为0.00009929（1/10072），gnomADg、iJGVD数据库无记录；ClinVar数据库报道为Pathogenic（ID=12366，可靠度为三颗星）。该变异位于TP53的热点区域，Cancer Hotspots数据库记录609次TP53蛋白第273位氨基酸上的变异，其中突变型H记录251次；体外蛋白功能研究结果显示，该变异影响蛋白功能（PMID: 12826609, PMID: 30224644, PMID: 29979965, PMID: 25584008, PMID: 31395785）；在酵母中进行反式激活分析，认为该变异为non-functional（PMID: 12826609）；在A549人类细胞中进行生长抑制分析，通过p53WTNutlin3 Z-score和Etoposide Z-score对显性负效应和功能丧失情况进行分类，认为该变异为DNE_LOF（PMID: 30224644）；在H1299人类细胞中进行体外生长分析，该变异的RFS为0.392768378799（≥-1，LOF）（PMID: 29979965）；基于Western blot测定进行反式激活分析显示与野生型（100%）相比该变异（1%）显著降低（PMID: 25584008））；基于染色质免疫沉淀测序（ChIP-seq）和RNA-seq分析显示，该变异丧失与DNA结合活性，降低p53靶基因表达激活（PMID: 31395785）；体外细胞实验表明，该变异诱导细胞凋亡（PMID: 26181206），提高肿瘤细胞迁移力（PMID: 22114072, PMID: 17636407。基于整合预测工具REVEL认为该变异为disease-causing，剪接预测软件SpliceAI认为该变异不影响剪接。文献在1位符合强相关LFS标准的先证者中报道该变异为新发，生物学父母未明确（PMID: 25787918）；在5位符合Chrompret标准的先证者中报道该变异（PMID: 15390294, PMID: 10864200, PMID: 21484931, PMID: 25584008, PMID: 25787918）；在1个LFS家族中观察到3次共分离（PMID: 17540308）。",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "该变异在1000G数据库EUR人群等位基因频率为0.0009940（1/1006），ExAC数据库NFE人群等位基因频率为0.00004746（3/63210），gnomADe数据库ASJ人群等位基因频率为0.00009929（1/10072），gnomADg、iJGVD数据库无记录；CKB数据库报道为loss of function，OncoKB数据库报道为Oncogenic，Cancer Hotspots数据库记录609次TP53蛋白第273位氨基酸上的变异，其中突变型H记录251次。该变异位于TP53的热点区域；体外蛋白功能研究结果显示，该变异影响蛋白功能（PMID: 12826609, PMID: 30224644, PMID: 29979965）。基于整合预测工具REVEL认为该变异为disease-causing，剪接预测软件SpliceAI认为该变异不影响剪接。",
+            "carcinogenicity_variant_interpret_en": "",
+            "carcinogenicity_evidence_categorys": "OP1;OS2;OS3",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第273位氨基酸由精氨酸突变为组氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "PS4_Moderate;PP3;PS3;PM1;PP1;PM6",
+            "evi_sum": [
+                {
+                    "regimen_name": "",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predisposing",
+                    "refer_agency": "NCCN",
+                    "literature": "20693561,4f705ca0160e11eda7e2c7f1c3325cc0,4fccd47f160e11ed8966c7f1c3325cc0,eeb1652e160d11ed9a57c7f1c3325cc0,31776133,21484931,eea88b11160d11edbd8fc7f1c3325cc0,53b9c146160e11ed951ac7f1c3325cc0,17540308,22114072,4fd64aea160e11eda8d6c7f1c3325cc0,25584008,eeacf81c160d11ed84cec7f1c3325cc0,28232952,10f9b6dcb34c11eda24b0242c0a89002,16489069,9242456,17636407,eeb9ca23160d11ed9997c7f1c3325cc0,12826609,25787918,21552135,99f0c95a7ce511edb4cc0242c0a80005,4fd1689f160e11edbf09c7f1c3325cc0,30224644,29979965,4fc81948160e11ed9addc7f1c3325cc0,31395785,15390294,4fdb2d33160e11edb397c7f1c3325cc0,26181206,8423216,9cbc36867d0a11edaba80242c0a80005,eeb58422160d11ed84f0c7f1c3325cc0,16401470,4fc33700160e11eda1c0c7f1c3325cc0,33372952,10864200",
+                    "clinical_significance": "Risk Elevate",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-retrospective",
+                    "evi_conclusion": "A2",
+                    "evi_interpretation": "TP53基因致病性或疑似致病性胚系变异携带者终身患癌高，患乳腺癌风险＞60%，患胰腺癌风险为5%-10%，还会造成软组织肉瘤、骨肉瘤、肾上腺皮脂瘤、脑肿瘤等恶性肿瘤(NCCN Genetic/Familial High-Risk Assessment: Breast, Ovarian and Pancreatic Version 1.2023)。"
+                },
+                {
+                    "regimen_name": "APR-246+阿扎胞苷",
+                    "tumor_name_cn": "骨髓增生异常综合征",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "20693561,4f705ca0160e11eda7e2c7f1c3325cc0,4fccd47f160e11ed8966c7f1c3325cc0,eeb1652e160d11ed9a57c7f1c3325cc0,31776133,21484931,eea88b11160d11edbd8fc7f1c3325cc0,53b9c146160e11ed951ac7f1c3325cc0,17540308,22114072,4fd64aea160e11eda8d6c7f1c3325cc0,25584008,eeacf81c160d11ed84cec7f1c3325cc0,28232952,10f9b6dcb34c11eda24b0242c0a89002,16489069,9242456,17636407,eeb9ca23160d11ed9997c7f1c3325cc0,12826609,25787918,21552135,99f0c95a7ce511edb4cc0242c0a80005,4fd1689f160e11edbf09c7f1c3325cc0,30224644,29979965,4fc81948160e11ed9addc7f1c3325cc0,31395785,15390294,4fdb2d33160e11edb397c7f1c3325cc0,26181206,8423216,9cbc36867d0a11edaba80242c0a80005,eeb58422160d11ed84f0c7f1c3325cc0,16401470,4fc33700160e11eda1c0c7f1c3325cc0,33372952,10864200",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase II",
+                    "evi_conclusion": "C4",
+                    "evi_interpretation": "一项II期临床试验（NCT03588078, PMID: 33600210），入组52例携带TP53突变的患者，包括34例骨髓异常增长综合征患者（MDS）、18例急性髓系白血病患者（AML，包括7名骨髓母细胞超过30%的患者），使用APR-246（Eprenetapopt）联合阿扎胞苷进行治疗；主要终点为缓解率，次要终点为安全性、总生存期等参数。研究结果显示，MDS患者的总体缓解率为62%，包括47%的完全缓解率，中位缓解持续时间为10.4个月；AML患者的总体缓解率为33%，包括17%的完全缓解率（在骨髓母细胞小于和大于30%的急性髓系白血病中，总缓解率分别为27%、0%）。中位随访时间为9.7个月，MDS的中位OS为12.1个月，骨髓母细胞小于和大于30%的AML的中位OS分别为13.9和3.0个月。研究结论为：在极高危TP53m MDS和AML患者群体中，APR-246（Eprenetapopt）联合阿扎胞苷是安全的，并显示出比单独使用阿扎胞苷更高的缓解率，以及更长的总生存期。"
+                },
+                {
+                    "regimen_name": "Adavosertib+卡铂+紫杉醇",
+                    "tumor_name_cn": "卵巢癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "20693561,4f705ca0160e11eda7e2c7f1c3325cc0,4fccd47f160e11ed8966c7f1c3325cc0,eeb1652e160d11ed9a57c7f1c3325cc0,31776133,21484931,eea88b11160d11edbd8fc7f1c3325cc0,53b9c146160e11ed951ac7f1c3325cc0,17540308,22114072,4fd64aea160e11eda8d6c7f1c3325cc0,25584008,eeacf81c160d11ed84cec7f1c3325cc0,28232952,10f9b6dcb34c11eda24b0242c0a89002,16489069,9242456,17636407,eeb9ca23160d11ed9997c7f1c3325cc0,12826609,25787918,21552135,99f0c95a7ce511edb4cc0242c0a80005,4fd1689f160e11edbf09c7f1c3325cc0,30224644,29979965,4fc81948160e11ed9addc7f1c3325cc0,31395785,15390294,4fdb2d33160e11edb397c7f1c3325cc0,26181206,8423216,9cbc36867d0a11edaba80242c0a80005,eeb58422160d11ed84f0c7f1c3325cc0,16401470,4fc33700160e11eda1c0c7f1c3325cc0,33372952,10864200",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase II",
+                    "evi_conclusion": "C4",
+                    "evi_interpretation": "一项多中心II期临床试验（NCT01357161, PMID: 32611648），试验分为2个部分，第一部分为开放标签的安全性试验，第二部分为随机、双盲、安慰剂对照的临床试验；总共入组121位TP53突变的铂敏感的卵巢癌、输卵管癌或原发性腹膜癌患者，分别使用Adavosertib(AZD1775)+卡铂+紫杉醇或安慰剂+卡铂+紫杉醇治疗。主要研究终点为ePFS（RECIST v1.1加强版评估的PFS）和安全性。研究结果：PFS对比中，Adavosertib+卡铂+紫杉醇 vs 安慰剂+卡铂+紫杉醇为7.9个月 vs 7.3个月（HR 0.63[95% CI 0.38-1.06];two-side P=0.080），满足预设的显著性阈值（P＜0.2）。"
+                },
+                {
+                    "regimen_name": "APR-246",
+                    "tumor_name_cn": "实体瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "20693561,4f705ca0160e11eda7e2c7f1c3325cc0,4fccd47f160e11ed8966c7f1c3325cc0,eeb1652e160d11ed9a57c7f1c3325cc0,31776133,21484931,eea88b11160d11edbd8fc7f1c3325cc0,53b9c146160e11ed951ac7f1c3325cc0,17540308,22114072,4fd64aea160e11eda8d6c7f1c3325cc0,25584008,eeacf81c160d11ed84cec7f1c3325cc0,28232952,10f9b6dcb34c11eda24b0242c0a89002,16489069,9242456,17636407,eeb9ca23160d11ed9997c7f1c3325cc0,12826609,25787918,21552135,99f0c95a7ce511edb4cc0242c0a80005,4fd1689f160e11edbf09c7f1c3325cc0,30224644,29979965,4fc81948160e11ed9addc7f1c3325cc0,31395785,15390294,4fdb2d33160e11edb397c7f1c3325cc0,26181206,8423216,9cbc36867d0a11edaba80242c0a80005,eeb58422160d11ed84f0c7f1c3325cc0,16401470,4fc33700160e11eda1c0c7f1c3325cc0,33372952,10864200",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Preclinical-in vivo",
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项动物实验中（AACR 2021, Session PO.ET05.01, 1351），将一批携带TP53 R273H突变的小鼠分为APR-246治疗组和未经治疗的对照组，结果显示：治疗组（n=11）内小鼠的肿瘤体积有5只减小（平均减小93.55 mm³）、4只增大（平均增大74.96 mm³）、2只无明显变化。 与对照组相比，治疗组小鼠的肿瘤体积总体上有所下降，平均肿瘤体积变化为-2.33倍；对照组的变化为8.16倍，几乎是治疗组的四倍。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "阿扎胞苷",
+                    "APR-246",
+                    "卡铂",
+                    "Adavosertib",
+                    "紫杉醇"
+                ],
+                "var": {
+                    "gene_symbol": "TP53",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Arg273His",
+                    "hgvs_c": "c.818G>A",
+                    "hgvs_p": "p.R273H"
+                }
+            },
+            "gene_function": "TP53基因属于抑癌基因（PMID: 30562755），编码蛋白参与细胞周期停滞和凋亡，是肿瘤中最常发生突变的基因（PMID: 10065147, PMID: 22713868）。"
+        }
+    ],
+    "sv": [],
+    "cnv": [],
+    "cnv_file_path": {
+        "sample_id": "N20230282",
+        "abs_path": "/var/www/html/report_backend/system_files/json_file/20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320/N20230282_N20230282_K450005249_1/N20230282_N20230282_K450005249_1_PAN116.cnv.png"
+    },
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [
+        {
+            "sample_id": "",
+            "order_code": "780bb6cc149a11eeaeb50242ac190002",
+            "var_id": "MSS",
+            "msi_score": 0.0,
+            "img_path": "/var/www/html/report_backend/system_files/json_file/20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320/N20230282_N20230282_K450005249_1/N20230282_N20230282_K450005249_1.msi.png",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "",
+            "carcinogenicity_variant_interpret_en": "",
+            "variant_desc_cn": "微卫星（Microsatellite）又称简单重复序列（SSR），是指遍布于人类基因组中的短串联重复序列，一般由1-6个核苷酸组成。DNA复制时，肿瘤细胞内的微卫星由于重复单位的插入或缺失而造成的微卫星长度的变化，称为微卫星不稳定性（Microsatellite Instability, MSI）。大量研究表明，MSI是由错配修复（mismatch repair，MMR）基因突变或功能缺陷引起的（PMID: 25701956）。MSI在多种癌种中被发现，包括子宫内膜癌、结直肠癌和胃腺癌等。据报道，10%-15%的散发性结直肠癌患者存在MSI（PMID: 15528785），NCCN指南明确推荐所有结直肠癌患者均需考虑做MSI或MMR检测。临床上也已将MSI作为结直肠癌及其他实体瘤预后和制定辅助治疗方案的重要分子标志物。",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "biomarker_type": "MSS"
+                }
+            }
+        }
+    ],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [
+        {
+            "sample_id": "",
+            "order_code": "780bb6cc149a11eeaeb50242ac190002",
+            "var_id": "CNH type EC",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "carcinogenicity_variant_interpret_cn": "",
+            "carcinogenicity_variant_interpret_en": "",
+            "variant_desc_cn": "TP53基因突变型（p53 abn）子宫内膜癌的分子特征表现为体细胞突变少，体细胞拷贝数变异高；通常发现时处于疾病进展期，患者年龄较大，与BMI增加无关（PMID: 34996131）。",
+            "variant_desc_en": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "",
+                    "tumor_name_cn": "子宫内膜癌",
+                    "evidence_type": "Prognostic",
+                    "refer_agency": "NCCN",
+                    "literature": "34996131,ee04796d160d11ed994ac7f1c3325cc0",
+                    "clinical_significance": "Poor",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evidence_level": "Clinical-phase III",
+                    "evi_conclusion": "A2",
+                    "evi_interpretation": "在III期临床试验研究PORTEC-3中（PMID: 32749941），共入组410例子宫内膜癌患者并被随机分配接受辅助放化疗治疗（CTRT组）及单独放疗（RT组），通过免疫组化和DNA测序的方法将所有肿瘤样本分成四种分子分型，并对患者的总生存期（overall survival，OS）和无复发生存期（recurrence-free survival，RFS）进行统计分析。结果显示，TP53基因突变型（p53 abn）子宫内膜癌患者的5年无复发生存率为48%；与辅助放疗相比，辅助放化疗可显著提高5年无复发生存率（58.6% vs 36.2%，P=0.021）和5年总生存率（64.9% vs 41.8%，P=0.049）。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "biomarker_type": "CNH type EC"
+                }
+            }
+        }
+    ],
+    "cdx": [
+        {
+            "gene_symbol": "NTRK1",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "实体瘤",
+            "tumor_name_en": "Solid Tumor"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "实体瘤",
+            "tumor_name_en": "Solid Tumor"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "实体瘤",
+            "tumor_name_en": "Solid Tumor"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用铂类药物治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "C/C",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)6或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)7基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)7",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，A/G基因型的患者使用铂类治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类治疗时疗效较差（但也有报道认为该基因型与生存期无关）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG或AG基因型患者相比，A/A基因型的患者使用依托泊苷+铂类治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/G基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GA或AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": [
+            {
+                "sample_id": "N20230282",
+                "library_id": "N20230282",
+                "bioinform_ver": null,
+                "json_batch_name": "20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0.export2023627112320",
+                "data_auto_result": "T",
+                "flowcell_lane": "K450005249_1",
+                "match_ratio": 0.9595,
+                "bardist": "31:33:36",
+                "residual_r1": 0.0007,
+                "residual_r2": 0.0007,
+                "cleandata_size": "2.75G",
+                "cleandata_gc_ratio": 0.4764,
+                "cleandata_q20": 0.9656,
+                "cleandata_q30": 0.9164,
+                "mapping_ratio": 0.9946,
+                "nonprope_ratio": 0.0155,
+                "lqreads_ratio": 0.0381,
+                "hqreads_ratio": 0.9619,
+                "read_ontarget_ratio": 0.5594,
+                "base_ontarget_ratio": 0.5078,
+                "gc_ontarget_ratio": 0.4747,
+                "gc_offtarget_ratio": 0.4868,
+                "inssize_ontarget": 199.6107,
+                "inssize_offtarget": 218.5127,
+                "dup_ratio": 0.3936,
+                "cover_ratio": 0.991,
+                "depth_mean": null,
+                "depth_ssbc": null,
+                "depth_dsbc": null,
+                "depth_median": null,
+                "depth_median_ssbc": 885.0,
+                "depth_median_dsbc": 906.0,
+                "uni20": null,
+                "reads_counts": null,
+                "unmatch_ratio": null,
+                "crossmatch_ratio": null,
+                "unassemble_ratio": null,
+                "judgment_ratio": null,
+                "depth_min": null,
+                "depth_max": null,
+                "depth_CV": null,
+                "depth_mean_rna": null,
+                "control_counts": null,
+                "uni20_ssbc": 0.9499,
+                "uni20_dsbc": 0.9494,
+                "uni50": null,
+                "uni50_ssbc": 0.818895,
+                "uni50_dsbc": 0.826743,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "qc_type": null,
+                "depth_hotregion_ssbc": null,
+                "depth_rna_ctrl": null,
+                "mtxplot": null,
+                "cellularity": null,
+                "ploidy": null,
+                "totaldata": null,
+                "totalreads": null,
+                "alignedreads": null,
+                "depth_mean_dsbc": 925.8037,
+                "depth_hotregion_dsbc": null,
+                "depth_mean_dsbc_hot": null,
+                "depth_nonhotregion_dsbc": null,
+                "depth_mean_dsbc_nonhot": 1082.0569,
+                "depth_mean_ssbc": 911.8803,
+                "depth_mean_ssbc_hot": null,
+                "depth_nonhotregion_ssbc": null,
+                "depth_mean_ssbc_nonhot": 1068.9513,
+                "depth_mean_uniq": 1642.5138,
+                "depth_mean_uniq_hot": null,
+                "depth_mean_uniq_nonhot": 1886.4841,
+                "hotdepth_median_dsbc": null,
+                "depth_median_dsbc_hot": 1160.0,
+                "nonhotdepth_median_dsbc": null,
+                "depth_median_dsbc_nonhot": 1066.0,
+                "hotdepth_median_ssbc": null,
+                "depth_median_ssbc_hot": 1152.0,
+                "nonhotdepth_median_ssbc": null,
+                "depth_median_ssbc_nonhot": 1046.0,
+                "depth_median_uniq": 1641.0,
+                "hotdepth_median_uniq": null,
+                "depth_median_uniq_hot": 1958.0,
+                "nonhotdepth_median_uniq": null,
+                "depth_median_uniq_nonhot": 1871.0,
+                "uni20_uniq": 0.9634,
+                "depth_hotregion_uni20": null,
+                "uni20_uniq_hot": 0.9983,
+                "depth_nonhotregion_uni20": null,
+                "uni20_uniq_nonhot": 0.9894,
+                "uni50_uniq": 0.8702,
+                "depth_hotregion_uni50": null,
+                "uni50_uniq_hot": 0.969,
+                "depth_nonhotregion_uni50": null,
+                "uni50_uniq_nonhot": 0.9413,
+                "depth_mean_hot": 1965.045,
+                "depth_ssbc_hot": 1151.1913,
+                "depth_dsbc_hot": 1166.843,
+                "coverage_ratio_uniq_hot": null,
+                "coverage_ratio_ssbc_hot": null,
+                "coverage_ratio_dsbc_hot": null,
+                "coverage_ratio_uniq": null,
+                "coverage_ratio_ssbc": null,
+                "coverage_ratio_dsbc": null,
+                "cnv_uni": 1.19,
+                "cnv_cv": 0.25,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "depth_noise": null,
+                "scale_log_post_prob": null,
+                "bam_path": "/amoydx/analysis/20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0/N20230282_N20230282_K450005249_1/N20230282_N20230282_K450005249_1.ssbc.bam",
+                "bai_path": "/amoydx/analysis/20230627_DW1DWF3_M000304_ADXPAN116_v0.3.0/N20230282_N20230282_K450005249_1/N20230282_N20230282_K450005249_1.ssbc.bam.bai",
+                "cnvplot": null,
+                "cnv_noise": null,
+                "cnv_pon": null,
+                "cnv_purity": null,
+                "cnv_ploidy": null,
+                "paired_ratio": null,
+                "paired_stat": null,
+                "runstat": null,
+                "inssize_median": null,
+                "raw_read_ontarget_ratio": null,
+                "raw_amp_rate": null,
+                "brca_cover_ratio": null,
+                "brca_depth_mean": null,
+                "brca_depth_median_ssbc": null,
+                "brca_depth_ssbc": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null,
+                "cn2_ratio": null,
+                "cn2_ratio_length": null,
+                "cs_bam_path": null,
+                "cs_bai_path": null,
+                "raw_base_ontarget_ratio": null,
+                "depth_mean_raw": null,
+                "paired_dist": null,
+                "PairedRatio": null,
+                "PairedStat": null,
+                "uniq_depth_median": null,
+                "raw_depth_mean": null,
+                "uniq_depth_min": null,
+                "brca_uni20": null,
+                "brca_depth_CV": null,
+                "snp_depth_ssbc": null,
+                "snp_depth_median_ssbc": null,
+                "snp_depth_mean": null,
+                "snp_uni20": null,
+                "snp_depth_CV": null,
+                "slpp": null,
+                "cn2_length_ratio": null,
+                "cover_uni20_ratio": null,
+                "depth_median_raw": null
+            }
+        ],
+        "lib_dna_qc": [],
+        "qc_gradient": [
+            {
+                "sample_id": "N20230282",
+                "gradient_ratio": "0.5505525718769197",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_uniq"
+            },
+            {
+                "sample_id": "N20230282",
+                "gradient_ratio": "0.9719101693094018",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_uniq"
+            },
+            {
+                "sample_id": "N20230282",
+                "gradient_ratio": "0.1032866419727556",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_ssbc"
+            },
+            {
+                "sample_id": "N20230282",
+                "gradient_ratio": "0.9505087797193652",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_ssbc"
+            },
+            {
+                "sample_id": "N20230282",
+                "gradient_ratio": "0.1035684526162773",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_dsbc"
+            },
+            {
+                "sample_id": "N20230282",
+                "gradient_ratio": "0.9506871922131056",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_dsbc"
+            },
+            {
+                "sample_id": "N20230282",
+                "gradient_ratio": "0.7810228452751817",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_uniq_hot"
+            },
+            {
+                "sample_id": "N20230282",
+                "gradient_ratio": "1",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_uniq_hot"
+            },
+            {
+                "sample_id": "N20230282",
+                "gradient_ratio": "0.1310033748701973",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_ssbc_hot"
+            },
+            {
+                "sample_id": "N20230282",
+                "gradient_ratio": "0.9969496365524403",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_ssbc_hot"
+            },
+            {
+                "sample_id": "N20230282",
+                "gradient_ratio": "0.1434968847352025",
+                "gradient_num": "1550",
+                "qc_source": "coverage_ratio_dsbc_hot"
+            },
+            {
+                "sample_id": "N20230282",
+                "gradient_ratio": "0.9962357217030114",
+                "gradient_num": "180",
+                "qc_source": "coverage_ratio_dsbc_hot"
+            }
+        ],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "7",
+            "gene_symbol": "ABCB1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AKT2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AKT2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AKT2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AKT3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AKT3",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AKT3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "APC",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "APC",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "APC",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ARAF",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ARAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ARID1A",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ARID1A",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ATM",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ATM",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ATM",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ATR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ATR",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ATR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AURKA",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AURKA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "AURKA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BAP1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BAP1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BAP1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BCL2L11",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BCL2L11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BRCA1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BRCA1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BRCA1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BRCA2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BRCA2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "BRCA2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "C8orf34",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CCND1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CCND1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CCND1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CCNE1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CCNE1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CCNE1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CD274",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CD274",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CD274",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDA",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDK12",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDK12",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDK12",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDK6",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDK6",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDK6",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDKN2A",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDKN2A",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDKN2A",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDKN2B",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CDKN2B",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CREBBP",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CREBBP",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CYP19A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "CYP2D6",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "DDR2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "DDR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "DPYD",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "DYNC2H1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "EIF1AX",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "EIF1AX",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "EPAS1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "EPAS1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "EPAS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "EPCAM",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "EPCAM",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "EPCAM",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ERBB3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ERBB3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ERBB4",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ERBB4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ERCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ESR1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ESR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ETS2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ETS2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FANCA",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FANCA",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FANCA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FBXW7",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FBXW7",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGF19",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGF19",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGF19",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGF3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGF3",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGF3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR4",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FGFR4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FLCN",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FLCN",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FLCN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FLT3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "FLT3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "GNAS",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "GNAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "GSTP1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "HIF1A",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "HIF1A",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "HIF1A",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "IDH1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "IDH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "IDH2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "IDH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "IGF1R",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "IGF1R",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "IGF1R",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "JAK1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "JAK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "JAK2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "JAK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "JAK3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "JAK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "KDM5C",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "KDM5C",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "KDR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "KDR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MAP2K1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MAP2K1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MAPK1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MAPK1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MAPK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MET",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MET",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MLH1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MLH1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MLH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MRE11",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MRE11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MSH2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MSH2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MSH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MSH6",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MSH6",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MSH6",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MTHFR",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MTOR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MTOR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MTRR",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MYC",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MYC",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "MYC",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NF1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NF1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NF1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NF2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NF2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NF2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NOTCH1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NOTCH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NRG1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PALB2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PALB2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PALB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PAX8",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PAX8",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PAX8",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PDCD1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PDCD1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PGR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PGR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PGR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PIK3R1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PIK3R1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PMS2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PMS2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PMS2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "POLD1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "POLD1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "POLD1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PSMD4",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PSMD4",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PSMD4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PTCH1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PTCH1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PTCH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RAF1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RAF1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RASA1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RASA1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RASAL1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RASAL1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RET",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RET",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RICTOR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RICTOR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RICTOR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RIT1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RIT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RSF1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RSF1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "RSF1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SEMA3C",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SF3B1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SF3B1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SLC28A3",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SMAD4",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SMAD4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SMAD4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SMARCA4",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SMARCA4",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SMARCA4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SMO",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SMO",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SMO",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "SOD2",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TERT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TOP2A",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TOP2A",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TOP2A",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TSC1",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TSC1",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TSC1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TSC2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TSHR",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "TSHR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "UGT1A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "UMPS",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "VHL",
+            "rpt_var_type": "sSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "VHL",
+            "rpt_var_type": "gSNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "VHL",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "XPC",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "7",
+            "gene_symbol": "XRCC1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "hd": [],
+    "gss": [],
+    "lib_quality_control": {
+        "lib_dna_qc": [
+            {
+                "seq": "5",
+                "sample_dna_id": "N20230282",
+                "dna_concn_q": "28.2",
+                "dna_qty": "1410",
+                "library_qty": "972",
+                "library_concn": "32.4",
+                "tumor_content": "80%",
+                "dna_pre_library_concentration": "99.8",
+                "dna_pre_library_qty": "2994"
+            }
+        ],
+        "control_lib_dna_qc": [],
+        "rna_lib_qc": []
+    },
+    "drug": [
+        {
+            "general_name_cn": "阿扎胞苷",
+            "var": [
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Arg273His",
+                    "hgvs_c": "c.818G>A",
+                    "hgvs_p": "p.R273H"
+                }
+            ],
+            "general_name_en": "Azacitidine",
+            "trade_name_cn": "维达莎",
+            "trade_name_en": "Vidaza",
+            "approval_organization": [
+                "NCCN",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "阿扎胞苷为胞苷的嘧啶核苷类似物，具有抗肿瘤活性。 阿扎胞苷被掺入 DNA 中，它可逆地抑制 DNA 甲基转移酶，从而阻断 DNA 甲基化。 阿扎胞苷对 DNA 的低甲基化可能会激活因高甲基化而沉默的肿瘤抑制基因，从而产生抗肿瘤作用。 该试剂还掺入 RNA，从而破坏正常的 RNA 功能并削弱 tRNA 胞嘧啶-5-甲基转移酶活性。",
+            "adaptation_disease_cn": [
+                "FDA批准艾伏尼布联合阿扎胞苷用于IDH1突变，新诊断≥75岁或因并发症无法使用强烈诱导化疗AML患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Chemo therapy（化疗）"
+        },
+        {
+            "general_name_cn": "恩扎卢胺",
+            "var": [
+                {
+                    "gene_symbol": "PTEN",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Met270AsnfsTer28",
+                    "hgvs_c": "c.808dup",
+                    "hgvs_p": "p.M270Nfs*28"
+                }
+            ],
+            "general_name_en": "Enzalutamide",
+            "trade_name_cn": null,
+            "trade_name_en": "XTANDI",
+            "approval_organization": [
+                "FDA"
+            ],
+            "drug_mechanism_cn": "Enzalutamide是一种雄激素受体抑制剂，可在雄激素受体信号传导途径的不同步骤上起作用。 恩杂鲁胺已被证明具有竞争性抑制雄激素与雄激素受体结合的能力。 因此，抑制雄激素受体的核易位及其与DNA的相互作用。 主要代谢物N-去甲基enzalutamide具有与enzalutamide相似的体外活性。 在小鼠前列腺癌异种移植模型中，Enzalutamide降低了体外前列腺癌细胞的增殖并诱导了细胞死亡，并降低了小鼠前列腺癌异种移植模型的肿瘤体积。",
+            "adaptation_disease_cn": [
+                "FDA批准talazoparib（Talzenna） 联合恩扎卢胺治疗同源重组修复(HRR)基因突变的转移性去势抵抗性前列腺癌(mCRPC)成人患者。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Hormono therapy（内分泌治疗）"
+        },
+        {
+            "general_name_cn": "卡铂",
+            "var": [
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Arg273His",
+                    "hgvs_c": "c.818G>A",
+                    "hgvs_p": "p.R273H"
+                }
+            ],
+            "general_name_en": "Carboplatin",
+            "trade_name_cn": null,
+            "trade_name_en": "Paraplatin",
+            "approval_organization": [
+                "NCCN",
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "卡铂的主要作用是将烷基连接到核苷酸上，导致单加合物的形成，以及当修复酶试图纠正错误时 DNA 片段化。 2% 的卡铂活性来自 DNA 从一条链上的碱基到另一条上碱基的交联，从而防止 DNA 链分离以进行合成或转录。卡铂可以诱导许多不同的突变。 ",
+            "adaptation_disease_cn": [
+                "NMPA批准帕博利珠单抗联合卡铂和紫杉醇适用于转移性鳞状非小细胞肺癌(NSCLC)患者的一线治疗。",
+                "FDA批准帕博利珠单抗+卡铂+紫杉醇或蛋白结合的紫杉醇用于鳞状非小细胞肺癌患者的一线治疗。",
+                "NMPA批准替雷利珠单抗联合紫杉醇和卡铂用于局部晚期或转移性鳞状非小细胞肺癌的一线治疗。",
+                "FDA批准贝伐珠单抗联合卡铂、紫杉醇用于不可切除、局部晚期、复发或转移性非鳞非小细胞肺癌患者的一线治疗。",
+                "FDA批准贝伐珠单抗联合卡铂和紫杉醇用于初始手术切除后III或IV期上皮性卵巢癌、输卵管癌或原发性腹膜癌的治疗。",
+                "NMPA批准舒格利单抗联合培美曲塞和卡铂用于表皮生长因子受体（EGFR）基因突变阴性和间变性淋巴瘤激酶（ALK）阴性的转移性非鳞状非小细胞肺癌（NSCLC）患者的一线治疗。",
+                "NMPA批准舒格利单抗联合紫杉醇和卡铂用于转移性鳞状非小细胞肺癌（NSCLC）患者的一线治疗。",
+                "NMPA批准特瑞普利单抗联合培美曲塞和铂类用于表皮生长因子受体（EGFR）基因突变阴性和间变性淋巴瘤激酶（ALK）阴性、不可手术切除的局部晚期或转移性非鳞状非小细胞肺癌（NSCLC）的一线治疗。",
+                "FDA批准度伐利尤单抗联合依托泊苷和卡铂/顺铂用于广泛期小细胞肺癌（ES-SCLC）成人患者的一线治疗。",
+                "NMPA批准斯鲁利单抗联合卡铂和白蛋白紫杉醇适用于不可手术切除的局部晚期或转移性鳞状非小细胞肺癌（NSCLC）的一线治疗。",
+                "NMPA批准斯鲁利单抗联合卡铂和依托泊苷适用于广泛期小细胞肺癌（ES-SCLC）的一线治疗。",
+                "NMPA批准卡瑞利珠单抗联合培美曲塞和卡铂用于表皮生长因子受体（EGFR）基因突变阴性和间变性淋巴瘤激酶（ALK）阴性的、不可手术切除的局部晚期或转移性非鳞状非小细胞肺癌（NSCLC）患者的一线治疗。",
+                "NMPA批准曲妥珠单抗用于HER2阳性的早期乳腺癌：接受了手术、含蒽环类抗生素辅助化疗和放疗（如果适用）后的单药辅助治疗；多柔比星和环磷酰胺化疗后序贯曲妥珠单抗与紫杉醇或多西他赛的联合辅助治疗；与多西他赛和卡铂联合的辅助治疗。",
+                "NMPA批准阿得贝利单抗联合依托泊苷和卡铂一线治疗广泛期小细胞肺癌（ES-SCLC）。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "氟维司群",
+            "var": [
+                {
+                    "gene_symbol": "PTEN",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Met270AsnfsTer28",
+                    "hgvs_c": "c.808dup",
+                    "hgvs_p": "p.M270Nfs*28"
+                }
+            ],
+            "general_name_en": "Fulvestrant",
+            "trade_name_cn": null,
+            "trade_name_en": "Faslodex",
+            "approval_organization": [
+                "NCCN",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "氟维司群是一种合成的雌激素受体拮抗剂。 与他莫昔芬（具有部分激动剂作用）和芳香化酶抑制剂（减少肿瘤细胞可用的雌激素）不同，氟维司群与乳腺癌细胞中的雌激素受体竞争性地结合，导致雌激素受体形变、雌激素结合减少。体外研究表明，氟维司群可逆地抑制他莫昔芬耐药的雌激素敏感的人类乳腺癌细胞系的生长。",
+            "adaptation_disease_cn": [
+                "FDA批准阿培利司+氟维司群用于治疗内分泌治疗进行中或之后发现的HR阳性/HER2阴性的PIK3CA突变的绝经后妇女或男性的晚期或转移性乳腺癌。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Targeted therapy（靶向）"
+        },
+        {
+            "general_name_cn": null,
+            "var": [
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Arg273His",
+                    "hgvs_c": "c.818G>A",
+                    "hgvs_p": "p.R273H"
+                },
+                {
+                    "gene_symbol": "PTEN",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Met270AsnfsTer28",
+                    "hgvs_c": "c.808dup",
+                    "hgvs_p": "p.M270Nfs*28"
+                }
+            ],
+            "general_name_en": "APR-246",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [],
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "drug_type": "Targeted therapy（靶向）"
+        },
+        {
+            "general_name_cn": "二甲双胍",
+            "var": [
+                {
+                    "gene_symbol": "PTEN",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Met270AsnfsTer28",
+                    "hgvs_c": "c.808dup",
+                    "hgvs_p": "p.M270Nfs*28"
+                }
+            ],
+            "general_name_en": "Metformin",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [],
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "紫杉醇",
+            "var": [
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Arg273His",
+                    "hgvs_c": "c.818G>A",
+                    "hgvs_p": "p.R273H"
+                },
+                {
+                    "gene_symbol": "PTEN",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Met270AsnfsTer28",
+                    "hgvs_c": "c.808dup",
+                    "hgvs_p": "p.M270Nfs*28"
+                }
+            ],
+            "general_name_en": "Paclitaxel",
+            "trade_name_cn": null,
+            "trade_name_en": "Abraxane, Taxol",
+            "approval_organization": [
+                "NCCN",
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "紫杉醇是一种抗微管类的化疗药物。 紫杉醇常用于多种癌症治疗中，它是一种有丝分裂抑制剂，是于 1971 年从太平洋紫杉树的树皮中首次分离出来，并于1993年批准用于医学用途，并被列于世界卫生组织的基本药物清单。 紫杉醇的作用机理主要是去影响微管的正常功能，透过稳定与GDP结合的微管蛋白，从而致使快速分裂的肿瘤细胞在有丝分裂阶段被限制而无法分离，将细胞阻断于细胞周期之G2与M期间，使癌细胞复制受阻断而死亡。因此紫杉醇在抗癌药物当中，被视为有丝分裂中的微管抑制剂。",
+            "adaptation_disease_cn": [
+                "NMPA批准帕博利珠单抗联合卡铂和紫杉醇适用于转移性鳞状非小细胞肺癌(NSCLC)患者的一线治疗。",
+                "FDA批准帕博利珠单抗+卡铂+紫杉醇或蛋白结合的紫杉醇用于鳞状非小细胞肺癌患者的一线治疗。",
+                "NMPA批准替雷利珠单抗联合紫杉醇和卡铂用于局部晚期或转移性鳞状非小细胞肺癌的一线治疗。",
+                "FDA批准贝伐珠单抗联合卡铂、紫杉醇用于不可切除、局部晚期、复发或转移性非鳞非小细胞肺癌患者的一线治疗。",
+                "FDA批准贝伐珠单抗联合卡铂和紫杉醇用于初始手术切除后III或IV期上皮性卵巢癌、输卵管癌或原发性腹膜癌的治疗。",
+                "NMPA批准舒格利单抗联合紫杉醇和卡铂用于转移性鳞状非小细胞肺癌（NSCLC）患者的一线治疗。",
+                "FDA批准曲妥珠单抗联合紫杉醇用于HER2过表达转移性乳腺癌患者的一线治疗。",
+                "NMPA批准曲妥珠单抗与紫杉醇或多西他赛联合，用于HER2阳性、未接受化疗的转移性乳腺癌患者。",
+                "NMPA批准曲妥珠单抗用于HER2阳性的早期乳腺癌：接受了手术、含蒽环类抗生素辅助化疗和放疗（如果适用）后的单药辅助治疗；多柔比星和环磷酰胺化疗后序贯曲妥珠单抗与紫杉醇或多西他赛的联合辅助治疗；与多西他赛和卡铂联合的辅助治疗。",
+                "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、紫杉醇治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级等))的乳腺癌患者。",
+                "FDA批准贝伐珠单抗联合紫杉醇、顺铂或紫杉醇、拓朴替康用于治疗持续性、复发或转移性宫颈癌。",
+                "FDA批准贝伐珠单抗联合紫杉醇、顺铂或紫杉醇、拓朴替康用于治疗持续性、复发或转移性宫颈癌。",
+                "FDA批准贝伐珠单抗联合紫杉醇、聚乙二醇多柔比星或拓扑替康用于治疗铂类耐药的之前接受过不超过2种化疗方案的复发性上皮卵巢、输卵管或原发性腹膜癌。",
+                "NMPA批准信迪利单抗联合紫杉醇和顺铂或氟尿嘧啶和顺铂用于不可切除的局部晚期、复发或转移性食管鳞癌的一线治疗。",
+                "FDA批准雷莫西尤单抗单药或联合紫杉醇用于既往经含氟嘧啶或含铂化疗进展的、局部晚期或转移性胃癌或胃食管交界处腺癌患者的治疗。",
+                "NMPA批准雷莫西尤单抗联合紫杉醇用于在含氟尿嘧啶类或含铂类化疗期间或化疗后出现疾病进展的晚期胃或胃食管结合部腺癌的治疗。",
+                "NMPA批准特瑞普利单抗联合紫杉醇和顺铂用于不可切除的局部晚期/复发或远处转移性食管鳞癌（ESCC）患者的一线治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Chemo therapy（化疗）"
+        }
+    ],
+    "io_gene_clinical": [
+        {
+            "effect": "正相关",
+            "evidence": "有研究表明，p53可通过miR-34调节PD-L1表达（PMID:26577528）。一项对公共数据库中肺腺癌患者的基因组、转录组、蛋白质组及临床数据的整合分析的研究中发现，TP53突变能显著提高免疫检查点的表达并激活T细胞效应因子和γ干扰素；TP53/KRAS共突变可提高PD-L1表达，且共突变组总具有最高的PD-L1+/CD8A+比例；进一步研究发现TP53或KRAS突变可导致一些列与细胞周期调节、DNA复制和DNA损伤修复相关的基因的改变。对公开的临床试验及真实临床数据的回顾分析进一步确认，TP53或KRAS突变的患者，尤其是TP53/KRAS共突变的患者，用PD-1抑制剂治疗具有显著的临床获益（PMID:28039262）。一项对31例接受pembrolizumab治疗的非小细胞肺癌患者的回顾性分析显示，TP53突变(STK11及EGFR野生型)的肺腺癌患者接受抗PD-1治疗后其无进展生存期更长(P＜0.001) （PMID:29764856）。",
+            "gene_symbol": "TP53",
+            "test_significance": "TP53突变可能为免疫治疗正向预测因子。",
+            "tumor_name": "非小细胞肺癌",
+            "var_note": "失活性突变"
+        },
+        {
+            "effect": "负相关",
+            "evidence": "一项研究中（PMID：26645196），作者发现携带PTEN缺失的黑色素瘤动物模型中，T细胞介导的肿瘤杀伤受到抑制并且T细胞渗透进入肿瘤也相应的减少。在肿瘤患者中，PTEN缺失也与肿瘤中T细胞渗透较少相关，因此PD-1抑制剂治疗的效果也较差。PTEN缺失的肿瘤细胞中，免疫抑制细胞因子的表达也相应的较高从而导致T细胞渗透较少并抑制自噬，因此降低了T细胞介导的细胞死亡。在小鼠模型中，用选择性的PI3Kβ抑制剂进行治疗可提高抗PD-1和抗CTLA4抗体的疗效。",
+            "gene_symbol": "PTEN",
+            "test_significance": "PTEN失活突变或拷贝数缺失可能为免疫药物疗效的负向预测因子。",
+            "tumor_name": null,
+            "var_note": "失活性突变"
+        }
+    ],
+    "clinic_trial": [
+        {
+            "clinicaltrial_number": "NCT04634877",
+            "conditions": "endometrial carcinoma,uterine carcinosarcoma",
+            "gene_symbol": "TP53",
+            "interventions": "Carboplatin + Paclitaxel,Cisplatin + Paclitaxel,Carboplatin + Docetaxel,Cisplatin + Paclitaxel + Pembrolizumab,Carboplatin + Paclitaxel + Pembrolizumab,Cisplatin + Docetaxel + Pembrolizumab,Cisplatin + Docetaxel,Carboplatin + Docetaxel + Pembrolizumab",
+            "phase": "Phase III",
+            "study_title": "Study of Pembrolizumab (MK-3475) in Combination With Adjuvant Chemotherapy With or Without Radiotherapy in Participants With Newly Diagnosed Endometrial Cancer After Surgery With Curative Intent (MK-3475-B21 / KEYNOTE-B21 / ENGOT-en11 / GOG-3053)"
+        }
+    ],
+    "refer": [
+        {
+            "authors": "Alicia León-Castillo,Stephanie M de Boer,Melanie E Powell,et al.",
+            "date": "(2020)",
+            "journal": "J Clin Oncol",
+            "pmid": "[PMID:32749941]",
+            "title": "Molecular Classification of the PORTEC-3 Trial for High-Risk Endometrial Cancer: Impact on Prognosis and Benefit From Adjuvant Therapy.",
+            "vol": "38(29):3388-3397."
+        },
+        {
+            "authors": "Hiroyuki Yamamoto,Kohzoh Imai",
+            "date": "(2015)",
+            "journal": "Arch Toxicol",
+            "pmid": "[PMID:25701956]",
+            "title": "Microsatellite instability: an update.",
+            "vol": "89(6):899-921."
+        },
+        {
+            "authors": "Timothy M Pawlik,Chandrajit P Raut,Miguel A Rodriguez-Bigas",
+            "date": "(2004)",
+            "journal": "Dis Markers",
+            "pmid": "[PMID:15528785]",
+            "title": "Colorectal carcinogenesis: MSI-H versus MSI-L.",
+            "vol": "20(4-5):199-206."
+        },
+        {
+            "authors": "Thomas Cluzeau,Marie Sebert,Ramy Rahmé,et al.",
+            "date": "(2021)",
+            "journal": "J Clin Oncol",
+            "pmid": "[PMID:33600210]",
+            "title": "Eprenetapopt Plus Azacitidine in.",
+            "vol": "39(14):1575-1583."
+        },
+        {
+            "authors": "Matteo Canale,Elisabetta Petracci,Angelo Delmonte,et al.",
+            "date": "(2017)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:27780855]",
+            "title": "Impact of.",
+            "vol": "23(9):2195-2202."
+        },
+        {
+            "authors": "Dara L Aisner#,Lynette M Sholl#,Lynne D Berry#,et al.",
+            "date": "(2018)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:29217530]",
+            "title": "The Impact of Smoking and TP53 Mutations in Lung Adenocarcinoma Patients with Targetable Mutations-The Lung Cancer Mutation Consortium (LCMC2).",
+            "vol": "24(5):1038-1047."
+        },
+        {
+            "authors": "Xiang-Meng Li,Wen-Feng Li,Jun-Tao Lin,et al.",
+            "date": "(2021)",
+            "journal": "Clin Lung Cancer",
+            "pmid": "[PMID:33317922]",
+            "title": "Predictive and Prognostic Potential of TP53 in Patients With Advanced Non-Small-Cell Lung Cancer Treated With EGFR-TKI: Analysis of a Phase III Randomized Clinical Trial (CTONG 0901).",
+            "vol": "22(2):100-109.e3."
+        },
+        {
+            "authors": "Amit M Oza,Maria Estevez-Diz,Eva-Maria Grischke,et al.",
+            "date": "(2020)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:32611648]",
+            "title": "A Biomarker-enriched, Randomized Phase II Trial of Adavosertib (AZD1775) Plus Paclitaxel and Carboplatin for Women with Platinum-sensitive.",
+            "vol": "26(18):4767-4776."
+        },
+        {
+            "authors": "Peter Schmid,Jacinta Abraham,Stephen Chan,et al.",
+            "date": "(2020)",
+            "journal": "J Clin Oncol",
+            "pmid": "[PMID:31841354]",
+            "title": "Capivasertib Plus Paclitaxel Versus Placebo Plus Paclitaxel As First-Line Therapy for Metastatic Triple-Negative Breast Cancer: The PAKT Trial.",
+            "vol": "38(5):423-433."
+        },
+        {
+            "authors": "Hubing Shi#,Willy Hugo#,Xiangju Kong,et al.",
+            "date": "(2014)",
+            "journal": "Cancer Discov",
+            "pmid": "[PMID:24265155]",
+            "title": "Acquired resistance and clonal evolution in melanoma during BRAF inhibitor therapy.",
+            "vol": "4(1):80-93."
+        },
+        {
+            "authors": "C J Guigon,L Zhao,M C Willingham,et al.",
+            "date": "(2009)",
+            "journal": "Oncogene",
+            "pmid": "[PMID:18997818]",
+            "title": "PTEN deficiency accelerates tumour progression in a mouse model of thyroid cancer.",
+            "vol": "28(4):509-17."
+        },
+        {
+            "authors": "Li-Hui Wang,Chun-Fu Wu,Nirmal Rajasekaran,et al.",
+            "date": "(2018)",
+            "journal": "Cell Physiol Biochem",
+            "pmid": "[PMID:30562755]",
+            "title": "Loss of Tumor Suppressor Gene Function in Human Cancer: An Overview.",
+            "vol": "51(6):2647-2693."
+        },
+        {
+            "authors": "Radhika Mathur,Burak H Alver,Adrianna K San Roman,et al.",
+            "date": "(2017)",
+            "journal": "Nat Genet",
+            "pmid": "[PMID:27941798]",
+            "title": "ARID1A loss impairs enhancer-mediated gene regulation and drives colon cancer in mice.",
+            "vol": "49(2):296-302."
+        },
+        {
+            "authors": "Bin Guan,Tian-Li Wang,Ie-Ming Shih",
+            "date": "(2011)",
+            "journal": "Cancer Res",
+            "pmid": "[PMID:21900401]",
+            "title": "ARID1A, a factor that promotes formation of SWI/SNF-mediated chromatin remodeling, is a tumor suppressor in gynecologic cancers.",
+            "vol": "71(21):6718-27."
+        },
+        {
+            "authors": "M Oren,V Rotter",
+            "date": "(1999)",
+            "journal": "Cell Mol Life Sci",
+            "pmid": "[PMID:10065147]",
+            "title": "Introduction: p53--the first twenty years.",
+            "vol": "55(1):9-11."
+        },
+        {
+            "authors": "Andrew O Giacomelli,Xiaoping Yang,Robert E Lintner,et al.",
+            "date": "(2018)",
+            "journal": "Nat Genet",
+            "pmid": "[PMID:30224644]",
+            "title": "Mutational processes shape the landscape of TP53 mutations in human cancer.",
+            "vol": "50(10):1381-1387."
+        },
+        {
+            "authors": "William A Freed-Pastor,Carol Prives",
+            "date": "(2012)",
+            "journal": "Genes Dev",
+            "pmid": "[PMID:22713868]",
+            "title": "Mutant p53: one name, many proteins.",
+            "vol": "26(12):1268-86."
+        },
+        {
+            "authors": "Wei Nie,Xia Tao,Hua Wei,et al.",
+            "date": "(2015)",
+            "journal": "Oncotarget",
+            "pmid": "[PMID:26325082]",
+            "title": "The BIM deletion polymorphism is a prognostic biomarker of EGFR-TKIs response in NSCLC: A systematic review and meta-analysis.",
+            "vol": "6(28):25696-700."
+        },
+        {
+            "authors": "Ronit Vogt Sionov,Spiros A Vlahopoulos,Zvi Granot",
+            "date": "(2015)",
+            "journal": "Oncotarget",
+            "pmid": "[PMID:26405162]",
+            "title": "Regulation of Bim in Health and Disease.",
+            "vol": "6(27):23058-134."
+        },
+        {
+            "authors": "Eran Kotler,Odem Shani,Guy Goldfeld,et al.",
+            "date": "(2018)",
+            "journal": "Mol Cell",
+            "pmid": "[PMID:29979965]",
+            "title": "A Systematic p53 Mutation Library Links Differential Functional Impact to Cancer Mutation Pattern and Evolutionary Conservation.",
+            "vol": "71(1):178-190.e8."
+        },
+        {
+            "authors": "Patricia Wong,Sigitas J Verselis,Judy E Garber,et al.",
+            "date": "(2006)",
+            "journal": "Gastroenterology",
+            "pmid": "[PMID:16401470]",
+            "title": "Prevalence of early onset colorectal cancer in 397 patients with classic Li-Fraumeni syndrome.",
+            "vol": "130(1):73-9."
+        },
+        {
+            "authors": "S Baumüller,M C Herwig,E Mangold,et al.",
+            "date": "(2011)",
+            "journal": "Br J Ophthalmol",
+            "pmid": "[PMID:20693561]",
+            "title": "Sebaceous gland carcinoma of the eyelid masquerading as a cutaneous horn in Li--Fraumeni syndrome.",
+            "vol": "95(10):1470, 1478."
+        },
+        {
+            "authors": "A Chompret,L Brugières,M Ronsin,et al.",
+            "date": "(2000)",
+            "journal": "Br J Cancer",
+            "pmid": "[PMID:10864200]",
+            "title": "P53 germline mutations in childhood cancers and cancer risk for carrier individuals.",
+            "vol": "82(12):1932-7."
+        },
+        {
+            "authors": "Waka Sugawara,Yasuhito Arai,Fumio Kasai,et al.",
+            "date": "(2011)",
+            "journal": "Genes Chromosomes Cancer",
+            "pmid": "[PMID:21484931]",
+            "title": "Association of germline or somatic TP53 missense mutation with oncogene amplification in tumors developed in patients with Li-Fraumeni or Li-Fraumeni-like syndrome.",
+            "vol": "50(7):535-45."
+        },
+        {
+            "authors": "Serena Masciari,Akriti Dewanwala,Elena M Stoffel,et al.",
+            "date": "(2011)",
+            "journal": "Genet Med",
+            "pmid": "[PMID:21552135]",
+            "title": "Gastric cancer in individuals with Li-Fraumeni syndrome.",
+            "vol": "13(7):651-7."
+        },
+        {
+            "authors": "J M Varley,G McGown,M Thorncroft,et al.",
+            "date": "(1997)",
+            "journal": "Cancer Res",
+            "pmid": "[PMID:9242456]",
+            "title": "Germ-line mutations of TP53 in Li-Fraumeni families: an extended study of 39 families.",
+            "vol": "57(15):3245-52."
+        },
+        {
+            "authors": "Jonathan D Wasserman,Ana Novokmet,Claudia Eichler-Jonsson,et al.",
+            "date": "(2015)",
+            "journal": "J Clin Oncol",
+            "pmid": "[PMID:25584008]",
+            "title": "Prevalence and functional consequence of TP53 mutations in pediatric adrenocortical carcinoma: a children's oncology group study.",
+            "vol": "33(6):602-9."
+        },
+        {
+            "authors": "Shunsuke Kato,Shuang-Yin Han,Wen Liu,et al.",
+            "date": "(2003)",
+            "journal": "Proc Natl Acad Sci U S A",
+            "pmid": "[PMID:12826609]",
+            "title": "Understanding the function-structure and function-mutation relationships of p53 tumor suppressor protein by high-resolution missense mutation analysis.",
+            "vol": "100(14):8424-9."
+        },
+        {
+            "authors": "Catherine M Khayat,Donna L Johnston",
+            "date": "(2004)",
+            "journal": "Pediatr Blood Cancer",
+            "pmid": "[PMID:15390294]",
+            "title": "Rhabdomyosarcoma, osteosarcoma, and adrenocortical carcinoma in a child with a germline p53 mutation.",
+            "vol": "43(6):683-6."
+        },
+        {
+            "authors": "W Andrew Yeudall,Catherine A Vaughan,Hiroshi Miyazaki,et al.",
+            "date": "(2012)",
+            "journal": "Carcinogenesis",
+            "pmid": "[PMID:22114072]",
+            "title": "Gain-of-function mutant p53 upregulates CXC chemokines and enhances cell migration.",
+            "vol": "33(2):442-51."
+        },
+        {
+            "authors": "Magali Olivier,Anita Langerød,Patrizia Carrieri,et al.",
+            "date": "(2006)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:16489069]",
+            "title": "The clinical value of somatic TP53 gene mutations in 1,794 patients with breast cancer.",
+            "vol": "12(4):1157-67."
+        },
+        {
+            "authors": "Iñigo Landa,Tihana Ibrahimpasic,Laura Boucai,et al.",
+            "date": "(2016)",
+            "journal": "J Clin Invest",
+            "pmid": "[PMID:26878173]",
+            "title": "Genomic and transcriptomic hallmarks of poorly differentiated and anaplastic thyroid cancers.",
+            "vol": "126(3):1052-66."
+        },
+        {
+            "authors": "W Glenn McCluggage,Naveena Singh,C Blake Gilks",
+            "date": "(2022)",
+            "journal": "Histopathology",
+            "pmid": "[PMID:34996131]",
+            "title": "Key changes to the World Health Organization (WHO) classification of female genital tumours introduced in the 5th edition (2020).",
+            "vol": "80(5):762-778."
+        },
+        {
+            "authors": "Nikita Pozdeyev,Laurie M Gay,Ethan S Sokol,et al.",
+            "date": "(2018)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:29615459]",
+            "title": "Genetic Analysis of 779 Advanced Differentiated and Anaplastic Thyroid Cancers.",
+            "vol": "24(13):3059-3068."
+        },
+        {
+            "authors": "Jaime Miguel Pita,Inês Filipa Figueiredo,Margarida Maria Moura,et al.",
+            "date": "(2014)",
+            "journal": "J Clin Endocrinol Metab",
+            "pmid": "[PMID:24423316]",
+            "title": "Cell cycle deregulation and TP53 and RAS mutations are major events in poorly differentiated and undifferentiated thyroid carcinomas.",
+            "vol": "99(3):E497-507."
+        },
+        {
+            "authors": "Benjamin Bonhomme,Yann Godbert,Gaelle Perot,et al.",
+            "date": "(2017)",
+            "journal": "Thyroid",
+            "pmid": "[PMID:28351340]",
+            "title": "Molecular Pathology of Anaplastic Thyroid Carcinomas: A Retrospective Study of 144 Cases.",
+            "vol": "27(5):682-692."
+        },
+        {
+            "authors": "John W Kunstman,C Christofer Juhlin,Gerald Goh,et al.",
+            "date": "(2015)",
+            "journal": "Hum Mol Genet",
+            "pmid": "[PMID:25576899]",
+            "title": "Characterization of the mutational landscape of anaplastic thyroid cancer via whole-exome sequencing.",
+            "vol": "24(8):2318-29."
+        },
+        {
+            "authors": "Bin Xu,Talia Fuchs,Snjezana Dogan,et al.",
+            "date": "(2020)",
+            "journal": "Thyroid",
+            "pmid": "[PMID:32284020]",
+            "title": "Dissecting Anaplastic Thyroid Carcinoma: A Comprehensive Clinical, Histologic, Immunophenotypic, and Molecular Study of 360 Cases.",
+            "vol": "30(10):1505-1517."
+        },
+        {
+            "authors": "Keith C Bible,Electron Kebebew,James Brierley,et al.",
+            "date": "(2021)",
+            "journal": "Thyroid",
+            "pmid": "[PMID:33728999]",
+            "title": "2021 American Thyroid Association Guidelines for Management of Patients with Anaplastic Thyroid Cancer.",
+            "vol": "31(3):337-386."
+        },
+        {
+            "authors": "Hong-Xia Tian,Zhi-Hong Chen,Guang-Ling Jie,et al.",
+            "date": null,
+            "journal": "Cancer Med",
+            "pmid": "[PMID:35702826]",
+            "title": "Prognostic features and comprehensive genomic analysis of NF1 mutations in EGFR mutant lung cancer patients.",
+            "vol": null
+        },
+        {
+            "authors": "King Pan Ng,Axel M Hillmer,Charles T H Chuah,et al.",
+            "date": "(2012)",
+            "journal": "Nat Med",
+            "pmid": "[PMID:22426421]",
+            "title": "A common BIM deletion polymorphism mediates intrinsic resistance and inferior responses to tyrosine kinase inhibitors in cancer.",
+            "vol": "18(4):521-8."
+        },
+        {
+            "authors": "Andrés F Cardona,Leonardo Rojas,Beatriz Wills,et al.",
+            "date": "(2016)",
+            "journal": "Oncotarget",
+            "pmid": "[PMID:27926478]",
+            "title": "BIM deletion polymorphisms in Hispanic patients with non-small cell lung cancer carriers of EGFR mutations.",
+            "vol": "7(42):68933-68942."
+        },
+        {
+            "authors": "Jia Zhong,Zheng-Xiang Li,Jun Zhao,et al.",
+            "date": "(2014)",
+            "journal": "Thorac Cancer",
+            "pmid": "[PMID:26767045]",
+            "title": "Analysis of BIM (BCL-2 like 11 gene) deletion polymorphism in Chinese non-small cell lung cancer patients.",
+            "vol": "5(6):509-16."
+        },
+        {
+            "authors": "Eun Na Cho,Eun Young Kim,Ji Ye Jung,et al.",
+            "date": "(2015)",
+            "journal": "Lung Cancer",
+            "pmid": "[PMID:26271547]",
+            "title": "BCL2-like 11 intron 2 deletion polymorphism is not associated with non-small cell lung cancer risk and prognosis.",
+            "vol": "90(1):106-10."
+        },
+        {
+            "authors": "Jun Atsumi,Kimihiro Shimizu,Yoichi Ohtaki,et al.",
+            "date": "(2015)",
+            "journal": "J Glob Oncol",
+            "pmid": "[PMID:28717678]",
+            "title": "Impact of the Bim Deletion Polymorphism on Survival Among Patients With Completely Resected Non-Small-Cell Lung Carcinoma.",
+            "vol": "2(1):15-25."
+        },
+        {
+            "authors": "Si-Yang Liu,Jia-Ying Zhou,Wen-Feng Li,et al.",
+            "date": "(2020)",
+            "journal": "Clin Transl Med",
+            "pmid": "[PMID:32508032]",
+            "title": "Concomitant genetic alterations having greater impact on the clinical benefit of EGFR-TKIs in EGFR-mutant advanced NSCLC than BIM deletion polymorphism.",
+            "vol": "10(1):337-345."
+        },
+        {
+            "authors": "He Li,Saumya D Sisoudiya,Bailey A Martin-Giacalone,et al.",
+            "date": "(2021)",
+            "journal": "J Natl Cancer Inst",
+            "pmid": "[PMID:33372952]",
+            "title": "Germline Cancer Predisposition Variants in Pediatric Rhabdomyosarcoma: A Report From the Children's Oncology Group.",
+            "vol": "113(7):875-883."
+        },
+        {
+            "authors": "J A Fagin,K Matsuo,A Karmakar,et al.",
+            "date": "(1993)",
+            "journal": "J Clin Invest",
+            "pmid": "[PMID:8423216]",
+            "title": "High prevalence of mutations of the p53 gene in poorly differentiated human thyroid carcinomas.",
+            "vol": "91(1):179-84."
+        },
+        {
+            "authors": "Lynne T Bemis,William A Robinson,Robert McFarlane,et al.",
+            "date": "(2007)",
+            "journal": "Lancet Oncol",
+            "pmid": "[PMID:17540308]",
+            "title": "EGFR-mutant lung adenocarcinoma in a patient with Li-Fraumeni syndrome.",
+            "vol": "8(6):559-60."
+        },
+        {
+            "authors": "Peixin Dong,Mitsuhiro Tada,Jun-Ichi Hamada,et al.",
+            "date": "(2007)",
+            "journal": "Clin Exp Metastasis",
+            "pmid": "[PMID:17636407]",
+            "title": "p53 dominant-negative mutant R273H promotes invasion and migration of human endometrial cancer HHUA cells.",
+            "vol": "24(6):471-83."
+        },
+        {
+            "authors": "Brigitte Schlegelberger,Hans Kreipe,Ulrich Lehmann,et al.",
+            "date": "(2015)",
+            "journal": "Pediatr Blood Cancer",
+            "pmid": "[PMID:25787918]",
+            "title": "A child with Li-Fraumeni syndrome: Modes to inactivate the second allele of TP53 in three different malignancies.",
+            "vol": "62(8):1481-4."
+        },
+        {
+            "authors": "Wei-Gang Qiu,Alla Polotskaia,Gu Xiao,et al.",
+            "date": "(2017)",
+            "journal": "NPJ Breast Cancer",
+            "pmid": "[PMID:28232952]",
+            "title": "Identification, validation, and targeting of the mutant p53-PARP-MCM chromatin axis in triple negative breast cancer.",
+            "vol": "3:1."
+        },
+        {
+            "authors": "B S Tan,K H Tiong,H L Choo,et al.",
+            "date": "(2015)",
+            "journal": "Cell Death Dis",
+            "pmid": "[PMID:26181206]",
+            "title": "Mutant p53-R273H mediates cancer cell survival and anoikis resistance through AKT-dependent suppression of BCL2-modifying factor (BMF).",
+            "vol": "6(7):e1826."
+        },
+        {
+            "authors": "Steffen Boettcher,Peter G Miller,Rohan Sharma,et al.",
+            "date": "(2019)",
+            "journal": "Science",
+            "pmid": "[PMID:31395785]",
+            "title": "A dominant-negative effect drives selection of TP53 missense mutations in myeloid malignancies.",
+            "vol": "365(6453):599-604."
+        },
+        {
+            "authors": "Gu Xiao,Devon Lundine,George K Annor,et al.",
+            "date": "(2020)",
+            "journal": "Cancer Res",
+            "pmid": "[PMID:31776133]",
+            "title": "Gain-of-Function Mutant p53 R273H Interacts with Replicating DNA and PARP1 in Breast Cancer.",
+            "vol": "80(3):394-405."
+        },
+        {
+            "authors": "Kai Shang#,Hongxiang Huang#,Yongkang Xu,et al.",
+            "date": "(2022)",
+            "journal": "BMC Cancer",
+            "pmid": "[PMID:36503478]",
+            "title": "Efficacy and safety analyses of epidermal growth factor receptor tyrosine kinase inhibitors combined with chemotherapy in the treatment of advanced non-small-cell lung cancer with an EGFR/TP53 co-mutation.",
+            "vol": "22(1):1295."
+        },
+        {
+            "authors": "Noura J Choudhury,Antonio Marra,Jane S Y Sui,et al.",
+            "date": "(2022)",
+            "journal": "J Thorac Oncol",
+            "pmid": "[PMID:36494075]",
+            "title": "Molecular biomarkers of disease outcomes and mechanisms of acquired resistance to first-line osimertinib in advanced EGFR-mutant lung cancers.",
+            "vol": "S1556-0864(22)01932-3."
+        },
+        {
+            "authors": "Christian W Eskelund,Christina Dahl,Jakob W Hansen,et al.",
+            "date": "(2017)",
+            "journal": "Blood",
+            "pmid": "[PMID:28819011]",
+            "title": " TP53 mutations identify younger mantle cell lymphoma patients who do not benefit from intensive chemoimmunotherapy.",
+            "vol": "130(17):1903-1910."
+        }
+    ],
+    "therapeutic_regimen": [
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92a49ea0737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "A methylated derivative and structural analog of PRIMA-1 (p53 re-activation and induction of massive apoptosis), with potential antineoplastic activity. Upon administration, PRIMA-1 analog APR-246 covalently modifies the core domain of mutated forms of cellular tumor antigen p53 (p53) through the alkylation of thiol groups. These modifications restore both the wild-type conformation and function to mutant p53, which reconstitutes endogenous p53 activity, leading to cell cycle arrest and apoptosis in tumor cells. This agent may work synergistically with other antineoplastic agents. p53, a tumor suppressor and transcription factor normally activated upon DNA damage, is frequently mutated and overexpressed in cancer cells; it plays a key role in both DNA repair and the induction of apoptosis.",
+                    "drug_name": "APR-246",
+                    "regimen_code": "a981c170737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "APR-246",
+            "regimen_en": "APR-246",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "ed318a152262adcbafe569b587f105aa",
+            "var": [
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Arg273His",
+                    "hgvs_c": "c.818G>A",
+                    "hgvs_p": "p.R273H"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92a49ea0737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "A methylated derivative and structural analog of PRIMA-1 (p53 re-activation and induction of massive apoptosis), with potential antineoplastic activity. Upon administration, PRIMA-1 analog APR-246 covalently modifies the core domain of mutated forms of cellular tumor antigen p53 (p53) through the alkylation of thiol groups. These modifications restore both the wild-type conformation and function to mutant p53, which reconstitutes endogenous p53 activity, leading to cell cycle arrest and apoptosis in tumor cells. This agent may work synergistically with other antineoplastic agents. p53, a tumor suppressor and transcription factor normally activated upon DNA damage, is frequently mutated and overexpressed in cancer cells; it plays a key role in both DNA repair and the induction of apoptosis.",
+                    "drug_name": "APR-246",
+                    "regimen_code": "06ffd6dc8d5c11ec8b3c005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "8fac1250737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "阿扎胞苷为胞苷的嘧啶核苷类似物，具有抗肿瘤活性。 阿扎胞苷被掺入 DNA 中，它可逆地抑制 DNA 甲基转移酶，从而阻断 DNA 甲基化。 阿扎胞苷对 DNA 的低甲基化可能会激活因高甲基化而沉默的肿瘤抑制基因，从而产生抗肿瘤作用。 该试剂还掺入 RNA，从而破坏正常的 RNA 功能并削弱 tRNA 胞嘧啶-5-甲基转移酶活性。",
+                    "drug_mechanism_en": "A pyrimidine nucleoside analogue of cytidine with antineoplastic activity. Azacitidine is incorporated into DNA, where it reversibly inhibits DNA methyltransferase, thereby blocking DNA methylation.  Hypomethylation of DNA by azacitidine may activate tumor suppressor genes silenced by hypermethylation, resulting in an antitumor effect. This agent is also incorporated into RNA, thereby disrupting normal RNA function and impairing tRNA cytosine-5-methyltransferase activity. (NCI04)",
+                    "drug_name": "阿扎胞苷;Azacitidine",
+                    "regimen_code": "06ffd6dc8d5c11ec8b3c005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "APR-246+阿扎胞苷",
+            "regimen_en": "APR-246+Azacitidine",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "ed318a152262adcbafe569b587f105aa",
+            "var": [
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Arg273His",
+                    "hgvs_c": "c.818G>A",
+                    "hgvs_p": "p.R273H"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8ff3ceba737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "A novel pyrrolopyrimidine derivative, and an orally available inhibitor of the serine/threonine protein kinase AKT (protein kinase B) with potential antineoplastic activity. Capivasertib binds to and inhibits all AKT isoforms. Inhibition of AKT prevents the phosphorylation of AKT substrates that mediate cellular processes, such as cell division, apoptosis, and glucose and fatty acid metabolism. A wide range of solid and hematological malignancies show dysregulated PI3K/AKT/mTOR signaling due to mutations in multiple signaling components. By targeting AKT, the key node in the PIK3/AKT signaling network, this agent may be used as monotherapy or combination therapy for a variety of human cancers.",
+                    "drug_name": "Capivasertib",
+                    "regimen_code": "2e42b45e909e11eca731005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "92440dc4737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "紫杉醇是一种抗微管类的化疗药物。 紫杉醇常用于多种癌症治疗中，它是一种有丝分裂抑制剂，是于 1971 年从太平洋紫杉树的树皮中首次分离出来，并于1993年批准用于医学用途，并被列于世界卫生组织的基本药物清单。 紫杉醇的作用机理主要是去影响微管的正常功能，透过稳定与GDP结合的微管蛋白，从而致使快速分裂的肿瘤细胞在有丝分裂阶段被限制而无法分离，将细胞阻断于细胞周期之G2与M期间，使癌细胞复制受阻断而死亡。因此紫杉醇在抗癌药物当中，被视为有丝分裂中的微管抑制剂。",
+                    "drug_mechanism_en": "Paclitaxel is a chemotherapeutic agent marketed under the brand name Taxol among others. Used as a treatment for various cancers, paclitaxel is a mitotic inhibitor that was first isolated in 1971 from the bark of the Pacific yew tree which contains endophytic fungi that synthesize paclitaxel. It is available as an intravenous solution for injection and the newer formulation contains albumin-bound paclitaxel marketed under the brand name Abraxane.",
+                    "drug_name": "紫杉醇;Paclitaxel",
+                    "regimen_code": "2e42b45e909e11eca731005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "Capivasertib+紫杉醇",
+            "regimen_en": "Capivasertib+Paclitaxel",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "8c8a6ef6dd1ac4b204c426e1eedac151",
+            "var": [
+                {
+                    "gene_symbol": "PTEN",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Met270AsnfsTer28",
+                    "hgvs_c": "c.808dup",
+                    "hgvs_p": "p.M270Nfs*28"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "906a76b4737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "A dual inhibitor of DNA-dependent protein kinase (DNA-PK) and mammalian target of rapamycin (mTOR), with potential antineoplastic activity. CC-115 binds to and inhibits the activity of DNA-PK and both raptor-mTOR (TOR complex 1 or TORC1) and rictor-mTOR (TOR complex 2 or TORC2), which may lead to a reduction in cellular proliferation of cancer cells expressing DNA-PK and TOR. DNA-PK, a serine/threonine kinase and a member of the PI3K-related kinase subfamily of protein kinases, is activated upon DNA damage and plays a key role in repairing double-stranded DNA breaks via the DNA nonhomologous end joining (NHEJ) pathway; mTOR, a serine/threonine kinase that is upregulated in a variety of tumors, plays an important role downstream in the PI3K/Akt/mTOR signaling pathway.",
+                    "drug_name": "CC-115",
+                    "regimen_code": "72c6f16c909e11ec8c24005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "909929e6737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Enzalutamide是一种雄激素受体抑制剂，可在雄激素受体信号传导途径的不同步骤上起作用。 恩杂鲁胺已被证明具有竞争性抑制雄激素与雄激素受体结合的能力。 因此，抑制雄激素受体的核易位及其与DNA的相互作用。 主要代谢物N-去甲基enzalutamide具有与enzalutamide相似的体外活性。 在小鼠前列腺癌异种移植模型中，Enzalutamide降低了体外前列腺癌细胞的增殖并诱导了细胞死亡，并降低了小鼠前列腺癌异种移植模型的肿瘤体积。",
+                    "drug_mechanism_en": "An orally bioavailable, organic, non-steroidal small molecule targeting the androgen receptor (AR) with potential antineoplastic activity. Through a mechanism that is reported to be different from other approved AR antagonists, enzalutamide inhibits the activity of prostate cancer cell ARs, which may result in a reduction in prostate cancer cell proliferation and, correspondingly, a reduction in the serum prostate specific antigen (PSA) level. AR over-expression in prostate cancer represents a key mechanism associated with prostate cancer hormone resistance.",
+                    "drug_name": "恩扎卢胺;Enzalutamide",
+                    "regimen_code": "72c6f16c909e11ec8c24005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "CC-115+恩扎卢胺",
+            "regimen_en": "CC-115+Enzalutamide",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "8c8a6ef6dd1ac4b204c426e1eedac151",
+            "var": [
+                {
+                    "gene_symbol": "PTEN",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Met270AsnfsTer28",
+                    "hgvs_c": "c.808dup",
+                    "hgvs_p": "p.M270Nfs*28"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92f38ba0737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of raptor-mTOR (TOR complex 1 or TORC1) and rictor-mTOR (TOR complex 2 or TORC2) with potential antineoplastic activity. Sapanisertib binds to and inhibits both TORC1 and TORC2 complexes of mTOR, which may result in tumor cell apoptosis and a decrease in tumor cell proliferation. TORC1 and 2 are upregulated in some tumors and play an important role in the PI3K/Akt/mTOR signaling pathway, which is frequently dysregulated in human cancers.",
+                    "drug_name": "Sapanisertib",
+                    "regimen_code": "4984e09cc43411ecbd4a005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "91b16898737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "The hydrochloride salt of the biguanide metformin with antihyperglycemic and potential antineoplastic activities. Metformin inhibits complex I (NADPH:ubiquinone oxidoreductase) of the mitochondrial respiratory chain, thereby increasing the cellular AMP to ATP ratio and leading to activation of AMP-activated protein kinase (AMPK) and regulating AMPK-mediated transcription of target genes. This eventually prevents hepatic gluconeogenesis, enhances insulin sensitivity and fatty acid oxidation and ultimately leads to a decrease in glucose levels. Metformin may exert antineoplastic effects through AMPK-mediated or AMPK-independent inhibition of mammalian target of rapamycin (mTOR), which is up-regulated in many cancer tissues. Furthermore, this agent also inhibits tumor cell migration and invasion by inhibiting matrix metalloproteinase-9 (MMP-9) expression which is mediated through the suppression of transcription activator protein-1 (AP-1) activation.",
+                    "drug_name": "二甲双胍;Metformin",
+                    "regimen_code": "4984e09cc43411ecbd4a005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "Sapanisertib+二甲双胍",
+            "regimen_en": "Sapanisertib+Metformin",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "8c8a6ef6dd1ac4b204c426e1eedac151",
+            "var": [
+                {
+                    "gene_symbol": "PTEN",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Met270AsnfsTer28",
+                    "hgvs_c": "c.808dup",
+                    "hgvs_p": "p.M270Nfs*28"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8e8f9dec737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "A small molecule inhibitor of the tyrosine kinase WEE1 with potential antineoplastic sensitizing activity. Adavosertib selectively targets and inhibits WEE1, a tyrosine kinase that phosphorylates cyclin-dependent kinase 1 (CDK1, CDC2) to inactivate the CDC2/cyclin B complex. Inhibition of WEE1 activity prevents the phosphorylation of CDC2 and impairs the G2 DNA damage checkpoint. This may lead to apoptosis upon treatment with DNA damaging chemotherapeutic agents. Unlike normal cells, most p53 deficient or mutated human cancers lack the G1 checkpoint as p53 is the key regulator of the G1 checkpoint and these cells rely on the G2 checkpoint for DNA repair to damaged cells. Annulment of the G2 checkpoint may therefore make p53 deficient tumor cells more vulnerable to antineoplastic agents and enhance their cytotoxic effect.",
+                    "drug_name": "Adavosertib",
+                    "regimen_code": "607d34e48d5b11ec92c3005056bdcbf7"
+                },
+                {
+                    "dosage": null,
+                    "drug_code": "8ff72600737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "卡铂的主要作用是将烷基连接到核苷酸上，导致单加合物的形成，以及当修复酶试图纠正错误时 DNA 片段化。 2% 的卡铂活性来自 DNA 从一条链上的碱基到另一条上碱基的交联，从而防止 DNA 链分离以进行合成或转录。卡铂可以诱导许多不同的突变。 ",
+                    "drug_mechanism_en": "Carboplatin is an organoplatinum antineoplastic alkylating agent used in the treatment of advanced ovarian carcinoma.Early clinical studies of carboplatin were performed in 1982. Carboplatin was developed as an analog of cisplatin with reduced nephrotoxicity and vomiting.Carboplatin was granted FDA approval on 3 March 1989.",
+                    "drug_name": "卡铂;Carboplatin",
+                    "regimen_code": "607d34e48d5b11ec92c3005056bdcbf7"
+                },
+                {
+                    "dosage": null,
+                    "drug_code": "92440dc4737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "紫杉醇是一种抗微管类的化疗药物。 紫杉醇常用于多种癌症治疗中，它是一种有丝分裂抑制剂，是于 1971 年从太平洋紫杉树的树皮中首次分离出来，并于1993年批准用于医学用途，并被列于世界卫生组织的基本药物清单。 紫杉醇的作用机理主要是去影响微管的正常功能，透过稳定与GDP结合的微管蛋白，从而致使快速分裂的肿瘤细胞在有丝分裂阶段被限制而无法分离，将细胞阻断于细胞周期之G2与M期间，使癌细胞复制受阻断而死亡。因此紫杉醇在抗癌药物当中，被视为有丝分裂中的微管抑制剂。",
+                    "drug_mechanism_en": "Paclitaxel is a chemotherapeutic agent marketed under the brand name Taxol among others. Used as a treatment for various cancers, paclitaxel is a mitotic inhibitor that was first isolated in 1971 from the bark of the Pacific yew tree which contains endophytic fungi that synthesize paclitaxel. It is available as an intravenous solution for injection and the newer formulation contains albumin-bound paclitaxel marketed under the brand name Abraxane.",
+                    "drug_name": "紫杉醇;Paclitaxel",
+                    "regimen_code": "607d34e48d5b11ec92c3005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "Adavosertib+卡铂+紫杉醇",
+            "regimen_en": "Adavosertib+Carboplatin+Paclitaxel",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "ed318a152262adcbafe569b587f105aa",
+            "var": [
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Arg273His",
+                    "hgvs_c": "c.818G>A",
+                    "hgvs_p": "p.R273H"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8ff3ceba737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "A novel pyrrolopyrimidine derivative, and an orally available inhibitor of the serine/threonine protein kinase AKT (protein kinase B) with potential antineoplastic activity. Capivasertib binds to and inhibits all AKT isoforms. Inhibition of AKT prevents the phosphorylation of AKT substrates that mediate cellular processes, such as cell division, apoptosis, and glucose and fatty acid metabolism. A wide range of solid and hematological malignancies show dysregulated PI3K/AKT/mTOR signaling due to mutations in multiple signaling components. By targeting AKT, the key node in the PIK3/AKT signaling network, this agent may be used as monotherapy or combination therapy for a variety of human cancers.",
+                    "drug_name": "Capivasertib",
+                    "regimen_code": "adfef67e0a8911ee94790242ac190003"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "90cfa84a737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "氟维司群是一种合成的雌激素受体拮抗剂。 与他莫昔芬（具有部分激动剂作用）和芳香化酶抑制剂（减少肿瘤细胞可用的雌激素）不同，氟维司群与乳腺癌细胞中的雌激素受体竞争性地结合，导致雌激素受体形变、雌激素结合减少。体外研究表明，氟维司群可逆地抑制他莫昔芬耐药的雌激素敏感的人类乳腺癌细胞系的生长。",
+                    "drug_mechanism_en": "A synthetic estrogen receptor antagonist.  Unlike tamoxifen (which has partial agonist effects) and the aromatase inhibitors (which reduce the estrogen available to tumor cells), fulvestrant binds competitively to estrogen receptors in breast cancer cells, resulting in estrogen receptor deformation and decreased estrogen binding. In vitro studies indicate that fulvestrant reversibly inhibits the growth of tamoxifen-resistant, estrogen-sensitive, human breast cancer cell lines. (NCI04)",
+                    "drug_name": "氟维司群;Fulvestrant",
+                    "regimen_code": "adfef67e0a8911ee94790242ac190003"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "Capivasertib+氟维司群",
+            "regimen_en": "Capivasertib+Fulvestrant",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "8c8a6ef6dd1ac4b204c426e1eedac151",
+            "var": [
+                {
+                    "gene_symbol": "PTEN",
+                    "gene_region": "exon8",
+                    "hgvs_p_abbr": "p.Met270AsnfsTer28",
+                    "hgvs_c": "c.808dup",
+                    "hgvs_p": "p.M270Nfs*28"
+                }
+            ]
+        }
+    ]
+}

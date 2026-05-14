@@ -1,0 +1,3197 @@
+{
+    "sample_info": {
+        "order_id": "19-22T01827",
+        "sample_parent_id": null,
+        "sample_id": "19-22T01827",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": null,
+        "gender": null,
+        "age": null,
+        "sample_type": null,
+        "control_sample_type": null,
+        "sample_amount": null,
+        "control_sample_amount": null,
+        "tumor_type": "胃癌",
+        "pathol_diagn": "(远端胃)腺癌",
+        "tumor_names_cn": "胃癌",
+        "pathological_id": "22T01827",
+        "company": "复旦大学附属中山医院",
+        "origin_company": null,
+        "report_number": null,
+        "hosp_depart": null,
+        "prod_names": "Classic Panel-胃",
+        "prod_ids": "5",
+        "report_module_type": "hospital",
+        "json_batch_name": "20220905_HH3MJ23_M000205_ADXHS-Classic-H_v1.3.7_20220906091826",
+        "mark": "临床诊断：临床诊断test；送检医生：医生test；送检科室：科室test；申请日期：申请日期test",
+        "tumor_content": null,
+        "sample_position": null,
+        "sample_position_id": null,
+        "family_history": null,
+        "molecular_number": null,
+        "gather_data": null,
+        "receive_data": null,
+        "report_data": "2022-11-17",
+        "tumor_list": [
+            "胃癌",
+            "胃腺鳞癌",
+            "胃残留腺癌",
+            "胃小细胞癌",
+            "胃腺癌",
+            "未分化胃腺癌",
+            "胃食管交界癌",
+            "贲门癌"
+        ]
+    },
+    "snvindel": [
+        {
+            "sample_id": "19-22T01827",
+            "order_code": "bab31cfe2da511edac910242ac1b0004",
+            "bio_category": "Snvindel",
+            "gene_symbol": "TP53",
+            "transcript_primary": "NM_000546.5",
+            "var_id": "d342a9492038458f08826838c6f955ad",
+            "hgvs_c": "c.375+2T>G",
+            "hgvs_p": "p.?",
+            "hgvs_p_abbr": "p.?",
+            "chr": "chr17",
+            "start": "7579310",
+            "end": "7579310",
+            "ref": "A",
+            "alt": "C",
+            "gene_region": "intron4",
+            "freq": 0.2669,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Splicing",
+            "tag": "PASS",
+            "igvplot": "/var/www/html/report_backend/system_files/json_file/20220905_HH3MJ23_M000205_ADXHS-Classic-H_v1.3.7_20220906091826/19-22T01827_19-22T01827_AHVJFCAFX3_1/IGV/chr17_7579310_7579310_A_C.png",
+            "depth": 266.0,
+            "json_batch_name": "20220905_HH3MJ23_M000205_ADXHS-Classic-H_v1.3.7_20220906091826",
+            "var_origin": "",
+            "clinical_significance": "Likely pathogenic",
+            "function_classification": "Likely oncogenic",
+            "clinical_category": "Tier I",
+            "literature": "",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "该变异可能造成异常剪接；在1000G、ExAC、gnomAD数据库无记录；在ClinVar数据库报道为Likely_pathogenic（ID=482210，可靠度为一颗星）。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为经典剪接位点突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "PM2_Supporting;PVS1",
+            "evi_sum": [
+                {
+                    "regimen_name": "APR-246+阿扎胞苷",
+                    "tumor_name_cn": "骨髓增生异常综合征",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C4",
+                    "evi_interpretation": "一项II期临床试验（NCT03588078, PMID: 33600210），入组52例携带TP53突变的患者，包括34例骨髓异常增长综合征患者（MDS）、18例急性髓系白血病患者（AML，包括7名骨髓母细胞超过30%的患者），使用APR-246（Eprenetapopt）联合阿扎胞苷进行治疗；主要终点为缓解率，次要终点为安全性、总生存期等参数。研究结果显示，MDS患者的总体缓解率为62%，包括47%的完全缓解率，中位缓解持续时间为10.4个月；AML患者的总体缓解率为33%，包括17%的完全缓解率（在骨髓母细胞小于和大于30%的急性髓系白血病中，总缓解率分别为27%、0%）。中位随访时间为9.7个月，MDS的中位OS为12.1个月，骨髓母细胞小于和大于30%的AML的中位OS分别为13.9和3.0个月。研究结论为：在极高危TP53m MDS和AML患者群体中，APR-246（Eprenetapopt）联合阿扎胞苷是安全的，并显示出比单独使用阿扎胞苷更高的缓解率，以及更长的总生存期。"
+                },
+                {
+                    "regimen_name": "AZD1775+卡铂+紫杉醇",
+                    "tumor_name_cn": "卵巢癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C4",
+                    "evi_interpretation": "一项多中心II期临床试验（NCT01357161, PMID: 32611648），试验分为2个部分，第一部分为开放标签的安全性试验，第二部分为随机、双盲、安慰剂对照的临床试验；总共入组121位TP53突变的铂敏感的卵巢癌、输卵管癌或原发性腹膜癌患者，分别使用AZD1775+卡铂+紫杉醇或安慰剂+卡铂+紫杉醇治疗。主要研究终点为ePFS（RECIST v1.1加强版评估的PFS）和安全性。研究结果：PFS对比中，AZD1775+卡铂+紫杉醇 vs 安慰剂+卡铂+紫杉醇为7.9个月 vs 7.3个月（HR 0.63[95% CI 0.38-1.06];two-side P=0.080），满足预设的显著性阈值（P＜0.2）。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "卡铂",
+                    "阿扎胞苷",
+                    "紫杉醇",
+                    "APR-246",
+                    "AZD1775"
+                ],
+                "var": {
+                    "gene_symbol": "TP53",
+                    "gene_region": "intron4",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.375+2T>G",
+                    "hgvs_p": "p.?"
+                }
+            },
+            "gene_function": "TP53基因是细胞内最重要的抑癌基因之一，其突变失活或异常对肿瘤的发生和发展起到至关重要的推动作用。TP53基因突变广泛地发生于多种肿瘤中，是人类肿瘤中最常见的突变基因。"
+        }
+    ],
+    "sv": [],
+    "cnv": [
+        {
+            "sample_id": "19-22T01827",
+            "order_code": "bab31cfe2da511edac910242ac1b0004",
+            "bio_category": "Cnv",
+            "gene_symbol": "ERBB2",
+            "var_id": "hg19:ERBB2::Gain",
+            "region_exon": null,
+            "cnv_exons": null,
+            "cnv_type": "GAIN",
+            "cn_mean": 4.005,
+            "cnv_noise": null,
+            "chr": null,
+            "start": null,
+            "end": null,
+            "location": null,
+            "amp_ratio": null,
+            "z_score": null,
+            "region": null,
+            "json_batch_name": "20220905_HH3MJ23_M000205_ADXHS-Classic-H_v1.3.7_20220906091826",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Oncogenic",
+            "clinical_category": "Tier I",
+            "literature": "3798106,23204226,24943493,24656976",
+            "polymorphism": "",
+            "variant_interpret_cn": "ERBB2(HER2)基因突变在多种肿瘤中均有发生，例如在乳腺癌中，HER2扩增或突变的发生概率高达30%（PMID: 3798106, PMID: 23204226），而在胃癌中也有将近20%的发生概率（PMID: 24943493），在其它肿瘤如结直肠癌，肺癌，膀胱癌等中也有相对较低的发生概率（PMID: 24656976）。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "",
+            "variant_desc_en": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "Fam-Trastuzumab Deruxtecan-Nxki",
+                    "tumor_name_cn": "胃癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准Fam-trastuzumab deruxtecan-nxki用于既往接受过曲妥珠单抗治疗的局部晚期或转移性HER2阳性胃或胃食管交界（GEJ）腺癌的成人患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项随机、多中心、开放标签Ⅱ期临床试验（DESTINY-Gastric01，NCT03329690），入组188名HER2阳性(IHC 3+或IHC 2+/ISH阳性) 的局部进展或转移性胃或胃食管交界（GEJ）腺癌的成年患者，患者在经过包括曲妥珠单抗，含氟嘧啶化疗和含铂化疗在内的至少2种治疗方案后进展。治疗方式为：患者随机分为2:1，接受每3周静脉注射6.4 mg/kg 的Fam-trastuzumab deruxtecan-nxki(DS-8201a) (N=126) 或医生选择的化疗方案（伊立替康单药（N=55）或紫杉醇单药（N=7）），治疗持续到不可接受的毒性或疾病进展。主要终点为客观缓解率（ORR）和总生存期(OS)。次要终点为无进展生存期（PFS）和缓解持续时间（DOR）。研究结果显示：Fam-trastuzumab deruxtecan-nxki(DS-8201a)组ORR为40.5%，中位OS为12.5个月，中位PFS为5.6个月，中位DOR为11.3个月；伊立替康/紫杉醇组ORR为7%，中位OS为8.4个月，中位PFS为3.5个月，中位DOR为3.9个月。基于上述研究，FDA批准Fam-trastuzumab deruxtecan-nxki用于既往接受过曲妥珠单抗治疗的局部晚期或转移性HER2阳性胃或胃食管交界（GEJ）腺癌的成人患者的治疗。"
+                },
+                {
+                    "regimen_name": "曲妥珠单抗+帕博利珠单抗+化疗",
+                    "tumor_name_cn": "胃癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准帕博利珠单抗+曲妥珠单抗+包含铂和氟尿嘧啶的化疗用于局部晚期不可切除或转移性HER2阳性胃或胃食管交界(GEJ)腺癌的一线治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项随机、双盲、安慰剂对照的III期临床试验（KEYNOTE-811, NCT03615326, PMID: 33167735），入组692例未接受过系统疗法治疗的转移性的HER2阳性晚期胃癌或GEJ腺癌患者，其中HER2阳性定义为IHC检测结果为2+或3+、ISH或FISH检测为阳性。研究结果显示，与曲妥珠单抗+化疗组相比，帕博利珠单抗+曲妥珠单抗+化疗组的客观缓解率显著更高（ORR：74% vs 52%；p＜0.0001）。帕博利珠单抗方案组中，完全缓解率（CR）为11%、部分缓解率（PR）为63%。而曲妥珠单抗+化疗组中，CR为3.1%、PR为49%。研究结论：帕博利珠单抗联合曲妥珠单抗和化疗（FP/CAPOX），可有效治疗HER2阳性的胃或胃食管交界（GEJ）腺癌患者。基于此项研究，FDA批准帕博利珠单抗+曲妥珠单抗+包含铂和氟尿嘧啶的化疗用于局部晚期不可切除或转移性HER2阳性胃或胃食管交界(GEJ)腺癌的一线治疗。"
+                },
+                {
+                    "regimen_name": "曲妥珠单抗+顺铂+氟尿嘧啶",
+                    "tumor_name_cn": "胃癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准曲妥珠单抗联合顺铂和卡培他滨或5-氟尿嘧啶用于HER2过表达、未经治疗的转移性胃癌或胃食管连接处腺癌患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项随机、对照、开放的多中心Ⅲ期临床试验（NCT01041404, ToGA, PMID: 20728210）中，入组了594例HER2阳性(IHC 3+筛选HER2过表达，FISH +筛选HER2扩增)的此前未接受过治疗的转移性胃腺癌或胃食管连接处腺癌患者。患者按照1:1比例随机接受曲妥珠单抗（trastuzumab）联合顺铂和氟嘧啶（或顺铂和卡培他滨）（FC+H）或单独化疗（FC）治疗。研究结果显示，曲妥珠单抗联合化疗组与化疗组相比，中位随访时间分别为18.6个月和17.1个月，中位总生存期为13.5个月和11.0个月。研究结论为，HER2阳性的转移性胃腺癌或胃食管连接处腺癌患者对曲妥珠单抗联合顺铂和卡培他滨治疗敏感。基于上述研究，FDA已批准曲妥珠单抗联合顺铂和卡培他滨或5-氟尿嘧啶用于HER2过表达、未经治疗的转移性胃癌或胃食管连接处腺癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "曲妥珠单抗+顺铂+卡培他滨",
+                    "tumor_name_cn": "胃癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准曲妥珠单抗联合顺铂和卡培他滨或5-氟尿嘧啶用于HER2过表达、未经治疗的转移性胃癌或胃食管连接处腺癌患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evi_interpretation": "一项随机、对照、开放的多中心Ⅲ期临床试验（NCT01041404, ToGA, PMID: 20728210）中，入组了594例HER2阳性(IHC 3+筛选HER2过表达，FISH +筛选HER2扩增)的此前未接受过治疗的转移性胃腺癌或胃食管连接处腺癌患者。患者按照1:1比例随机接受曲妥珠单抗（trastuzumab）联合顺铂和氟嘧啶（或顺铂和卡培他滨）（FC+H）或单独化疗（FC）治疗。研究结果显示，曲妥珠单抗联合化疗组与化疗组相比，中位随访时间分别为18.6个月和17.1个月，中位总生存期为13.5个月和11.0个月。研究结论为，HER2阳性的转移性胃腺癌或胃食管连接处腺癌患者对曲妥珠单抗联合顺铂和卡培他滨治疗敏感。基于上述研究，FDA已批准曲妥珠单抗联合顺铂和卡培他滨或5-氟尿嘧啶用于HER2过表达、未经治疗的转移性胃癌或胃食管连接处腺癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "曲妥珠单抗+化疗",
+                    "tumor_name_cn": "胃腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NCCN",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A2",
+                    "evi_interpretation": "胃癌NCCN指南优先推荐曲妥珠单抗+化疗用于HER2过表达的胃腺癌患者的一线治疗，其他推荐用于一线治疗的方案还有曲妥珠单抗+帕博利珠单抗+化疗。推荐Fam-trastuzumab deruxtecan-nxki用于HER2过表达的胃腺癌患者的二线治疗。"
+                },
+                {
+                    "regimen_name": "Margetuximab-cmkb+化疗",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准Margetuximab-cmkb联合化疗用于HER2阳性、已接受过至少两种抗HER2疗法（其中至少一种针对转移性疾病）、转移性乳腺癌成年患者的治疗。",
+                    "evi_adaptation_disease_en": "MARGENZA is a HER2/neu receptor antagonist indicated, in combination with chemotherapy, for the treatment of adult patients with metastatic HER2-positive breast cancer who have received two or more prior anti-HER2 regimens, at least one of which was for metastatic disease.",
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项随机、多中心、开放标签的III期临床试验中（SOPHIA，NCT02492711，PMID: 33480963），纳入536位经抗HER2治疗、HER2阳性的转移性乳腺癌患者，随机1:1接受Margetuximab-cmkb+化疗和曲妥珠单抗+化疗治疗。患者根据化疗药物选择、治疗线(≤ 2, > 2)及转移部位数(≤ 2, > 2)进行随机化。主要疗效评估为两个治疗组PFS和OS的比较，其次为ORR和DOR。研究结果：Margetuximab-cmkb+化疗和曲妥珠单抗+化疗治疗组相比较，mPFS为5.8 vs 4.9（HR 0.76，p=0.033），ORR为22% vs 16%。Margetuximab-cmkb改善了PFS，相对风险降低了24%（HR 0.76，p=0.033）。 输液相关反应的发生率，Margetuximab-cmkb组较高（35[13.3%] vs 9[3.4%])，除此之外，安全性是相当的。基于上述研究，FDA批准Margetuximab-cmkb联合化疗用于HER2阳性、已接受过至少两种抗HER2疗法（其中至少一种针对转移性疾病）、转移性乳腺癌成年患者的治疗。"
+                },
+                {
+                    "regimen_name": "恩美曲妥珠单抗",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": "FDA批准恩美曲妥珠单抗用于以紫杉烷和曲妥珠单抗为基础的新辅助治疗后残留侵袭性疾病的HER2阳性早期乳腺癌患者的辅助治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项随机、多中心、开放标签的Ⅲ期临床试验（KATHERINE, NCT01772472），入组1486例HER2阳性的早期乳腺癌患者，随机分为恩美曲妥珠单抗组和曲妥珠单抗组，主要终点为无侵袭性疾病生存期（IDFS），次要终点为第二原发性非乳腺癌的IDFS、无病生存期（DFS）和总生存期（OS）。研究结果显示，两组患者（恩美曲妥珠单抗 VS 曲妥珠单抗）的IDFS为88.3% VS 77%，第二原发性非乳腺癌的IDFS为87.7% VS 76.9%，DFS为87.4% VS 76.9%，OS为NR。基础上述研究，FDA批准恩美曲妥珠单抗用于以紫杉烷和曲妥珠单抗为基础的新辅助治疗后残留侵袭性疾病的HER2阳性早期乳腺癌患者的辅助治疗。"
+                },
+                {
+                    "regimen_name": "奈拉替尼",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准奈拉替尼单药用于治疗早期HER2阳性的乳腺癌患者经辅助曲妥珠单抗治疗后的扩展辅助治疗方案。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项多中心、随机、双盲、安慰剂对照的III期临床试验（ExteNET, NCT00878709），纳入II-IIIC期可手术、完成新辅助和辅助化疗+曲妥珠单抗治疗、且入组时无复发或转移（年龄≥18岁，日本患者≥20岁）的HER2阳性乳腺癌患者2840例，随机分配至奈拉替尼(neratinib)治疗组(口服240mg/日，n=1420)和安慰剂组(n=1420)。24个月无浸润性疾病生存率(invasive disease-free survival,iDFS)：奈拉替尼组和安慰剂组分别为94.2%和91.9%（p=0.008）；5年iDFS结果与2年的保持一致。5年预期总生存期（OS）：奈拉替尼组和安慰剂组分别为94.1%和93.3%，随访至8年时，两组OS无统计学显著差异。基于上述研究，FDA批准奈拉替尼单药用于治疗早期HER2阳性的乳腺癌患者经辅助曲妥珠单抗治疗后的扩展辅助治疗方案。"
+                },
+                {
+                    "regimen_name": "奈拉替尼+卡培他滨",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准奈拉替尼联合卡培他滨用于既往接受过至少两种抗HER2治疗、晚期或转移性、HER2阳性的乳腺癌成年患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项随机、开放标签的多中心临床试验（NALA, NCT01808573），入组621例既往接受过两种或以上抗HER2治疗的转移性的HER2阳性乳腺癌成人患者。研究以21天为一个治疗周期，患者随机分为240mg奈拉替尼（Neratinib）联合卡培他滨口服治疗（307例）和1250mg拉帕替尼联合卡培他滨口服治疗（314例）2组。研究结果显示，奈拉替尼联合卡培他滨治疗组 VS 拉帕替尼联合卡培他滨组的中位无进展生存期（PFS）为5.6个月 VS 5.5个月，1年PFS率为29% vs 15%，2年PFS率为12% vs 3%，中位OS为21.0个月 VS 18.7个月，ORR为32.8% VS 26.7%，中位缓解持续时间（DOR）为8.5个月 VS 5.6个月。基于上述研究，FDA已批准奈拉替尼联合卡培他滨用于治疗既往接受过至少两种抗HER2治疗、晚期或转移性、HER2阳性的乳腺癌成年患者。"
+                },
+                {
+                    "regimen_name": "帕妥珠单抗+曲妥珠单抗",
+                    "tumor_name_cn": "胆道癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NCCN",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项非随机、多中心、开放标签的IIa期篮子试验中（MyPathway, NCT02091141; PMID: 34339623），纳入HER2扩增或过表达或两者兼具的经治转移性胆道癌患者，接受帕妥珠单抗+曲妥珠单抗治疗。主要研究终点为客观缓解率（ORR）。研究结果提示，39例HER2阳性的胆道癌患者中，9例患者获得部分缓解（ORR 23%），11例患者获得疾病稳定（SD）且持续时间超过4个月，疾病控制率（DCR）为51%。中位缓解持续时间为10.8个月，中位PFS为4.0个月，中位OS为10.9个月，1年总生存率为50%，其中有6例患者PFS超过1年。基于以上研究，肝胆肿瘤NCCN指南（2022 V1）推荐帕妥珠单抗联合曲妥珠单抗用于HER2阳性的胆道肿瘤疾病进展后的后续治疗。"
+                },
+                {
+                    "regimen_name": "帕妥珠单抗+曲妥珠单抗+多西他赛",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准帕妥珠单抗联合曲妥珠单抗和多西他赛用于治疗未接受过抗HER2治疗或化疗的HER2阳性的转移性乳腺癌(MBC)患者。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项多中心、双盲、安慰剂对照的III期临床试验（ CLEOPATRA, NCT00567190, PMID: 22149875），研究者将808例未经化疗或生物治疗的HER2阳性转移性乳腺癌患者按1:1随机分成两个治疗组，一组接受帕妥珠单抗+曲妥珠单抗+多西他赛治疗（帕妥珠单抗组），另一组接受安慰剂+曲妥珠单抗+多西他赛治疗（安慰剂组）。研究结果显示，帕妥珠单抗组的中位无进展生存期（PFS）相比安慰剂组有显著延长（18.5个月vs 12.4个月；HR:0.62；95%CI:0.51-0.75；P<0.001）。基于上述研究，FDA批准帕妥珠单抗联合曲妥珠单抗和多西他赛用于治疗未接受过抗HER2治疗或化疗的HER2阳性的转移性乳腺癌(MBC)患者。"
+                },
+                {
+                    "regimen_name": "帕妥珠单抗+曲妥珠单抗+化疗",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": "FDA批准帕妥珠单抗+曲妥珠单抗+化疗用于HER2阳性的高复发风险的早期乳腺癌患者的辅助治疗。",
+                    "evi_adaptation_disease_en": "",
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项多中心、随机、双盲、安慰剂对照的III期临床试验（APHINITY, NCT01358877），入组4804位HER2阳性早期乳腺癌患者，这些患者在入组前已手术切除肿瘤。患者随机分成2组，分别接受帕妥珠单抗+曲妥珠单抗+化疗或安慰剂+曲妥珠单抗+化疗治疗。研究结果：帕妥珠单抗组和安慰剂组发生侵袭性疾病事件的比例分别为7.1%（171/2400）和8.7%（210/2401）（HR=0.82，p=0.047)。研究结论：与安慰剂相比，帕妥珠单抗可显著提高无侵袭性疾病存活期。基于上述临床试验，FDA批准帕妥珠单抗+曲妥珠单抗+化疗用于HER2阳性的高复发风险的早期乳腺癌患者的辅助治疗。"
+                },
+                {
+                    "regimen_name": "曲妥珠单抗",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": "FDA批准曲妥珠单抗单药用于HER2过表达的转移性乳腺癌患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项多中心、开放的单臂临床试验（H0649g），入组了222例既往针对转移性疾病接受过1或2次化疗的HER2阳性的转移性乳腺癌患者。入组患者接受曲妥珠单抗治疗。研究结果显示，客观缓解率（完全缓解＋部分缓解）为14%，其中完全缓解率为2%，部分缓解率为12%。完全缓解仅见于肿瘤转移限于皮肤和淋巴结的患者。肿瘤检测为CTA 3+的患者整体缓解率为17%，检测为CTA 2+的患者缓解率为4%。小结：HER2阳性乳腺癌对曲妥珠单抗治疗敏感。基于上述研究，FDA批准曲妥珠单抗单药用于：多种蒽环类治疗后、淋巴结阳性或阴性(ER/PR阴性或有一个高风险特征(肿瘤大小大于2cm，年龄<35岁，组织学和/或核分级为2或3级))、HER2过表达的乳腺癌患者的辅助治疗；经一次或多次化疗、HER2过表达的转移性乳腺癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "曲妥珠单抗+多柔比星+环磷酰胺+多西他赛",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、多西他赛治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级))的乳腺癌患者。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项随机、开放性临床试验（NCT00021255, BCIRG006）中，入组了3222例HER2阳性的乳腺癌患者。患者按照1:1:1比例随机接受多柔比星和环磷酰胺序贯多西他赛（AC→T），多柔比星和环磷酰胺序贯多西他赛加曲妥珠单抗（AC→TH），或多西他赛和卡铂加曲妥珠单抗（TCH）。研究主要终点是无病生存期（DFS），次要终点为总生存期（OS）。研究结果：DFS发生率，AC→T组 VS AC→TH组为16.8%（180/1073）VS 11.3%（121/1074），HR 0.60（95% CI：0.48-0.76）。OS发生率，AC→T组 VS AC→TH组为7.4%（80/1073）VS 4.5%（49/1074）。研究结论为，HER2阳性的早期乳腺癌患者对多柔比星和环磷酰胺化疗后序贯曲妥珠单抗（Trastuzumab）与多西他赛联合辅助治疗敏感。FDA已批准曲妥珠单抗联合多柔比星、环磷酰胺、多西他赛治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级))的乳腺癌患者。"
+                },
+                {
+                    "regimen_name": "曲妥珠单抗+多柔比星+环磷酰胺+紫杉醇",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、紫杉醇治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级等))的乳腺癌患者。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "两项随机、开放性临床试验（NSABP B31, NCCTG N9831），共入组4063例HER2阳性的乳腺癌患者。患者按照1:1比例随机接受多柔比星和环磷酰胺后序贯紫杉醇（AC→T）或紫杉醇加曲妥珠单抗（AC→TH）治疗。研究主要终点是无病生存期（DFS），次要终点为总生存期（OS）。研究结果为，中位随访2年DFS发生率，AC→T组 VS AC→TH组为13.9%（261/1880）VS 7.10%（133/1872），HR 0.48（95% CI：0.39-0.59）；中位随访5年OS发生率，AC→T组 VS AC→TH组为20.6%（418/2032）VS 14.2%（289/2031），HR 0.64（95% CI：0.55-0.74）。研究结论：HER2阳性的早期乳腺癌患者对多柔比星和环磷酰胺化疗后序贯曲妥珠单抗（Trastuzumab）与紫杉醇联合辅助治疗敏感。基于上述研究，FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、紫杉醇治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级等))的乳腺癌患者。"
+                },
+                {
+                    "regimen_name": "曲妥珠单抗+卡铂+紫杉醇",
+                    "tumor_name_cn": "子宫浆液性癌/子宫乳头状浆液性癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NCCN",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项随机、多中心II期临床试验中（PMID: 29584549），61例III或IV期或复发的HER2阳性子宫浆液性癌（一种罕见、侵袭性子宫内膜癌）患者被随机分配，接受6个周期的卡铂-紫杉醇（对照组）联合或不联合曲妥珠单抗（实验组）治疗。主要研究终点为PFS。III或IV期接受初次治疗的患者（n=41）中，中位无进展生存期为17.9个月VS 9.3个月（实验组VS对照组，p=0.013）。复发患者（n=17）的PFS为9.2个月VS 6.0个月（p=0.003）。研究结果表明：卡铂-紫杉醇联合曲妥珠单抗治疗可改善PFS而不增加总体毒性。NCCN子宫肿瘤指南推荐卡铂-紫杉醇联合曲妥珠单抗用于治疗III/IV期或复发的HER2阳性的子宫浆液性癌。"
+                },
+                {
+                    "regimen_name": "曲妥珠单抗+紫杉醇",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准曲妥珠单抗联合紫杉醇用于HER2过表达转移性乳腺癌患者的一线治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项随机、开放的、多中心临床试验（H0648g），入组469例未经化疗的转移性乳腺癌患者。患者随机接受单一化疗或联合曲妥珠单抗治疗。对于在辅助治疗中曾接受蒽环类药物治疗的患者，化疗采用紫杉醇；其他患者化疗采用蒽环类药物加环磷酰胺（AC）。研究结果显示，与仅接受化疗组患者相比，曲妥珠单抗联合化疗组患者中位疾病进展时间显著延长（7.2个月 VS 4.5个月），总缓解率（ORR）提高（45% VS 29%），中位缓解持续时间延长（8.3个月 VS 5.8个月），中位生存期亦较长（25.1个月 VS 20.3个月）。这些治疗效果也见于曲妥珠单抗联合紫杉醇VS紫杉醇组，联合治疗方案疗效更显著。研究结论：转移性乳腺癌患者对曲妥珠单抗联合紫杉醇治疗敏感。基于上述研究，FDA批准曲妥珠单抗联合紫杉醇用于HER2过表达转移性乳腺癌患者的一线治疗。"
+                },
+                {
+                    "regimen_name": "妥卡替尼+曲妥珠单抗+卡培他滨",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准妥卡替尼联合曲妥珠单抗+卡培他滨用于治疗晚期无法手术切除或转移性(包括脑转移患者，至少接受过一种抗HER2治疗)、HER2阳性的乳腺癌成年患者。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项随机、双盲、安慰剂对照的II期临床试验（HER2CLIMB, NCT02614794, PMID: 31825569），入组612例HER2阳性、不可切除的局部晚期或转移性（包括脑转移）乳腺癌患者，患者既往接受过一种或多种抗HER2乳腺癌药物治疗。入组患者分为妥卡替尼+卡培他滨+曲妥珠单抗和安慰剂+卡培他滨+曲妥珠单抗组。研究结果显示，两组患者（妥卡替尼+卡培他滨+曲妥珠单抗 VS 安慰剂+卡培他滨+曲妥珠单抗）的中位PFS为7.8个月 VS 5.6个月，中位OS为21.9个月 VS 17.4个月，ORR为40.6% VS 22.8%。基于上述研究，FDA批准妥卡替尼联合曲妥珠单抗+卡培他滨用于治疗晚期无法手术切除或转移性(包括脑转移患者，至少接受过一种抗HER2治疗)、HER2阳性的乳腺癌成年患者。"
+                },
+                {
+                    "regimen_name": "伊尼妥单抗+长春瑞滨",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NMPA",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": "NMPA批准注射用伊尼妥单抗与长春瑞滨联合用于HER2阳性的已接受1个或多个化疗方案的转移性乳腺癌患者。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C3",
+                    "evi_interpretation": "一项随机、开放、对照的III期研究(PMID: 32791810)，入组341例既往接受化疗方案不超过3线的HER2阳性转移性乳腺癌患者，评估伊尼妥单抗同步/序贯联合长春瑞滨治疗有效性。341例受试者，进入FAS 315例，其中试验组212例（伊尼妥单抗联合长春瑞滨）、对照组103例（长春瑞滨单药）。研究主要终点为肿瘤无进展生存期（PFS），次要终点为肿瘤客观缓解率（ORR）。试验组的中位PFS为39.1周，对照组的中位PFS为14.0周；试验组的ORR为46.70%，对照组的ORR为18.45%，P<0.0001，组间差异有统计学意义。基于上述研究，NMPA批准注射用伊尼妥单抗与长春瑞滨联合用于HER2阳性的已接受1个或多个化疗方案的转移性乳腺癌患者。"
+                },
+                {
+                    "regimen_name": "妥卡替尼+曲妥珠单抗",
+                    "tumor_name_cn": "结直肠癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C4",
+                    "evi_interpretation": "一项在美国和欧洲进行的多中心、开放、随机II期临床试验（NCT03043313; MOUNTAINEER），旨在评估妥卡替尼（Tucatinib）联合曲妥珠单抗或Tucatinib单药治疗先前接受了标准治疗的HER2阳性转移性或不可切除结直肠癌的有效性和安全性。MOUNTAINEER最初是由一组（队列A）患者组成，每天口服妥卡替尼（300 mg，bid）联合曲妥珠单抗静脉注射。该试验随后在全球范围内扩大，包括随机接受妥卡替尼加曲妥珠单抗（队列B）或妥卡替尼单药治疗（队列C）。研究开始时，患者中分别有64.3%和70.2%存在肝或肺转移，并且既往接受过中位线数为3.0的系统治疗。主要终点是根据RECIST 1.1经盲态独立中央审查 （BICR）评估确认的接受妥卡替尼+曲妥珠单抗组（队列A，B）的ORR。次要终点包括联合治疗的DoR、PFS、OS和安全性。数据显示，无化疗的妥卡替尼组合可产生具有临床意义和持久的肿瘤反应。中位随访时间为20.7个月，客观缓解率（ORR）为38.1%。经BICR确认的DoR为12.4个月，中位PFS为8.2个月，中位OS为24.1个月。"
+                },
+                {
+                    "regimen_name": "ARQ751",
+                    "tumor_name_cn": "实体瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项细胞实验中（PMID: 32439931），与ATP竞争激素抑制剂（Ipatasertib、GSK690693）相比，变构AKT抑制剂（MK-2206、Miransertib、ARQ751）能诱导携带PIK3CA E545K/H1047R/K111N/C420R/P449T/E542K、PTEN L108R、MET扩增、ERBB2扩增、AKT1扩增+AKT3扩增的细胞系更多的细胞死亡。携带AKT1 W80A+PIK3CA E545K突变的细胞系对ARQ751敏感，携带AKT1 W80A突变的细胞系对MK-2206、Miransertib具有抗性；携带AKT2 W80A、AKT1 D323H、AKT1 M227Q突变的细胞系对ARQ751、MK-2206、Miransertib具有抗性；携带AKT1 Q79K突变的细胞系对Miransertib、ARQ751具有抗性；携带AKT1 M227Q+PIK3CA E545K突变的细胞系对Capivasertib敏感。"
+                },
+                {
+                    "regimen_name": "MK2206",
+                    "tumor_name_cn": "实体瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项细胞实验中（PMID: 32439931），与ATP竞争激素抑制剂（Ipatasertib、GSK690693）相比，变构AKT抑制剂（MK-2206、Miransertib、ARQ751）能诱导携带PIK3CA E545K/H1047R/K111N/C420R/P449T/E542K、PTEN L108R、MET扩增、ERBB2扩增、AKT1扩增+AKT3扩增的细胞系更多的细胞死亡。携带AKT1 W80A+PIK3CA E545K突变的细胞系对ARQ751敏感，携带AKT1 W80A突变的细胞系对MK-2206、Miransertib具有抗性；携带AKT2 W80A、AKT1 D323H、AKT1 M227Q突变的细胞系对ARQ751、MK-2206、Miransertib具有抗性；携带AKT1 Q79K突变的细胞系对Miransertib、ARQ751具有抗性；携带AKT1 M227Q+PIK3CA E545K突变的细胞系对Capivasertib敏感。"
+                },
+                {
+                    "regimen_name": "Miransertib",
+                    "tumor_name_cn": "实体瘤",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D3",
+                    "evi_interpretation": "一项细胞实验中（PMID: 32439931），与ATP竞争激素抑制剂（Ipatasertib、GSK690693）相比，变构AKT抑制剂（MK-2206、Miransertib、ARQ751）能诱导携带PIK3CA E545K/H1047R/K111N/C420R/P449T/E542K、PTEN L108R、MET扩增、ERBB2扩增、AKT1扩增+AKT3扩增的细胞系更多的细胞死亡。携带AKT1 W80A+PIK3CA E545K突变的细胞系对ARQ751敏感，携带AKT1 W80A突变的细胞系对MK-2206、Miransertib具有抗性；携带AKT2 W80A、AKT1 D323H、AKT1 M227Q突变的细胞系对ARQ751、MK-2206、Miransertib具有抗性；携带AKT1 Q79K突变的细胞系对Miransertib、ARQ751具有抗性；携带AKT1 M227Q+PIK3CA E545K突变的细胞系对Capivasertib敏感。"
+                },
+                {
+                    "regimen_name": "阿法替尼",
+                    "tumor_name_cn": "尿路上皮癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "3798106,23204226,24943493,24656976",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "D4",
+                    "evi_interpretation": "一项II期临床试验（PMID: 27044931），入组23名转移性尿路上皮癌患者，使用阿法替尼治疗。主要研究终点为3个月无进展生存期（PFS3），同时本研究还进行了EGFR、HER2、ERBB3和ERBB4基因的体细胞突变及拷贝数状态与临床反应的相关性分析。研究结果显示：21.7%（5/23）的患者达到PFS3，包括2例PR和3例SD。值得注意的是，在分析的21个肿瘤中，83.3%（5/6）的HER2和/或ERBB3分子改变的患者可达到PFS3（PFS分别为10.3、7.0、6.9、6.3和5.0个月），而15名没有HER2和/或ERBB3分子改变的患者则均未达到PFS3（P<0.001)。5例达到PFS3的患者分子状态分别为HER2扩增（2例）、ERBB3 G284R（1例）、ERBB3 V104M（1例）、同时携带HER2扩增和ERBB3 R103G突变（1例）。有HER2/ERBB3改变患者和无HER2/ERBB3改变患者的中位PFS分别为6.6个月和1.4个月（P<0.001）。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "卡铂",
+                    "伊尼妥单抗",
+                    "MK2206",
+                    "Margetuximab-cmkb",
+                    "紫杉醇",
+                    "氟尿嘧啶",
+                    "奈拉替尼",
+                    "卡培他滨",
+                    "妥卡替尼",
+                    "Fam-Trastuzumab Deruxtecan-Nxki",
+                    "恩美曲妥珠单抗",
+                    "曲妥珠单抗",
+                    "环磷酰胺",
+                    "ARQ751",
+                    "长春瑞滨",
+                    "Miransertib",
+                    "顺铂",
+                    "帕博利珠单抗",
+                    "阿法替尼",
+                    "多西他赛",
+                    "帕妥珠单抗",
+                    "多柔比星",
+                    "化疗"
+                ],
+                "var": {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            },
+            "gene_function": "ERBB2基因属于原癌基因，编码的蛋白属于表皮生长因子受体家族，也属于受体酪氨酸激酶家族。ERBB2没有与配体结合的结构域，但可以与家族成员形成异源二聚体来结合配体如表皮生长因子（EGF），从而通过磷酸化激活下游蛋白如MAPK和PI3K。"
+        }
+    ],
+    "cnv_file_path": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [
+        {
+            "sample_id": "",
+            "order_code": "bab31cfe2da511edac910242ac1b0004",
+            "var_id": "MSS",
+            "msi_score": 0.0545,
+            "img_path": "/var/www/html/report_backend/system_files/json_file/20220905_HH3MJ23_M000205_ADXHS-Classic-H_v1.3.7_20220906091826/19-22T01827_19-22T01827_AHVJFCAFX3_1.msi.plot.png",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "微卫星（Microsatellite）又称简单重复序列（SSR），是指遍布于人类基因组中的短串联重复序列，一般由1-6个核苷酸组成。DNA复制时，肿瘤细胞内的微卫星由于重复单位的插入或缺失而造成的微卫星长度的变化，称为微卫星不稳定性（Microsatellite Instability, MSI）。大量研究表明，MSI是由错配修复（mismatch repair，MMR）基因突变或功能缺陷引起的（PMID: 25701956）。MSI在多种癌种中被发现，包括子宫内膜癌、结直肠癌和胃腺癌等。据报道，10%-15%的散发性结直肠癌患者存在MSI（PMID: 15528785），NCCN指南明确推荐所有结直肠癌患者均需考虑做MSI或MMR检测。临床上也已将MSI作为结直肠癌及其他实体瘤预后和制定辅助治疗方案的重要分子标志物。",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "biomarker_type": "MSS"
+                }
+            }
+        }
+    ],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "ERBB2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "胃癌",
+            "tumor_name_en": "Stomach Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GA或AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)6或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)7基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)7",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": [
+            {
+                "sample_id": "19-22T01827",
+                "library_id": "19-22T01827",
+                "bioinform_ver": null,
+                "json_batch_name": "20220905_HH3MJ23_M000205_ADXHS-Classic-H_v1.3.7_20220906091826",
+                "data_auto_result": "R",
+                "flowcell_lane": "AHVJFCAFX3_1",
+                "match_ratio": null,
+                "bardist": null,
+                "residual_r1": null,
+                "residual_r2": null,
+                "cleandata_size": "573.18M",
+                "cleandata_gc_ratio": 0.566,
+                "cleandata_q20": 0.8862,
+                "cleandata_q30": 0.8107,
+                "mapping_ratio": 0.9635,
+                "nonprope_ratio": null,
+                "lqreads_ratio": null,
+                "hqreads_ratio": null,
+                "read_ontarget_ratio": null,
+                "base_ontarget_ratio": null,
+                "gc_ontarget_ratio": null,
+                "gc_offtarget_ratio": null,
+                "inssize_ontarget": null,
+                "inssize_offtarget": null,
+                "dup_ratio": null,
+                "cover_ratio": 0.9948,
+                "depth_mean": 4380.22,
+                "depth_ssbc": 867.9,
+                "depth_dsbc": null,
+                "depth_median": null,
+                "depth_median_ssbc": 195.0,
+                "depth_median_dsbc": null,
+                "uni20": 0.6684,
+                "reads_counts": "4907294",
+                "unmatch_ratio": null,
+                "crossmatch_ratio": null,
+                "unassemble_ratio": null,
+                "judgment_ratio": null,
+                "depth_min": null,
+                "depth_max": null,
+                "depth_CV": "2.432",
+                "depth_mean_rna": null,
+                "control_counts": null,
+                "uni20_ssbc": null,
+                "uni20_dsbc": null,
+                "uni50": null,
+                "uni50_ssbc": null,
+                "uni50_dsbc": null,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "qc_type": null,
+                "depth_hotregion_ssbc": null,
+                "depth_rna_ctrl": 364,
+                "mtxplot": null,
+                "cellularity": null,
+                "ploidy": null,
+                "totaldata": null,
+                "totalreads": null,
+                "alignedreads": null,
+                "depth_mean_dsbc": null,
+                "depth_hotregion_dsbc": null,
+                "depth_mean_dsbc_hot": null,
+                "depth_nonhotregion_dsbc": null,
+                "depth_mean_dsbc_nonhot": null,
+                "depth_mean_ssbc": null,
+                "depth_mean_ssbc_hot": null,
+                "depth_nonhotregion_ssbc": null,
+                "depth_mean_ssbc_nonhot": null,
+                "depth_mean_uniq": null,
+                "depth_mean_uniq_hot": null,
+                "depth_mean_uniq_nonhot": null,
+                "hotdepth_median_dsbc": null,
+                "depth_median_dsbc_hot": null,
+                "nonhotdepth_median_dsbc": null,
+                "depth_median_dsbc_nonhot": null,
+                "hotdepth_median_ssbc": null,
+                "depth_median_ssbc_hot": null,
+                "nonhotdepth_median_ssbc": null,
+                "depth_median_ssbc_nonhot": null,
+                "depth_median_uniq": null,
+                "hotdepth_median_uniq": null,
+                "depth_median_uniq_hot": null,
+                "nonhotdepth_median_uniq": null,
+                "depth_median_uniq_nonhot": null,
+                "uni20_uniq": null,
+                "depth_hotregion_uni20": null,
+                "uni20_uniq_hot": null,
+                "depth_nonhotregion_uni20": null,
+                "uni20_uniq_nonhot": null,
+                "uni50_uniq": null,
+                "depth_hotregion_uni50": null,
+                "uni50_uniq_hot": null,
+                "depth_nonhotregion_uni50": null,
+                "uni50_uniq_nonhot": null,
+                "depth_mean_hot": null,
+                "depth_ssbc_hot": null,
+                "depth_dsbc_hot": null,
+                "coverage_ratio_uniq_hot": null,
+                "coverage_ratio_ssbc_hot": null,
+                "coverage_ratio_dsbc_hot": null,
+                "coverage_ratio_uniq": null,
+                "coverage_ratio_ssbc": null,
+                "coverage_ratio_dsbc": null,
+                "cnv_uni": null,
+                "cnv_cv": null,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "depth_noise": null,
+                "scale_log_post_prob": null,
+                "bam_path": null,
+                "bai_path": null,
+                "cnvplot": null,
+                "cnv_noise": null,
+                "cnv_pon": null,
+                "cnv_purity": null,
+                "cnv_ploidy": null,
+                "paired_ratio": null,
+                "paired_stat": null,
+                "runstat": "Success",
+                "inssize_median": null,
+                "raw_read_ontarget_ratio": null,
+                "raw_amp_rate": null,
+                "brca_cover_ratio": null,
+                "brca_depth_mean": null,
+                "brca_depth_median_ssbc": null,
+                "brca_depth_ssbc": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null,
+                "cn2_ratio": null,
+                "cn2_ratio_length": null,
+                "cs_bam_path": null,
+                "cs_bai_path": null
+            }
+        ],
+        "lib_dna_qc": [],
+        "qc_gradient": [],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "5",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "DDR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "DPYD",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ESR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "IDH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "IDH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "KEAP1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MAP2K1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MYC",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NFE2L2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NKX2-1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NRG1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "UGT1A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "hd": [],
+    "gss": [],
+    "lib_quality_control": {
+        "lib_dna_qc": [
+            {
+                "seq": "30",
+                "sample_dna_id": "22110741B001D01",
+                "library_id": "22110741B001D01L01",
+                "dna_concn_q": "79",
+                "rna_concn_q": "65",
+                "dna_qty": "7900",
+                "total_dna_quality_control": "合格",
+                "i7_index": "N720",
+                "i5_index": "S520",
+                "library_concn": "35",
+                "library_qty": "1050",
+                "expected_data_volume": "0.1",
+                "total_library_quality_control": "合格",
+                "tumor_content": "35%"
+            }
+        ],
+        "control_lib_dna_qc": [],
+        "rna_lib_qc": []
+    },
+    "drug": [
+        {
+            "general_name_cn": "阿法替尼",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Afatinib",
+            "trade_name_cn": "吉泰瑞",
+            "trade_name_en": "Gilotrif",
+            "approval_organization": [
+                "NCCN",
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "阿法替尼与EGFR（ErbB1），HER2（ErbB2）和HER4（ErbB4）的激酶结构域共价结合，并且不可逆地抑制酪氨酸激酶的自磷酸化作用，从而导致ErbB信号的下调。 EGFR中的某些突变，包括其激酶结构域中的非耐药性突变，可导致受体的自身磷酸化增加，导致受体活化，有时在缺乏配体结合的情况下，可支持NSCLC的细胞增殖。非抗性突变定义为在构成EGFR激酶结构域的外显子中导致受体激活增强的突变，其功效可通过以下方式预测：1）使用推荐剂量的阿法替尼进行临床意义上的肿瘤缩小和/或2)根据验证的方法，在推荐剂量的阿法替尼浓度下，可持续抑制细胞增殖或EGFR酪氨酸激酶磷酸化。这些突变中最常见的是外显子21 L858R取代和外显子19缺失。阿法替尼在患者达到的阿法替尼浓度下，证明了表达野生型EGFR的细胞系和表达选定的EGFR外显子19外显子缺失突变，外显子21 L858R突变或其他较不常见的非耐药突变的细胞系的自磷酸化和/或体外增殖抑制。另外，阿法替尼抑制过表达HER2的细胞系的体外增殖。在野生型EGFR或HER2过表达的裸鼠或EGFR L858R/T790M双突变模型中，阿法替尼可抑制肿瘤生长。",
+            "adaptation_disease_cn": [
+                "FDA批准阿法替尼用于携带EGFR非耐药突变的转移性非小细胞肺癌患者的一线治疗。\n",
+                "FDA批准阿法替尼用于含铂化疗期间或化疗后疾病进展的局部晚期或转移性鳞状组织学类型的非小细胞肺癌(NSCLC)的治疗。",
+                "NMPA批准阿法替尼用于治疗EGFR基因突变阳性的局部晚期或转移性非小细胞肺癌（NSCLC）。",
+                "NMPA批准阿法替尼用于含铂化疗期间或化疗后疾病进展的局部晚期或转移性鳞状组织学类型的非小细胞肺癌(NSCLC)的治疗"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "卡铂",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                },
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "intron4",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.375+2T>G",
+                    "hgvs_p": "p.?"
+                }
+            ],
+            "general_name_en": "Carboplatin",
+            "trade_name_cn": null,
+            "trade_name_en": "Paraplatin",
+            "approval_organization": [
+                "NCCN",
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "卡铂的主要作用是将烷基连接到核苷酸上，导致单加合物的形成，以及当修复酶试图纠正错误时 DNA 片段化。 2% 的卡铂活性来自 DNA 从一条链上的碱基到另一条上碱基的交联，从而防止 DNA 链分离以进行合成或转录。卡铂可以诱导许多不同的突变。 ",
+            "adaptation_disease_cn": [
+                "NMPA批准帕博利珠单抗联合卡铂和紫杉醇适用于转移性鳞状非小细胞肺癌(NSCLC)患者的一线治疗。",
+                "FDA批准帕博利珠单抗+卡铂+紫杉醇或蛋白结合的紫杉醇用于鳞状非小细胞肺癌患者的一线治疗。",
+                "NMPA批准替雷利珠单抗联合紫杉醇和卡铂用于局部晚期或转移性鳞状非小细胞肺癌的一线治疗。",
+                "FDA批准贝伐珠单抗联合卡铂、紫杉醇用于不可切除、局部晚期、复发或转移性非鳞非小细胞肺癌患者的一线治疗。",
+                "FDA批准贝伐珠单抗联合卡铂和紫杉醇用于初始手术切除后III或IV期上皮性卵巢癌、输卵管癌或原发性腹膜癌的治疗。",
+                "NMPA批准舒格利单抗联合培美曲塞和卡铂用于表皮生长因子受体（EGFR）基因突变阴性和间变性淋巴瘤激酶（ALK）阴性的转移性非鳞状非小细胞肺癌（NSCLC）患者的一线治疗。",
+                "NMPA批准舒格利单抗联合紫杉醇和卡铂用于转移性鳞状非小细胞肺癌（NSCLC）患者的一线治疗。",
+                "NMPA批准特瑞普利单抗联合培美曲塞和铂类用于表皮生长因子受体（EGFR）基因突变阴性和间变性淋巴瘤激酶（ALK）阴性、不可手术切除的局部晚期或转移性非鳞状非小细胞肺癌（NSCLC）的一线治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "妥卡替尼",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Tucatinib",
+            "trade_name_cn": null,
+            "trade_name_en": "TUKYSA",
+            "approval_organization": [
+                "FDA"
+            ],
+            "drug_mechanism_cn": "Tucatinib是一种HER2的酪氨酸激酶抑制剂。在体外，途卡替尼可抑制HER2和HER3的磷酸化，从而抑制下游的MAPK和AKT信号通路和细胞增殖，并在HER2表达的肿瘤细胞中显示出抗肿瘤活性。在体内，tucatinib抑制HER2表达肿瘤的生长。与单药相比，图他替尼和曲妥珠单抗的体内外抗肿瘤活性增强。",
+            "adaptation_disease_cn": [
+                "FDA批准妥卡替尼联合曲妥珠单抗+卡培他滨用于治疗晚期无法手术切除或转移性(包括脑转移患者，至少接受过一种抗HER2治疗)、HER2阳性的乳腺癌成年患者。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "帕博利珠单抗",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Pembrolizumab",
+            "trade_name_cn": "可瑞达",
+            "trade_name_en": "Keytruda",
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "NCCN"
+            ],
+            "drug_mechanism_cn": "PD-1配体PD-L1和PD-L2与T细胞上的PD-1受体的结合可抑制T细胞增殖和细胞因子的产生。 PD-1配体的上调发生在某些肿瘤中，通过该途径的信号传导可能有助于抑制肿瘤的主动T细胞免疫监视。 Pembrolizumab是与PD-1受体结合并阻断其与PD-L1和PD-L2相互作用的单克隆抗体，可释放PD-1途径介导的免疫应答抑制作用，包括抗肿瘤免疫应答。 在同系小鼠肿瘤模型中，阻断PD-1活性导致肿瘤生长减少。",
+            "adaptation_disease_cn": [
+                "NMPA批准帕博利珠单抗联合卡铂和紫杉醇适用于转移性鳞状非小细胞肺癌(NSCLC)患者的一线治疗。",
+                "FDA批准帕博利珠单抗+卡铂+紫杉醇或蛋白结合的紫杉醇用于鳞状非小细胞肺癌患者的一线治疗。",
+                "FDA批准帕博利珠单抗+曲妥珠单抗+包含铂和氟尿嘧啶的化疗用于局部晚期不可切除或转移性HER2阳性胃或胃食管交界(GEJ)腺癌的一线治疗。",
+                "FDA批准帕博利珠单抗+铂类+FU用于转移性或无法手术的复发性头颈鳞状细胞癌患者的一线治疗。",
+                "FDA批准帕博利珠单抗用于无法手术或放化疗的局部晚期或转移性食管癌或胃食管交界癌（肿瘤中心位于胃食管交界处上方1至5厘米）患者，包括：1）与基于铂类和氟尿嘧啶的化疗联用；2）单药用于PD-L1表达阳性（CPS≥10）的接受过一线及以上系统性治疗的鳞状细胞癌患者。",
+                "FDA批准帕博利珠单抗+化疗用于高危早期三阴性乳腺癌患者的新辅助治疗，术后单药作为辅助治疗。\nFDA批准帕博利珠单抗+化疗用于PD-L1表达阳性（CPS≥10）的不可切除的或转移性的三阴性乳腺癌患者。",
+                "FDA批准帕博利珠单抗+化疗±贝伐珠单抗用于PD-L1表达阳性（CPS≥1）的持续的、复发的或转移性的宫颈癌患者。",
+                "FDA批准帕博利珠单抗+化疗±贝伐珠单抗用于PD-L1表达阳性（CPS≥1）的持续的、复发的或转移性的宫颈癌患者。",
+                "NMPA批准帕博利珠单抗联合铂类和氟尿嘧啶用于局部晚期不可切除或转移性食管或胃食管结合部癌患者的一线治疗。\n",
+                "FDA已批准帕博利珠单抗（pembrolizumab）单药用于不可切除或转移性的高肿瘤突变负荷(TMB-H)[≥10mut/Mb]的成人和儿童实体瘤，这些患者经既往治疗后进展，且没有令人满意的替代治疗方案。",
+                "FDA批准帕博利珠单抗用于MSI-H/dMMR的不可切除或转移性结直肠患者。",
+                "FDA批准帕博利珠单抗用于不可切除或转移性的MSI-H/dMMR的前线治疗后进展且没有令人满意的替代治疗方案的实体瘤患者。",
+                "NMPA批准帕博利珠单抗用于一线治疗进展后的局部晚期或转移性黑色素瘤。",
+                "NMPA批准帕博利珠单抗用于PD-L1 CPS≥10、既往一线全身治疗失败的、局部晚期或转移性食管鳞状细胞癌(ESCC)患者的治疗。",
+                "NMPA批准帕博利珠单抗用于肿瘤表达 PD-L1 CPS≥20的转移性或不可切除的复发性头颈部鳞状细胞癌（HNSCC）患者的一线单药治疗。",
+                "NMPA批准帕博利珠单抗用于KRAS、NRAS和BRAF基因均为野生型的，转移性或不可切除高微卫星不稳定性或错配修复基因缺陷型（MSI-H/dMMR）结直肠癌患者的一线治疗。",
+                "NMPA批准帕博利珠单抗用于由国家药品监督管理局批准的检测评估为PD-L1肿痛比例分数(TPS)≥1%的表皮生长因子受体(EGFR)基因突变阴性和间变性淋巴瘤激酶(ALK)阴性的局部晚期或转移性非小细胞肺癌一线单药治疗。",
+                "FDA批准帕博利珠单抗用于：1.不能切除或转移性黑色素瘤的患者的治疗；2.完全切除的IIB、IIC或III期的成人或儿童（12岁及以上）黑色素瘤患者的辅助治疗。\nFDA批准帕博利珠单抗单药用于含铂化疗时或之后病情进展的复发性或转移性的头颈鳞状细胞癌（HNSCC）患者。\nFDA批准帕博利珠单抗可用于：1、单药治疗复发性或难治性经典型霍奇金淋巴瘤（cHL）成人患者；2、难治性cHL，或经二线及二线以上治疗后复发的霍奇金淋巴瘤（cHL）儿童患者。\nFDA批准帕博利珠单抗可用于经过2线及以上治疗后复发的难治性原发性纵隔大B细胞淋巴瘤（PMBCL）成人和儿童患者的治疗。\nFDA批准帕博利珠单抗用于具有以下情形的局部晚期或转移性尿路上皮癌患者：1.不适合含顺铂的化疗；2.在含铂化疗期间或之后，或在含铂化疗的新辅助或辅助治疗后12个月内病情进展。\nFDA批准帕博利珠单抗用于不适合或已选择不接受膀胱切除术，对卡介苗（BCG）治疗无反应、高风险、无肌肉浸润性膀胱癌（NMIBC）患者。\nFDA批准帕博利珠单抗用于前线接受过索拉非尼治疗的肝细胞癌（HCC）患者。\nFDA批准帕博利珠单抗用于复发的局部晚期或转移性默克尔细胞癌成人或儿童患者。\nFDA批准帕博利珠单抗用于肾切除术后或肾及转移灶切除术后复发风险为中高危或高危的肾细胞癌患者的辅助治疗。\nFDA批准帕博利珠单抗用于不能通过手术或放疗治愈的复发或转移性皮肤鳞状细胞癌（cSCC）患者的治疗。",
+                "FDA批准帕博利珠单抗单药用于包含以下情况的PD-L1表达阳性（TPS≥1%）且EGFR或ALK无变异的NSCLC患者的一线治疗：1）不适合手术切除或放化疗的III期疾病；2）转移性。\nFDA批准帕博利珠单抗单药用于PD-L1表达阳性（TPS≥1%）的铂类化疗期间或之后发生疾病进展的转移性NSCLC患者；其中携带EGFR或ALK基因变异的患者应在靶向其相应基因变异的治疗发生进展后再使用帕博利珠单抗。\nFDA批准帕博利珠单抗单药用于PD-L1表达阳性（CPS≥1）的转移性或无法手术的复发性的头颈部鳞状细胞癌患者的一线治疗。",
+                "FDA批准帕博利珠单抗用于无法手术或放化疗的局部晚期或转移性食管癌或胃食管交界癌（肿瘤中心位于胃食管交界处上方1至5厘米）患者，包括：1）与基于铂类和氟尿嘧啶的化疗联用；2）单药用于PD-L1表达阳性（CPS≥10）的接受过一线及以上系统性治疗的鳞状细胞癌患者。",
+                "FDA批准帕博利珠单抗+化疗用于高危早期三阴性乳腺癌患者的新辅助治疗，术后单药作为辅助治疗。\nFDA批准帕博利珠单抗+化疗用于PD-L1表达阳性（CPS≥10）的不可切除的或转移性的三阴性乳腺癌患者。",
+                "FDA批准帕博利珠单抗单药用于治疗MSI-H或dMMR的晚期子宫内膜癌患者，这些患者经既往任何系统治疗后疾病进展，且不适合进行治疗性手术或放疗。\n\n",
+                "FDA批准帕博利珠单抗单药用于PD-L1表达阳性（CPS≥1）的化疗治疗期间或之后发生疾病进展的复发或转移性宫颈癌患者。",
+                "NMPA批准帕博利珠单抗联合培美曲塞和铂类化疗适用于表皮生长因子受体(EGFR)基因突变阴性和间变性淋巴瘤激酶(ALK)阴性的转移性非鳞状非小细胞肺癌(NSCLC)的一线治疗。",
+                "FDA批准帕博利珠单抗+培美曲塞+铂类化疗用于无EGFR或ALK变异的转移性非鳞NSCLC患者的一线治疗。",
+                "FDA批准帕博利珠单抗+阿昔替尼用于晚期肾细胞癌（RCC）患者的一线治疗。",
+                "FDA批准帕博利珠单抗+仑伐替尼用于晚期肾细胞癌（RCC）患者的一线治疗。",
+                "FDA批准帕博利珠单抗联合仑伐替尼用于治疗非MSI-H或dMMR的晚期子宫内膜癌，这些患者经既往任何系统治疗后疾病进展，且不适合进行治疗性手术或放疗。\n"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Immuno therapy（免疫治疗）"
+        },
+        {
+            "general_name_cn": "奈拉替尼",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Neratinib",
+            "trade_name_cn": null,
+            "trade_name_en": "Nerlynx",
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "Neratinib是一种细胞内激酶抑制剂，可与表皮生长因子受体（EGFR），HER2和HER4不可逆地结合。 在体外，neratinib降低EGFR和HER2的自磷酸化，下游MAPK和AKT信号通路，并在表达EGFR和/或HER2的癌细胞系中显示抗肿瘤活性。 Neratinib人类代谢产物M3，M6，M7和M11在体外抑制EGFR，HER2和HER4的活性。 在体内，在表达HER2和EGFR的肿瘤细胞系的小鼠异种移植模型中，口服neratinib抑制肿瘤生长。",
+            "adaptation_disease_cn": [
+                "FDA批准奈拉替尼联合卡培他滨用于既往接受过至少两种抗HER2治疗、晚期或转移性、HER2阳性的乳腺癌成年患者的治疗。",
+                "FDA批准奈拉替尼单药用于治疗早期HER2阳性的乳腺癌患者经辅助曲妥珠单抗治疗后的扩展辅助治疗方案。",
+                "NMPA批准奈拉替尼用于既往接受过曲妥珠单抗辅助治疗的HER2阳性早期乳腺癌患者的强化辅助治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Targeted therapy（靶向）"
+        },
+        {
+            "general_name_cn": "帕妥珠单抗",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Pertuzumab",
+            "trade_name_cn": "帕捷特",
+            "trade_name_en": "Perjeta",
+            "approval_organization": [
+                "FDA",
+                "CSCO",
+                "NMPA",
+                "NCCN"
+            ],
+            "drug_mechanism_cn": "Pertuzumab（帕妥珠单抗）靶向人表皮生长因子受体2蛋白（HER2）的细胞外二聚结构域（Subdomain II），从而阻断HER2与其他HER家族成员（包括EGFR，HER3和HER4）结合的配体依赖性异源二聚化。 结果，Pertuzumab通过两个主要信号途径（有丝分裂原活化蛋白（MAP）激酶和磷酸肌醇3激酶（PI3K））抑制配体启动的细胞内信号传导。 抑制这些信号通路可以分别导致细胞生长停滞和凋亡。 另外，Pertuzumab介导抗体依赖性细胞介导的细胞毒性（ADCC）。\n尽管单独使用Pertuzumab就能够抑制人肿瘤细胞的增殖，但在过表达HER2的异种移植模型中，Pertuzumab和trastuzumab的联合增强了抗肿瘤活性。",
+            "adaptation_disease_cn": [
+                "FDA批准帕妥珠单抗+曲妥珠单抗+化疗作为HER2阳性、局部晚期、炎性乳腺癌患者的新辅助治疗方案或早期乳腺癌患者(病灶直径大于2cm或淋巴结阳性)完整治疗方案的一部分。",
+                "FDA批准帕妥珠单抗+曲妥珠单抗+化疗用于HER2阳性的高复发风险的早期乳腺癌患者的辅助治疗。",
+                "NMPA批准帕妥珠单抗联合曲妥珠单抗和化疗用于HER2阳性、局部晚期、炎性或早期乳腺癌患者(直径>2 cm淋巴结阳性)的新辅助治疗，作为早期乳腺癌整体治疗方案的一部分。",
+                "NMPA批准帕妥珠单抗联合曲妥珠单抗和化疗用于具有高复发风险HER2阳性早期乳腺癌患者的辅助治疗。",
+                "FDA批准帕妥珠单抗联合曲妥珠单抗和多西他赛用于治疗未接受过抗HER2治疗或化疗的HER2阳性的转移性乳腺癌(MBC)患者。",
+                "NMPA批准帕妥珠单抗与曲妥珠单抗和多西他赛联合，用于HER2阳性、转移性或不可切除的局部复发性乳腺癌患者。针对转移性疾病，患者既往未接受过抗HER2治疗或者化疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "多柔比星",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Doxorubicin",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "多柔比星是一种具有抗肿瘤活性的蒽环类抗生素，是柔红霉素的羟基化同系物，从链霉菌中分离出来。多柔比星在DNA螺旋中的碱基对之间进行插层，从而阻止DNA复制并最终抑制蛋白质的合成。此外，多柔比星抑制拓扑异构酶II，导致DNA复制过程中可裂解的酶-DNA连接复合物增加和稳定，随后阻止双链断裂后的核苷酸链的连接。多柔比星还形成氧自由基，导致细胞膜脂质过氧化而产生细胞毒性；氧自由基的形成也是蒽环类抗生素毒性的原因之一，即心脏和皮肤血管效应。",
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、紫杉醇治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级等))的乳腺癌患者。",
+                "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、多西他赛治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级))的乳腺癌患者。",
+                "NMPA批准Bortezomib联合利妥昔单抗、环磷酰胺、多柔比星和泼尼松，用于既往未经治疗的并且不适合接受造血干细胞移植的套细胞淋巴瘤成人患者；或用于复发或难治性套细胞淋巴瘤患者的治疗，患者在使用本品前至少接受过一种治疗。",
+                "FDA批准贝伐珠单抗联合紫杉醇、聚乙二醇多柔比星或拓扑替康用于治疗铂类耐药的之前接受过不超过2种化疗方案的复发性上皮卵巢、输卵管或原发性腹膜癌。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Chemo therapy（化疗）"
+        },
+        {
+            "general_name_cn": "恩美曲妥珠单抗",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Ado-Trastuzumab Emtansine",
+            "trade_name_cn": null,
+            "trade_name_en": "Kadcyla",
+            "approval_organization": [
+                "NCCN",
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "Ado-trastuzumab emtansine是一种靶向HER2的抗体-药物偶联物。 该抗体是人源化抗HER2 IgG1曲妥珠单抗。 小分子细胞毒素DM1是微管抑制剂。 与HER2受体的亚结构域IV结合后，ado-trastuzumab emtansine经历受体介导的内化和随后的溶酶体降解，导致细胞内释放含DM1的细胞毒性代谢产物。 DM1与微管蛋白的结合会破坏细胞中的微管网络，从而导致细胞周期停滞和凋亡性细胞死亡。 此外，体外研究表明，与曲妥珠单抗类似，Ado-trastuzumab emtansine抑制HER2受体信号转导，介导抗体依赖性细胞介导的细胞毒性，并抑制过表达HER2的人乳腺癌细胞中HER2胞外域的脱落。",
+            "adaptation_disease_cn": [
+                "FDA批准恩美曲妥珠单抗用于经曲妥珠单抗±紫杉烷治疗、HER2阳性、转移性乳腺癌患者(曾因转移性疾病接受过治疗或完成辅助治疗期间或六个月内疾病复发)的治疗。\n",
+                "FDA批准恩美曲妥珠单抗用于以紫杉烷和曲妥珠单抗为基础的新辅助治疗后残留侵袭性疾病的HER2阳性早期乳腺癌患者的辅助治疗。",
+                "NMPA批准恩美曲妥珠单抗单药用于接受了紫杉烷类联合曲妥珠单抗为基础的新辅助治疗后仍残存侵袭性病灶的HER2 阳性早期乳腺癌患者的辅助治疗。",
+                "NMPA批准恩美曲妥珠单抗单药用于接受了紫杉烷类和曲妥珠单抗治疗的HER2阳性、不可切除局部晚期或转移性乳腺癌患者(既往接受过针对局部晚期或转移性乳腺癌的治疗，或在辅助治疗期间或完成辅助治疗后6个月内出现疾病复发)的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "曲妥珠单抗",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Trastuzumab",
+            "trade_name_cn": "赫赛汀",
+            "trade_name_en": "Herceptin",
+            "approval_organization": [
+                "FDA",
+                "CSCO",
+                "NMPA",
+                "NCCN"
+            ],
+            "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗联合顺铂和卡培他滨或5-氟尿嘧啶用于HER2过表达、未经治疗的转移性胃癌或胃食管连接处腺癌患者的治疗。",
+                "FDA批准妥卡替尼联合曲妥珠单抗+卡培他滨用于治疗晚期无法手术切除或转移性(包括脑转移患者，至少接受过一种抗HER2治疗)、HER2阳性的乳腺癌成年患者。",
+                "FDA批准帕博利珠单抗+曲妥珠单抗+包含铂和氟尿嘧啶的化疗用于局部晚期不可切除或转移性HER2阳性胃或胃食管交界(GEJ)腺癌的一线治疗。",
+                "FDA批准帕妥珠单抗+曲妥珠单抗+化疗作为HER2阳性、局部晚期、炎性乳腺癌患者的新辅助治疗方案或早期乳腺癌患者(病灶直径大于2cm或淋巴结阳性)完整治疗方案的一部分。",
+                "FDA批准帕妥珠单抗+曲妥珠单抗+化疗用于HER2阳性的高复发风险的早期乳腺癌患者的辅助治疗。",
+                "NMPA批准帕妥珠单抗联合曲妥珠单抗和化疗用于HER2阳性、局部晚期、炎性或早期乳腺癌患者(直径>2 cm淋巴结阳性)的新辅助治疗，作为早期乳腺癌整体治疗方案的一部分。",
+                "NMPA批准帕妥珠单抗联合曲妥珠单抗和化疗用于具有高复发风险HER2阳性早期乳腺癌患者的辅助治疗。",
+                "FDA批准曲妥珠单抗联合顺铂和卡培他滨或5-氟尿嘧啶用于HER2过表达、未经治疗的转移性胃癌或胃食管连接处腺癌患者的治疗。",
+                "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、紫杉醇治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级等))的乳腺癌患者。",
+                "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、多西他赛治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级))的乳腺癌患者。",
+                "FDA批准帕妥珠单抗联合曲妥珠单抗和多西他赛用于治疗未接受过抗HER2治疗或化疗的HER2阳性的转移性乳腺癌(MBC)患者。",
+                "NMPA批准帕妥珠单抗与曲妥珠单抗和多西他赛联合，用于HER2阳性、转移性或不可切除的局部复发性乳腺癌患者。针对转移性疾病，患者既往未接受过抗HER2治疗或者化疗。",
+                "FDA批准曲妥珠单抗联合紫杉醇用于HER2过表达转移性乳腺癌患者的一线治疗。",
+                "FDA批准曲妥珠单抗单药用于HER2过表达的转移性乳腺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "多西他赛",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Docetaxel",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "多西他赛是一种半合成的第二代烷烃，来自欧洲紫杉树（Taxus baccata）中的一种化合物。多西他赛显示出强大而广泛的抗肿瘤特性；它与微管蛋白结合并使其稳定，从而抑制微管的分解，导致细胞周期停滞在G2/M期和细胞死亡。该药还抑制血管生成因子，如血管内皮生长因子（VEGF），并通过诱导炎症反应的各种介质显示免疫调节和促进炎症的特性。多西他赛已被研究用作辐射致敏剂。",
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、多西他赛治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级))的乳腺癌患者。",
+                "FDA批准帕妥珠单抗联合曲妥珠单抗和多西他赛用于治疗未接受过抗HER2治疗或化疗的HER2阳性的转移性乳腺癌(MBC)患者。",
+                "NMPA批准帕妥珠单抗与曲妥珠单抗和多西他赛联合，用于HER2阳性、转移性或不可切除的局部复发性乳腺癌患者。针对转移性疾病，患者既往未接受过抗HER2治疗或者化疗。",
+                "FDA批准雷莫西尤单抗联合多西他赛用于治疗正在/已经接受以铂类为基础的化疗后疾病进展的转移性非小细胞肺癌（NSCLC）。携带EGFR或ALK基因突变的患者应在接受FDA批准的突变相关治疗并出现疾病进展后使用雷莫西尤单抗治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Chemo therapy（化疗）"
+        },
+        {
+            "general_name_cn": "卡培他滨",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Capecitabine",
+            "trade_name_cn": null,
+            "trade_name_en": "Xeloda",
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "卡培他滨是一种氟嘧啶氨基甲酸酯类药物，属于抗代谢的抗肿瘤药物。作为一种原药，卡培他滨被肿瘤细胞选择性地激活为其细胞毒性分子——5-氟尿嘧啶（5-FU）；随后，5-FU被肿瘤细胞和正常细胞代谢为两种活性代谢产物——5-氟-2-脱氧尿苷单磷酸（FdUMP）和5-氟尿苷三磷酸（FUTP）。FdUMP通过减少正常胸苷的产生来抑制DNA的合成和细胞分裂，而FUTP通过与三磷酸尿苷竞争纳入RNA链而抑制RNA和蛋白质的合成。",
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗联合顺铂和卡培他滨或5-氟尿嘧啶用于HER2过表达、未经治疗的转移性胃癌或胃食管连接处腺癌患者的治疗。",
+                "FDA批准拉帕替尼联合卡培他滨用于治疗HER2过表达，既往接受过蒽环类、紫杉烷、曲妥珠单抗治疗的晚期或转移性乳腺癌患者的治疗。",
+                "NMPA批准拉帕替尼与卡培他滨联用用于HER2过表达且既往接受过包括蒽环类，紫杉类和曲妥珠单抗治疗的晚期或转移性乳腺癌患者的治疗。",
+                "FDA批准奈拉替尼联合卡培他滨用于既往接受过至少两种抗HER2治疗、晚期或转移性、HER2阳性的乳腺癌成年患者的治疗。",
+                "FDA批准妥卡替尼联合曲妥珠单抗+卡培他滨用于治疗晚期无法手术切除或转移性(包括脑转移患者，至少接受过一种抗HER2治疗)、HER2阳性的乳腺癌成年患者。"
+            ],
+            "adaptation_disease_en": [
+                "TYKERB is a kinase inhibitor indicated in combination with capecitabine for the treatment of patients with advanced or metastatic breast cancer whose tumors overexpress human epidermal growth factor receptor 2(HER2) and who have received prior therapy, including an anthracycline, a taxane, and trastuzumab."
+            ],
+            "drug_type": "Chemo therapy（化疗）"
+        },
+        {
+            "general_name_cn": "环磷酰胺",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Cyclophosphamide",
+            "trade_name_cn": null,
+            "trade_name_en": "Endoxan",
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "环磷酰胺是一种合成的烷基化剂，与氮芥的化学成分有关，具有抗肿瘤和免疫抑制活性。在肝脏中，环磷酰胺被转化为活性代谢物醛磷酰胺和磷酰胺芥末，它们与DNA结合，从而抑制DNA复制并启动细胞死亡。",
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、紫杉醇治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级等))的乳腺癌患者。",
+                "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、多西他赛治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级))的乳腺癌患者。",
+                "NMPA批准Bortezomib联合利妥昔单抗、环磷酰胺、多柔比星和泼尼松，用于既往未经治疗的并且不适合接受造血干细胞移植的套细胞淋巴瘤成人患者；或用于复发或难治性套细胞淋巴瘤患者的治疗，患者在使用本品前至少接受过一种治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Chemo therapy（化疗）"
+        },
+        {
+            "general_name_cn": "氟尿嘧啶",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Fluorouracil",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "氟尿嘧啶是一种具有抗肿瘤活性的核苷嘧啶的抗代谢物氟嘧啶类似物。氟尿嘧啶及其代谢物拥有不同的作用机制。在体内，氟尿嘧啶被转化为活性代谢物5-氟氧尿嘧啶单磷酸酯（F-UMP）；取代尿嘧啶，F-UMP融入RNA并抑制RNA加工，从而抑制细胞生长。另一种活性代谢物5-5-氟-2'-脱氧尿苷-5'-O-单磷酸（F-dUMP）抑制胸苷酸合成酶，导致体内合成DNA中使用的四种核苷酸三磷酸之一胸苷三磷酸（TTP）的耗尽。其他氟尿嘧啶代谢物结合到RNA和DNA中；并入RNA会对RNA加工和功能产生重大影响。",
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗联合顺铂和卡培他滨或5-氟尿嘧啶用于HER2过表达、未经治疗的转移性胃癌或胃食管连接处腺癌患者的治疗。",
+                "NMPA批准信迪利单抗联合紫杉醇和顺铂或氟尿嘧啶和顺铂用于不可切除的局部晚期、复发或转移性食管鳞癌的一线治疗。",
+                "NMPA批准西妥昔单抗与铂类和氟尿嘧啶化疗联合用于一线治疗复发和/或转移性头颈部鳞状细胞癌患者。",
+                "FDA批准西妥昔单抗联合铂基化疗和氟尿嘧啶用于复发性局部或转移性头颈鳞状细胞癌患者的治疗。",
+                "NMPA批准帕博利珠单抗联合铂类和氟尿嘧啶用于局部晚期不可切除或转移性食管或胃食管结合部癌患者的一线治疗。\n"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Chemo therapy（化疗）"
+        },
+        {
+            "general_name_cn": "长春瑞滨",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "vinorelbine",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "长春瑞滨是一种半合成的长春花碱。长春瑞滨与管蛋白结合，阻止有丝分裂纺锤体的形成，导致肿瘤细胞生长停滞在中期阶段。该药还可能干扰氨基酸、环磷酸腺苷和谷胱甘肽的代谢、钙调素依赖性钙转运ATP酶活性、细胞呼吸以及核酸和脂质的生物合成。",
+            "adaptation_disease_cn": [
+                "NMPA批准注射用伊尼妥单抗与长春瑞滨联合用于HER2阳性的已接受1个或多个化疗方案的转移性乳腺癌患者。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Chemo therapy（化疗）"
+        },
+        {
+            "general_name_cn": "阿扎胞苷",
+            "var": [
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "intron4",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.375+2T>G",
+                    "hgvs_p": "p.?"
+                }
+            ],
+            "general_name_en": "Azacitidine",
+            "trade_name_cn": "维达莎",
+            "trade_name_en": "Vidaza",
+            "approval_organization": [
+                "FDA"
+            ],
+            "drug_mechanism_cn": "阿扎胞苷为胞苷的嘧啶核苷类似物，具有抗肿瘤活性。 阿扎胞苷被掺入 DNA 中，它可逆地抑制 DNA 甲基转移酶，从而阻断 DNA 甲基化。 阿扎胞苷对 DNA 的低甲基化可能会激活因高甲基化而沉默的肿瘤抑制基因，从而产生抗肿瘤作用。 该试剂还掺入 RNA，从而破坏正常的 RNA 功能并削弱 tRNA 胞嘧啶-5-甲基转移酶活性。",
+            "adaptation_disease_cn": [
+                "FDA批准艾伏尼布联合阿扎胞苷用于IDH1突变，新诊断≥75岁或因并发症无法使用强烈诱导化疗AML患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Chemo therapy（化疗）"
+        },
+        {
+            "general_name_cn": null,
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                },
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "intron4",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.375+2T>G",
+                    "hgvs_p": "p.?"
+                }
+            ],
+            "general_name_en": "Fam-Trastuzumab Deruxtecan-Nxki",
+            "trade_name_cn": null,
+            "trade_name_en": "",
+            "approval_organization": [
+                "NCCN",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "Fam-trastuzumab deruxtecan-nxki是HER2靶向的抗体-药物偶联物。 该抗体是人源化抗HER2 IgG1。 小分子DXd是拓扑异构酶I抑制剂，通过可裂解的接头与抗体连接。 与肿瘤细胞上的HER2结合后，fam-trastuzumab deruxtecan-nxki通过溶酶体酶进行内化和细胞内接头裂解。 释放后，可透膜的DXd导致DNA损伤和细胞凋亡。",
+            "adaptation_disease_cn": [
+                "FDA批准Fam-trastuzumab deruxtecan-nxki用于既往接受过曲妥珠单抗治疗的局部晚期或转移性HER2阳性胃或胃食管交界（GEJ）腺癌的成人患者的治疗。",
+                "FDA批准Fam-Trastuzumab Deruxtecan-Nxki用于治疗HER2阳性、无法手术切除或经抗HER2治疗的转移性乳腺癌患者，或经新辅助或辅助治疗期间或6个月内复发的乳腺癌患者。",
+                "FDA批准Fam-Trastuzumab Deruxtecan-Nxki用于治疗无法手术切除或HER2低表达（IHC 1+或IHC 2+/ISH-）的转移性乳腺癌成年患者（既往在疾病转移时接受过化疗或完成辅助化疗6个月内或期间复发）。",
+                "FDA批准Fam-trastuzumab deruxtecan-nxki用于治疗携带HER2激活突变的经过全身性治疗的不可切除或转移性非小细胞肺癌患者。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Targeted therapy（靶向）"
+        },
+        {
+            "general_name_cn": "伊尼妥单抗",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Inetetamab",
+            "trade_name_cn": "赛普汀",
+            "trade_name_en": null,
+            "approval_organization": [
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "伊尼妥单抗是一种重组人源化单克隆抗体，特异作用于人表皮生长因子受体-2 (HER2) 的细胞外部位。并且伊尼妥单抗可介导抗体依赖的细胞介导的细胞毒反应（ADCC）。伊尼妥单抗在体外及动物试验中均显示可抑制HER2阳性肿瘤细胞的增殖。HER2原癌基因或C-erbB2编码一个单一的受体样跨膜蛋白，分子量为185kDa，其结构上与其他表皮生长因子受体类似。在原发性乳腺癌患者中观察到有25%~30%的患者HER2阳性。HER2基因扩增可导致肿瘤细胞表面HER2蛋白表达增加，导致HER2蛋白活化。",
+            "adaptation_disease_cn": [
+                "NMPA批准注射用伊尼妥单抗与长春瑞滨联合用于HER2阳性的已接受1个或多个化疗方案的转移性乳腺癌患者。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "顺铂",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Cisplatin",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "顺铂是一种具有抗肿瘤活性的烷基化类无机铂剂（顺式二氯铂）。顺铂形成高度反应性、带电的铂络合物，与亲核基团（如DNA中富含GC的部位）结合，诱发链内和链间DNA交联，以及DNA-蛋白质交联。这些交联导致细胞凋亡和细胞生长受到抑制。",
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗联合顺铂和卡培他滨或5-氟尿嘧啶用于HER2过表达、未经治疗的转移性胃癌或胃食管连接处腺癌患者的治疗。",
+                "FDA批准曲妥珠单抗联合顺铂和卡培他滨或5-氟尿嘧啶用于HER2过表达、未经治疗的转移性胃癌或胃食管连接处腺癌患者的治疗。",
+                "FDA批准贝伐珠单抗联合紫杉醇、顺铂或紫杉醇、拓朴替康用于治疗持续性、复发或转移性宫颈癌。",
+                "NMPA批准信迪利单抗联合紫杉醇和顺铂或氟尿嘧啶和顺铂用于不可切除的局部晚期、复发或转移性食管鳞癌的一线治疗。",
+                "NMPA批准信迪利单抗联合紫杉醇和顺铂或氟尿嘧啶和顺铂用于不可切除的局部晚期、复发或转移性食管鳞癌的一线治疗。",
+                "NMPA批准特瑞普利单抗联合顺铂和吉西他滨用于局部复发或转移性鼻咽癌患者的一线治疗。",
+                "NMPA批准特瑞普利单抗联合紫杉醇和顺铂用于不可切除的局部晚期/复发或远处转移性食管鳞癌（ESCC）患者的一线治疗。",
+                "NMPA批准特瑞普利单抗联合培美曲塞和铂类用于表皮生长因子受体（EGFR）基因突变阴性和间变性淋巴瘤激酶（ALK）阴性、不可手术切除的局部晚期或转移性非鳞状非小细胞肺癌（NSCLC）的一线治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Chemo therapy（化疗）"
+        },
+        {
+            "general_name_cn": "紫杉醇",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                },
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "intron4",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.375+2T>G",
+                    "hgvs_p": "p.?"
+                }
+            ],
+            "general_name_en": "Paclitaxel",
+            "trade_name_cn": null,
+            "trade_name_en": "Abraxane, Taxol",
+            "approval_organization": [
+                "NCCN",
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "紫杉醇是一种抗微管类的化疗药物。 紫杉醇常用于多种癌症治疗中，它是一种有丝分裂抑制剂，是于 1971 年从太平洋紫杉树的树皮中首次分离出来，并于1993年批准用于医学用途，并被列于世界卫生组织的基本药物清单。 紫杉醇的作用机理主要是去影响微管的正常功能，透过稳定与GDP结合的微管蛋白，从而致使快速分裂的肿瘤细胞在有丝分裂阶段被限制而无法分离，将细胞阻断于细胞周期之G2与M期间，使癌细胞复制受阻断而死亡。因此紫杉醇在抗癌药物当中，被视为有丝分裂中的微管抑制剂。",
+            "adaptation_disease_cn": [
+                "NMPA批准帕博利珠单抗联合卡铂和紫杉醇适用于转移性鳞状非小细胞肺癌(NSCLC)患者的一线治疗。",
+                "FDA批准帕博利珠单抗+卡铂+紫杉醇或蛋白结合的紫杉醇用于鳞状非小细胞肺癌患者的一线治疗。",
+                "NMPA批准替雷利珠单抗联合紫杉醇和卡铂用于局部晚期或转移性鳞状非小细胞肺癌的一线治疗。",
+                "FDA批准贝伐珠单抗联合卡铂、紫杉醇用于不可切除、局部晚期、复发或转移性非鳞非小细胞肺癌患者的一线治疗。",
+                "FDA批准贝伐珠单抗联合卡铂和紫杉醇用于初始手术切除后III或IV期上皮性卵巢癌、输卵管癌或原发性腹膜癌的治疗。",
+                "NMPA批准舒格利单抗联合紫杉醇和卡铂用于转移性鳞状非小细胞肺癌（NSCLC）患者的一线治疗。",
+                "FDA批准贝伐珠单抗联合紫杉醇、顺铂或紫杉醇、拓朴替康用于治疗持续性、复发或转移性宫颈癌。",
+                "NMPA批准信迪利单抗联合紫杉醇和顺铂或氟尿嘧啶和顺铂用于不可切除的局部晚期、复发或转移性食管鳞癌的一线治疗。",
+                "NMPA批准特瑞普利单抗联合紫杉醇和顺铂用于不可切除的局部晚期/复发或远处转移性食管鳞癌（ESCC）患者的一线治疗。",
+                "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、紫杉醇治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级等))的乳腺癌患者。",
+                "FDA批准曲妥珠单抗联合紫杉醇用于HER2过表达转移性乳腺癌患者的一线治疗。",
+                "FDA批准贝伐珠单抗联合紫杉醇、顺铂或紫杉醇、拓朴替康用于治疗持续性、复发或转移性宫颈癌。",
+                "FDA批准贝伐珠单抗联合紫杉醇、聚乙二醇多柔比星或拓扑替康用于治疗铂类耐药的之前接受过不超过2种化疗方案的复发性上皮卵巢、输卵管或原发性腹膜癌。",
+                "FDA批准雷莫西尤单抗单药或联合紫杉醇用于既往经含氟嘧啶或含铂化疗进展的、局部晚期或转移性胃癌或胃食管交界处腺癌患者的治疗。",
+                "NMPA批准雷莫西尤单抗联合紫杉醇用于在含氟尿嘧啶类或含铂类化疗期间或化疗后出现疾病进展的晚期胃或胃食管结合部腺癌的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Chemo therapy（化疗）"
+        },
+        {
+            "general_name_cn": "化疗",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ],
+            "general_name_en": "Chemotherapy",
+            "trade_name_cn": "化疗",
+            "trade_name_en": null,
+            "approval_organization": [
+                "NCCN",
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "  ",
+            "adaptation_disease_cn": [
+                "FDA批准帕博利珠单抗+曲妥珠单抗+包含铂和氟尿嘧啶的化疗用于局部晚期不可切除或转移性HER2阳性胃或胃食管交界(GEJ)腺癌的一线治疗。",
+                "FDA批准帕妥珠单抗+曲妥珠单抗+化疗作为HER2阳性、局部晚期、炎性乳腺癌患者的新辅助治疗方案或早期乳腺癌患者(病灶直径大于2cm或淋巴结阳性)完整治疗方案的一部分。",
+                "FDA批准帕妥珠单抗+曲妥珠单抗+化疗用于HER2阳性的高复发风险的早期乳腺癌患者的辅助治疗。",
+                "NMPA批准帕妥珠单抗联合曲妥珠单抗和化疗用于HER2阳性、局部晚期、炎性或早期乳腺癌患者(直径>2 cm淋巴结阳性)的新辅助治疗，作为早期乳腺癌整体治疗方案的一部分。",
+                "NMPA批准帕妥珠单抗联合曲妥珠单抗和化疗用于具有高复发风险HER2阳性早期乳腺癌患者的辅助治疗。",
+                "FDA批准Margetuximab-cmkb联合化疗用于HER2阳性、已接受过至少两种抗HER2疗法（其中至少一种针对转移性疾病）、转移性乳腺癌成年患者的治疗。",
+                "FDA批准纳武利尤单抗+伊匹木单抗+2个周期的含铂双药化疗用于无EGFR或ALK基因变异的转移性或复发的非小细胞肺癌成人患者的一线治疗。",
+                "FDA批准帕博利珠单抗+铂类+FU用于转移性或无法手术的复发性头颈鳞状细胞癌患者的一线治疗。",
+                "FDA批准帕博利珠单抗用于无法手术或放化疗的局部晚期或转移性食管癌或胃食管交界癌（肿瘤中心位于胃食管交界处上方1至5厘米）患者，包括：1）与基于铂类和氟尿嘧啶的化疗联用；2）单药用于PD-L1表达阳性（CPS≥10）的接受过一线及以上系统性治疗的鳞状细胞癌患者。",
+                "FDA批准帕博利珠单抗+化疗用于高危早期三阴性乳腺癌患者的新辅助治疗，术后单药作为辅助治疗。\nFDA批准帕博利珠单抗+化疗用于PD-L1表达阳性（CPS≥10）的不可切除的或转移性的三阴性乳腺癌患者。",
+                "FDA批准帕博利珠单抗+化疗±贝伐珠单抗用于PD-L1表达阳性（CPS≥1）的持续的、复发的或转移性的宫颈癌患者。",
+                "FDA批准帕博利珠单抗+化疗±贝伐珠单抗用于PD-L1表达阳性（CPS≥1）的持续的、复发的或转移性的宫颈癌患者。",
+                "FDA批准纳武利尤单抗与含铂双药化疗联用，作为可切除的（≥4cm或结节阳性）非小细胞肺癌成人患者的新辅助治疗。",
+                "NMPA批准替雷利珠单抗联合化疗用于复发或转移性鼻咽癌（NPC）患者的一线治疗。"
+            ],
+            "adaptation_disease_en": [
+                "MARGENZA is a HER2/neu receptor antagonist indicated, in combination with chemotherapy, for the treatment of adult patients with metastatic HER2-positive breast cancer who have received two or more prior anti-HER2 regimens, at least one of which was for metastatic disease."
+            ],
+            "drug_type": "Chemo therapy（化疗）"
+        }
+    ],
+    "io_gene_clinical": [
+        {
+            "effect": "正相关",
+            "evidence": "有研究表明，p53可通过miR-34调节PD-L1表达（PMID:26577528）。一项对公共数据库中肺腺癌患者的基因组、转录组、蛋白质组及临床数据的整合分析的研究中发现，TP53突变能显著提高免疫检查点的表达并激活T细胞效应因子和γ干扰素；TP53/KRAS共突变可提高PD-L1表达，且共突变组总具有最高的PD-L1+/CD8A+比例；进一步研究发现TP53或KRAS突变可导致一些列与细胞周期调节、DNA复制和DNA损伤修复相关的基因的改变。对公开的临床试验及真实临床数据的回顾分析进一步确认，TP53或KRAS突变的患者，尤其是TP53/KRAS共突变的患者，用PD-1抑制剂治疗具有显著的临床获益（PMID:28039262）。一项对31例接受pembrolizumab治疗的非小细胞肺癌患者的回顾性分析显示，TP53突变(STK11及EGFR野生型)的肺腺癌患者接受抗PD-1治疗后其无进展生存期更长(P＜0.001) （PMID:29764856）。",
+            "gene_symbol": "TP53",
+            "test_significance": "TP53突变可能为免疫治疗正向预测因子。",
+            "tumor_name": "非小细胞肺癌",
+            "var_note": "失活性突变"
+        }
+    ],
+    "clinic_trial": [
+        {
+            "clinicaltrial_number": "CTR20182551",
+            "conditions": "胃癌",
+            "gene_symbol": "ERBB2",
+            "interventions": "帕博利珠单抗注射液",
+            "phase": "III期",
+            "study_title": "比较Pembrolizumab联合曲妥珠单抗和化疗与安慰剂联合曲妥珠单抗和化疗在HER2阳性晚期胃或胃食管结合部腺癌患者中的III期试验"
+        },
+        {
+            "clinicaltrial_number": "NCT03330561",
+            "conditions": "Advanced Solid Tumor,stomach cancer,esophageal cancer,urinary bladder cancer,gastroesophageal junction adenocarcinoma,Her2-receptor positive breast cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "PRS-343",
+            "phase": "Phase I",
+            "study_title": "PRS-343 in HER2-Positive Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT03448042",
+            "conditions": "breast cancer,Advanced Solid Tumor,stomach cancer,gastroesophageal junction adenocarcinoma",
+            "gene_symbol": "ERBB2",
+            "interventions": "BTRC 4017A",
+            "phase": "Phase I",
+            "study_title": "A Phase I Study of BTRC4017A in Participants With Locally Advanced or Metastatic HER2-Expressing Cancers"
+        },
+        {
+            "clinicaltrial_number": "NCT03602079",
+            "conditions": "stomach cancer,breast cancer,Advanced Solid Tumor",
+            "gene_symbol": "ERBB2",
+            "interventions": "A166",
+            "phase": "Phase Ib/II",
+            "study_title": "Study of A166 in Patients With Relapsed/Refractory Cancers Expressing HER2 Antigen or Having Amplified HER2 Gene"
+        },
+        {
+            "clinicaltrial_number": "NCT03647969",
+            "conditions": "stomach cancer,gastroesophageal junction adenocarcinoma",
+            "gene_symbol": "ERBB2",
+            "interventions": "Fluorouracil + Leucovorin + Oxaliplatin,Fluorouracil + Ipilimumab + Leucovorin + Nivolumab + Oxaliplatin",
+            "phase": "Phase II",
+            "study_title": "Modified FOLFOX Plus/Minus Nivolumab and Ipilimumab in Patients With Previously Untreated Advanced or Metastatic Gastric Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03653507",
+            "conditions": "gastroesophageal junction adenocarcinoma,stomach cancer,gastric adenocarcinoma,gastroesophageal cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "Capecitabine + Oxaliplatin,Capecitabine + Oxaliplatin + Zolbetuximab",
+            "phase": "Phase III",
+            "study_title": "A Study of Zolbetuximab (IMAB362) Plus CAPOX Compared With Placebo Plus CAPOX as First-line Treatment of Subjects With Claudin (CLDN) 18.2-Positive, HER2-Negative, Locally Advanced Unresectable or Metastatic Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma (GLOW)"
+        },
+        {
+            "clinicaltrial_number": "NCT03797326",
+            "conditions": "ovarian cancer,colorectal cancer,stomach cancer,cholangiocarcinoma,gallbladder cancer,triple-receptor negative breast cancer,glioblastoma,Advanced Solid Tumor",
+            "gene_symbol": "ERBB2",
+            "interventions": "Lenvatinib + Pembrolizumab",
+            "phase": "Phase II",
+            "study_title": "Efficacy and Safety of Pembrolizumab (MK-3475) Plus Lenvatinib (E7080/MK-7902) in Previously Treated Participants With Select Solid Tumors (MK-7902-005/E7080-G000-224/LEAP-005)"
+        },
+        {
+            "clinicaltrial_number": "NCT03829501",
+            "conditions": "melanoma,lung non-small cell carcinoma,kidney cancer,stomach cancer,hepatocellular carcinoma,Advanced Solid Tumor,cervical cancer,triple-receptor negative breast cancer,pancreatic cancer,esophageal cancer,head and neck squamous cell carcinoma",
+            "gene_symbol": "ERBB2",
+            "interventions": "Atezolizumab + KY1044,KY1044",
+            "phase": "Phase Ib/II",
+            "study_title": "Safety and Efficacy of KY1044 and Atezolizumab in Advanced Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT04082364",
+            "conditions": "gastroesophageal junction adenocarcinoma,stomach cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "Fluorouracil + Leucovorin + Margetuximab-cmkb + Oxaliplatin,Fluorouracil + Leucovorin + Oxaliplatin + Trastuzumab,Capecitabine + Margetuximab-cmkb + Oxaliplatin + Retifanlimab,Margetuximab-cmkb + Retifanlimab,Capecitabine + Margetuximab-cmkb + MGD013 + Oxaliplatin,Capecitabine + Oxaliplatin + Trastuzumab,Fluorouracil + Leucovorin + Margetuximab-cmkb + Oxaliplatin + Retifanlimab,Capecitabine + Margetuximab-cmkb + Oxaliplatin,Fluorouracil + Leucovorin + Margetuximab-cmkb + MGD013 + Oxaliplatin",
+            "phase": "Phase II",
+            "study_title": "Combination Margetuximab, INCMGA00012, MGD013, and Chemotherapy Phase 2/3 Trial in HER2+ Gastric/GEJ Cancer (MAHOGANY)"
+        },
+        {
+            "clinicaltrial_number": "NCT04147819",
+            "conditions": "gastroesophageal cancer,stomach cancer,carcinoma,Her2-receptor positive breast cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "BAY2701439",
+            "phase": "Phase I",
+            "study_title": "A First in Human Study of BAY2701439 to Look at Safety, How the Body Absorbs, Distributes and Excretes the Drug, and How Well the Drug Works in Participants With Advanced Cancer Expressing the HER2 Protein"
+        },
+        {
+            "clinicaltrial_number": "NCT04246671",
+            "conditions": "Advanced Solid Tumor,prostate cancer,colorectal cancer,chordoma,stomach cancer,endometrial cancer,lung non-small cell carcinoma,pancreatic cancer,lung small cell carcinoma,Merkel cell carcinoma,ovarian cancer,salivary gland cancer,gastroesophageal junction adenocarcinoma,urinary bladder cancer,hepatocellular carcinoma,lung cancer,breast cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "TAEK-VAC-HerBy,TAEK-VAC-HerBy + unspecified ERBB2 antibody + unspecified immune checkpoint inhibitor,Pertuzumab + TAEK-VAC-HerBy + Trastuzumab,Ado-trastuzumab emtansine + TAEK-VAC-HerBy,TAEK-VAC-HerBy + Trastuzumab",
+            "phase": "Phase Ib/II",
+            "study_title": "Intravenous TAEK-VAC-HerBy Vaccine Alone and in Combination Treatment in HER2 Cancer Patients"
+        },
+        {
+            "clinicaltrial_number": "NCT04319757",
+            "conditions": "Advanced Solid Tumor,breast cancer,endometrial cancer,stomach cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "ACE1702 + Cyclophosphamide + Fludarabine",
+            "phase": "Phase I",
+            "study_title": "ACE1702 in Subjects With Advanced or Metastatic HER2-expressing Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT04467515",
+            "conditions": "Her2-receptor positive breast cancer,gastroesophageal junction adenocarcinoma,stomach cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "CAM-H2",
+            "phase": "Phase Ib/II",
+            "study_title": "A Study to Evaluate Safety, Tolerability, Dosimetry, and Preliminary Efficacy of the HER2 Directed Radioligand CAM-H2 in Patients With Advanced/Metastatic HER2-Positive Breast, Gastric, and Gastro-Esophageal Junction (GEJ) Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT04704661",
+            "conditions": "salivary gland cancer,endometrial cancer,stomach cancer,gastroesophageal cancer,colorectal cancer,colon cancer,Advanced Solid Tumor,breast cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "Ceralasertib + Trastuzumab deruxtecan",
+            "phase": "Phase I",
+            "study_title": "Testing the Combination of Two Anti-cancer Drugs, DS-8201a and AZD6738, for The Treatment of Patients With Advanced Solid Tumors Expressing the HER2 Protein or Gene, The DASH Trial"
+        }
+    ],
+    "refer": [
+        {
+            "authors": "Hiroyuki Yamamoto,Kohzoh Imai",
+            "date": "(2015)",
+            "journal": "Arch Toxicol",
+            "pmid": "[PMID:25701956]",
+            "title": "Microsatellite instability: an update.",
+            "vol": "89(6):899-921."
+        },
+        {
+            "authors": "Timothy M Pawlik,Chandrajit P Raut,Miguel A Rodriguez-Bigas",
+            "date": "(2004)",
+            "journal": "Dis Markers",
+            "pmid": "[PMID:15528785]",
+            "title": "Colorectal carcinogenesis: MSI-H versus MSI-L.",
+            "vol": "20(4-5):199-206."
+        },
+        {
+            "authors": "Yung-Jue Bang,Eric Van Cutsem,Andrea Feyereislova,et al.",
+            "date": "(2010)",
+            "journal": "Lancet",
+            "pmid": "[PMID:20728210]",
+            "title": "Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial.",
+            "vol": "376(9742):687-97."
+        },
+        {
+            "authors": "José Baselga,Javier Cortés,Sung-Bae Kim,et al.",
+            "date": "(2012)",
+            "journal": "N Engl J Med",
+            "pmid": "[PMID:22149875]",
+            "title": "Pertuzumab plus trastuzumab plus docetaxel for metastatic breast cancer.",
+            "vol": "366(2):109-19."
+        },
+        {
+            "authors": "Thomas Cluzeau,Marie Sebert,Ramy Rahmé,et al.",
+            "date": "(2021)",
+            "journal": "J Clin Oncol",
+            "pmid": "[PMID:33600210]",
+            "title": "Eprenetapopt Plus Azacitidine in.",
+            "vol": "39(14):1575-1583."
+        },
+        {
+            "authors": "Amit M Oza,Maria Estevez-Diz,Eva-Maria Grischke,et al.",
+            "date": "(2020)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:32611648]",
+            "title": "A Biomarker-enriched, Randomized Phase II Trial of Adavosertib (AZD1775) Plus Paclitaxel and Carboplatin for Women with Platinum-sensitive.",
+            "vol": "26(18):4767-4776."
+        },
+        {
+            "authors": "Hyun Cheol Chung,Yung-Jue Bang,Charles S Fuchs,et al.",
+            "date": "(2021)",
+            "journal": "Future Oncol",
+            "pmid": "[PMID:33167735]",
+            "title": "First-line pembrolizumab/placebo plus trastuzumab and chemotherapy in HER2-positive advanced gastric cancer: KEYNOTE-811.",
+            "vol": "17(5):491-501."
+        },
+        {
+            "authors": "Amanda N Fader,Dana M Roque,Eric Siegel,et al.",
+            "date": "(2018)",
+            "journal": "J Clin Oncol",
+            "pmid": "[PMID:29584549]",
+            "title": "Randomized Phase II Trial of Carboplatin-Paclitaxel Versus Carboplatin-Paclitaxel-Trastuzumab in Uterine Serous Carcinomas That Overexpress Human Epidermal Growth Factor Receptor 2/neu.",
+            "vol": "36(20):2044-2051."
+        },
+        {
+            "authors": "Milind Javle,Mitesh J Borad,Nilofer S Azad,et al.",
+            "date": "(2021)",
+            "journal": "Lancet Oncol",
+            "pmid": "[PMID:34339623]",
+            "title": "Pertuzumab and trastuzumab for HER2-positive, metastatic biliary tract cancer (MyPathway): a multicentre, open-label, phase 2a, multiple basket study.",
+            "vol": "22(9):1290-1300."
+        },
+        {
+            "authors": "D J Slamon,G M Clark,S G Wong,et al.",
+            "date": "(1987)",
+            "journal": "Science",
+            "pmid": "[PMID:3798106]",
+            "title": "Human breast cancer: correlation of relapse and survival with amplification of the HER-2/neu oncogene.",
+            "vol": "235(4785):177-82."
+        },
+        {
+            "authors": "Anindita Chakrabarty,Neil E Bhola,Cammie Sutton,et al.",
+            "date": "(2013)",
+            "journal": "Cancer Res",
+            "pmid": "[PMID:23204226]",
+            "title": "Trastuzumab-resistant cells rely on a HER2-PI3K-FoxO-survivin axis and are sensitive to PI3K inhibitors.",
+            "vol": "73(3):1190-200."
+        },
+        {
+            "authors": "Carlos Gomez-Martín,Fernando Lopez-Rios,Jorge Aparicio,et al.",
+            "date": "(2014)",
+            "journal": "Cancer Lett",
+            "pmid": "[PMID:24943493]",
+            "title": "A critical review of HER2-positive gastric cancer evaluation and treatment: from trastuzumab, and beyond.",
+            "vol": "351(1):30-40."
+        },
+        {
+            "authors": "Min Yan,Barbara A Parker,Richard Schwab,et al.",
+            "date": "(2014)",
+            "journal": "Cancer Treat Rev",
+            "pmid": "[PMID:24656976]",
+            "title": "HER2 aberrations in cancer: implications for therapy.",
+            "vol": "40(6):770-80."
+        },
+        {
+            "authors": "Hope S Rugo,Seock-Ah Im,Fatima Cardoso,et al.",
+            "date": "(2021)",
+            "journal": "JAMA Oncol",
+            "pmid": "[PMID:33480963]",
+            "title": "Efficacy of Margetuximab vs Trastuzumab in Patients With Pretreated ERBB2-Positive Advanced Breast Cancer: A Phase 3 Randomized Clinical Trial.",
+            "vol": "7(4):573-584."
+        },
+        {
+            "authors": "Noura J Choudhury,Alexa Campanile,Tatjana Antic,et al.",
+            "date": "(2016)",
+            "journal": "J Clin Oncol",
+            "pmid": "[PMID:27044931]",
+            "title": "Afatinib Activity in Platinum-Refractory Metastatic Urothelial Carcinoma in Patients With ERBB Alterations.",
+            "vol": "34(18):2165-71."
+        },
+        {
+            "authors": "",
+            "date": "(2020)",
+            "journal": "Zhonghua Yi Xue Za Zhi",
+            "pmid": "[PMID:32791810]",
+            "title": "[Phase Ⅲ randomized controlled, multicenter, prospective study of recombinant anti-HER2 humanized monoclonal antibody (Cipterbin) combined with vinorelbine in patients with HER2 positive metastatic breast cancer: the HOPES Study].",
+            "vol": "100(30):2351-2357."
+        },
+        {
+            "authors": "Eleftherios Kostaras#,Teresa Kaserer#,Glorianne Lazaro,et al.",
+            "date": "(2020)",
+            "journal": "Br J Cancer",
+            "pmid": "[PMID:32439931]",
+            "title": "A systematic molecular and pharmacologic evaluation of AKT inhibitors reveals new insight into their biological activity.",
+            "vol": "123(4):542-555."
+        },
+        {
+            "authors": "Rashmi K Murthy,Sherene Loi,Alicia Okines,et al.",
+            "date": "(2020)",
+            "journal": "N Engl J Med",
+            "pmid": "[PMID:31825569]",
+            "title": "Tucatinib, Trastuzumab, and Capecitabine for HER2-Positive Metastatic Breast Cancer.",
+            "vol": "382(7):597-609."
+        }
+    ],
+    "therapeutic_regimen": [
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "91bb2f22737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of the serine/threonine protein kinase AKT (protein kinase B) with potential antineoplastic activity. Miransertib binds to and inhibits the activity of AKT in a non-ATP competitive manner, which may result in the inhibition of the PI3K/AKT signaling pathway. This may lead to the reduction in tumor cell proliferation and the induction of tumor cell apoptosis. The AKT signaling pathway is often deregulated in cancer and is associated with tumor cell proliferation, survival and migration.",
+                    "drug_name": "Miransertib",
+                    "regimen_code": "a698cfc6737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Miransertib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN"
+            ],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "7b9646e6800711ec861f005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "90198326737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "  ",
+                    "drug_mechanism_en": null,
+                    "drug_name": "化疗;Chemotherapy",
+                    "regimen_code": "7b9646e6800711ec861f005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "曲妥珠单抗+化疗",
+            "regimen_en": "Trastuzumab+Chemotherapy",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN",
+                "CSCO"
+            ],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92753872737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Pertuzumab（帕妥珠单抗）靶向人表皮生长因子受体2蛋白（HER2）的细胞外二聚结构域（Subdomain II），从而阻断HER2与其他HER家族成员（包括EGFR，HER3和HER4）结合的配体依赖性异源二聚化。 结果，Pertuzumab通过两个主要信号途径（有丝分裂原活化蛋白（MAP）激酶和磷酸肌醇3激酶（PI3K））抑制配体启动的细胞内信号传导。 抑制这些信号通路可以分别导致细胞生长停滞和凋亡。 另外，Pertuzumab介导抗体依赖性细胞介导的细胞毒性（ADCC）。\n尽管单独使用Pertuzumab就能够抑制人肿瘤细胞的增殖，但在过表达HER2的异种移植模型中，Pertuzumab和trastuzumab的联合增强了抗肿瘤活性。",
+                    "drug_mechanism_en": "A humanized recombinant monoclonal antibody directed against the extracellular dimerization domain of the HER-2 tyrosine kinase receptor. Binding of the antibody to the dimerization domain of the HER-2 tyrosine kinase receptor protein directly inhibits the ability of the HER-2 tyrosine kinase receptor protein (the most common pairing partner) to dimerize with other HER tyrosine kinase receptor proteins; inhibiting receptor protein dimerization prevents the activation of HER signaling pathways, resulting in tumor cell apoptosis. (NCI04)",
+                    "drug_name": "帕妥珠单抗;Pertuzumab",
+                    "regimen_code": "cd54cc08800911ec9e93005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "cd54cc08800911ec9e93005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "帕妥珠单抗+曲妥珠单抗",
+            "regimen_en": "Pertuzumab+Trastuzumab",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92a49ea0737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "A methylated derivative and structural analog of PRIMA-1 (p53 re-activation and induction of massive apoptosis), with potential antineoplastic activity. Upon administration, PRIMA-1 analog APR-246 covalently modifies the core domain of mutated forms of cellular tumor antigen p53 (p53) through the alkylation of thiol groups. These modifications restore both the wild-type conformation and function to mutant p53, which reconstitutes endogenous p53 activity, leading to cell cycle arrest and apoptosis in tumor cells. This agent may work synergistically with other antineoplastic agents. p53, a tumor suppressor and transcription factor normally activated upon DNA damage, is frequently mutated and overexpressed in cancer cells; it plays a key role in both DNA repair and the induction of apoptosis.",
+                    "drug_name": "APR-246",
+                    "regimen_code": "06ffd6dc8d5c11ec8b3c005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "8fac1250737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "阿扎胞苷为胞苷的嘧啶核苷类似物，具有抗肿瘤活性。 阿扎胞苷被掺入 DNA 中，它可逆地抑制 DNA 甲基转移酶，从而阻断 DNA 甲基化。 阿扎胞苷对 DNA 的低甲基化可能会激活因高甲基化而沉默的肿瘤抑制基因，从而产生抗肿瘤作用。 该试剂还掺入 RNA，从而破坏正常的 RNA 功能并削弱 tRNA 胞嘧啶-5-甲基转移酶活性。",
+                    "drug_mechanism_en": "A pyrimidine nucleoside analogue of cytidine with antineoplastic activity. Azacitidine is incorporated into DNA, where it reversibly inhibits DNA methyltransferase, thereby blocking DNA methylation.  Hypomethylation of DNA by azacitidine may activate tumor suppressor genes silenced by hypermethylation, resulting in an antitumor effect. This agent is also incorporated into RNA, thereby disrupting normal RNA function and impairing tRNA cytosine-5-methyltransferase activity. (NCI04)",
+                    "drug_name": "阿扎胞苷;Azacitidine",
+                    "regimen_code": "06ffd6dc8d5c11ec8b3c005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "APR-246+阿扎胞苷",
+            "regimen_en": "APR-246+Azacitidine",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "d342a9492038458f08826838c6f955ad",
+            "var": [
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "intron4",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.375+2T>G",
+                    "hgvs_p": "p.?"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8fad7a1e737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": null,
+                    "drug_name": "AZD1775",
+                    "regimen_code": "607d34e48d5b11ec92c3005056bdcbf7"
+                },
+                {
+                    "dosage": null,
+                    "drug_code": "8ff72600737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "卡铂的主要作用是将烷基连接到核苷酸上，导致单加合物的形成，以及当修复酶试图纠正错误时 DNA 片段化。 2% 的卡铂活性来自 DNA 从一条链上的碱基到另一条上碱基的交联，从而防止 DNA 链分离以进行合成或转录。卡铂可以诱导许多不同的突变。 ",
+                    "drug_mechanism_en": "Carboplatin is an organoplatinum antineoplastic alkylating agent used in the treatment of advanced ovarian carcinoma.Early clinical studies of carboplatin were performed in 1982. Carboplatin was developed as an analog of cisplatin with reduced nephrotoxicity and vomiting.Carboplatin was granted FDA approval on 3 March 1989.",
+                    "drug_name": "卡铂;Carboplatin",
+                    "regimen_code": "607d34e48d5b11ec92c3005056bdcbf7"
+                },
+                {
+                    "dosage": null,
+                    "drug_code": "92440dc4737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "紫杉醇是一种抗微管类的化疗药物。 紫杉醇常用于多种癌症治疗中，它是一种有丝分裂抑制剂，是于 1971 年从太平洋紫杉树的树皮中首次分离出来，并于1993年批准用于医学用途，并被列于世界卫生组织的基本药物清单。 紫杉醇的作用机理主要是去影响微管的正常功能，透过稳定与GDP结合的微管蛋白，从而致使快速分裂的肿瘤细胞在有丝分裂阶段被限制而无法分离，将细胞阻断于细胞周期之G2与M期间，使癌细胞复制受阻断而死亡。因此紫杉醇在抗癌药物当中，被视为有丝分裂中的微管抑制剂。",
+                    "drug_mechanism_en": "Paclitaxel is a chemotherapeutic agent marketed under the brand name Taxol among others. Used as a treatment for various cancers, paclitaxel is a mitotic inhibitor that was first isolated in 1971 from the bark of the Pacific yew tree which contains endophytic fungi that synthesize paclitaxel. It is available as an intravenous solution for injection and the newer formulation contains albumin-bound paclitaxel marketed under the brand name Abraxane.",
+                    "drug_name": "紫杉醇;Paclitaxel",
+                    "regimen_code": "607d34e48d5b11ec92c3005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "AZD1775+卡铂+紫杉醇",
+            "regimen_en": "AZD1775+Carboplatin+Paclitaxel",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "d342a9492038458f08826838c6f955ad",
+            "var": [
+                {
+                    "gene_symbol": "TP53",
+                    "gene_region": "intron4",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.375+2T>G",
+                    "hgvs_p": "p.?"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8e9fd93c737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An orally bioavailable allosteric inhibitor of the serine/threonine protein kinase Akt (protein kinase B) with potential antineoplastic activity. Akt inhibitor MK2206 binds to and inhibits the activity of Akt in a non-ATP competitive manner, which may result in the inhibition of the PI3K/Akt signaling pathway and tumor cell proliferation and the induction of tumor cell apoptosis. Activation of the PI3K/Akt signaling pathway is frequently associated with tumorigenesis and dysregulated PI3K/Akt signaling may contribute to tumor resistance to a variety of antineoplastic agents.",
+                    "drug_name": "MK2206",
+                    "regimen_code": "9a9a7314737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "MK2206",
+            "regimen_en": "MK2206",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN"
+            ],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "d9276c1ca35811ec840b005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "8ff72600737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "卡铂的主要作用是将烷基连接到核苷酸上，导致单加合物的形成，以及当修复酶试图纠正错误时 DNA 片段化。 2% 的卡铂活性来自 DNA 从一条链上的碱基到另一条上碱基的交联，从而防止 DNA 链分离以进行合成或转录。卡铂可以诱导许多不同的突变。 ",
+                    "drug_mechanism_en": "Carboplatin is an organoplatinum antineoplastic alkylating agent used in the treatment of advanced ovarian carcinoma.Early clinical studies of carboplatin were performed in 1982. Carboplatin was developed as an analog of cisplatin with reduced nephrotoxicity and vomiting.Carboplatin was granted FDA approval on 3 March 1989.",
+                    "drug_name": "卡铂;Carboplatin",
+                    "regimen_code": "d9276c1ca35811ec840b005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "92440dc4737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "紫杉醇是一种抗微管类的化疗药物。 紫杉醇常用于多种癌症治疗中，它是一种有丝分裂抑制剂，是于 1971 年从太平洋紫杉树的树皮中首次分离出来，并于1993年批准用于医学用途，并被列于世界卫生组织的基本药物清单。 紫杉醇的作用机理主要是去影响微管的正常功能，透过稳定与GDP结合的微管蛋白，从而致使快速分裂的肿瘤细胞在有丝分裂阶段被限制而无法分离，将细胞阻断于细胞周期之G2与M期间，使癌细胞复制受阻断而死亡。因此紫杉醇在抗癌药物当中，被视为有丝分裂中的微管抑制剂。",
+                    "drug_mechanism_en": "Paclitaxel is a chemotherapeutic agent marketed under the brand name Taxol among others. Used as a treatment for various cancers, paclitaxel is a mitotic inhibitor that was first isolated in 1971 from the bark of the Pacific yew tree which contains endophytic fungi that synthesize paclitaxel. It is available as an intravenous solution for injection and the newer formulation contains albumin-bound paclitaxel marketed under the brand name Abraxane.",
+                    "drug_name": "紫杉醇;Paclitaxel",
+                    "regimen_code": "d9276c1ca35811ec840b005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "曲妥珠单抗+卡铂+紫杉醇",
+            "regimen_en": "Trastuzumab+Carboplatin+Paclitaxel",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准Margetuximab-cmkb联合化疗用于HER2阳性、已接受过至少两种抗HER2疗法（其中至少一种针对转移性疾病）、转移性乳腺癌成年患者的治疗。"
+            ],
+            "adaptation_disease_en": [
+                "MARGENZA is a HER2/neu receptor antagonist indicated, in combination with chemotherapy, for the treatment of adult patients with metastatic HER2-positive breast cancer who have received two or more prior anti-HER2 regimens, at least one of which was for metastatic disease."
+            ],
+            "approval_organization": [
+                "FDA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "9197a5a2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Margetuximab-cmkb，一种HER2/neu受体拮抗剂，是一种嵌合Fc工程化IgG1 kappa单克隆抗体。Margetuximab-cmkb与人表皮生长受体蛋白 (HER2) 的胞外结构域结合。与表达HER2的肿瘤细胞结合后，margetuximab-cmkb抑制肿瘤细胞增殖，减少HER2胞外结构域的脱落并介导抗体依赖性细胞毒性 (ADCC) 。在体外，margetuximab-cmkb修饰的Fc区增加了与激活性Fc受体FCGR3A (CD16A) 的结合并降低了与抑制性Fc受体FCGR2B (CD32B) 的结合。 这些变化导致更大的体外抗体依赖性细胞毒性 (ADCC) 和NK细胞活化。 ",
+                    "drug_mechanism_en": "A Fc-domain optimized IgG monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2) with potential immunomodulating and antineoplastic activities. After binding to HER2 on the tumor cell surface, margetuximab may induce an antibody-dependent cell-mediated cytotoxicity (ADCC) against tumor cells overexpressing HER2. HER2, a tyrosine kinase receptor, is overexpressed by many cancer cell types. Compared to other anti-HER2 monoclonal antibodies, the Fc domain of MGAH22 is optimized with increased binding to the activating Fcgamma receptor IIIA (CD16A), expressed on cells such as natural killer (NK) cells and macrophages, thereby mediating an enhanced ADCC; the Fc domain also shows decreased binding to the inhibitory Fcgamma receptor IIB (CD32B).",
+                    "drug_name": "Margetuximab-cmkb",
+                    "regimen_code": "00b87602da8311ec8ab1005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "90198326737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "  ",
+                    "drug_mechanism_en": null,
+                    "drug_name": "化疗;Chemotherapy",
+                    "regimen_code": "00b87602da8311ec8ab1005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "Margetuximab-cmkb+化疗",
+            "regimen_en": "Margetuximab-cmkb+Chemotherapy",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准帕博利珠单抗+曲妥珠单抗+包含铂和氟尿嘧啶的化疗用于局部晚期不可切除或转移性HER2阳性胃或胃食管交界(GEJ)腺癌的一线治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "胃癌;Stomach Cancer",
+                "胃食管腺癌;Esophagogastric Adenocarcinoma"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "d3b5444e800711ec9142005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "9269e152737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "PD-1配体PD-L1和PD-L2与T细胞上的PD-1受体的结合可抑制T细胞增殖和细胞因子的产生。 PD-1配体的上调发生在某些肿瘤中，通过该途径的信号传导可能有助于抑制肿瘤的主动T细胞免疫监视。 Pembrolizumab是与PD-1受体结合并阻断其与PD-L1和PD-L2相互作用的单克隆抗体，可释放PD-1途径介导的免疫应答抑制作用，包括抗肿瘤免疫应答。 在同系小鼠肿瘤模型中，阻断PD-1活性导致肿瘤生长减少。",
+                    "drug_mechanism_en": "A humanized monoclonal immunoglobulin (Ig) G4 antibody directed against human cell surface receptor PD-1 (programmed death-1 or programmed cell death-1) with potential immune checkpoint inhibitory and antineoplastic activities. Upon administration, pembrolizumab binds to PD-1, an inhibitory signaling receptor expressed on the surface of activated T cells, and blocks the binding to and activation of PD-1 by its ligands, which results in the activation of T-cell-mediated immune responses against tumor cells. The ligands for PD-1 include programmed cell death ligand 1 (PD-L1), overexpressed on certain cancer cells, and programmed cell death ligand 2 (PD-L2), which is primarily expressed on APCs. Activated PD-1 negatively regulates T-cell activation and plays a key role in in tumor evasion from host immunity.",
+                    "drug_name": "帕博利珠单抗;Pembrolizumab",
+                    "regimen_code": "d3b5444e800711ec9142005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "90198326737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "  ",
+                    "drug_mechanism_en": null,
+                    "drug_name": "化疗;Chemotherapy",
+                    "regimen_code": "d3b5444e800711ec9142005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "曲妥珠单抗+帕博利珠单抗+化疗",
+            "regimen_en": "Trastuzumab+Pembrolizumab+Chemotherapy",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗联合顺铂和卡培他滨或5-氟尿嘧啶用于HER2过表达、未经治疗的转移性胃癌或胃食管连接处腺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA"
+            ],
+            "approval_tumour": [
+                "胃癌;Stomach Cancer",
+                "胃食管腺癌;Esophagogastric Adenocarcinoma"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "2e6dac64800811ec9240005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "9022907e737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "顺铂是一种具有抗肿瘤活性的烷基化类无机铂剂（顺式二氯铂）。顺铂形成高度反应性、带电的铂络合物，与亲核基团（如DNA中富含GC的部位）结合，诱发链内和链间DNA交联，以及DNA-蛋白质交联。这些交联导致细胞凋亡和细胞生长受到抑制。",
+                    "drug_mechanism_en": "An alkylating-like inorganic platinum agent (cis-diamminedichloroplatinum) with antineoplastic activity. Cisplatin forms highly reactive, charged, platinum complexes which bind to nucleophilic groups such as GC-rich sites in DNA inducing intrastrand and interstrand DNA cross-links, as well as DNA-protein cross-links. These cross-links result in apoptosis and cell growth inhibition.",
+                    "drug_name": "顺铂;Cisplatin",
+                    "regimen_code": "2e6dac64800811ec9240005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "8ff34440737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "卡培他滨是一种氟嘧啶氨基甲酸酯类药物，属于抗代谢的抗肿瘤药物。作为一种原药，卡培他滨被肿瘤细胞选择性地激活为其细胞毒性分子——5-氟尿嘧啶（5-FU）；随后，5-FU被肿瘤细胞和正常细胞代谢为两种活性代谢产物——5-氟-2-脱氧尿苷单磷酸（FdUMP）和5-氟尿苷三磷酸（FUTP）。FdUMP通过减少正常胸苷的产生来抑制DNA的合成和细胞分裂，而FUTP通过与三磷酸尿苷竞争纳入RNA链而抑制RNA和蛋白质的合成。",
+                    "drug_mechanism_en": "A fluoropyrimidine carbamate belonging to the class of antineoplastic agents called antimetabolites.  As a prodrug, capecitabine is selectively activated by tumor cells to its cytotoxic moiety, 5-fluorouracil (5-FU); subsequently, 5-FU is metabolized to two active metabolites, 5-fluoro-2-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP) by both tumor cells and normal cells.  FdUMP inhibits DNA synthesis and cell division by reducing normal thymidine production, while FUTP inhibits RNA and protein synthesis by competing with uridine triphosphate for incorporation into the RNA strand. (NCI04)",
+                    "drug_name": "卡培他滨;Capecitabine",
+                    "regimen_code": "2e6dac64800811ec9240005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "曲妥珠单抗+顺铂+卡培他滨",
+            "regimen_en": "Trastuzumab+Cisplatin+Capecitabine",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准帕妥珠单抗联合曲妥珠单抗和多西他赛用于治疗未接受过抗HER2治疗或化疗的HER2阳性的转移性乳腺癌(MBC)患者。",
+                "NMPA批准帕妥珠单抗与曲妥珠单抗和多西他赛联合，用于HER2阳性、转移性或不可切除的局部复发性乳腺癌患者。针对转移性疾病，患者既往未接受过抗HER2治疗或者化疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92753872737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Pertuzumab（帕妥珠单抗）靶向人表皮生长因子受体2蛋白（HER2）的细胞外二聚结构域（Subdomain II），从而阻断HER2与其他HER家族成员（包括EGFR，HER3和HER4）结合的配体依赖性异源二聚化。 结果，Pertuzumab通过两个主要信号途径（有丝分裂原活化蛋白（MAP）激酶和磷酸肌醇3激酶（PI3K））抑制配体启动的细胞内信号传导。 抑制这些信号通路可以分别导致细胞生长停滞和凋亡。 另外，Pertuzumab介导抗体依赖性细胞介导的细胞毒性（ADCC）。\n尽管单独使用Pertuzumab就能够抑制人肿瘤细胞的增殖，但在过表达HER2的异种移植模型中，Pertuzumab和trastuzumab的联合增强了抗肿瘤活性。",
+                    "drug_mechanism_en": "A humanized recombinant monoclonal antibody directed against the extracellular dimerization domain of the HER-2 tyrosine kinase receptor. Binding of the antibody to the dimerization domain of the HER-2 tyrosine kinase receptor protein directly inhibits the ability of the HER-2 tyrosine kinase receptor protein (the most common pairing partner) to dimerize with other HER tyrosine kinase receptor proteins; inhibiting receptor protein dimerization prevents the activation of HER signaling pathways, resulting in tumor cell apoptosis. (NCI04)",
+                    "drug_name": "帕妥珠单抗;Pertuzumab",
+                    "regimen_code": "8325f0c2800811ecb8eb005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "8325f0c2800811ecb8eb005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "906b5b9c737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "多西他赛是一种半合成的第二代烷烃，来自欧洲紫杉树（Taxus baccata）中的一种化合物。多西他赛显示出强大而广泛的抗肿瘤特性；它与微管蛋白结合并使其稳定，从而抑制微管的分解，导致细胞周期停滞在G2/M期和细胞死亡。该药还抑制血管生成因子，如血管内皮生长因子（VEGF），并通过诱导炎症反应的各种介质显示免疫调节和促进炎症的特性。多西他赛已被研究用作辐射致敏剂。",
+                    "drug_mechanism_en": "A semi-synthetic, second-generation taxane derived from a compound found in the European yew tree, Taxus baccata.  Docetaxel displays potent and broad antineoplastic properties; it binds to and stabilizes tubulin, thereby inhibiting microtubule disassembly which results in cell- cycle arrest at the G2/M phase and cell death.  This agent also inhibits pro-angiogenic factors such as vascular endothelial growth factor (VEGF) and displays immunomodulatory and pro-inflammatory properties by inducing various mediators of the inflammatory response.  Docetaxel has been studied for use as a radiation-sensitizing agent. (NCI04)",
+                    "drug_name": "多西他赛;Docetaxel",
+                    "regimen_code": "8325f0c2800811ecb8eb005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "帕妥珠单抗+曲妥珠单抗+多西他赛",
+            "regimen_en": "Pertuzumab+Trastuzumab+Docetaxel",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准妥卡替尼联合曲妥珠单抗+卡培他滨用于治疗晚期无法手术切除或转移性(包括脑转移患者，至少接受过一种抗HER2治疗)、HER2阳性的乳腺癌成年患者。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "93811e8e737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Tucatinib是一种HER2的酪氨酸激酶抑制剂。在体外，途卡替尼可抑制HER2和HER3的磷酸化，从而抑制下游的MAPK和AKT信号通路和细胞增殖，并在HER2表达的肿瘤细胞中显示出抗肿瘤活性。在体内，tucatinib抑制HER2表达肿瘤的生长。与单药相比，图他替尼和曲妥珠单抗的体内外抗肿瘤活性增强。",
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of the human epidermal growth factor receptor tyrosine kinase ErbB-2 (also called HER2) with potential antineoplastic activity. Tucatinib selectively binds to and inhibits the phosphorylation of ErbB-2, which may prevent the activation of ErbB-2 signal transduction pathways, resulting in growth inhibition and death of ErbB-2-expressing tumor cells. ErbB-2 is overexpressed in a variety of cancers and plays an important role in cellular proliferation and differentiation.",
+                    "drug_name": "妥卡替尼;Tucatinib",
+                    "regimen_code": "75414208800911ec8baa005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "75414208800911ec8baa005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "8ff34440737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "卡培他滨是一种氟嘧啶氨基甲酸酯类药物，属于抗代谢的抗肿瘤药物。作为一种原药，卡培他滨被肿瘤细胞选择性地激活为其细胞毒性分子——5-氟尿嘧啶（5-FU）；随后，5-FU被肿瘤细胞和正常细胞代谢为两种活性代谢产物——5-氟-2-脱氧尿苷单磷酸（FdUMP）和5-氟尿苷三磷酸（FUTP）。FdUMP通过减少正常胸苷的产生来抑制DNA的合成和细胞分裂，而FUTP通过与三磷酸尿苷竞争纳入RNA链而抑制RNA和蛋白质的合成。",
+                    "drug_mechanism_en": "A fluoropyrimidine carbamate belonging to the class of antineoplastic agents called antimetabolites.  As a prodrug, capecitabine is selectively activated by tumor cells to its cytotoxic moiety, 5-fluorouracil (5-FU); subsequently, 5-FU is metabolized to two active metabolites, 5-fluoro-2-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP) by both tumor cells and normal cells.  FdUMP inhibits DNA synthesis and cell division by reducing normal thymidine production, while FUTP inhibits RNA and protein synthesis by competing with uridine triphosphate for incorporation into the RNA strand. (NCI04)",
+                    "drug_name": "卡培他滨;Capecitabine",
+                    "regimen_code": "75414208800911ec8baa005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "妥卡替尼+曲妥珠单抗+卡培他滨",
+            "regimen_en": "Tucatinib+Trastuzumab+Capecitabine",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗联合紫杉醇用于HER2过表达转移性乳腺癌患者的一线治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "b4ba7d96800911ecbe1e005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "92440dc4737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "紫杉醇是一种抗微管类的化疗药物。 紫杉醇常用于多种癌症治疗中，它是一种有丝分裂抑制剂，是于 1971 年从太平洋紫杉树的树皮中首次分离出来，并于1993年批准用于医学用途，并被列于世界卫生组织的基本药物清单。 紫杉醇的作用机理主要是去影响微管的正常功能，透过稳定与GDP结合的微管蛋白，从而致使快速分裂的肿瘤细胞在有丝分裂阶段被限制而无法分离，将细胞阻断于细胞周期之G2与M期间，使癌细胞复制受阻断而死亡。因此紫杉醇在抗癌药物当中，被视为有丝分裂中的微管抑制剂。",
+                    "drug_mechanism_en": "Paclitaxel is a chemotherapeutic agent marketed under the brand name Taxol among others. Used as a treatment for various cancers, paclitaxel is a mitotic inhibitor that was first isolated in 1971 from the bark of the Pacific yew tree which contains endophytic fungi that synthesize paclitaxel. It is available as an intravenous solution for injection and the newer formulation contains albumin-bound paclitaxel marketed under the brand name Abraxane.",
+                    "drug_name": "紫杉醇;Paclitaxel",
+                    "regimen_code": "b4ba7d96800911ecbe1e005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "曲妥珠单抗+紫杉醇",
+            "regimen_en": "Trastuzumab+Paclitaxel",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准奈拉替尼单药用于治疗早期HER2阳性的乳腺癌患者经辅助曲妥珠单抗治疗后的扩展辅助治疗方案。",
+                "NMPA批准奈拉替尼用于既往接受过曲妥珠单抗辅助治疗的HER2阳性早期乳腺癌患者的强化辅助治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "920c2062737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Neratinib是一种细胞内激酶抑制剂，可与表皮生长因子受体（EGFR），HER2和HER4不可逆地结合。 在体外，neratinib降低EGFR和HER2的自磷酸化，下游MAPK和AKT信号通路，并在表达EGFR和/或HER2的癌细胞系中显示抗肿瘤活性。 Neratinib人类代谢产物M3，M6，M7和M11在体外抑制EGFR，HER2和HER4的活性。 在体内，在表达HER2和EGFR的肿瘤细胞系的小鼠异种移植模型中，口服neratinib抑制肿瘤生长。",
+                    "drug_mechanism_en": "An orally available, 6,7-disubstituted-4-anilinoquinoline-3-carbonitrile irreversible inhibitor of the HER-2 receptor tyrosine kinase with potential antineoplastic activity. Neratinib binds to the HER-2 receptor irreversibly, thereby reducing autophosphorylation in cells, apparently by targeting a cysteine residue in the ATP-binding pocket of the receptor. Treatment of cells with this agent results in inhibition of downstream signal transduction events and cell cycle regulatory pathways; arrest at the G1-S (Gap 1/DNA synthesis)-phase transition of the cell division cycle; and ultimately decreased cellular proliferation. Neratinib also inhibits the epidermal growth factor receptor (EGFR) kinase and the proliferation of EGFR-dependent cells.",
+                    "drug_name": "奈拉替尼;Neratinib",
+                    "regimen_code": "a79fddf6737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "奈拉替尼",
+            "regimen_en": "Neratinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准奈拉替尼联合卡培他滨用于既往接受过至少两种抗HER2治疗、晚期或转移性、HER2阳性的乳腺癌成年患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "920c2062737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Neratinib是一种细胞内激酶抑制剂，可与表皮生长因子受体（EGFR），HER2和HER4不可逆地结合。 在体外，neratinib降低EGFR和HER2的自磷酸化，下游MAPK和AKT信号通路，并在表达EGFR和/或HER2的癌细胞系中显示抗肿瘤活性。 Neratinib人类代谢产物M3，M6，M7和M11在体外抑制EGFR，HER2和HER4的活性。 在体内，在表达HER2和EGFR的肿瘤细胞系的小鼠异种移植模型中，口服neratinib抑制肿瘤生长。",
+                    "drug_mechanism_en": "An orally available, 6,7-disubstituted-4-anilinoquinoline-3-carbonitrile irreversible inhibitor of the HER-2 receptor tyrosine kinase with potential antineoplastic activity. Neratinib binds to the HER-2 receptor irreversibly, thereby reducing autophosphorylation in cells, apparently by targeting a cysteine residue in the ATP-binding pocket of the receptor. Treatment of cells with this agent results in inhibition of downstream signal transduction events and cell cycle regulatory pathways; arrest at the G1-S (Gap 1/DNA synthesis)-phase transition of the cell division cycle; and ultimately decreased cellular proliferation. Neratinib also inhibits the epidermal growth factor receptor (EGFR) kinase and the proliferation of EGFR-dependent cells.",
+                    "drug_name": "奈拉替尼;Neratinib",
+                    "regimen_code": "b6ffa33e800811ec8b89005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "8ff34440737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "卡培他滨是一种氟嘧啶氨基甲酸酯类药物，属于抗代谢的抗肿瘤药物。作为一种原药，卡培他滨被肿瘤细胞选择性地激活为其细胞毒性分子——5-氟尿嘧啶（5-FU）；随后，5-FU被肿瘤细胞和正常细胞代谢为两种活性代谢产物——5-氟-2-脱氧尿苷单磷酸（FdUMP）和5-氟尿苷三磷酸（FUTP）。FdUMP通过减少正常胸苷的产生来抑制DNA的合成和细胞分裂，而FUTP通过与三磷酸尿苷竞争纳入RNA链而抑制RNA和蛋白质的合成。",
+                    "drug_mechanism_en": "A fluoropyrimidine carbamate belonging to the class of antineoplastic agents called antimetabolites.  As a prodrug, capecitabine is selectively activated by tumor cells to its cytotoxic moiety, 5-fluorouracil (5-FU); subsequently, 5-FU is metabolized to two active metabolites, 5-fluoro-2-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP) by both tumor cells and normal cells.  FdUMP inhibits DNA synthesis and cell division by reducing normal thymidine production, while FUTP inhibits RNA and protein synthesis by competing with uridine triphosphate for incorporation into the RNA strand. (NCI04)",
+                    "drug_name": "卡培他滨;Capecitabine",
+                    "regimen_code": "b6ffa33e800811ec8b89005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "奈拉替尼+卡培他滨",
+            "regimen_en": "Neratinib+Capecitabine",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准恩美曲妥珠单抗用于经曲妥珠单抗±紫杉烷治疗、HER2阳性、转移性乳腺癌患者(曾因转移性疾病接受过治疗或完成辅助治疗期间或六个月内疾病复发)的治疗。\n",
+                "FDA批准恩美曲妥珠单抗用于以紫杉烷和曲妥珠单抗为基础的新辅助治疗后残留侵袭性疾病的HER2阳性早期乳腺癌患者的辅助治疗。",
+                "NMPA批准恩美曲妥珠单抗单药用于接受了紫杉烷类联合曲妥珠单抗为基础的新辅助治疗后仍残存侵袭性病灶的HER2 阳性早期乳腺癌患者的辅助治疗。",
+                "NMPA批准恩美曲妥珠单抗单药用于接受了紫杉烷类和曲妥珠单抗治疗的HER2阳性、不可切除局部晚期或转移性乳腺癌患者(既往接受过针对局部晚期或转移性乳腺癌的治疗，或在辅助治疗期间或完成辅助治疗后6个月内出现疾病复发)的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN",
+                "FDA",
+                "NMPA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8e998df2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Ado-trastuzumab emtansine是一种靶向HER2的抗体-药物偶联物。 该抗体是人源化抗HER2 IgG1曲妥珠单抗。 小分子细胞毒素DM1是微管抑制剂。 与HER2受体的亚结构域IV结合后，ado-trastuzumab emtansine经历受体介导的内化和随后的溶酶体降解，导致细胞内释放含DM1的细胞毒性代谢产物。 DM1与微管蛋白的结合会破坏细胞中的微管网络，从而导致细胞周期停滞和凋亡性细胞死亡。 此外，体外研究表明，与曲妥珠单抗类似，Ado-trastuzumab emtansine抑制HER2受体信号转导，介导抗体依赖性细胞介导的细胞毒性，并抑制过表达HER2的人乳腺癌细胞中HER2胞外域的脱落。",
+                    "drug_mechanism_en": "An antibody-drug conjugate (ADC) consisting of the recombinant anti-epidermal growth factor receptor 2 (HER2) monoclonal antibody trastuzumab conjugated to the maytansinoid DM1 via a nonreducible thioether linkage (MCC) with potential antineoplastic activity. The trastuzumab moiety of this ADC binds to HER2 on tumor cell surfaces; upon internalization, the DM1 moiety is released and binds to tubulin, thereby disrupting microtubule assembly/disassembly dynamics and inhibiting cell division and the proliferation of cancer cells that overexpress HER2. Linkage of antibody and drug through a nonreducible linker has been reported to contribute to the improved efficacy and reduced toxicity of this ADC compared to similar ADCs constructed with reducible linkers.",
+                    "drug_name": "恩美曲妥珠单抗;Ado-Trastuzumab Emtansine",
+                    "regimen_code": "9a83b7a0737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "恩美曲妥珠单抗",
+            "regimen_en": "Ado-Trastuzumab Emtansine",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准阿法替尼用于携带EGFR非耐药突变的转移性非小细胞肺癌患者的一线治疗。\n",
+                "FDA批准阿法替尼用于含铂化疗期间或化疗后疾病进展的局部晚期或转移性鳞状组织学类型的非小细胞肺癌(NSCLC)的治疗。",
+                "NMPA批准阿法替尼用于治疗EGFR基因突变阳性的局部晚期或转移性非小细胞肺癌（NSCLC）。",
+                "NMPA批准阿法替尼用于含铂化疗期间或化疗后疾病进展的局部晚期或转移性鳞状组织学类型的非小细胞肺癌(NSCLC)的治疗"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN",
+                "FDA",
+                "NMPA"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8e9ba006737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "阿法替尼与EGFR（ErbB1），HER2（ErbB2）和HER4（ErbB4）的激酶结构域共价结合，并且不可逆地抑制酪氨酸激酶的自磷酸化作用，从而导致ErbB信号的下调。 EGFR中的某些突变，包括其激酶结构域中的非耐药性突变，可导致受体的自身磷酸化增加，导致受体活化，有时在缺乏配体结合的情况下，可支持NSCLC的细胞增殖。非抗性突变定义为在构成EGFR激酶结构域的外显子中导致受体激活增强的突变，其功效可通过以下方式预测：1）使用推荐剂量的阿法替尼进行临床意义上的肿瘤缩小和/或2)根据验证的方法，在推荐剂量的阿法替尼浓度下，可持续抑制细胞增殖或EGFR酪氨酸激酶磷酸化。这些突变中最常见的是外显子21 L858R取代和外显子19缺失。阿法替尼在患者达到的阿法替尼浓度下，证明了表达野生型EGFR的细胞系和表达选定的EGFR外显子19外显子缺失突变，外显子21 L858R突变或其他较不常见的非耐药突变的细胞系的自磷酸化和/或体外增殖抑制。另外，阿法替尼抑制过表达HER2的细胞系的体外增殖。在野生型EGFR或HER2过表达的裸鼠或EGFR L858R/T790M双突变模型中，阿法替尼可抑制肿瘤生长。",
+                    "drug_mechanism_en": "An orally bioavailable anilino-quinazoline derivative and inhibitor of the receptor tyrosine kinase (RTK) epidermal growth factor receptor (ErbB; EGFR) family, with antineoplastic activity. Upon administration, afatinib selectively and irreversibly binds to and inhibits the epidermal growth factor receptors 1 (ErbB1; EGFR), 2 (ErbB2; HER2), and 4 (ErbB4; HER4), and certain EGFR mutants, including those caused by EGFR exon 19 deletion mutations or exon 21 (L858R) mutations. This may result in the inhibition of tumor growth and angiogenesis in tumor cells overexpressing these RTKs. Additionally, afatinib inhibits the EGFR T790M gatekeeper mutation which is resistant to treatment with first-generation EGFR inhibitors. EGFR, HER2 and HER4 are RTKs that belong to the EGFR superfamily; they play major roles in both tumor cell proliferation and tumor vascularization and are overexpressed in many cancer cell types.",
+                    "drug_name": "阿法替尼;Afatinib",
+                    "regimen_code": "9a8bdcdc737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "阿法替尼",
+            "regimen_en": "Afatinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准帕妥珠单抗+曲妥珠单抗+化疗作为HER2阳性、局部晚期、炎性乳腺癌患者的新辅助治疗方案或早期乳腺癌患者(病灶直径大于2cm或淋巴结阳性)完整治疗方案的一部分。",
+                "FDA批准帕妥珠单抗+曲妥珠单抗+化疗用于HER2阳性的高复发风险的早期乳腺癌患者的辅助治疗。",
+                "NMPA批准帕妥珠单抗联合曲妥珠单抗和化疗用于HER2阳性、局部晚期、炎性或早期乳腺癌患者(直径>2 cm淋巴结阳性)的新辅助治疗，作为早期乳腺癌整体治疗方案的一部分。",
+                "NMPA批准帕妥珠单抗联合曲妥珠单抗和化疗用于具有高复发风险HER2阳性早期乳腺癌患者的辅助治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92753872737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Pertuzumab（帕妥珠单抗）靶向人表皮生长因子受体2蛋白（HER2）的细胞外二聚结构域（Subdomain II），从而阻断HER2与其他HER家族成员（包括EGFR，HER3和HER4）结合的配体依赖性异源二聚化。 结果，Pertuzumab通过两个主要信号途径（有丝分裂原活化蛋白（MAP）激酶和磷酸肌醇3激酶（PI3K））抑制配体启动的细胞内信号传导。 抑制这些信号通路可以分别导致细胞生长停滞和凋亡。 另外，Pertuzumab介导抗体依赖性细胞介导的细胞毒性（ADCC）。\n尽管单独使用Pertuzumab就能够抑制人肿瘤细胞的增殖，但在过表达HER2的异种移植模型中，Pertuzumab和trastuzumab的联合增强了抗肿瘤活性。",
+                    "drug_mechanism_en": "A humanized recombinant monoclonal antibody directed against the extracellular dimerization domain of the HER-2 tyrosine kinase receptor. Binding of the antibody to the dimerization domain of the HER-2 tyrosine kinase receptor protein directly inhibits the ability of the HER-2 tyrosine kinase receptor protein (the most common pairing partner) to dimerize with other HER tyrosine kinase receptor proteins; inhibiting receptor protein dimerization prevents the activation of HER signaling pathways, resulting in tumor cell apoptosis. (NCI04)",
+                    "drug_name": "帕妥珠单抗;Pertuzumab",
+                    "regimen_code": "322a3894800911ecaaed005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "322a3894800911ecaaed005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "90198326737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "  ",
+                    "drug_mechanism_en": null,
+                    "drug_name": "化疗;Chemotherapy",
+                    "regimen_code": "322a3894800911ecaaed005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "帕妥珠单抗+曲妥珠单抗+化疗",
+            "regimen_en": "Pertuzumab+Trastuzumab+Chemotherapy",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗单药用于HER2过表达的转移性乳腺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "ace19818737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "曲妥珠单抗",
+            "regimen_en": "Trastuzumab",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、紫杉醇治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级等))的乳腺癌患者。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "e613ab68800611ec8d1b005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "9072355c737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "多柔比星是一种具有抗肿瘤活性的蒽环类抗生素，是柔红霉素的羟基化同系物，从链霉菌中分离出来。多柔比星在DNA螺旋中的碱基对之间进行插层，从而阻止DNA复制并最终抑制蛋白质的合成。此外，多柔比星抑制拓扑异构酶II，导致DNA复制过程中可裂解的酶-DNA连接复合物增加和稳定，随后阻止双链断裂后的核苷酸链的连接。多柔比星还形成氧自由基，导致细胞膜脂质过氧化而产生细胞毒性；氧自由基的形成也是蒽环类抗生素毒性的原因之一，即心脏和皮肤血管效应。",
+                    "drug_mechanism_en": "An anthracycline antibiotic with antineoplastic activity. Doxorubicin, isolated from the bacterium Streptomyces peucetius var. caesius, is the hydroxylated congener of daunorubicin. Doxorubicin intercalates between base pairs in the DNA helix, thereby preventing DNA replication and ultimately inhibiting protein synthesis. Additionally, doxorubicin inhibits topoisomerase II which results in an increased and stabilized cleavable enzyme-DNA linked complex during DNA replication and subsequently prevents the ligation of the nucleotide strand after double-strand breakage. Doxorubicin also forms oxygen free radicals resulting in cytotoxicity secondary to lipid peroxidation of cell membrane lipids; the formation of oxygen free radicals also contributes to the toxicity of the anthracycline antibiotics, namely the cardiac and cutaneous vascular effects.",
+                    "drug_name": "多柔比星;Doxorubicin",
+                    "regimen_code": "e613ab68800611ec8d1b005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "90406ac2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "环磷酰胺是一种合成的烷基化剂，与氮芥的化学成分有关，具有抗肿瘤和免疫抑制活性。在肝脏中，环磷酰胺被转化为活性代谢物醛磷酰胺和磷酰胺芥末，它们与DNA结合，从而抑制DNA复制并启动细胞死亡。",
+                    "drug_mechanism_en": "A synthetic alkylating agent chemically related to the nitrogen mustards with antineoplastic and immunosuppressive activities. In the liver, cyclophosphamide is converted to the active metabolites aldophosphamide and phosphoramide mustard, which bind to DNA, thereby inhibiting DNA replication and initiating cell death.",
+                    "drug_name": "环磷酰胺;Cyclophosphamide",
+                    "regimen_code": "e613ab68800611ec8d1b005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "92440dc4737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "紫杉醇是一种抗微管类的化疗药物。 紫杉醇常用于多种癌症治疗中，它是一种有丝分裂抑制剂，是于 1971 年从太平洋紫杉树的树皮中首次分离出来，并于1993年批准用于医学用途，并被列于世界卫生组织的基本药物清单。 紫杉醇的作用机理主要是去影响微管的正常功能，透过稳定与GDP结合的微管蛋白，从而致使快速分裂的肿瘤细胞在有丝分裂阶段被限制而无法分离，将细胞阻断于细胞周期之G2与M期间，使癌细胞复制受阻断而死亡。因此紫杉醇在抗癌药物当中，被视为有丝分裂中的微管抑制剂。",
+                    "drug_mechanism_en": "Paclitaxel is a chemotherapeutic agent marketed under the brand name Taxol among others. Used as a treatment for various cancers, paclitaxel is a mitotic inhibitor that was first isolated in 1971 from the bark of the Pacific yew tree which contains endophytic fungi that synthesize paclitaxel. It is available as an intravenous solution for injection and the newer formulation contains albumin-bound paclitaxel marketed under the brand name Abraxane.",
+                    "drug_name": "紫杉醇;Paclitaxel",
+                    "regimen_code": "e613ab68800611ec8d1b005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "曲妥珠单抗+多柔比星+环磷酰胺+紫杉醇",
+            "regimen_en": "Trastuzumab+Doxorubicin+Cyclophosphamide+Paclitaxel",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗联合多柔比星、环磷酰胺、多西他赛治疗HER2过表达、淋巴结阳性或阴性(ER/PR阴性或具有高风险特征(肿瘤大于2cm，年龄<35岁，组织学和/或核分级为2或3级))的乳腺癌患者。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "30aadde080a711ecb7d3005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "9072355c737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "多柔比星是一种具有抗肿瘤活性的蒽环类抗生素，是柔红霉素的羟基化同系物，从链霉菌中分离出来。多柔比星在DNA螺旋中的碱基对之间进行插层，从而阻止DNA复制并最终抑制蛋白质的合成。此外，多柔比星抑制拓扑异构酶II，导致DNA复制过程中可裂解的酶-DNA连接复合物增加和稳定，随后阻止双链断裂后的核苷酸链的连接。多柔比星还形成氧自由基，导致细胞膜脂质过氧化而产生细胞毒性；氧自由基的形成也是蒽环类抗生素毒性的原因之一，即心脏和皮肤血管效应。",
+                    "drug_mechanism_en": "An anthracycline antibiotic with antineoplastic activity. Doxorubicin, isolated from the bacterium Streptomyces peucetius var. caesius, is the hydroxylated congener of daunorubicin. Doxorubicin intercalates between base pairs in the DNA helix, thereby preventing DNA replication and ultimately inhibiting protein synthesis. Additionally, doxorubicin inhibits topoisomerase II which results in an increased and stabilized cleavable enzyme-DNA linked complex during DNA replication and subsequently prevents the ligation of the nucleotide strand after double-strand breakage. Doxorubicin also forms oxygen free radicals resulting in cytotoxicity secondary to lipid peroxidation of cell membrane lipids; the formation of oxygen free radicals also contributes to the toxicity of the anthracycline antibiotics, namely the cardiac and cutaneous vascular effects.",
+                    "drug_name": "多柔比星;Doxorubicin",
+                    "regimen_code": "30aadde080a711ecb7d3005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "90406ac2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "环磷酰胺是一种合成的烷基化剂，与氮芥的化学成分有关，具有抗肿瘤和免疫抑制活性。在肝脏中，环磷酰胺被转化为活性代谢物醛磷酰胺和磷酰胺芥末，它们与DNA结合，从而抑制DNA复制并启动细胞死亡。",
+                    "drug_mechanism_en": "A synthetic alkylating agent chemically related to the nitrogen mustards with antineoplastic and immunosuppressive activities. In the liver, cyclophosphamide is converted to the active metabolites aldophosphamide and phosphoramide mustard, which bind to DNA, thereby inhibiting DNA replication and initiating cell death.",
+                    "drug_name": "环磷酰胺;Cyclophosphamide",
+                    "regimen_code": "30aadde080a711ecb7d3005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "906b5b9c737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "多西他赛是一种半合成的第二代烷烃，来自欧洲紫杉树（Taxus baccata）中的一种化合物。多西他赛显示出强大而广泛的抗肿瘤特性；它与微管蛋白结合并使其稳定，从而抑制微管的分解，导致细胞周期停滞在G2/M期和细胞死亡。该药还抑制血管生成因子，如血管内皮生长因子（VEGF），并通过诱导炎症反应的各种介质显示免疫调节和促进炎症的特性。多西他赛已被研究用作辐射致敏剂。",
+                    "drug_mechanism_en": "A semi-synthetic, second-generation taxane derived from a compound found in the European yew tree, Taxus baccata.  Docetaxel displays potent and broad antineoplastic properties; it binds to and stabilizes tubulin, thereby inhibiting microtubule disassembly which results in cell- cycle arrest at the G2/M phase and cell death.  This agent also inhibits pro-angiogenic factors such as vascular endothelial growth factor (VEGF) and displays immunomodulatory and pro-inflammatory properties by inducing various mediators of the inflammatory response.  Docetaxel has been studied for use as a radiation-sensitizing agent. (NCI04)",
+                    "drug_name": "多西他赛;Docetaxel",
+                    "regimen_code": "30aadde080a711ecb7d3005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "曲妥珠单抗+多柔比星+环磷酰胺+多西他赛",
+            "regimen_en": "Trastuzumab+Doxorubicin+Cyclophosphamide+Docetaxel",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准曲妥珠单抗联合顺铂和卡培他滨或5-氟尿嘧啶用于HER2过表达、未经治疗的转移性胃癌或胃食管连接处腺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA"
+            ],
+            "approval_tumour": [
+                "胃癌;Stomach Cancer",
+                "胃食管腺癌;Esophagogastric Adenocarcinoma"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "4309f8bc800811ec8ed5005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "9022907e737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "顺铂是一种具有抗肿瘤活性的烷基化类无机铂剂（顺式二氯铂）。顺铂形成高度反应性、带电的铂络合物，与亲核基团（如DNA中富含GC的部位）结合，诱发链内和链间DNA交联，以及DNA-蛋白质交联。这些交联导致细胞凋亡和细胞生长受到抑制。",
+                    "drug_mechanism_en": "An alkylating-like inorganic platinum agent (cis-diamminedichloroplatinum) with antineoplastic activity. Cisplatin forms highly reactive, charged, platinum complexes which bind to nucleophilic groups such as GC-rich sites in DNA inducing intrastrand and interstrand DNA cross-links, as well as DNA-protein cross-links. These cross-links result in apoptosis and cell growth inhibition.",
+                    "drug_name": "顺铂;Cisplatin",
+                    "regimen_code": "4309f8bc800811ec8ed5005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "90c417b4737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "氟尿嘧啶是一种具有抗肿瘤活性的核苷嘧啶的抗代谢物氟嘧啶类似物。氟尿嘧啶及其代谢物拥有不同的作用机制。在体内，氟尿嘧啶被转化为活性代谢物5-氟氧尿嘧啶单磷酸酯（F-UMP）；取代尿嘧啶，F-UMP融入RNA并抑制RNA加工，从而抑制细胞生长。另一种活性代谢物5-5-氟-2'-脱氧尿苷-5'-O-单磷酸（F-dUMP）抑制胸苷酸合成酶，导致体内合成DNA中使用的四种核苷酸三磷酸之一胸苷三磷酸（TTP）的耗尽。其他氟尿嘧啶代谢物结合到RNA和DNA中；并入RNA会对RNA加工和功能产生重大影响。",
+                    "drug_mechanism_en": "An antimetabolite fluoropyrimidine analog of the nucleoside pyrimidine with antineoplastic activity. Fluorouracil and its metabolites possess a number of different mechanisms of action. In vivo, fluoruracil is converted to the active metabolite 5-fluoroxyuridine monophosphate (F-UMP); replacing uracil, F-UMP incorporates into RNA and inhibits RNA processing, thereby inhibiting cell growth. Another active metabolite, 5-5-fluoro-2'-deoxyuridine-5'-O-monophosphate (F-dUMP), inhibits thymidylate synthase, resulting in the depletion of thymidine triphosphate (TTP), one of the four nucleotide triphosphates used in the in vivo synthesis of DNA. Other fluorouracil metabolites incorporate into both RNA and DNA; incorporation into RNA results in major effects on both RNA processing and functions.",
+                    "drug_name": "氟尿嘧啶;Fluorouracil",
+                    "regimen_code": "4309f8bc800811ec8ed5005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "曲妥珠单抗+顺铂+氟尿嘧啶",
+            "regimen_en": "Trastuzumab+Cisplatin+Fluorouracil",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "93811e8e737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Tucatinib是一种HER2的酪氨酸激酶抑制剂。在体外，途卡替尼可抑制HER2和HER3的磷酸化，从而抑制下游的MAPK和AKT信号通路和细胞增殖，并在HER2表达的肿瘤细胞中显示出抗肿瘤活性。在体内，tucatinib抑制HER2表达肿瘤的生长。与单药相比，图他替尼和曲妥珠单抗的体内外抗肿瘤活性增强。",
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of the human epidermal growth factor receptor tyrosine kinase ErbB-2 (also called HER2) with potential antineoplastic activity. Tucatinib selectively binds to and inhibits the phosphorylation of ErbB-2, which may prevent the activation of ErbB-2 signal transduction pathways, resulting in growth inhibition and death of ErbB-2-expressing tumor cells. ErbB-2 is overexpressed in a variety of cancers and plays an important role in cellular proliferation and differentiation.",
+                    "drug_name": "妥卡替尼;Tucatinib",
+                    "regimen_code": "32449ce4fe7f11ec878c005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "93725eb2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "HER2(或c-erbB2)原癌基因编码185kda的跨膜受体蛋白，在结构上与表皮生长因子受体相关。在体外实验和动物实验中，Herceptin都被证明可以抑制过表达HER2的人类肿瘤细胞的增殖。赫赛汀是抗体依赖性细胞毒性(ADCC)的中介。体外，herceptin介导的ADCC被证明优先作用于HER2过表达的癌细胞，而不是HER2过表达的癌细胞。",
+                    "drug_mechanism_en": "A recombinant humanized monoclonal antibody directed against the human epidermal growth factor receptor 2 (HER2). After binding to HER2 on the tumor cell surface, trastuzumab induces an antibody-dependent cell-mediated cytotoxicity against tumor cells that overexpress HER2. HER2 is overexpressed by many adenocarcinomas, particularly breast adenocarcinomas. (NCI04)",
+                    "drug_name": "曲妥珠单抗;Trastuzumab",
+                    "regimen_code": "32449ce4fe7f11ec878c005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "妥卡替尼+曲妥珠单抗",
+            "regimen_en": "Tucatinib+Trastuzumab",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "NMPA批准注射用伊尼妥单抗与长春瑞滨联合用于HER2阳性的已接受1个或多个化疗方案的转移性乳腺癌患者。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NMPA"
+            ],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "913fe2d6737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "伊尼妥单抗是一种重组人源化单克隆抗体，特异作用于人表皮生长因子受体-2 (HER2) 的细胞外部位。并且伊尼妥单抗可介导抗体依赖的细胞介导的细胞毒反应（ADCC）。伊尼妥单抗在体外及动物试验中均显示可抑制HER2阳性肿瘤细胞的增殖。HER2原癌基因或C-erbB2编码一个单一的受体样跨膜蛋白，分子量为185kDa，其结构上与其他表皮生长因子受体类似。在原发性乳腺癌患者中观察到有25%~30%的患者HER2阳性。HER2基因扩增可导致肿瘤细胞表面HER2蛋白表达增加，导致HER2蛋白活化。",
+                    "drug_mechanism_en": null,
+                    "drug_name": "伊尼妥单抗;Inetetamab",
+                    "regimen_code": "6e24a06e1a1411ed9811005056bdcbf7"
+                },
+                {
+                    "dosage": "",
+                    "drug_code": "93a315d4737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "长春瑞滨是一种半合成的长春花碱。长春瑞滨与管蛋白结合，阻止有丝分裂纺锤体的形成，导致肿瘤细胞生长停滞在中期阶段。该药还可能干扰氨基酸、环磷酸腺苷和谷胱甘肽的代谢、钙调素依赖性钙转运ATP酶活性、细胞呼吸以及核酸和脂质的生物合成。",
+                    "drug_mechanism_en": "A semisynthetic vinca alkaloid. Vinorelbine binds to tubulin and prevents formation of the mitotic spindle, resulting in the arrest of tumor cell growth in metaphase. This agent may also interfere with amino acid, cyclic AMP. and glutathione metabolism; calmodulin-dependent Ca++ -transport ATPase activity; cellular respiration; and nucleic acid and lipid biosynthesis.",
+                    "drug_name": "长春瑞滨;vinorelbine",
+                    "regimen_code": "6e24a06e1a1411ed9811005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "伊尼妥单抗+长春瑞滨",
+            "regimen_en": "Inetetamab+vinorelbine",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准Fam-trastuzumab deruxtecan-nxki用于既往接受过曲妥珠单抗治疗的局部晚期或转移性HER2阳性胃或胃食管交界（GEJ）腺癌的成人患者的治疗。",
+                "FDA批准Fam-Trastuzumab Deruxtecan-Nxki用于治疗HER2阳性、无法手术切除或经抗HER2治疗的转移性乳腺癌患者，或经新辅助或辅助治疗期间或6个月内复发的乳腺癌患者。",
+                "FDA批准Fam-Trastuzumab Deruxtecan-Nxki用于治疗无法手术切除或HER2低表达（IHC 1+或IHC 2+/ISH-）的转移性乳腺癌成年患者（既往在疾病转移时接受过化疗或完成辅助化疗6个月内或期间复发）。",
+                "FDA批准Fam-trastuzumab deruxtecan-nxki用于治疗携带HER2激活突变的经过全身性治疗的不可切除或转移性非小细胞肺癌患者。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer",
+                "胃癌;Stomach Cancer",
+                "胃食管腺癌;Esophagogastric Adenocarcinoma",
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90b1e86e737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Fam-trastuzumab deruxtecan-nxki是HER2靶向的抗体-药物偶联物。 该抗体是人源化抗HER2 IgG1。 小分子DXd是拓扑异构酶I抑制剂，通过可裂解的接头与抗体连接。 与肿瘤细胞上的HER2结合后，fam-trastuzumab deruxtecan-nxki通过溶酶体酶进行内化和细胞内接头裂解。 释放后，可透膜的DXd导致DNA损伤和细胞凋亡。",
+                    "drug_mechanism_en": "An antibody-drug conjugate (ADC) composed of trastuzumab, a monoclonal antibody targeting human epidermal growth factor receptor 2 (ERBB2; EGFR2; HER2) conjugated to deruxtecan, a derivative of the camptothecin analog exatecan (DXd; DX-8951 derivative), a DNA topoisomerase 1 (topoisomerase I; Top1) inhibitor, with antineoplastic activity. Upon administration of trastuzumab deruxtecan, trastuzumab targets and binds to HER2 on tumor cells. Upon antibody/antigen binding and internalization, deruxtecan binds to and inhibits Top1-DNA complexes, which results in an inhibition of DNA replication, cell cycle arrest and tumor cell apoptosis. HER2, a tyrosine kinase receptor, is overexpressed by many cancer cell types. In addition, trastuzumab deruxtecan induces antibody-dependent cell-mediated cytotoxicity (ADCC) and causes a bystander killing effect.",
+                    "drug_name": "Fam-Trastuzumab Deruxtecan-Nxki",
+                    "regimen_code": "a2e6d9c2737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "Fam-Trastuzumab Deruxtecan-Nxki",
+            "regimen_en": "Fam-Trastuzumab Deruxtecan-Nxki",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "hg19:ERBB2::Gain",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "cnv_type": "GAIN"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2013 @@
+{
+    "sample_info": {
+        "order_id": "A0073403",
+        "sample_parent_id": "S22070169",
+        "sample_id": "S22070169FD01",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": "付永生",
+        "gender": "男",
+        "age": "69",
+        "sample_type": "石蜡包埋块",
+        "control_sample_type": null,
+        "sample_amount": "1块",
+        "control_sample_amount": null,
+        "tumor_type": "肺鳞癌",
+        "pathol_diagn": "肺鳞癌",
+        "tumor_names_cn": "肺癌",
+        "pathological_id": "Q220964",
+        "company": "宁波市临床病理诊断中心",
+        "origin_company": "中国人民解放军空军军医大学第二附属医院-收费-胸外科",
+        "report_number": "SH2207117",
+        "hosp_depart": null,
+        "prod_names": "10基因（组织）",
+        "prod_ids": "3",
+        "report_module_type": "hospital",
+        "json_batch_name": "20220714_SHXW_A008622_ADXLC10_v3.0.3.export202272511421",
+        "mark": null,
+        "tumor_content": null,
+        "sample_position": null,
+        "sample_position_id": null,
+        "family_history": null,
+        "gather_data": null,
+        "receive_data": "2022-07-08",
+        "report_data": "2022-08-29",
+        "tumor_list": [
+            "肺癌",
+            "小细胞肺癌（合并）",
+            "炎性肌纤维母细胞性肺肿瘤",
+            "原位肺腺癌",
+            "肺神经内分泌瘤",
+            "非小细胞肺癌",
+            "胸膜肺母细胞瘤",
+            "肺淋巴管肌瘤病",
+            "肺肉瘤样癌"
+        ]
+    },
+    "snvindel": [
+        {
+            "sample_id": "S22070169FD01",
+            "order_code": "20fb6fccfe1a11ec94b9005056bdcbf7",
+            "bio_category": "Snvindel",
+            "gene_symbol": "ERBB2",
+            "transcript_primary": "NM_004448.3",
+            "var_id": "ac73fce6fdca158dc72eaa9406f6da5b",
+            "hgvs_c": "c.2327G>T",
+            "hgvs_p": "p.G776V",
+            "hgvs_p_abbr": null,
+            "chr": "chr17",
+            "start": "37880998",
+            "end": "37880998",
+            "ref": "G",
+            "alt": "T",
+            "gene_region": "exon20",
+            "freq": 0.0143,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.0143,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS;HotSpot",
+            "igvplot": null,
+            "depth": 560,
+            "json_batch_name": "20220714_SHXW_A008622_ADXLC10_v3.0.3.export202272511421",
+            "var_origin": "",
+            "clinical_significance": "Likely pathogenic",
+            "function_classification": "Likely oncogenic",
+            "clinical_category": "Tier I",
+            "literature": "29967253,29533785",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "根据JAX CKB数据库记录，该突变位于Erbb2蛋白的蛋白激酶结构域中，可导致其功能增强，表现为提高下游信号通路激活水平及细胞克隆形成（Chudnovsky,Y et al. JCO Prec Onc, Aug 2017），还可促进细胞转化、提高细胞增殖及活力（PMID: 29967253, PMID: 29533785）。OncoKB数据库记录该突变为Oncogenic。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第776位氨基酸由甘氨酸突变为缬氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "",
+                    "tumor_name_cn": "乳腺癌",
+                    "evidence_type": "Predisposing",
+                    "refer_agency": "NCCN",
+                    "literature": "",
+                    "clinical_significance": "Risk Elevate",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A2",
+                    "evi_interpretation": "BRCA1基因致病性或疑似致病性胚系变异女性携带者患卵巢癌的概率达35~46%（普通人群等位基因频率为为1.5%），患乳腺癌的概率达51~75%（普通人群为13%）；男性携带者终身患乳腺癌、前列腺癌等癌症风险增加（NCCN Genetic/Familial High-Risk Assessment: Breast, Ovarian, and Pancreatic，2022_V1)；BRCA1基因双等位基因致病性和/或疑似致病性胚系变异（纯合或复合型杂合）与范可尼贫血综合征明确相关。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "Fam-Trastuzumab Deruxtecan-Nxki",
+                    "奈拉替尼",
+                    "恩美曲妥珠单抗",
+                    "吡咯替尼"
+                ],
+                "var": {
+                    "gene_symbol": "ERBB2",
+                    "gene_region": "exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2327G>T",
+                    "hgvs_p": "p.G776V"
+                }
+            },
+            "gene_function": "ERBB2基因属于原癌基因，编码的蛋白属于表皮生长因子受体家族，也属于受体酪氨酸激酶家族。ERBB2没有与配体结合的结构域，但可以与家族成员形成异源二聚体来结合配体如表皮生长因子（EGF），从而通过磷酸化激活下游蛋白如MAPK和PI3K。"
+        },
+        {
+            "sample_id": "S22070169FD01",
+            "order_code": "20fb6fccfe1a11ec94b9005056bdcbf7",
+            "bio_category": "Snvindel",
+            "gene_symbol": "EGFR",
+            "transcript_primary": "NM_005228.5",
+            "var_id": "5cdd71fcbb01725c9925c93eb51b0ccf",
+            "hgvs_c": "c.2093C>A",
+            "hgvs_p": "p.A698D",
+            "hgvs_p_abbr": null,
+            "chr": "chr7",
+            "start": "55241645",
+            "end": "55241645",
+            "ref": "C",
+            "alt": "A",
+            "gene_region": "exon18",
+            "freq": 0.0157,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": 0.0157,
+            "freq_sc": null,
+            "type": "nonSynonymous_Substitution",
+            "tag": "PASS",
+            "igvplot": null,
+            "depth": 573,
+            "json_batch_name": "20220714_SHXW_A008622_ADXLC10_v3.0.3.export202272511421",
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Uncertain",
+            "clinical_category": "Tier III",
+            "literature": "",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为错义突变，导致基因编码蛋白第698位氨基酸由丙氨酸突变为天冬氨酸。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "EGFR",
+                    "gene_region": "exon18",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2093C>A",
+                    "hgvs_p": "p.A698D"
+                }
+            },
+            "gene_function": "EGFR基因属于原癌基因，编码一种跨膜糖蛋白，是表皮生长因子受体家族中的一员，也属于受体酪氨酸激酶家族，可以激活RAS-RAF-MEK-ERK、PI3K-AKT-mTOR信号通路途径，导致细胞增殖和生长增加（PMID: 24312144）。EGFR基因突变和表达水平的升高与多种癌症相关，其中最常见于非小细胞肺癌（PMID: 26609494）。"
+        }
+    ],
+    "sv": [
+        {
+            "sample_id": "S22070169FD01",
+            "order_code": "20fb6fccfe1a11ec94b9005056bdcbf7",
+            "bio_category": "Sv",
+            "three_prime_chr": "chr6",
+            "three_prime_chr_pos": "117645622",
+            "three_prime_flag": "-/-",
+            "three_prime_gene": "ROS1",
+            "three_prime_cds": "intron33",
+            "three_prime_transcript": "NM_002944.2",
+            "three_prime_region": null,
+            "five_prime_chr": "chr2",
+            "five_prime_chr_pos": "38590512",
+            "five_prime_flag": "-/-",
+            "five_prime_gene": "ATL2",
+            "five_prime_cds": "intron1",
+            "five_prime_transcript": "NM_001330464.2",
+            "five_prime_region": null,
+            "depth": 353,
+            "json_batch_name": "20220714_SHXW_A008622_ADXLC10_v3.0.3.export202272511421",
+            "var_id": "hg19:ATL2:NM_001330464.2:-ROS1:NM_002944.2::",
+            "var_hgvs": "ATL2:NM_001330464.2_exon1--ROS1:NM_002944.2_exon34",
+            "copies": null,
+            "freq": 0.153,
+            "var_origin": "",
+            "clinical_significance": "Uncertain",
+            "function_classification": "Uncertain",
+            "clinical_category": "Tier III",
+            "literature": "",
+            "polymorphism": "",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "",
+            "variant_desc_en": "",
+            "gene_symbol": "ROS1",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "gene_symbol": "ROS1",
+                    "hgvs": "ATL2:NM_001330464.2_exon1--ROS1:NM_002944.2_exon34"
+                }
+            },
+            "gene_function": "ROS1基因属于原癌基因，编码具有胞内酪氨酸激酶活性的跨膜蛋白(PMID: 18778756)，可激活参与细胞存活和转化的多种途径（PMID: 23719267）。ROS1融合蛋白经常导致ROS1信号传导的组成性激活，并已在胶质母细胞瘤、非小细胞肺癌、胆管癌、卵巢癌、胃腺癌、结肠直肠癌、炎性肌纤维母细胞瘤、血管肉瘤和上皮样血管内皮瘤中被发现（PMID: 23719267）。",
+            "three_prime_gene_function": "ROS1基因属于原癌基因，编码具有胞内酪氨酸激酶活性的跨膜蛋白(PMID: 18778756)，可激活参与细胞存活和转化的多种途径（PMID: 23719267）。ROS1融合蛋白经常导致ROS1信号传导的组成性激活，并已在胶质母细胞瘤、非小细胞肺癌、胆管癌、卵巢癌、胃腺癌、结肠直肠癌、炎性肌纤维母细胞瘤、血管肉瘤和上皮样血管内皮瘤中被发现（PMID: 23719267）。",
+            "five_prime_gene_function": null
+        }
+    ],
+    "cnv": [],
+    "cnv_file_path": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "ALK",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "EGFR",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "MET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "RET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/A基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，C/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用依托泊苷+铂类治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/C基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7779029",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "SEMA3C",
+            "genotype": "T/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/C基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 或AG基因型患者相比，A/G基因型的患者使用铂类治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，C/T基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/G基因型的患者使用铂类药物治疗时药物疗效较差（亚裔）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/G基因型的患者使用铂类治疗时疗效中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效中等",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/C基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GA或AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用铂类治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类药物治疗时药物疗效较差（亚裔）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/A基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，A/A基因型的患者使用吉西他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs2072671",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，A/G基因型的患者使用顺铂治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，G/G基因型的患者使用顺铂+吉西他滨治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "顺铂+吉西他滨",
+            "drug_name_en": "cisplatin and gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，C/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，G/G基因型的患者使用铂类治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 CC 或 CG 基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1517114",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "C8orf34",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)6或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)7基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)7",
+            "impact_type_cn": "药物毒性中等",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC或CT基因型患者相比，T/T基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7779029",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "SEMA3C",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用顺铂+吉西他滨治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "顺铂+吉西他滨",
+            "drug_name_en": "cisplatin and gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，A/G基因型的患者使用顺铂+吉西他滨治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "顺铂+吉西他滨",
+            "drug_name_en": "cisplatin and gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 CG 和 GG 基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用顺铂治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用卡培他滨治疗时毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用依托泊苷+铂类治疗时药物疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，A/A基因型的患者使用氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用卡培他滨治疗时毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 CC 基因型患者相比，G/G基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs1801019",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "3",
+            "gene_symbol": "UMPS",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性中等",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/A基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG或AG基因型患者相比，A/A基因型的患者使用依托泊苷+铂类治疗时药物疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs716274",
+            "drug_name_cn": "依托泊苷+铂类",
+            "drug_name_en": "etoposide and Platinum",
+            "evi_level": "3",
+            "gene_symbol": "DYNC2H1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，T/T基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用铂类药物治疗时疗效较好",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "C/C",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用铂类药物治疗时药物疗效较好（亚裔）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较好",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，A/C基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs2072671",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用蒽环类药物治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs885004",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)7或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)6基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)6",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，C/C基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7779029",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "SEMA3C",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AA 或 AG 基因型患者相比，G/G基因型的患者使用顺铂治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs11615",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "ERCC1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与 AA 基因型患者相比，C/C基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs2072671",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，A/A基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AG基因型患者相比，G/G基因型的患者使用蒽环类药物治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs7853758",
+            "drug_name_cn": "蒽环类药物",
+            "drug_name_en": "anthracyclines",
+            "evi_level": "3",
+            "gene_symbol": "SLC28A3",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 AG 或 GG 基因型患者相比，A/A基因型的患者使用铂类治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，C/G基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1517114",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "C8orf34",
+            "genotype": "C/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)6或(TA)6/(TA)7基因型患者相比，(TA)7/(TA)7基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)7/(TA)7",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与 GG 基因型患者相比，C/C基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1517114",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "3",
+            "gene_symbol": "C8orf34",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，G/G基因型的患者使用铂类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "G/G",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与TT基因型患者相比，T/A基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CC基因型患者相比，G/C基因型的患者使用铂类药物治疗时疗效较差",
+            "clin_anno_en": null,
+            "dbsnp": "rs1042522",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum ",
+            "evi_level": "3",
+            "gene_symbol": "TP53",
+            "genotype": "G/C",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/G基因型的患者使用卡培他滨治疗时毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs1045642",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "3",
+            "gene_symbol": "ABCB1",
+            "genotype": "A/G",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 1
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用铂类治疗时疗效较差（但也有报道认为该基因型与生存期无关）",
+            "clin_anno_en": null,
+            "dbsnp": "rs1695",
+            "drug_name_cn": "铂类",
+            "drug_name_en": "platinum",
+            "evi_level": "3",
+            "gene_symbol": "GSTP1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物疗效较差",
+            "impact_type_en": "Efficacy",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用伊立替康治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，C/C基因型的患者使用卡培他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，A/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用吉西他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，A/A基因型的患者使用吉西他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GG基因型患者相比，G/A基因型的患者使用吉西他滨治疗时药物毒性较高",
+            "clin_anno_en": null,
+            "dbsnp": "rs60369023",
+            "drug_name_cn": "吉西他滨",
+            "drug_name_en": "gemcitabine",
+            "evi_level": "3",
+            "gene_symbol": "CDA",
+            "genotype": "G/A",
+            "impact_type_cn": "药物毒性较高",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": [
+            {
+                "depth_min": null,
+                "depth_noise": null,
+                "depth_mean": 65368.44,
+                "depth_ssbc": 1060.41,
+                "depth_rna_ctrl": null,
+                "depth_mean_uniq": null,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "depth_median_uniq": null,
+                "depth_mean_ssbc": null,
+                "cleandata_q30": 0.9404,
+                "cleandata_q20": 0.9746,
+                "cover_ratio": 1,
+                "cnv_cv": null,
+                "cnv_uni": null,
+                "mapping_ratio": 0.9971,
+                "inssize_ontarget": 172.63,
+                "uni20": 0.996,
+                "uni20_uniq": null,
+                "totalreads": null,
+                "alignedreads": null,
+                "read_ontarget_ratio": 0.85,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "scale_log_post_prob": null,
+                "qc_type": null,
+                "uni20_uniq_hot": null,
+                "uni20_uniq_nonhot": null,
+                "depth_mean_uniq_hot": null,
+                "depth_mean_uniq_nonhot": null,
+                "inssize_median": null,
+                "brca_cover_ratio": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null
+            }
+        ],
+        "lib_dna_qc": [],
+        "qc_gradient": [],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "3",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "MET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "3",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "hd": [],
+    "gss": [],
+    "lib_quality_control": {
+        "lib_dna_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_lib_qc": []
+    },
+    "drug": [
+        {
+            "general_name_cn": null,
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "gene_region": "exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2327G>T",
+                    "hgvs_p": "p.G776V"
+                }
+            ],
+            "general_name_en": "Fam-Trastuzumab Deruxtecan-Nxki",
+            "trade_name_cn": null,
+            "trade_name_en": "Enhertu",
+            "approval_organization": [
+                "FDA",
+                "NCCN"
+            ],
+            "drug_mechanism_cn": "Fam-trastuzumab deruxtecan-nxki是HER2靶向的抗体-药物偶联物。 该抗体是人源化抗HER2 IgG1。 小分子DXd是拓扑异构酶I抑制剂，通过可裂解的接头与抗体连接。 与肿瘤细胞上的HER2结合后，fam-trastuzumab deruxtecan-nxki通过溶酶体酶进行内化和细胞内接头裂解。 释放后，可透膜的DXd导致DNA损伤和细胞凋亡。",
+            "adaptation_disease_cn": [
+                "FDA批准Fam-trastuzumab deruxtecan-nxki用于既往接受过曲妥珠单抗治疗的局部晚期或转移性HER2阳性胃或胃食管交界（GEJ）腺癌的成人患者的治疗。",
+                "FDA批准Fam-Trastuzumab Deruxtecan-Nxki用于治疗HER2阳性、无法手术切除或经抗HER2治疗的转移性乳腺癌患者，或经新辅助或辅助治疗期间或6个月内复发的乳腺癌患者。",
+                "FDA批准Fam-Trastuzumab Deruxtecan-Nxki用于治疗无法手术切除或HER2低表达（IHC 1+或IHC 2+/ISH-）的转移性乳腺癌成年患者（既往在疾病转移时接受过化疗或完成辅助化疗6个月内或期间复发）。",
+                "FDA批准Fam-trastuzumab deruxtecan-nxki用于治疗携带HER2激活突变的经过全身性治疗的不可切除或转移性非小细胞肺癌患者。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "奈拉替尼",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "gene_region": "exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2327G>T",
+                    "hgvs_p": "p.G776V"
+                }
+            ],
+            "general_name_en": "Neratinib",
+            "trade_name_cn": null,
+            "trade_name_en": "Nerlynx",
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "Neratinib是一种细胞内激酶抑制剂，可与表皮生长因子受体（EGFR），HER2和HER4不可逆地结合。 在体外，neratinib降低EGFR和HER2的自磷酸化，下游MAPK和AKT信号通路，并在表达EGFR和/或HER2的癌细胞系中显示抗肿瘤活性。 Neratinib人类代谢产物M3，M6，M7和M11在体外抑制EGFR，HER2和HER4的活性。 在体内，在表达HER2和EGFR的肿瘤细胞系的小鼠异种移植模型中，口服neratinib抑制肿瘤生长。",
+            "adaptation_disease_cn": [
+                "FDA批准奈拉替尼单药用于治疗早期HER2阳性的乳腺癌患者经辅助曲妥珠单抗治疗后的扩展辅助治疗方案。",
+                "NMPA批准奈拉替尼用于既往接受过曲妥珠单抗辅助治疗的HER2阳性早期乳腺癌患者的强化辅助治疗。",
+                "FDA批准奈拉替尼联合卡培他滨用于既往接受过至少两种抗HER2治疗、晚期或转移性、HER2阳性的乳腺癌成年患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": "Targeted therapy（靶向）"
+        },
+        {
+            "general_name_cn": "恩美曲妥珠单抗",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "gene_region": "exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2327G>T",
+                    "hgvs_p": "p.G776V"
+                }
+            ],
+            "general_name_en": "Ado-Trastuzumab Emtansine",
+            "trade_name_cn": null,
+            "trade_name_en": "Kadcyla",
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "NCCN"
+            ],
+            "drug_mechanism_cn": "Ado-trastuzumab emtansine是一种靶向HER2的抗体-药物偶联物。 该抗体是人源化抗HER2 IgG1曲妥珠单抗。 小分子细胞毒素DM1是微管抑制剂。 与HER2受体的亚结构域IV结合后，ado-trastuzumab emtansine经历受体介导的内化和随后的溶酶体降解，导致细胞内释放含DM1的细胞毒性代谢产物。 DM1与微管蛋白的结合会破坏细胞中的微管网络，从而导致细胞周期停滞和凋亡性细胞死亡。 此外，体外研究表明，与曲妥珠单抗类似，Ado-trastuzumab emtansine抑制HER2受体信号转导，介导抗体依赖性细胞介导的细胞毒性，并抑制过表达HER2的人乳腺癌细胞中HER2胞外域的脱落。",
+            "adaptation_disease_cn": [
+                "FDA批准恩美曲妥珠单抗用于经曲妥珠单抗±紫杉烷治疗、HER2阳性、转移性乳腺癌患者(曾因转移性疾病接受过治疗或完成辅助治疗期间或六个月内疾病复发)的治疗。\n",
+                "FDA批准恩美曲妥珠单抗用于以紫杉烷和曲妥珠单抗为基础的新辅助治疗后残留侵袭性疾病的HER2阳性早期乳腺癌患者的辅助治疗。",
+                "NMPA批准恩美曲妥珠单抗单药用于接受了紫杉烷类联合曲妥珠单抗为基础的新辅助治疗后仍残存侵袭性病灶的HER2 阳性早期乳腺癌患者的辅助治疗。",
+                "NMPA批准恩美曲妥珠单抗单药用于接受了紫杉烷类和曲妥珠单抗治疗的HER2阳性、不可切除局部晚期或转移性乳腺癌患者(既往接受过针对局部晚期或转移性乳腺癌的治疗，或在辅助治疗期间或完成辅助治疗后6个月内出现疾病复发)的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "吡咯替尼",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "gene_region": "exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2327G>T",
+                    "hgvs_p": "p.G776V"
+                }
+            ],
+            "general_name_en": "Pyrotinib",
+            "trade_name_cn": "艾瑞妮",
+            "trade_name_en": null,
+            "approval_organization": [],
+            "drug_mechanism_cn": "吡咯替尼（Pyrotinib）是不可逆的小分子受体酪氨酸激酶抑制剂，显著抑制表皮生长因受体（ ErbB1/EGFR）和人表皮生长因子受体2（ErbB2/HER2），半数抑制浓度分别为 5.6 nM、8.1 nM。吡咯替尼可显著抑制 HER2高表达的肿瘤细胞 （乳腺癌、卵巢胃肿瘤细胞）生长， IC50为 1~43 nM。在多种移植瘤裸小 鼠模型（乳腺癌、卵巢癌、肺癌）中，吡咯替尼可显著抑制HER2因子驱动的肿瘤生长，抑制 HER2介导的下游信号通路，将肿瘤细胞阻滞在周期G1期。",
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        }
+    ],
+    "io_gene_clinical": [],
+    "clinic_trial": [
+        {
+            "clinicaltrial_number": "CTR20191998",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "ERBB2",
+            "interventions": "Poziotinib薄膜衣片",
+            "phase": "II期",
+            "study_title": "Poziotinib在EGFR或HER2外显子20突变的局部晚期或转移性非小细胞肺癌（NSCLC）中国和韩国患者中的2期研究"
+        },
+        {
+            "clinicaltrial_number": "NCT03845270",
+            "conditions": "Non Small Cell Lung Cancer Metastatic Non Small Cell Lung Cancer Stage III HER2 Gene Mutation",
+            "gene_symbol": "ERBB2",
+            "interventions": "Drug: pertuzumab + trastuzumab + docetaxel",
+            "phase": "Phase 2",
+            "study_title": "Her2-positive Lung Cancer Treated With Dedicated Drug"
+        },
+        {
+            "clinicaltrial_number": "NCT03505710",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "Drug: Trastuzumab deruxtecan (DS-8201a)",
+            "phase": "Phase 2",
+            "study_title": "DS-8201a in Human Epidermal Growth Factor Receptor 2 (HER2)-Expressing or -Mutated Non-Small Cell Lung Cancer"
+        },
+        {
+            "clinicaltrial_number": "NCT03810872",
+            "conditions": "Cancers Harbouring an EGFR Mutation, (Excluding Non-squamous Non- Small Cell Lung Cancer, a Registered Indication), a HER2 Mutation or a HER3 Mutation",
+            "gene_symbol": "ERBB2",
+            "interventions": "Drug: Afatinib Drug: Paclitaxel",
+            "phase": "Phase 2",
+            "study_title": "An Explorative Study of Afatinib in the Treatment of Advanced Cancer Carrying an EGFR, a HER2 or a HER3 Mutation"
+        },
+        {
+            "clinicaltrial_number": "NCT03066206",
+            "conditions": "EGFR Exon 20 Mutation ERBB2 Gene Mutation Recurrent Lung Non-Small Cell Carcinoma Stage IV Non-Small Cell Lung Cancer AJCC v7",
+            "gene_symbol": "ERBB2",
+            "interventions": "Drug: Poziotinib",
+            "phase": "Phase 2",
+            "study_title": "Poziotinib in EGFR Exon 20 Mutant Advanced NSCLC"
+        },
+        {
+            "clinicaltrial_number": "NCT02314481",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "Drug: MPDL3280A Drug: Vemurafenib Drug: Alectinib Drug: Trastuzumab emtansine",
+            "phase": "Phase 2",
+            "study_title": "Deciphering Antitumour Response and Resistance With INtratumour Heterogeneity"
+        },
+        {
+            "clinicaltrial_number": "NCT03399487",
+            "conditions": "Non-small Cell Lung Cancer Harboring ROS1 Rearrangement",
+            "gene_symbol": "ERBB2",
+            "interventions": "Drug: LDK378(Ceritinib)",
+            "phase": "Phase 2",
+            "study_title": "A Study of LDK378 in Patients With Non-small Cell Lung Cancer Harboring ROS1 Rearrangement"
+        },
+        {
+            "clinicaltrial_number": "NCT02183883",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "Drug: Afatinib",
+            "phase": "Phase 2",
+            "study_title": "Deciphering Afatinib Response and Resistance With INtratumour Heterogeneity"
+        },
+        {
+            "clinicaltrial_number": "NCT03865511",
+            "conditions": "Non-small Cell Lung Cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "Drug: TAGRISSO 80mg (Osimertinib) Genetic: Tumor biopsies Genetic: ctDNA analysis",
+            "phase": "Phase 2",
+            "study_title": "MEchanisms of Resistance in EGFR Mutated Nonpretreated Advanced Lung Cancer Receiving OSimErtib"
+        },
+        {
+            "clinicaltrial_number": "NCT03974022",
+            "conditions": "NonSmall Cell Lung Cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "Drug: DZD9008",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Assessing an Oral EGFR Inhibitor, DZD9008 in Patients Who Have Advanced Non-small Cell Lung Cancer With EGFR or HER2 Mutation (WU-KONG1)"
+        },
+        {
+            "clinicaltrial_number": "NCT03761914",
+            "conditions": "Acute Myelogenous Leukemia Ovarian Cancer Colorectal Cancer Triple-negative Breast Cancer Small-cell Lung Cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "Biological: galinpepimut-S Drug: Pembrolizumab",
+            "phase": "Phase 1 Phase 2",
+            "study_title": "Galinpepimut-S in Combination With Pembrolizumab in Patients With Selected Advanced Cancers"
+        },
+        {
+            "clinicaltrial_number": "NCT03198052",
+            "conditions": "Lung Cancer Cancer Immunotherapy CAR-T Cell",
+            "gene_symbol": "ERBB2",
+            "interventions": "Biological: CAR-T cells targeting HER2, Mesothelin, PSCA, MUC1, Lewis-Y, or CD80/86",
+            "phase": "Phase 1",
+            "study_title": "HER2/Mesothelin/Lewis-Y/PSCA/MUC1/PD-L1/CD80/86-CAR-T Cells Immunotherapy Against Cancers"
+        },
+        {
+            "clinicaltrial_number": "NCT03807778",
+            "conditions": "Non-Small Cell Lung Cancer",
+            "gene_symbol": "ERBB2",
+            "interventions": "Drug: TAK-788",
+            "phase": "Phase 1",
+            "study_title": "A Phase 1 Study of TAK-788 in Japanese Patients"
+        },
+        {
+            "clinicaltrial_number": "NCT04042480",
+            "conditions": "Cutaneous Melanoma Pleural Mesothelioma Breast Cancer Non-small Cell Lung Cancer Colorectal Cancer Pancreatic Ductal Adenocarcinoma",
+            "gene_symbol": "ERBB2",
+            "interventions": "Drug: SGN-CD228A",
+            "phase": "Phase 1",
+            "study_title": "A Study of SGN-CD228A in Advanced Solid Tumors"
+        },
+        {
+            "clinicaltrial_number": "NCT04025216",
+            "conditions": "Non-Small Cell Lung Cancer Ovarian Cancer Fallopian Tube Cancer Triple Negative Breast Cancer Multiple Myeloma Pancreatic Ductal Adenocarcinoma",
+            "gene_symbol": "ERBB2",
+            "interventions": "Biological: CART-TnMUC1 Drug: Cyclophosphamide Drug: Fludarabine",
+            "phase": "Phase 1",
+            "study_title": "A Study of CART-TnMUC1 in Patients With TnMUC1-Positive Advanced Cancers"
+        }
+    ],
+    "refer": [
+        {
+            "authors": "Anita Midha,Simon Dearden,Rose McCormack",
+            "date": "(2015)",
+            "journal": "Am J Cancer Res",
+            "pmid": "[PMID:26609494]",
+            "title": "EGFR mutation incidence in non-small-cell lung cancer of adenocarcinoma histology: a systematic review and global map by ethnicity (mutMapII).",
+            "vol": "5(9):2892-911."
+        },
+        {
+            "authors": "Kalliopi Domvri,Paul Zarogoulidis,Kaid Darwiche,et al.",
+            "date": "(2013)",
+            "journal": "J Cancer",
+            "pmid": "[PMID:24312144]",
+            "title": "Molecular Targeted Drugs and Biomarkers in NSCLC, the Evolving Role of Individualized Therapy.",
+            "vol": "4(9):736-54."
+        },
+        {
+            "authors": "Caicun Zhou,Xingya Li,Qiming Wang,et al.",
+            "date": "(2020)",
+            "journal": "J Clin Oncol",
+            "pmid": "[PMID:32614698]",
+            "title": "Pyrotinib in.",
+            "vol": "38(24):2753-2761."
+        },
+        {
+            "authors": "Cynthia X Ma,Ron Bose,Feng Gao,et al.",
+            "date": "(2017)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:28679771]",
+            "title": "Neratinib Efficacy and Circulating Tumor DNA Detection of.",
+            "vol": "23(19):5687-5695."
+        },
+        {
+            "authors": "Masaaki Nagano,Shinji Kohsaka,Toshihide Ueno,et al.",
+            "date": "(2018)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:29967253]",
+            "title": "High-Throughput Functional Evaluation of Variants of Unknown Significance in.",
+            "vol": "24(20):5112-5122."
+        },
+        {
+            "authors": "Patrick Kwok-Shing Ng,Jun Li,Kang Jin Jeong,et al.",
+            "date": "(2018)",
+            "journal": "Cancer Cell",
+            "pmid": "[PMID:29533785]",
+            "title": "Systematic Functional Annotation of Somatic Mutations in Cancer.",
+            "vol": "33(3):450-462.e10."
+        },
+        {
+            "authors": "Kurtis D Davies,Robert C Doebele",
+            "date": "(2013)",
+            "journal": "Clin Cancer Res",
+            "pmid": "[PMID:23719267]",
+            "title": "Molecular pathways: ROS1 fusion proteins in cancer.",
+            "vol": "19(15):4040-5."
+        },
+        {
+            "authors": "Jaime Acquaviva,Ricky Wong,Al Charest",
+            "date": "(2009)",
+            "journal": "Biochim Biophys Acta",
+            "pmid": "[PMID:18778756]",
+            "title": "The multifaceted roles of the receptor tyrosine kinase ROS in development and cancer.",
+            "vol": "1795(1):37-52."
+        }
+    ],
+    "therapeutic_regimen": [
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92b371be737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "吡咯替尼（Pyrotinib）是不可逆的小分子受体酪氨酸激酶抑制剂，显著抑制表皮生长因受体（ ErbB1/EGFR）和人表皮生长因子受体2（ErbB2/HER2），半数抑制浓度分别为 5.6 nM、8.1 nM。吡咯替尼可显著抑制 HER2高表达的肿瘤细胞 （乳腺癌、卵巢胃肿瘤细胞）生长， IC50为 1~43 nM。在多种移植瘤裸小 鼠模型（乳腺癌、卵巢癌、肺癌）中，吡咯替尼可显著抑制HER2因子驱动的肿瘤生长，抑制 HER2介导的下游信号通路，将肿瘤细胞阻滞在周期G1期。",
+                    "drug_mechanism_en": "An orally bioavailable, dual kinase inhibitor of the epidermal growth factor receptor (EGFR or HER-1) and the human epidermal growth factor receptor 2 (ErbB2 or HER-2), with potential antineoplastic activity. Upon oral administration, pyrotinib binds to and inhibits both EGFR and HER2, which may result in the inhibition of tumor growth and angiogenesis, and tumor regression in EGFR/HER2-expressing tumor cells. EGFR and HER2 are receptor tyrosine kinases that are upregulated in various tumor cell types and play major roles in tumor cell proliferation and tumor vascularization.",
+                    "drug_name": "吡咯替尼;Pyrotinib",
+                    "regimen_code": "a9b5d3c0737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "吡咯替尼",
+            "regimen_en": "Pyrotinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "ac73fce6fdca158dc72eaa9406f6da5b",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "gene_region": "exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2327G>T",
+                    "hgvs_p": "p.G776V"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准Fam-trastuzumab deruxtecan-nxki用于既往接受过曲妥珠单抗治疗的局部晚期或转移性HER2阳性胃或胃食管交界（GEJ）腺癌的成人患者的治疗。",
+                "FDA批准Fam-Trastuzumab Deruxtecan-Nxki用于治疗HER2阳性、无法手术切除或经抗HER2治疗的转移性乳腺癌患者，或经新辅助或辅助治疗期间或6个月内复发的乳腺癌患者。",
+                "FDA批准Fam-Trastuzumab Deruxtecan-Nxki用于治疗无法手术切除或HER2低表达（IHC 1+或IHC 2+/ISH-）的转移性乳腺癌成年患者（既往在疾病转移时接受过化疗或完成辅助化疗6个月内或期间复发）。",
+                "FDA批准Fam-trastuzumab deruxtecan-nxki用于治疗携带HER2激活突变的经过全身性治疗的不可切除或转移性非小细胞肺癌患者。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA",
+                "NCCN"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer",
+                "胃癌;Stomach Cancer",
+                "胃食管腺癌;Esophagogastric Adenocarcinoma"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90b1e86e737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Fam-trastuzumab deruxtecan-nxki是HER2靶向的抗体-药物偶联物。 该抗体是人源化抗HER2 IgG1。 小分子DXd是拓扑异构酶I抑制剂，通过可裂解的接头与抗体连接。 与肿瘤细胞上的HER2结合后，fam-trastuzumab deruxtecan-nxki通过溶酶体酶进行内化和细胞内接头裂解。 释放后，可透膜的DXd导致DNA损伤和细胞凋亡。",
+                    "drug_mechanism_en": "An antibody-drug conjugate (ADC) composed of trastuzumab, a monoclonal antibody targeting human epidermal growth factor receptor 2 (ERBB2; EGFR2; HER2) conjugated to deruxtecan, a derivative of the camptothecin analog exatecan (DXd; DX-8951 derivative), a DNA topoisomerase 1 (topoisomerase I; Top1) inhibitor, with antineoplastic activity. Upon administration of trastuzumab deruxtecan, trastuzumab targets and binds to HER2 on tumor cells. Upon antibody/antigen binding and internalization, deruxtecan binds to and inhibits Top1-DNA complexes, which results in an inhibition of DNA replication, cell cycle arrest and tumor cell apoptosis. HER2, a tyrosine kinase receptor, is overexpressed by many cancer cell types. In addition, trastuzumab deruxtecan induces antibody-dependent cell-mediated cytotoxicity (ADCC) and causes a bystander killing effect.",
+                    "drug_name": "Fam-Trastuzumab Deruxtecan-Nxki",
+                    "regimen_code": "a2e6d9c2737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Fam-Trastuzumab Deruxtecan-Nxki",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "ac73fce6fdca158dc72eaa9406f6da5b",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "gene_region": "exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2327G>T",
+                    "hgvs_p": "p.G776V"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准奈拉替尼单药用于治疗早期HER2阳性的乳腺癌患者经辅助曲妥珠单抗治疗后的扩展辅助治疗方案。",
+                "NMPA批准奈拉替尼用于既往接受过曲妥珠单抗辅助治疗的HER2阳性早期乳腺癌患者的强化辅助治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA",
+                "NMPA"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "920c2062737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Neratinib是一种细胞内激酶抑制剂，可与表皮生长因子受体（EGFR），HER2和HER4不可逆地结合。 在体外，neratinib降低EGFR和HER2的自磷酸化，下游MAPK和AKT信号通路，并在表达EGFR和/或HER2的癌细胞系中显示抗肿瘤活性。 Neratinib人类代谢产物M3，M6，M7和M11在体外抑制EGFR，HER2和HER4的活性。 在体内，在表达HER2和EGFR的肿瘤细胞系的小鼠异种移植模型中，口服neratinib抑制肿瘤生长。",
+                    "drug_mechanism_en": "An orally available, 6,7-disubstituted-4-anilinoquinoline-3-carbonitrile irreversible inhibitor of the HER-2 receptor tyrosine kinase with potential antineoplastic activity. Neratinib binds to the HER-2 receptor irreversibly, thereby reducing autophosphorylation in cells, apparently by targeting a cysteine residue in the ATP-binding pocket of the receptor. Treatment of cells with this agent results in inhibition of downstream signal transduction events and cell cycle regulatory pathways; arrest at the G1-S (Gap 1/DNA synthesis)-phase transition of the cell division cycle; and ultimately decreased cellular proliferation. Neratinib also inhibits the epidermal growth factor receptor (EGFR) kinase and the proliferation of EGFR-dependent cells.",
+                    "drug_name": "奈拉替尼;Neratinib",
+                    "regimen_code": "a79fddf6737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "奈拉替尼",
+            "regimen_en": "Neratinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "ac73fce6fdca158dc72eaa9406f6da5b",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "gene_region": "exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2327G>T",
+                    "hgvs_p": "p.G776V"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准恩美曲妥珠单抗用于经曲妥珠单抗±紫杉烷治疗、HER2阳性、转移性乳腺癌患者(曾因转移性疾病接受过治疗或完成辅助治疗期间或六个月内疾病复发)的治疗。\n",
+                "FDA批准恩美曲妥珠单抗用于以紫杉烷和曲妥珠单抗为基础的新辅助治疗后残留侵袭性疾病的HER2阳性早期乳腺癌患者的辅助治疗。",
+                "NMPA批准恩美曲妥珠单抗单药用于接受了紫杉烷类联合曲妥珠单抗为基础的新辅助治疗后仍残存侵袭性病灶的HER2 阳性早期乳腺癌患者的辅助治疗。",
+                "NMPA批准恩美曲妥珠单抗单药用于接受了紫杉烷类和曲妥珠单抗治疗的HER2阳性、不可切除局部晚期或转移性乳腺癌患者(既往接受过针对局部晚期或转移性乳腺癌的治疗，或在辅助治疗期间或完成辅助治疗后6个月内出现疾病复发)的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "FDA",
+                "NMPA",
+                "NCCN"
+            ],
+            "approval_tumour": [
+                "乳腺癌;Breast Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8e998df2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Ado-trastuzumab emtansine是一种靶向HER2的抗体-药物偶联物。 该抗体是人源化抗HER2 IgG1曲妥珠单抗。 小分子细胞毒素DM1是微管抑制剂。 与HER2受体的亚结构域IV结合后，ado-trastuzumab emtansine经历受体介导的内化和随后的溶酶体降解，导致细胞内释放含DM1的细胞毒性代谢产物。 DM1与微管蛋白的结合会破坏细胞中的微管网络，从而导致细胞周期停滞和凋亡性细胞死亡。 此外，体外研究表明，与曲妥珠单抗类似，Ado-trastuzumab emtansine抑制HER2受体信号转导，介导抗体依赖性细胞介导的细胞毒性，并抑制过表达HER2的人乳腺癌细胞中HER2胞外域的脱落。",
+                    "drug_mechanism_en": "An antibody-drug conjugate (ADC) consisting of the recombinant anti-epidermal growth factor receptor 2 (HER2) monoclonal antibody trastuzumab conjugated to the maytansinoid DM1 via a nonreducible thioether linkage (MCC) with potential antineoplastic activity. The trastuzumab moiety of this ADC binds to HER2 on tumor cell surfaces; upon internalization, the DM1 moiety is released and binds to tubulin, thereby disrupting microtubule assembly/disassembly dynamics and inhibiting cell division and the proliferation of cancer cells that overexpress HER2. Linkage of antibody and drug through a nonreducible linker has been reported to contribute to the improved efficacy and reduced toxicity of this ADC compared to similar ADCs constructed with reducible linkers.",
+                    "drug_name": "恩美曲妥珠单抗;Ado-Trastuzumab Emtansine",
+                    "regimen_code": "9a83b7a0737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "恩美曲妥珠单抗",
+            "regimen_en": "Ado-Trastuzumab Emtansine",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "ac73fce6fdca158dc72eaa9406f6da5b",
+            "var": [
+                {
+                    "gene_symbol": "ERBB2",
+                    "gene_region": "exon20",
+                    "hgvs_p_abbr": null,
+                    "hgvs_c": "c.2327G>T",
+                    "hgvs_p": "p.G776V"
+                }
+            ]
+        }
+    ]
+}

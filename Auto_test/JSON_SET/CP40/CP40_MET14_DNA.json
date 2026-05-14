@@ -1,0 +1,1374 @@
+{
+    "sample_info": {
+        "order_id": "17-22S062995",
+        "sample_parent_id": null,
+        "sample_id": "17-22S062995",
+        "control_sample_id": null,
+        "rna_sample_id": null,
+        "patient_name": null,
+        "gender": null,
+        "age": null,
+        "sample_type": null,
+        "control_sample_type": null,
+        "sample_amount": null,
+        "control_sample_amount": null,
+        "tumor_type": "肺腺癌",
+        "pathol_diagn": "(右下肺叶)粘液腺癌",
+        "tumor_names_cn": "肺腺癌",
+        "pathological_id": "22S062995",
+        "company": "复旦大学附属中山医院",
+        "origin_company": null,
+        "report_number": null,
+        "hosp_depart": null,
+        "prod_names": "Classic Panel",
+        "prod_ids": "5",
+        "report_module_type": "hospital",
+        "json_batch_name": "20221112_HH3MJ23_A000063_ADXHS-Classic-H_v1.3.7_20221114092308",
+        "mark": null,
+        "tumor_content": null,
+        "sample_position": null,
+        "sample_position_id": null,
+        "family_history": null,
+        "molecular_number": null,
+        "gather_data": null,
+        "receive_data": null,
+        "report_data": "2022-11-14",
+        "tumor_list": [
+            "肺腺癌",
+            "非鳞非小细胞肺癌",
+            "非小细胞肺癌",
+            "肺癌"
+        ]
+    },
+    "snvindel": [
+        {
+            "sample_id": "17-22S062995",
+            "order_code": "2cce597c63be11eda2ff0242ac180006",
+            "bio_category": "Snvindel",
+            "gene_symbol": "MET",
+            "transcript_primary": "NM_000245.4",
+            "var_id": "f250f7059170c3de30e05e58af355842",
+            "hgvs_c": "c.3028+2T>A",
+            "hgvs_p": "p.?",
+            "hgvs_p_abbr": "p.?",
+            "chr": "chr7",
+            "start": "116412045",
+            "end": "116412045",
+            "ref": "T",
+            "alt": "A",
+            "gene_region": "intron14",
+            "freq": 0.1192,
+            "freq_case": null,
+            "freq_ctrl": null,
+            "freq_ss": null,
+            "freq_sc": null,
+            "type": "Splicing",
+            "tag": "PASS;HotSpot",
+            "igvplot": "/var/www/html/report_backend/system_files/json_file/20221112_HH3MJ23_A000063_ADXHS-Classic-H_v1.3.7_20221114092308/17-22S062995_17-22S062995_AH5JYCAFX5_1/IGV/chr7_116412045_116412045_T_A.png",
+            "depth": 1837.0,
+            "json_batch_name": "20221112_HH3MJ23_A000063_ADXHS-Classic-H_v1.3.7_20221114092308",
+            "var_origin": "",
+            "clinical_significance": "Pathogenic",
+            "function_classification": "Oncogenic",
+            "clinical_category": "Tier I",
+            "literature": "16397241,ee8f8360160d11ed8d72c7f1c3325cc0,ee8b3d5e160d11ed8336c7f1c3325cc0,ee948cbb160d11eda226c7f1c3325cc0,25971938",
+            "polymorphism": "Non-Polymorphism",
+            "variant_interpret_cn": "可能影响转录后的剪接，可能导致MET exon14 skipping(14号外显子跳跃缺失)，MET exon14 skipping可导致MET蛋白近膜区域的缺失（PMID: 16397241），可提高MET蛋白的稳定性并增加下游信号通路的激活（PMID: 25971938）。",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "该变异为经典剪接位点突变。",
+            "variant_desc_en": "",
+            "evidence_categorys": "",
+            "evi_sum": [
+                {
+                    "regimen_name": "赛沃替尼",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NMPA",
+                    "literature": "16397241,ee8f8360160d11ed8d72c7f1c3325cc0,ee8b3d5e160d11ed8336c7f1c3325cc0,ee948cbb160d11eda226c7f1c3325cc0,25971938",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "NMPA",
+                    "evi_adaptation_disease_cn": "NMPA批准赛沃替尼（Savolitinib）用于含铂化疗后疾病进展或不耐受标准含铂化疗的、具有间质-上皮转化因子（MET）外显子14跳变的局部晚期或转移性非小细胞肺癌成人患者。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项在中国开展的多中心、单臂Ⅱ期临床试验（NCT02897479, PMID: 34166627），入组70例携带MET 14号外显子跳跃突变的未接受过MET抑制剂治疗的肺肉瘤样癌或其他NSCLC亚型的患者，使用赛沃替尼进行治疗。主要研究终点为客观反应率（ORR）。可接受独立评审委员会（IRC）评估的患者有61位，中位随访时间为17.6个月。在所有入组患者中，ORR为42.9%，疾病控制率（DCR）为82.9%，中位PFS为6.8个月，中位OS为12.5个月。基于上述临床试验，NMPA批准赛沃替尼（Savolitinib）用于含铂化疗后疾病进展或不耐受标准含铂化疗的、具有间质-上皮转化因子（MET）外显子14跳变的局部晚期或转移性非小细胞肺癌成人患者。"
+                },
+                {
+                    "regimen_name": "卡马替尼",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "16397241,ee8f8360160d11ed8d72c7f1c3325cc0,ee8b3d5e160d11ed8336c7f1c3325cc0,ee948cbb160d11eda226c7f1c3325cc0,25971938",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准卡马替尼用于携带可导致MET 14外显子跳跃的突变的成人转移性非小细胞肺癌患者的治疗。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项多中心、非随机、开放标签、多队列Ⅱ期临床试验（GEOMETRY mono-1, NCT02414139, PMID: 32877583），入组97例非小细胞肺癌患者，患者携带MET外显子14跳跃突变、EGFR和ALK为野生型。治疗方式为每日两次口服卡马替尼400mg，主要终点为总缓解率(ORR)，次要终点为反应持续时间(DOR)。研究结果显示，初治患者ORR为68%，DOR为12.6个月；经治患者ORR为41%，DOR为9.7个月。基于上述临床试验，FDA批准卡马替尼用于携带可导致MET 14外显子跳跃的突变的成人转移性非小细胞肺癌患者的治疗。"
+                },
+                {
+                    "regimen_name": "特泊替尼",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "FDA",
+                    "literature": "16397241,ee8f8360160d11ed8d72c7f1c3325cc0,ee8b3d5e160d11ed8336c7f1c3325cc0,ee948cbb160d11eda226c7f1c3325cc0,25971938",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA",
+                    "evi_adaptation_disease_cn": "FDA批准特泊替尼（Tepotinib）用于治疗携带MET外显子14跳跃变异的转移性非小细胞肺癌（NSCLC）患者。",
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A1",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项多中心、多队列、单组、非随机、开放标签的Ⅱ期临床研究中（VISION, NCT02864992, PMID: 32469185），入组了152例携带MET外显子14跳跃突变的晚期或转移性NSCLC患者。患者接受特泊替尼每日一次450mg治疗。研究主要疗效评价指标为客观缓解率（ORR），次要疗效指标反应持续时间（DOR）。研究结果显示，69名初治患者中，ORR为43%，中位缓解持续时间（mDOR）为10.8个月；83名先前接受过治疗的患者，ORR为43%，中位缓解持续时间（mDOR）为11.1个月。67%的初治患者和75%的经治患者的缓解持续时间为6个月以上，30%的初治患者和50%的经治患者的缓解持续时间为9个月以上。基于上述临床试验，FDA批准特泊替尼（Tepotinib）用于治疗携带MET外显子14跳跃变异的转移性非小细胞肺癌（NSCLC）患者。"
+                },
+                {
+                    "regimen_name": "克唑替尼",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "NCCN",
+                    "literature": "16397241,ee8f8360160d11ed8d72c7f1c3325cc0,ee8b3d5e160d11ed8336c7f1c3325cc0,ee948cbb160d11eda226c7f1c3325cc0,25971938",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "FDA,NMPA",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "A2",
+                    "evidence_level": "",
+                    "evi_interpretation": "对MET 14号外显子跳跃缺失突变的NSCLC患者 ，NCCN指南优先推荐卡马替尼和特泊替尼用于一线治疗；并认为特定条件下的患者可使用克唑替尼进行治疗。"
+                },
+                {
+                    "regimen_name": "伯瑞替尼",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "16397241,ee8f8360160d11ed8d72c7f1c3325cc0,ee8b3d5e160d11ed8336c7f1c3325cc0,ee948cbb160d11eda226c7f1c3325cc0,25971938",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "B2",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项多中心、开放标签I期临床试验（NCT02896231），共纳入37例cMET异常（包括过表达、扩增、Ex14跳跃突变）的局部晚期或转移性晚期NSCLC患者，在37例患者中，8例患者仅检出c-MET过表达，11例仅携带Ex14跳跃突变，8例仅检出MET基因扩增，另外10例患者检出不止一种MET变异。患者口服伯瑞替尼胶囊，分为剂量递增（19例）和剂量扩展（18例）两个阶段。主要研究终点为伯瑞替尼的安全性和耐受性，次要终点包括基于RECIST v1.1的抗肿瘤活性等。研究结果显示，伯瑞替尼总体耐受性良好。在所有可评估疗效的患者中（N=36），伯瑞替尼的客观缓解率（ORR）为30.6%（11/36），疾病控制率（DCR）为94.4% （34/36）。亚组分析中，在携带c-MET过表达、扩增或Ex14跳跃变异的患者中，ORR分别为35.7%，41.2%和66.7%。在携带c-MET过表达和扩增的患者(N=6)中的ORR为50%；在携带c-MET基因Ex14跳跃突变且伴随基因扩增的患者(N=4)中，ORR达100%。研究结论：Bozitinib在RP2D给药时耐受性良好，安全性可控。在Ex14跳跃突变和/或扩增的患者中观察到初步的抗肿瘤活性，特别是在NGS鉴定的Ex14跳跃突变的患者中。基于上述研究，中国国家药品监督管理局药品审评中心（CDE）将伯瑞替尼纳入优先审评，拟用于具有间质-上皮转化因子（MET）外显子14跳变的局部晚期或转移性非小细胞肺癌（NSCLC）成人患者。"
+                },
+                {
+                    "regimen_name": "Glumetinib",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "16397241,ee8f8360160d11ed8d72c7f1c3325cc0,ee8b3d5e160d11ed8336c7f1c3325cc0,ee948cbb160d11eda226c7f1c3325cc0,25971938",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C1",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项开放性、国际性、多中心、单臂II期临床试验（GLORY试验），旨在评估SCC244（Glumetinib）治疗局部晚期或转移性NSCLC患者的有效性和安全性，这些患者均携带METex14突变（中心实验室确认），并且一线或二线药物系统治疗后失败、或者在充分评估后不符合或拒绝接受化疗。给药方式为：每天一次（QD）口服300毫克SCC244，直到疾病进展或出现不可耐受的毒性。主要终点是BIRC根据RECIST 1.1评估的ORR，次要终点包括INV的ORR、DoR、TTR和安全性等。并进行事后分析以探讨颅内抗肿瘤活性。研究结果显示，截止2021年5月6日，69名患者中经BIRC评估得到的总体ORR为60.9%，未接受过治疗的患者和之前接受过治疗的患者的ORR分别为66.7%和51.9%。中位DoR为8.2个月，中位PFS为7.6个月，42名应答者中有30人的肿瘤反应仍在进行。中位TTR为1.4个月。10名有脑转移的患者中，有8名观察到部分缓解。5名有脑转移患者在INV评估下有颅内反应，颅内肿瘤缩小的中位数为57%。结论：SCC244对具有METex14突变的NSCLC患者在不同的治疗线中具有较高和强大的疗效，并具有明显的颅内抗肿瘤活性(2022 AACR, Abstract CT034)。"
+                },
+                {
+                    "regimen_name": "Sym015",
+                    "tumor_name_cn": "非小细胞肺癌",
+                    "evidence_type": "Predictive",
+                    "refer_agency": "",
+                    "literature": "16397241,ee8f8360160d11ed8d72c7f1c3325cc0,ee8b3d5e160d11ed8336c7f1c3325cc0,ee948cbb160d11eda226c7f1c3325cc0,25971938",
+                    "clinical_significance": "Sensitive",
+                    "regimen_refer_agency": "",
+                    "evi_adaptation_disease_cn": null,
+                    "evi_adaptation_disease_en": null,
+                    "evi_conclusion": "C1",
+                    "evidence_level": "",
+                    "evi_interpretation": "一项I期临床试验中（J Clin Oncol 38, no. 15_suppl (May 20, 2020) 9510-9510; NCT02648724），12例携带MET 14号外显子跳跃突变和8例携带MET扩增的NSCLC患者使用Sym015治疗，耐受度良好，5例确诊为PR（2/8 METAmp和3/12 METEx14Δ）；11例为SD（6/8 METAmp和5/12 METEx14Δ）；2例为PD（2/12 METEx14Δ）；2例无法评估。"
+                }
+            ],
+            "drug_var": {
+                "drug_names": [
+                    "Glumetinib",
+                    "克唑替尼",
+                    "Sym015",
+                    "赛沃替尼",
+                    "伯瑞替尼",
+                    "特泊替尼",
+                    "卡马替尼"
+                ],
+                "var": {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            },
+            "gene_function": "MET基因属于原癌基因，编码肝细胞生长因子受体（HGFR），作为跨膜蛋白具有酪氨酸激酶活性，参与细胞信号传导、细胞骨架重排的调控，是细胞增殖、分化和运动的重要因素。目前，已经在多种肿瘤中如NSCLC、胃癌、肝癌等均发现MET基因扩增或蛋白过表达。"
+        }
+    ],
+    "sv": [],
+    "cnv": [],
+    "cnv_file_path": [],
+    "rna_sv": [],
+    "mlpa": [],
+    "hrd": [],
+    "msi": [
+        {
+            "sample_id": "",
+            "order_code": "2cce597c63be11eda2ff0242ac180006",
+            "var_id": "MSS",
+            "msi_score": 0.0,
+            "img_path": "/var/www/html/report_backend/system_files/json_file/20221112_HH3MJ23_A000063_ADXHS-Classic-H_v1.3.7_20221114092308/17-22S062995_17-22S062995_AH5JYCAFX5_1.msi.plot.png",
+            "variant_interpret_cn": "",
+            "variant_interpret_en": "",
+            "variant_desc_cn": "微卫星（Microsatellite）又称简单重复序列（SSR），是指遍布于人类基因组中的短串联重复序列，一般由1-6个核苷酸组成。DNA复制时，肿瘤细胞内的微卫星由于重复单位的插入或缺失而造成的微卫星长度的变化，称为微卫星不稳定性（Microsatellite Instability, MSI）。大量研究表明，MSI是由错配修复（mismatch repair，MMR）基因突变或功能缺陷引起的（PMID: 25701956）。MSI在多种癌种中被发现，包括子宫内膜癌、结直肠癌和胃腺癌等。据报道，10%-15%的散发性结直肠癌患者存在MSI（PMID: 15528785），NCCN指南明确推荐所有结直肠癌患者均需考虑做MSI或MMR检测。临床上也已将MSI作为结直肠癌及其他实体瘤预后和制定辅助治疗方案的重要分子标志物。",
+            "variant_desc_en": "",
+            "evi_sum": [],
+            "drug_var": {
+                "drug_names": [],
+                "var": {
+                    "biomarker_type": "MSS"
+                }
+            }
+        }
+    ],
+    "tmb": [],
+    "pdl1": [],
+    "knb": [],
+    "ec_type": [],
+    "cdx": [
+        {
+            "gene_symbol": "ALK",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "EGFR",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "MET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "RET",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "tumor_group_id": "1",
+            "tumor_name_cn": "非小细胞肺癌",
+            "tumor_name_en": "Non-Small Cell Lung Cancer"
+        }
+    ],
+    "PGx": [
+        {
+            "clin_anno_cn": "与AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs10929302",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "2A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与GA或AA基因型患者相比，G/G基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs4148323",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1B",
+            "gene_symbol": "UGT1A1",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "氟尿嘧啶",
+            "drug_name_en": "fluorouracil",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AC或CC基因型患者相比，A/A基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs55886062",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "A/A",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与AA或AT基因型患者相比，T/T基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs67376798",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "T/T",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用卡培他滨、氟尿嘧啶治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CG或CC基因型患者相比，G/G基因型的患者使用卡培他滨治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs75017182",
+            "drug_name_cn": "卡培他滨",
+            "drug_name_en": "capecitabine",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "G/G",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与(TA)6/(TA)7或(TA)7/(TA)7基因型患者相比，(TA)6/(TA)6基因型的患者使用伊立替康治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs8175347",
+            "drug_name_cn": "伊立替康",
+            "drug_name_en": "irinotecan",
+            "evi_level": "1A",
+            "gene_symbol": "UGT1A1",
+            "genotype": "(TA)6/(TA)6",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        },
+        {
+            "clin_anno_cn": "与CT或TT基因型患者相比，C/C基因型的患者使用替加氟治疗时药物毒性较低",
+            "clin_anno_en": null,
+            "dbsnp": "rs3918290",
+            "drug_name_cn": "替加氟",
+            "drug_name_en": "tegafur",
+            "evi_level": "1A",
+            "gene_symbol": "DPYD",
+            "genotype": "C/C",
+            "impact_type_cn": "药物毒性较低",
+            "impact_type_en": "Toxicity",
+            "is_same_tumor": 0
+        }
+    ],
+    "chemo": [],
+    "gep": [],
+    "qc": {
+        "dna_data_qc": [
+            {
+                "depth_min": null,
+                "depth_noise": null,
+                "depth_mean": 2525.2,
+                "depth_ssbc": 599.31,
+                "depth_rna_ctrl": 3560,
+                "depth_mean_uniq": null,
+                "depth_hotregion_mean": null,
+                "depth_nonhotregion_mean": null,
+                "depth_median_uniq": null,
+                "depth_mean_ssbc": null,
+                "cleandata_q30": 0.9173,
+                "cleandata_q20": 0.9505,
+                "cover_ratio": 1.0,
+                "cnv_cv": null,
+                "cnv_uni": null,
+                "mapping_ratio": 0.8951,
+                "inssize_ontarget": null,
+                "uni20": 0.9573,
+                "uni20_uniq": null,
+                "totalreads": null,
+                "alignedreads": null,
+                "read_ontarget_ratio": null,
+                "uni20_mean_hotregion": null,
+                "uni20_mean_nonhotregion": null,
+                "scale_log_post_prob": null,
+                "qc_type": null,
+                "uni20_uniq_hot": null,
+                "uni20_uniq_nonhot": null,
+                "depth_mean_uniq_hot": null,
+                "depth_mean_uniq_nonhot": null,
+                "inssize_median": null,
+                "brca_cover_ratio": null,
+                "baf_noise": null,
+                "hd_depth_noise": null,
+                "hd_baf_noise": null
+            }
+        ],
+        "lib_dna_qc": [],
+        "qc_gradient": [],
+        "control_data_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_data_qc": [],
+        "rna_lib_qc": [],
+        "lib_quality_control": []
+    },
+    "rna_exp": [],
+    "prod_gene": [
+        {
+            "prod_id": "5",
+            "gene_symbol": "AKT1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ALK",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "BRAF",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "CDK4",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "CTNNB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "DDR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "DPYD",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "EGFR",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ERBB2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ESR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "FGFR4",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "HRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "IDH1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "IDH2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "KEAP1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "KIT",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "KRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MAP2K1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MET",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "MYC",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NFE2L2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NKX2-1",
+            "rpt_var_type": "CNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NRAS",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NRG1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK2",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "NTRK3",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "PDGFRA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "PIK3CA",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "POLE",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "PTEN",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "RB1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "RET",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "ROS1",
+            "rpt_var_type": "SV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "STK11",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "TP53",
+            "rpt_var_type": "SNV",
+            "gene_id": null
+        },
+        {
+            "prod_id": "5",
+            "gene_symbol": "UGT1A1",
+            "rpt_var_type": "PGx",
+            "gene_id": null
+        }
+    ],
+    "ebv_type": [],
+    "tme_score": [],
+    "tme_type": [],
+    "hd": [],
+    "gss": [],
+    "lib_quality_control": {
+        "lib_dna_qc": [],
+        "control_lib_dna_qc": [],
+        "rna_lib_qc": []
+    },
+    "drug": [
+        {
+            "general_name_cn": "克唑替尼",
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ],
+            "general_name_en": "Crizotinib",
+            "trade_name_cn": "赛可瑞",
+            "trade_name_en": "Xalkori",
+            "approval_organization": [
+                "NCCN",
+                "NMPA",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "克唑替尼是一种受体酪氨酸激酶抑制剂，可抑制包括ALK、肝细胞生长因子受体（HGFR，c-Met）、ROS1（c-ros）和Recepteur d'Origine Nantais（RON）等受体酪氨酸激酶的活性。染色体易位可以影响ALK基因，导致癌基因融合蛋白的表达。ALK融合蛋白的形成导致基因表达和信号的失活和失调，这有助于提高表达这些蛋白的肿瘤细胞的增殖和存活率。克唑替尼在使用肿瘤细胞系的细胞分析中显示出对ALK、ROS1和c-Met磷酸化的浓度依赖性抑制作用，并且在表达EML4-ALK或NPM-ALK融合蛋白或c-Met的肿瘤异种移植小鼠模型中显示出抗肿瘤活性。",
+            "adaptation_disease_cn": [
+                "FDA批准克唑替尼用于ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                "FDA批准克唑替尼用于ROS1阳性的转移性非小细胞肺癌患者。",
+                "FDA批准克唑替尼用于治疗ALK阳性的复发/难治性全身性间变性大细胞淋巴瘤(ALCL)1岁以上儿童和成年患者的治疗。",
+                "NMPA批准克唑替尼用于ROS1阳性晚期非小细胞肺癌患者的治疗。",
+                "NMPA批准克唑替尼用于ALK阳性的局部晚期或转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                "FDA批准克唑替尼用于不可切除、复发性或难治性ALK阳性炎症性肌纤维母细胞瘤成人和1岁以上的儿童患者。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved crizotinib for adult and pediatric patients 1 year of age and older with unresectable, recurrent, or refractory inflammatory anaplastic lymphoma kinase (ALK)-positive myofibroblastic tumors (IMT)."
+            ],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "赛沃替尼",
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ],
+            "general_name_en": "Savolitinib",
+            "trade_name_cn": "沃瑞沙",
+            "trade_name_en": "ORPATHYS",
+            "approval_organization": [
+                "NMPA"
+            ],
+            "drug_mechanism_cn": "Savolitinib 是一种具有潜在抗肿瘤活性的 c-Met 受体酪氨酸激酶的口服生物可利用抑制剂。 Savolitinib 以 ATP 竞争性方式选择性结合并抑制 c-Met 的激活，并破坏 c-Met 信号转导途径。 这可能会导致过度表达 c-Met 蛋白的肿瘤中的细胞生长受到抑制。 C-Met 编码肝细胞生长因子受体酪氨酸激酶，在肿瘤细胞增殖、存活、侵袭和转移以及肿瘤血管生成中起重要作用； 这种蛋白质在多种癌症中过度表达或突变。",
+            "adaptation_disease_cn": [
+                "NMPA批准赛沃替尼（Savolitinib）用于含铂化疗后疾病进展或不耐受标准含铂化疗的、具有间质-上皮转化因子（MET）外显子14跳变的局部晚期或转移性非小细胞肺癌成人患者。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "伯瑞替尼",
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ],
+            "general_name_en": "Bozitinib",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [],
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "drug_type": "Targeted therapy（靶向）"
+        },
+        {
+            "general_name_cn": null,
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ],
+            "general_name_en": "Sym015",
+            "trade_name_cn": null,
+            "trade_name_en": null,
+            "approval_organization": [],
+            "drug_mechanism_cn": null,
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "特泊替尼",
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ],
+            "general_name_en": "Tepotinib",
+            "trade_name_cn": null,
+            "trade_name_en": "Tepmetko",
+            "approval_organization": [
+                "NCCN",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "特泊替尼(tepotinib) 是一种靶向 MET 的激酶抑制剂，包括具有外显子 14 跳跃改变的变体。特泊替尼抑制肝细胞生长因子 (HGF) 依赖性和非依赖性 MET 磷酸化和 MET 依赖性下游信号通路。 特泊替尼 还抑制褪黑激素 2 和咪唑啉 1 受体在临床上可达到的浓度。在体外，特泊替尼 抑制肿瘤细胞增殖、不依赖贴壁的生长和MET 依赖性肿瘤细胞的迁移。 在植入具有 MET 致癌激活的肿瘤细胞系的小鼠中，包括 METex14 跳跃改变，特泊替尼抑制肿瘤生长，导致持续抑制MET 磷酸化，并且在一种模型中，减少了转移的形成。",
+            "adaptation_disease_cn": [
+                "FDA批准特泊替尼（Tepotinib）用于治疗携带MET外显子14跳跃变异的转移性非小细胞肺癌（NSCLC）患者。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        },
+        {
+            "general_name_cn": "卡马替尼",
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ],
+            "general_name_en": "Capmatinib",
+            "trade_name_cn": null,
+            "trade_name_en": "Tabrecta",
+            "approval_organization": [
+                "NCCN",
+                "FDA"
+            ],
+            "drug_mechanism_cn": "卡马替尼是一种靶向MET突变（包括由MET14号外显子跳跃突变）的激酶抑制剂。MET14号外显子跳跃突变会导致蛋白质调节域缺失，从而降低负调控，并增加下游MET信号。卡马替尼在临床可达浓度下可抑制由MET14号外显子缺失突变驱动的肿瘤细胞，并且在携MET14号外显子跳跃突变或MET扩增突变的人源肺癌异种移植小鼠模型中显示了抗肿瘤活性。卡马替尼可抑制由肝细胞生长因子结合或MET扩增引起的MET磷酸化、MET介导的下游信号蛋白磷酸化和MET依赖性癌细胞的增殖和存活。",
+            "adaptation_disease_cn": [
+                "FDA批准卡马替尼用于携带可导致MET 14外显子跳跃的突变的成人转移性非小细胞肺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "drug_type": null
+        }
+    ],
+    "io_gene_clinical": [],
+    "clinic_trial": [
+        {
+            "clinicaltrial_number": "CTR20192589",
+            "conditions": "耐药的MET扩增、晚期或转移性非小细胞肺癌（NSCLC)",
+            "gene_symbol": "MET",
+            "interventions": "Tepotinib片",
+            "phase": "II期",
+            "study_title": "tepotinib联合奥希替尼治疗EGFR激活突变且对1到3代EGFR TKI治疗耐药的MET扩增的晚期或转移性非小细胞肺癌的II期、单臂研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20192576",
+            "conditions": "（局部晚期或转移性）非小细胞肺癌",
+            "gene_symbol": "MET",
+            "interventions": "Tepotinib片",
+            "phase": "II期",
+            "study_title": "一项tepotinib 治疗具有MET 外显子14跳跃突变或MET 扩增的非小细胞肺癌的II 期试验"
+        },
+        {
+            "clinicaltrial_number": "CTR20200838",
+            "conditions": "MET基因异常非小细胞肺癌",
+            "gene_symbol": "MET",
+            "interventions": "TQ-B3139胶囊",
+            "phase": "II期",
+            "study_title": "评价TQ-B3139胶囊对MET基因异常的晚期非小细胞肺癌患者安全性和有效性的单臂、多中心临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191957",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "MET",
+            "interventions": "伯瑞替尼",
+            "phase": "II期",
+            "study_title": "一项在c-Met异常的晚期NSCLC癌患者中评估伯瑞替尼肠溶胶囊有效性和安全性的多中心、多队列、开放的II期临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20191837",
+            "conditions": "一代或二代EGFR抑制剂治疗失败的、T790M突变阴性且MET扩增的复发转移性非小细胞肺癌患者",
+            "gene_symbol": "MET",
+            "interventions": "谷美替尼片",
+            "phase": "II期",
+            "study_title": "谷美替尼（Glumetinib）联合奥希替尼(Osimertinib)治疗EGFR抑制剂治疗失败的复发转移性非小细胞肺癌患者的Ib/II期、开放标签、多中心临床研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190277",
+            "conditions": "非小细胞肺癌",
+            "gene_symbol": "MET",
+            "interventions": "输注用无菌冻干粉Telisotuzumab Vedotin",
+            "phase": "II期",
+            "study_title": "Telisotuzumab vedotin（ABBV-399）治疗经治的c-Met+ 非小细胞肺癌受试者的2 期、开放安全性和有效性研究"
+        },
+        {
+            "clinicaltrial_number": "CTR20190589",
+            "conditions": "晚期非小细胞肺癌",
+            "gene_symbol": "MET",
+            "interventions": "Amivantamab",
+            "phase": "I期",
+            "study_title": "一项在晚期非小细胞肺癌受试者中进行的 JNJ-61186372的 I 期、首次用于人体、开放性、剂量递增研究"
+        }
+    ],
+    "refer": [
+        {
+            "authors": "Hiroyuki Yamamoto,Kohzoh Imai",
+            "date": "(2015)",
+            "journal": "Arch Toxicol",
+            "pmid": "[PMID:25701956]",
+            "title": "Microsatellite instability: an update.",
+            "vol": "89(6):899-921."
+        },
+        {
+            "authors": "Timothy M Pawlik,Chandrajit P Raut,Miguel A Rodriguez-Bigas",
+            "date": "(2004)",
+            "journal": "Dis Markers",
+            "pmid": "[PMID:15528785]",
+            "title": "Colorectal carcinogenesis: MSI-H versus MSI-L.",
+            "vol": "20(4-5):199-206."
+        },
+        {
+            "authors": "Paul K Paik,Enriqueta Felip,Remi Veillon,et al.",
+            "date": "(2020)",
+            "journal": "N Engl J Med",
+            "pmid": "[PMID:32469185]",
+            "title": "Tepotinib in Non-Small-Cell Lung Cancer with.",
+            "vol": "383(10):931-943."
+        },
+        {
+            "authors": "Jürgen Wolf,Takashi Seto,Ji-Youn Han,et al.",
+            "date": "(2020)",
+            "journal": "N Engl J Med",
+            "pmid": "[PMID:32877583]",
+            "title": "Capmatinib in.",
+            "vol": "383(10):944-957."
+        },
+        {
+            "authors": "Shun Lu,Jian Fang,Xingya Li,et al.",
+            "date": "(2021)",
+            "journal": "Lancet Respir Med",
+            "pmid": "[PMID:34166627]",
+            "title": "Once-daily savolitinib in Chinese patients with pulmonary sarcomatoid carcinomas and other non-small-cell lung cancers harbouring MET exon 14 skipping alterations: a multicentre, single-arm, open-label, phase 2 study.",
+            "vol": "9(10):1154-1164."
+        },
+        {
+            "authors": "Monica Kong-Beltran,Somasekar Seshagiri,Jiping Zha,et al.",
+            "date": "(2006)",
+            "journal": "Cancer Res",
+            "pmid": "[PMID:16397241]",
+            "title": "Somatic mutations lead to an oncogenic deletion of met in lung cancer.",
+            "vol": "66(1):283-9."
+        },
+        {
+            "authors": "Garrett M Frampton,Siraj M Ali,Mark Rosenzweig,et al.",
+            "date": "(2015)",
+            "journal": "Cancer Discov",
+            "pmid": "[PMID:25971938]",
+            "title": "Activation of MET via diverse exon 14 splicing alterations occurs in multiple tumor types and confers clinical sensitivity to MET inhibitors.",
+            "vol": "5(8):850-9."
+        }
+    ],
+    "therapeutic_regimen": [
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8f2d5ad2737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "A mixture of two humanized immunoglobulin G1 (IgG1) monoclonal antibodies, Hu9006 and Hu9338, which recognize non-overlapping epitopes in the extracellular domain of the human hepatocyte growth factor receptor (MET; HGFR; c-Met), with potential antineoplastic activity. Upon administration, anti-MET monoclonal antibody mixture Sym015 targets and binds to the extracellular domain of MET, thereby preventing the binding of its ligand, hepatocyte growth factor (HGF). This may prevent activation of the receptor and MET-mediated signal transduction pathways. This inhibits MET-dependent tumor cell proliferation. MET, a receptor tyrosine kinase, is overexpressed on the cell surfaces of various solid tumor cell types; it plays a key role in cancer cell growth, survival, angiogenesis, invasion, and metastasis.",
+                    "drug_name": "Sym015",
+                    "regimen_code": "9cbea35e737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Sym015",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "f250f7059170c3de30e05e58af355842;hg19:MET:NM_000245.2:exon13-MET:NM_000245.2:exon15:",
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8fd4ca2e737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of the proto-oncogene c-Met (hepatocyte growth factor receptor; HGFR) with potential antineoplastic activity. Upon administration, bozitinib selectively binds to c-Met, thereby inhibiting c-Met phosphorylation and disrupting c-Met signal transduction pathways. This may induce cell death in tumor cells overexpressing or expressing constitutively activated c-Met protein. c-Met, a receptor tyrosine kinase overexpressed or mutated in many tumor cell types, plays key roles in tumor cell proliferation, survival, invasion, metastasis, and tumor angiogenesis.",
+                    "drug_name": "伯瑞替尼;Bozitinib",
+                    "regimen_code": "9f40ba0e737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "伯瑞替尼",
+            "regimen_en": "Bozitinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "f250f7059170c3de30e05e58af355842;hg19:MET:NM_000245.2:exon13-MET:NM_000245.2:exon15:",
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [],
+            "adaptation_disease_en": [],
+            "approval_organization": [],
+            "approval_tumour": [],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "90e91b54737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": null,
+                    "drug_mechanism_en": "An orally bioavailable, small molecule inhibitor of the oncoprotein c-Met (hepatocyte growth factor receptor; HGFR), with potential antineoplastic activity. Upon oral administration, glumetinib targets and binds to the c-Met protein, thereby disrupting c-Met-dependent signal transduction pathways. This may induce cell death in tumor cells overexpressing c-Met protein or expressing constitutively activated c-Met protein. c-Met protein is overexpressed or mutated in many tumor cell types and plays key roles in tumor cell proliferation, survival, invasion, metastasis, and tumor angiogenesis.",
+                    "drug_name": "Glumetinib",
+                    "regimen_code": "a3a9c298737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "",
+            "regimen_en": "Glumetinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "f250f7059170c3de30e05e58af355842;hg19:MET:NM_000245.2:exon13-MET:NM_000245.2:exon15:",
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准特泊替尼（Tepotinib）用于治疗携带MET外显子14跳跃变异的转移性非小细胞肺癌（NSCLC）患者。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "934a4350737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "特泊替尼(tepotinib) 是一种靶向 MET 的激酶抑制剂，包括具有外显子 14 跳跃改变的变体。特泊替尼抑制肝细胞生长因子 (HGF) 依赖性和非依赖性 MET 磷酸化和 MET 依赖性下游信号通路。 特泊替尼 还抑制褪黑激素 2 和咪唑啉 1 受体在临床上可达到的浓度。在体外，特泊替尼 抑制肿瘤细胞增殖、不依赖贴壁的生长和MET 依赖性肿瘤细胞的迁移。 在植入具有 MET 致癌激活的肿瘤细胞系的小鼠中，包括 METex14 跳跃改变，特泊替尼抑制肿瘤生长，导致持续抑制MET 磷酸化，并且在一种模型中，减少了转移的形成。",
+                    "drug_mechanism_en": "An inhibitor of MET tyrosine kinase with potential antineoplastic activity. Tepotinib selectively binds to MET tyrosine kinase and disrupts MET signal transduction pathways, which may induce apoptosis in tumor cells overexpressing this kinase. The receptor tyrosine kinase MET (also known as hepatocyte growth factor receptor or HGFR), is the product of the proto-oncogene c-Met and is overexpressed or mutated in many tumor cell types; this protein plays key roles in tumor cell proliferation, survival, invasion, and metastasis, and tumor angiogenesis.",
+                    "drug_name": "特泊替尼;Tepotinib",
+                    "regimen_code": "ac4a7adc737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "特泊替尼",
+            "regimen_en": "Tepotinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "f250f7059170c3de30e05e58af355842;hg19:MET:NM_000245.2:exon13-MET:NM_000245.2:exon15:",
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准卡马替尼用于携带可导致MET 14外显子跳跃的突变的成人转移性非小细胞肺癌患者的治疗。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NCCN",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "8ff411f4737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "卡马替尼是一种靶向MET突变（包括由MET14号外显子跳跃突变）的激酶抑制剂。MET14号外显子跳跃突变会导致蛋白质调节域缺失，从而降低负调控，并增加下游MET信号。卡马替尼在临床可达浓度下可抑制由MET14号外显子缺失突变驱动的肿瘤细胞，并且在携MET14号外显子跳跃突变或MET扩增突变的人源肺癌异种移植小鼠模型中显示了抗肿瘤活性。卡马替尼可抑制由肝细胞生长因子结合或MET扩增引起的MET磷酸化、MET介导的下游信号蛋白磷酸化和MET依赖性癌细胞的增殖和存活。",
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of the proto-oncogene c-Met (also known as hepatocyte growth factor receptor (HGFR)) with potential antineoplastic activity. Capmatinib selectively binds to c-Met, thereby inhibiting c-Met phosphorylation and disrupting c-Met signal transduction pathways. This may induce cell death in tumor cells overexpressing c-Met protein or expressing constitutively activated c-Met protein. c-Met, a receptor tyrosine kinase overexpressed or mutated in many tumor cell types, plays key roles in tumor cell proliferation, survival, invasion, metastasis, and tumor angiogenesis.",
+                    "drug_name": "卡马替尼;Capmatinib",
+                    "regimen_code": "9fbcf574737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "卡马替尼",
+            "regimen_en": "Capmatinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "f250f7059170c3de30e05e58af355842;hg19:MET:NM_000245.2:exon13-MET:NM_000245.2:exon15:",
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "NMPA批准赛沃替尼（Savolitinib）用于含铂化疗后疾病进展或不耐受标准含铂化疗的、具有间质-上皮转化因子（MET）外显子14跳变的局部晚期或转移性非小细胞肺癌成人患者。"
+            ],
+            "adaptation_disease_en": [],
+            "approval_organization": [
+                "NMPA"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "92f62eaa737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "Savolitinib 是一种具有潜在抗肿瘤活性的 c-Met 受体酪氨酸激酶的口服生物可利用抑制剂。 Savolitinib 以 ATP 竞争性方式选择性结合并抑制 c-Met 的激活，并破坏 c-Met 信号转导途径。 这可能会导致过度表达 c-Met 蛋白的肿瘤中的细胞生长受到抑制。 C-Met 编码肝细胞生长因子受体酪氨酸激酶，在肿瘤细胞增殖、存活、侵袭和转移以及肿瘤血管生成中起重要作用； 这种蛋白质在多种癌症中过度表达或突变。",
+                    "drug_mechanism_en": "An orally bioavailable inhibitor of the c-Met receptor tyrosine kinase with potential antineoplastic activity. Savolitinib selectively binds to and inhibits the activation of c-Met in an ATP-competitive manner, and disrupts c-Met signal transduction pathways. This may result in cell growth inhibition in tumors that overexpress the c-Met protein. C-Met encodes the hepatocyte growth factor receptor tyrosine kinase and plays an important role in tumor cell proliferation, survival, invasion, and metastasis, and tumor angiogenesis; this protein is overexpressed or mutated in a variety of cancers.",
+                    "drug_name": "赛沃替尼;Savolitinib",
+                    "regimen_code": "aaadeb96737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "赛沃替尼",
+            "regimen_en": "Savolitinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "f250f7059170c3de30e05e58af355842;hg19:MET:NM_000245.2:exon13-MET:NM_000245.2:exon15:",
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ]
+        },
+        {
+            "adaptation_disease_cn": [
+                "FDA批准克唑替尼用于ALK阳性的转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                "FDA批准克唑替尼用于ROS1阳性的转移性非小细胞肺癌患者。",
+                "FDA批准克唑替尼用于治疗ALK阳性的复发/难治性全身性间变性大细胞淋巴瘤(ALCL)1岁以上儿童和成年患者的治疗。",
+                "NMPA批准克唑替尼用于ROS1阳性晚期非小细胞肺癌患者的治疗。",
+                "NMPA批准克唑替尼用于ALK阳性的局部晚期或转移性非小细胞肺癌（NSCLC）患者的治疗。",
+                "FDA批准克唑替尼用于不可切除、复发性或难治性ALK阳性炎症性肌纤维母细胞瘤成人和1岁以上的儿童患者。"
+            ],
+            "adaptation_disease_en": [
+                "FDA approved crizotinib for adult and pediatric patients 1 year of age and older with unresectable, recurrent, or refractory inflammatory anaplastic lymphoma kinase (ALK)-positive myofibroblastic tumors (IMT)."
+            ],
+            "approval_organization": [
+                "NCCN",
+                "NMPA",
+                "FDA"
+            ],
+            "approval_tumour": [
+                "非小细胞肺癌;Non-Small Cell Lung Cancer"
+            ],
+            "drug_details": [
+                {
+                    "dosage": "",
+                    "drug_code": "903801ac737811eca8e0005056bdcbf7",
+                    "drug_mechanism_cn": "克唑替尼是一种受体酪氨酸激酶抑制剂，可抑制包括ALK、肝细胞生长因子受体（HGFR，c-Met）、ROS1（c-ros）和Recepteur d'Origine Nantais（RON）等受体酪氨酸激酶的活性。染色体易位可以影响ALK基因，导致癌基因融合蛋白的表达。ALK融合蛋白的形成导致基因表达和信号的失活和失调，这有助于提高表达这些蛋白的肿瘤细胞的增殖和存活率。克唑替尼在使用肿瘤细胞系的细胞分析中显示出对ALK、ROS1和c-Met磷酸化的浓度依赖性抑制作用，并且在表达EML4-ALK或NPM-ALK融合蛋白或c-Met的肿瘤异种移植小鼠模型中显示出抗肿瘤活性。",
+                    "drug_mechanism_en": "An orally available aminopyridine-based inhibitor of the receptor tyrosine kinase anaplastic lymphoma kinase (ALK) and the c-Met/hepatocyte growth factor receptor (HGFR) with antineoplastic activity. Crizotinib, in an ATP-competitive manner, binds to and inhibits ALK kinase and ALK fusion proteins. In addition, crizotinib inhibits c-Met kinase, and disrupts the c-Met signaling pathway. Altogether, this agent inhibits tumor cell growth. ALK belongs to the insulin receptor superfamily and plays an important role in nervous system development. ALK dysregulation and gene rearrangements are associated with a series of tumors.",
+                    "drug_name": "克唑替尼;Crizotinib",
+                    "regimen_code": "a0c4b3ee737811eca8e0005056bdcbf7"
+                }
+            ],
+            "drug_type": null,
+            "regimen_alias": null,
+            "regimen_cn": "克唑替尼",
+            "regimen_en": "Crizotinib",
+            "regimen_mechanism_cn": null,
+            "regimen_mechanism_en": null,
+            "var_name": "f250f7059170c3de30e05e58af355842;hg19:MET:NM_000245.2:exon13-MET:NM_000245.2:exon15:",
+            "var": [
+                {
+                    "gene_symbol": "MET",
+                    "gene_region": "intron14",
+                    "hgvs_p_abbr": "p.?",
+                    "hgvs_c": "c.3028+2T>A",
+                    "hgvs_p": "p.?"
+                }
+            ]
+        }
+    ]
+}
