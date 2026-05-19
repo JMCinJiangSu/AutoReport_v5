@@ -36,7 +36,9 @@ def get_io_detect(var_data, config):
 	io["result_116_syx"], io["io_p_summary_116_syx"], io["io_n_summary_116_syx"] = io_detect_for_116_syx(var_data)
 	# 新增结束-2024.08.19
 	# 新增CP200-2024.10.10
-	io["io_p_summary_cp200"], io["io_n_summary_cp200"] = io_detect_for_cp200(var_data)
+	#io["io_p_summary_cp200"], io["io_n_summary_cp200"] = io_detect_for_cp200(var_data)
+	# CP200新增HD，检测范围扩大到26个基因，嵇梦晨，2026.05.15
+	io["io_cp200"], io["io_p_summary_cp200"], io["io_n_summary_cp200"] = io_detect_for_cp200(var_data)
 	# 新增中山六院，删除CDKN2B基因-2025.04.09
 	io["io_p_summary_cp200_zsly"], io["io_n_summary_cp200_zsly"] = io_detect_for_cp200_zsly(var_data)
 	# 新增结束-2024.10.10
@@ -628,6 +630,9 @@ def io_detect_for_cp200(var_data):
 	io_gene_N = ["EGFR","ALK","MDM2","MDM4","CDKN2A","CDKN2B","DNMT3A","STK11","IFNGR1",\
 				 "JAK1","JAK2","APC","CTNNB1","B2M","PTEN","FGF19"]
 	cnv_gene_list = ["CD274", "MDM2", "MDM4", "FGF19"]
+	# v0.1.4 新增HD，检测范围扩大到26个基因，嵇梦晨，2026.05.15
+	hd_gene_list = ["ATM", "BARD1", "BRCA1", "BRCA2", "BRIP1", "CDK12", "CDKN2A", "CDKN2B", "CHEK1", "CHEK2", "FANCA", "FANCL", "HDAC2", "HOXB13", 
+				 "MMS22L", "MTAP", "NF1", "PALB2", "PTEN", "RAD51B", "RAD51C", "RAD51D", "RAD54L", "RASA1", "SETD2", "TP53"]
 	
 	level_12_var = [var for var in var_data if judge_var(var, [4,5], [4,5])]
 
@@ -643,6 +648,24 @@ def io_detect_for_cp200(var_data):
 				io_result.setdefault("ALK", [])
 			if var["five_prime_gene"]+"-"+var["three_prime_gene"]+"融合" not in io_result["ALK"]:
 				io_result["ALK"].append(var["five_prime_gene"]+"-"+var["three_prime_gene"]+"融合")
+		# HD基因经确认同时展示snvindel和hd,直接加在这里不影响旧版报告，嵇梦晨，2026.05.15
+		elif (var["bio_category"] == "Snvindel" or var["bio_category"] == "PHd") and var["gene_symbol"] in hd_gene_list:
+			if var["gene_symbol"] not in io_result.keys():
+				io_result.setdefault(var["gene_symbol"], [])
+			if var["bio_category"] == "Snvindel":
+				if var["hgvs_p"] != "p.?":
+					io_result[var["gene_symbol"]].append(var["hgvs_p"])
+				else:
+					io_result[var["gene_symbol"]].append(var["hgvs_c"])
+			elif var["bio_category"] == "PHd":
+				if var["type"] == "HomoDel":
+					if "纯合缺失" not in io_result[var["gene_symbol"]]:
+						io_result[var["gene_symbol"]].append("纯合缺失")
+				elif var["type"] == "HeteDel":
+					if "杂合缺失" not in io_result[var["gene_symbol"]]:
+						io_result[var["gene_symbol"]].append("杂合缺失")
+				else:
+					io_result[var["gene_symbol"]].append("未知变异类型！")
 		# 其余基因展示Snvindel
 		elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N:
 			if var["gene_symbol"] not in io_result.keys():
@@ -655,7 +678,7 @@ def io_detect_for_cp200(var_data):
 	io_p_list = ["{0} {1}".format(k, i) for k,v in io_result.items() for i in v if k in io_gene_P]
 	io_n_list = ["{0} {1}".format(k, i) if not re.search("融合", i) else i for k,v in io_result.items() for i in v if k in io_gene_N]
 
-	return ", ".join(io_p_list), ", ".join(io_n_list)
+	return io_result, ", ".join(io_p_list), ", ".join(io_n_list)
 
 def io_detect_for_cp200_zsly(var_data):
 	# 免疫负相关删除了CDKN2B

@@ -175,7 +175,12 @@ def getVar(jsonDict, config, report_name):
 
 	# 合并MET 14跳跃突变
 	var_data_without_rnasv, judge_mergeMET_without_rnasv = mergeVar(var_data_without_rnasv)
-	var_data, judge_mergeMET = mergeVar(var_data)
+	#var_data, judge_mergeMET = mergeVar(var_data)
+	# 温附二CP40不要合并MET 14，嵇梦晨，2026.05.19
+	if jsonDict["sample_info"]["company"] == "温州医科大学附属第二医院" and jsonDict["sample_info"]["report_module_type"] == "hospital" and jsonDict["sample_info"]["prod_names"] == "Classic Panel":
+		judge_mergeMET = False
+	else:
+		var_data, judge_mergeMET = mergeVar(var_data)
 
 	# 体细胞结果整理
 	data["var_somatic_without_rnasv"] = s_var_rule(var_data_without_rnasv)
@@ -623,6 +628,8 @@ def getVar(jsonDict, config, report_name):
 	hrr_list = ["ATM","ATR","BARD1","BRIP1","CDK12","CHEK1","CHEK2","FANCA","FANCL","MRE11","NBN","PALB2","PPP2R2A","RAD51B","RAD51C","RAD51D","RAD54L"]
 	# 2025.02.27-更新完成
 	other_list = ["AR","CDH1","ESR1","HDAC2","HOXB13","PTEN","STK11","TP53","BRAF","ERBB2","KRAS","NRAS","PIK3CA"]
+	# 2026.04.30-other_list新增AKT1和MLH1
+	other_list_34 = ["AR","CDH1","ESR1","HDAC2","HOXB13","PTEN","STK11","TP53","BRAF","ERBB2","KRAS","NRAS","PIK3CA","AKT1","MLH1"]
 
 	# 体细胞结果整理
 	data_HRR_SHSY["var_s_brca"] = s_var_rule_genelist(shsy_var_data, brca_list)
@@ -633,6 +640,7 @@ def getVar(jsonDict, config, report_name):
 	data_HRR_SHSY["var_g_brca"] = g_var_rule_genelist(shsy_var_data, brca_list)
 	data_HRR_SHSY["var_g_hrr"] = g_var_rule_genelist(shsy_var_data, hrr_list)
 	data_HRR_SHSY["var_g_other"] = g_var_rule_genelist(shsy_var_data, other_list)
+	data_HRR_SHSY["var_g_other_34"] = g_var_rule_genelist(shsy_var_data, other_list_34)
 	
 
 	

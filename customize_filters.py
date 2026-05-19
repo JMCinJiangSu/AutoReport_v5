@@ -3836,7 +3836,7 @@ def get_analysis_version(json_batch_name):
 		# zip上传包：日期_测序仪_测序芯片_生信分析包_版本_系统日期流水号
 		if len(json_batch_list) == 6:
 			result = json_batch_list[3]+"_"+json_batch_list[4]
-		# export上传包：日期_测序仪_测序芯片_生信分析包_版本.export系统日期流水号
+		# export上传包：日期_测序仪_测序芯片_生信分析包_版本.export系统日期流水号20260512_XMHL_A018293_ADXHS-OncoPro_v0.1.3.export20260512073542
 		# 2025.09.24-v4上zip上传包格式和export一样
 		elif len(json_batch_list) == 5:
 			version = re.split("\.export|\.zip", json_batch_list[-1])
@@ -12803,7 +12803,9 @@ def sdsl_pthrr_sum(info):
 			if var["hgvs_p"] != "p.?":
 				result.append("{0}基因的{1}（{2}）".format(var["gene_symbol"], var["hgvs_c"], var["hgvs_p"]))
 			else:
-				result.append("{0}基因的{1}".format(var["gene_symbol"], var["hgvs_p"]))
+				#result.append("{0}基因的{1}".format(var["gene_symbol"], var["hgvs_p"]))
+				#修改当变异是内含子突变时，展示为基因+碱基变化，孟智悦，2026.05.19
+				result.append("{0}基因的{1}".format(var["gene_symbol"], var["hgvs_c"]))
 	return "、".join(result)
 jinja2.filters.FILTERS["sdsl_pthrr_sum"] = sdsl_pthrr_sum
 
@@ -14446,7 +14448,9 @@ def whxh_var_info_v2(var):
 					result.append(var["value"] + " dup")
 			else:
 				result.append("扩增") 
-				result.append(var["chr"].replace("chr", "") + var["location"])
+				#result.append(var["chr"].replace("chr", "") + var["location"])
+				#流程更新，只用location即可，嵇梦晨，2026.05.19
+				result.append(var["location"])
 		elif var["bio_category"] in ["Sv", "PSeqRnaSv"]:
 			if var["five_prime_gene"] == "MET" and var["three_prime_gene"] == "MET":
 				result.append("MET exon14 跳跃")
