@@ -635,6 +635,7 @@ def getVar(jsonDict, config, report_name):
 	data_HRR_SHSY["var_s_brca"] = s_var_rule_genelist(shsy_var_data, brca_list)
 	data_HRR_SHSY["var_s_hrr"] = s_var_rule_genelist(shsy_var_data, hrr_list)
 	data_HRR_SHSY["var_s_other"] = s_var_rule_genelist(shsy_var_data, other_list)
+	data_HRR_SHSY["var_s_other_34"] = s_var_rule_genelist(shsy_var_data, other_list_34)
 
 	# 胚系结果整理
 	data_HRR_SHSY["var_g_brca"] = g_var_rule_genelist(shsy_var_data, brca_list)

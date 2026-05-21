@@ -14788,3 +14788,8 @@ def io_summary_fdzs(io):
 	rt.add("；\n".join(result)+"。")
 	return rt
 jinja2.filters.FILTERS["io_summary_fdzs"] = io_summary_fdzs
+
+def xajdy_regimen(regimen_list):
+	# 只展示前两条用药方案
+	return regimen_list[0:2]
+jinja2.filters.FILTERS["xajdy_regimen"] = xajdy_regimen
