@@ -6124,7 +6124,11 @@ def shfk_cp200_hd_filter(info):
 	hd_type = info[1]
 	posi = [var["gene_symbol"] for var in hd if var["var_auto_result"] == "T"]
 	nega = []
-	for gene in set(["CDKN2A", "CDKN2B", "MTAP"]) - set([var["gene_symbol"] for var in hd if var["var_auto_result"] == "T"]):
+	# HDºÏ≤‚∑∂Œß¿©¥Û£¨Ô˙√Œ≥ø£¨2026.05.21
+	hd_gene_list = ["ATM", "BARD1", "BRCA1", "BRCA2", "BRIP1", "CDK12", "CDKN2A", "CDKN2B", "CHEK1", "CHEK2", "FANCA", "FANCL", "HDAC2", "HOXB13", 
+				 "MMS22L", "MTAP", "NF1", "PALB2", "PTEN", "RAD51B", "RAD51C", "RAD51D", "RAD54L", "RASA1", "SETD2", "TP53"]
+	#for gene in set(["CDKN2A", "CDKN2B", "MTAP"]) - set([var["gene_symbol"] for var in hd if var["var_auto_result"] == "T"]):
+	for gene in set(hd_gene_list) - set([var["gene_symbol"] for var in hd if var["var_auto_result"] == "T"]):
 		nega.append(gene)
 	if hd_type == "positive":
 		return "°¢".join(posi)
