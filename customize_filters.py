@@ -6680,10 +6680,15 @@ jinja2.filters.FILTERS["jdy_hrd_evi_filter"] = jdy_hrd_evi_filter
 
 # 吉林大学第一院HRD-返回其他基因敏感结果-2024.12.17
 # 敏感药物只展示等级最高的（除了C）
-def jlyy_hrd_othergene_result_sense(raw_var_list):
+def jlyy_hrd_othergene_result_sense(raw_var_list, include_brca=False):
 	result_sense = []
 	regimen_D_list_sense = []
-	var_list = [var for var in raw_var_list if var["gene_symbol"] not in ["BRCA1", "BRCA2"]]
+	#var_list = [var for var in raw_var_list if var["gene_symbol"] not in ["BRCA1", "BRCA2"]]
+	#兼容返回基因内容不排除BRCA1/2，孟智悦，2026.05.22
+	if include_brca:
+		var_list = raw_var_list
+	else:
+		var_list = [var for var in raw_var_list if var["gene_symbol"] not in ["BRCA1", "BRCA2"]]
 	for var in var_list:
 		if "Predictive" in var["evi_sum"]["evi_split"].keys() and var["evi_sum"]["evi_split"]["Predictive"]:
 			tmp_dict = {}
