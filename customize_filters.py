@@ -3840,6 +3840,7 @@ def get_analysis_version(json_batch_name):
 		# 2025.09.24-v4上zip上传包格式和export一样
 		elif len(json_batch_list) == 5:
 			version = re.split("\.export|\.zip", json_batch_list[-1])
+			print(version)
 			result = json_batch_list[3]+"_"+version[0]
 	return result
 jinja2.filters.FILTERS["get_analysis_version"] = get_analysis_version
@@ -6124,17 +6125,29 @@ def shfk_cp200_hd_filter(info):
 	hd_type = info[1]
 	posi = [var["gene_symbol"] for var in hd if var["var_auto_result"] == "T"]
 	nega = []
-	# HD检测范围扩大，嵇梦晨，2026.05.21
-	hd_gene_list = ["ATM", "BARD1", "BRCA1", "BRCA2", "BRIP1", "CDK12", "CDKN2A", "CDKN2B", "CHEK1", "CHEK2", "FANCA", "FANCL", "HDAC2", "HOXB13", 
-				 "MMS22L", "MTAP", "NF1", "PALB2", "PTEN", "RAD51B", "RAD51C", "RAD51D", "RAD54L", "RASA1", "SETD2", "TP53"]
-	#for gene in set(["CDKN2A", "CDKN2B", "MTAP"]) - set([var["gene_symbol"] for var in hd if var["var_auto_result"] == "T"]):
-	for gene in set(hd_gene_list) - set([var["gene_symbol"] for var in hd if var["var_auto_result"] == "T"]):
+	for gene in set(["CDKN2A", "CDKN2B", "MTAP"]) - set([var["gene_symbol"] for var in hd if var["var_auto_result"] == "T"]):
 		nega.append(gene)
 	if hd_type == "positive":
 		return "、".join(posi)
 	else:
 		return "、".join(nega)
 jinja2.filters.FILTERS["shfk_cp200_hd_filter"] = shfk_cp200_hd_filter
+
+# HD检测范围扩大，嵇梦晨，2026.05.21
+def shfk_cp200_hd_filter_v2(info):
+	hd = info[0]
+	hd_type = info[1]
+	posi = [var["gene_symbol"] for var in hd if var["var_auto_result"] == "T"]
+	nega = []
+	hd_gene_list = ["ATM", "BARD1", "BRCA1", "BRCA2", "BRIP1", "CDK12", "CDKN2A", "CDKN2B", "CHEK1", "CHEK2", "FANCA", "FANCL", "HDAC2", "HOXB13", 
+				 "MMS22L", "MTAP", "NF1", "PALB2", "PTEN", "RAD51B", "RAD51C", "RAD51D", "RAD54L", "RASA1", "SETD2", "TP53"]
+	for gene in set(hd_gene_list) - set([var["gene_symbol"] for var in hd if var["var_auto_result"] == "T"]):
+		nega.append(gene)
+	if hd_type == "positive":
+		return "、".join(posi)
+	else:
+		return "、".join(nega)
+jinja2.filters.FILTERS["shfk_cp200_hd_filter_v2"] = shfk_cp200_hd_filter_v2
 
 # 北大三MP-变异排序按基因首字母-2024.11.21
 def bds_mp_var_sort(var_list):
@@ -11632,17 +11645,19 @@ jinja2.filters.FILTERS["fjfy_cp200_lyn_result"] = fjfy_cp200_lyn_result
 # 福建附一CP200-2025.08.02
 # 结直肠癌/子宫内膜癌判断是否为胚系相关变异
 def fjfy_cp200_judge_germline_gene(var):
-	germline_gene = ["APC", "BRCA1", "BRCA2", "EPCAM", "FH", "MLH1", "MSH2", "MSH6", \
-					 "NF1", "NF2", "PMS2", "RAD50", "RAD51B", "RAD51C", "RAD51D", "RAD54L", \
-					 "STK11", "TP53", "TSC1", "TSC2", "VHL"]
-	lyn_gene = ["MLH1", "PMS2", "MSH2", "MSH6"]
+	#germline_gene = ["APC", "BRCA1", "BRCA2", "EPCAM", "FH", "MLH1", "MSH2", "MSH6", \
+	#				 "NF1", "NF2", "PMS2", "RAD50", "RAD51B", "RAD51C", "RAD51D", "RAD54L", \
+	#				 "STK11", "TP53", "TSC1", "TSC2", "VHL"]
+	#lyn_gene = ["MLH1", "PMS2", "MSH2", "MSH6"]
+	# 除了林奇相关的5个基因提示，其他不再提示，嵇梦晨，2026.05.27
+	lyn_gene = ["PMS2", "MSH2", "MSH6", "MLH1"]
 	result = ""
 	if var["bio_category"] == "Snvindel" and float(var["freq"]) >= 0.4 and float(var["freq"]) <= 0.6 \
 		and var["clinic_num_g"] in [4,5]:
 		if var["gene_symbol"] in lyn_gene:
 			result = "lyn"
-		elif var["gene_symbol"] in germline_gene:
-			result = "germline"
+		#elif var["gene_symbol"] in germline_gene:
+		#	result = "germline"
 	return result
 jinja2.filters.FILTERS["fjfy_cp200_judge_germline_gene"] = fjfy_cp200_judge_germline_gene
 
@@ -14802,3 +14817,11 @@ def xajdy_regimen(regimen_list):
 	# 只展示前两条用药方案
 	return regimen_list[0:2]
 jinja2.filters.FILTERS["xajdy_regimen"] = xajdy_regimen
+
+# 2026.05.26-南通肿瘤判断输入的变异列表中是否包含HD变异
+def ntzl_cp200_judge_hd(var_list):
+	if [var for var in var_list if var["bio_category"] == "PHd"]:
+		return True
+	else:
+		return False
+jinja2.filters.FILTERS["ntzl_cp200_judge_hd"] = ntzl_cp200_judge_hd

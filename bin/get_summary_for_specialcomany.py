@@ -403,14 +403,19 @@ def ZJFE_summary(data, judge_brca_cnv):
 	# 2026.04.16-新增BPTM Plus全血
 	elif data["sample"]["prod_names"] == "BPTM Plus（全血）":
 		result = []
-		if judge_brca_cnv == "mlpa":
-			var_list = data["var"]["var_germline"]["level_5"] + data["var_brca"]["mlpa_v2"]["B1_mlpa_L5"] + data["var_brca"]["mlpa_v2"]["B2_mlpa_L5"] + \
-					   data["var"]["var_germline"]["level_4"] + data["var_brca"]["mlpa_v2"]["B1_mlpa_L4"] + data["var_brca"]["mlpa_v2"]["B2_mlpa_L4"] + \
-					   data["var"]["var_germline"]["level_3"] + data["var_brca"]["mlpa_v2"]["B1_mlpa_L3"] + data["var_brca"]["mlpa_v2"]["B2_mlpa_L3"]
-		else:
-			var_list = data["var"]["var_germline"]["level_5"] + data["var_brca"]["gcnv_v2"]["B1_gcnv_L5"] + data["var_brca"]["gcnv_v2"]["B2_gcnv_L5"] + \
-					   data["var"]["var_germline"]["level_4"] + data["var_brca"]["gcnv_v2"]["B1_gcnv_L4"] + data["var_brca"]["gcnv_v2"]["B2_gcnv_L4"] + \
-					   data["var"]["var_germline"]["level_3"] + data["var_brca"]["gcnv_v2"]["B1_gcnv_L3"] + data["var_brca"]["gcnv_v2"]["B2_gcnv_L3"]
+		# 2025.05.28-新增5个林奇基因CNV，取消MLPA
+		var_list = data["var"]["var_germline"]["level_5"] + data["var"]["germline_cnv"]["level_5"] + \
+				   data["var"]["var_germline"]["level_4"] + data["var"]["germline_cnv"]["level_4"] + \
+				   data["var"]["var_germline"]["level_3"] + data["var"]["germline_cnv"]["level_3"]
+		#if judge_brca_cnv == "mlpa":
+		#	var_list = data["var"]["var_germline"]["level_5"] + data["var_brca"]["mlpa_v2"]["B1_mlpa_L5"] + data["var_brca"]["mlpa_v2"]["B2_mlpa_L5"] + \
+		#			   data["var"]["var_germline"]["level_4"] + data["var_brca"]["mlpa_v2"]["B1_mlpa_L4"] + data["var_brca"]["mlpa_v2"]["B2_mlpa_L4"] + \
+		#			   data["var"]["var_germline"]["level_3"] + data["var_brca"]["mlpa_v2"]["B1_mlpa_L3"] + data["var_brca"]["mlpa_v2"]["B2_mlpa_L3"]
+		#else:
+		#	var_list = data["var"]["var_germline"]["level_5"] + data["var_brca"]["gcnv_v2"]["B1_gcnv_L5"] + data["var_brca"]["gcnv_v2"]["B2_gcnv_L5"] + \
+		#			   data["var"]["var_germline"]["level_4"] + data["var_brca"]["gcnv_v2"]["B1_gcnv_L4"] + data["var_brca"]["gcnv_v2"]["B2_gcnv_L4"] + \
+		#			   data["var"]["var_germline"]["level_3"] + data["var_brca"]["gcnv_v2"]["B1_gcnv_L3"] + data["var_brca"]["gcnv_v2"]["B2_gcnv_L3"]
+		# 2025.05.28-更新完成
 		for var in var_list:
 			if var["type"] == "Loss":
 				var_info = var["value"] + " del"

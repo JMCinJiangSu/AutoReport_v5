@@ -179,6 +179,13 @@ def get_data(json_name, outfile, config, report_template, outjson, image):
 		data["sample"] = getSampleInfo.getSample(jsonDict)
 		data["sample"]["report_name"] = report_name
 		data["qc"], data["lib_quality_control"] = getQC.getJsonQC(jsonDict)
+		# 2026.05.25-南通肿瘤CP200 snp_cover_ratio < 0.9时，不展示HD
+		if data["sample"]["company"] == "南通市肿瘤医院" and \
+		   data["sample"]["prod_names"] in ["OncoPro（组织）", "Classic Panel 200（组织）"] and \
+		   data["sample"]["report_module_type"] == "hospital" and \
+		   data["qc"]["dna_data_qc"]["snp_cover_ratio_num"] < 0.9:
+			jsonDict["hd"] = []
+		# 2026.05.25-更新完成
 		# 2026.01.21-临检LIMS来源捕获项目文库总量使用dna_pre_library_qty/rna_pre_library_qty，临时方案直接赋值给library_qty
 		if "order_type" in data["sample"].keys() and data["sample"]["order_type"] and data["sample"]["report_module_type"] == "rummage":
 			data["lib_quality_control"] = libQC_stran.clinical_libraty_qty(jsonDict["sample_info"]["report_module_type"], jsonDict["sample_info"]["prod_names"], data["lib_quality_control"])

@@ -67,6 +67,10 @@ def varRegimen(jsonDict, evi_sum, config, var):
 	data["evi_split"] = {}
 	data["refer_evi_risk"] = []
 
+	# 佛山第一人民医院，删除PIK3CA变异的阿司匹林A类证据，嵇梦晨，2026.05.27
+	if jsonDict["sample_info"]["company"] == "佛山市第一人民医院" and jsonDict["sample_info"]["prod_names"] in ["10基因（组织）", "10基因（血液）"] and jsonDict["sample_info"]["report_module_type"] == "hospital":
+		evi_sum = Regimen_inter_FSY(evi_sum)
+
 	# 1. 新增字段、证据描述基础处理、排序等
 	for evi in evi_sum:
 		## 新增字段-用于报告展示-1.临床意义转化为中文
@@ -477,3 +481,15 @@ def Regimen_inter_AHSL(regimen_list, datainfo):
 	return tmp_dict
 
 # 2025.06.27-新增完成
+
+# 佛山市第一人民医院LC10的组织和血液，肠癌的PIK3CA突变删除阿司匹林证据
+def Regimen_inter_FSY(evi_sum):
+	"""
+	针对佛山市第一人民医院LC10的组织和血液，肠癌的PIK3CA突变阿司匹林为A类证据，删除
+	"""
+	if not evi_sum:
+		return []
+	for evi in evi_sum:
+		if evi["regimen_name"] == "阿司匹林" and re.search("A", evi["evi_conclusion"]):
+			evi_sum.remove(evi)
+	return evi_sum

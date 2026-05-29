@@ -435,9 +435,11 @@ def getVar(jsonDict, config, report_name):
 	# 体细胞肿瘤发生发展相关/III类符合条件的变异IGV图-2025.08.08
 	# 结直肠癌/子宫内膜癌判断是否为胚系相关变异
 	def fjfy_cp200_judge_germline_gene(var_list):
-		germline_gene = ["APC", "BRCA1", "BRCA2", "EPCAM", "FH", "MLH1", "MSH2", "MSH6", \
-						 "NF1", "NF2", "PMS2", "RAD50", "RAD51B", "RAD51C", "RAD51D", "RAD54L", \
-						 "STK11", "TP53", "TSC1", "TSC2", "VHL"]
+		#germline_gene = ["APC", "BRCA1", "BRCA2", "EPCAM", "FH", "MLH1", "MSH2", "MSH6", \
+		#				 "NF1", "NF2", "PMS2", "RAD50", "RAD51B", "RAD51C", "RAD51D", "RAD54L", \
+		#				 "STK11", "TP53", "TSC1", "TSC2", "VHL"]
+		# 除了林奇相关的5个基因提示，其他不再提示，嵇梦晨，2026.05.28
+		germline_gene = ["PMS2", "MSH2", "MSH6", "MLH1"]
 		igv_result = []
 		for var in var_list:
 			if var["bio_category"] == "Snvindel" and float(var["freq"]) >= 0.4 and float(var["freq"]) <= 0.6 \
