@@ -1,15 +1,21 @@
-2026-05-26 13:29:59,931 - AutoTest_v3.py[line:165] - INFO: **********本次共测试1条配置信息1个模板**********
-2026-05-26 13:29:59,933 - AutoTest_v3.py[line:168] - INFO: *****配置1/1测试开始*****
-2026-05-26 13:29:59,934 - AutoTest_v3.py[line:169] - INFO:       a. 项目：Classic Panel 200（组织）
-2026-05-26 13:29:59,935 - AutoTest_v3.py[line:170] - INFO:       b. 业务类型：hospital
-2026-05-26 13:29:59,936 - AutoTest_v3.py[line:171] - INFO:       c. 送检单位：南通市肿瘤医院
-2026-05-26 13:29:59,936 - AutoTest_v3.py[line:172] - INFO:       d. 预计使用模板：OncoPro_CustomEdition_NTZL_v1.0.0.docx
-2026-05-26 13:29:59,937 - AutoTest_v3.py[line:173] - INFO:       e. 药企项目：非药企项目
-2026-05-26 13:29:59,937 - AutoTest_v3.py[line:174] - INFO:       f. 免费类型：
-2026-05-26 13:29:59,938 - AutoTest_v3.py[line:175] - INFO:       g. 订单类型：
-2026-05-26 13:29:59,938 - AutoTest_v3.py[line:176] - INFO:       h. 订单来源：
-2026-05-26 13:30:29,579 - AutoTest_v3.py[line:189] - INFO: 样本1：OncoPro_EC-CNH，模板调用跟预期一致，CNV类型为
-2026-05-26 13:31:00,338 - AutoTest_v3.py[line:189] - INFO: 样本2：OncoPro_EC-CNL，模板调用跟预期一致，CNV类型为
-2026-05-26 13:31:31,978 - AutoTest_v3.py[line:189] - INFO: 样本3：OncoPro_EC-MSI，模板调用跟预期一致，CNV类型为
-2026-05-26 13:32:00,644 - AutoTest_v3.py[line:189] - INFO: 样本4：OncoPro_EC-POLE，模板调用跟预期一致，CNV类型为
-2026-05-26 13:32:36,549 - AutoTest_v3.py[line:189] - INFO: 样本5：OncoPro_MET-SNV_snv-I，模板调用跟预期一致，CNV类型为
+2026-06-03 13:45:42,775 - AutoTest_v3.py[line:165] - INFO: **********本次共测试1条配置信息1个模板**********
+2026-06-03 13:45:42,776 - AutoTest_v3.py[line:168] - INFO: *****配置1/1测试开始*****
+2026-06-03 13:45:42,777 - AutoTest_v3.py[line:169] - INFO:       a. 项目：Classic Panel 200（组织）
+2026-06-03 13:45:42,778 - AutoTest_v3.py[line:170] - INFO:       b. 业务类型：hospital
+2026-06-03 13:45:42,779 - AutoTest_v3.py[line:171] - INFO:       c. 送检单位：山东第一医科大学第一附属医院-汇总-非肺组
+2026-06-03 13:45:42,779 - AutoTest_v3.py[line:172] - INFO:       d. 预计使用模板：OncoPro_CustomEdition_SDYKFY_v1.0.0.docx
+2026-06-03 13:45:42,780 - AutoTest_v3.py[line:173] - INFO:       e. 药企项目：非药企项目
+2026-06-03 13:45:42,780 - AutoTest_v3.py[line:174] - INFO:       f. 免费类型：
+2026-06-03 13:45:42,780 - AutoTest_v3.py[line:175] - INFO:       g. 订单类型：
+2026-06-03 13:45:42,781 - AutoTest_v3.py[line:176] - INFO:       h. 订单来源：BIMS
+2026-06-03 13:46:17,019 - AutoTest_v3.py[line:189] - INFO: 样本1：OncoPro_EC-CNH，模板调用跟预期一致，CNV类型为
+2026-06-03 13:46:49,545 - AutoTest_v3.py[line:189] - INFO: 样本2：OncoPro_EC-CNL，模板调用跟预期一致，CNV类型为
+2026-06-03 13:47:16,087 - AutoTest_v3.py[line:189] - INFO: 样本3：OncoPro_EC-MSI，模板调用跟预期一致，CNV类型为
+2026-06-03 13:47:45,729 - AutoTest_v3.py[line:189] - INFO: 样本4：OncoPro_EC-POLE，模板调用跟预期一致，CNV类型为
+2026-06-03 13:48:12,956 - AutoTest_v3.py[line:189] - INFO: 样本5：OncoPro_MET-SNV_snv-I，模板调用跟预期一致，CNV类型为
+2026-06-03 13:48:37,288 - AutoTest_v3.py[line:189] - INFO: 样本6：OncoPro_MET-SV，模板调用跟预期一致，CNV类型为
+2026-06-03 13:49:07,036 - AutoTest_v3.py[line:189] - INFO: 样本7：OncoPro_MSI-H_MET-SNV-SV，模板调用跟预期一致，CNV类型为
+2026-06-03 13:49:32,355 - AutoTest_v3.py[line:189] - INFO: 样本8：OncoPro_sv-I，模板调用跟预期一致，CNV类型为
+2026-06-03 13:49:59,280 - AutoTest_v3.py[line:189] - INFO: 样本9：OncoPro_sv-III，模板调用跟预期一致，CNV类型为
+2026-06-03 13:50:26,152 - AutoTest_v3.py[line:189] - INFO: 样本10：OncoPro_sv-merge_snv-II-III-onconodrug_KNB_sv-II，模板调用跟预期一致，CNV类型为
+2026-06-03 13:50:51,814 - AutoTest_v3.py[line:189] - INFO: 样本11：OncoPro_sv-onconodrug，模板调用跟预期一致，CNV类型为
