@@ -14825,3 +14825,25 @@ def ntzl_cp200_judge_hd(var_list):
 	else:
 		return False
 jinja2.filters.FILTERS["ntzl_cp200_judge_hd"] = ntzl_cp200_judge_hd
+
+def sdql_summary_36_gene(var_list):
+	gene_list = [
+    "AKT1", "AKT2", "AKT3", "AR", "ATM", "BRAF", "BRCA1",
+    "BRCA2", "CDH1", "CDK4", "CDK6", "CHEK1", "CHEK2", "ERBB2",
+    "ESR1", "FGFR1", "FGFR2", "FGFR3", "MRE11", "NBN", "NTRK1",
+    "NTRK2", "NTRK3", "PALB2", "PIK3CA", "PTEN", "RAD50", "RAD51",
+    "RAD51B", "RAD51C", "RAD51D", "RAD52", "RAD54L", "RET", "STK11", "TP53"
+	]
+	if not var_list:
+		return []
+	result = []
+	for var in var_list:
+		if var["gene_symbol"] in gene_list:
+			result.append(var)
+
+	undetect_gene = set(gene_list) - set([var["gene_symbol"] for var in result])
+	for gene in undetect_gene:
+		result.append({"gene_symbol": gene, "bio_category": ""})
+	
+	return result
+jinja2.filters.FILTERS["sdql_summary"] = sdql_summary_36_gene

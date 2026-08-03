@@ -74,6 +74,8 @@ def get_io_detect(var_data, config):
 	io['io_bdrm_hd'], io['io_p_bdrm_hd'], io['io_n_bdrm_hd'], io['io_bdrm_num_hd'] = io_detect_for_bdrm_hd(var_data)
 	# 2026.05.14 - 复旦中山MP，相关变异CNV描述修改，MET/ERBB2 5-9报拷贝数增加，≥10报扩增；其他基因5-14报拷贝数增加，≥15报扩增，嵇梦晨，2026.05.14
 	io['io_fdzs_mp'], io['io_p_fdzs_mp'], io['io_n_fdzs_mp'] = io_detect_fdzs_mp(var_data)
+	# 2026.06.08 西南医科中医CP200,按检测意义分组
+	io["io_xnzy"] = io_detect_xnzy(io["result"]) if io["result"] else {}
 
 	return io
 
@@ -1323,3 +1325,39 @@ def io_detect_fdzs_mp(var_data):
 		io_n_list.append("CCND1/FGF3/FGF19共扩增")
 
 	return io_result, ", ".join(io_p_list), ", ".join(io_n_list)
+
+def io_detect_xnzy(result: dict):
+	ddr_gene_list = ["ATM","ATR","BRCA1","BRCA2","BRIP1","CHEK1","CHEK2","FANCA","MRE11","PALB2","RAD50"]
+	lyn_gene_list = ["MLH1","MSH2","MSH6","PMS2"]
+	pole_gene_list = ["POLE","POLD1"]
+	egfr_gene_list = ["EGFR", "ALK"]
+	mdm_gene_list = ["MDM2", "MDM4"]
+	cdk_gene_list = ["CDKN2A", "CDKN2B"]
+	jak_gene_list = ["JAK1", "JAK2", "IFNGR1"]
+	apc_gene_list = ["APC", "CTNNB1"]
+
+	xnzy_result = {}
+	group_map = {
+		"DDR" : ddr_gene_list,
+		"LYN" : lyn_gene_list,
+		"POLE" : pole_gene_list,
+		"EGFR" : egfr_gene_list,
+		"MDM" : mdm_gene_list,
+		"CDK" : cdk_gene_list,
+		"JAK" : jak_gene_list,
+		"APC" : apc_gene_list
+	}
+
+	for gene, var_list in result.items():
+		group_name = None
+		for group, gene_list in group_map.items():
+			if gene in gene_list:
+				group_name = group
+				break
+		if group_name:
+			if group_name not in xnzy_result.keys():
+				xnzy_result[group_name] = []
+			xnzy_result[group_name].append(f"{gene}\n" + "\n".join(var_list))
+		else:
+			xnzy_result[gene] = var_list
+	return xnzy_result

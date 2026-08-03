@@ -57,6 +57,8 @@ def getSummary_detect(var_data, mlpa_data, config):
 	#2026.03.37-新增齐鲁适配34基因
 	summary_result["format4_forHRR_QL_34"] = format4_v2(var_data, mlpa_data)
 	#2026.03.37-新增完成
+	#2026.06.09-新增复旦中山10基因，嵇梦晨
+	summary_result["format15_forLC10_FDZS"] = format15_lc10(var_data)
 
 	return summary_result
 
@@ -697,3 +699,28 @@ def format14(var_data):
 			result[var["gene_symbol"]+"_"+region].append((var["hgvs_c"], var["hgvs_p"]))
 	
 	return result
+
+# 格式15：适用于复旦中山10基因，嵇梦晨，2026.06.09
+def format15_lc10(var_data):
+	var_data_copy = copy.deepcopy(var_data)
+	snv_genes = set()
+	cnv_genes = set()
+	sv_list = set()
+	result = []
+	var_list = [var for var in var_data_copy if var["clinic_num_s"] in [3,4,5]]
+	for var in var_list:
+		if var["bio_category"] == "Snvindel":
+			snv_genes.add(var["gene_symbol"])
+		elif var["bio_category"] == "Cnv":
+			cnv_genes.add(var["gene_symbol"])
+		elif var["bio_category"] == "Sv":
+			sv_list.add(var["five_prime_gene"] + "-" + var["three_prime_gene"])
+	if snv_genes:
+		result.append(f'{"、".join(sorted(snv_genes))}基因突变')
+	if cnv_genes:
+		result.append(f'{"、".join(sorted(cnv_genes))}基因扩增')
+	if sv_list:
+		result.append(f'{"、".join(sorted(sv_list))}融合')
+	if not result:
+		return "未检出相关基因突变、扩增或融合"
+	return "、".join(result)
