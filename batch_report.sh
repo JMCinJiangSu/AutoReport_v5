@@ -1,6 +1,7 @@
 #!/bin/bash
 
-BASE_DIR="/mnt/d/Scripts/PharmReport"
+BASE_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
+echo "当前脚本目录: $BASE_DIR"
 INPUT_DIR="${BASE_DIR}/test"
 OUTPUT_DIR="${BASE_DIR}/test"
 PYTHON_SCRIPT="${BASE_DIR}/main.py"
@@ -11,7 +12,7 @@ PYTHON_SCRIPT="${BASE_DIR}/main.py"
 echo "开始批量处理JSON文件..."
 echo "输入目录: $INPUT_DIR"
 echo "输出目录: $OUTPUT_DIR"
-
+python3 "${BASE_DIR}/json_rename.py"
 # 计数器
 success_count=0
 fail_count=0

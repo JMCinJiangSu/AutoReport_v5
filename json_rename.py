@@ -32,7 +32,7 @@ def rename_json_files(folder_path):
             # 提取order_id
             order_id = data['sample_info']['order_id']
             prods_name = data['sample_info']['prod_names']
-            prods_name = re.sub(r'[^\w\-]+', '_', prods_name)  # 替换非法字符
+            #prods_name = re.sub(r'[^\w\-]+', '_', prods_name)  # 替换非法字符
             
             # 构建新文件名
             new_filename = f"{order_id}_{prods_name}.json"
@@ -58,7 +58,8 @@ def rename_json_files(folder_path):
 
 if __name__ == "__main__":
     # 设置你的文件夹路径
-    target_folder = "./test"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    target_folder = os.path.join(script_dir, "test")
     
     # 执行重命名
     rename_json_files(target_folder)
