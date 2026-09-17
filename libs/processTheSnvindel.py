@@ -46,6 +46,7 @@ def process_snvindel(jsonDict, config):
 	clinical = get_gene_class(config)["clinical"]
 	clinicalNumStran_dict = clinicalNumStran(config)
 	functionNumStran_dict = functionNumStran(config)
+	#print (FDZS_gene_dict)
 	for var in snvindel:
 		# 常规内容
 		#if var["gene_symbol"] in function:
@@ -142,7 +143,9 @@ def process_snvindel(jsonDict, config):
 		# 5. 复旦中山变异描述特殊需求
 		# 2026.02.11-config文件使用加载好的
 		#var["var_info_forFDZS"] = varInfo_FDZS(var["gene_symbol"], var["gene_region"], var["variant_desc_cn"], config)
+		# 2026.07.01-发现问题，config文件改用加载好的后，var["var_info_forFDZS"]["gene_region_cn"]在变异遍历中是正确的，但是跳出遍历后会变成每个基因最后一个变异的gene_region，暂时没发现原因，但是使用copy.deepcopy()后可以防止这个问题
 		var["var_info_forFDZS"] = varInfo_FDZS_v2(var["gene_symbol"], var["gene_region"], var["variant_desc_cn"], config, FDZS_gene_dict)
+		var["var_info_forFDZS"] = copy.deepcopy(var["var_info_forFDZS"])
 		# 2026.02.11-修改完成
 		# 6. 浙江肿瘤：变异描述统一下格式，需要加“可能形成功能损伤或失活的蛋白”，可以加在报告里，但为了避免知识库中该条信息格式不统一（如有空格）造成报告展示混乱，这边预处理一下
 		var["variant_desc_cn_ZJZL"] = var["variant_desc_cn"].strip()[0:-1] if var["variant_desc_cn"] and var["variant_desc_cn"].strip()[-1] == "。" else var["variant_desc_cn"]

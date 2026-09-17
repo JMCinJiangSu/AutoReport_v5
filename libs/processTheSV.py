@@ -28,6 +28,9 @@ def process_sv(jsonDict, config):
 	rna_sv = copy.deepcopy(jsonDict["rna_sv"])
 	# sv处理
 	for var in sv:
+		# 2026.08.24-var_category_names系统可能会返回null导致报错，没有数据默认为""
+		var["var_category_names"] = var["var_category_names"] if "var_category_names" in var.keys() and var["var_category_names"] else ""
+		# 2026.08.24-更新完成
 		# 2025.04.24-新增evi_sum_raw
 		#var["evi_sum_raw"] = copy.deepcopy(var["evi_sum"]) if "evi_sum" in var.keys() and var["evi_sum"] else []
 		# 2025.04.24-新增完成
@@ -91,6 +94,9 @@ def process_sv(jsonDict, config):
 
 	# rna_sv处理
 	for var in rna_sv:
+		# 2026.08.24-var_category_names系统可能会返回null导致报错，没有数据默认为""
+		var["var_category_names"] = var["var_category_names"] if "var_category_names" in var.keys() and var["var_category_names"] else ""
+		# 2026.08.24-更新完成
 		#var["evi_sum_raw"] = copy.deepcopy(var["evi_sum"]) if "evi_sum" in var.keys() and var["evi_sum"] else []
 		# 变异分类更新，致癌性和致病性只返回1个-2023.05.22
 		#var["clinic_num_g"] = clinicalNumStran().get(var["clinical_significance"], 3) 
@@ -123,7 +129,8 @@ def process_sv(jsonDict, config):
 	# 按频率排序下
 	# 2024.03.06-新增Myeloid
 	# 2024.07.31-新增OncoPro
-	if not re.search("Classic|CRC12|Myeloid|OncoPro", jsonDict["sample_info"]["prod_names"]):
+	# 2026.09.16-新增CPP（CP54）
+	if not re.search("Classic|CRC12|Myeloid|OncoPro|CPP（CP54）", jsonDict["sample_info"]["prod_names"]):
 #		print (sv_combination_match)
 		sv_combination_match = sorted(sv_combination_match, key=lambda i:float(str(i["freq"]).replace("%","")), reverse=True)
 	else:

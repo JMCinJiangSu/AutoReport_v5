@@ -36,6 +36,16 @@ def CP43Gene(config): return getconfigfile(config)["cp43_gene"]
 def CP43_SplitGene(config): return getconfigfile(config)["cp43_split_gene"]
 # 2026.01.20-新增结束
 
+# 2026.06.16-新增NCCN指南推荐基因，区分CP40、CP43、116和CP200
+def PAN116_RECOMGene_v20260616(config): return getconfigfile(config)["rpt_guideline_recom_116_v20260616"]
+def CP40_RECOMGene_v20260616(config): return getconfigfile(config)["rpt_guideline_recom_cp40_v20260616"]
+def CP43_RECOMGene_v20260616(config): return getconfigfile(config)["rpt_guideline_recom_cp43_v20260616"]
+def CP200_RECOMGene_v20260616(config): return getconfigfile(config)["rpt_guideline_recom_200_v20260616"]
+# 2026.06.26-新增LC76
+def LC76_RECOMGene_v20260616(config): return getconfigfile(config)["rpt_guideline_recom_76_v20260616"]
+# 2026.06.26-新增完成
+# 2026.06.16-新增完成
+
 # 2. 获取xlsx配置文件里的信息
 def getconfigxlsx(config):
 	file_path = os.path.join(config, "config.xlsx")

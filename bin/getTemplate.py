@@ -31,7 +31,7 @@ def MatchReport(jsonDict, config):
 	 # 2.2 无定制的话匹配"进院:通用:产品"
 	report_name = ""
 	judge_brca_cnv = ""
-	if i["report_module_type"] == "rummage":
+	if "report_module_type" in i.keys() and i["report_module_type"] == "rummage":
 		#print (i)
 		# 20220627-这边做个兼容：临检样本需要匹配带后缀送检单位名称，而手动上传的订单缺失该项内容，若需要用手动上传订单出临检报告，会报错。
 		# 这边兼容成缺少带后缀送检单位名称时，直接出临检完整版报告
@@ -52,7 +52,7 @@ def MatchReport(jsonDict, config):
 			else:
 				report_name = requir_dict["rummage"]["Universal_simple"].get(i["prod_names"], "") if re.search("汇总|JY", i["origin_company"]) else requir_dict["rummage"]["Universal_complete"].get(i["prod_names"], "")
 				judge_brca_cnv = brca_cnv_dict["rummage"]["Universal_simple"].get(i["prod_names"], "") if re.search("汇总|JY", i["origin_company"]) else brca_cnv_dict["rummage"]["Universal_complete"].get(i["prod_names"], "")
-	elif i["report_module_type"] == "hospital":
+	elif "report_module_type" in i.keys() and i["report_module_type"] == "hospital":
 		if (i["company"], i["hosp_depart"], i["prod_names"]) in requir_dict["hospital"]["CustomEdition"].keys():
 			report_name = requir_dict["hospital"]["CustomEdition"].get((i["company"], i["hosp_depart"], i["prod_names"]))
 			judge_brca_cnv = brca_cnv_dict["hospital"]["CustomEdition"].get((i["company"], i["hosp_depart"], i["prod_names"]))
@@ -112,7 +112,7 @@ def MatchReport_v2(jsonDict, config):
 
 	report_name = ""
 	judge_brca_cnv = ""
-	if i["report_module_type"] == "rummage":
+	if "report_module_type" in i.keys() and i["report_module_type"] == "rummage":
 		department_dict = get_department_name(config)
 		i["institute_dept_id"] = i["institute_dept_id"] if "institute_dept_id" in i.keys() and i["institute_dept_id"] else ""
 		i["hosp_depart"] = department_dict.get(i["institute_dept_id"], i["hosp_depart"]) 
@@ -140,8 +140,11 @@ def MatchReport_v2(jsonDict, config):
 						report_name = requir_dict["rummage"]["CustomEdition"].get((i["company"], i["prod_names"], i["hosp_depart"], i["order_type"], i["free_type"]))
 						judge_brca_cnv = brca_cnv_dict["rummage"]["CustomEdition"].get((i["company"], i["prod_names"], i["hosp_depart"], i["order_type"], i["free_type"]))
 					elif (i["company"], i["prod_names"], i["order_type"], i["free_type"]) in requir_dict["rummage"]["CustomEdition"].keys():
-						report_name = requir_dict["rummage"]["CustomEdition"].get((i["company"], i["prod_names"], i["hosp_depart"], i["order_type"], i["free_type"]))
-						judge_brca_cnv = brca_cnv_dict["rummage"]["CustomEdition"].get((i["company"], i["prod_names"], i["hosp_depart"], i["order_type"], i["free_type"]))
+						# 2026.09.02-修复bug，不匹配科室
+						#report_name = requir_dict["rummage"]["CustomEdition"].get((i["company"], i["prod_names"], i["hosp_depart"], i["order_type"], i["free_type"]))
+						#judge_brca_cnv = brca_cnv_dict["rummage"]["CustomEdition"].get((i["company"], i["prod_names"], i["hosp_depart"], i["order_type"], i["free_type"]))
+						report_name = requir_dict["rummage"]["CustomEdition"].get((i["company"], i["prod_names"], i["order_type"], i["free_type"]))
+						judge_brca_cnv = brca_cnv_dict["rummage"]["CustomEdition"].get((i["company"], i["prod_names"], i["order_type"], i["free_type"]))
 			else:
 				if (i["company"], i["prod_names"], i["hosp_depart"], i["order_type"]) in requir_dict["rummage"]["CustomEdition"].keys():
 					report_name = requir_dict["rummage"]["CustomEdition"].get((i["company"], i["prod_names"], i["hosp_depart"], i["order_type"]))
@@ -159,7 +162,7 @@ def MatchReport_v2(jsonDict, config):
 				else:
 					report_name = requir_dict["rummage"]["Universal_complete"].get(i["prod_names"], "")
 					judge_brca_cnv = brca_cnv_dict["rummage"]["Universal_complete"].get(i["prod_names"], "")
-	elif i["report_module_type"] == "hospital":
+	elif "report_module_type" in i.keys() and i["report_module_type"] == "hospital":
 		if (i["company"], i["hosp_depart"], i["prod_names"]) in requir_dict["hospital"]["CustomEdition"].keys():
 			report_name = requir_dict["hospital"]["CustomEdition"].get((i["company"], i["hosp_depart"], i["prod_names"]))
 			judge_brca_cnv = brca_cnv_dict["hospital"]["CustomEdition"].get((i["company"], i["hosp_depart"], i["prod_names"]))
@@ -180,7 +183,7 @@ def choose_template(jsonDict, config):
 	根据jsonDict中的信息，判断使用哪套模板匹配规则
 	'''
 	i = jsonDict.get("sample_info")
-	if i["report_module_type"] == "rummage" and "order_type" in i.keys() and i["order_type"]:
+	if "report_module_type" in i.keys() and  i["report_module_type"] == "rummage" and "order_type" in i.keys() and i["order_type"]:
 		print ("#---------存在业务类型字段，使用LIMS模板匹配规则---------#")
 		report_name, merge_template, judge_brca_cnv = MatchReport_v2(jsonDict, config)
 	else:

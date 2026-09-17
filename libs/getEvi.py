@@ -7,6 +7,7 @@ import copy
 import itertools
 from collections import defaultdict
 from datetime import datetime
+from libs.specialRequest import getRegimen_Approval
 
 '''
 Discription	
@@ -61,7 +62,7 @@ def merge_Predictive_evi(datainfo):
 
 	return merge_result
 
-def varRegimen(jsonDict, evi_sum, config, var):
+def varRegimen_general(jsonDict, evi_sum, config, var):
 	data = {}
 	data["refer_evi"] = []
 	data["evi_split"] = {}
@@ -493,3 +494,171 @@ def Regimen_inter_FSY(evi_sum):
 		if evi["regimen_name"] == "阿司匹林" and re.search("A", evi["evi_conclusion"]):
 			evi_sum.remove(evi)
 	return evi_sum
+
+# 2026.06.12-新增浙江人民规则-参考浙肿
+def varRegimen_ZJRM(jsonDict, evi_sum, config,var):
+	evi_level_dict = {
+		"Clinical-phase I" : "临床试验",
+		"Clinical-phase II" : "临床试验",
+		"Clinical-phase III" : "临床试验",
+		"Clinical-phase IV" : "临床试验",
+		"Clinical-retrospective" : "临床试验",
+		"Clinical-unknown phase" : "临床试验",
+		"Case report" : "案例报道",
+		"Preclinical-in vitro" : "临床前证据",
+		"Preclinical-in vivo" : "临床前证据"
+	}
+	data = {}
+	data["refer_evi"] = []
+	data["evi_split"] = {}
+	data["appr_info"] = []
+	regimen_rule = ["埃克替尼","厄洛替尼","吉非替尼","阿法替尼","达可替尼","奥希替尼","阿美替尼","伏美替尼","厄洛替尼+雷莫西尤单抗","厄洛替尼+贝伐珠单抗"]
+	for evi in evi_sum:
+		evi["clinical_significance_cn"] = senseStran(config).get(evi["clinical_significance"], evi["clinical_significance"])
+		evi["evi_conclusion_simple"] = evi["evi_conclusion"][0] if evi["evi_conclusion"] else ""
+		evi["evi_interpretation"] = evi["evi_interpretation"].strip() if evi["evi_interpretation"] else ""
+		#只有evidence_type为Predictive时才有治疗方案，其他情况都放空
+		#非治疗的证据放前面展示
+		evi["regimen_name_py"] = topinyin(evi["regimen_name"]) if evi["regimen_name"] else "0"
+		# 添加用于排敏感/耐药的字段
+		evi["sense_rule"] = "0" if re.search("Sensitive", evi["clinical_significance"]) else "1" if re.search("Resistant", evi["clinical_significance"]) else evi["clinical_significance"]
+		evi["regimen_index"] = regimen_rule.index(evi["regimen_name"]) if evi["regimen_name"] in regimen_rule else len(regimen_rule)
+	evi_sum = sorted(evi_sum, key = lambda i:(i["evi_conclusion_simple"], i["sense_rule"], i["regimen_name_py"].upper()))
+	if "gene_symbol" in var.keys() and var["gene_symbol"] and var["gene_symbol"] == "EGFR":
+		evi_sum = sorted(evi_sum, key = lambda i:(i["regimen_index"]))
+	apprlist = ["FDA", "NMPA", "NCCN", "CSCO"]
+	appdict = {"FDA" : 0, "NCCN" : 1, "NMPA" : 2, "CSCO" : 3}
+	regimen_dict, regimen_adaptation = getRegimen_Approval(jsonDict)
+	for evi in evi_sum:
+		# 2.1 治疗方案介绍中仅展示敏感药物
+		if re.search("Sensitive", evi["clinical_significance"]):
+			evi["regimen_refer_agency_ZJZL"] = regimen_dict.get(evi["regimen_name"], "")
+		# 2.2 耐药药物或者治疗方案中未提取到引用机构的药物，再与regimen_refer_agency匹配一遍
+		else:
+			regimen_refer_agency_ZJZL_list = list(set(apprlist) & set(re.split(",", evi["refer_agency"]))) if "refer_agency" in evi.keys() and \
+												evi["refer_agency"] and set(apprlist) & set(re.split(",", evi["refer_agency"])) else []
+			evi["regimen_refer_agency_ZJZL"] = "/".join(sorted(regimen_refer_agency_ZJZL_list, key=lambda i:appdict.get(i)))
+	
+		evi["evidence_level"] = evi_level_dict.get(evi["evidence_level"], evi["evidence_level"]) if "evidence_level" in evi.keys() and evi["evidence_level"] else ""
+		evi["evi_origin_ZJZL"] = ""  # 填充证据来源
+		evi["appr_note"] = ""  # 用于判断是否有适应症，药物是否需要加上标
+		if evi["evi_conclusion_simple"] == "A":
+			evi["evi_origin_ZJZL"] = evi["regimen_refer_agency_ZJZL"] if evi["regimen_refer_agency_ZJZL"] else evi["evidence_level"] if evi["evidence_level"] else "-"
+			if evi["regimen_refer_agency_ZJZL"] and evi["regimen_name"] and evi["regimen_name"] in regimen_adaptation.keys() and regimen_adaptation[evi["regimen_name"]]["adaptation"]:
+				evi["appr_note"] = "yes"
+		elif evi["evi_conclusion_simple"] == "C":
+			evi["evi_origin_ZJZL"] = evi["regimen_refer_agency_ZJZL"] if evi["evi_conclusion"] == "C3" and evi["regimen_refer_agency_ZJZL"] else evi["evidence_level"] if evi["evidence_level"] else "-"
+			if evi["evi_conclusion"] == "C3" and evi["regimen_refer_agency_ZJZL"] and evi["regimen_name"] and evi["regimen_name"] in regimen_adaptation.keys() and regimen_adaptation[evi["regimen_name"]]:
+				evi["appr_note"] = "yes"
+		elif evi["evi_conclusion_simple"] in ["B", "D"]:
+			evi["evi_origin_ZJZL"] = evi["evidence_level"] if evi["evidence_level"] else "-"
+		# 正常情况不会有，兼容为空的情况
+		else:
+			evi["evi_origin_ZJZL"] = "-"	
+		
+		# 2024.10.28-更新排序-NMPA获批药物优先展示
+		if "NMPA" in evi["evi_origin_ZJZL"] and evi["evi_conclusion"] != "C3":
+			evi["judge_NMPA"] = 0
+		else:
+			evi["judge_NMPA"] = 1
+	evi_sum = sorted(evi_sum, key=lambda j : (j["evi_conclusion_simple"], j["sense_rule"], j["judge_NMPA"], j["regimen_name_py"].upper()))
+	if "gene_symbol" in var.keys() and var["gene_symbol"] and var["gene_symbol"] == "EGFR":
+		evi_sum = sorted(evi_sum, key = lambda j : (j["evi_conclusion_simple"], j["sense_rule"], j["regimen_index"]))
+	# 2024.10.28-排序更新完成
+
+	# 获批信息改在这边提取-与排序相同顺序-2024.12.11
+	for evi in evi_sum:
+		if evi["evi_conclusion_simple"] == "A":
+			if evi["regimen_refer_agency_ZJZL"] and evi["regimen_name"] and evi["regimen_name"] in regimen_adaptation.keys() and regimen_adaptation[evi["regimen_name"]]["adaptation"]:
+				data["appr_info"].append({
+					"regimen_cn" : regimen_adaptation[evi["regimen_name"]]["regimen_cn"],
+					"regimen_en" : regimen_adaptation[evi["regimen_name"]]["regimen_en"],
+					"appr_info" : regimen_adaptation[evi["regimen_name"]]["adaptation"]
+					})
+		elif evi["evi_conclusion_simple"] == "C":
+			if evi["evi_conclusion"] == "C3" and evi["regimen_refer_agency_ZJZL"] and evi["regimen_name"] and evi["regimen_name"] in regimen_adaptation.keys() and regimen_adaptation[evi["regimen_name"]]:
+				data["appr_info"].append({
+					"regimen_cn" : regimen_adaptation[evi["regimen_name"]]["regimen_cn"],
+					"regimen_en" : regimen_adaptation[evi["regimen_name"]]["regimen_en"],
+					"appr_info" : regimen_adaptation[evi["regimen_name"]]["adaptation"]
+					})
+	# 2024.12.11-更新完成
+
+	for evi in evi_sum:
+		data["refer_evi"].extend(getRef_from_inter(jsonDict, evi["evi_interpretation"]))
+		if evi["evidence_type"] not in data["evi_split"].keys():
+			data["evi_split"].setdefault(evi["evidence_type"], [])
+		data["evi_split"][evi["evidence_type"]].append(evi)
+		# 目前仅有Predictive时才要合并相同证据，额外设置“Predictive_merge”字段，根据报告需求进行选用
+		if "Predictive" in data["evi_split"].keys():
+			data["evi_split"]["Predictive_merge"] = merge_Predictive_evi(data["evi_split"]["Predictive"])
+	data["regimen_evi_sum"] = evi_sum
+	data["regimen_FDA_S"] = [{"regimen_name" : var["regimen_name"], "evi_conclusion_simple" : var["evi_conclusion_simple"]} for var in evi_sum if re.search("Sensitive",var["clinical_significance"]) and var["evi_conclusion_simple"] == "A"]
+	data["regimen_noFDA_S"] = [{"regimen_name" : var["regimen_name"], "evi_conclusion_simple" : var["evi_conclusion_simple"]} for var in evi_sum if re.search("Sensitive",var["clinical_significance"]) and var["evi_conclusion_simple"] != "A"]
+
+	# 药物按敏感和耐药拆分
+	data["regimen_S"] = [{"regimen_name" : var["regimen_name"], "evi_conclusion_simple" : var["evi_conclusion_simple"]} for var in evi_sum if re.search("Sensitive",var["clinical_significance"])]
+	data["regimen_R"] = [{"regimen_name" : var["regimen_name"], "evi_conclusion_simple" : var["evi_conclusion_simple"]} for var in evi_sum if re.search("Resistant",var["clinical_significance"])]
+
+	# 2024.10.28-浙肿返回证据类型合集，包含用药、诊断和预后三类
+	evi_type_list = set([i["evidence_type"] for i in evi_sum])
+	data["evi_type_list"] = [i for i in evi_type_list if i in ["Predictive", "Prognostic", "Diagnostic"]]
+	evitype_dict = {"Predictive" : "用药", "Prognostic" : "预后", "Diagnostic" : "诊断"}
+	data["evi_type_list_str"] = "、".join([evitype_dict.get(i, i) for i in data["evi_type_list"]])+"相关" if data["evi_type_list"] else ""
+	# 2024.10.28-新增完成
+	
+	# 2024.12.11-浙肿返回证据类型合集，其中用药、诊断和预后三类需要分别做等级判定
+	# 1. 汇总每个证据类型对应的等级
+	zjzl_evi_type_class = {}
+	for evi_type in ["Predictive", "Prognostic", "Diagnostic"]:
+		evi_type_level = [i["evi_conclusion_simple"] for i in  data["evi_split"][evi_type]] if evi_type in data["evi_split"].keys() and data["evi_split"][evi_type] else []
+		if set(["A", "B"]) & set(evi_type_level):
+			zjzl_evi_type_class[evi_type] = 5
+		elif set(["C", "D"]) & set(evi_type_level):
+			zjzl_evi_type_class[evi_type] = 4
+		else:
+			zjzl_evi_type_class[evi_type] = 3
+	data["zjzl_evi_type_class"] = zjzl_evi_type_class
+	# 2. 证据类型对应等级改为适合展示的格式
+	zjzl_evi_type_level_list = []
+	for evi_type in ["Predictive", "Prognostic", "Diagnostic"]:
+		if zjzl_evi_type_class[evi_type] == 5:
+			zjzl_evi_type_level_list.append("{0}：临床意义明确".format(evitype_dict.get(evi_type, evi_type)))
+	for evi_type in ["Predictive", "Prognostic", "Diagnostic"]:
+		if zjzl_evi_type_class[evi_type] == 4:
+			zjzl_evi_type_level_list.append("{0}：潜在临床意义".format(evitype_dict.get(evi_type, evi_type)))
+	data["zjzl_evi_type_str"] = "、".join(zjzl_evi_type_level_list)
+	#print (data["zjzl_evi_type_str"])
+	# 证据类型对应等级更改展示格式-2025.04.24
+	# 临床意义明确（用药相关/预后相关/诊断相关）【换行】有潜在临床意义（预后相关）
+	zjzl_evi_type_level_list_5 = []
+	zjzl_evi_type_level_list_4 = []
+	zjzl_evi_type_level_list_v2 = []
+	evitype_dict_v2 = {"Predictive" : "用药相关", "Prognostic" : "预后相关", "Diagnostic" : "诊断相关"}
+	for evi_type in ["Predictive", "Prognostic", "Diagnostic"]:
+		if zjzl_evi_type_class[evi_type] == 5:
+			zjzl_evi_type_level_list_5.append(evitype_dict_v2.get(evi_type, evi_type))
+	if zjzl_evi_type_level_list_5:
+		zjzl_evi_type_level_list_v2.append("临床意义明确（{0}）".format("/".join(zjzl_evi_type_level_list_5)))
+	for evi_type in ["Predictive", "Prognostic", "Diagnostic"]:
+		if zjzl_evi_type_class[evi_type] == 4:
+			zjzl_evi_type_level_list_4.append(evitype_dict_v2.get(evi_type, evi_type))
+	if zjzl_evi_type_level_list_4:
+		zjzl_evi_type_level_list_v2.append("有潜在临床意义（{0}）".format("/".join(zjzl_evi_type_level_list_4)))
+	data["zjzl_evi_type_str_v2"] = "、".join(zjzl_evi_type_level_list_v2)
+	#print (data["zjzl_evi_type_str_v2"])
+
+		# 更新完成-2025.04.24
+	# 2024.12.11-更新完成
+	return data
+
+
+# 2026.06.12-浙江人民使用浙肿规则
+def varRegimen(jsonDict, evi_sum, config, var):
+	# 这边的条件还需要再看下
+	# 2026.09.01-增加进院
+	if (jsonDict["sample_info"]["origin_company"] == "浙江省人民医院-JY" and jsonDict["sample_info"]["prod_names"] in ["Master Panel（组织）"] and jsonDict["sample_info"]["report_module_type"] == "rummage") or (jsonDict["sample_info"]["company"] == "浙江省人民医院" and jsonDict["sample_info"]["prod_names"] in ["Master Panel（组织）"] and jsonDict["sample_info"]["report_module_type"] == "hospital"):
+		data = varRegimen_ZJRM(jsonDict, evi_sum, config, var)
+	else:
+		data = varRegimen_general(jsonDict, evi_sum, config, var)
+	return  data

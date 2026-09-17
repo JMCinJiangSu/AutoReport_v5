@@ -8,6 +8,7 @@ from libs.getConfig import getconfigxlsx, get_shrj_geneinfo
 from libs.rule import S_level
 import copy
 from libs.rule import judgeRegimen, var_regimen_rule
+import itertools
 '''
 	处理模板中各种特殊要求 
 '''
@@ -1573,9 +1574,11 @@ def varInfo_FDZS_v2(gene_symbol, gene_region, variant_desc_cn, config, FDZS_gene
 				region_cn = region_dict[i] if i in region_dict.keys() else i
 				region_list_cn.append(region_cn)
 		result["gene_region_cn"] = "到".join(region_list_cn)
+		#print ("11111", gene_region, region_list_cn)
 	# 3. 处理变异描述
 	var_desc = re.split("，",variant_desc_cn) if variant_desc_cn else []
 	result["var_desc"] = var_desc[1].replace("。","") if var_desc and len(var_desc) >= 2 else ""
+	#print (gene_region, result)
 
 	return result
 
@@ -1612,3 +1615,39 @@ def varInfo_FJZL_v2(var, tumor_list,config, fjzl_database):
 		regimen_info["regimen_"+str(i)+"_R"] = getinfo_S(var["evi_sum"]["regimen_R"], [i])
 	
 	return var_freq_info, regimen_info
+
+# 2026.06.12-浙江人民MP-参考浙肿规则
+def getRegimen_Approval(jsonDict):
+	'''
+	获取治疗方案对应获批机构和适应症-2023.02.17
+	'''
+	regimen_list = copy.deepcopy(jsonDict["therapeutic_regimen"]) if "therapeutic_regimen" in jsonDict.keys() else []
+	regimen_dict = {}
+	regimen_adaptation = {}
+	
+	# 获批机构新增CSCO-2024.02.02
+	apprlist = ["FDA", "NMPA", "NCCN", "CSCO"]
+	# 新增-2024.02.04-引用机构按FDA、NCCN、NMPA、CSCO排序
+	appdict = {"FDA" : 0, "NCCN" : 1, "NMPA" : 2, "CSCO" : 3}
+
+	if regimen_list:
+		for regimen in regimen_list:
+			regimen_appr_list = list(set(apprlist) & set(regimen["approval_organization"])) if regimen["approval_organization"] and set(apprlist) & set(regimen["approval_organization"]) else []
+			regimen_appr = "/".join(sorted(regimen_appr_list, key=lambda i : appdict.get(i))) if regimen_appr_list else "-"
+			regimen_dict[regimen["regimen_cn"]] = regimen_appr
+			regimen_dict[regimen["regimen_en"]] = regimen_appr
+			
+			# 适应症根据“\n”进行拆分，并去重-2023.04.04
+			adaptation = list(itertools.chain(*[re.split("\n", i.strip()) for i in regimen["adaptation_disease_cn"]])) if regimen["adaptation_disease_cn"] else []
+			if adaptation:
+				regimen_adaptation[regimen["regimen_cn"]] = {
+					"regimen_cn" : regimen["regimen_cn"],
+					"regimen_en" : regimen["regimen_en"],
+					"adaptation" : "".join(adaptation)
+				}
+				regimen_adaptation[regimen["regimen_en"]] = {
+					"regimen_cn" : regimen["regimen_cn"],
+					"regimen_en" : regimen["regimen_en"],
+					"adaptation" : "".join(adaptation)
+				}
+	return regimen_dict, regimen_adaptation

@@ -1,4 +1,7 @@
 #-*- coding:gbk -*-
+import re
+from pypinyin import pinyin, Style
+from itertools import chain
 
 # 识别是否为数值
 def is_number(i):
@@ -278,19 +281,26 @@ def ZJFE_summary(data, judge_brca_cnv):
 			"somatic_var_sum" : somatic_var_sum,
 			"germline_var_sum" : germline_var_sum
         }
-			
+
+	# 2026.08.28-150总结描述有调整		
 	elif data["sample"]["prod_names"] == "遗传易感150基因":
 		if gene150_germline_5 + gene150_germline_4 + gene150_germline_3:
 			tmp_list = []
 			if gene150_germline_5:
-				tmp_list.append("具有致病性的变异有{0}".format(zjey_150_var_sum(gene150_germline_5)))
+				#tmp_list.append("具有致病性的变异有{0}".format(zjey_150_var_sum(gene150_germline_5)))
+				tmp_list.append("致病性变异为{0}".format(zjey_150_var_sum(gene150_germline_5)))
 			if gene150_germline_4:
-				tmp_list.append("具有疑似致病性的变异有{0}".format(zjey_150_var_sum(gene150_germline_4)))
+				#tmp_list.append("具有疑似致病性的变异有{0}".format(zjey_150_var_sum(gene150_germline_4)))
+				tmp_list.append("疑似致病性变异为{0}".format(zjey_150_var_sum(gene150_germline_4)))
 			if gene150_germline_5 + gene150_germline_4:
-				germline_var_sum = "检出{0}个变异 ，其中具有致病性的变异有{1}个，疑似致病性的变异有{2}个。{3}。".format(
+				#germline_var_sum = "检出{0}个变异 ，其中具有致病性的变异有{1}个，疑似致病性的变异有{2}个。{3}。".format(
+				#			len(gene150_germline_5 + gene150_germline_4 + gene150_germline_3), len(gene150_germline_5), len(gene150_germline_4), "；".join(tmp_list))
+				germline_var_sum = "检出{0}个变异 ，其中致病性变异有{1}个，疑似致病性变异有{2}个。{3}。".format(
 							len(gene150_germline_5 + gene150_germline_4 + gene150_germline_3), len(gene150_germline_5), len(gene150_germline_4), "；".join(tmp_list))
 			else:
-				germline_var_sum = "检出{0}个变异 ，其中具有致病性的变异有{1}个，疑似致病性的变异有{2}个。".format(
+				#germline_var_sum = "检出{0}个变异 ，其中具有致病性的变异有{1}个，疑似致病性的变异有{2}个。".format(
+				#			len(gene150_germline_5 + gene150_germline_4 + gene150_germline_3), len(gene150_germline_5), len(gene150_germline_4))
+				germline_var_sum = "检出{0}个变异 ，其中致病性变异有{1}个，疑似致病性变异有{2}个。".format(
 							len(gene150_germline_5 + gene150_germline_4 + gene150_germline_3), len(gene150_germline_5), len(gene150_germline_4))
 		else:
 			germline_var_sum = "未检测到致病性、疑似致病性和意义不明确的胚系变异"
@@ -439,4 +449,130 @@ def ZJFE_summary(data, judge_brca_cnv):
 			)
 	# 2026.04.16-新增完成
 	
+	return result
+
+# 2026.06.15：新增福建协和tLC10结构化数据
+def FJXH_tLC10_summary(data):
+	var_list = data["var"]["var_somatic"]["level_I"] + data["var"]["var_somatic"]["level_II"] + data["var"]["var_somatic"]["level_onco_nodrug"] + data["var"]["var_somatic"]["level_III"]
+	result = []
+	for var in var_list:
+		if var["bio_category"] == "Snvindel":
+			result.append({
+				"var_name" : "{0}:{1}:{2}:({3})".format(var["transcript_primary"], \
+														var["gene_region"].replace("exon", "Exon").replace("intron", "Intron"), \
+														var["hgvs_c"], \
+														var["hgvs_p_ZJZL"]),
+				"var_category" : "Snvindel",
+				"content" : var["variant_desc_cn"] + var["variant_interpret_cn"] + "该突变提示患者" + fjfy_regimen_sum(fjxh_evi_sort(var["evi_sum"]["evi_split"]["Predictive"])) +"。" if "Predictive" in var["evi_sum"]["evi_split"].keys() and var["evi_sum"]["evi_split"]["Predictive"] else var["variant_desc_cn"] + var["variant_interpret_cn"]
+			})
+		elif var["bio_category"] == "Cnv":
+			region_exon = var["region_exon"] if var["region_exon"] else ""
+			result.append({
+				"var_name" : var["gene_symbol"] + "_" + region_exon,
+				"var_category" : "Cnv",
+				"content" : var["variant_desc_cn"] + var["variant_interpret_cn"] + "该突变提示患者" + fjfy_regimen_sum(fjxh_evi_sort(var["evi_sum"]["evi_split"]["Predictive"])) +"。" if "Predictive" in var["evi_sum"]["evi_split"].keys() and var["evi_sum"]["evi_split"]["Predictive"] else var["variant_desc_cn"] + var["variant_interpret_cn"]
+			})
+		elif var["bio_category"] == "Sv":
+			result.append({
+				"var_name" : var["var_name"] if "var_name" in var.keys() and var["var_name"] else "",
+				"var_category" : "Sv",
+				"content" : var["variant_desc_cn"] + var["variant_interpret_cn"] + "该突变提示患者" + fjfy_regimen_sum(fjxh_evi_sort(var["evi_sum"]["evi_split"]["Predictive"])) +"。" if "Predictive" in var["evi_sum"]["evi_split"].keys() and var["evi_sum"]["evi_split"]["Predictive"] else var["variant_desc_cn"] + var["variant_interpret_cn"]
+			})
+
+	return result
+
+# 福建附一CP200、116对治疗方案进行总结-2025.11.28
+# 该突变提示【可能对XXX、XXX（证据等级为A），XXX、XXX（证据等级为B）敏感；可能对XXX（证据等级为C）耐药。】
+def fjfy_regimen_sum(regimen_list):
+	regimen_dict = {}
+	for regimen in regimen_list:
+		if (regimen["evi_conclusion_simple"], regimen["clinical_significance_cn"]) not in regimen_dict.keys():
+			regimen_dict.setdefault((regimen["evi_conclusion_simple"], regimen["clinical_significance_cn"]), [])
+		regimen_dict[(regimen["evi_conclusion_simple"], regimen["clinical_significance_cn"])].append(regimen["regimen_name"])
+	
+	result_sense = []
+	result_resis = []
+	result = []
+	for level in ["A", "B", "C", "D"]:
+		if (level, "敏感") in regimen_dict.keys():
+			result_sense.append("{0}（证据等级为{1}）".format("、".join(regimen_dict[(level, "敏感")]), level))
+		if (level, "耐药") in regimen_dict.keys():
+			result_resis.append("{0}（证据等级为{1}）".format("、".join(regimen_dict[(level, "耐药")]), level))
+	if result_sense:
+		result.append("可能对{0}敏感".format("，".join(result_sense)))
+	if result_resis:
+		result.append("可能对{0}耐药".format("，".join(result_resis)))
+
+	return "；".join(result)
+
+# 福建协和tBRCA、tLC10临床提示排序更新-2025.01.15
+# 同等级NMPA获批证据优先展示，FDA其次，再展示其他（获批字段看regimen_refer_agency）
+# 再按首字母排
+def get_regimen_first_str(regimen_name):
+    regimen_first_str = []
+    for regimen in re.split("\+", regimen_name):
+        if "\u4e00" <= regimen <= "\u9fff":
+            _str = []
+            for i in regimen:
+                if "\u4e00" <= i <= "\u9fff":
+                    _str.append("".join(chain.from_iterable(pinyin(i, Style.TONE3)))[0].upper())
+                else:
+                    _str.append(i)
+            regimen_first_str.extend(_str)
+        else:
+            regimen_first_str.append(regimen[0].upper())
+    return "".join(regimen_first_str)
+
+def fjxh_evi_sort(evi_list):
+	for evi in evi_list:
+		regimen_refer_agency = evi["regimen_refer_agency"] if "regimen_refer_agency" in evi.keys() and evi["regimen_refer_agency"] else ""
+		if set(re.split(",", regimen_refer_agency)) & set(["NMPA"]):
+			evi["fjxh_agency"] = 0
+		elif set(re.split(",", regimen_refer_agency)) & set(["FDA"]):
+			evi["fjxh_agency"] = 1
+		else:
+			evi["fjxh_agency"] = 2
+		evi["regimen_name_FJXH_str"] = get_regimen_first_str(evi["regimen_name"])
+	evi_list = sorted(evi_list, key = lambda i:(i["evi_conclusion_simple"], \
+											  	i["sense_rule"], \
+												i["fjxh_agency"], \
+												i["regimen_name_FJXH_str"]))
+	return evi_list
+
+# 2026.08.07-福建肿瘤gBRCA结构化数据
+def fjzl_gbrca_var_sum(data):
+	var_list = data["var_brca"]["snv_s"]["B1_L5"] + data["var_brca"]["snv_s"]["B2_L5"] + \
+			   data["var_brca"]["gcnv_v2"]["B1_gcnv_L5"] + data["var_brca"]["gcnv_v2"]["B2_gcnv_L5"] + \
+			   data["var_brca"]["snv_s"]["B1_L4"] + data["var_brca"]["snv_s"]["B2_L4"] + \
+			   data["var_brca"]["gcnv_v2"]["B1_gcnv_L4"] + data["var_brca"]["gcnv_v2"]["B2_gcnv_L4"]
+	result = {
+		"var" : [],
+		"inter" : ""
+	}
+	for var in var_list:
+		var_info = "{0}基因{1}号外显子发生大片段缺失变异".format(var["gene_symbol"], var["value"].replace("exon", "")) if var["type"] == "Loss" else \
+			       "{0}基因{1}号外显子发生大片段重复变异".format(var["gene_symbol"], var["value"].replace("exon", "")) if var["type"] == "Gain" else \
+				   "{0}基因{1}".format(var["gene_symbol"], var["varInter_FJZL"])
+		var_inter_sum = "该患者外周血基因组DNA样品检测出{0}，{1}该位点证据等级为({2})，判读为{3}，预测其对铂类和PARP抑制剂的反应性可能增高。".format(
+						var_info,
+						var["variant_interpret_cn"],
+						var["evidence_categorys"].replace(";", "+") if "evidence_categorys" in var.keys() and var["evidence_categorys"] else "NF",
+						"致病性变异" if var["clinic_num_g"] == 5 else "疑似致病性变异"
+					)
+		result["var"].append({
+			"var_name" : var["var_name"] if "var_name" in var.keys() and var["var_name"] else "",
+			"interp" : var_inter_sum
+		})
+	var_sum = []
+	for i in ["1", "2"]:
+		L5_var = data["var_brca"]["snv_s"]["B" + i + "_L5"] + data["var_brca"]["gcnv_v2"]["B" + i + "_gcnv_L5"]
+		L4_var = data["var_brca"]["snv_s"]["B" + i + "_L4"] +data["var_brca"]["gcnv_v2"]["B" + i + "_gcnv_L4"]
+		if L5_var and L4_var:
+			var_sum.append("BRCA" + i + "基因致病性和疑似致病性变异")
+		elif L5_var:
+			var_sum.append("BRCA" + i + "基因致病性变异")
+		elif L4_var:
+			var_sum.append("BRCA" + i + "基因疑似致病性变异")
+
+	result["inter"] = "该患者外周血基因组DNA样品检出{0}，建议对患者进行遗传性乳腺癌/卵巢癌相关遗传咨询，并在适当情况下对其可能存在风险的直系亲属行该位点的胚系突变检测，至我院体检中心或专科医生处进行遗传咨询。".format("、".join(var_sum)) if var_sum else ""
 	return result

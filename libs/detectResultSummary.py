@@ -59,7 +59,7 @@ def getSummary_detect(var_data, mlpa_data, config):
 	#2026.03.37-新增完成
 	#2026.06.09-新增复旦中山10基因，嵇梦晨
 	summary_result["format15_forLC10_FDZS"] = format15_lc10(var_data)
-
+	# 2026.06.09-新增完成
 	return summary_result
 
 # 函数1：包含基因、检测内容和检测结果，变异类型包含Snvindel、CNV、SV，包含I/II/III类变异

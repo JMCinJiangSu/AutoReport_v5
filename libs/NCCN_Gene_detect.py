@@ -8,6 +8,9 @@ from libs.rule import S_level, s_var_rule, judge_var, get_varsimpleinfo, judgeRe
 # 2025.11.26-新增CP43配置信息
 from libs.getConfig import CP43_RECOMGene
 # 2025.11.26新增完成
+# 2026.06.16-NCCN指南推荐基因更新
+from libs.getConfig import PAN116_RECOMGene_v20260616, CP40_RECOMGene_v20260616, CP43_RECOMGene_v20260616, CP200_RECOMGene_v20260616, LC76_RECOMGene_v20260616
+# 2026.06.16-更新完成
 
 '''
 Discription
@@ -15,11 +18,77 @@ Discription
 	伴随诊断推荐基因检测结果，格式多种。 
 	
 '''
-def getNCCN_detect(var_data, tumor_list, mlpa_data, config, mlpa_data_v2, gcnv_data_v2):
+
+#2026.06.16-符合要求的医院，删除PIK3CA、PIK3R1和PTEN的结直肠癌
+# 格式1:116/cp200
+def remove_pik_colo_116(recom_list):
+	result = []
+	# 1. 拆分为列表[{gene_symbol:XX, tumor:XX}, {...}]
+	tmp_list = []
+	for i in recom_list:
+		for tumor in re.split("、", i["disease"]):
+			tmp_list.append({"gene_symbol" : i["gene_symbol"], "tumor" : tumor})
+	# 2. 过滤掉PIK3CA、PIK3R1和PTEN的结直肠癌
+	filter_list = [i for i in tmp_list if not (i["gene_symbol"] in ["PIK3CA", "PIK3R1", "PTEN"] and i["tumor"] == "结直肠癌")]
+	# 3. 转化格式{gene_symbol:tumor_list, ……}
+	stran_filter_list = {}
+	for i in filter_list:
+		if i["gene_symbol"] not in stran_filter_list.keys():
+			stran_filter_list.setdefault(i["gene_symbol"], [])
+		stran_filter_list[i["gene_symbol"]].append(i["tumor"])
+	# 4. 转化为一开始的格式
+	for k, v in stran_filter_list.items():
+		result.append({"gene_symbol" : k, "disease" : "、".join(v)})	
+	return result
+
+# 格式2：CP40/43
+def remove_pik_colo_cp(recom_list):
+	result = [i for i in recom_list if not (i["gene_symbol"] in ["PIK3CA", "PIK3R1", "PTEN"] and i["tumor"] == "结直肠癌")]
+
+	return result
+
+
+def getNCCN_detect(var_data, sample, mlpa_data, config, mlpa_data_v2, gcnv_data_v2):
+	tumor_list = sample["tumor_list"]
+	
+	# 2026.06.16-NCCN指南推荐基因列表放在这边统一管理
+	#pan116_recom_list = PAN116_RECOMGene(config)["RECORDS"]
+	#cp40_recom_list = CP40_RECOMGene(config)["RECORDS"]
+	#cp43_recom_list = CP43_RECOMGene(config)["RECORDS"]
+	#cp200_recom_list = PAN116_RECOMGene(config)["RECORDS"]
+
+	# 新的
+	# 2026.06.16-部分医院PIK3CA、PIK3R1和PTEN不输出结直肠癌
+	# 2026.07.21-Master使用CP200推荐基因
+	# 2026.07.31-Master血液使用CP200推荐基因
+	pan116_recom_list = CP200_RECOMGene_v20260616(config)["RECORDS"] if sample["prod_names"] in ["OncoPro（组织）", "Classic Panel 200（组织）", "OncoPro（血液）", "Master Panel（组织）", "Master Panel（血液）"] else LC76_RECOMGene_v20260616(config)["RECORDS"] if sample["prod_names"] in ["LC76（组织）", "LC76（血液）"] else PAN116_RECOMGene_v20260616(config)["RECORDS"]
+	cp40_recom_list = CP40_RECOMGene_v20260616(config)["RECORDS"]
+	cp43_recom_list = CP43_RECOMGene_v20260616(config)["RECORDS"]
+	#cp200_recom_list = CP200_RECOMGene_v20260616(config)["RECORDS"]
+
+	remove_dict = {
+		"广东医科大学附属医院" : {"prod_names" : ["OncoPro（组织）", "Classic Panel 200（组织）", "Pan116（血液）", "Pan116（组织）"], "report_module_type" : "hospital"},
+		"中山市人民医院" : {"prod_names" : ["OncoPro（组织）", "Classic Panel 200（组织）"], "report_module_type" : "hospital"},
+		"佛山市第一人民医院" : {"prod_names" : ["10基因（组织）", "10基因（血液）"], "report_module_type" : "hospital"}
+	}
+	if sample["company"] in remove_dict.keys() and \
+	   sample["prod_names"] in remove_dict[sample["company"]]["prod_names"] and \
+	   sample["report_module_type"] == remove_dict[sample["company"]]["report_module_type"]:
+		if sample["prod_names"] in ["OncoPro（组织）", "Classic Panel 200（组织）", "Pan116（血液）", "Pan116（组织）"]:
+			pan116_recom_list = remove_pik_colo_116(pan116_recom_list)
+
+	# 2026.06.16-新增结束
+
 	cdx_result = {}
 	cdx_result["format1_forMP"] = format1(var_data)
-	cdx_result["format2_forCP"] = format2(var_data, config)
-	cdx_result["format3_forCP_splittumor"], cdx_result["format3_forCP_splittumor_simple"] = format3(var_data, tumor_list, config)
+	# 2026.06.16-NCCN基因改为输出参数
+	#cdx_result["format2_forCP"] = format2(var_data, config)
+	cdx_result["format2_forCP"] = format2(var_data, cp40_recom_list)
+	# 2026.06.16
+	# 2026.06.16-NCCN基因改为输出参数
+	#cdx_result["format3_forCP_splittumor"], cdx_result["format3_forCP_splittumor_simple"] = format3(var_data, tumor_list, config)
+	cdx_result["format3_forCP_splittumor"], cdx_result["format3_forCP_splittumor_simple"] = format3(var_data, tumor_list, cp40_recom_list)
+	# 2026.06.16
 	cdx_result["format4_forHRDC"] = format4(var_data)
 	cdx_result["format5_forHRR"] = format5(var_data, mlpa_data)
 	# 新版报告模板-HRD和HRR新增两个基因-这边加一个版本-2023.12.04
@@ -34,13 +103,18 @@ def getNCCN_detect(var_data, tumor_list, mlpa_data, config, mlpa_data_v2, gcnv_d
 	cdx_result["format5_forHRR_for_new_vesion_mlpa_34"] = format5_for_new_vesion_mlpa_34(var_data, mlpa_data_v2)
 	cdx_result["format5_forHRR_for_new_vesion_gcnv_34"] = format5_for_new_vesion_gcnv_34(var_data, gcnv_data_v2)
 	# 2026.03.16-新增完成
-	cdx_result["format6_for116"] = format6(var_data, config)
-	cdx_result["format7_for116_allVar"] = format7(var_data, config)
+	# 2026.06.16-NCCN基因改为输出参数
+	#cdx_result["format6_for116"] = format6(var_data, config)
+	#cdx_result["format7_for116_allVar"] = format7(var_data, config)
+	cdx_result["format6_for116"] = format6(var_data, pan116_recom_list)
+	cdx_result["format7_for116_allVar"] = format7(var_data, pan116_recom_list)
+	# 2026.06.16
 	# 新增福建省立CP40，III类变异删掉同义突变-20221013
 	var_data_forFJSL = copy.deepcopy(var_data)
 	FJSL_var = s_var_rule(var_data_forFJSL)
 	FJSL_var_for_summary = FJSL_var["level_I"]+FJSL_var["level_II"]+FJSL_var["level_onco_nodrug"]+FJSL_var["level_III_without_Syn"]
-	cdx_result["format8_forCP_FJSL_without_Syn"], cdx_result["format8_forCP_FJSL_without_Syn_simple"]= format3(FJSL_var_for_summary, tumor_list, config)
+	#cdx_result["format8_forCP_FJSL_without_Syn"], cdx_result["format8_forCP_FJSL_without_Syn_simple"]= format3(FJSL_var_for_summary, tumor_list, config)
+	cdx_result["format8_forCP_FJSL_without_Syn"], cdx_result["format8_forCP_FJSL_without_Syn_simple"]= format3(FJSL_var_for_summary, tumor_list, cp40_recom_list)
 	# 新增重庆西南，III类变异删掉非编码区（除剪接）且解读为3的变异-2023.07.13
 	var_data_forCQXN = copy.deepcopy(var_data)
 	var_CQXN_filter = []
@@ -52,7 +126,8 @@ def getNCCN_detect(var_data, tumor_list, mlpa_data, config, mlpa_data_v2, gcnv_d
 				pass
 			else:
 				var_CQXN_filter.append(var)
-	cdx_result["format9_forCP_CQXN"], cdx_result["format9_forCP_CQXN_simple"] = format3(var_CQXN_filter, tumor_list, config)
+	#cdx_result["format9_forCP_CQXN"], cdx_result["format9_forCP_CQXN_simple"] = format3(var_CQXN_filter, tumor_list, config)
+	cdx_result["format9_forCP_CQXN"], cdx_result["format9_forCP_CQXN_simple"] = format3(var_CQXN_filter, tumor_list, cp40_recom_list)
 
 	# 合并梦晨代码-2024.01.11
 	cdx_result["format7_forTC30FJSL"] = format7_FJSL(var_data)
@@ -60,15 +135,21 @@ def getNCCN_detect(var_data, tumor_list, mlpa_data, config, mlpa_data_v2, gcnv_d
 	# 合并梦晨代码结束-2024.01.11
 
 	# 2024.06.06-福建省立116，展示体细胞I/II类变异
-	cdx_result["format9_forFJSL_116"] = format9(var_data, config)
+	#cdx_result["format9_forFJSL_116"] = format9(var_data, config)
+	cdx_result["format9_forFJSL_116"] = format9(var_data, pan116_recom_list)
 	# 2024.06.06-新增结束
 
 	# 2025.03.03-云南肿瘤CP40，展示I/II类变异
-	cdx_result["format10_forYNZL_CP40"] = format_ynzl_cp40(var_data, tumor_list, config)
+	cdx_result["format10_forYNZL_CP40"] = format_ynzl_cp40(var_data, tumor_list, config, cp40_recom_list)
 
 	# 2025.11.26-新增CP43
-	cdx_result["format3_forCP43_splittumor"], cdx_result["format3_forCP43_splittumor_simple"] = format3_cp43(var_data, tumor_list, config)
+	cdx_result["format3_forCP43_splittumor"], cdx_result["format3_forCP43_splittumor_simple"] = format3_cp43(var_data, tumor_list, cp43_recom_list)
 	# 2025.11.26-新增CP43结束
+
+	# 2026.06.26-MSI对应癌种改到这边
+	cdx_result["msi_tumor"] = "实体瘤"
+	#cdx_result["msi_tumor"] = "结直肠癌、实体瘤"
+	# 2026.06.26-新增完成
 
 	return cdx_result
 
@@ -120,13 +201,15 @@ def format1(var_data):
 	# 新增snvindel
 	# snvindel 新增ERBB2 - 2022.08.30
 	# snvindel 新增POLD1、POLE、AKT1、PTEN和VHL - 2025.07.01
+	# snvindel 新增ESR1 - 2026.07.29
 	snvindel_gene = ["EGFR", "KIT", "PDGFRA","BRCA1","BRCA2","ATM","BARD1","BRIP1","CDH1","CDK12","CHEK1","CHEK2",\
 					 "FANCA","FANCL","HDAC2","PALB2","PPP2R2A","PTEN","RAD51B","RAD51C","RAD51D","RAD54L","TP53", "ERBB2", \
-					 "POLD1", "POLE", "AKT1", "PTEN", "VHL"]
+					 "POLD1", "POLE", "AKT1", "PTEN", "VHL", "ESR1"]
 	# snv 新增POLE和POLD1
 	# snv 新增ESR1-2025.07.01
 	snv_gene = ["ALK", "ROS1", "RET", "BRAF", "ERBB2", "PIK3CA", "FGFR2", "FGFR3", "IDH1", "IDH2","BRCA1","BRCA2", "POLE", "POLD1", "ESR1"]
-	fusion_gene = ["ALK", "ROS1", "RET", "FGFR2", "FGFR3", "NTRK1", "NTRK2", "NTRK3"]
+	# sv 新增NRG1 - 2026.07.29
+	fusion_gene = ["ALK", "ROS1", "RET", "FGFR2", "FGFR3", "NTRK1", "NTRK2", "NTRK3", "NRG1"]
 	cnv_gene = ["MET", "ERBB2"]
 	other_gene = ["MET", "KRAS", "NRAS"]
 	result = {}
@@ -191,6 +274,22 @@ def format1(var_data):
 			if "MET_skip" not in result.keys():
 				result.setdefault("MET_skip", [])
 			result["MET_skip"].append(i)
+		
+		# 2026.06.15-新增POLE和POLD1错配修复
+		if i["gene_symbol"] == "POLE" and i["bio_category"] == "Snvindel" and \
+			"var_category_names" in i.keys() and i["var_category_names"] and \
+			  "POLE Proofreading-deficient Mutation" in i["var_category_names"]:
+			if "POLE_proo" not in result.keys():
+				result.setdefault("POLE_proo", [])
+			result["POLE_proo"].append("POLE Proofreading-deficient Mutation")
+
+		if i["gene_symbol"] == "POLD1" and i["bio_category"] == "Snvindel" and \
+			"var_category_names" in i.keys() and i["var_category_names"] and \
+			  "POLD1 Proofreading-deficient Mutation" in i["var_category_names"]:
+			if "POLD1_proo" not in result.keys():
+				result.setdefault("POLD1_proo", [])
+			result["POLD1_proo"].append("POLD1 Proofreading-deficient Mutationn")
+		# 2026.06.15-新增完成
 
 	# 检测结果去重（正常情况下应该不会有重复的）	
 	sort_result = {}
@@ -203,9 +302,10 @@ def format1(var_data):
 
 # 格式2：用于CP40
 # 展示基因、转录本、相关肿瘤、检测结果，不分区癌种，包含I/II/III类变异
-def format2(var_data, config):
+# NCCN推荐基因改为输入参数-2026.06.26
+def format2(var_data, recom_list):
 	var_data_copy = copy.deepcopy(var_data)
-	recom_list = CP40_RECOMGene(config)["RECORDS"]
+	#recom_list = CP40_RECOMGene(config)["RECORDS"]
 	result = []
 	# 处理recom_list
 	recom_dict = {}
@@ -249,9 +349,9 @@ def format2(var_data, config):
 
 # 格式3：用于CP40
 # 展示基因、检测内容和结果，区分癌种，包含I/II/III类变异
-def format3(var_data, tumor_list, config):
+def format3(var_data, tumor_list, recom_list):
 	var_data_copy = copy.deepcopy(var_data)
-	recom_list = CP40_RECOMGene(config)["RECORDS"]
+	#recom_list = CP40_RECOMGene(config)["RECORDS"]
 	# 将基因对应所有癌种合并起来
 	gene_tumor = {}
 	for i in recom_list:
@@ -314,9 +414,9 @@ def format3(var_data, tumor_list, config):
 # 2025.11.26-新增
 # 格式3-CP43：用于CP43
 # 展示基因、检测内容和结果，区分癌种，包含I/II/III类变异
-def format3_cp43(var_data, tumor_list, config):
+def format3_cp43(var_data, tumor_list, recom_list):
 	var_data_copy = copy.deepcopy(var_data)
-	recom_list = CP43_RECOMGene(config)["RECORDS"]
+	#recom_list = CP43_RECOMGene(config)["RECORDS"]
 	# 将基因对应所有癌种合并起来
 	gene_tumor = {}
 	for i in recom_list:
@@ -591,10 +691,11 @@ def format5_for_new_vesion_gcnv_34(var_data, gcnv_data_v2):
 
 
 # 格式6：用于PAN116单独组织、配对组织和全血，包含体细胞I/II/肿瘤发生发展相关和胚系4/5类变异
-def format6(var_data, config):
+def format6(var_data, recom_list):
 	var_data_copy = copy.deepcopy(var_data)
 	recom_dict = {}
-	for i in PAN116_RECOMGene(config)["RECORDS"]:
+	#for i in PAN116_RECOMGene(config)["RECORDS"]:
+	for i in recom_list:
 		recom_dict[i["gene_symbol"]] = i["disease"]
 	recom_gene = [i for i in recom_dict.keys()]
 	var_list = [var for var in var_data_copy if judge_var(var, [4,5], [4,5])]
@@ -617,10 +718,11 @@ def format6(var_data, config):
 
 # 格式7：用于PAN116单独组织、配对组织和全血，包含体细胞I/II/III/肿瘤发生发展相关和胚系4/5类变异
 # 适用模板：西安交大一
-def format7(var_data, config):
+def format7(var_data, recom_list):
 	var_data_copy = copy.deepcopy(var_data)
 	recom_dict = {}
-	for i in PAN116_RECOMGene(config)["RECORDS"]:
+	#for i in PAN116_RECOMGene(config)["RECORDS"]:
+	for i in recom_list:
 		recom_dict[i["gene_symbol"]] = i["disease"]
 	recom_gene = [i for i in recom_dict.keys()]
 	var_list = [var for var in var_data_copy if judge_var(var, [3,4,5], [4,5])]
@@ -757,10 +859,11 @@ def format8_FJXH(var_data):
 # 合并梦晨代码结束-2024.01.11
 
 # 格式9：用于PAN116单独组织-福建省立-仅展示体细胞I/II类变异
-def format9(var_data, config):
+def format9(var_data, recom_list):
 	var_data_copy = copy.deepcopy(var_data)
 	recom_dict = {}
-	for i in PAN116_RECOMGene(config)["RECORDS"]:
+	#for i in PAN116_RECOMGene(config)["RECORDS"]:
+	for i in recom_list:
 		recom_dict[i["gene_symbol"]] = i["disease"]
 	recom_gene = [i for i in recom_dict.keys()]
 	#var_list = [var for var in var_data_copy if judge_var(var, [4,5], [4,5])]
@@ -784,9 +887,9 @@ def format9(var_data, config):
 
 # 2025.03.03-新增云南肿瘤CP40-与癌种/实体瘤相关、I/II类变异结果
 # 展示基因、检测变异类型和结果，区分癌种，包含I/II类变异
-def format_ynzl_cp40(var_data, tumor_list, config):
+def format_ynzl_cp40(var_data, tumor_list, config, recom_list):
 	var_data_copy = copy.deepcopy(var_data)
-	recom_list = CP40_RECOMGene(config)["RECORDS"]
+	#recom_list = CP40_RECOMGene(config)["RECORDS"]
 	gene_type = CP40Gene(config)
 	# 将基因对应所有癌种合并起来
 	gene_tumor = {}

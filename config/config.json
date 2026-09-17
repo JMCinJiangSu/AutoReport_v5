@@ -2742,5 +2742,2539 @@
           "DPYD": "多态性位点",
           "UGT1A1": "多态性位点"
       }
+    },
+    "rpt_guideline_recom_116_v20260616": {
+      "RECORDS": [
+        {
+            "gene_symbol": "AKT1",
+            "disease": "乳腺癌"
+        },
+        {
+            "gene_symbol": "ALK",
+            "disease": "非小细胞肺癌、皮肤黑色素瘤"
+        },
+        {
+            "gene_symbol": "ATM",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "ATR",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、皮肤黑色素瘤、胃肠道间质瘤、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "BRCA1",
+            "disease": "卵巢癌、卵巢/输卵管癌、腹膜癌、前列腺癌、乳腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "BRCA2",
+            "disease": "卵巢癌、卵巢/输卵管癌、腹膜癌、前列腺癌、乳腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "CDK12",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "EGFR",
+            "disease": "非小细胞肺癌"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "disease": "胆道癌、非小细胞肺癌、宫颈癌、壶腹部腺癌、结直肠癌、阑尾肿瘤、乳腺癌、食管癌、胃食管交界癌、胃癌、头颈癌、子宫内膜癌、小肠腺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "ESR1",
+            "disease": "乳腺癌"
+        },
+        {
+            "gene_symbol": "FANCA",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "FGFR1",
+            "disease": "非小细胞肺癌、乳腺癌、头颈癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "disease": "胆道癌、非小细胞肺癌、乳腺癌、头颈癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "disease": "膀胱癌、非小细胞肺癌、乳腺癌、头颈癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "IDH1",
+            "disease": "胆道癌、骨癌"
+        },
+        {
+            "gene_symbol": "KIT",
+            "disease": "皮肤黑色素瘤、胃肠道间质瘤"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "disease": "胆道癌、非小细胞肺癌、壶腹部腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、小肠腺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "MET",
+            "disease": "非小细胞肺癌"
+        },
+        {
+            "gene_symbol": "MLH1",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "MRE11",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "NRAS",
+            "disease": "结直肠癌、阑尾肿瘤、皮肤黑色素瘤"
+        },
+        {
+            "gene_symbol": "NRG1",
+            "disease": "胆道癌、非小细胞肺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、肝细胞癌、宫颈癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、皮肤黑色素瘤、乳腺癌、胃肠道间质瘤、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、肝细胞癌、宫颈癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、皮肤黑色素瘤、乳腺癌、胃肠道间质瘤、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、肝细胞癌、宫颈癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、皮肤黑色素瘤、乳腺癌、胃肠道间质瘤、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "PALB2",
+            "disease": "前列腺癌、乳腺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "PDGFRA",
+            "disease": "胃肠道间质瘤"
+        },
+        {
+            "gene_symbol": "PIK3CA",
+            "disease": "结直肠癌、乳腺癌"
+        },
+        {
+            "gene_symbol": "PIK3R1",
+            "disease": "结直肠癌"
+        },
+        {
+            "gene_symbol": "POLD1",
+            "disease": "结直肠癌、阑尾肿瘤、小肠腺癌"
+        },
+        {
+            "gene_symbol": "POLE",
+            "disease": "结直肠癌、阑尾肿瘤、小肠腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "PTEN",
+            "disease": "结直肠癌、乳腺癌"
+        },
+        {
+            "gene_symbol": "RET",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、肝细胞癌、宫颈癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、乳腺癌、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "disease": "非小细胞肺癌、皮肤黑色素瘤"
+        },
+        {
+            "gene_symbol": "TP53",
+            "disease": "子宫内膜癌"
+        },
+        {
+            "gene_symbol": "VHL",
+            "disease": "肾癌"
+        }
+    ]
+    },
+    "rpt_guideline_recom_cp40_v20260616": {
+      "RECORDS": [
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "实体瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "实体瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "实体瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "实体瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "实体瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "transcript_refseq": "NM_000142.5",
+            "disease": "膀胱癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "胆道癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "胆道癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "transcript_refseq": "NM_000141.5",
+            "disease": "胆道癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "IDH1",
+            "transcript_refseq": "NM_005896.4",
+            "disease": "胆道癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "胆道癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NRG1",
+            "transcript_refseq": "NM_013964.5",
+            "disease": "胆道癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "胆道癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "胆道癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "胆道癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "胆道癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ALK",
+            "transcript_refseq": "NM_004304.5",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "非小细胞肺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "EGFR",
+            "transcript_refseq": "NM_005228.5",
+            "disease": "非小细胞肺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "非小细胞肺癌",
+            "var_type": "CNA, SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR1",
+            "transcript_refseq": "NM_023110.3",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "transcript_refseq": "NM_000141.5",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "transcript_refseq": "NM_000142.5",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "非小细胞肺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "MET",
+            "transcript_refseq": "NM_000245.4",
+            "disease": "非小细胞肺癌",
+            "var_type": "14 skipping, CNA"
+        },
+        {
+            "gene_symbol": "NRG1",
+            "transcript_refseq": "NM_013964.5",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "transcript_refseq": "NM_002944.2",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "肝细胞癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "肝细胞癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "肝细胞癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "肝细胞癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "宫颈癌",
+            "var_type": "CNA, SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "宫颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "宫颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "宫颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "宫颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "IDH1",
+            "transcript_refseq": "NM_005896.4",
+            "disease": "骨癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "壶腹部腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "壶腹部腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "壶腹部腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "壶腹部腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "壶腹部腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "壶腹部腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "壶腹部腺癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "甲状腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "甲状腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "甲状腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "甲状腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "甲状腺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NRAS",
+            "transcript_refseq": "NM_002524.5",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "结直肠癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "POLE",
+            "transcript_refseq": "NM_006231.4",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "结直肠癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "结直肠癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "结直肠癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "PIK3CA",
+            "transcript_refseq": "NM_006218.4",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "PTEN",
+            "transcript_refseq": "NM_000314.8",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "结直肠癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "阑尾肿瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "阑尾肿瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NRAS",
+            "transcript_refseq": "NM_002524.5",
+            "disease": "阑尾肿瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "阑尾肿瘤",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "阑尾肿瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "阑尾肿瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "阑尾肿瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "阑尾肿瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "POLE",
+            "transcript_refseq": "NM_006231.4",
+            "disease": "阑尾肿瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "卵巢癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "卵巢癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "卵巢癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "卵巢癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "卵巢癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "卵巢癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "卵巢/输卵管癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "卵巢/输卵管癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "卵巢/输卵管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "卵巢/输卵管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "卵巢/输卵管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "卵巢/输卵管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "腹膜癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "腹膜癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "腹膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "腹膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "腹膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "腹膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ALK",
+            "transcript_refseq": "NM_004304.5",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "KIT",
+            "transcript_refseq": "NM_000222.3",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "CNA, SNV, InDel"
+        },
+        {
+            "gene_symbol": "NRAS",
+            "transcript_refseq": "NM_002524.5",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "transcript_refseq": "NM_002944.2",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "乳腺癌",
+            "var_type": "CNA, SNV, InDel"
+        },
+        {
+            "gene_symbol": "ESR1",
+            "transcript_refseq": "NM_000125.4",
+            "disease": "乳腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR1",
+            "transcript_refseq": "NM_023110.3",
+            "disease": "乳腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "transcript_refseq": "NM_000141.5",
+            "disease": "乳腺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "transcript_refseq": "NM_000142.5",
+            "disease": "乳腺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "乳腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "乳腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "乳腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "PIK3CA",
+            "transcript_refseq": "NM_006218.4",
+            "disease": "乳腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "AKT1",
+            "transcript_refseq": "NM_001382430.1",
+            "disease": "乳腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "PTEN",
+            "transcript_refseq": "NM_000314.8",
+            "disease": "乳腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "乳腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "胃肠道间质瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KIT",
+            "transcript_refseq": "NM_000222.3",
+            "disease": "胃肠道间质瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "PDGFRA",
+            "transcript_refseq": "NM_006206.6",
+            "disease": "胃肠道间质瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "胃肠道间质瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "胃肠道间质瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "胃肠道间质瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "食管癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "食管癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "食管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "食管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "食管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "食管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "胃食管交界癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "胃食管交界癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "胃食管交界癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "胃食管交界癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "胃食管交界癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "胃食管交界癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "胃癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "胃癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "胃癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "胃癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "胃癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "胃癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "头颈癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "头颈癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "FGFR1",
+            "transcript_refseq": "NM_023110.3",
+            "disease": "头颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "transcript_refseq": "NM_000141.5",
+            "disease": "头颈癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "transcript_refseq": "NM_000142.5",
+            "disease": "头颈癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "头颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "头颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "头颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "头颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "小肠腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "小肠腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "POLE",
+            "transcript_refseq": "NM_006231.4",
+            "disease": "小肠腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "小肠腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "小肠腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "小肠腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "小肠腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "胰腺腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR1",
+            "transcript_refseq": "NM_023110.3",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "transcript_refseq": "NM_000141.5",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "transcript_refseq": "NM_000142.5",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "胰腺腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NRG1",
+            "transcript_refseq": "NM_013964.5",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "子宫内膜癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "子宫内膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "子宫内膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "子宫内膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "子宫内膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "POLE",
+            "transcript_refseq": "NM_006231.4",
+            "disease": "子宫内膜癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "TP53",
+            "transcript_refseq": "NM_000546.6",
+            "disease": "子宫内膜癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "小肠腺癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "胰腺腺癌",
+            "var_type": "CNA"
+        }
+    ]
+    },
+    "rpt_guideline_recom_cp43_v20260616": {
+      "RECORDS": [
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "实体瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "实体瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "实体瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "实体瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "实体瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "transcript_refseq": "NM_000142.5",
+            "disease": "膀胱癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "胆道癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "胆道癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "transcript_refseq": "NM_000141.5",
+            "disease": "胆道癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "IDH1",
+            "transcript_refseq": "NM_005896.4",
+            "disease": "胆道癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "胆道癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NRG1",
+            "transcript_refseq": "NM_013964.5",
+            "disease": "胆道癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "胆道癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "胆道癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "胆道癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "胆道癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ALK",
+            "transcript_refseq": "NM_004304.5",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "非小细胞肺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "EGFR",
+            "transcript_refseq": "NM_005228.5",
+            "disease": "非小细胞肺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "非小细胞肺癌",
+            "var_type": "CNA, SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR1",
+            "transcript_refseq": "NM_023110.3",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "transcript_refseq": "NM_000141.5",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "transcript_refseq": "NM_000142.5",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "非小细胞肺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "MET",
+            "transcript_refseq": "NM_000245.4",
+            "disease": "非小细胞肺癌",
+            "var_type": "14 skipping, CNA"
+        },
+        {
+            "gene_symbol": "NRG1",
+            "transcript_refseq": "NM_013964.5",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "transcript_refseq": "NM_002944.2",
+            "disease": "非小细胞肺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "肝细胞癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "肝细胞癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "肝细胞癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "肝细胞癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "宫颈癌",
+            "var_type": "CNA, SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "宫颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "宫颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "宫颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "宫颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "IDH1",
+            "transcript_refseq": "NM_005896.4",
+            "disease": "骨癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "壶腹部腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "壶腹部腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "壶腹部腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "壶腹部腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "壶腹部腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "壶腹部腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "壶腹部腺癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "甲状腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "甲状腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "甲状腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "甲状腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "甲状腺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NRAS",
+            "transcript_refseq": "NM_002524.5",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "结直肠癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "POLE",
+            "transcript_refseq": "NM_006231.4",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "POLD1",
+            "transcript_refseq": "NM_002691.4",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "结直肠癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "结直肠癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "结直肠癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "PIK3CA",
+            "transcript_refseq": "NM_006218.4",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "PTEN",
+            "transcript_refseq": "NM_000314.8",
+            "disease": "结直肠癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "结直肠癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "阑尾肿瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "阑尾肿瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NRAS",
+            "transcript_refseq": "NM_002524.5",
+            "disease": "阑尾肿瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "阑尾肿瘤",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "阑尾肿瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "阑尾肿瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "阑尾肿瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "阑尾肿瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "POLE",
+            "transcript_refseq": "NM_006231.4",
+            "disease": "阑尾肿瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "POLD1",
+            "transcript_refseq": "NM_002691.4",
+            "disease": "阑尾肿瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "卵巢癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "卵巢癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "卵巢癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "卵巢癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "卵巢癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "卵巢癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "卵巢/输卵管癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "卵巢/输卵管癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "卵巢/输卵管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "卵巢/输卵管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "卵巢/输卵管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "卵巢/输卵管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "腹膜癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "腹膜癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "腹膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "腹膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "腹膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "腹膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ALK",
+            "transcript_refseq": "NM_004304.5",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "KIT",
+            "transcript_refseq": "NM_000222.3",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "CNA, SNV, InDel"
+        },
+        {
+            "gene_symbol": "NRAS",
+            "transcript_refseq": "NM_002524.5",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "transcript_refseq": "NM_002944.2",
+            "disease": "皮肤黑色素瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "乳腺癌",
+            "var_type": "CNA, SNV, InDel"
+        },
+        {
+            "gene_symbol": "ESR1",
+            "transcript_refseq": "NM_000125.4",
+            "disease": "乳腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR1",
+            "transcript_refseq": "NM_023110.3",
+            "disease": "乳腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "transcript_refseq": "NM_000141.5",
+            "disease": "乳腺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "transcript_refseq": "NM_000142.5",
+            "disease": "乳腺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "乳腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "乳腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "乳腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "PIK3CA",
+            "transcript_refseq": "NM_006218.4",
+            "disease": "乳腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "AKT1",
+            "transcript_refseq": "NM_001382430.1",
+            "disease": "乳腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "PTEN",
+            "transcript_refseq": "NM_000314.8",
+            "disease": "乳腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "乳腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "胃肠道间质瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KIT",
+            "transcript_refseq": "NM_000222.3",
+            "disease": "胃肠道间质瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "PDGFRA",
+            "transcript_refseq": "NM_006206.6",
+            "disease": "胃肠道间质瘤",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "胃肠道间质瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "胃肠道间质瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "胃肠道间质瘤",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "食管癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "食管癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "食管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "食管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "食管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "食管癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "胃食管交界癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "胃食管交界癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "胃食管交界癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "胃食管交界癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "胃食管交界癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "胃食管交界癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "胃癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "胃癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "胃癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "胃癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "胃癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "胃癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "头颈癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "头颈癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "FGFR1",
+            "transcript_refseq": "NM_023110.3",
+            "disease": "头颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "transcript_refseq": "NM_000141.5",
+            "disease": "头颈癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "transcript_refseq": "NM_000142.5",
+            "disease": "头颈癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "头颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "头颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "头颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "头颈癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "小肠腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "小肠腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "POLE",
+            "transcript_refseq": "NM_006231.4",
+            "disease": "小肠腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "POLD1",
+            "transcript_refseq": "NM_002691.4",
+            "disease": "小肠腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "小肠腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "小肠腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "小肠腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "小肠腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "transcript_refseq": "NM_004333.6",
+            "disease": "胰腺腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR1",
+            "transcript_refseq": "NM_023110.3",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "transcript_refseq": "NM_000141.5",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "transcript_refseq": "NM_000142.5",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion, SNV, InDel"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "transcript_refseq": "NM_004985.5",
+            "disease": "胰腺腺癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "NRG1",
+            "transcript_refseq": "NM_013964.5",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "胰腺腺癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "子宫内膜癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "transcript_refseq": "NM_002529.4",
+            "disease": "子宫内膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "transcript_refseq": "NM_006180.6",
+            "disease": "子宫内膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "transcript_refseq": "NM_001012338.3",
+            "disease": "子宫内膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "RET",
+            "transcript_refseq": "NM_020975.6",
+            "disease": "子宫内膜癌",
+            "var_type": "Fusion"
+        },
+        {
+            "gene_symbol": "POLE",
+            "transcript_refseq": "NM_006231.4",
+            "disease": "子宫内膜癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "TP53",
+            "transcript_refseq": "NM_000546.6",
+            "disease": "子宫内膜癌",
+            "var_type": "SNV, InDel"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "小肠腺癌",
+            "var_type": "CNA"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "transcript_refseq": "NM_004448.4",
+            "disease": "胰腺腺癌",
+            "var_type": "CNA"
+        }
+    ]
+    },
+    "rpt_guideline_recom_200_v20260616": {
+      "RECORDS": [
+        {
+            "gene_symbol": "AKT1",
+            "disease": "乳腺癌"
+        },
+        {
+            "gene_symbol": "ALK",
+            "disease": "非小细胞肺癌、皮肤黑色素瘤"
+        },
+        {
+            "gene_symbol": "ATM",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "ATR",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "BARD1",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、皮肤黑色素瘤、胃肠道间质瘤、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "BRCA1",
+            "disease": "卵巢癌、卵巢/输卵管癌、腹膜癌、前列腺癌、乳腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "BRCA2",
+            "disease": "卵巢癌、卵巢/输卵管癌、腹膜癌、前列腺癌、乳腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "BRIP1",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "CDK12",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "CHEK1",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "CHEK2",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "EGFR",
+            "disease": "非小细胞肺癌"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "disease": "胆道癌、非小细胞肺癌、宫颈癌、壶腹部腺癌、结直肠癌、阑尾肿瘤、乳腺癌、食管癌、胃食管交界癌、胃癌、头颈癌、子宫内膜癌、小肠腺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "ESR1",
+            "disease": "乳腺癌"
+        },
+        {
+            "gene_symbol": "FANCA",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "FANCL",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "FGFR1",
+            "disease": "非小细胞肺癌、乳腺癌、头颈癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "disease": "胆道癌、非小细胞肺癌、乳腺癌、头颈癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "disease": "膀胱癌、非小细胞肺癌、乳腺癌、头颈癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "IDH1",
+            "disease": "胆道癌、骨癌"
+        },
+        {
+            "gene_symbol": "KIT",
+            "disease": "皮肤黑色素瘤、胃肠道间质瘤"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "disease": "胆道癌、非小细胞肺癌、壶腹部腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、小肠腺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "MET",
+            "disease": "非小细胞肺癌"
+        },
+        {
+            "gene_symbol": "MLH1",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "MRE11",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "MYCN",
+            "disease": "神经母细胞瘤"
+        },
+        {
+            "gene_symbol": "NBN",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "NRAS",
+            "disease": "结直肠癌、阑尾肿瘤、皮肤黑色素瘤"
+        },
+        {
+            "gene_symbol": "NRG1",
+            "disease": "胆道癌、非小细胞肺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、肝细胞癌、宫颈癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、皮肤黑色素瘤、乳腺癌、胃肠道间质瘤、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、肝细胞癌、宫颈癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、皮肤黑色素瘤、乳腺癌、胃肠道间质瘤、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、肝细胞癌、宫颈癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、皮肤黑色素瘤、乳腺癌、胃肠道间质瘤、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "PALB2",
+            "disease": "前列腺癌、乳腺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "PDGFRA",
+            "disease": "胃肠道间质瘤"
+        },
+        {
+            "gene_symbol": "PIK3CA",
+            "disease": "结直肠癌、乳腺癌"
+        },
+        {
+            "gene_symbol": "PIK3R1",
+            "disease": "结直肠癌"
+        },
+        {
+            "gene_symbol": "POLD1",
+            "disease": "结直肠癌、阑尾肿瘤、小肠腺癌"
+        },
+        {
+            "gene_symbol": "POLE",
+            "disease": "结直肠癌、阑尾肿瘤、小肠腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "PTEN",
+            "disease": "结直肠癌、乳腺癌"
+        },
+        {
+            "gene_symbol": "RAD51B",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "RAD51C",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "RAD51D",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "RAD54L",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "RET",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、肝细胞癌、宫颈癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、乳腺癌、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "disease": "非小细胞肺癌、皮肤黑色素瘤"
+        },
+        {
+            "gene_symbol": "TP53",
+            "disease": "子宫内膜癌"
+        },
+        {
+            "gene_symbol": "VHL",
+            "disease": "肾癌"
+        }
+    ]
+    },
+    "rpt_guideline_recom_76_v20260616": {
+      "RECORDS": [
+        {
+            "gene_symbol": "AKT1",
+            "disease": "乳腺癌"
+        },
+        {
+            "gene_symbol": "ALK",
+            "disease": "非小细胞肺癌、皮肤黑色素瘤"
+        },
+        {
+            "gene_symbol": "ATM",
+            "disease": "前列腺癌"
+        },
+        {
+            "gene_symbol": "BRAF",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、皮肤黑色素瘤、胃肠道间质瘤、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "BRCA1",
+            "disease": "卵巢癌、卵巢/输卵管癌、腹膜癌、前列腺癌、乳腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "BRCA2",
+            "disease": "卵巢癌、卵巢/输卵管癌、腹膜癌、前列腺癌、乳腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "EGFR",
+            "disease": "非小细胞肺癌"
+        },
+        {
+            "gene_symbol": "ERBB2",
+            "disease": "胆道癌、非小细胞肺癌、宫颈癌、壶腹部腺癌、结直肠癌、阑尾肿瘤、乳腺癌、食管癌、胃食管交界癌、胃癌、头颈癌、子宫内膜癌、小肠腺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "ESR1",
+            "disease": "乳腺癌"
+        },
+        {
+            "gene_symbol": "FGFR1",
+            "disease": "非小细胞肺癌、乳腺癌、头颈癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "FGFR2",
+            "disease": "胆道癌、非小细胞肺癌、乳腺癌、头颈癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "FGFR3",
+            "disease": "膀胱癌、非小细胞肺癌、乳腺癌、头颈癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "IDH1",
+            "disease": "胆道癌、骨癌"
+        },
+        {
+            "gene_symbol": "KIT",
+            "disease": "皮肤黑色素瘤、胃肠道间质瘤"
+        },
+        {
+            "gene_symbol": "KRAS",
+            "disease": "胆道癌、非小细胞肺癌、壶腹部腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、小肠腺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "MET",
+            "disease": "非小细胞肺癌"
+        },
+        {
+            "gene_symbol": "NRAS",
+            "disease": "结直肠癌、阑尾肿瘤、皮肤黑色素瘤"
+        },
+        {
+            "gene_symbol": "NRG1",
+            "disease": "胆道癌、非小细胞肺癌、胰腺腺癌"
+        },
+        {
+            "gene_symbol": "NTRK1",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、肝细胞癌、宫颈癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、皮肤黑色素瘤、乳腺癌、胃肠道间质瘤、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "NTRK2",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、肝细胞癌、宫颈癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、皮肤黑色素瘤、乳腺癌、胃肠道间质瘤、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "NTRK3",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、肝细胞癌、宫颈癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、皮肤黑色素瘤、乳腺癌、胃肠道间质瘤、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "PDGFRA",
+            "disease": "胃肠道间质瘤"
+        },
+        {
+            "gene_symbol": "PIK3CA",
+            "disease": "结直肠癌、乳腺癌"
+        },
+        {
+            "gene_symbol": "POLD1",
+            "disease": "结直肠癌、阑尾肿瘤、小肠腺癌"
+        },
+        {
+            "gene_symbol": "POLE",
+            "disease": "结直肠癌、阑尾肿瘤、小肠腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "PTEN",
+            "disease": "结直肠癌、乳腺癌"
+        },
+        {
+            "gene_symbol": "RET",
+            "disease": "实体瘤、胆道癌、非小细胞肺癌、肝细胞癌、宫颈癌、壶腹部腺癌、甲状腺癌、结直肠癌、阑尾肿瘤、卵巢癌、卵巢/输卵管癌、腹膜癌、乳腺癌、食管癌、胃食管交界癌、胃癌、头颈癌、小肠腺癌、胰腺腺癌、子宫内膜癌"
+        },
+        {
+            "gene_symbol": "ROS1",
+            "disease": "非小细胞肺癌、皮肤黑色素瘤"
+        },
+        {
+            "gene_symbol": "TP53",
+            "disease": "子宫内膜癌"
+        }
+    ]
     }
 }

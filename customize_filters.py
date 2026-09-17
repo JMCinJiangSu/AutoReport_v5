@@ -3839,8 +3839,8 @@ def get_analysis_version(json_batch_name):
 		# export上传包：日期_测序仪_测序芯片_生信分析包_版本.export系统日期流水号20260512_XMHL_A018293_ADXHS-OncoPro_v0.1.3.export20260512073542
 		# 2025.09.24-v4上zip上传包格式和export一样
 		elif len(json_batch_list) == 5:
-			version = re.split("\.export|\.zip", json_batch_list[-1])
-			print(version)
+			version = re.split(r"\.export|\.zip", json_batch_list[-1])
+			#print(version)
 			result = json_batch_list[3]+"_"+version[0]
 	return result
 jinja2.filters.FILTERS["get_analysis_version"] = get_analysis_version
@@ -4281,7 +4281,7 @@ def get_analysis_version_ynzl(json_batch_name):
 			result = json_batch_list[4]
 		# export上传包：日期_测序仪_测序芯片_生信分析包_版本.export系统日期流水号
 		elif len(json_batch_list) == 5:
-			result = re.split("\.export|\.zip", json_batch_list[-1])[0]
+			result = re.split(r"\.export|\.zip", json_batch_list[-1])[0]
 	return result
 jinja2.filters.FILTERS["get_analysis_version_ynzl"] = get_analysis_version_ynzl
 
@@ -4466,15 +4466,22 @@ def fdzs_mp_remap_sum(info):
 				biomarker_result["sv"].extend(get_sv(var_list, re.split("_", biomarker)[0]))
 	# 对分子标志物检测结果进行整理
 	# 返回[gene基因变异, gene融合, gene1-gene2融合, gene基因扩增]	
+	# 2026.06.16-加上去重的功能-这边再看看
+	def redup(bio_list):
+		result = []
+		for i in bio_list:
+			if i not in result:
+				result.append(i)
+		return result
 	biomarker_result_sum = []
 	if biomarker_result["all"]:
-		biomarker_result_sum.append({"gene" : "、".join(biomarker_result["all"]), "add_info" : "基因变异"})
+		biomarker_result_sum.append({"gene" : "、".join(redup(biomarker_result["all"])), "add_info" : "基因变异"})
 	if biomarker_result["sv"]:
-		biomarker_result_sum.append({"gene" : "、".join(biomarker_result["sv"]), "add_info" : "融合"})
+		biomarker_result_sum.append({"gene" : "、".join(redup(biomarker_result["sv"])), "add_info" : "融合"})
 	if biomarker_result["sv_detail"]:
-		biomarker_result_sum.append({"gene" : "、".join(biomarker_result["sv_detail"]), "add_info" : "融合"})
+		biomarker_result_sum.append({"gene" : "、".join(redup(biomarker_result["sv_detail"])), "add_info" : "融合"})
 	if biomarker_result["cnv"]:
-		biomarker_result_sum.append({"gene" : "、".join(biomarker_result["cnv"]), "add_info" : "基因扩增"})
+		biomarker_result_sum.append({"gene" : "、".join(redup(biomarker_result["cnv"])), "add_info" : "基因扩增"})
 	
 	return biomarker_result_sum
 jinja2.filters.FILTERS["fdzs_mp_remap_sum"] = fdzs_mp_remap_sum
@@ -5997,16 +6004,17 @@ def io_detect_for_BDS_MP_v2(info):
 				io_result.setdefault("ALK", [])
 			io_result["ALK"].append(var)
 		# HD基因经确认同时展示snvindel和hd
-		elif var["bio_category"] == "Snvindel" or var["bio_category"] == "PHd" and var["gene_symbol"] in hd_gene_list:
+		elif (var["bio_category"] == "Snvindel" or var["bio_category"] == "PHd") and var["gene_symbol"] in hd_gene_list:
 			if var["gene_symbol"] not in io_result.keys():
 				io_result.setdefault(var["gene_symbol"], [])
 			io_result[var["gene_symbol"]].append(var)
 		# 其余基因展示Snvindel
-		elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N:
+		# 2026.08.10-修复仅展示CNV和SV的基因还会展示Snvindel的情况
+		#elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N:
+		elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N and var["gene_symbol"] not in cnv_gene_list+hd_gene_list and var["gene_symbol"] != "ALK":
 			if var["gene_symbol"] not in io_result.keys():
 				io_result.setdefault(var["gene_symbol"], [])
 			io_result[var["gene_symbol"]].append(var)
-
 	# summary展示
 	io_p_list = [i for k,v in io_result.items() for i in v if k not in both_cnv_list and k in io_gene_P]
 	io_n_list = [i for k,v in io_result.items() for i in v if k not in both_cnv_list and k in io_gene_N]
@@ -6148,6 +6156,22 @@ def shfk_cp200_hd_filter_v2(info):
 	else:
 		return "、".join(nega)
 jinja2.filters.FILTERS["shfk_cp200_hd_filter_v2"] = shfk_cp200_hd_filter_v2
+
+# 适配0.1.4 HD，刘炜芬，2026.06.29
+def shfk_cp200_hd_filter_v3(info):
+	var_list = info[0]
+	hd_type = info[1]
+	posi = [var["gene_symbol"] for var in var_list if var["bio_category"] == "PHd"]
+	nega = []
+	hd_gene_list = ["ATM", "BARD1", "BRCA1", "BRCA2", "BRIP1", "CDK12", "CDKN2A", "CDKN2B", "CHEK1", "CHEK2", "FANCA", "FANCL", "HDAC2", "HOXB13", 
+				 "MMS22L", "MTAP", "NF1", "PALB2", "PTEN", "RAD51B", "RAD51C", "RAD51D", "RAD54L", "RASA1", "SETD2", "TP53"]
+	for gene in set(hd_gene_list) - set([var["gene_symbol"] for var in var_list if var["bio_category"] == "PHd"]):
+		nega.append(gene)
+	if hd_type == "positive":
+		return "、".join(posi)
+	else:
+		return "、".join(nega)
+jinja2.filters.FILTERS["shfk_cp200_hd_filter_v3"] = shfk_cp200_hd_filter_v3
 
 # 北大三MP-变异排序按基因首字母-2024.11.21
 def bds_mp_var_sort(var_list):
@@ -6972,7 +6996,7 @@ jinja2.filters.FILTERS["ncfy_gbptm_var_sum"] = ncfy_gbptm_var_sum
 # 再按首字母排
 def get_regimen_first_str(regimen_name):
     regimen_first_str = []
-    for regimen in re.split("\+", regimen_name):
+    for regimen in re.split(r"\+", regimen_name):
         if "\u4e00" <= regimen <= "\u9fff":
             _str = []
             for i in regimen:
@@ -8995,7 +9019,7 @@ def hx_150_risk(info):
 			site1_list = [i["inter"] for i in var["hx_150_gene_risk_inter"]]
 			reference.extend([i["reference"] for i in var["hx_150_gene_risk_inter"] if i["reference"]])
 		else:
-			category_list = [i for i in var["hx_150_gene_risk_inter"] if var_category_names and set(re.split(",", var_category_names)) & set(re.split("\|\|", i["var_category_names"]))]
+			category_list = [i for i in var["hx_150_gene_risk_inter"] if var_category_names and set(re.split(",", var_category_names)) & set(re.split(r"\|\|", i["var_category_names"]))]
 			#print ("category_list", category_list)
 			nocategory_list = [i for i in var["hx_150_gene_risk_inter"] if not i["var_category_names"]]
 			#print ("nocategory_list", nocategory_list)
@@ -9052,7 +9076,7 @@ def hx_150_risk(info):
 		# 样式3：总结一句话
 		risk_table_tmp_dict = {}
 		if var["hx_150_gene_risk_table"]:
-			hx_150_gene_risk_table_filter_category = [i for i in var["hx_150_gene_risk_table"] if var_category_names and set(re.split(",", var_category_names)) & set(re.split("\|\|", i["var_category_names"]))]
+			hx_150_gene_risk_table_filter_category = [i for i in var["hx_150_gene_risk_table"] if var_category_names and set(re.split(",", var_category_names)) & set(re.split(r"\|\|", i["var_category_names"]))]
 			hx_150_gene_risk_table_filter_nocategory = [i for i in var["hx_150_gene_risk_table"] if not i["var_category_names"]]
 			hx_150_gene_risk_table_filter = hx_150_gene_risk_table_filter_category if hx_150_gene_risk_table_filter_category else hx_150_gene_risk_table_filter_nocategory
 			for i in hx_150_gene_risk_table_filter:
@@ -9082,7 +9106,7 @@ def hx_150_risk(info):
 		# 样式2：需要区分儿童和成年人
 		hx_150_gene_risk_management_dict = {}
 		if var["hx_150_gene_risk_management"]:
-			hx_150_gene_risk_management_filter_category = [i for i in var["hx_150_gene_risk_management"] if var_category_names and set(re.split(",", var_category_names)) & set(re.split("\|\|", i["var_category_names"]))]
+			hx_150_gene_risk_management_filter_category = [i for i in var["hx_150_gene_risk_management"] if var_category_names and set(re.split(",", var_category_names)) & set(re.split(r"\|\|", i["var_category_names"]))]
 			hx_150_gene_risk_management_filter_nocategory = [i for i in var["hx_150_gene_risk_management"] if not i["var_category_names"]]
 			hx_150_gene_risk_management_filter = hx_150_gene_risk_management_filter_category if hx_150_gene_risk_management_filter_category else hx_150_gene_risk_management_filter_nocategory
 			#tumor_sort = []
@@ -10363,8 +10387,10 @@ def xajdy_nccn_result_germline(info):
 		gene_list = hrd_gene_list
 	elif prod_name == "61遗传基因":
 		gene_list = gene61_gene_list
+	# 2026.07.22-150仅展示BRCA1、BRCA2
 	elif prod_name == "遗传易感150基因":
-		gene_list = gene150_gene_list
+		#gene_list = gene150_gene_list
+		gene_list = brca_gene_list
 	# 汇总结果
 	raw_result = [var for var in var_list if set(re.split(",", var["gene_symbol"])) & set(gene_list)]
 	detect_gene = []
@@ -11263,7 +11289,7 @@ def zsly_co_mutation_add_subscript_v2(var_list):
 				if "Snvindel" not in result:
 					result.append("Snvindel")
 			elif float(var["freq"]) < 0.01:
-				if "Svnidel_2" not in result:
+				if "Snvindel_2" not in result: #修改Svnidel为Snvindel 2026.05.07 孟智悦
 					result.append("Snvindel_2")
 		elif "bio_category" in var.keys() and var["bio_category"] and var["bio_category"] == "Cnv":
 			if var["gene_symbol"] in ["ERBB2", "MET"]:
@@ -12141,7 +12167,8 @@ def io_detect_for_BDS_CP200_v2(info):
 				io_result.setdefault(var["gene_symbol"], [])
 			io_result[var["gene_symbol"]].append(var)
 		# 其余基因展示Snvindel
-		elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N:
+		# 2026.08.10-修复仅展示CNV和SV的基因还会展示Snvindel的情况
+		elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N and var["gene_symbol"] not in cnv_gene_list and var["gene_symbol"] not in ["ALK", "CDKN2A", "CDKN2B"]:
 			if var["gene_symbol"] not in io_result.keys():
 				io_result.setdefault(var["gene_symbol"], [])
 			io_result[var["gene_symbol"]].append(var)
@@ -12834,6 +12861,7 @@ def sdsl_pthrr_sum(info):
 jinja2.filters.FILTERS["sdsl_pthrr_sum"] = sdsl_pthrr_sum
 
 # 新疆附一CP200，I-IV类变异展示-2025.11.11
+# 2026.07.03-新增HD
 def xjfy_cp200_i_iv_sum(var_list):
 	for var in var_list:
 		if var["bio_category"] == "Snvindel":
@@ -12847,6 +12875,10 @@ def xjfy_cp200_i_iv_sum(var_list):
 				var["xjfy_var_info"] = "exon14 skipping"
 			else:
 				var["xjfy_var_info"] = "融合"
+		# 2026.07.03-新增HD
+		elif var["bio_category"] == "PHd":
+			var["xjfy_var_info"] = "纯合缺失"
+		# 2026.07.03-新增完成
 	
 	if len(var_list) > 1:
 		for var in var_list[0:-1]:
@@ -12915,7 +12947,7 @@ def hx_breast_template_v2(info):
 	for var in var_list:
 		num = 1
 		var_significance = hx_breast_template_significance.get(var["gene_symbol"], {})
-		if not (var_significance and set(re.split("\|\|", var_significance["var_category_names"])) & set(re.split(",", var["var_category_names"]))):
+		if not (var_significance and set(re.split(r"\|\|", var_significance["var_category_names"])) & set(re.split(",", var["var_category_names"]))):
 			var_significance = {}
 		# 1. 预后信息-仅乳腺癌
 		prognostic = var_significance["prognostic_breast"] if "乳腺癌" in tumor_list and \
@@ -13408,7 +13440,9 @@ def whtj_mp_io(var_list):
 		elif (var["bio_category"] == "Snvindel" or var["bio_category"] == "PHd") and var["gene_symbol"] in hd_gene_list:
 			io_result.append(var)
 		# 其余基因展示Snvindel
-		elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N:
+		# 2026.08.10-修复仅展示CNV和SV的基因还会展示Snvindel的情况
+		#elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N:
+		elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N and var["gene_symbol"] not in cnv_gene_list+hd_gene_list and var["gene_symbol"] != "ALK":
 			io_result.append(var)
 
 	io_p_result = [var for var in io_result if var["gene_symbol"] in io_gene_P]
@@ -14028,7 +14062,7 @@ def fdzs_rnaseq_merge_sv(var_list):
 	for var in sv_data:
 		# 获取key 赋值给hgvs_p
 		var["hgvs_p"] = var["five_prime_gene"] + ":" + var["five_prime_cds"] + "-" + var["three_prime_gene"] + ":" + var["three_prime_cds"]
-		print ("1111", var["hgvs_p"], var["freq"])
+		#print ("1111", var["hgvs_p"], var["freq"])
 		Predictive_evi = [evi["regimen_name"] for evi in var["evi_sum"]["evi_split"]["Predictive"]] if "Predictive" in var["evi_sum"]["evi_split"].keys() and var["evi_sum"]["evi_split"]["Predictive"] else []
 		Prognostic_evi = [evi["clinical_significance"] for evi in var["evi_sum"]["evi_split"]["Prognostic"]] if "Prognostic" in var["evi_sum"]["evi_split"].keys() and var["evi_sum"]["evi_split"]["Prognostic"] else []
 		Diagnostic_evi = ["Diagnostic" for evi in var["evi_sum"]["evi_split"]["Diagnostic"]] if "Diagnostic" in var["evi_sum"]["evi_split"].keys() and var["evi_sum"]["evi_split"]["Diagnostic"] else []
@@ -14104,8 +14138,17 @@ def wfy_hrd_regimen_sum(info):
 	for var in brca_list:
 		if "Predictive" in var["evi_sum"]["evi_split"].keys() and var["evi_sum"]["evi_split"]["Predictive"]:
 			for evi in var["evi_sum"]["evi_split"]["Predictive"]:
-				if evi not in sum_evi:
-					sum_evi.append(evi)
+				# 2026.09.11-多个BRCA变异时，这边会重复展示（因为evi中有var_name）
+				evi_tmp = {
+					"regimen_name" : evi["regimen_name"],
+					"evi_conclusion_simple" : evi["evi_conclusion_simple"],
+					"sense_rule" : evi["sense_rule"],
+					"regimen_name_py" :  evi["regimen_name_py"],
+					"evi_adaptation_disease_cn" : evi["evi_adaptation_disease_cn"],
+					"evi_interpretation" : evi["evi_interpretation"]
+				}
+				if evi_tmp not in sum_evi:
+					sum_evi.append(evi_tmp)
 					brca_regimen.append(evi["regimen_name"])
 	if gss_evi and "evi_split" in gss_evi.keys() and gss_evi["evi_split"] and "Predictive" in gss_evi["evi_split"].keys() and gss_evi["evi_split"]["Predictive"]:
 		for evi in gss_evi["evi_split"]["Predictive"]:
@@ -14114,6 +14157,8 @@ def wfy_hrd_regimen_sum(info):
 	
 	# 排序、合并
 	sum_evi = sorted(sum_evi, key = lambda i:(i["evi_conclusion_simple"], i["sense_rule"], i["regimen_name_py"].upper()))
+	#for a in sum_evi:
+	#	print (a)
 
 	tmp_dict = {}
 	for evi in sum_evi:
@@ -14826,6 +14871,646 @@ def ntzl_cp200_judge_hd(var_list):
 		return False
 jinja2.filters.FILTERS["ntzl_cp200_judge_hd"] = ntzl_cp200_judge_hd
 
+# 2026.06.01-华西150体检-汇总无风险管理，但是存在AR的变异描述
+def hx_150_ar_risk(var_list):
+	result = []
+	for var in var_list:
+		if not var["hx_150_gene_risk_management_list"] and var["hx_150_gene_risk_inter_site3"]:
+			result.append(var)
+	return result
+jinja2.filters.FILTERS["hx_150_ar_risk"] = hx_150_ar_risk
+
+# 2026.06.01-南通肿瘤CP200，临床试验根据I/II类变异再过滤下（HD变异根据质控决定要不要展示）
+def ntzl_cp200_filter_clinic_trial(info):
+	var_list = info[0]
+	clinic_trial = info[1]
+	gene_list = []
+	for var in var_list:
+		for gene in re.split(",", var["gene_symbol"]):
+			gene_list.append(gene)
+	clinic_trial_filter = [i for i in clinic_trial if i["gene_symbol"] in gene_list]
+	return clinic_trial_filter
+jinja2.filters.FILTERS["ntzl_cp200_filter_clinic_trial"] = ntzl_cp200_filter_clinic_trial
+
+# 重庆西南116-综合评估需要结合除肿瘤细胞含量外，其他所有质控项-新增肿瘤细胞含量-2026.06.02
+# 全部合格-良好
+# 一项不合格-合格
+# 两项及以上不合格-风险
+def cqxn_116_qc_judge_v2(info):
+	lib_qc = info[0]
+	ngs_qc = info[1]
+	tumor_content = info[2]
+	#print (111111, tumor_content)
+	false_item = 0
+	# 湿实验，没有值就不管了，报告里也不提示
+	if "lib_dna_qc" in lib_qc.keys() and lib_qc["lib_dna_qc"]:
+		if "dna_qty" in lib_qc["lib_dna_qc"].keys() and lib_qc["lib_dna_qc"]["dna_qty"]:
+			if not (is_number(lib_qc["lib_dna_qc"]["dna_qty"]) and float(lib_qc["lib_dna_qc"]["dna_qty"]) >= 150):
+				false_item += 1
+		if "library_qty" in lib_qc["lib_dna_qc"].keys() and lib_qc["lib_dna_qc"]["library_qty"]:
+			if not (is_number(lib_qc["lib_dna_qc"]["library_qty"]) and float(lib_qc["lib_dna_qc"]["library_qty"]) >= 500):
+				false_item += 1
+	# ngs质控结果
+	if ngs_qc["dna_data_qc"]["totaldata"] and "G" in ngs_qc["dna_data_qc"]["totaldata"]:
+		if float(ngs_qc["dna_data_qc"]["totaldata"].replace("G", "")) <= 1:
+			false_item += 1
+	elif ngs_qc["dna_data_qc"]["totaldata"] and "M" in ngs_qc["dna_data_qc"]["totaldata"]:
+		if float(ngs_qc["dna_data_qc"]["totaldata"].replace("M", "")) <= 1000:
+			false_item += 1
+	else:
+		false_item += 1
+
+	if ngs_qc["dna_data_qc"]["cleandata_q30_num"] <= 0.75:
+		false_item += 1
+	if ngs_qc["dna_data_qc"]["cover_ratio_num"] < 0.95:
+		false_item += 1
+	if ngs_qc["dna_data_qc"]["uni20_uniq_num"] <= 0.9:
+		false_item += 1
+	if float(ngs_qc["qc_gradient"]["coverage_ratio_uniq_hot_180"].replace("%", "")) < 95:
+		false_item += 1
+	if float(ngs_qc["dna_data_qc"]["cnv_cv"]) >= 0.4:
+		false_item += 1
+	if float(ngs_qc["dna_data_qc"]["cnv_uni"]) >= 1.5:
+		false_item += 1
+	if ngs_qc["dna_data_qc"]["depth_mean_raw_num"] < 1500:
+		false_item += 1
+	if ngs_qc["dna_data_qc"]["depth_mean_uniq_num"] < 500:
+		false_item += 1	
+	if ngs_qc["dna_data_qc"]["mapping_ratio_num"] < 0.95:
+		false_item += 1
+
+	# 仅X%的格式可以参与质量评估，空值或者其他格式默认为合格
+	if tumor_content and "%" in tumor_content and is_number(tumor_content.replace("%", "")):
+		if float(tumor_content.replace("%", "")) < 20:
+			false_item += 1
+			
+	if false_item == 0:
+		return "良好"
+	elif false_item == 1:
+		return "合格"
+	else:
+		return "风险"
+jinja2.filters.FILTERS["cqxn_116_qc_judge_v2"] = cqxn_116_qc_judge_v2
+
+# 2026.06.03-南通肿瘤CP200小结，需要增加PACC标签
+# 与南通附属相比，MET 14跳跃DNA/RNA共检时需要加标注
+def ntzl_cp200_var_sum_s(var_list):
+	result = []
+	for var in var_list:
+		if var["bio_category"] == "Snvindel":
+			if var["hgvs_p"] != "p.?":
+				if cqfy_116_judge_pacc(var):
+					result.append(var["gene_symbol"]+" "+var["hgvs_p"]+"，该突变属于EGFR基因PACC变异")
+				else:
+					if var["gene_symbol"] == "MET" and "judge_mergeMET" in var.keys() and var["judge_mergeMET"]:
+						result.append(var["gene_symbol"]+" "+var["hgvs_p"]+"（MET exon14 跳跃）")
+					else:
+						result.append(var["gene_symbol"]+" "+var["hgvs_p"])
+			else:
+				if cqfy_116_judge_pacc(var):
+					result.append(var["gene_symbol"]+" "+var["hgvs_c"]+"，该突变属于EGFR基因PACC变异")
+				else:
+					if var["gene_symbol"] == "MET" and "judge_mergeMET" in var.keys() and var["judge_mergeMET"]:
+						result.append(var["gene_symbol"]+" "+var["hgvs_c"] +"（MET exon14 跳跃）")
+					else:
+						result.append(var["gene_symbol"]+" "+var["hgvs_c"])
+		elif var["bio_category"] == "Cnv":
+			# 2026.01.12-若cnv_type为Loss/loss，返回缺失
+			if "cnv_type" in var.keys() and var["cnv_type"] and var["cnv_type"] in ["Loss", "loss"]:
+				result.append(var["gene_symbol"]+" 缺失")
+			else:
+				result.append(var["gene_symbol"]+" 扩增")
+		elif var["bio_category"] in ["Sv", "PSeqRnaSv"]:
+			if var["five_prime_gene"] == "MET" and var["three_prime_gene"] == "MET":
+				result.append("MET exon14 跳跃")
+			else:
+				# 融合可能会有重复（rna exon相同，断点不同的情况）
+				if var["five_prime_gene"]+"-"+var["three_prime_gene"]+" 融合" not in result:
+					result.append(var["five_prime_gene"]+"-"+var["three_prime_gene"]+" 融合")
+		# 2025.07.15-新增PHd
+		elif var["bio_category"] == "PHd":
+			if var["type"] == "HomoDel":
+				if var["gene_symbol"]+" 纯合缺失" not in result:
+					result.append(var["gene_symbol"]+" 纯合缺失")
+			elif var["type"] == "HeteDel":
+				if var["gene_symbol"]+" 杂合缺失" not in result:
+					result.append(var["gene_symbol"]+" 杂合缺失")
+			else:
+				if var["gene_symbol"]+" 未知变异类型！" not in result:
+					result.append(var["gene_symbol"]+" 未知变异类型！")
+		# 2025.07.15-新增完成
+	return "；".join(result)
+jinja2.filters.FILTERS["ntzl_cp200_var_sum_s"] = ntzl_cp200_var_sum_s
+
+# 2026.06.03
+# 共突变，snvindel freq >= 0.01 且freq <= 0.05, 
+# 2025.07.14-新增-若snvindel freq < 0.01，也需要加角标和备注
+# cnv 角标更新
+# 1. ERBB2/MET cn_mean >= 3.5 且 cn_mean <= 5
+# 2. ERBB2/MET cn_mean > 5
+# 3. 其他基因cn_mean >= 6且cn_mean <= 8
+def zsly_co_mutation_add_subscript_v3(var_list):
+	result = []
+	for var in var_list:
+		if "bio_category" in var.keys() and var["bio_category"] and var["bio_category"] == "Snvindel":
+			if float(var["freq"]) >= 0.01 and float(var["freq"]) <= 0.05:
+				if "Snvindel" not in result:
+					result.append("Snvindel")
+			elif float(var["freq"]) < 0.01:
+				if "Snvindel_2" not in result: #修改Svnidel为Snvindel 2026.05.07 孟智悦
+					result.append("Snvindel_2")
+		elif "bio_category" in var.keys() and var["bio_category"] and var["bio_category"] == "Cnv":
+			if var["gene_symbol"] in ["ERBB2", "MET"]:
+				if float(var["cn_mean"]) >= 3.5 and float(var["cn_mean"]) <= 5:
+					if "Cnv_met_erbb2_1" not in result:
+						result.append("Cnv_met_erbb2_1")
+				elif float(var["cn_mean"]) > 5:
+					if "Cnv_met_erbb2_2" not in result:
+						result.append("Cnv_met_erbb2_2")
+			else:
+				if float(var["cn_mean"]) >= 6 and float(var["cn_mean"]) <= 8:
+					if "Cnv_other" not in result:
+						result.append("Cnv_other")
+	return result
+jinja2.filters.FILTERS["zsly_co_mutation_add_subscript_v3"] = zsly_co_mutation_add_subscript_v3
+
+# 2026.06.03-中六CP200小结需要添加角标，表格底部根据角标出现顺序添加备注-格式有改动
+# 小结展示顺序：I类、II类、MSI、免疫正负相关、化疗
+# snvindel freq >= 0.01 且freq <= 0.05 ==> Snvindel
+# snvindel freq < 0.01 ==> Snvindel_2
+#----------------------------cnv 旧规则----------------------
+# cnv ERBB2/MET cn_mean >= 3.5 且 cn_mean <= 5， cnv其他cn_mean >= 6且cn_mean <= 8添加上角标 ==> Cnv
+#----------------------------cnv 新规则-2026.06.03-----------
+# 1. ERBB2/MET cn_mean >= 3.5 且 cn_mean <= 5
+# 2. ERBB2/MET cn_mean > 5
+# 3. 其他基因cn_mean >= 6且cn_mean <= 8
+#----------------------------cnv 新规则结束-------------------
+# MSI msi_score >=0.12 且msi_score <= 0.24添加上角标 ==>MSI
+# 化疗 ==> loss1/loss2/more
+def zsly_cp200_summary_add_subscript_v2(info):
+	var_list = info[0]
+	msi = info[1]
+	io_list = info[2]
+	chemo_list = info[3]
+	all_detect_result = info[4]
+	result = []
+	for var in var_list:
+		if "bio_category" in var.keys() and var["bio_category"] and var["bio_category"] == "Snvindel":
+			if float(var["freq"]) >= 0.01 and float(var["freq"]) <= 0.05:
+				if "Snvindel" not in result:
+					result.append("Snvindel")
+			elif float(var["freq"]) < 0.01:
+				if "Snvindel_2" not in result: #修改Snvidel为Snvindel 2026.05.07 孟智悦
+					result.append("Snvindel_2")
+		elif "bio_category" in var.keys() and var["bio_category"] and var["bio_category"] == "Cnv":
+			if var["gene_symbol"] in ["ERBB2", "MET"]:
+				if float(var["cn_mean"]) >= 3.5 and float(var["cn_mean"]) <= 5:
+					if "Cnv_met_erbb2_1" not in result:
+						result.append("Cnv_met_erbb2_1")
+				elif float(var["cn_mean"]) > 5:
+					if "Cnv_met_erbb2_2" not in result:
+						result.append("Cnv_met_erbb2_2")
+			else:
+				if float(var["cn_mean"]) >= 6 and float(var["cn_mean"]) <= 8:
+					if "Cnv_other" not in result:
+						result.append("Cnv_other")
+	if float(msi["msi_score"]) >= 0.12 and float(msi["msi_score"]) <= 0.24:
+		result.append("MSI")
+	for i in io_list:
+		for var in i["var_info"]:
+			if "bio_category" in var.keys() and var["bio_category"] and var["bio_category"] == "Snvindel":
+				if float(var["freq"]) >= 0.01 and float(var["freq"]) <= 0.05:
+					if "Snvindel" not in result:
+						result.append("Snvindel")
+				elif float(var["freq"]) < 0.01:
+					if "Snvindel_2" not in result: #修改Snvidel为Snvindel 2026.05.07 孟智悦
+						result.append("Snvindel_2")
+			elif "bio_category" in var.keys() and var["bio_category"] and var["bio_category"] == "Cnv":
+				if var["gene_symbol"] in ["ERBB2", "MET"]:
+					if float(var["cn_mean"]) >= 3.5 and float(var["cn_mean"]) <= 5:
+						if "Cnv_met_erbb2_1" not in result:
+							result.append("Cnv_met_erbb2_1")
+					elif float(var["cn_mean"]) > 5:
+						if "Cnv_met_erbb2_2" not in result:
+							result.append("Cnv_met_erbb2_2")
+				else:
+					if float(var["cn_mean"]) >= 6 and float(var["cn_mean"]) <= 8:
+						if "Cnv_other" not in result:
+							result.append("Cnv_other")
+	for i in chemo_list:
+		for var in i["result"]:
+			if var["info"] != "野生型":
+				if zsly_chemo_var_v3([var, all_detect_result]) and zsly_chemo_var_v3([var, all_detect_result]) in ["loss1"]:
+					if "loss1" not in result:
+						result.append("loss1")
+				if zsly_chemo_var_v3([var, all_detect_result]) and zsly_chemo_var_v3([var, all_detect_result]) in ["loss2"]:
+					if "loss2" not in result:
+						result.append("loss2")
+				if zsly_chemo_var_v3([var, all_detect_result]) and zsly_chemo_var_v3([var, all_detect_result]) in ["more"]:
+					if "more" not in result:
+						result.append("more")
+	return result
+jinja2.filters.FILTERS["zsly_cp200_summary_add_subscript_v2"] = zsly_cp200_summary_add_subscript_v2
+
+# 2026.06.09-陆总MP组织
+# 仅卵巢癌、乳腺癌、前列腺癌时展示HRD解读，故其他癌种在治疗方案部分，需要过滤掉HRD+和HRD-的内容
+# 新增条件-存在BRCA1/2有临床意义变异或者var.gss.gss.var_auto_result != “F”
+def JFJZYDQ_mp_approval_regimen_filter_hrd(info):
+	regimen_list = info[0]
+	sample = info[1]
+	gss = info[2]
+	hrd_p = {"biomarker_type" : "HRD+"}
+	hrd_n = {"biomarker_type" : "HRD-"}
+	result = []
+	if not set(["乳腺癌", "卵巢癌", "前列腺癌"])&set(sample["tumor_list"]) and "实体瘤" not in sample["tumor_names_cn"]:
+		for regimen in regimen_list:
+			for a in regimen["var"]:
+				if a == hrd_p or a == hrd_n:
+					regimen["var"].remove(a)
+			if regimen["var"]:
+				result.append(regimen)
+	else:
+		# 不存在BRCA变异且var_auto_result == "F"
+		if not ("BRCA1" in gss.keys() and gss["BRCA1"]) and \
+		   not ("BRCA2" in gss.keys() and gss["BRCA2"]) and \
+		   ("var_auto_result" in gss["gss"].keys() and gss["gss"]["var_auto_result"] and gss["gss"]["var_auto_result"] == "F"):
+			for regimen in regimen_list:
+				for a in regimen["var"]:
+					if a == hrd_p or a == hrd_n:
+						regimen["var"].remove(a)
+				if regimen["var"]:
+					result.append(regimen)
+		else:
+			result = regimen_list
+	return result
+jinja2.filters.FILTERS["JFJZYDQ_mp_approval_regimen_filter_hrd"] = JFJZYDQ_mp_approval_regimen_filter_hrd
+
+# 浙江肿瘤Master，结果小结部分，HRR通路相关基因中，基因名需要斜体-2023.08.07-更新
+# 方法2，在每个变异（除了最后一个）后面加个逗号，就能在模板中使用for循环展示变异了
+# 2026.06.12-浙江人民MP使用浙肿展示规则，加到这边来用
+#def hrr_sum_2(var_list):
+#	for var in var_list:
+#		if var["bio_category"] == "PHd":
+#			var["type"] = "拷贝数缺失"
+#	if var_list:
+#		if len(var_list) > 1:
+#			for var in var_list[0:-1]:
+#				if var["bio_category"] == "Snvindel":
+#					if var["hgvs_p"] != "p.?" and "," not in var["hgvs_p"]:
+#						var["hgvs_p"] = var["hgvs_p"]+", "
+#					elif var["hgvs_p"] == "p.?" and "," not in var["hgvs_c"]:
+#						var["hgvs_c"] = var["hgvs_c"] + ", "
+#				elif var["bio_category"] == "Cnv":
+#					var["cnv_result"] = "拷贝数扩增"
+#					if "," not in var["cnv_result"]:
+#						var["cnv_result"] += ", "
+#				elif var["bio_category"] in ["Sv", "PSeqRnaSv"] and "," not in var["three_prime_cds"]:
+#					var["three_prime_cds"] = var["three_prime_cds"]+"融合, "
+				# 2025.08.13-新增HD
+#				elif var["bio_category"] == "PHd":
+#					var["type"] = "拷贝数缺失, "
+#	return var_list
+#jinja2.filters.FILTERS["hrr_sum2"] = hrr_sum_2
+
+# 浙江人民MP-参考浙肿，判断变异列表中是否有HD-2026.06.12
+def zjzl_judge_hd(var_list):
+	result = False
+	for var in var_list:
+		if var["bio_category"] == "PHd":
+			result = True
+			break
+	return result
+jinja2.filters.FILTERS["zjzl_judge_hd"] = zjzl_judge_hd
+
+# 浙江人民MP-参考浙肿-2026.06.12
+# 检测结果解析部分，需要对变异顺序进行调整-2025.12.29
+# 1. 优先展示MSI-H
+# 2. 肠癌相关（结直肠癌、小肠腺癌）优先展示POLE、POLD1变异，KNB野生型
+# 3. 其他变异按正常顺序展示
+def zjzl_sort_vars_I(info):
+	knb = info[0]
+	msi = info[1]
+	var_list = info[2]
+	tumor_list = info[3]
+	result = []
+	if msi["var_id"] == "MSI-H":
+		result.append(msi)
+	if set(["结直肠癌", "小肠腺癌"]) & set(tumor_list):
+		result.extend([var for var in var_list if var["gene_symbol"] == "POLE"])
+		result.extend([var for var in var_list if var["gene_symbol"] == "POLD1"])
+		if knb:
+			result.append(knb)
+		result.extend([var for var in var_list if var["gene_symbol"] not in ["POLE", "POLD1"]])
+	else:
+		if knb:
+			result.append(knb)
+		result.extend(var_list)
+	return result
+jinja2.filters.FILTERS["zjzl_sort_vars_I"] = zjzl_sort_vars_I
+
+# 浙江人民MP-参考浙肿-2026.06.12
+# II/III类变异肠癌相关时仅将POLE和POLD1排前面
+def zjzl_sort_vars_other(info):
+	var_list = info[0]
+	tumor_list = info[1]
+	result = []
+	if set(["结直肠癌", "小肠腺癌"]) & set(tumor_list):
+		result.extend([var for var in var_list if var["gene_symbol"] == "POLE"])
+		result.extend([var for var in var_list if var["gene_symbol"] == "POLD1"])
+		result.extend([var for var in var_list if var["gene_symbol"] not in ["POLE", "POLD1"]])
+	else:
+		result.extend(var_list)
+	return result
+jinja2.filters.FILTERS["zjzl_sort_vars_other"] = zjzl_sort_vars_other
+
+# 浙江人民MP-参考浙肿-2026.06.12
+# 相关药物获批信息-新增MSI-H-2025.12.30
+#def zjzl_get_regimen_appr_info(info):
+#	msi = info[0]
+#	other_appr = info[1]
+#	result = []
+#	if msi["var_id"] == "MSI-H":
+#		if "appr_info" in msi["evi_sum"].keys() and msi["evi_sum"]["appr_info"]:
+#			for i in msi["evi_sum"]["appr_info"]:
+#				if i not in result:
+#					result.append(i)
+#	for i in other_appr:
+#		if i not in result:
+#			result.append(i)
+#	return result
+#jinja2.filters.FILTERS["zjzl_get_regimen_appr_info"] = zjzl_get_regimen_appr_info
+
+# 浙江人民MP-参考浙肿-2026.06.12
+# 辅助诊断需要进行排序-2025.12.30
+def zjzl_sort_diag(info):
+	msi = info[0]
+	var_list = info[1]
+	tumor_list = info[2]
+	result = []
+	if msi["var_id"] == "MSI-H" and "Diagnostic" in msi["evi_sum"]["evi_split"].keys():
+		msi["clinic_num_s"] = 5
+		result.append(msi)
+	if set(["结直肠癌", "小肠腺癌"]) & set(tumor_list):
+		result.extend([var for var in var_list if var["gene_symbol"] == "POLE"])
+		result.extend([var for var in var_list if var["gene_symbol"] == "POLD1"])
+		result.extend([var for var in var_list if var["gene_symbol"] not in ["POLE", "POLD1"]])
+	else:
+		result.extend(var_list)
+	result = sorted(result, key = lambda i:i["clinic_num_s"], reverse=True)
+	return result
+jinja2.filters.FILTERS["zjzl_sort_diag"] = zjzl_sort_diag
+
+# 浙江人民MP-参考浙肿-2026.06.12
+# 预后需要进行排序-2025.12.30
+def zjzl_sort_prog(info):
+	msi = info[0]
+	var_list = info[1]
+	tumor_list = info[2]
+	result = []
+	if msi["var_id"] == "MSI-H" and "Prognostic" in msi["evi_sum"]["evi_split"].keys():
+		msi["clinic_num_s"] = 5
+		result.append(msi)
+	if set(["结直肠癌", "小肠腺癌"]) & set(tumor_list):
+		result.extend([var for var in var_list if var["gene_symbol"] == "POLE"])
+		result.extend([var for var in var_list if var["gene_symbol"] == "POLD1"])
+		result.extend([var for var in var_list if var["gene_symbol"] not in ["POLE", "POLD1"]])
+	else:
+		result.extend(var_list)
+	result = sorted(result, key = lambda i:i["clinic_num_s"], reverse=True)
+	return result
+jinja2.filters.FILTERS["zjzl_sort_prog"] = zjzl_sort_prog	
+
+# 浙江人民MP-参考浙肿-2026.06.12
+# 返回POLE和POLD1错配缺陷变异-2024.12.17
+def zjzl_pole_pold1(var_list):
+	result = []
+	for var in var_list:
+		if var["bio_category"] == "Snvindel" and var["gene_symbol"] == "POLE" and \
+			"var_category_names" in var.keys() and var["var_category_names"] and \
+			  "POLE Proofreading-deficient Mutation" in var["var_category_names"]:
+			result.append(var)
+
+		if var["gene_symbol"] == "POLD1" and var["bio_category"] == "Snvindel" and \
+			"var_category_names" in var.keys() and var["var_category_names"] and \
+			  "POLD1 Proofreading-deficient Mutation" in var["var_category_names"]:
+			result.append(var)
+	return result
+jinja2.filters.FILTERS["zjzl_pole_pold1"] = zjzl_pole_pold1
+
+# 浙江人民MP-HRR通路基因相关变异-参考浙肿-2026.06.15
+def zjrm_mp_hrr_var(var_list):
+	gene_list = ["BRCA1", "BRCA2"]
+	result = []
+	for var in var_list:
+		if var["gene_symbol"] in gene_list:
+			if var["bio_category"] == "Snvindel":
+				result.append({
+					"gene_symbol" : var["gene_symbol"],
+					"info" : var["hgvs_p_ZJZL"] if var["hgvs_p_ZJZL"] != "p.?" else var["hgvs_c"]
+				})
+			elif var["bio_category"] == "PHd":
+				result.append({
+					"gene_symbol" : var["gene_symbol"],
+					"info" : "拷贝数缺失"
+				})
+	if result and len(result) > 1:
+		for var in result[0:-1]:
+			var["info"] += ", "
+	return result
+jinja2.filters.FILTERS["zjrm_mp_hrr_var"] = zjrm_mp_hrr_var
+
+# 浙江人民MP-获取展示在备注中的获批信息-规则同浙肿-2026.06.15
+def zjrm_getRegimen_Approval_info(info):
+	tumor_list = info[0]
+	var_data = info[1]
+	msi = info[2]
+	result = []
+	# MSI
+	if msi["var_id"] == "MSI-H":
+		if "appr_info" in msi["evi_sum"].keys() and msi["evi_sum"]["appr_info"]:
+			for i in msi["evi_sum"]["appr_info"]:
+				if i not in result:
+					result.append(i)
+	# KNB
+	if var_data["knb"]:
+		if "appr_info" in var_data["knb"]["evi_sum"].keys() and var_data["knb"]["evi_sum"]["appr_info"]:
+			for i in var_data["knb"]["evi_sum"]["appr_info"]:
+				if i not in result:
+					result.append(i)
+	# I/II类变异
+	for var in var_data["var_for_regimen_ZJZL"]["level_I"] + var_data["var_for_regimen_ZJZL"]["level_II"]:
+		if "appr_info" in var["evi_sum"].keys() and var["evi_sum"]["appr_info"]:
+			for i in var["evi_sum"]["appr_info"]:
+				if i not in result:
+					result.append(i)
+	# GSS-卵巢癌且HRD阳性
+	if "卵巢癌" in tumor_list and "gss" in var_data.keys() and var_data["gss"] and \
+		 "gss" in var_data["gss"].keys() and var_data["gss"]["gss"] and var_data["gss"]["gss"]["var_id"] == "HRD+":
+		if "evi_sum" in var_data["gss"]["gss"].keys() and var_data["gss"]["gss"]["evi_sum"] and "appr_info" in var_data["gss"]["gss"]["evi_sum"].keys() and var_data["gss"]["gss"]["evi_sum"]["appr_info"]:
+			for i in var_data["gss"]["gss"]["evi_sum"]["appr_info"]:
+				if i not in result:
+					result.append(i)
+	return result
+jinja2.filters.FILTERS["zjrm_getRegimen_Approval_info"] = zjrm_getRegimen_Approval_info
+
+# 2026.06.15-武汉协和MP，III类变异不展示同义突变
+def whxh_mp_filter_Synonymous_Substitution(var_list):
+	return [var for var in var_list if not (var["bio_category"] == "Snvindel" and var["type"] == "Synonymous_Substitution")]
+jinja2.filters.FILTERS["whxh_mp_filter_Synonymous_Substitution"] = whxh_mp_filter_Synonymous_Substitution
+
+# 2026.06.17-孙逸仙116-转化变异解读格式-仅snvindel
+def syx_116_stran_varinter(var):
+	result = []
+	# 1. 判定是否需要展示“该变异可能形成功能损伤或失活的蛋白”
+	if re.search("移码|无义|剪接", var["type_cn"]):
+		result.append("该变异可能形成功能损伤或失活的蛋白")
+	# 2. 获取变异解读中的PMID
+	def getPMID_from_inter(inter):
+		pmid_list = []
+		mat = re.compile(r"PMID.\s?\d+")
+		for i in mat.findall(str(inter)):
+			if re.search(":|: |：|： ", i):
+				pmid = (re.split(":|: |：|： ", i))[1].replace(" ", "")
+			else:
+				pmid = (re.split("PMID", i))[1]
+			if pmid not in pmid_list:
+				pmid_list.append(pmid)
+		return pmid_list
+	varinter_pmid_list = getPMID_from_inter(var["variant_interpret_cn"])
+	if varinter_pmid_list:
+		result.append("基于文献和数据库记录（{0}）".format(", ".join(["PMID: {0}".format(i) for i in varinter_pmid_list])))
+	else:
+		result.append("基于数据库记录")
+	# 3. 判定解读结果
+	inter_sum = {
+		"Pathogenic" : "致病性变异",
+		"Oncogenic" : "致癌性变异",
+		"Likely pathogenic" : "疑似致病性变异",
+		"Likely oncogenic" :"疑似致癌性变异",
+		"Uncertain": "意义不明变异",
+        "Likely benign": "疑似良性变异",
+        "Benign": "良性变异"
+	}
+	if var["var_origin"] and var["var_origin"] == "germline":
+		sum = inter_sum[var["clinical_significance"]] if var["clinical_significance"] != "-" else inter_sum[var["function_classification"]]
+	else:
+		sum = inter_sum[var["function_classification"]] if var["function_classification"] != "-" else inter_sum[var["clinical_significance"]]
+	result.append("该变异解读判定为{0}。".format(sum))
+
+	return "，".join(result)
+jinja2.filters.FILTERS["syx_116_stran_varinter"] = syx_116_stran_varinter
+
+# 武汉同济MP-不展示预后和诊断证据-2026.06.30
+def tj_mp_filter_pro_dia(regimen_list_raw):
+	if regimen_list_raw != "-":
+		regimen_list = re.split("、", regimen_list_raw)
+		result = []
+		for regimen in regimen_list:
+			if not re.search("预后|诊断", regimen):
+				result.append(regimen)
+		if result:
+			return "、".join(result)
+		else:
+			return "-"
+	else:
+		return "-"
+jinja2.filters.FILTERS["tj_mp_filter_pro_dia"] = tj_mp_filter_pro_dia
+
+# 上海肺科116新增“本次检测结果”-2026.06.30
+def shfk_116_sum(var_list):
+	type_stran = {
+		"3'UTR" : "3'UTR区突变",
+		"5'UTR" : "5'UTR区突变",
+		"Intronic" : "内含子区突变",
+		"FlankingRegion3" : "侧翼区突变",
+		"FlankingRegion5" : "侧翼区突变"
+	}
+	result = []
+	for var in var_list:
+		var_str = ""
+		if var["bio_category"] == "Snvindel":
+			gene_region_cn = gene_region_strn(var["gene_region"])
+			type_cn = var["type_cn"] if var["type_cn"] != "--" else type_stran.get(var["type"], var["type"])
+			if var["hgvs_p"] != "p.?":
+				var_str = "{0}基因{1}{2}{3}:{4}，突变丰度{5}".format(
+					var["gene_symbol"], gene_region_cn, type_cn, var["hgvs_c"], var["hgvs_p"], var["freq_str"]
+					)
+			else:
+				var_str = "{0}基因{1}{2}{3}，突变丰度{4}".format(
+					var["gene_symbol"], gene_region_cn, type_cn, var["hgvs_c"], var["freq_str"]
+					)
+		elif var["bio_category"] == "Cnv":
+			var_str = "{0}基因扩增，拷贝数{1}".format(
+				var["gene_symbol"], var["cn_mean"]
+				)
+		elif var["bio_category"] == "Sv":
+			var_str = "{0}-{1}融合，具体的融合型为{2}，突变丰度{3}".format(
+				var["five_prime_gene"], var["three_prime_gene"], var["five_prime_gene"]+":"+var["five_prime_cds"]+"-"+var["three_prime_gene"]+":"+var["three_prime_cds"], var["freq_str"]
+				)
+		result.append(var_str)
+	# 最后一个结尾加句号，其他结尾加分号
+	result_ap = []
+	if len(result) > 1:
+		for var in result[0:-1]:
+			var = var + "；"
+			result_ap.append(var)
+	if len(result) >= 1:
+		result_ap.append(result[-1] + "。")
+	return result_ap
+jinja2.filters.FILTERS["shfk_116_sum"] = shfk_116_sum
+
+# 2026.07.01-福建肿瘤tLC10-判断变异是否为NMPA获批变异
+# 其中EGFR 20ins只要判断变异分组是否为20ins，是的话均为获批变异
+def fjsl_tlc10_judge_nmpa_appr(var):
+	snvindel_appr_dict = {
+		("chr7", "55241708", "55241708", "G", "C") : "EGFR:c.2156G>C:p.(G719A)",
+		("chr7", "55241707", "55241707", "G", "A") : "EGFR:c.2155G>A:p.(G719S)",
+		("chr7", "55241707", "55241707", "G", "T") : "EGFR:c.2155G>T:p.(G719C)",
+		("chr7", "55242465", "55242479", "GGAATTAAGAGAAGC", "-") : "EGFR:c.2235_2249del:p.(E746_A750del)",
+		("chr7", "55242466", "55242480", "GAATTAAGAGAAGCA", "-") : "EGFR:c.2236_2250del:p.(E746_A750del)",
+		("chr7", "55242470", "55242487", "TAAGAGAAGCAACATCTC", "-") : "EGFR:c.2240_2257del:p.(L747_P753delinsS)",
+		("chr7", "55242467", "55242485", "AATTAAGAGAAGCAACATC", "T") : "EGFR:c.2237_2255delinsT:p.(E746_S752delinsV)",
+		("chr7", "55242469", "55242478", "TTAAGAGAAG", "C") : "EGFR:c.2239_2248delinsC:p.(L747_A750delinsP)",
+		("chr7", "55242470", "55242484", "TAAGAGAAGCAACAT", "-") : "EGFR:c.2240_2254del:p.(L747_T751del)",
+		("chr7", "55249071", "55249071", "C", "T") : "EGFR:c.2369C>T:p.(T790M)",
+		("chr7", "55249005", "55249005", "G", "T") : "EGFR:c.2303G>T:p.(S768I)",
+		("chr7", "55259515", "55259515", "T", "G") : "EGFR:c.2573T>G:p.(L858R)",
+		("chr7", "55259524", "55259524", "T", "A") : "EGFR:c.2582T>A:p.(L861Q)",
+		("chr12", "25398284", "25398284", "C", "T") : "KRAS:c.35G>A:p.(G12D)",
+		("chr12", "25398284", "25398284", "C", "G") : "KRAS:c.35G>C:p.(G12A)",
+		("chr12", "25398284", "25398284", "C", "A") : "KRAS:c.35G>T:p.(G12V)",
+		("chr12", "25398285", "25398285", "C", "T") : "KRAS:c.34G>A:p.(G12S)",
+		("chr12", "25398285", "25398285", "C", "A") : "KRAS:c.34G>T:p.(G12C)",
+		("chr12", "25380275", "25380275", "T", "G") : "KRAS:c.183A>C:p.(Q61H)",
+		("chr1", "115258747", "115258747", "C", "T") : "NRAS:c.35G>A:p.(G12D)",
+		("chr1", "115256529", "115256529", "T", "C") : "NRAS:c.182A>G:p.(Q61R)",
+		("chr1", "115256530", "115256530", "G", "T") : "NRAS:c.181C>A:p.(Q61K)",
+		("chr3", "178952085", "178952085", "A", "G") : "PIK3CA:c.3140A>G:p.(H1047R)",
+		("chr7", "140453136", "140453136", "A", "T") : "BRAF:c.1799T>A:p.(V600E)",
+		("chr17", "37880995", "37880996", "-", "ATACGTGATGGC") : "ERBB2:c.2313_2324dup:p.(Y772_A775dup)",
+		("chr7", "116412044", "116412044", "G", "T") : "MET:c.3028+1G>T:p.?"
+	}
+	sv_appr_list = [
+		"EML4:exon13-ALK:exon20",
+		"EML4:exon6-ALK:exon20",
+		"EML4:exon20-ALK:exon20",
+		"CD74:exon6-ROS1:exon34",
+		"GOPC:exon8-ROS1:exon35",
+		"KIF5B:exon15-RET:exon12"
+	]
+	appr_nmpa = False
+	if var["bio_category"] == "Snvindel":
+		if ("var_category_names" in var.keys() and var["var_category_names"] and "EGFR Exon20 ins" in var["var_category_names"]):
+			appr_nmpa = True
+		elif (var["chr"], var["start"], var["end"], var["ref"], var["alt"]) in snvindel_appr_dict.keys():
+			appr_nmpa = True
+	elif var["bio_category"] == "Sv":
+		sv_name = "{0}:{1}-{2}:{3}".format(var["five_prime_gene"], var["five_prime_cds"], var["three_prime_gene"], var["three_prime_cds"])
+		if sv_name in sv_appr_list:
+			appr_nmpa = True
+	return appr_nmpa
+jinja2.filters.FILTERS["fjsl_tlc10_judge_nmpa_appr"] = fjsl_tlc10_judge_nmpa_appr
+
 def sdql_summary_36_gene(var_list):
 	gene_list = [
     "AKT1", "AKT2", "AKT3", "AR", "ATM", "BRAF", "BRCA1",
@@ -14834,16 +15519,1364 @@ def sdql_summary_36_gene(var_list):
     "NTRK2", "NTRK3", "PALB2", "PIK3CA", "PTEN", "RAD50", "RAD51",
     "RAD51B", "RAD51C", "RAD51D", "RAD52", "RAD54L", "RET", "STK11", "TP53"
 	]
-	if not var_list:
-		return []
+	#if not var_list:
+	#	return []
 	result = []
 	for var in var_list:
 		if var["gene_symbol"] in gene_list:
 			result.append(var)
-
-	undetect_gene = set(gene_list) - set([var["gene_symbol"] for var in result])
+	undetect_gene = sorted(set(gene_list) - set([var["gene_symbol"] for var in result]))
 	for gene in undetect_gene:
 		result.append({"gene_symbol": gene, "bio_category": ""})
-	
 	return result
 jinja2.filters.FILTERS["sdql_summary"] = sdql_summary_36_gene
+
+# 适用北大三CP200-2026.07.06
+# HD检测范围扩大-参考临检
+def io_detect_for_BDS_CP200_v3(info):
+	var_list = info[0]
+	return_type = info[1]
+	io_result = {}
+	# 汇总体细胞I/II/肿瘤发生发展相关变异+胚系致病/疑似致病性变异
+	io_gene_P = ["ATM","ATR","BRCA1","BRCA2","BRIP1","CHEK1","CHEK2","FANCA","MRE11",\
+				 "PALB2","RAD50","MLH1","MSH2","MSH6","PMS2","POLE","POLD1","TP53",\
+				 "KRAS","CD274","ARID1A","SETD2","TERT","KMT2D","FAT1","CDK12"]
+	io_gene_N = ["EGFR","ALK","MDM2","MDM4","CDKN2A","CDKN2B","DNMT3A","STK11","IFNGR1",\
+				 "JAK1","JAK2","APC","CTNNB1","B2M","PTEN","FGF19"]
+	cnv_gene_list = ["CD274", "MDM2", "MDM4", "FGF19"]
+	hd_gene_list = ["ATM", "BARD1", "BRCA1", "BRCA2", "BRIP1", "CDK12", "CDKN2A", "CDKN2B", "CHEK1", "CHEK2", "FANCA", "FANCL", "HDAC2", "HOXB13", 
+				 "MMS22L", "MTAP", "NF1", "PALB2", "PTEN", "RAD51B", "RAD51C", "RAD51D", "RAD54L", "RASA1", "SETD2", "TP53"]
+	
+	for var in var_list:
+		# 仅展示扩增的基因
+		if var["bio_category"] == "Cnv" and var["gene_symbol"] in cnv_gene_list:
+			if var["gene_symbol"] not in io_result.keys():
+				io_result.setdefault(var["gene_symbol"], [])
+			io_result[var["gene_symbol"]].append(var)
+		# 仅展示融合的基因
+		elif var["bio_category"] in ["Sv", "PSeqRnaSv"] and set(re.split(",", var["gene_symbol"])) & set(["ALK"]):
+			if "ALK" not in io_result.keys():
+				io_result.setdefault("ALK", [])
+			io_result["ALK"].append(var)
+		# 展示HD和snvindel
+		elif var["bio_category"] in ["Snvindel", "PHd"] and var["gene_symbol"] in hd_gene_list:
+			if var["gene_symbol"] not in io_result.keys():
+				io_result.setdefault(var["gene_symbol"], [])
+			io_result[var["gene_symbol"]].append(var)
+		# 其余基因展示Snvindel
+		# 2026.08.10-修复仅展示CNV和SV的基因还会展示Snvindel的情况
+		#elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N:
+		elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N and var["gene_symbol"] not in cnv_gene_list+hd_gene_list and var["gene_symbol"] != "ALK":
+			if var["gene_symbol"] not in io_result.keys():
+				io_result.setdefault(var["gene_symbol"], [])
+			io_result[var["gene_symbol"]].append(var)
+
+	# summary展示
+	io_p_list = [i for k,v in io_result.items() for i in v if k in io_gene_P]
+	io_n_list = [i for k,v in io_result.items() for i in v if k in io_gene_N]
+	
+	if return_type == "p":
+		return io_p_list
+	elif return_type == "n":
+		return io_n_list
+jinja2.filters.FILTERS["io_detect_for_BDS_CP200_v3"] = io_detect_for_BDS_CP200_v3
+
+# 2026.07.08-乳腺癌，PIK3CA/AKT1/PTEN 阳性变异，输出改为“针对携带该变异的HR阳性/HER2阴性乳腺癌患者，获批或指南推荐的药物有XXX”
+def xajdy_evi_summary_v3(info):
+	evi_list = info[0]
+	tumor_list = info[1]
+	gene_symbol = info[2]
+	# A级证据处理
+	A_evi = []
+	A_sense_regimen = []
+	A_resis_evi = []
+	for evi in evi_list:
+		if evi["evi_conclusion_simple"] == "A":
+			if evi["clinical_significance_cn"] == "敏感":
+				if evi["regimen_name"] not in A_sense_regimen:
+					A_sense_regimen.append(evi["regimen_name"])
+			else:
+				if evi["evi_interpretation"] not in A_resis_evi:
+					A_resis_evi.append(evi["evi_interpretation"])				
+	if A_sense_regimen:
+		if "乳腺癌" in tumor_list and set(["PIK3CA", "AKT1", "PTEN"]) & set(re.split(",", gene_symbol)):
+			A_evi.append("针对携带该变异的HR阳性/HER2阴性乳腺癌患者，获批或指南推荐的药物有{0}等。".format("、".join(A_sense_regimen)))
+		else:
+			A_evi.append("针对携带该变异的患者，获批或指南推荐的药物有{0}等。".format("、".join(A_sense_regimen)))
+	if A_resis_evi:
+		A_evi.extend(A_resis_evi)
+	
+	# BCD级证据处理
+	BCD_evi = []
+	c3_sense_tumor_and_regimen = {}
+	c3_resis_evi = []
+	b_c_other_sense_tumor_and_regimen = {}
+	b_c_resis_tumor_and_regimen = {}
+	for evi in evi_list:
+		pmid_list = get_pmid_from_inter(evi["evi_interpretation"])
+		tumor_name = evi["tumor_name_cn"] if "tumor_name_cn" in evi.keys() and evi["tumor_name_cn"] else evi["tumor_name_en"] if "tumor_name_en" in evi.keys() and evi["tumor_name_en"] else ""
+		# C3无需PMID
+		if evi["evi_conclusion"] == "C3" and evi["clinical_significance_cn"] == "敏感":
+			if tumor_name not in c3_sense_tumor_and_regimen.keys():
+				c3_sense_tumor_and_regimen.setdefault(tumor_name, [])
+			c3_sense_tumor_and_regimen[tumor_name].append(evi["regimen_name"])
+		elif evi["evi_conclusion"] == "C3" and evi["clinical_significance_cn"] == "耐药":
+			if evi["evi_interpretation"] not in c3_resis_evi:
+				c3_resis_evi.append(evi["evi_interpretation"])
+		# 其他B/C/D需要PMID
+		elif evi["evi_conclusion_simple"] in ["C", "B"] and evi["clinical_significance_cn"] == "敏感":
+			if tumor_name not in b_c_other_sense_tumor_and_regimen.keys():
+				b_c_other_sense_tumor_and_regimen.setdefault(tumor_name, [])
+			b_c_other_sense_tumor_and_regimen[tumor_name].append((evi["regimen_name"], pmid_list))
+		elif evi["evi_conclusion_simple"] in ["C", "B"] and evi["clinical_significance_cn"] == "耐药":
+			if tumor_name not in b_c_resis_tumor_and_regimen.keys():
+				b_c_resis_tumor_and_regimen.setdefault(tumor_name, [])
+			b_c_resis_tumor_and_regimen[tumor_name].append((evi["regimen_name"], pmid_list))
+	d_sense_regimen = [(evi["regimen_name"], get_pmid_from_inter(evi["evi_interpretation"])) for evi in evi_list if evi["evi_conclusion_simple"] == "D" and evi["clinical_significance_cn"] == "敏感"]
+	d_resis_regimen = [(evi["regimen_name"], get_pmid_from_inter(evi["evi_interpretation"])) for evi in evi_list if evi["evi_conclusion_simple"] == "D" and evi["clinical_significance_cn"] == "耐药"]
+	# 拼接
+	if c3_sense_tumor_and_regimen:
+		tmp_list = []
+		for tumor, regimen in c3_sense_tumor_and_regimen.items():
+			tmp_list.append("{0}用于{1}".format("、".join(regimen), tumor))
+		BCD_evi.append("针对该突变，其他癌种中已有获批或指南推荐的药物，如{0}等。".format("，".join(tmp_list)))
+	if c3_resis_evi:
+		BCD_evi.extend(c3_resis_evi)
+
+	b_c_tmp_list = []
+	if b_c_other_sense_tumor_and_regimen:
+		for tumor, regimen in b_c_other_sense_tumor_and_regimen.items():
+			regimen_str = "、".join([i[0] for i in regimen])
+			pmid_list = []
+			for item in regimen:
+				for pmid in item[1]:
+					if pmid not in pmid_list:
+						pmid_list.append(pmid)
+			if pmid_list:
+				b_c_tmp_list.append("{0}在携带该类变异的{1}中可能敏感（{2}）".format(regimen_str, tumor, ", ".join(["PMID:"+str(i) for i in pmid_list])))
+			else:
+				b_c_tmp_list.append("{0}在携带该类变异的{1}中可能敏感".format(regimen_str, tumor))
+	if b_c_resis_tumor_and_regimen:
+		for tumor, regimen in b_c_resis_tumor_and_regimen.items():
+			regimen_str = "、".join([i[0] for i in regimen])
+			pmid_list = []
+			for item in regimen:
+				for pmid in item[1]:
+					if pmid not in pmid_list:
+						pmid_list.append(pmid)
+			if pmid_list:
+				b_c_tmp_list.append("{0}在携带该类变异的{1}中可能耐药（{2}）".format(regimen_str, tumor, ", ".join(["PMID:"+str(i) for i in pmid_list])))
+			else:
+				b_c_tmp_list.append("{0}在携带该类变异的{1}中可能耐药".format(regimen_str, tumor))
+	if b_c_tmp_list:
+		BCD_evi.append("临床试验表明，{0}。".format("，".join(b_c_tmp_list)))
+		
+	d_tmp_list = []
+	if d_sense_regimen:
+		regimen_str = "、".join([i[0] for i in d_sense_regimen])
+		pmid_list = []
+		for item in d_sense_regimen:
+			for pmid in item[1]:
+				if pmid not in pmid_list:
+					pmid_list.append(pmid)
+		if pmid_list:
+			d_tmp_list.append("可能对{0}敏感（{1}）".format(regimen_str, ", ".join(["PMID:"+str(i) for i in pmid_list])))
+		else:
+			d_tmp_list.append("可能对{0}敏感".format(regimen_str))
+	if d_resis_regimen:
+		regimen_str = "、".join([i[0] for i in d_resis_regimen])
+		pmid_list = []
+		for item in d_resis_regimen:
+			for pmid in item[1]:
+				if pmid not in pmid_list:
+					pmid_list.append(pmid)
+		if pmid_list:
+			d_tmp_list.append("可能对{0}耐药（{1}）".format(regimen_str, ", ".join(["PMID:"+str(i) for i in pmid_list])))
+		else:
+			d_tmp_list.append("可能对{0}耐药".format(regimen_str))
+	if d_tmp_list:
+		BCD_evi.append("有研究表明，该类变异{0}。".format("，".join(d_tmp_list)))
+	
+	if A_evi:
+		return "".join(A_evi)
+	else:
+		return "".join(BCD_evi)
+jinja2.filters.FILTERS["xajdy_evi_summary_v3"] = xajdy_evi_summary_v3
+
+# 适用北大三CP200-2026.07.09-HD检测范围扩大
+def io_detect_for_BDS_CP200_v3(info):
+	var_list = info[0]
+	return_type = info[1]
+	io_result = {}
+	# 汇总体细胞I/II/肿瘤发生发展相关变异+胚系致病/疑似致病性变异
+	io_gene_P = ["ATM","ATR","BRCA1","BRCA2","BRIP1","CHEK1","CHEK2","FANCA","MRE11",\
+				 "PALB2","RAD50","MLH1","MSH2","MSH6","PMS2","POLE","POLD1","TP53",\
+				 "KRAS","CD274","ARID1A","SETD2","TERT","KMT2D","FAT1","CDK12"]
+	io_gene_N = ["EGFR","ALK","MDM2","MDM4","CDKN2A","CDKN2B","DNMT3A","STK11","IFNGR1",\
+				 "JAK1","JAK2","APC","CTNNB1","B2M","PTEN","FGF19"]
+	cnv_gene_list = ["CD274", "MDM2", "MDM4", "FGF19"]
+	# v0.1.4 新增HD，检测范围扩大到26个基因，嵇梦晨，2026.05.15
+	hd_gene_list = ["ATM", "BARD1", "BRCA1", "BRCA2", "BRIP1", "CDK12", "CDKN2A", "CDKN2B", "CHEK1", "CHEK2", "FANCA", "FANCL", "HDAC2", "HOXB13", 
+				 "MMS22L", "MTAP", "NF1", "PALB2", "PTEN", "RAD51B", "RAD51C", "RAD51D", "RAD54L", "RASA1", "SETD2", "TP53"]
+	
+	for var in var_list:
+		# 仅展示扩增的基因
+		if var["bio_category"] == "Cnv" and var["gene_symbol"] in cnv_gene_list:
+			if var["gene_symbol"] not in io_result.keys():
+				io_result.setdefault(var["gene_symbol"], [])
+			io_result[var["gene_symbol"]].append(var)
+		# 仅展示融合的基因
+		elif var["bio_category"] in ["Sv", "PSeqRnaSv"] and set(re.split(",", var["gene_symbol"])) & set(["ALK"]):
+			if "ALK" not in io_result.keys():
+				io_result.setdefault("ALK", [])
+			io_result["ALK"].append(var)
+		# 展示HD和snvindel
+		elif var["bio_category"] in ["Snvindel", "PHd"] and var["gene_symbol"] in hd_gene_list:
+			if var["gene_symbol"] not in io_result.keys():
+				io_result.setdefault(var["gene_symbol"], [])
+			io_result[var["gene_symbol"]].append(var)
+		# 其余基因展示Snvindel
+		# 2026.08.10-修复仅展示CNV和SV的基因还会展示Snvindel的情况
+		#elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N:
+		elif var["bio_category"] == "Snvindel" and var["gene_symbol"] in io_gene_P + io_gene_N and var["gene_symbol"] not in cnv_gene_list+hd_gene_list and var["gene_symbol"] != "ALK":
+			if var["gene_symbol"] not in io_result.keys():
+				io_result.setdefault(var["gene_symbol"], [])
+			io_result[var["gene_symbol"]].append(var)
+
+	# summary展示
+	io_p_list = [i for k,v in io_result.items() for i in v if k in io_gene_P]
+	io_n_list = [i for k,v in io_result.items() for i in v if k in io_gene_N]
+	
+	if return_type == "p":
+		return io_p_list
+	elif return_type == "n":
+		return io_n_list
+jinja2.filters.FILTERS["io_detect_for_BDS_CP200_v3"] = io_detect_for_BDS_CP200_v3
+
+# 2026.07.09-适用山东肿瘤CP200，更新HD
+def sum_var_v2(var_list):
+	v_result = []
+	for var in var_list:
+		if var["bio_category"] == "Snvindel":
+			if var["hgvs_p"] != "p.?":
+				v_result.append(var["gene_symbol"]+" "+var["hgvs_p"])
+			else:
+				v_result.append(var["gene_symbol"]+" "+var["hgvs_c"])
+		elif var["bio_category"] == "Cnv":
+			# 2025.06.20-区分loss-嵇梦晨
+			# 缺失兼容小写loss
+			if var["cnv_type"] in ["Loss", "loss"]:
+				v_result.append(var["gene_symbol"] + " 缺失")
+			else:
+				v_result.append(var["gene_symbol"]+" 扩增")
+		elif var["bio_category"] in ["Sv", "PSeqRnaSv"]:
+			if var["five_prime_gene"] == "MET" and var["three_prime_gene"] == "MET":
+				v_result.append("MET exon14 跳跃")
+			else:
+				if var["five_prime_gene"]+"-"+var["three_prime_gene"]+" 融合" not in v_result:
+					v_result.append(var["five_prime_gene"]+"-"+var["three_prime_gene"]+" 融合")
+		elif var["bio_category"] == "PHd":
+			v_result.append(var["gene_symbol"]+" 纯合缺失")
+	return ", ".join(v_result)
+jinja2.filters.FILTERS["sum_var_v2"] = sum_var_v2
+
+# 2026.07.13-大连附二CP200药物展示
+# EGFR变异若有A级证据，仅展示A级证据
+def dlykfe_regimen_sum(a):
+	result = []
+	evi_sum = a["evi_sum"]
+	if "evi_split" in evi_sum.keys():		
+		if "Predictive" in evi_sum["evi_split"].keys():
+			for i in evi_sum["evi_split"]["Predictive"]:
+				result.append({
+					"regimen" : i["regimen_name"],
+					"regimen_refer_agency" : i["regimen_refer_agency"],
+					"evi_conclusion_simple" : i["evi_conclusion_simple"],
+					"clinical_significance_cn" : i["clinical_significance_cn"],
+					"refer_agency" : i["refer_agency"]
+				})
+		if "Prognostic" in evi_sum["evi_split"].keys():
+			for i in evi_sum["evi_split"]["Prognostic"]:
+				result.append({
+					"regimen" : "预后"+i["clinical_significance_cn"],
+					"regimen_refer_agency" : i["regimen_refer_agency"],
+					"evi_conclusion_simple" : i["evi_conclusion_simple"],
+					"clinical_significance_cn" : "/",
+					"refer_agency" : i["refer_agency"]
+				})
+		if "Diagnostic" in evi_sum["evi_split"].keys():
+			for i in evi_sum["evi_split"]["Diagnostic"]:
+				result.append({
+					"regimen" : "辅助诊断",
+					"regimen_refer_agency" : i["regimen_refer_agency"],
+					"evi_conclusion_simple" : i["evi_conclusion_simple"],
+					"clinical_significance_cn" : "/",
+					"refer_agency" : i["refer_agency"]
+				})
+	regimen_level = [i["evi_conclusion_simple"] for i in result]
+	if "A" in regimen_level and "gene_symbol" in a.keys() and a["gene_symbol"] and a["gene_symbol"] == "EGFR":
+		return [i for i in result if i["evi_conclusion_simple"] == "A"]
+	else:
+		return result
+jinja2.filters.FILTERS["dlykfe_regimen_sum"] = dlykfe_regimen_sum 
+
+# 2026.07.14大连医科二院合并证据
+def dlykfe_merge_evi(evi_list):
+	evi_dict = {}
+	for evi in evi_list:
+		if evi["evi_interpretation"] not in evi_dict.keys():
+			evi_dict.setdefault(evi["evi_interpretation"], [])
+		evi_dict[evi["evi_interpretation"]].append(evi["regimen_name"])
+	result = []
+	for inter, regimen_list in evi_dict.items():
+		result.append({
+			"evi_interpretation" : inter,
+			"regimen_name" : "、".join(regimen_list)
+		})
+	return result
+
+# 2026.07.13-大连附二CP200药物展示-仅敏感
+# EGFR变异若有A级证据，仅展示A级证据
+def dlykfe_regimen_sum_sense(var_list):
+	for var in var_list:
+		if "evi_split" in var["evi_sum"].keys() and "Predictive" in var["evi_sum"]["evi_split"].keys():		
+			evi_result = [i for i in var["evi_sum"]["evi_split"]["Predictive"] if i["clinical_significance_cn"] == "敏感"]
+		if "A" in [i["evi_conclusion_simple"] for i in evi_result] and "gene_symbol" in var.keys() and var["gene_symbol"] and var["gene_symbol"] == "EGFR":
+			evi_result = [i for i in evi_result if i["evi_conclusion_simple"] == "A"]
+		var["dlykfe_sense_regimen"] = evi_result
+	return [var for var in var_list if var["dlykfe_sense_regimen"]]
+jinja2.filters.FILTERS["dlykfe_regimen_sum_sense"] = dlykfe_regimen_sum_sense
+
+# 2026.07.14-大连附二CP200药物详细解读-区分FDA/NMPA、CSCO/NCCN、临床试验/回顾性分析、个案报道、临床前证据
+def dlykfe_regimen_classic(info):
+	var = info[0]
+	evi_list = var["dlykfe_sense_regimen"]
+	evi_type = info[1]
+	result = {
+		"A_FDA_NMPA" : [],
+		"A_CSCO_NCCN" : [],
+		"clinical" : [],
+		"case_report" : [],
+		"preclinical" : []
+	}
+	# var_info
+	var_info = ""
+	if "bio_category" in var.keys() and var["bio_category"] == "Snvindel":
+		if var["hgvs_p"] != "p.?":
+			var_info = var["gene_symbol"] + " " + var["hgvs_p"]+"变异"
+		else:
+			var_info = var["gene_symbol"] + " " + var["hgvs_c"]+"变异"
+	elif "bio_category" in var.keys() and var["bio_category"] == "Cnv":
+		var_info = var["gene_symbol"] +" 扩增变异"
+	elif "bio_category" in var.keys() and var["bio_category"] == "Sv":
+		var_info = var["five_prime_gene"]+"-"+var["three_prime_gene"]+" 融合变异"
+	elif "bio_category" in var.keys() and var["bio_category"] == "PHd":
+		var_info = var["gene_symbol"]+" 纯合缺失变异"
+	elif "var_id" in var.keys() and var["var_id"] == "KRAS/NRAS/BRAF WT":
+		var_info = "KRAS/NRAS/BRAF V600E野生型"
+
+	# 获取A级获批药物
+	evi_dict = {}
+	level_a_evi = [evi for evi in evi_list if evi["evi_conclusion_simple"] == "A" and evi["refer_agency"] and set(["FDA", "NMPA", "CSCO", "NCCN"]) & set([evi["refer_agency"]])]
+	for evi in level_a_evi:
+		if evi["refer_agency"] not in evi_dict.keys():
+			evi_dict.setdefault(evi["refer_agency"], {})
+		if evi["tumor_name_cn"] not in evi_dict[evi["refer_agency"]].keys():
+			evi_dict[evi["refer_agency"]].setdefault(evi["tumor_name_cn"], [])
+		if evi["regimen_name"] not in evi_dict[evi["refer_agency"]][evi["tumor_name_cn"]]:
+			evi_dict[evi["refer_agency"]][evi["tumor_name_cn"]].append(evi["regimen_name"])
+	for agency, info in evi_dict.items():
+		for tumor, regimen_list in info.items():
+			if agency in ["FDA", "NMPA"]:
+				result["A_FDA_NMPA"].append("{0}批准{1}适用于{2}的{3}患者。".format(agency, "、".join(regimen_list), var_info, tumor))
+			else:
+				result["A_CSCO_NCCN"].append("{0}指南推荐{1}适用于{2}的{3}患者。".format(agency, "、".join(regimen_list), var_info, tumor))
+	# 非A级且获批的药物
+	for evi in evi_list:
+		if evi["evi_conclusion_simple"] == "A" and evi["refer_agency"] and set(["FDA", "NMPA", "CSCO", "NCCN"]) & set([evi["refer_agency"]]):
+			pass
+		else:
+			if evi["evidence_level"] in ["Clinical-phase I", "Clinical-phase II", "Clinical-phase III", "Clinical-phase IV", "Clinical-retrospective", "Clinical-unknown phase"]:
+				result["clinical"].append({"regimen_name" : evi["regimen_name"], "evi_interpretation" : evi["evi_interpretation"]})
+			elif evi["evidence_level"] in ["Case report"]:
+				result["case_report"].append({"regimen_name" : evi["regimen_name"], "evi_interpretation" : evi["evi_interpretation"]})
+			else:
+				result["preclinical"].append({"regimen_name" : evi["regimen_name"], "evi_interpretation" : evi["evi_interpretation"]})
+	# 合并证据
+	result["clinical"] = dlykfe_merge_evi(result["clinical"])
+	result["case_report"] = dlykfe_merge_evi(result["case_report"])
+	result["preclinical"] = dlykfe_merge_evi(result["preclinical"])
+	
+	return result.get(evi_type, [])
+jinja2.filters.FILTERS["dlykfe_regimen_classic"] = dlykfe_regimen_classic
+
+
+# 2026.07.14-大连附二CP200药物展示-仅耐药
+def dlykfe_regimen_sum_resis(var_list):
+	for var in var_list:
+		if "evi_split" in var["evi_sum"].keys() and "Predictive" in var["evi_sum"]["evi_split"].keys():		
+			evi_result = [i for i in var["evi_sum"]["evi_split"]["Predictive"] if i["clinical_significance_cn"] == "耐药"]
+			# EGFR存在A级证据（敏感/耐药），则只展示A级证据
+			if "A" in [i["evi_conclusion_simple"] for i in var["evi_sum"]["evi_split"]["Predictive"]] and "gene_symbol" in var.keys() and var["gene_symbol"] and var["gene_symbol"] == "EGFR":
+				evi_result = [i for i in evi_result if i["evi_conclusion_simple"] == "A"]
+		var["dlykfe_resis_regimen"] = evi_result
+	return [var for var in var_list if var["dlykfe_resis_regimen"]]
+jinja2.filters.FILTERS["dlykfe_regimen_sum_resis"] = dlykfe_regimen_sum_resis
+
+
+# 2026.07.14-大连附二CP200药物详细解读-区分FDA/NMPA、CSCO/NCCN、临床试验/回顾性分析、个案报道、临床前证据-耐药
+def dlykfe_regimen_classic_resis(info):
+	var = info[0]
+	evi_list = var["dlykfe_resis_regimen"]
+	evi_type = info[1]
+	result = {
+		"A_CSCO_NCCN" : [],
+		"clinical" : [],
+		"case_report" : [],
+		"preclinical" : []
+	}
+	# 若EGFR 存在A级治疗方案，那么就不展示BCD
+	if var["gene_symbol"] == "EGFR" and "A" in [i["evi_conclusion_simple"] for i in evi_list + var["dlykfe_sense_regimen"]]:
+		evi_list = [i for i in evi_list if i["evi_conclusion_simple"] == "A"]
+
+	for evi in evi_list:
+		if evi["refer_agency"] and set(["CSCO", "NCCN"]) & set([evi["refer_agency"]]) and evi["evi_conclusion_simple"] == "A" :
+			result["A_CSCO_NCCN"].append({"regimen_name" : evi["regimen_name"], "evi_interpretation" : evi["evi_interpretation"]})
+		else:
+			if evi["evidence_level"] in ["Clinical-phase I", "Clinical-phase II", "Clinical-phase III", "Clinical-phase IV", "Clinical-retrospective", "Clinical-unknown phase"]:
+				result["clinical"].append({"regimen_name" : evi["regimen_name"], "evi_interpretation" : evi["evi_interpretation"]})
+			elif evi["evidence_level"] in ["Case report"]:
+				result["case_report"].append({"regimen_name" : evi["regimen_name"], "evi_interpretation" : evi["evi_interpretation"]})
+			else:
+				result["preclinical"].append({"regimen_name" : evi["regimen_name"], "evi_interpretation" : evi["evi_interpretation"]})
+	# 合并证据
+	result["A_CSCO_NCCN"] = dlykfe_merge_evi(result["A_CSCO_NCCN"])
+	result["clinical"] = dlykfe_merge_evi(result["clinical"])
+	result["case_report"] = dlykfe_merge_evi(result["case_report"])
+	result["preclinical"] = dlykfe_merge_evi(result["preclinical"])
+	
+	return result.get(evi_type, [])
+jinja2.filters.FILTERS["dlykfe_regimen_classic_resis"] = dlykfe_regimen_classic_resis
+
+# 2026.07.13-大连附二CP200参考文献控制在一页，这边修改默认为14条
+def dlykfe_cp200_refer(refer_list):
+	redup_refer_list = []
+	for i in refer_list:
+		if i not in redup_refer_list:
+			redup_refer_list.append(i)
+	if len(redup_refer_list) > 14:
+		redup_refer_list = refer_list[:14]
+	return redup_refer_list
+jinja2.filters.FILTERS["dlykfe_cp200_refer"] = dlykfe_cp200_refer
+
+# 2026.07.20-山东齐鲁CP40-肝胆胰-变异需要过滤掉非检测范围内的
+def sdql_cp_liver_var_filter(info):
+	var_list = info[0]
+	gene_list = info[1]
+	return [var for var in var_list if set(re.split(",", var["gene_symbol"])) & set(gene_list)]
+jinja2.filters.FILTERS["sdql_cp_liver_var_filter"] = sdql_cp_liver_var_filter
+	
+# 2026.07.20-山东齐鲁CP40-肝胆胰--结果汇总，没检测到变异的基因也要展示
+def sdql_cp_liver_var_summary(info):
+	var_list = info[0]
+	gene_list = info[1]
+	detect_gene = [var["gene_symbol"] for var in var_list]
+	result = [var for var in var_list if set(re.split(",", var["gene_symbol"])) & set(gene_list)]
+	for gene in set(gene_list) - set(detect_gene):
+		result.append({"gene_symbol" : gene})
+	return sorted(result, key = lambda i:i["gene_symbol"])
+jinja2.filters.FILTERS["sdql_cp_liver_var_summary"] = sdql_cp_liver_var_summary
+
+# 2026.07.20-复旦中山CP200-I/II/III类变异不展示CDKN2A、CDKN2B、MTAP HD
+def fdzs_cp200_filter_3gene_hd(var_list):
+	return [var for var in var_list if not (var["bio_category"] == "PHd" and var["gene_symbol"] in ["CDKN2A", "CDKN2B", "MTAP"])]
+jinja2.filters.FILTERS["fdzs_cp200_filter_3gene_hd"] = fdzs_cp200_filter_3gene_hd
+
+# 2026.07.20-复旦中山CP200-v0.1.4-需要单独展示CDKN2A、CDKN2B、MTAP HD
+def fdzs_cp200_3gene_hd(var_list):
+	gene_dict = {
+		"CDKN2A" : "E1-E3，NM_000077.5",
+		"CDKN2B" : "E1-E2，NM_004936.4",
+		"MTAP" : "E1-E8，NM_002451.4"
+	}
+	gene3_var = [var for var in var_list if var["bio_category"] == "PHd" and var["gene_symbol"] in ["CDKN2A", "CDKN2B", "MTAP"]]
+	if gene3_var:
+		for gene in set(["CDKN2A", "CDKN2B", "MTAP"]) - set([var["gene_symbol"] for var in gene3_var]):
+			gene3_var.append({"gene_symbol" : gene, "region_transcript_primary" : gene_dict.get(gene, "")})
+		return sorted(gene3_var, key = lambda i:i["gene_symbol"])
+	else:
+		return []
+jinja2.filters.FILTERS["fdzs_cp200_3gene_hd"] = fdzs_cp200_3gene_hd
+
+# 西安交大一-新增NCCN指南推荐基因列表（区分癌种）-2026.07.21
+# 新增几个胚系产品
+def xajdy_nccn_result_v2(info):
+	nccn_list = info[0]
+	var_list = info[1]
+	#tumor_list = info[2]
+	sample = info[2]
+	prod_name = sample["prod_names"]
+	# 1. 汇总癌种对应的基因列表
+	nccn_tumor_gene = {}
+	nccn_all_gene = []
+	for i in nccn_list:
+		if i["gene_symbol"] not in nccn_all_gene:
+			nccn_all_gene.append(i["gene_symbol"])
+		for tumor in re.split("、", i["disease"]):
+			if tumor not in nccn_tumor_gene:
+				nccn_tumor_gene.setdefault(tumor, [])
+			nccn_tumor_gene[tumor].append(i["gene_symbol"])
+	# 2. 筛选出需要展示的基因列表
+	raw_gene_list_all = []
+	# 2025.06.11-新增规则，如果癌种为 其他/实体瘤，则展示所有基因
+	if sample["tumor_type"] in ["其他", "实体瘤"]:
+		raw_gene_list_all = nccn_all_gene
+	else:
+		for tumor in sample["tumor_list"]:
+			if tumor in nccn_tumor_gene.keys():
+				raw_gene_list_all.extend(nccn_tumor_gene[tumor])
+		raw_gene_list_all.extend(nccn_tumor_gene["实体瘤"])
+	### 跟产品检测范围取交集-116/MP无需再过滤，其他产品有新增的往下再加
+	lc10_gene_list = ["ALK", "BRAF", "EGFR", "ERBB2", "KRAS", "MET", "NRAS", "PIK3CA", "RET", "ROS1"]
+	cp40_gene_list = ["AKT1", "ALK", "BRAF", "CDK4", "CTNNB1", "DDR2", "DPYD", "EGFR", \
+				      "ERBB2", "ESR1", "FGFR1", "FGFR2", "FGFR3", "FGFR4", "HRAS", "IDH1", \
+					  "IDH2", "KEAP1", "KIT", "KRAS", "MAP2K1", "MET", "MYC", "NFE2L2", \
+					  "NKX2-1", "NRAS", "NRG1", "NTRK1", "NTRK2", "NTRK3", "PDGFRA", "PIK3CA", \
+					  "POLE", "PTEN", "RB1", "RET", "ROS1", "STK11", "TP53", "UGT1A1"]
+	tc21_gene_list = ["AKT1", "ALK", "BRAF", "CTNNB1", "EIF1AX", "GNAS", "HRAS", "KRAS", \
+					  "NRAS", "NTRK1", "NTRK3", "PAX8", "PDGFRA", "PIK3CA", "PTEN", "RASAL1", \
+					  "RET", "TERT", "TP53", "TSC2", "TSHR"]
+	ga18_gene_list = ["AKT1", "BRAF", "EGFR", "ERBB2", "FGF19", "FGFR1", "FGFR2", "FGFR3", \
+				      "HRAS", "KIT", "KRAS", "MET", "NRAS", "PDGFRA", "PIK3CA", "PTEN", \
+					  "TP53"]
+	brca_gene_list = ["BRCA1", "BRCA2"]
+	tbptmplus_gene_list = ["BRCA1", "BRCA2", "POLE", "TP53", "CTNNB1", "EPCAM", "MLH1", "MSH2", "MSH6", "PMS2"]
+	mhrd_gene_list = ["BRCA1", "BRCA2", "ATM", "BARD1", "BRIP1", "CDH1", "CDK12", "CHEK1", "CHEK2", "FANCA", \
+				      "FANCL", "HDAC2", "PALB2", "PPP2R2A", "PTEN", "RAD51B", "RAD51C", "RAD51D", "RAD54L", "TP53"]
+	hrr_gene_list = ["BRCA1", "BRCA2", "AKT1", "AR", "ATM", "ATR", "BARD1", "BRAF", "BRIP1", "CDH1", \
+				      "CDK12", "CHEK1", "CHEK2", "ERBB2", "ESR1", "FANCA", "FANCL", "HDAC2", "HOXB13", "KRAS", \
+					  "MLH1", "MRE11", "NBN", "NRAS", "PALB2", "PIK3CA", "PPP2R2A", "PTEN", "RAD51B", "RAD51C", \
+					  "RAD51D", "RAD54L", "STK11", "TP53"]
+	if "10基因" in prod_name:
+		raw_gene_list = list(set(lc10_gene_list) & set(raw_gene_list_all))
+	elif prod_name == "Classic Panel":
+		raw_gene_list = list(set(cp40_gene_list) & set(raw_gene_list_all))
+	elif "TC21" in prod_name:
+		raw_gene_list = list(set(tc21_gene_list) & set(raw_gene_list_all))
+	elif "GA18" in prod_name:
+		raw_gene_list = list(set(ga18_gene_list) & set(raw_gene_list_all))
+	elif "BRCA" in prod_name:
+		raw_gene_list = list(set(brca_gene_list) & set(raw_gene_list_all))
+	elif "Plus" in prod_name:
+		raw_gene_list = list(set(tbptmplus_gene_list) & set(raw_gene_list_all))
+	elif "M HRD（组织）" in prod_name:
+		raw_gene_list = list(set(mhrd_gene_list) & set(raw_gene_list_all))
+	elif "HRR" in prod_name:
+		raw_gene_list = list(set(hrr_gene_list) & set(raw_gene_list_all))
+	else:
+		raw_gene_list = raw_gene_list_all
+	# 3. 基因列表去重下
+	gene_list = []
+	for gene in raw_gene_list:
+		if gene not in gene_list:
+			gene_list.append(gene)
+	# 4. 汇总结果
+	raw_result = [var for var in var_list if set(re.split(",", var["gene_symbol"])) & set(gene_list)]
+	detect_gene = []
+	for var in var_list:
+		for gene in re.split(",", var["gene_symbol"]):
+			detect_gene.append(gene)
+	for gene in set(gene_list) - set(detect_gene):
+		raw_result.append({"gene_symbol" : gene})
+	raw_result = sorted(raw_result, key = lambda i:i["gene_symbol"])
+	# 5. 结果分成两列展示
+	result = []
+	for i in range(0, len(raw_result)-2, 2):
+		tmp_dict = {}
+		for j in range(1, 3):
+			tmp_dict["var"+str(j)] = raw_result[i+j-1]
+		result.append(tmp_dict)
+
+	rest_num= len(raw_result) % 2
+	rest_tmp_dict = {}
+	for j in range(1, 3):
+		rest_tmp_dict["var"+str(j)] = ""
+
+	num = 1
+	last_row_num = len(raw_result)-rest_num if rest_num != 0 else len(raw_result)-rest_num-2
+	if last_row_num >= 0:
+		for j in range(last_row_num, len(raw_result)):
+			rest_tmp_dict["var"+str(num)] = raw_result[j]
+			num += 1
+		result.append(rest_tmp_dict)
+	return result
+jinja2.filters.FILTERS["xajdy_nccn_result_v2"] = xajdy_nccn_result_v2
+
+# 2026.07.28-吉大一胰腺癌需要展示KRAS
+def jdy_pancreatic_kras(var_list):
+	return [var for var in var_list if var["bio_category"] == "Snvindel" and var["gene_symbol"] == "KRAS"]
+jinja2.filters.FILTERS["jdy_pancreatic_kras"] = jdy_pancreatic_kras
+
+# 2026.07.30-内蒙MP，区分12基因和其他基因
+# 返回三种结果
+# 1. 12基因结果
+# 2. 12基因未检出变异的基因
+# 3. 其他基因结果
+def nmrm_mp_filter_gene(info):
+	var_list = info[0]
+	# gene12/other/gene12nofound
+	var_type = info[1]
+	gene12_list = ["ALK", "BRAF", "EGFR", "ERBB2", "KRAS", "MET", "NRAS", "PIK3CA", "RET", "ROS1", "BRCA1", "BRCA2"]
+	gene_12_var_list = [var for var in var_list if set(re.split(",", var["gene_symbol"])) & set(gene12_list)]
+	gene_other_var_list = [var for var in var_list if not set(re.split(",", var["gene_symbol"])) & set(gene12_list)]
+	gene12_var_gene = []
+	for var in gene_12_var_list:
+		for gene in re.split(",", var["gene_symbol"]):
+			gene12_var_gene.append(gene)
+	gene12_nofound = set(gene12_list) - set(gene12_var_gene)
+
+	if var_type == "gene12":
+		return gene_12_var_list
+	elif var_type == "gene12nofound":
+		return sorted(gene12_nofound, key = lambda i:gene12_list.index(i))
+	else:
+		return gene_other_var_list
+jinja2.filters.FILTERS["nmrm_mp_filter_gene"] = nmrm_mp_filter_gene
+
+# 2025.05.06-华西150-风险和管理-2025.05.06
+# 2025.10.09-新增需求-风险管理需要根据性别做筛选
+# 2026.08.04-新增需求，
+def hx_150_risk_v2(info):
+	var_list = info[0]
+	hx_150_gene_risk_inter = info[1]
+	hx_150_gene_risk_table = info[2]
+	hx_150_gene_risk_management = info[3]
+	gender = info[4]
+	for var in var_list:
+		var["hx_150_gene_risk_inter"] = hx_150_gene_risk_inter.get(var["gene_symbol"], [])
+		var["hx_150_gene_risk_table"] = hx_150_gene_risk_table.get(var["gene_symbol"], [])
+		# 2025.09.24-新增需求，DIS3L2、MBD4、MSH3、TRIM37基因，如果检出变异为杂合，就不展示风险管理
+		if var["gene_symbol"] in ["DIS3L2", "MBD4", "MSH3", "TRIM37"] and float(var["freq"]) <= 0.85:
+			var["hx_150_gene_risk_management"] = []
+		else:
+			var["hx_150_gene_risk_management"] = hx_150_gene_risk_management.get(var["gene_symbol"], [])
+		# 2025.10.09-新增需求-风险管理需要根据性别做筛选
+		var["hx_150_gene_risk_management"] = [i for i in var["hx_150_gene_risk_management"] if i["gender"] == gender or not i["gender"]]
+		# 2025.10.09-新增完成
+		# 1. 基因与肿瘤的关联
+		# 位置1：变异后面
+		# 位置2：风险表格下面
+		# 位置3：风险管理后面
+		# 1.1 若一个基因只有一条描述，则直接放在位置1
+		# 1.2 若一个基因有多条描述
+		# 1.2.1 变异分组和配置表的变异分组一致的话用变异分组对应的数据，否则用通用数据（ABRAXAS1 R361Q需要展示特殊和通用两条）
+		# 1.2.2 上一步骤过滤完剩一条，则直接展示到位置1
+		# 1.2.3 剩多条，常显展示到位置1，常隐需要结合变异基因型，纯合展示到位置2，杂合展示到位置3
+		# 1.2.3 的常隐规则更新：纯合展示到位置2，杂合根据特定描述格式，展示到位置2和3
+		# 增加一个参考文献-2025.05.09
+		reference = []	
+		gene_type = ""
+		if var["type"] in ["Loss", "Gain"]:
+			gene_type = "纯合" if var["cnv_type"] == "HomoDel" else "杂合" if var["cnv_type"] == "HeteDel" else "" 
+		else:
+			gene_type = "纯合" if var["freq"] and float(var["freq"]) >= 0.85 else "杂合"
+		var_category_names = var["var_category_names"] if "var_category_names" in var.keys() and var["var_category_names"] else ""
+		site1_list = []
+		site2_list = []
+		site3_list = []
+		# 2025.08.15-如果样本检出变异均为常隐+杂合时，需要删除家族其他成员风险管理，这边加个判定
+		# 常隐+杂合 添加“yes”，其他添加“no”，模板中判定“no”在列表里，则展示家族其他成员风险管理
+		judge_ad_hete = []
+		# 2025.08.15-华西150体检没有展示ABRAXAS1基因
+		if var["gene_symbol"] == "ABRAXAS1" and var["bio_category"] == "Snvindel" and var["hgvs_p"] == "p.(R361Q)":
+			site1_list = [i["inter"] for i in var["hx_150_gene_risk_inter"]]
+			reference.extend([i["reference"] for i in var["hx_150_gene_risk_inter"] if i["reference"]])
+		else:
+			category_list = [i for i in var["hx_150_gene_risk_inter"] if var_category_names and set(re.split(",", var_category_names)) & set(re.split(r"\|\|", i["var_category_names"]))]
+			#print ("category_list", category_list)
+			nocategory_list = [i for i in var["hx_150_gene_risk_inter"] if not i["var_category_names"]]
+			#print ("nocategory_list", nocategory_list)
+			filter_list = category_list if category_list else nocategory_list
+			if len(filter_list) == 1:
+				#site1_list = [i["inter"] for i in filter_list]
+				reference.extend([i["reference"] for i in filter_list if i["reference"]])
+
+				# 2025.08.15-新增-若疾病仅有常染色体隐性遗传，且为杂合(2025.08.18-非杂合也要删除)时，“若您处于育龄期，”前加一句“您仅为携带者，”
+				site1_list = []
+				if filter_list[0]["genetic_mode"] == "常染色体隐性遗传" and gene_type == "杂合":
+					judge_ad_hete.append("yes")
+					for i in filter_list:
+						if "若您处于育龄期，" in i["inter"]:
+							site1_split_str = re.split("若您处于育龄期，", i["inter"])
+							site1_list.append(site1_split_str[0] + "您仅为携带者，若您处于育龄期，" + "".join(site1_split_str[1:]))
+						else:
+							site1_list.append(i["inter"])
+				else:
+					if filter_list[0]["genetic_mode"] == "常染色体隐性遗传":
+						judge_ad_hete.append("yes")
+					else:
+						judge_ad_hete.append("no")
+					site1_list = [i["inter"] for i in filter_list]
+				# 2025.08.15-新增完成
+
+			else:
+				judge_ad_hete.append("no")
+				site1_list = [i["inter"] for i in filter_list if i["genetic_mode"] == "常染色体显性遗传"]
+				reference.extend([i["reference"] for i in filter_list if i["reference"] and i["genetic_mode"] == "常染色体显性遗传"])
+				site2_list = [i["inter"] for i in filter_list if i["genetic_mode"] == "常染色体隐性遗传"] if gene_type == "纯合" else []
+				if gene_type == "纯合":
+					reference.extend([i["reference"] for i in filter_list if i["reference"] and i["genetic_mode"] == "常染色体隐性遗传"])
+				#site3_list = [i["inter"] for i in filter_list if i["genetic_mode"] == "常染色体隐性遗传"] if gene_type == "杂合" or not gene_type else []
+				# site3_list规则更新-2026.08.04
+				# 常隐+杂合
+				# site2_list 展示“您为XX基因杂合致病性/疑似致病性变异携带者，……”
+				# site3_list 展示“您为XX基因杂合致病性/疑似致病性变异携带者，若您处于育龄期。建议进行产前诊断及辅助生殖相关措施,包括胚胎植入前遗传学检测。若配偶也为该基因致病性或疑似致病性变异的携带者。则后代存在罹患范可尼贫血的风险”
+				ad_hete_risk_inter = [i["inter"] for i in filter_list if i["genetic_mode"] == "常染色体隐性遗传"] if gene_type == "杂合" or not gene_type else []
+				for item in ad_hete_risk_inter:
+					item_list = re.split("若您处于育龄期", item)
+					site2_list.append("您为{0}基因杂合{1}携带者，{2}".format(var["gene_symbol"], "致病性变异" if var["clinic_num_g"] == 5 else "疑似致病性变异", item_list[0] if item_list else "未提取到相关描述！"))
+					reference.extend([i["reference"] for i in filter_list if i["reference"] and i["genetic_mode"] == "常染色体隐性遗传"])
+					site3_list.append("您为{0}基因杂合{1}携带者，{2}".format(var["gene_symbol"], "致病性变异" if var["clinic_num_g"] == 5 else "疑似致病性变异", "若您处于育龄期" + item_list[1] if item_list and len(item_list) >= 2 else "未提取到相关描述！"))
+		var["hx_150_gene_risk_inter_site1"] = "".join(site1_list)
+		var["hx_150_gene_risk_inter_site2"] = "".join(site2_list)
+		var["hx_150_gene_risk_inter_site3"] = "".join(site3_list)
+		var["judge_ad_hete"] = judge_ad_hete
+		reference_redup = []
+		for i in reference:
+			if i not in reference_redup:
+				reference_redup.append(i)
+		var["reference"] = ",".join(reference_redup)
+
+		# 2. 风险表格
+		# 样式1：三列，包含肿瘤、绝对风险和与疾病的相关性
+		# 样式2：四列，包含肿瘤、年龄、携带者风险和普通人风险
+		# 样式3：总结一句话
+		risk_table_tmp_dict = {}
+		if var["hx_150_gene_risk_table"]:
+			hx_150_gene_risk_table_filter_category = [i for i in var["hx_150_gene_risk_table"] if var_category_names and set(re.split(",", var_category_names)) & set(re.split(r"\|\|", i["var_category_names"]))]
+			hx_150_gene_risk_table_filter_nocategory = [i for i in var["hx_150_gene_risk_table"] if not i["var_category_names"]]
+			hx_150_gene_risk_table_filter = hx_150_gene_risk_table_filter_category if hx_150_gene_risk_table_filter_category else hx_150_gene_risk_table_filter_nocategory
+			for i in hx_150_gene_risk_table_filter:
+				if i["absolute_risk"]:
+					i["risk_table_type"] = "column_3"
+				elif i["summary"]:
+					i["risk_table_type"] = "summary"
+				else:
+					i["risk_table_type"] = "column_4"
+				note = i["note"] if i["note"] else "nofound"
+				if note not in risk_table_tmp_dict.keys():
+					risk_table_tmp_dict.setdefault(note, [])
+				risk_table_tmp_dict[note].append(i)
+		risk_table_list = []
+		for k, v in risk_table_tmp_dict.items():
+			risk_table_type = v[0].get("risk_table_type", "nofound") if v and len(v) >= 1 else ""
+			risk_table_list.append({
+				"note" : k,
+				"risk_table_type" : risk_table_type,
+				"info" : v
+			})
+		#print ("risk_table_list", risk_table_list)
+		var["risk_table_list"] = risk_table_list
+
+		# 3. 风险管理表格
+		# 样式1：不区分人群
+		# 样式2：需要区分儿童和成年人
+		hx_150_gene_risk_management_dict = {}
+		if var["hx_150_gene_risk_management"]:
+			hx_150_gene_risk_management_filter_category = [i for i in var["hx_150_gene_risk_management"] if var_category_names and set(re.split(",", var_category_names)) & set(re.split(r"\|\|", i["var_category_names"]))]
+			hx_150_gene_risk_management_filter_nocategory = [i for i in var["hx_150_gene_risk_management"] if not i["var_category_names"]]
+			hx_150_gene_risk_management_filter = hx_150_gene_risk_management_filter_category if hx_150_gene_risk_management_filter_category else hx_150_gene_risk_management_filter_nocategory
+			#tumor_sort = []
+			for i in hx_150_gene_risk_management_filter:
+				if i["note3"]:
+					i["management_type"] = "summary"
+				else:
+					i["management_type"] = "table"
+			#	if i["tumor"] not in tumor_sort:
+			#		tumor_sort.append(i["tumor"])
+				key = i["note2"] if i["note2"] else "noinfo"
+				if key not in hx_150_gene_risk_management_dict.keys():
+					hx_150_gene_risk_management_dict.setdefault(key,{})
+				if i["tumor"] not in hx_150_gene_risk_management_dict[key].keys():
+					hx_150_gene_risk_management_dict[key].setdefault(i["tumor"],[])
+				hx_150_gene_risk_management_dict[key][i["tumor"]].append(i)
+		hx_150_gene_risk_management_list = []
+		for agetype, v in hx_150_gene_risk_management_dict.items():
+			tmp_list = []
+			for tumor, info in v.items():
+				tmp_list.append(
+					{
+						"tumor" : tumor,
+						"info" : info
+					}
+				)
+			hx_150_gene_risk_management_list.append(
+				{
+					"agetype" : agetype,
+					"management_list" : tmp_list,
+					"management_type" : tmp_list[0]["info"][0]["management_type"] if tmp_list and \
+										len(tmp_list) >= 1 and \
+										"info" in tmp_list[0] and \
+										tmp_list[0]["info"] and \
+										len(tmp_list[0]["info"]) >= 1 and \
+										"management_type" in tmp_list[0]["info"][0].keys() and \
+										tmp_list[0]["info"][0]["management_type"] else ""
+				}
+			)
+		var["hx_150_gene_risk_management_list"] = hx_150_gene_risk_management_list
+	return var_list
+jinja2.filters.FILTERS["hx_150_risk_v2"] = hx_150_risk_v2
+
+# 吉大二CP200-临床试验仅展示I/II类变异对应基因-2026.08.06
+def jde_filter_clinical(info):
+	clinical = info[0]
+	var_list = info[1]
+	gene_list = []
+	for var in var_list:
+		for gene in re.split(",", var["gene_symbol"]):
+			if gene not in gene_list:
+				gene_list.append(gene)
+	return [i for i in clinical if i["gene_symbol"] in gene_list]
+jinja2.filters.FILTERS["jde_filter_clinical"] = jde_filter_clinical
+
+# 0.1.4仅展示3个基因HD-2026.08.19
+def shfk_cp200_hd_filter_v4(info):
+	var_list = info[0]
+	hd_type = info[1]
+	posi = [var["gene_symbol"] for var in var_list if var["bio_category"] == "PHd"]
+	nega = []
+	hd_gene_list = ["MTAP", "CDKN2A", "CDKN2B"]
+	for gene in set(hd_gene_list) - set([var["gene_symbol"] for var in var_list if var["bio_category"] == "PHd"]):
+		nega.append(gene)
+	if hd_type == "positive":
+		return "、".join(posi)
+	else:
+		return "、".join(nega)
+jinja2.filters.FILTERS["shfk_cp200_hd_filter_v4"] = shfk_cp200_hd_filter_v4
+
+# 2026.08.24-江门中心CP200，附录HD结果根据基因名进行排序
+def jmzx_cp200_hd_sort(var_list):
+	return sorted(var_list, key = lambda i:i["gene_symbol"])
+jinja2.filters.FILTERS["jmzx_cp200_hd_sort"] = jmzx_cp200_hd_sort
+
+# 2026.08.28-肠癌KNBP-MRD仅展示4个基因，需要过滤
+def knbp_mrd_filter_gene(var_list):
+	return [var for var in var_list if var["gene_symbol"] in ["KRAS", "NRAS", "BRAF", "PIK3CA"] and var["bio_category"] == "Snvindel"]
+jinja2.filters.FILTERS["knbp_mrd_filter_gene"] = knbp_mrd_filter_gene
+
+# 北大三-MP-筛选出不合格的质控项-2026.08.31-v2版本RNA v1.1.0新增内参基因，临检删除片段化DNA总量
+def bds_mp_qc_v3(info):
+	lib_qc = info[0]
+	ngs_qc = info[1]
+	prod_type = info[2]
+	report_module_type = info[3]
+	ngs_qc_standard = {
+		"dna" : {
+			"cleandata_q30_num" : 0.75,
+			"cover_ratio_num" : 0.95,
+			"uni20_uniq_hot_num" : 0.9,
+			"uni20_uniq_nonhot_num" : 0.8,
+			"depth_mean_uniq_hot_num" : 800,
+			"depth_mean_uniq_nonhot_num" : 400
+		},
+		"rna_v2" : {
+			"cleandata_q30_num" : 0.75,
+			"mapping_ratio_num" : 0.8,
+			"end2sense_ratio_num" : 0.9,
+			"effectivereads_num" : 3000000,
+		},
+		"rna_v3" : {
+			"cleandata_q30_num" : 0.75,
+			"mapping_ratio_num" : 0.8,
+			"end2sense_ratio_num" : 0.9,
+			"effectivereads_num" : 3000000,
+			"depth_rna_ctrl_num" : 2000
+		}
+	}
+
+	lib_qc_standard = {
+		"dna_hospital" : {
+			"dna_qty" : 150,
+			"break_dna_qty" : 60,
+			"library_qty" : 500
+		},
+		"dna_clinical" : {
+			"dna_qty" : 150,
+			"library_qty" : 500
+		},
+		"rna" : {
+			"rna_qty" : 200,
+			"library_qty" : 500
+		}
+	}
+
+	ngs_qc_key = {
+		"dna" : {
+			"cleandata_q30_num" : "DNA样本Q30",
+			"cover_ratio_num" : "覆盖度",
+			"uni20_uniq_hot_num" : "组织均一性（热点区域）",
+			"uni20_uniq_nonhot_num" : "组织均一性（非热点区域）",
+			"depth_mean_uniq_hot_num" : "组织平均有效深度（热点区域）",
+			"depth_mean_uniq_nonhot_num" : "组织平均有效深度（非热点区域）"
+		},
+		"rna_v2" : {
+			"cleandata_q30_num" : "RNA样本Q30",
+			"mapping_ratio_num" : "比对率",
+			"end2sense_ratio_num" : "RNA链特异性指标",
+			"effectivereads_num" : "有效Reads数"
+		},
+		"rna_v3" : {
+			"cleandata_q30_num" : "RNA样本Q30",
+			"mapping_ratio_num" : "比对率",
+			"end2sense_ratio_num" : "RNA链特异性指标",
+			"effectivereads_num" : "有效Reads数",
+			"depth_rna_ctrl_num" : "内参基因"
+		}
+	}
+
+	lib_qc_key = {
+		"dna_hospital" : {
+			"dna_qty" : "DNA总量（ng）",
+			"break_dna_qty" : "片段化DNA总量（ng）",
+			"library_qty" : "DNA预文库总量（ng）"
+		},
+		"dna_clinical" : {
+			"dna_qty" : "DNA总量（ng）",
+			"library_qty" : "DNA预文库总量（ng）"
+		},
+		"rna" : {
+			"rna_qty" : "RNA总量（ng）",
+			"library_qty" : "RNA预文库总量（ng）"
+		}
+	}
+
+	ngs_dna_qc_stand = ngs_qc_standard.get("dna")
+	ngs_rna_qc_stand = ngs_qc_standard.get("rna_v2") if prod_type == "v2" else ngs_qc_standard.get("rna_v3")
+	lib_dna_qc_stand = lib_qc_standard.get("dna_hospital") if report_module_type == "hospital" else lib_qc_standard.get("dna_clinical")
+	lib_rna_qc_stand = lib_qc_standard.get("rna")
+	ngs_dna_qc_key = ngs_qc_key.get("dna")
+	ngs_rna_qc_key = ngs_qc_key.get("rna_v2") if prod_type == "v2" else ngs_qc_key.get("rna_v3")
+	lib_dna_qc_key = lib_qc_key.get("dna_hospital") if report_module_type == "hospital" else lib_qc_key.get("dna_clinical")
+	lib_rna_qc_key = lib_qc_key.get("rna")
+
+	ngs_dna_qc = ngs_qc["dna_data_qc"] if "dna_data_qc" in ngs_qc.keys() and ngs_qc["dna_data_qc"] else {}
+	ngs_rna_qc = ngs_qc["rna_data_qc"] if "rna_data_qc" in ngs_qc.keys() and ngs_qc["rna_data_qc"] else {}
+	lib_dna_qc = lib_qc["lib_dna_qc"] if "lib_dna_qc" in lib_qc.keys() and lib_qc["lib_dna_qc"] else {}
+	lib_rna_qc = lib_qc["rna_lib_qc"] if "rna_lib_qc" in lib_qc.keys() and lib_qc["rna_lib_qc"] else {}
+
+	Fail_item = []
+	# DNA 湿实验质控
+	for item in lib_dna_qc_stand.keys():
+		if item in lib_dna_qc.keys() and lib_dna_qc[item] and is_number(lib_dna_qc[item]) and float(lib_dna_qc[item]) < lib_dna_qc_stand.get(item):
+			Fail_item.append(lib_dna_qc_key.get(item))
+	# DNA NGS质控
+	for item in ngs_dna_qc_stand.keys():
+		if item in ngs_dna_qc.keys() and ngs_dna_qc[item] and is_number(ngs_dna_qc[item]) and float(ngs_dna_qc[item]) < ngs_dna_qc_stand.get(item):
+			Fail_item.append(ngs_dna_qc_key.get(item))
+	# RNA 湿实验质控
+	for item in lib_rna_qc_stand.keys():
+		if item in lib_rna_qc.keys() and lib_rna_qc[item] and is_number(lib_rna_qc[item]) and float(lib_rna_qc[item]) < lib_rna_qc_stand.get(item):
+			Fail_item.append(lib_rna_qc_key.get(item))
+	# RNA NGS质控
+	for item in ngs_rna_qc_stand.keys():
+		if item in ngs_rna_qc.keys() and ngs_rna_qc[item] and is_number(ngs_rna_qc[item]) and float(ngs_rna_qc[item]) < ngs_rna_qc_stand.get(item):
+			Fail_item.append(ngs_rna_qc_key.get(item))
+	return "，".join(Fail_item)
+jinja2.filters.FILTERS["bds_mp_qc_v3"] = bds_mp_qc_v3
+
+# 2026.09.02-湘雅二CP200，需要将sv变异单独展示
+def xyey_cp200_filter_sv(info):
+	var_list = info[0]
+	var_type = info[1]
+	sv_list = []
+	other_list = []
+
+	for var in var_list:
+		if var["bio_category"] == "Sv":
+			sv_list.append(var)
+		elif var["bio_category"] == "Snvindel" and "judge_mergeMET" in var.keys() and var["judge_mergeMET"]:
+			sv_list.append(var)
+			other_list.append(var)
+		else:
+			other_list.append(var)
+
+	if var_type == "sv":
+		return sv_list
+	else:
+		return other_list
+jinja2.filters.FILTERS["xyey_cp200_filter_sv"] = xyey_cp200_filter_sv
+
+# 2026.09.03-MRD-4基因-未检出变异的基因需要按指定规则排序
+def mrd_4gene_sort(gene_list):
+	gene_rule = ["KRAS", "NRAS", "BRAF", "PIK3CA"]
+	mrd_gene_list = sorted([gene for gene in gene_list if gene in gene_rule], key=lambda x: gene_rule.index(x))
+	return mrd_gene_list
+jinja2.filters.FILTERS["mrd_4gene_sort"] = mrd_4gene_sort
+
+# 2026.09.08-上海新华CP200结果小结按规则排序
+# MSI-H/KNB/变异/MSS
+def shxh_cp200_summary(info):
+	msi = info[0]
+	knb = info[1]
+	var_list = info[2]
+	result = []
+	if msi["var_id"] == "MSI-H":
+		result.append(msi)
+	if knb:
+		result.append(knb)
+	result.extend(var_list)
+	if msi["var_id"] == "MSS":
+		result.append(msi)
+	return result
+jinja2.filters.FILTERS["shxh_cp200_summary"] = shxh_cp200_summary
+
+# 2026.09.10-空军附二HRR结果小结区分BRCA和其他基因变异
+def kjfe_hrr_summary(info):
+	var_list = info[0]
+	var_type = info[1]
+	brca_gene = ["BRCA1", "BRCA2"]
+	other_gene = ["AKT1", "AR", "ATM", "ATR", "BARD1", "BRAF", "BRIP1", "CDH1", "CDK12", "CHEK1", \
+				  "CHEK2", "ERBB2", "ESR1", "FANCA", "FANCL", "HDAC2", "HOXB13", "KRAS", "MLH1", "MRE11", \
+				  "NBN", "NRAS", "PALB2", "PIK3CA", "PPP2R2A", "PTEN", "RAD51B", "RAD51C", "RAD51D", "RAD54L", \
+				  "STK11", "TP53"]
+	gene_list = brca_gene if var_type == "brca" else other_gene
+	result = [var for var in var_list if var["gene_symbol"] in gene_list]
+	detect_gene = [var["gene_symbol"] for var in result]
+	for gene in set(gene_list) - set(detect_gene):
+		result.append({"gene_symbol" : gene})
+	return sorted(result, key = lambda i : i["gene_symbol"])
+jinja2.filters.FILTERS["kjfe_hrr_summary"] = kjfe_hrr_summary
+
+# 上海人民BPTM Plus组织判断变异列表是否检出林奇相关基因-2026.09.11
+def shrm_bptmplue_judge_lyn(var_list):
+	gene_list = ["EPCAM", "MLH1", "MSH2", "MSH6", "PMS2"]
+	if [var for var in var_list if var["gene_symbol"] in gene_list]:
+		return True
+	else:
+		return False
+jinja2.filters.FILTERS["shrm_bptmplue_judge_lyn"] = shrm_bptmplue_judge_lyn
+
+# ---2026.09.14-东南中大---------------------------------------------------------------
+# 有AB级就仅展示AB级，没有则展示CD
+# A-敏感：针对携带该变异的患者，获批或指南推荐的药物有XXX、XXX等
+# A-耐药：展示描述
+# C3-敏感：针对该突变，其他癌种中已有获批或指南推荐的药物，如XXX药用于XXX癌，YYY药用于YYY癌等。
+# B/其他C-敏感：临床试验表明，XXX对携带该类变异的XXX癌可能敏感、YYY对携带该类变异的YYY癌可能敏感。
+# B/C-耐药：临床试验表明，XXX对携带该类变异的XXX癌可能耐药、YYY对携带该类变异的YYY癌可能耐药。
+# D-敏感：有研究表明，给类变异可能对XXX、XXX敏感。
+# D-耐药：该类变异可能对XXX、XXX耐药。
+# 2025.06.11-新增参考文献
+# -------------------------------------------------------------------------------------
+
+def dnzs_evi_summary(evi_list):
+	# PMID去重
+	def sort_pmid_list(regimen_list):
+		raw_pmid_list = []
+		for i in regimen_list:
+			raw_pmid_list.extend(i[1])
+		return list(dict.fromkeys(raw_pmid_list))
+
+	AB_evi = []
+	CD_evi = []
+	# A-敏感：固定句式
+	A_sense_regimen = []
+	# A-耐药：证据描述
+	A_resis_evi = []
+	# B-敏感：治疗方案-癌种-PMID-后面需要再转化格式
+	b_sense_tumor_and_regimen = {}
+	# B-耐药：治疗方案-癌种-PMID-后面需要再转化格式
+	b_resis_tumor_and_regimen = {}
+	# C3-敏感：固定句式
+	c3_sense_tumor_and_regimen = {}
+	# C3-耐药：证据描述
+	c3_resis_evi = []
+	# C其他-敏感：治疗方案-癌种-PMID-后面需要再转化格式
+	c_other_sense_tumor_and_regimen = {}
+	# C其他-耐药：治疗方案-癌种-PMID-后面需要再转化格式
+	c_other_resis_tumor_and_regimen = {}
+	# D-敏感：治疗方案列表
+	d_sense_regimen = []
+	# D-耐药：治疗方案列表
+	d_resis_regimen = []
+
+	for evi in evi_list:
+		pmid_list = get_pmid_from_inter(evi["evi_interpretation"])
+		tumor_name = evi["tumor_name_cn"] if "tumor_name_cn" in evi.keys() and evi["tumor_name_cn"] else evi["tumor_name_en"] if "tumor_name_en" in evi.keys() and evi["tumor_name_en"] else ""
+		# 处理A级-敏感
+		if evi["evi_conclusion_simple"] == "A" and evi["clinical_significance_cn"] == "敏感":
+			if evi["regimen_name"] not in A_sense_regimen:
+				A_sense_regimen.append(evi["regimen_name"])
+		# 处理A级-耐药
+		elif evi["evi_conclusion_simple"] == "A" and evi["clinical_significance_cn"] == "耐药":
+			if evi["evi_interpretation"] not in A_resis_evi:
+				A_resis_evi.append(evi["evi_interpretation"])
+		# 处理B级-敏感-需要PMID
+		elif evi["evi_conclusion_simple"] in ["B"] and evi["clinical_significance_cn"] == "敏感":
+			if tumor_name not in b_sense_tumor_and_regimen.keys():
+				b_sense_tumor_and_regimen.setdefault(tumor_name, [])
+			b_sense_tumor_and_regimen[tumor_name].append((evi["regimen_name"], pmid_list))
+		# 处理B级-耐药-需要PMID
+		elif evi["evi_conclusion_simple"] in ["B"] and evi["clinical_significance_cn"] == "耐药":
+			if tumor_name not in b_resis_tumor_and_regimen.keys():
+				b_resis_tumor_and_regimen.setdefault(tumor_name, [])
+			b_resis_tumor_and_regimen[tumor_name].append((evi["regimen_name"], pmid_list))
+		# 处理C3-敏感
+		elif evi["evi_conclusion"] == "C3" and evi["clinical_significance_cn"] == "敏感":
+			if tumor_name not in c3_sense_tumor_and_regimen.keys():
+				c3_sense_tumor_and_regimen.setdefault(tumor_name, [])
+			c3_sense_tumor_and_regimen[tumor_name].append(evi["regimen_name"])
+		# 处理C3-耐药
+		elif evi["evi_conclusion"] == "C3" and evi["clinical_significance_cn"] == "耐药":
+			if evi["evi_interpretation"] not in c3_resis_evi:
+				c3_resis_evi.append(evi["evi_interpretation"])
+		# 处理C其他-敏感-需要PMID
+		elif evi["evi_conclusion_simple"] in ["C"] and evi["clinical_significance_cn"] == "敏感":
+			if tumor_name not in c_other_sense_tumor_and_regimen.keys():
+				c_other_sense_tumor_and_regimen.setdefault(tumor_name, [])
+			c_other_sense_tumor_and_regimen[tumor_name].append((evi["regimen_name"], pmid_list))
+		# 处理C其他-耐药-需要PMID
+		elif evi["evi_conclusion_simple"] in ["C"] and evi["clinical_significance_cn"] == "耐药":
+			if tumor_name not in c_other_resis_tumor_and_regimen.keys():
+				c_other_resis_tumor_and_regimen.setdefault(tumor_name, [])
+			c_other_resis_tumor_and_regimen[tumor_name].append((evi["regimen_name"], pmid_list))
+		# 处理D级-敏感-需要PMID
+		elif evi["evi_conclusion_simple"] in ["D"] and evi["clinical_significance_cn"] == "敏感":
+			d_sense_regimen.append((evi["regimen_name"], get_pmid_from_inter(evi["evi_interpretation"])))
+		# 处理D级-耐药-需要PMID
+		elif evi["evi_conclusion_simple"] in ["D"] and evi["clinical_significance_cn"] == "耐药":
+			d_resis_regimen.append((evi["regimen_name"], get_pmid_from_inter(evi["evi_interpretation"])))
+	
+	# 数据拼接
+	# A级敏感-固定句式，A级耐药-证据描述
+	if A_sense_regimen:
+		AB_evi.append("针对携带该变异的患者，获批或指南推荐的药物有{0}等。".format("、".join(A_sense_regimen)))
+	if A_resis_evi:
+		AB_evi.extend(A_resis_evi)
+	# B级-固定句式
+	b_tmp_list = []
+	if b_sense_tumor_and_regimen:
+		for tumor, regimen in b_sense_tumor_and_regimen.items():
+			regimen_str = "、".join([i[0] for i in regimen])
+			pmid_list = sort_pmid_list(regimen)
+			if pmid_list:
+				b_tmp_list.append("{0}对携带该类变异的{1}可能敏感（{2}）".format(regimen_str, tumor, ", ".join(["PMID:"+str(i) for i in pmid_list])))
+			else:
+				b_tmp_list.append("{0}对携带该类变异的{1}可能敏感".format(regimen_str, tumor))
+	if b_resis_tumor_and_regimen:
+		for tumor, regimen in b_resis_tumor_and_regimen.items():
+			regimen_str = "、".join([i[0] for i in regimen])
+			pmid_list = sort_pmid_list(regimen)
+			if pmid_list:
+				b_tmp_list.append("{0}对携带该类变异的{1}可能耐药（{2}）".format(regimen_str, tumor, ", ".join(["PMID:"+str(i) for i in pmid_list])))
+			else:
+				b_tmp_list.append("{0}对携带该类变异的{1}可能耐药".format(regimen_str, tumor))
+	if b_tmp_list:
+		AB_evi.append("临床试验表明，{0}。".format("，".join(b_tmp_list)))
+	# C3
+	if c3_sense_tumor_and_regimen:
+		tmp_list = []
+		for tumor, regimen in c3_sense_tumor_and_regimen.items():
+			tmp_list.append("{0}用于{1}".format("、".join(regimen), tumor))
+		CD_evi.append("针对该突变，其他癌种中已有获批或指南推荐的药物，如{0}等。".format("，".join(tmp_list)))
+	if c3_resis_evi:
+		CD_evi.extend(c3_resis_evi)
+	# C其他
+	c_tmp_list = []
+	if c_other_sense_tumor_and_regimen:
+		for tumor, regimen in c_other_sense_tumor_and_regimen.items():
+			regimen_str = "、".join([i[0] for i in regimen])
+			pmid_list = sort_pmid_list(regimen)
+			if pmid_list:
+				c_tmp_list.append("{0}对携带该类变异的{1}可能敏感（{2}）".format(regimen_str, tumor, ", ".join(["PMID:"+str(i) for i in pmid_list])))
+			else:
+				c_tmp_list.append("{0}对携带该类变异的{1}可能敏感".format(regimen_str, tumor))
+	if c_other_resis_tumor_and_regimen:
+		for tumor, regimen in c_other_resis_tumor_and_regimen.items():
+			regimen_str = "、".join([i[0] for i in regimen])
+			pmid_list = sort_pmid_list(regimen)
+			if pmid_list:
+				c_tmp_list.append("{0}对携带该类变异的{1}可能耐药（{2}）".format(regimen_str, tumor, ", ".join(["PMID:"+str(i) for i in pmid_list])))
+			else:
+				c_tmp_list.append("{0}对携带该类变异的{1}可能耐药".format(regimen_str, tumor))
+	if c_tmp_list:
+		CD_evi.append("临床试验表明，{0}。".format("，".join(c_tmp_list)))
+	# D
+	d_tmp_list = []
+	if d_sense_regimen:
+		regimen_str = "、".join([i[0] for i in d_sense_regimen])
+		pmid_list = sort_pmid_list(d_sense_regimen)
+		if pmid_list:
+			d_tmp_list.append("可能对{0}敏感（{1}）".format(regimen_str, ", ".join(["PMID:"+str(i) for i in pmid_list])))
+		else:
+			d_tmp_list.append("可能对{0}敏感".format(regimen_str))
+	if d_resis_regimen:
+		regimen_str = "、".join([i[0] for i in d_resis_regimen])
+		pmid_list = sort_pmid_list(d_resis_regimen)
+		if pmid_list:
+			d_tmp_list.append("可能对{0}耐药（{1}）".format(regimen_str, ", ".join(["PMID:"+str(i) for i in pmid_list])))
+		else:
+			d_tmp_list.append("可能对{0}耐药".format(regimen_str))
+	if d_tmp_list:
+		CD_evi.append("有研究表明，该类变异{0}。".format("，".join(d_tmp_list)))
+	
+	if AB_evi:
+		return "".join(AB_evi)
+	else:
+		return "".join(CD_evi)
+jinja2.filters.FILTERS["dnzs_evi_summary"] = dnzs_evi_summary
+
+# 2026.09.15-东南中大辅助诊断和预后信息总结
+# 诊断分型：
+#存在引用机构（NCCN/CSCO/Consensus ）：指南或专家共识指出，该类变异可用于（癌种）的辅助诊断。
+#不存在引用机构：临床研究表明，该类变异可能可以作为（癌种）的诊断性标志物（PMID：XXX）。
+#预后：
+#存在引用机构（NCCN/CSCO/Consensus ）：指南或专家共识指出，携带该类变异可能与预后不良/中等/较好有关。
+#不存在引用机构： 临床研究表明，携带该类变异可能与预后不良/中等/较好有关（PMID：XXX）。
+def dnzs_pro_dia(info):
+	pro_evi_list = info[0]
+	dia_evi_list = info[1]
+	dia_result = []
+	dia_appr_result = []
+	dia_clinic_result = []
+	dia_pmid_list = []
+	for evi in dia_evi_list:
+		pmid_list = get_pmid_from_inter(evi["evi_interpretation"])
+		tumor_name = evi["tumor_name_cn"] if "tumor_name_cn" in evi.keys() and evi["tumor_name_cn"] else evi["tumor_name_en"] if "tumor_name_en" in evi.keys() and evi["tumor_name_en"] else ""
+		if evi["refer_agency"]:
+			dia_appr_result.append(tumor_name)
+		else:
+			dia_clinic_result.append(tumor_name)
+			for pmid in pmid_list:
+				if pmid not in dia_pmid_list:
+					dia_pmid_list.append(pmid)
+	if dia_appr_result:
+		dia_result.append("指南或专家共识指出，该类变异可用于{0}的辅助诊断。".format("、".join(dia_appr_result)))
+	if dia_clinic_result and dia_pmid_list:
+		dia_result.append("临床研究表明，该类变异可能可以作为{0}的诊断性标志物（PMID：{1}）。".format("、".join(dia_clinic_result), ", ".join(dia_pmid_list)))
+	if dia_clinic_result and not dia_pmid_list:
+		dia_result.append("临床研究表明，该类变异可能可以作为{0}的诊断性标志物。".format("、".join(dia_clinic_result)))
+
+	# 预后-一条总结一句话，加上去重。
+	pro_result = []
+	pro_appr_result = []
+	pro_clinic_result = []
+	for evi in pro_evi_list:
+		pmid_list = get_pmid_from_inter(evi["evi_interpretation"])
+		pro_clinical = "不良" if evi["clinical_significance_cn"] == "较差" else evi["clinical_significance_cn"]
+		if evi["refer_agency"]:
+			pro_inter = "可能与预后{0}有关".format(pro_clinical)
+			if pro_inter not in pro_appr_result:
+				pro_appr_result.append(pro_inter)
+		else:
+			if pmid_list:
+				pro_inter = "可能与预后{0}有关（PMID：{1}）".format(pro_clinical, ", ".join(pmid_list))
+				if pro_inter not in pro_appr_result:
+					pro_clinic_result.append(pro_inter)
+			else:
+				pro_inter = "可能与预后{0}有关".format(pro_clinical)
+				if pro_inter not in pro_appr_result:
+					pro_clinic_result.append(pro_inter)
+	if pro_appr_result:
+		pro_result.append("指南或专家共识指出，携带该类变异{0}。".format("、".join(pro_appr_result)))
+	if pro_clinic_result:
+		pro_result.append("临床研究表明，携带该类变异{0}。".format("、".join(pro_clinic_result)))
+
+	result = []
+	if dia_result:
+		result.append("；".join(dia_result))
+	if pro_result:
+		result.append("；".join(pro_result))
+	return "".join(result)
+jinja2.filters.FILTERS["dnzs_pro_dia"] = dnzs_pro_dia
+
+# 2026.09.16-复旦华东进院CP200 HD展示规则
+# CDKN2A/CDKN2B/MTAP无论是否测到HD，都展示在HD中
+# 其他基因检出HD就展示
+def fdhd_cp200_hd(hd_list):
+	result = []
+	gene_dict = {
+		"CDKN2A" : "E1-E3，NM_000077.5",
+		"CDKN2B" : "E1-E2，NM_004936.4",
+		"MTAP" : "E1-E8，NM_002451.4"
+	}
+	gene3_result = [var for var in hd_list if var["gene_symbol"] in ["CDKN2A", "CDKN2B", "MTAP"]]
+	for gene in set(["CDKN2A", "CDKN2B", "MTAP"]) - set([var["gene_symbol"] for var in gene3_result]):
+		gene3_result.append({"gene_symbol" : gene, "region_transcript_primary" : gene_dict[gene]})
+	other_result = [var for var in hd_list if var["gene_symbol"] not in ["CDKN2A", "CDKN2B", "MTAP"]]
+	result.extend(sorted(gene3_result, key = lambda i : i["gene_symbol"]))
+	result.extend(sorted(other_result, key = lambda i : i["gene_symbol"]))
+	return result
+jinja2.filters.FILTERS["fdhd_cp200_hd"] = fdhd_cp200_hd
+
+# 2026.09.16-复旦华东化疗UGT1A1
+def fdhd_ugt1a1(PGx_analysis_result):
+	rs4148323 = ""
+	rs8175347 = ""
+	for chemo in PGx_analysis_result:
+		if chemo["dbsnp"] == "rs4148323":
+			rs4148323 = chemo["genotype"]
+		elif chemo["dbsnp"] == "rs8175347":
+			rs8175347 = chemo["genotype"]
+
+	star_dict = {
+		("G/G", "(TA)6/(TA)6") : "*1/*1",
+		("G/G", "(TA)6/(TA)5") : "*1/*36",
+		("G/G", "(TA)6/(TA)7") : "*1/*28",
+		("G/G", "(TA)6/(TA)8") : "*1/*37",
+		("G/G", "(TA)5/(TA)5") : "*36/*36",
+		("G/G", "(TA)5/(TA)7") : "*28/*36",
+		("G/G", "(TA)5/(TA)8") : "*36/*37",
+		("G/G", "(TA)7/(TA)7") : "*28/*28",
+		("G/G", "(TA)7/(TA)8") : "*28/*37",
+		("G/G", "(TA)8/(TA)8") : "*37/*37",
+		("G/A", "(TA)6/(TA)6") : "*1/*6",
+		("G/A", "(TA)6/(TA)5") : "*6/*36",
+		("G/A", "(TA)6/(TA)7") : "*6/*28",
+		("G/A", "(TA)6/(TA)8") : "*6/*37",
+		("G/A", "(TA)5/(TA)5") : "*6/*36/*36",
+		("G/A", "(TA)5/(TA)7") : "*6/*28/*36",
+		("G/A", "(TA)5/(TA)8") : "*6/*36/*37",
+		("G/A", "(TA)7/(TA)7") : "*6/*28/*28",
+		("G/A", "(TA)7/(TA)8") : "*6/*28/*37",
+		("G/A", "(TA)8/(TA)8") : "*6/*37/*37",
+		("A/A", "(TA)6/(TA)6") : "*6/*6",
+		("A/A", "(TA)6/(TA)5") : "*6/*6/*36",
+		("A/A", "(TA)6/(TA)7") : "*6/*6/*28",
+		("A/A", "(TA)6/(TA)8") : "*6/*6/*37",
+		("A/A", "(TA)5/(TA)5") : "*6/*36/*6/*36",
+		("A/A", "(TA)5/(TA)7") : "*6/*28/*6/*36",
+		("A/A", "(TA)5/(TA)8") : "*6/*36/*6/*37",
+		("A/A", "(TA)7/(TA)7") : "*6/*28/*6/*28",
+		("A/A", "(TA)7/(TA)8") : "*6/*28/*6/*37",
+		("A/A", "(TA)8/(TA)8") : "*6/*37/*6/*37"
+	}
+	rs4148323_homo_hete = "野生型" if rs4148323 == "G/G" else "杂合突变型" if rs4148323 == "G/A" else "纯合突变型"
+	rs8175347_homo_hete = "野生型" if rs8175347 == "(TA)6/(TA)6" else "杂合突变型" if rs8175347 in ["(TA)6/(TA)5", "(TA)6/(TA)7", "(TA)6/(TA)8"] else "纯合突变型"
+
+	star_Allele = star_dict.get((rs4148323, rs8175347), "")
+	# 计算分值，*6 -1、*28 -1、*37 -1；*1、*36不得分
+	star_Allele_list = re.split("/", star_Allele)
+	star_Allele_count = 0
+	for i in star_Allele_list:
+		if i in ["*6", "*28", "*37"]:
+			star_Allele_count -= 1
+	# 总分值0：伊立替康正常代谢型，-1：中等代谢型；<=-2：低代谢型
+	metabolic_type = ""
+	if star_Allele_count == 0:
+		metabolic_type = "伊立替康正常代谢型"
+	elif star_Allele_count == -1:
+		metabolic_type = "伊立替康中等代谢型"
+	elif star_Allele_count <= -2:
+		metabolic_type = "伊立替康低代谢型"
+	
+	result = {
+		"rs4148323" : rs4148323,
+		"rs4148323_homo_hete" : rs4148323_homo_hete,
+		"rs8175347" : rs8175347,
+		"rs8175347_homo_hete" : rs8175347_homo_hete,
+		"star_Allele" : star_Allele,
+		"metabolic_type" : metabolic_type
+	}
+	# 报告需要展示基因型、纯合/杂合、星等位基因、代谢类型
+	return result
+jinja2.filters.FILTERS["fdhd_ugt1a1"] = fdhd_ugt1a1

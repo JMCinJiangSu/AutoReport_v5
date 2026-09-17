@@ -56,6 +56,8 @@ from merge_product import xajdy_brcav1_bhd
 from merge_product import sdql_hrd_gbrca
 # 2026.04.03-吉大一MP DNA + RNAseq
 from merge_product import jdyy_masterdna_rnaseq
+# 2026.07.27-中六CP200 molecular_var返回var_code，需要由报告脚本来转化
+from bin import zsly_replace_molecular_var
 
 def get_data(json_name, outfile, config, report_template, outjson, image):
 	print ("开始生成填充数据！", datetime.datetime.now())
@@ -96,7 +98,8 @@ def get_data(json_name, outfile, config, report_template, outjson, image):
 
 
 	# 2026.04.03-吉大一MP DNA + RNAseq，merge_order.cnv.sample_id_list无法返回RNAseq的id，所以只能通过sample.relation_order_code来处理，仅考虑BIMS来源，LIMS等订单类型确认了再加
-	if jsonDict["sample_info"]["report_module_type"] == "clinical" and jsonDict["sample_info"]["origin_company"] == "吉林大学第一医院-SF-肺癌":
+	if (jsonDict["sample_info"]["report_module_type"] == "clinical" and jsonDict["sample_info"]["origin_company"] in ["吉林大学第一医院-SF-肺癌", "吉林大学第一医院-JY-妇瘤"]) or\
+	   (jsonDict["sample_info"]["report_module_type"] == "hospital" and jsonDict["sample_info"]["company"] in ["吉林大学第一医院"]):
 		if "relation_order_code" in jsonDict["sample_info"].keys() and jsonDict["sample_info"]["relation_order_code"]:
 			merge_sample_info = jsonDict["sample_info"]
 			merge_product = []
@@ -119,8 +122,12 @@ def get_data(json_name, outfile, config, report_template, outjson, image):
 
 
 	# 2025.12.02-改为判断是否匹配到report_name，未匹配到的话按照单项目出报告
-	if not report_name_judge_merge:
+	# 2026.06.02-增加一个判断，若无report_name或者data为空时按单项目出报告
+	if not report_name_judge_merge or not data:
 	# 2025.09.29-兼容完成
+		# 2026.07.27-report_name_judge_merge赋值为空，防止后面image填充会被判定为合并项目，导致报错
+		report_name_judge_merge = ""
+		# 2026.07.27-兼容完成
 	
 		# 系统将rummage改为clinical了，为了报告脚本代码改动最小化，在这边做转化
 		jsonDict["sample_info"]["report_module_type"] = "rummage" if jsonDict["sample_info"]["report_module_type"] == "clinical" else jsonDict["sample_info"]["report_module_type"]
@@ -164,6 +171,58 @@ def get_data(json_name, outfile, config, report_template, outjson, image):
 		if remove_cqxn_CDKN2A_evi:
 			jsonDict = removeEvi.cqxn_remove_CDKN2A_evi(jsonDict)
 		# 2026.04.01-新增完成
+		# 2026.06.02-重庆西南116 肺癌时删除KRAS Activating Mutation中的预后证据
+		remove_cqxn_KRAS_prognostic_evi = "T"
+		if remove_cqxn_KRAS_prognostic_evi:
+			jsonDict = removeEvi.cqxn_remove_KRAS_prognostic_evi(jsonDict)
+		# 2026.06.02-新增完成
+		# 2026.06.04-中山市人民CP200删除结直肠癌PIK3CA PIK3R1 PTEN中的阿司匹林
+		remove_zsrm_cp200_aspirin = "T"
+		if remove_zsrm_cp200_aspirin:
+			jsonDict = removeEvi.zsrm_cp200_remove_aspirin(jsonDict)
+		# 2026.06.04-新增完成
+		# 2026.06.12-广东医科附属CP200/116删除PIK3CA PIK3R1 PTEN中的阿司匹林（不限癌种）
+		remove_gdykfs_aspirin = "T"
+		if remove_gdykfs_aspirin:
+			jsonDict = removeEvi.gdykfs_remove_aspirin(jsonDict)
+		# 2026.06.12-新增完成
+		# 2026.06.30-武汉同济不存在EGFR敏感突变时，检出的KRAS变异中删除EGFR-TKIs证据
+		remove_tj_mp_egfrtkis = "T"
+		if remove_tj_mp_egfrtkis:
+			jsonDict = removeEvi.tj_mp_remove_KRAS_egfrtiks(jsonDict)
+		# 2026.06.30-新增完成
+		# 2026.07.03-西安交大一MP不展示MTAP HD变异
+		remove_xajdy_mp_MTAP_HD = "T"
+		if remove_xajdy_mp_MTAP_HD:
+			jsonDict = removeEvi.xajdy_mp_remove_MTAP_HD(jsonDict)
+		# 2026.07.03-新增完成
+		# 2026.07.03-同济MP删除预后、诊断和I类D级用药
+		remove_tj_mp_evi = "T"
+		if remove_tj_mp_evi:
+			jsonDict = removeEvi.whtj_mp_remove_evi(jsonDict)
+		# 2026.07.03-新增完成
+		# 2026.09.03-中山人民CP200、tHRR肺癌时删除KRAS预后证据
+		remove_zsrm_KRAS_prognostic_evi = "T"
+		if remove_zsrm_KRAS_prognostic_evi:
+			jsonDict = removeEvi.zsrm_remove_KRAS_prognostic_evi(jsonDict)
+		# 2026.09.03-新增完成
+
+
+		# 2026.06.12-增加一个特殊处理
+		# 浙江人民MP规则同浙肿，仅有非配对模板，其中预测为胚系的变异按体细胞来处理
+		# 浙江人民MP增加一个进院的
+		if (jsonDict["sample_info"]["origin_company"] == "浙江省人民医院-JY" and jsonDict["sample_info"]["prod_names"] in ["Master Panel（组织）"] and jsonDict["sample_info"]["report_module_type"] == "rummage") or (jsonDict["sample_info"]["company"] == "浙江省人民医院" and jsonDict["sample_info"]["prod_names"] in ["Master Panel（组织）"] and jsonDict["sample_info"]["report_module_type"] == "hospital"):
+			for var in jsonDict["snvindel"]:
+				if var["var_origin"] == "germline":
+					var["var_origin"] = "somatic"
+		# 2026.06.12-增加完成
+
+		# 2026.07.27-中六CP200 molecular_var返回var_code，需要由报告脚本来转化
+		# 需要报告系统和报告脚本同时启用，否则会报错，终端T，公司报告系统默认F
+		judge_zsly_replace_molecular_var = "F"
+		if judge_zsly_replace_molecular_var == "T":
+			if jsonDict["sample_info"]["company"] == "中山大学附属第六医院" and jsonDict["sample_info"]["prod_names"] in ["OncoPro（组织）", "Classic Panel 200（组织）"] and jsonDict["sample_info"]["report_module_type"] == "hospital":
+				jsonDict = zsly_replace_molecular_var.stran_json(jsonDict)
 
 		# 模板选择
 		# 2026.01.21-兼容BIMS/LIMS来源订单模板匹配
@@ -185,7 +244,56 @@ def get_data(json_name, outfile, config, report_template, outjson, image):
 		   data["sample"]["report_module_type"] == "hospital" and \
 		   data["qc"]["dna_data_qc"]["snp_cover_ratio_num"] < 0.9:
 			jsonDict["hd"] = []
-		# 2026.05.25-更新完成
+		# 2026.06.03-德阳人民CP200 snp_cover_ratio < 0.9时，不展示HD
+		if ((data["sample"]["company"] == "德阳市人民医院" and data["sample"]["report_module_type"] == "hospital") or \
+			(data["sample"]["origin_company"] == "德阳市人民医院-JY" and data["sample"]["report_module_type"] == "rummage")) and \
+			data["sample"]["prod_names"] in ["OncoPro（组织）", "Classic Panel 200（组织）"] and \
+			data["qc"]["dna_data_qc"]["snp_cover_ratio_num"] < 0.9:
+			jsonDict["hd"] = []
+		# 2026.06.03-增加完成
+		# 2026.08.04-福建附二CP200不展示HD
+		if ((data["sample"]["company"] == "福建医科大学附属第二医院" and data["sample"]["report_module_type"] == "hospital") or \
+			(data["sample"]["origin_company"] == "福建医科大学附属第二医院-JY" and data["sample"]["report_module_type"] == "rummage")) and \
+			data["sample"]["prod_names"] in ["OncoPro（组织）", "Classic Panel 200（组织）"]:
+			jsonDict["hd"] = []
+		# 2026.08.04-增加完成
+		# 2026.08.06-吉大二CP200仅展示3个基因HD（MATP、CDKN2A、CDKN2B）
+		if ((data["sample"]["company"] == "吉林大学第二医院" and data["sample"]["report_module_type"] == "hospital") or \
+			(data["sample"]["origin_company"] in ["吉林大学第二医院-JY", "吉林大学第二医院-JY-肠癌", "吉林大学第二医院-JY-肺癌"] and data["sample"]["report_module_type"] == "rummage")) and \
+			data["sample"]["prod_names"] in ["OncoPro（组织）", "Classic Panel 200（组织）"]:
+			jsonDict["hd"] = [var for var in jsonDict["hd"] if var["gene_symbol"] in ["MATP", "CDKN2A", "CDKN2B"]] if jsonDict["hd"] else []
+		# 2026.08.06-增加完成
+		# 2026.08.19-肺科CP200仅展示3个基因HD（MATP、CDKN2A、CDKN2B）
+		if data["sample"]["company"] == "上海市肺科医院" and data["sample"]["report_module_type"] == "hospital" and \
+			data["sample"]["prod_names"] in ["OncoPro（组织）", "Classic Panel 200（组织）"]:
+			jsonDict["hd"] = [var for var in jsonDict["hd"] if var["gene_symbol"] in ["MATP", "CDKN2A", "CDKN2B"]] if jsonDict["hd"] else []
+		# 2026.08.19-增加完成
+		# 2026.08.24-江门中心CP200 新流程HD展示到附录中，前面结果不展示。因为HD涉及到的章节比较多
+		# 解决方案：jsonDict[hd]改为空，新增data[hd_for_jmzx]供附录使用
+		if data["sample"]["company"] == "江门市中心医院" and data["sample"]["report_module_type"] == "hospital" and \
+			data["sample"]["prod_names"] in ["OncoPro（组织）", "Classic Panel 200（组织）"] and customize_filters.judge_version([data["sample"]["json_batch_name"], "v0.1.4"]):
+			data["hd_for_jmzx"] = copy.deepcopy(jsonDict["hd"])
+			jsonDict["hd"] = []
+		# 2026.09.08-内蒙人民CP200 所有版本均不展示HD
+		if ((data["sample"]["company"] == "内蒙古自治区人民医院" and data["sample"]["report_module_type"] == "hospital") or \
+			(data["sample"]["origin_company"] == "内蒙古自治区人民医院-JY" and data["sample"]["report_module_type"] == "rummage")) and \
+			data["sample"]["prod_names"] in ["OncoPro（组织）", "Classic Panel 200（组织）"]:
+			jsonDict["hd"] = []
+		# 2026.09.08-增加完成
+		# 2026.09.16-上海交通大学医学院附属新华医院 进院 v0.1.4及以上版本CP200 snp_cover_ratio < 0.9时，不展示HD
+		if data["sample"]["company"] == "上海交通大学医学院附属新华医院" and \
+		   data["sample"]["prod_names"] in ["OncoPro（组织）", "Classic Panel 200（组织）"] and \
+		   data["sample"]["report_module_type"] == "hospital" and \
+		   data["qc"]["dna_data_qc"]["snp_cover_ratio_num"] < 0.9 and customize_filters.judge_version([data["sample"]["json_batch_name"], "v0.1.4"]):
+			jsonDict["hd"] = []
+		# 2026.09.16-更新完成
+		# 2026.09.16-复旦华东 进院CP200 新流程HD单独展示，前面结果不展示。因为HD涉及到的章节比较多
+		# 解决方案：jsonDict[hd]改为空，新增data[hd_for_fdhd]供附录使用
+		if data["sample"]["company"] in ["华东医院", "复旦大学附属华东医院"] and data["sample"]["report_module_type"] == "hospital" and \
+			data["sample"]["prod_names"] in ["OncoPro（组织）", "Classic Panel 200（组织）"] and customize_filters.judge_version([data["sample"]["json_batch_name"], "v0.1.4"]):
+			data["hd_for_fdhd"] = copy.deepcopy(jsonDict["hd"])
+			jsonDict["hd"] = []
+		# 2026.09.16-更新完成
 		# 2026.01.21-临检LIMS来源捕获项目文库总量使用dna_pre_library_qty/rna_pre_library_qty，临时方案直接赋值给library_qty
 		if "order_type" in data["sample"].keys() and data["sample"]["order_type"] and data["sample"]["report_module_type"] == "rummage":
 			data["lib_quality_control"] = libQC_stran.clinical_libraty_qty(jsonDict["sample_info"]["report_module_type"], jsonDict["sample_info"]["prod_names"], data["lib_quality_control"])
@@ -525,6 +633,22 @@ def get_data(json_name, outfile, config, report_template, outjson, image):
 			outFile.write(sum_dataJson)
 	### 浙江二院小结内容输出到json结束-2025.10.23
 
+	### 福建协和tLC10输出变异解读到json-2026.06.25
+	if data["sample"]["company"] == "福建医科大学附属协和医院" and re.search("FJXH", report_name) and data["sample"]["prod_names"]  == "10基因（组织）":
+		fjxh_sum_data = get_summary_for_specialcomany.FJXH_tLC10_summary(data)
+		sum_dataJson = json.dumps(fjxh_sum_data, ensure_ascii = False)
+		with open(outfile+"/"+json_name+"_fjxh_tLC10_summary.json", "w", encoding = "utf-8") as outFile:
+			outFile.write(sum_dataJson)
+	### 福建协和tL10输出内容到json结束-2026.06.25
+
+	### 福建肿瘤gBRCA输出结果说明到json-2026.08.07
+	if data["sample"]["company"] == "福建省肿瘤医院" and data["sample"]["report_module_type"] == "hospital" and data["sample"]["prod_names"] == "BRCA1/BRCA2（全血）":
+		gbrca_sum_data = get_summary_for_specialcomany.fjzl_gbrca_var_sum(data)
+		sum_dataJson = json.dumps(gbrca_sum_data, ensure_ascii = False)
+		with open(outfile+"/"+json_name+"_fjzl_gbrca_inter.json", "w", encoding = "utf-8") as outFile:
+			outFile.write(sum_dataJson)
+	### 福建肿瘤gBRCA输出内容到json结束-2026.08.07
+
 	# 参数为T时，填充用数据转化为json输出，便于开发
 	if outjson == "T":
 		dataJson = json.dumps(data, ensure_ascii = False)
@@ -539,6 +663,11 @@ def get_data(json_name, outfile, config, report_template, outjson, image):
 	# 模板填充
 	print (report_name)
 	print (judge_brca_cnv)
+	# 2026.09.16-测试CPP
+	if report_name == "CPP54_test.docx":
+		data["hd"] = jsonDict["hd"]
+		data["cnv"] = jsonDict["cnv"]
+	# 2026.09.16-添加完成
 	if report_name:
 		path = os.path.join(report_template, "template_main", report_name)
 		tpl = DocxTemplate(path)
@@ -546,6 +675,15 @@ def get_data(json_name, outfile, config, report_template, outjson, image):
 		# 2025.09.29-多产品出一份报告的图片在定制代码里加，这边为通用的
 		if not ("merge_order" in jsonDict.keys() and jsonDict["merge_order"] and len(jsonDict["merge_order"]["cnv"]["sample_id_list"]) >= 2 and report_name_judge_merge):
 			data["image"] = getImage.render_image(tpl, data, jsonDict, report_name, image, config)
+			# 2026.09.16-测试CPP
+			if report_name == "CPP54_test.docx":
+				base_quality_r1_plot_path = os.path.join("/var/www/html/report_backend/system_files/box/tmp/un7z", data["sample"]["json_batch_name"], data["qc"]["dna_data_qc"]["base_quality_r1_plot"])
+				data["base_quality_r1_plot"] = InlineImage(tpl, base_quality_r1_plot_path, width=Mm(100)) if os.path.exists(base_quality_r1_plot_path) else ""
+				base_quality_r2_plot_path = os.path.join("/var/www/html/report_backend/system_files/box/tmp/un7z", data["sample"]["json_batch_name"], data["qc"]["dna_data_qc"]["base_quality_r2_plot"])
+				data["base_quality_r2_plot"] = InlineImage(tpl, base_quality_r2_plot_path, width=Mm(100)) if os.path.exists(base_quality_r2_plot_path) else ""
+				depth_distribution_plot_path = os.path.join("/var/www/html/report_backend/system_files/box/tmp/un7z", data["sample"]["json_batch_name"], data["qc"]["dna_data_qc"]["depth_distribution_plot"])
+				data["depth_distribution_plot"] = InlineImage(tpl, depth_distribution_plot_path, width=Mm(100)) if os.path.exists(depth_distribution_plot_path) else ""
+			# 2026.09.16-添加完成
 		print ("填充数据生成完毕！", datetime.datetime.now())
 		print ("开始填充报告：", datetime.datetime.now())
 		# 拼接模板-20221216

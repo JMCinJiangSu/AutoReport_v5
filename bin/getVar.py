@@ -40,7 +40,9 @@ from libs.specialRequest import PAN116_LYZL_summary
 # 2026.02.04-新增胃癌分型-氨基酸三字母
 from libs.processTheGA_type import process_ga_type_abbr
 # 2026.02.04-新增结束
-
+# 2026.06.12-新增浙江人民MP药物获批信息-参考浙肿
+from libs.rule import ZJZL_somatic_var_class
+# 2026.06.12-新增完成
 '''
 Discription 
 	
@@ -135,13 +137,28 @@ def getVar(jsonDict, config, report_name):
 	### 变异排序
 	# 新增浙江肿瘤Master的变异排序，送检单位：浙江省肿瘤医院，产品：Master，业务类型：进院
 	# 排序规则：按胚系/体细胞、I/II/肿瘤发生发展相关/III类、相同等级按治疗方案最高等级、snvindel>sv>cnv、频率降
-	if re.search("浙江省肿瘤医院", jsonDict["sample_info"]["company"]) and re.search("Master|3231基因", jsonDict["sample_info"]["prod_names"]) and jsonDict["sample_info"]["report_module_type"] == "hospital":
+	# 2026.06.12-更新为院内最新规则，并且增加浙江人民
+	#if re.search("浙江省肿瘤医院", jsonDict["sample_info"]["company"]) and re.search("Master|3231基因", jsonDict["sample_info"]["prod_names"]) and jsonDict["sample_info"]["report_module_type"] == "hospital":
+	#	var_origin_rule = {"somatic" : 0, "germline" : 1}
+	#	top_level_rule = {"A" : 0, "B" : 1, "C" : 2, "D" : 3, "N" : 4}
+	#	var_type_rule = {"Snvindel" : 0, "Sv" : 1, "PSeqRnaSv" : 2, "Cnv" : 3}
+	#	var_data_without_rnasv = sorted(snvindel + cnv + sv_combination, key=lambda i : (var_origin_rule.get(i["var_origin"], 0), top_level_rule.get(i["top_level"]), var_type_rule.get(i["bio_category"])))
+	#	var_data_rna_sv = sorted(rna_sv, key=lambda i : (var_origin_rule.get(i["var_origin"], 0), top_level_rule.get(i["top_level"]), var_type_rule.get(i["bio_category"])))
+	#	var_data =  sorted(snvindel + cnv + sv_combination + rna_sv_only, key=lambda i : (var_origin_rule.get(i["var_origin"], 0), top_level_rule.get(i["top_level"]), var_type_rule.get(i["bio_category"])))
+	# 2026.09.01-浙江人民增加进院
+	if re.search("Master|3231基因", jsonDict["sample_info"]["prod_names"]) and \
+	   ((re.search("浙江省肿瘤医院", jsonDict["sample_info"]["company"]) and jsonDict["sample_info"]["report_module_type"] == "hospital") or \
+	   (re.search("浙江省人民医院-JY", jsonDict["sample_info"]["origin_company"]) and jsonDict["sample_info"]["report_module_type"] != "hospital") or \
+	   (re.search("浙江省人民医院", jsonDict["sample_info"]["company"]) and jsonDict["sample_info"]["report_module_type"] == "hospital")):
 		var_origin_rule = {"somatic" : 0, "germline" : 1}
 		top_level_rule = {"A" : 0, "B" : 1, "C" : 2, "D" : 3, "N" : 4}
-		var_type_rule = {"Snvindel" : 0, "Sv" : 1, "PSeqRnaSv" : 2, "Cnv" : 3}
-		var_data_without_rnasv = sorted(snvindel + cnv + sv_combination, key=lambda i : (var_origin_rule.get(i["var_origin"], 0), top_level_rule.get(i["top_level"]), var_type_rule.get(i["bio_category"])))
-		var_data_rna_sv = sorted(rna_sv, key=lambda i : (var_origin_rule.get(i["var_origin"], 0), top_level_rule.get(i["top_level"]), var_type_rule.get(i["bio_category"])))
-		var_data =  sorted(snvindel + cnv + sv_combination + rna_sv_only, key=lambda i : (var_origin_rule.get(i["var_origin"], 0), top_level_rule.get(i["top_level"]), var_type_rule.get(i["bio_category"])))
+		var_type_rule = {"Snvindel" : 0, "Sv" : 1, "PSeqRnaSv" : 2, "Cnv" : 3, "PHd" : 4}
+		clinic_num_s_rule = {5 : 0, 4 : 1, 3 : 2, 2 : 3, 1 : 4}
+		var_data_without_rnasv = sorted(snvindel + cnv + hd + sv_combination, key=lambda i : (var_origin_rule.get(i["var_origin"], 0), top_level_rule.get(i["top_level"]), clinic_num_s_rule.get(i["clinic_num_s"]), var_type_rule.get(i["bio_category"])))
+		var_data_rna_sv = sorted(rna_sv, key=lambda i : (var_origin_rule.get(i["var_origin"], 0), top_level_rule.get(i["top_level"]), clinic_num_s_rule.get(i["clinic_num_s"]), var_type_rule.get(i["bio_category"])))
+		var_data =  sorted(snvindel + cnv + hd + sv_combination + rna_sv_only, key=lambda i : (var_origin_rule.get(i["var_origin"], 0), top_level_rule.get(i["top_level"]), clinic_num_s_rule.get(i["clinic_num_s"]), var_type_rule.get(i["bio_category"])))
+
+	# 2026.06.12-更新完成
 	
 	# 其他模板都按下面的排序规则
 	else:
@@ -186,6 +203,16 @@ def getVar(jsonDict, config, report_name):
 	data["var_somatic_without_rnasv"] = s_var_rule(var_data_without_rnasv)
 	data["var_somatic_rna_sv"] = s_var_rule(var_data_rna_sv)
 	data["var_somatic"] = s_var_rule(var_data)
+
+	# 2026.06.12-新增浙江人民（参考浙肿）体细胞区分用药、预后和诊断
+	# 2026.09.01-新增进院
+	if (jsonDict["sample_info"]["origin_company"] == "浙江省人民医院-JY" and jsonDict["sample_info"]["prod_names"] in ["Master Panel（组织）"] and jsonDict["sample_info"]["report_module_type"] == "rummage") or (jsonDict["sample_info"]["company"] == "浙江省人民医院" and jsonDict["sample_info"]["prod_names"] in ["Master Panel（组织）"] and jsonDict["sample_info"]["report_module_type"] == "hospital"):
+		data["ZJZL_somatic_var_class"] = ZJZL_somatic_var_class(data["var_somatic"]["level_I"], data["var_somatic"]["level_II"])
+		data["ZJZL_somatic_predictive_I"] = [var for var in var_data if var["evi_sum"]["zjzl_evi_type_class"]["Predictive"] == 5 \
+									  	 and "var_origin" in var.keys() and var["var_origin"] != "germline"]
+		data["ZJZL_somatic_predictive_II"] = [var for var in var_data if var["evi_sum"]["zjzl_evi_type_class"]["Predictive"] == 4 \
+									   	  and "var_origin" in var.keys() and var["var_origin"] != "germline"]
+	# 2026.06.12-新增完成
 
 	# 胚系结果整理
 	#data["var_germline"] = {**g_var_rule(var_data), **g_var_regimen_rule(var_data)}
@@ -254,7 +281,9 @@ def getVar(jsonDict, config, report_name):
 	# 伴随诊断检测结果
 	# 更新为兼容MLPA/CNV，并且等级改为动态的版本-2025.01.15
 	#data["cdx"] = getNCCN_detect(var_data, jsonDict["sample_info"]["tumor_list"], data["mlpa"], config)
-	data["cdx"] = getNCCN_detect(var_data, jsonDict["sample_info"]["tumor_list"], data["mlpa"], config, data["mlpa_v2"], data["gcnv_v2"])
+	# jsonDict["sample_info"]["tumor_list"] 改为输入jsonDict["sample_info"]-2026.06.16
+	#data["cdx"] = getNCCN_detect(var_data, jsonDict["sample_info"]["tumor_list"], data["mlpa"], config, data["mlpa_v2"], data["gcnv_v2"])
+	data["cdx"] = getNCCN_detect(var_data, jsonDict["sample_info"], data["mlpa"], config, data["mlpa_v2"], data["gcnv_v2"])
 	# 2025.01.15-更新完成
 
 	# 检测结果列表
@@ -406,6 +435,8 @@ def getVar(jsonDict, config, report_name):
 	# 19. 华东医院116/76基因
 	data['special']['PAN116_FDHD_sum'] = {}
 	data['special']['PAN116_FDHD_sum'] = PAN116_FDHD_summary(data["var_somatic"]["level_I"], data["var_somatic"]["level_II"],data["var_somatic"]["level_III"],data["var_somatic"]["level_onco_nodrug"])
+
+	# 2026.06.12-新增完成
 	# BCL2L11基因2号内含子胚系缺失多态性检测结果 
 	data["BCL2L11"] = ""
 	for var in jsonDict["snvindel"]:

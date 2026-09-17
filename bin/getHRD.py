@@ -3,6 +3,7 @@ import copy
 from libs import listResultToDict
 from libs.getEvi import varRegimen
 from datetime import datetime
+import re
 
 '''
 Discription
@@ -23,6 +24,7 @@ def getHRD(jsonDict, BRCA_data, config):
 		# hrd治疗方案汇总
 		# 2025.07.02-增加refer_agency和evidence_level
 		# 2025.08.01-增加日期
+		# 2026.07.03-日期可能返回为年月日 时分秒，仅取时分秒
 		regimen_sum = [
 			{
 			"regimen_name":i["regimen_name"], 
@@ -32,7 +34,8 @@ def getHRD(jsonDict, BRCA_data, config):
 			"regimen_name_py":i["regimen_name_py"],
 			"refer_agency":i["refer_agency"] if "refer_agency" in i.keys() and i["refer_agency"] else "",
 			"evidence_level":i["evidence_level"] if "evidence_level" in i.keys() and i["evidence_level"] else "",
-			"publish_time":i["publish_time"] if "publish_time" in i.keys() and i["publish_time"] else "1900-01-01"
+			#"publish_time":i["publish_time"] if "publish_time" in i.keys() and i["publish_time"] else "1900-01-01"
+			"publish_time":re.split(" ", i["publish_time"])[0] if "publish_time" in i.keys() and i["publish_time"] else "1900-01-01"
 			} 
 			for i in hrd_dict["evi_sum"]["regimen_evi_sum"] if i["evidence_type"] in ["Diagnostic","Predictive","Prognostic"]]
 		# BRCA治疗方案汇总
@@ -40,6 +43,7 @@ def getHRD(jsonDict, BRCA_data, config):
 		# 2025.08.01-增加日期
 		if BRCA_data:
 			for var in BRCA_data:
+				# 2026.07.03-日期可能返回为年月日 时分秒，仅取时分秒
 				regimen_sum += [
 					{
 						"regimen_name":i["regimen_name"], 
@@ -49,7 +53,8 @@ def getHRD(jsonDict, BRCA_data, config):
 						"regimen_name_py":i["regimen_name_py"],
 						"refer_agency":i["refer_agency"] if "refer_agency" in i.keys() and i["refer_agency"] else "",
 						"evidence_level":i["evidence_level"] if "evidence_level" in i.keys() and i["evidence_level"] else "",
-						"publish_time":i["publish_time"] if "publish_time" in i.keys() and i["publish_time"] else "1900-01-01"
+						#"publish_time":i["publish_time"] if "publish_time" in i.keys() and i["publish_time"] else "1900-01-01",
+						"publish_time":re.split(" ", i["publish_time"])[0] if "publish_time" in i.keys() and i["publish_time"] else "1900-01-01"
 						} for i in var["evi_sum"]["regimen_evi_sum"] if i["evidence_type"] in ["Diagnostic","Predictive","Prognostic"]]
 		# hrd + BRCA治疗方案去重、排序
 

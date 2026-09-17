@@ -174,6 +174,7 @@ def S_function(var):
 	clinic_num_s =  5 if set(["A", "B"]) & set(regimen_level) else \
 					4 if set(["C", "D", "E"]) & set(regimen_level) else \
 					var["clinic_num_s"]
+
 					
 	top_level = "A" if "A" in regimen_level else \
 				"B" if "B" in regimen_level else \
@@ -221,3 +222,12 @@ def g_var_regimen_noonco_var(var_data):
 # 胚系变异-3类无用药的变异-2024.10.14
 def g_var_noregimen_level3(var_data):
 	return [var for var in var_data if origin(var) == "G" and not judgeRegimen(var) and var["clinic_num_g"] in [3]]
+
+# 2026.06.12-浙江人民（参考浙肿）新增-I/II类变异要拆分用药、预后和诊断相关三类
+def ZJZL_somatic_var_class(somatic_level_I, somatic_level_II):
+	result = {}
+	result["level1_predictive"] = [i for i in somatic_level_I if i["evi_sum"] and "evi_type_list" in i["evi_sum"].keys() and "Predictive" in i["evi_sum"]["evi_type_list"]]
+	result["level2_predictive"] = [i for i in somatic_level_II if i["evi_sum"] and "evi_type_list" in i["evi_sum"].keys() and "Predictive" in i["evi_sum"]["evi_type_list"]]
+	result["level12_prognostic"] = [i for i in somatic_level_I + somatic_level_II if i["evi_sum"] and "evi_type_list" in i["evi_sum"].keys() and "Prognostic" in i["evi_sum"]["evi_type_list"]]
+	result["level12_diagnostic"] = [i for i in somatic_level_I + somatic_level_II if i["evi_sum"] and "evi_type_list" in i["evi_sum"].keys() and "Diagnostic" in i["evi_sum"]["evi_type_list"]]
+	return result

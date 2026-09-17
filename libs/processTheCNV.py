@@ -52,6 +52,9 @@ def process_cnv(jsonDict, config):
 		var["clinic_num_s"], var["top_level"] = S_function(var)
 		# 福建肿瘤：返回变异频率相关信息（来源配置表）和治疗方案汇总
 		var["var_info_forFJZL"], var["var_regimen_forFJZL"] = varInfo_FJZL(var, jsonDict["sample_info"]["tumor_list"], config)
+		# 2026.08.24-var_category_names系统可能会返回null导致报错，没有数据默认为""
+		var["var_category_names"] = var["var_category_names"] if "var_category_names" in var.keys() and var["var_category_names"] else ""
+		# 2026.08.24-更新完成
 	# 按cn_mean排序下
 	cnv = sorted(cnv, key=lambda i:float(i["cn_mean"]), reverse=True)
 

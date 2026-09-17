@@ -85,6 +85,7 @@ def getgss(jsonDict, var_data, config):
 		# hrd治疗方案汇总
 		# 2025.07.02-增加refer_agency和evidence_level
 		# 2025.08.01-增加日期
+		# 2026.07.03-日期可能返回为年月日 时分秒，仅取时分秒
 		regimen_sum = [
 			{
 				"regimen_name":i["regimen_name"], 
@@ -94,7 +95,8 @@ def getgss(jsonDict, var_data, config):
 				"regimen_name_py":i["regimen_name_py"],
 				"refer_agency":i["refer_agency"] if "refer_agency" in i.keys() and i["refer_agency"] else "",
 				"evidence_level":i["evidence_level"] if "evidence_level" in i.keys() and i["evidence_level"] else "",
-				"publish_time":i["publish_time"] if "publish_time" in i.keys() and i["publish_time"] else "1900-01-01"
+				#"publish_time":i["publish_time"] if "publish_time" in i.keys() and i["publish_time"] else "1900-01-01"
+				"publish_time":re.split(" ", i["publish_time"])[0] if "publish_time" in i.keys() and i["publish_time"] else "1900-01-01"
 				} 
 			for i in result["gss"]["evi_sum"]["regimen_evi_sum"]
 			]
@@ -103,6 +105,7 @@ def getgss(jsonDict, var_data, config):
 		# 2025.08.01-增加日期
 		BRCA_data = [var for var in var_data if judge_var(var, ["BRCA1", "BRCA2"])]
 		for var in BRCA_data:
+			# 2026.07.03-日期可能返回为年月日 时分秒，仅取时分秒
 			regimen_sum += [
 				{
 					"regimen_name":i["regimen_name"], 
@@ -112,7 +115,8 @@ def getgss(jsonDict, var_data, config):
 					"regimen_name_py":i["regimen_name_py"],
 					"refer_agency":i["refer_agency"] if "refer_agency" in i.keys() and i["refer_agency"] else "",
 					"evidence_level":i["evidence_level"] if "evidence_level" in i.keys() and i["evidence_level"] else "",
-					"publish_time":i["publish_time"] if "publish_time" in i.keys() and i["publish_time"] else "1900-01-01"
+					#"publish_time":i["publish_time"] if "publish_time" in i.keys() and i["publish_time"] else "1900-01-01"
+					"publish_time":re.split(" ", i["publish_time"])[0] if "publish_time" in i.keys() and i["publish_time"] else "1900-01-01"
 					} 
 				for i in var["evi_sum"]["regimen_evi_sum"]
 				]

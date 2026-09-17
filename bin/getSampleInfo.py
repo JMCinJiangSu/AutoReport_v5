@@ -16,6 +16,17 @@ def getSample(jsonDict):
 	for k, v in data.items():
 		if not v:
 			data[k] = ""
+	# 把时间处理放到前面来
+	# 日期删除具体时间这部分代码注释掉，有些医院要展示具体时间(北京协和BRCA)，有需要删除具体时间的话，由报告系统处理吧-2023.12.19
+	# 现在日期返回格式有的会带具体时间，这边加个兼容处理-刘炜芬-20231025
+	# 2024.03.06-增加blood_date_received和tissue_date_received（药企模板使用）
+	date_key = ["receive_data", "tissue_collection_date", "blood_collection_date", "gather_data", "submission_date", \
+				"application_date", "sampling_time", "analysis_date", "section_date", "blood_date_received", "tissue_date_received"]
+	for key in date_key:
+		if key in data.keys():
+			data[key] = re.split(" ", data[key])[0] if data[key] else ""
+	# 添加完成-20231025
+
 	# 2026.01.30-接收日期更新
 	# LIMS临检订单，接收日期分为组织样本接收日期tissue_date_received和血液样本接收日期blood_date_received 
 	# 单样本产品和血液配对产品，组织项目把tissue_date_received传递给receive_data，血液项目把blood_date_received传递给receive_data（报告模板改动最小）
@@ -129,15 +140,7 @@ def getSample(jsonDict):
 #	data["blood_collection_date"] = data["blood_collection_date"] if "blood_collection_date" in data.keys() and data["blood_collection_date"] else ""
 	data["blood_collection_date"] = re.split(" ", data["blood_collection_date"])[0] if "blood_collection_date" in data.keys() and data["blood_collection_date"] else ""
 
-	# 日期删除具体时间这部分代码注释掉，有些医院要展示具体时间(北京协和BRCA)，有需要删除具体时间的话，由报告系统处理吧-2023.12.19
-	# 现在日期返回格式有的会带具体时间，这边加个兼容处理-刘炜芬-20231025
-	# 2024.03.06-增加blood_date_received和tissue_date_received（药企模板使用）
-	date_key = ["receive_data", "tissue_collection_date", "blood_collection_date", "gather_data", "submission_date", \
-				"application_date", "sampling_time", "analysis_date", "section_date", "blood_date_received", "tissue_date_received"]
-	for key in date_key:
-		if key in data.keys():
-			data[key] = re.split(" ", data[key])[0] if data[key] else ""
-	# 添加完成-20231025
+
 
 	# 新增兼容-组织采集日期，目前大部分模板都是使用	gather_data字段，新增了一个tissue_collection_date-刘炜芬，2023.11.14
 	# 若存在gather_data，则gather_data使用该字段内容，若不存在gather_data，则使用tissue_collection_date
@@ -177,7 +180,9 @@ def getSample(jsonDict):
 	# 2026.04.10-聊城市人民医院改为43基因
 	# 2026.04.16-衡水市第二人民医院改为43基因
 	# 2026.05.20-青岛大学附属医院改为43基因
-	data["cp43_special_company_list"] = ["四川大学华西医院", "德阳市人民医院", "华东医院", "上海交通大学医学院附属新华医院", "吉林大学第二医院", "聊城市人民医院", "衡水市第二人民医院", "青岛大学附属医院"]
+	# 2026.07.17-山东省立医院改为43基因
+	# 2026.08.13-山东大学齐鲁医院改为43基因
+	data["cp43_special_company_list"] = ["四川大学华西医院", "德阳市人民医院", "华东医院", "上海交通大学医学院附属新华医院", "吉林大学第二医院", "聊城市人民医院", "衡水市第二人民医院", "青岛大学附属医院", "山东省立医院", "山东大学齐鲁医院"]
 	# 2025.12.09-增加完成
 
 	# 2026.02.27-协会名称写在这，模板中调用，有修改的话就不用逐份更新了
@@ -190,6 +195,7 @@ def getSample(jsonDict):
 	data["association"]["CGC"] = "癌症基因组学联盟（Cancer Genomics Consortium，CGC）"
 	data["association"]["VICC"] = "癌症变异解读联盟（Variant Interpretation for Cancer Consortium，VICC）"
 	data["association"]["IARC"] = "国际癌症研究所（International Agency of Research on Cancer，IARC）"
+	data["association"]["EMQN"] = "欧洲分子基因诊断质量联盟（European Molecular Genetics Quality Network，EMQN）"
 	data["association"]["AMP_cn"] = "美国分子病理学协会"
 	data["association"]["ASCO_cn"] = "美国临床肿瘤学会"
 	data["association"]["CAP_cn"] = "美国病理学家协会"
@@ -198,6 +204,7 @@ def getSample(jsonDict):
 	data["association"]["CGC_cn"] = "癌症基因组学联盟"
 	data["association"]["VICC_cn"] = "癌症变异解读联盟"
 	data["association"]["IARC_cn"] = "国际癌症研究所"
+	data["association"]["EMQN_cn"] = "欧洲分子基因诊断质量联盟"
 	# 2026.02.28-部分需要带版本的指南也写在这，模板调用
 	data["guideline"] = {}
 	data["guideline"]["germline_var"] = "《遗传变异分类标准与指南》（2015年版）"

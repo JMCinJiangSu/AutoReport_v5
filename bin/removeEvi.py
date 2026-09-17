@@ -67,3 +67,142 @@ def cqxn_remove_CDKN2A_evi(jsonDict):
             if var["gene_symbol"] == "CDKN2A" and "var_category_names" in var.keys() and var["var_category_names"] and "CDKN2A Inactivating Mutation" in var["var_category_names"]:
                 var["evi_sum"] = [evi for evi in var["evi_sum"] if not ("regimen_name" in evi.keys() and evi["regimen_name"] and evi["regimen_name"] == "奥希替尼")]
     return jsonDict
+
+def cqxn_remove_KRAS_prognostic_evi(jsonDict):
+    # 条件如下 #
+    cqxn_prod_list = ["Pan116（组织）"]
+    report_module_type = "hospital"
+    company = "重庆西南医院"
+    # 肺癌KRAS snvindel KRAS Activating Mutation 删除预后证据    
+    if jsonDict["sample_info"]["report_module_type"] == report_module_type and \
+       jsonDict["sample_info"]["prod_names"] in cqxn_prod_list and \
+       jsonDict["sample_info"]["company"] == company:
+        for var in jsonDict["snvindel"]:
+            if var["gene_symbol"] == "KRAS" and "var_category_names" in var.keys() and var["var_category_names"] and "KRAS Activating Mutation" in var["var_category_names"] and \
+                "肺癌" in jsonDict["sample_info"]["tumor_list"]:
+                var["evi_sum"] = [evi for evi in var["evi_sum"] if evi["evidence_type"] != "Prognostic"]
+    return jsonDict
+
+# 中山市人民CP200删除结直肠癌PIK3CA PIK3R1 PTEN中的阿司匹林
+def zsrm_cp200_remove_aspirin(jsonDict):
+    # 条件如下 #
+    zsrm_prod_list = ["OncoPro（组织）", "Classic Panel 200（组织）"]
+    report_module_type = "hospital"
+    company = "中山市人民医院"
+    # 肠癌 PIK3CA Activating Mutation、PIK3R1 Inactivating Mutation、PTEN Inactivating Mutation删除阿司匹林(PTEN 0.1.4流程有HD)
+    if jsonDict["sample_info"]["report_module_type"] == report_module_type and \
+       jsonDict["sample_info"]["prod_names"] in zsrm_prod_list and \
+       jsonDict["sample_info"]["company"] == company:
+        for var in jsonDict["snvindel"] + jsonDict["hd"]:
+            if "结直肠癌" in jsonDict["sample_info"]["tumor_list"] and \
+                "var_category_names" in var.keys() and var["var_category_names"] and (\
+                (var["gene_symbol"] == "PIK3CA" and "PIK3CA Activating Mutation" in var["var_category_names"]) or \
+                (var["gene_symbol"] == "PIK3R1" and "PIK3R1 Inactivating Mutation" in var["var_category_names"]) or \
+                (var["gene_symbol"] == "PTEN" and "PTEN Inactivating Mutation" in var["var_category_names"])
+                ):
+                var["evi_sum"] = [evi for evi in var["evi_sum"] if not ("regimen_name" in evi.keys() and evi["regimen_name"] and evi["regimen_name"] == "阿司匹林")]
+    return jsonDict
+
+# 广东医科附属CP200/116/HRR删除PIK3CA PIK3R1 PTEN中的阿司匹林（不限癌种）
+def gdykfs_remove_aspirin(jsonDict):
+    # 条件如下 #
+    gdykfs_prod_list = ["OncoPro（组织）", "Classic Panel 200（组织）", "Pan116（血液）", "Pan116（组织）", "HRR（全血）", "HRR（组织）", "HRR（组织 全血）"]
+    report_module_type = "hospital"
+    company = "广东医科大学附属医院"
+    # PIK3CA Activating Mutation、PIK3R1 Inactivating Mutation、PTEN Inactivating Mutation删除阿司匹林(PTEN 0.1.4流程有HD)
+    if jsonDict["sample_info"]["report_module_type"] == report_module_type and \
+       jsonDict["sample_info"]["prod_names"] in gdykfs_prod_list and \
+       jsonDict["sample_info"]["company"] == company:
+        for var in jsonDict["snvindel"] + jsonDict["hd"]:
+            if "var_category_names" in var.keys() and var["var_category_names"] and (\
+                (var["gene_symbol"] == "PIK3CA" and "PIK3CA Activating Mutation" in var["var_category_names"]) or \
+                (var["gene_symbol"] == "PIK3R1" and "PIK3R1 Inactivating Mutation" in var["var_category_names"]) or \
+                (var["gene_symbol"] == "PTEN" and "PTEN Inactivating Mutation" in var["var_category_names"])
+                ):
+                var["evi_sum"] = [evi for evi in var["evi_sum"] if not ("regimen_name" in evi.keys() and evi["regimen_name"] and evi["regimen_name"] == "阿司匹林")]
+    return jsonDict
+
+# 2026.06.30-武汉同济MP，不存在EGFR敏感突变时，KRAS不展示EGFR-TKIs耐药证据
+def tj_mp_remove_KRAS_egfrtiks(jsonDict):
+    # 条件如下 #
+    tj_mp_prod_list = ["Master Panel（组织）"]
+    report_module_type = "hospital"
+    company = "华中科技大学同济医学院附属同济医院"
+    # 判定是否存在EGFR敏感突变
+    judge_egfr_var = False
+    for var in jsonDict["snvindel"]:
+        if ("var_category_names" in var.keys() and var["var_category_names"] and "EGFR Exon19 del" in var["var_category_names"]) or \
+            var["hgvs_p"] in ["p.L858R", "p.L861Q", "p.S768I"] or \
+            "G719" in var["hgvs_p"]:
+            judge_egfr_var = True
+            break
+
+    if jsonDict["sample_info"]["report_module_type"] == report_module_type and \
+       jsonDict["sample_info"]["prod_names"] in tj_mp_prod_list and \
+       jsonDict["sample_info"]["company"] == company and not judge_egfr_var:
+        for var in jsonDict["snvindel"]:
+            if var["gene_symbol"] == "KRAS":
+                var["evi_sum"] = [evi for evi in var["evi_sum"] if not ("regimen_name" in evi.keys() and evi["regimen_name"] and evi["regimen_name"] == "EGFR-TKIs")]
+    return jsonDict
+
+# 2026.07.03-西安交大一MP不展示MTAP HD变异
+def xajdy_mp_remove_MTAP_HD(jsonDict):
+    # 条件如下 #
+    xajdy_mp_prod_list = ["Master Panel（组织）"]
+    report_module_type = "hospital"
+    company = "西安交通大学第一附属医院"
+    # MTAP HD不展示
+    if jsonDict["sample_info"]["report_module_type"] == report_module_type and \
+       jsonDict["sample_info"]["prod_names"] in xajdy_mp_prod_list and \
+       jsonDict["sample_info"]["company"] == company:
+        jsonDict["hd"] = [var for var in jsonDict["hd"] if var["gene_symbol"] != "MTAP"]
+    return jsonDict
+
+# 2026.07.03-武汉同济MP
+# 1. 用药、诊断、预后最高等级A/B时，删除预后、诊断和用药D证据
+# 2. 用药、诊断、预后最高等级C/D时，删除预后、诊断证据
+# 以上包含snvindel、cnv、sv、rna_sv、hd，其他分子标志物先不考虑
+def whtj_mp_remove_evi(jsonDict):
+     # 条件如下 #
+    tj_mp_prod_list = ["Master Panel（组织）"]
+    report_module_type = "hospital"
+    company = "华中科技大学同济医学院附属同济医院"
+    # I类过滤掉D级用药（辅助诊断和预后后面也是要过滤掉的，所以过滤的时候D级诊断/预后也过滤掉没关系）
+    def filter_d(raw_evi_sum):
+        level_list = [evi["evi_conclusion"][0] for evi in raw_evi_sum if evi["evidence_type"] in ["Predictive", "Prognostic", "Diagnostic"]]
+        if set(["A", "B"]) & set(level_list):
+            return [i for i in raw_evi_sum if i["evi_conclusion"][0] in ["A", "B", "C"]]
+        else:
+            return raw_evi_sum
+    # 过滤掉预后和诊断
+    def filter_dia_pro(raw_evi_sum):
+        return [i for i in raw_evi_sum if i["evidence_type"] == "Predictive"]
+    if jsonDict["sample_info"]["report_module_type"] == report_module_type and \
+       jsonDict["sample_info"]["prod_names"] in tj_mp_prod_list and \
+       jsonDict["sample_info"]["company"] == company:
+        for var in jsonDict["snvindel"]:
+            var["evi_sum"] = filter_dia_pro(filter_d(var["evi_sum"]))
+        for var in jsonDict["cnv"]:
+            var["evi_sum"] = filter_dia_pro(filter_d(var["evi_sum"]))
+        for var in jsonDict["sv"]:
+            var["evi_sum"] = filter_dia_pro(filter_d(var["evi_sum"]))
+        for var in jsonDict["rna_sv"]:
+            var["evi_sum"] = filter_dia_pro(filter_d(var["evi_sum"]))
+        for var in jsonDict["hd"]:
+            var["evi_sum"] = filter_dia_pro(filter_d(var["evi_sum"]))
+    return jsonDict
+
+# 2026.09.03-中山人民CP200、tHRR肺癌时删除KRAS预后证据
+def zsrm_remove_KRAS_prognostic_evi(jsonDict):
+    # 条件如下 #
+    zsrm_prod_list = ["OncoPro（组织）", "Classic Panel 200（组织）", "HRR（组织）"]
+    report_module_type = "hospital"
+    company = "中山市人民医院"
+    # 肺癌KRAS snvindel KRAS 删除预后证据    
+    if jsonDict["sample_info"]["report_module_type"] == report_module_type and \
+       jsonDict["sample_info"]["prod_names"] in zsrm_prod_list and \
+       jsonDict["sample_info"]["company"] == company:
+        for var in jsonDict["snvindel"]:
+            if var["gene_symbol"] == "KRAS" and "肺癌" in jsonDict["sample_info"]["tumor_list"]:
+                var["evi_sum"] = [evi for evi in var["evi_sum"] if evi["evidence_type"] != "Prognostic"]
+    return jsonDict
