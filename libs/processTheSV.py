@@ -90,7 +90,7 @@ def process_sv(jsonDict, config):
 	# sv合并结果 仅CP40/CRC12要合并，其余项目直接使用sv的数据
 	#sv_combination = combinationSV(sv) if re.search("Classic|CRC12", jsonDict["sample_info"]["prod_names"]) else sv
 	# sv合并结果，新增OncoPro项目，目前仅CP40/CRC12/OncoPro要合并，其余项目直接使用sv数据-2024.07.31
-	sv_combination = combinationSV(sv) if re.search("Classic|CRC12|OncoPro", jsonDict["sample_info"]["prod_names"]) else sv
+	sv_combination = combinationSV(sv) if re.search("Classic|CRC12|OncoPro|10基因", jsonDict["sample_info"]["prod_names"]) else sv
 
 	# rna_sv处理
 	for var in rna_sv:

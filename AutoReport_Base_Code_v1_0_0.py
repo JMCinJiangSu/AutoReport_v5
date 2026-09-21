@@ -58,6 +58,7 @@ from merge_product import sdql_hrd_gbrca
 from merge_product import jdyy_masterdna_rnaseq
 # 2026.07.27-中六CP200 molecular_var返回var_code，需要由报告脚本来转化
 from bin import zsly_replace_molecular_var
+from merge_product import fdzs_mrd
 
 def get_data(json_name, outfile, config, report_template, outjson, image):
 	print ("开始生成填充数据！", datetime.datetime.now())
@@ -93,6 +94,9 @@ def get_data(json_name, outfile, config, report_template, outjson, image):
 			data = xajdy_brcav1_bhd.MergeReport_main(jsonDict["merge_order"]["cnv"]["sample_id_list"], outfile)
 		if set(merge_product) == set(["BRCA1/BRCA2（全血）", "HRD Complete（组织）"]) and merge_sample_info["company"] in ["山东大学齐鲁医院"]:
 			data = sdql_hrd_gbrca.MergeReport_main(jsonDict["merge_order"]["cnv"]["sample_id_list"], outfile)
+		# 假设的项目名称
+		if set(merge_product) == set(["MRD(WES)"]) and merge_sample_info["company"] in ["复旦大学附属中山医院"]:
+			data = fdzs_mrd.get_data(jsonDict, outfile)
 
 		report_name_judge_merge = report_name
 
@@ -671,6 +675,10 @@ def get_data(json_name, outfile, config, report_template, outjson, image):
 	if report_name:
 		path = os.path.join(report_template, "template_main", report_name)
 		tpl = DocxTemplate(path)
+		# 复旦中山 MRD WES
+		snv_table = fdzs_mrd.find_table(tpl, "SNV_Table")
+		fdzs_mrd.fill_table(snv_table, data["table_data"])
+
 		# 图片填充
 		# 2025.09.29-多产品出一份报告的图片在定制代码里加，这边为通用的
 		if not ("merge_order" in jsonDict.keys() and jsonDict["merge_order"] and len(jsonDict["merge_order"]["cnv"]["sample_id_list"]) >= 2 and report_name_judge_merge):
