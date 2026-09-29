@@ -7,13 +7,13 @@ from libs.rule import decimal_float, decimal_percen
 '''
 Discription
 	
-	»ñÈ¡jsonÎÄ¼şÖĞµÄqc£¬×ª»¯Îª±¨¸æÄ£°å·½±ãÌî³äµÄ¸ñÊ½¡£ 
+	è·å–jsonæ–‡ä»¶ä¸­çš„qcï¼Œè½¬åŒ–ä¸ºæŠ¥å‘Šæ¨¡æ¿æ–¹ä¾¿å¡«å……çš„æ ¼å¼ã€‚ 
 
 '''
 
-# Ê¶±ğÊÇ·ñÎªÊıÖµ
-# Õâ±ßÖ®ºó¿ÉÒÔÓÅ»¯£¬¸ÄÓÃÕıÔòÆ¥Åä-2025.04.22
-# ¸¡µãÊı£ºr'^[+-]?(?:\d+\.\d*|\.\d+)$'£¬ÕûÊı£ºr'^[+-]?(?:\d+)$'
+# è¯†åˆ«æ˜¯å¦ä¸ºæ•°å€¼
+# è¿™è¾¹ä¹‹åå¯ä»¥ä¼˜åŒ–ï¼Œæ”¹ç”¨æ­£åˆ™åŒ¹é…-2025.04.22
+# æµ®ç‚¹æ•°ï¼šr'^[+-]?(?:\d+\.\d*|\.\d+)$'ï¼Œæ•´æ•°ï¼šr'^[+-]?(?:\d+)$'
 def is_number(i):
 	try:
 		float(i)
@@ -24,10 +24,10 @@ def is_number(i):
 		return True
 	return False
 
-# ÓÃÓÚÅĞ¶Ï²âĞòÒÇ£¬Miseq/NextSeq¡¢»ª´ó-2023.07.03
-# ¹æÔò£º1£©ÎåÎ»ÊıµÄÎªMiseq£»2£©S¿ªÍ·µÄÎª»ª´ó²âĞòÒÇ£»3£©A¿ªÍ·µÄÎªCN500
-# ¹æÔò¸üĞÂ£ºÍâ²¿²âĞòµÄ±àºÅ¿ÉÄÜ»áÌî³É¡°SJMXXX¡±£¬ÊôÓÚCN500£¬³ÌĞò»áÅĞ¶¨Îª»ª´ó£¬Õâ±ß¼Ó¸öÅĞ¶¨-2023.11.01
-# ¿ªÍ·ÎªS+Ò»¸öÊı×ÖµÄÅĞ¶¨Îª»ª´ó£¬ÆäËû·µ»Ø"huada/cn500"£¬±ê¸öÑÕÉ«
+# ç”¨äºåˆ¤æ–­æµ‹åºä»ªï¼ŒMiseq/NextSeqã€åå¤§-2023.07.03
+# è§„åˆ™ï¼š1ï¼‰äº”ä½æ•°çš„ä¸ºMiseqï¼›2ï¼‰Så¼€å¤´çš„ä¸ºåå¤§æµ‹åºä»ªï¼›3ï¼‰Aå¼€å¤´çš„ä¸ºCN500
+# è§„åˆ™æ›´æ–°ï¼šå¤–éƒ¨æµ‹åºçš„ç¼–å·å¯èƒ½ä¼šå¡«æˆâ€œSJMXXXâ€ï¼Œå±äºCN500ï¼Œç¨‹åºä¼šåˆ¤å®šä¸ºåå¤§ï¼Œè¿™è¾¹åŠ ä¸ªåˆ¤å®š-2023.11.01
+# å¼€å¤´ä¸ºS+ä¸€ä¸ªæ•°å­—çš„åˆ¤å®šä¸ºåå¤§ï¼Œå…¶ä»–è¿”å›"huada/cn500"ï¼Œæ ‡ä¸ªé¢œè‰²
 def judge_Sequencer(flowcell_lane):
 	flowcell = re.split("_", str(flowcell_lane))[0] if flowcell_lane else ""
 	if len(flowcell) == 5:
@@ -48,11 +48,11 @@ def QCStran_dict(qcDict):
 	for k, v in qcDict.items():
 		if k != "qc_type" and k not in ["flowcell_lane", "sample_id", "bioinform_ver", "json_batch_name"] and v:
 		#if k != "qc_type" and v:
-			# 2025.04.16-Ôö¼Ó¼æÈİ°Ù·ÖÊı½á¹û
+			# 2025.04.16-å¢åŠ å…¼å®¹ç™¾åˆ†æ•°ç»“æœ
 			#v = float(v.replace("%", ""))/100 if re.search("%", str(v)) and not re.search("tumor_content", k) else float(v) if v and is_number(v) else v
 			v = float(v.replace("%", ""))/100 if re.search("%", str(v)) and not re.search("tumor_content", k) else v
-			# 2025.04.16-¼æÈİÍê³É
-			# 2024.03.06-_numÔö¼Ódv200
+			# 2025.04.16-å…¼å®¹å®Œæˆ
+			# 2024.03.06-_numå¢åŠ dv200
 			QC_result[k+"_num"] = v if re.search("cleandata_size|dv200", k) else float(v) if is_number(v) else v
 			#QC_result[k] = "{:.2%}".format(float(v)) if re.search("q30|q20|ratio|uni20", k) and not re.search("concentration", k) else v if re.search("cleandata_size", k) else "{:.2f}".format(float(v)) if is_number(v) else v
 			QC_result[k] = decimal_percen(v) if re.search("q30|q20|ratio|uni20", k) and not re.search("concentration|registration_certificate", k) else \
@@ -63,10 +63,10 @@ def QCStran_dict(qcDict):
 		else:
 			QC_result[k+"_num"] = 0
 			QC_result[k] = v
-		# ĞÂÔö²âĞòÒÇ×Ö¶Î-2023.07.30
+		# æ–°å¢æµ‹åºä»ªå­—æ®µ-2023.07.30
 		if k == "flowcell_lane":
 			QC_result["Sequencer"] = judge_Sequencer(v)
-		# ĞÂÔö½áÊø-2023.07.03
+		# æ–°å¢ç»“æŸ-2023.07.03
 	return QC_result
 
 def QCStran_list(qclist):
@@ -76,57 +76,45 @@ def QCStran_list(qclist):
 		for k, v in i.items():
 			if k != "qc_type" and k not in ["flowcell_lane", "sample_id", "bioinform_ver", "json_batch_name"] and v:
 			#if k != "qc_type" and v:
-				# 2025.04.16-Ôö¼Ó¼æÈİ°Ù·ÖÊı½á¹û
-				#v = float(v.replace("%", ""))/100 if re.search("%", str(v)) and not re.search("tumor_content", k) else float(v) if v and is_number(v) else v
-				v = float(v.replace("%", ""))/100 if re.search("%", str(v)) and not re.search("tumor_content", k) else v
-				# 2025.04.16-¼æÈİÍê³É
-				# 2024.03.06-_numÔö¼Ódv200
-				QC_result[i["qc_type"]][k+"_num"] = v if re.search("cleandata_size|dv200", k) else float(v) if is_number(v) else v
-				#QC_result[i["qc_type"]][k] = "{:.2%}".format(float(v)) if re.search("q30|q20|ratio|uni20", k) and not re.search("concentration", k) else v if re.search("cleandata_size", k) else "{:.2f}".format(float(v)) if is_number(v) else v
-				QC_result[i["qc_type"]][k] = decimal_percen(v) if re.search("q30|q20|ratio|uni20", k) and not re.search("concentration", k) else \
-											 v if re.search("cleandata_size", k) else \
-											 decimal_float(v) if is_number(v) else \
-											 v
+def transform_qc_item(item):
+	if type(item).__name__=="dict":
+		return QCStran_dict(item)
+	else:
+		if len(item)==1:
+			return QCStran_dict(item[0])
+		elif len(item) >= 2:
+			qc_data = reduce(lambda x, y:x if y in x else x + [y], [[],]+item)
+			if len(qc_data) ==1:
+				return QCStran_dict(qc_data[0])
 			else:
-				QC_result[i["qc_type"]][k+"_num"] = 0
-				QC_result[i["qc_type"]][k] = v
-			# ĞÂÔö²âĞòÒÇ×Ö¶Î-2023.07.30
-			if k == "flowcell_lane":
-				QC_result["Sequencer"] = judge_Sequencer(v)
-			# ĞÂÔö½áÊø-2023.07.03
-	return QC_result
-	
-# Ö÷º¯Êı
-def getJsonQC(jsonDict):
-	qc = copy.deepcopy(jsonDict["qc"])
-	qc_items = [k for k in qc]
-	data = {}
-	for item in qc_items:
-		# qc_gradientµ¥¶À´¦Àí
-		if item == "qc_gradient" and qc["qc_gradient"]:
-			data["qc_gradient"] = {}
+				return QCStran_list(item)
+	return {}
+
+			data[item] = transform_qc_item(qc[item])
+		lib_data[item] = transform_qc_item(qc_lib[item])
+	return data, lib_data
 			for i in qc["qc_gradient"]:
 				data["qc_gradient"][i["qc_source"]+"_"+i["gradient_num"]] = "{:.2%}".format(float(i["gradient_ratio"])) if i["gradient_ratio"] else ""
 		else:
-			# ÈôÖÊ¿ØÄÚÈİÖ»ÓĞÒ»¸öÇÒÎª×Öµä¸ñÊ½Ê±£¬Ê¹ÓÃ¸Ã×ª»»·½Ê½
+			# è‹¥è´¨æ§å†…å®¹åªæœ‰ä¸€ä¸ªä¸”ä¸ºå­—å…¸æ ¼å¼æ—¶ï¼Œä½¿ç”¨è¯¥è½¬æ¢æ–¹å¼
 			if type(qc[item]).__name__=="dict":
 				data[item] = QCStran_dict(qc[item])
-			# ÈôÖÊ¿ØÄÚÈİÎªÁĞ±í
+			# è‹¥è´¨æ§å†…å®¹ä¸ºåˆ—è¡¨
 			else:
-				# ÁĞ±í³¤¶ÈÎª1Ê±£¬×ª»¯Îª×Ö¶Î£¬Ê¹ÓÃ×ÖµäµÄ×ª»»·½Ê½
+				# åˆ—è¡¨é•¿åº¦ä¸º1æ—¶ï¼Œè½¬åŒ–ä¸ºå­—æ®µï¼Œä½¿ç”¨å­—å…¸çš„è½¬æ¢æ–¹å¼
 				if len(qc[item])==1:
 					data[item] = QCStran_dict(qc[item][0])
-				# ÁĞ±íÖĞº¬ÓĞ¶à¸öÔªËØÊ±£¬Ê¹ÓÃÁĞ±íµÄ×ª»»·½Ê½
+				# åˆ—è¡¨ä¸­å«æœ‰å¤šä¸ªå…ƒç´ æ—¶ï¼Œä½¿ç”¨åˆ—è¡¨çš„è½¬æ¢æ–¹å¼
 				elif len(qc[item]) >= 2:
-					# ÏÈ½øĞĞÈ¥ÖØ£¬·ÀÖ¹³öÏÖÖØ¸´µÄÖÊ¿ØÊı¾İµ¼ÖÂ±¨´í
+					# å…ˆè¿›è¡Œå»é‡ï¼Œé˜²æ­¢å‡ºç°é‡å¤çš„è´¨æ§æ•°æ®å¯¼è‡´æŠ¥é”™
 					qc_data = reduce(lambda x, y:x if y in x else x + [y], [[],]+qc[item])
-					# È¥ÖØºó»¹±¨´íµÄÔ­Òò¿ÉÄÜÊÇÊı¾İÉóºËÊ±Ã»ÓĞ°ÑÎŞ¹ØÊı¾İFµô£¡£¡
+					# å»é‡åè¿˜æŠ¥é”™çš„åŸå› å¯èƒ½æ˜¯æ•°æ®å®¡æ ¸æ—¶æ²¡æœ‰æŠŠæ— å…³æ•°æ®Fæ‰ï¼ï¼
 					if len(qc_data) ==1:
 						data[item] = QCStran_dict(qc_data[0])
 					else:
 						data[item] = QCStran_list(qc[item])
 	
-	# ĞÂÔöÊªÊµÑéÖÊ¿Ø-2022.08.10
+	# æ–°å¢æ¹¿å®éªŒè´¨æ§-2022.08.10
 	qc_lib = copy.deepcopy(jsonDict["lib_quality_control"]) if "lib_quality_control" in jsonDict.keys() and jsonDict["lib_quality_control"] else {}
 	qc_lib_items = [k for k in qc_lib]
 	lib_data = {}
