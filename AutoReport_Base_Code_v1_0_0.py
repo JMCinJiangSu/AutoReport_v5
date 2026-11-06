@@ -676,8 +676,8 @@ def get_data(json_name, outfile, config, report_template, outjson, image):
 		path = os.path.join(report_template, "template_main", report_name)
 		tpl = DocxTemplate(path)
 		# 复旦中山 MRD WES
-		snv_table = fdzs_mrd.find_table(tpl, "SNV_Table")
-		fdzs_mrd.fill_table(snv_table, data["table_data"])
+		#snv_table = fdzs_mrd.find_table(tpl, "SNV_Table")
+		#fdzs_mrd.fill_table(snv_table, data["table_data"])
 
 		# 图片填充
 		# 2025.09.29-多产品出一份报告的图片在定制代码里加，这边为通用的

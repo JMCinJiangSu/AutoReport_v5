@@ -12,8 +12,7 @@ def get_data(jsonDict, outfile, report_name, config):
     data = {}
     data["mrd"] = getMRD.getMRD(jsonDict, outfile)
     data["sample"] = getSampleInfo.getSample(jsonDict)
-    data["qc"] = getQC.getJsonQC(jsonDict)[0]
-    data["lib_quality_control"] = getQC.getJsonQC(jsonDict)[1]
+    data["qc"], data["lib_quality_control"] = getQC.getJsonQC(jsonDict)
     data["refer"] = {}
     data["refer"]["fixed"] = getRefence.getfixed_refer(report_name, data["sample"]["tumor_list"], data["var"]["knb"], data["msi"], config)
     data["refer"]["dynamic"] = getRefence.getdynamic_refer(jsonDict, data["var"], data["msi"], data["hrd"], data["var_brca"])

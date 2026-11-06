@@ -16880,3 +16880,13 @@ def fdhd_ugt1a1(PGx_analysis_result):
 	# 报告需要展示基因型、纯合/杂合、星等位基因、代谢类型
 	return result
 jinja2.filters.FILTERS["fdhd_ugt1a1"] = fdhd_ugt1a1
+
+# 复旦中山10基因的CNV，针对MET 5-6报拷贝数增加，≥6报扩增
+def fdzs_lc10_cnv_stran(var):
+	if var['gene_symbol'] in ['MET']:
+		if 'cn_mean' in var.keys() and var['cn_mean']:
+			if float(var['cn_mean']) >= 6:
+				return "扩增"
+			elif float(var['cn_mean']) >= 5 and float(var['cn_mean']) < 6:
+				return "拷贝数增加"
+jinja2.filters.FILTERS["fdzs_lc10_cnv_stran"] = fdzs_lc10_cnv_stran
